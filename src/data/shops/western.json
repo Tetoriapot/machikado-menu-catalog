@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "western",
+    "label": "洋食屋",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "western-1",
+      "name": "洋食 ヒバリ坂",
+      "category": "western",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "チェックのクロスが並ぶ街の洋食店。デミグラスの鍋を継ぎ足しながら、定番を作り続ける。",
+      "openingHours": "11:30〜21:00",
+      "menuSections": [
+        {
+          "id": "western-1-section-1",
+          "title": "洋食",
+          "items": [
+            {
+              "id": "western-1-item-1",
+              "name": "デミグラスハンバーグ",
+              "price": 1250,
+              "description": "肉汁を閉じ込めた手ごねハンバーグ。",
+              "recommended": true
+            },
+            {
+              "id": "western-1-item-2",
+              "name": "ふわとろオムライス",
+              "price": 1100,
+              "description": "柔らかな卵とケチャップライス。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-3",
+              "name": "海老フライ",
+              "price": 1480,
+              "description": "大きな海老二尾に自家製タルタル。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-4",
+              "name": "ビーフシチュー",
+              "price": 1880,
+              "description": "赤ワインで牛肉を柔らかく煮込んで。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-5",
+              "name": "カニクリームコロッケ",
+              "price": 1280,
+              "description": "なめらかなベシャメルの揚げたてコロッケ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "western-1-section-2",
+          "title": "サイド",
+          "items": [
+            {
+              "id": "western-1-item-6",
+              "name": "コーンスープ",
+              "price": 420,
+              "description": "とうもろこしの甘みが広がるポタージュ。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-7",
+              "name": "グリーンサラダ",
+              "price": 480,
+              "description": "季節の葉野菜を自家製ドレッシングで。",
+              "recommended": true
+            },
+            {
+              "id": "western-1-item-8",
+              "name": "ライス",
+              "price": 220,
+              "description": "お皿に盛った白ご飯。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-9",
+              "name": "バゲット",
+              "price": 280,
+              "description": "スープをぬぐうのにもぴったり。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-10",
+              "name": "ポテトグラタン",
+              "price": 680,
+              "description": "薄切りじゃがいものクリーム焼き。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "western-1-section-3",
+          "title": "デザート・飲料",
+          "items": [
+            {
+              "id": "western-1-item-11",
+              "name": "焼きプリン",
+              "price": 450,
+              "description": "卵をしっかり感じる懐かしい味。",
+              "recommended": true
+            },
+            {
+              "id": "western-1-item-12",
+              "name": "バニラアイス",
+              "price": 350,
+              "description": "小さな銀の器で提供。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-13",
+              "name": "コーヒー",
+              "price": 380,
+              "description": "食後に合う深煎り。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-14",
+              "name": "紅茶",
+              "price": 380,
+              "description": "レモンかミルクを選べる一杯。",
+              "recommended": false
+            },
+            {
+              "id": "western-1-item-15",
+              "name": "グラスワイン",
+              "price": 580,
+              "description": "赤または白のハウスワイン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "western-2",
+      "name": "キッチン 銀の匙路",
+      "category": "western",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古い写真が飾られた家族経営の洋食屋。出来たての揚げ物と熱いスープが自慢。",
+      "openingHours": "11:30〜21:00",
+      "menuSections": [
+        {
+          "id": "western-2-section-1",
+          "title": "洋食",
+          "items": [
+            {
+              "id": "western-2-item-1",
+              "name": "ポークジンジャー",
+              "price": 1520,
+              "description": "厚切り豚肉に生姜のソース。",
+              "recommended": true
+            },
+            {
+              "id": "western-2-item-2",
+              "name": "ふわとろオムライス",
+              "price": 1210,
+              "description": "柔らかな卵とケチャップライス。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-3",
+              "name": "海老フライ",
+              "price": 1630,
+              "description": "大きな海老二尾に自家製タルタル。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-4",
+              "name": "ビーフシチュー",
+              "price": 2070,
+              "description": "赤ワインで牛肉を柔らかく煮込んで。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-5",
+              "name": "カニクリームコロッケ",
+              "price": 1410,
+              "description": "なめらかなベシャメルの揚げたてコロッケ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "western-2-section-2",
+          "title": "サイド",
+          "items": [
+            {
+              "id": "western-2-item-6",
+              "name": "コーンスープ",
+              "price": 460,
+              "description": "とうもろこしの甘みが広がるポタージュ。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-7",
+              "name": "グリーンサラダ",
+              "price": 530,
+              "description": "季節の葉野菜を自家製ドレッシングで。",
+              "recommended": true
+            },
+            {
+              "id": "western-2-item-8",
+              "name": "ライス",
+              "price": 240,
+              "description": "お皿に盛った白ご飯。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-9",
+              "name": "バゲット",
+              "price": 310,
+              "description": "スープをぬぐうのにもぴったり。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-10",
+              "name": "ポテトグラタン",
+              "price": 750,
+              "description": "薄切りじゃがいものクリーム焼き。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "western-2-section-3",
+          "title": "デザート・飲料",
+          "items": [
+            {
+              "id": "western-2-item-11",
+              "name": "焼きプリン",
+              "price": 500,
+              "description": "卵をしっかり感じる懐かしい味。",
+              "recommended": true
+            },
+            {
+              "id": "western-2-item-12",
+              "name": "バニラアイス",
+              "price": 390,
+              "description": "小さな銀の器で提供。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-13",
+              "name": "コーヒー",
+              "price": 420,
+              "description": "食後に合う深煎り。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-14",
+              "name": "紅茶",
+              "price": 420,
+              "description": "レモンかミルクを選べる一杯。",
+              "recommended": false
+            },
+            {
+              "id": "western-2-item-15",
+              "name": "グラスワイン",
+              "price": 640,
+              "description": "赤または白のハウスワイン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

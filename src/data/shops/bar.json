@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "bar",
+    "label": "バー",
+    "group": "飲食店",
+    "icon": "wine"
+  },
+  "shops": [
+    {
+      "id": "bar-1",
+      "name": "Bar AFTERGLOW",
+      "category": "bar",
+      "tags": [
+        "夜のひと息",
+        "落ち着いた雰囲気"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "地下へ降りた先の小さなバー。琥珀色の照明と静かな音楽の中で、好みの一杯を探せる。",
+      "openingHours": "19:00〜翌2:00",
+      "menuSections": [
+        {
+          "id": "bar-1-section-1",
+          "title": "COCKTAIL",
+          "items": [
+            {
+              "id": "bar-1-item-1",
+              "name": "ジントニック",
+              "price": 850,
+              "description": "ジンとトニックにライムを添えて。",
+              "recommended": true
+            },
+            {
+              "id": "bar-1-item-2",
+              "name": "モスコミュール",
+              "price": 900,
+              "description": "ウォッカに生姜の風味をきかせて。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-3",
+              "name": "カシスオレンジ",
+              "price": 850,
+              "description": "果実の甘みを楽しむ軽いカクテル。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-4",
+              "name": "季節のフルーツカクテル",
+              "price": 1200,
+              "description": "その日の果実を使った一杯。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-5",
+              "name": "ノンアルコールモヒート",
+              "price": 750,
+              "description": "ミントとライムを炭酸で爽やかに。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bar-1-section-2",
+          "title": "SPIRITS",
+          "items": [
+            {
+              "id": "bar-1-item-6",
+              "name": "ブレンデッドウイスキー",
+              "price": 900,
+              "description": "ロック、水割り、ハイボールから。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-7",
+              "name": "シングルモルト",
+              "price": 1400,
+              "description": "樽の香りを楽しむ一杯。",
+              "recommended": true
+            },
+            {
+              "id": "bar-1-item-8",
+              "name": "ダークラム",
+              "price": 950,
+              "description": "焦がし砂糖を思わせる芳醇なラム。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-9",
+              "name": "グラスワイン",
+              "price": 850,
+              "description": "赤か白を選べるハウスワイン。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-10",
+              "name": "クラフトビール",
+              "price": 980,
+              "description": "瓶で提供する香り豊かなビール。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bar-1-section-3",
+          "title": "SMALL PLATES",
+          "items": [
+            {
+              "id": "bar-1-item-11",
+              "name": "ミックスナッツ",
+              "price": 450,
+              "description": "軽くローストしたナッツ。",
+              "recommended": true
+            },
+            {
+              "id": "bar-1-item-12",
+              "name": "生チョコレート",
+              "price": 650,
+              "description": "お酒と合わせる口溶けのよい甘味。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-13",
+              "name": "チーズ三種",
+              "price": 980,
+              "description": "白カビ、青カビ、ハードタイプの盛り合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-14",
+              "name": "オリーブ",
+              "price": 480,
+              "description": "ハーブ入りオイルに漬けた実。",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-item-15",
+              "name": "席料 一人",
+              "price": 500,
+              "description": "お席の利用料。小さなお通し付き。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar-2",
+      "name": "夜間航路",
+      "category": "bar",
+      "tags": [
+        "夜のひと息",
+        "落ち着いた雰囲気"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古い雑居ビルにある隠れ家のようなバー。木のカウンターに、季節の果実が並んでいる。",
+      "openingHours": "19:00〜翌2:00",
+      "menuSections": [
+        {
+          "id": "bar-2-section-1",
+          "title": "COCKTAIL",
+          "items": [
+            {
+              "id": "bar-2-item-1",
+              "name": "柚子ジンフィズ",
+              "price": 1210,
+              "description": "柚子とジンを炭酸で軽やかに。",
+              "recommended": true
+            },
+            {
+              "id": "bar-2-item-2",
+              "name": "モスコミュール",
+              "price": 990,
+              "description": "ウォッカに生姜の風味をきかせて。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-3",
+              "name": "カシスオレンジ",
+              "price": 940,
+              "description": "果実の甘みを楽しむ軽いカクテル。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-4",
+              "name": "季節のフルーツカクテル",
+              "price": 1320,
+              "description": "その日の果実を使った一杯。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-5",
+              "name": "ノンアルコールモヒート",
+              "price": 830,
+              "description": "ミントとライムを炭酸で爽やかに。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bar-2-section-2",
+          "title": "SPIRITS",
+          "items": [
+            {
+              "id": "bar-2-item-6",
+              "name": "ブレンデッドウイスキー",
+              "price": 990,
+              "description": "ロック、水割り、ハイボールから。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-7",
+              "name": "シングルモルト",
+              "price": 1540,
+              "description": "樽の香りを楽しむ一杯。",
+              "recommended": true
+            },
+            {
+              "id": "bar-2-item-8",
+              "name": "ダークラム",
+              "price": 1050,
+              "description": "焦がし砂糖を思わせる芳醇なラム。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-9",
+              "name": "グラスワイン",
+              "price": 940,
+              "description": "赤か白を選べるハウスワイン。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-10",
+              "name": "クラフトビール",
+              "price": 1080,
+              "description": "瓶で提供する香り豊かなビール。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bar-2-section-3",
+          "title": "SMALL PLATES",
+          "items": [
+            {
+              "id": "bar-2-item-11",
+              "name": "ミックスナッツ",
+              "price": 500,
+              "description": "軽くローストしたナッツ。",
+              "recommended": true
+            },
+            {
+              "id": "bar-2-item-12",
+              "name": "生チョコレート",
+              "price": 720,
+              "description": "お酒と合わせる口溶けのよい甘味。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-13",
+              "name": "チーズ三種",
+              "price": 1080,
+              "description": "白カビ、青カビ、ハードタイプの盛り合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-14",
+              "name": "オリーブ",
+              "price": 530,
+              "description": "ハーブ入りオイルに漬けた実。",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-item-15",
+              "name": "席料 一人",
+              "price": 550,
+              "description": "お席の利用料。小さなお通し付き。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

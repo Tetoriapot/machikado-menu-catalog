@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "food-truck",
+    "label": "キッチンカー",
+    "group": "テイクアウト",
+    "icon": "truck"
+  },
+  "shops": [
+    {
+      "id": "food-truck-1",
+      "name": "移動キッチン 風の匙",
+      "category": "food-truck",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "オフィス街の広場にやってくるキッチンカー。昼休みには色鮮やかなランチボックスが並ぶ。",
+      "openingHours": "11:00〜15:00（出店日）",
+      "menuSections": [
+        {
+          "id": "food-truck-1-section-1",
+          "title": "ランチボックス",
+          "items": [
+            {
+              "id": "food-truck-1-item-1",
+              "name": "タコライス",
+              "price": 850,
+              "description": "挽肉、野菜、チーズを彩りよく。",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-1-item-2",
+              "name": "チキンオーバーライス",
+              "price": 900,
+              "description": "スパイスチキンとヨーグルトソース。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-3",
+              "name": "ガパオ風ライス",
+              "price": 880,
+              "description": "バジル炒めの挽肉と目玉焼き。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-4",
+              "name": "ローストポーク丼",
+              "price": 980,
+              "description": "薄切り豚肉に香味だれ。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-5",
+              "name": "野菜デリボックス",
+              "price": 850,
+              "description": "豆と季節野菜を盛ったご飯。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "food-truck-1-section-2",
+          "title": "サイド",
+          "items": [
+            {
+              "id": "food-truck-1-item-6",
+              "name": "スパイスポテト",
+              "price": 350,
+              "description": "香辛料をきかせたポテト。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-7",
+              "name": "コールスロー",
+              "price": 250,
+              "description": "さっぱりしたキャベツのサラダ。",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-1-item-8",
+              "name": "日替わりスープ",
+              "price": 300,
+              "description": "その日の野菜を煮込んだスープ。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-9",
+              "name": "目玉焼き追加",
+              "price": 100,
+              "description": "ご飯に卵を追加するオプション。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-10",
+              "name": "ライス大盛り",
+              "price": 100,
+              "description": "お腹が空いた時の増量。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "food-truck-1-section-3",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "food-truck-1-item-11",
+              "name": "自家製レモネード",
+              "price": 380,
+              "description": "レモンの甘酸っぱさを生かした一杯。",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-1-item-12",
+              "name": "アイスコーヒー",
+              "price": 300,
+              "description": "香りのよい冷たい珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-13",
+              "name": "マンゴージュース",
+              "price": 350,
+              "description": "濃厚な果実の甘み。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-14",
+              "name": "ウーロン茶",
+              "price": 200,
+              "description": "さっぱりした無糖茶。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-item-15",
+              "name": "ミネラルウォーター",
+              "price": 150,
+              "description": "持ち歩き用のボトル。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-truck-2",
+      "name": "ランチワゴン 旅ねこ",
+      "category": "food-truck",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "公園やイベント会場を回る移動販売車。小窓越しに受け取る温かいご飯が人気。",
+      "openingHours": "11:00〜15:00（出店日）",
+      "menuSections": [
+        {
+          "id": "food-truck-2-section-1",
+          "title": "ランチボックス",
+          "items": [
+            {
+              "id": "food-truck-2-item-1",
+              "name": "ハーブチキンボックス",
+              "price": 1080,
+              "description": "香草で焼いた鶏肉と彩り野菜。",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-2-item-2",
+              "name": "チキンオーバーライス",
+              "price": 990,
+              "description": "スパイスチキンとヨーグルトソース。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-3",
+              "name": "ガパオ風ライス",
+              "price": 970,
+              "description": "バジル炒めの挽肉と目玉焼き。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-4",
+              "name": "ローストポーク丼",
+              "price": 1080,
+              "description": "薄切り豚肉に香味だれ。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-5",
+              "name": "野菜デリボックス",
+              "price": 940,
+              "description": "豆と季節野菜を盛ったご飯。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "food-truck-2-section-2",
+          "title": "サイド",
+          "items": [
+            {
+              "id": "food-truck-2-item-6",
+              "name": "スパイスポテト",
+              "price": 390,
+              "description": "香辛料をきかせたポテト。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-7",
+              "name": "コールスロー",
+              "price": 280,
+              "description": "さっぱりしたキャベツのサラダ。",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-2-item-8",
+              "name": "日替わりスープ",
+              "price": 330,
+              "description": "その日の野菜を煮込んだスープ。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-9",
+              "name": "目玉焼き追加",
+              "price": 110,
+              "description": "ご飯に卵を追加するオプション。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-10",
+              "name": "ライス大盛り",
+              "price": 110,
+              "description": "お腹が空いた時の増量。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "food-truck-2-section-3",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "food-truck-2-item-11",
+              "name": "自家製レモネード",
+              "price": 420,
+              "description": "レモンの甘酸っぱさを生かした一杯。",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-2-item-12",
+              "name": "アイスコーヒー",
+              "price": 330,
+              "description": "香りのよい冷たい珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-13",
+              "name": "マンゴージュース",
+              "price": 390,
+              "description": "濃厚な果実の甘み。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-14",
+              "name": "ウーロン茶",
+              "price": 220,
+              "description": "さっぱりした無糖茶。",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-item-15",
+              "name": "ミネラルウォーター",
+              "price": 170,
+              "description": "持ち歩き用のボトル。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

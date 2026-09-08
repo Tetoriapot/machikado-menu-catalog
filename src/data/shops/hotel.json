@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "hotel",
+    "label": "ホテル売店",
+    "group": "施設・娯楽",
+    "icon": "building"
+  },
+  "shops": [
+    {
+      "id": "hotel-1",
+      "name": "ホテル 灯波 売店",
+      "category": "hotel",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "静かなロビーの片隅にあるホテル売店。夜食や旅先で忘れがちな小物が揃う。",
+      "openingHours": "7:00〜23:00",
+      "menuSections": [
+        {
+          "id": "hotel-1-section-1",
+          "title": "軽食・甘味",
+          "items": [
+            {
+              "id": "hotel-1-item-1",
+              "name": "クラブサンド",
+              "price": 850,
+              "description": "チキンと卵を挟んだ冷蔵サンド。",
+              "recommended": true
+            },
+            {
+              "id": "hotel-1-item-2",
+              "name": "カップ麺",
+              "price": 280,
+              "description": "夜食向けの醤油味の即席麺。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-3",
+              "name": "ミックスナッツ",
+              "price": 350,
+              "description": "小袋入りの塩味ナッツ。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-4",
+              "name": "ホテルプリン",
+              "price": 480,
+              "description": "小さな瓶に詰めたカスタード。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-5",
+              "name": "焼き菓子三個",
+              "price": 680,
+              "description": "フィナンシェなどの小箱。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hotel-1-section-2",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "hotel-1-item-6",
+              "name": "ミネラルウォーター",
+              "price": 180,
+              "description": "客室に持ち込める500mlボトル。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-7",
+              "name": "緑茶",
+              "price": 200,
+              "description": "無糖のペットボトル茶。",
+              "recommended": true
+            },
+            {
+              "id": "hotel-1-item-8",
+              "name": "缶ビール",
+              "price": 380,
+              "description": "350mlの冷えた缶。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-9",
+              "name": "ドリップコーヒー 二袋",
+              "price": 280,
+              "description": "部屋で淹れられる個包装。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-10",
+              "name": "りんごジュース",
+              "price": 250,
+              "description": "小瓶入りの果汁飲料。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hotel-1-section-3",
+          "title": "旅行用品",
+          "items": [
+            {
+              "id": "hotel-1-item-11",
+              "name": "歯ブラシセット",
+              "price": 350,
+              "description": "旅行用の歯磨きセット。",
+              "recommended": true
+            },
+            {
+              "id": "hotel-1-item-12",
+              "name": "洗顔セット",
+              "price": 580,
+              "description": "小さな洗顔料とタオル。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-13",
+              "name": "靴下",
+              "price": 650,
+              "description": "シンプルな無地の一足。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-14",
+              "name": "充電ケーブル",
+              "price": 1280,
+              "description": "USB-C端子のケーブル。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-item-15",
+              "name": "折り畳み傘",
+              "price": 1680,
+              "description": "携帯用の軽い傘。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotel-2",
+      "name": "青庭ホテル ロビーショップ",
+      "category": "hotel",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅前ホテルの一階にある小さなショップ。チェックイン後の客が飲み物を選んでいる。",
+      "openingHours": "7:00〜23:00",
+      "menuSections": [
+        {
+          "id": "hotel-2-section-1",
+          "title": "軽食・甘味",
+          "items": [
+            {
+              "id": "hotel-2-item-1",
+              "name": "クロワッサンサンド",
+              "price": 1010,
+              "description": "ハムとチーズを層状のパンに。",
+              "recommended": true
+            },
+            {
+              "id": "hotel-2-item-2",
+              "name": "カップ麺",
+              "price": 310,
+              "description": "夜食向けの醤油味の即席麺。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-3",
+              "name": "ミックスナッツ",
+              "price": 390,
+              "description": "小袋入りの塩味ナッツ。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-4",
+              "name": "ホテルプリン",
+              "price": 530,
+              "description": "小さな瓶に詰めたカスタード。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-5",
+              "name": "焼き菓子三個",
+              "price": 750,
+              "description": "フィナンシェなどの小箱。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hotel-2-section-2",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "hotel-2-item-6",
+              "name": "ミネラルウォーター",
+              "price": 200,
+              "description": "客室に持ち込める500mlボトル。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-7",
+              "name": "緑茶",
+              "price": 220,
+              "description": "無糖のペットボトル茶。",
+              "recommended": true
+            },
+            {
+              "id": "hotel-2-item-8",
+              "name": "缶ビール",
+              "price": 420,
+              "description": "350mlの冷えた缶。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-9",
+              "name": "ドリップコーヒー 二袋",
+              "price": 310,
+              "description": "部屋で淹れられる個包装。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-10",
+              "name": "りんごジュース",
+              "price": 280,
+              "description": "小瓶入りの果汁飲料。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hotel-2-section-3",
+          "title": "旅行用品",
+          "items": [
+            {
+              "id": "hotel-2-item-11",
+              "name": "歯ブラシセット",
+              "price": 390,
+              "description": "旅行用の歯磨きセット。",
+              "recommended": true
+            },
+            {
+              "id": "hotel-2-item-12",
+              "name": "洗顔セット",
+              "price": 640,
+              "description": "小さな洗顔料とタオル。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-13",
+              "name": "靴下",
+              "price": 720,
+              "description": "シンプルな無地の一足。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-14",
+              "name": "充電ケーブル",
+              "price": 1410,
+              "description": "USB-C端子のケーブル。",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-item-15",
+              "name": "折り畳み傘",
+              "price": 1850,
+              "description": "携帯用の軽い傘。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

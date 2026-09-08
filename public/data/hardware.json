@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "hardware",
+    "label": "ホームセンター",
+    "group": "小売店",
+    "icon": "wrench"
+  },
+  "shops": [
+    {
+      "id": "hardware-1",
+      "name": "住まいと道具 はるの木",
+      "category": "hardware",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "駐車場の広い郊外のホームセンター。住まいの修繕や庭仕事の道具が揃う。",
+      "openingHours": "8:00〜20:00",
+      "menuSections": [
+        {
+          "id": "hardware-1-section-1",
+          "title": "工具",
+          "items": [
+            {
+              "id": "hardware-1-item-1",
+              "name": "ドライバーセット",
+              "price": 980,
+              "description": "家庭の簡単なねじ締め用。",
+              "recommended": true
+            },
+            {
+              "id": "hardware-1-item-2",
+              "name": "メジャー 3m",
+              "price": 580,
+              "description": "寸法を測る巻尺。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-3",
+              "name": "作業手袋",
+              "price": 298,
+              "description": "荷物運びや軽作業に。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-4",
+              "name": "金づち",
+              "price": 880,
+              "description": "家庭の工作に使う小型工具。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-5",
+              "name": "布テープ",
+              "price": 248,
+              "description": "梱包や固定に使うテープ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hardware-1-section-2",
+          "title": "園芸",
+          "items": [
+            {
+              "id": "hardware-1-item-6",
+              "name": "培養土 14L",
+              "price": 598,
+              "description": "草花の鉢植え用の土。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-7",
+              "name": "植木鉢",
+              "price": 398,
+              "description": "受け皿付きの樹脂鉢。",
+              "recommended": true
+            },
+            {
+              "id": "hardware-1-item-8",
+              "name": "じょうろ",
+              "price": 780,
+              "description": "容量4Lの水やり道具。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-9",
+              "name": "園芸スコップ",
+              "price": 398,
+              "description": "鉢植えの土いじりに使う小型。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-10",
+              "name": "花苗",
+              "price": 198,
+              "description": "季節の草花一株。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hardware-1-section-3",
+          "title": "生活用品",
+          "items": [
+            {
+              "id": "hardware-1-item-11",
+              "name": "LED電球",
+              "price": 698,
+              "description": "家庭用の口金E26タイプ。",
+              "recommended": true
+            },
+            {
+              "id": "hardware-1-item-12",
+              "name": "延長コード 2m",
+              "price": 980,
+              "description": "室内用の三口コード。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-13",
+              "name": "収納ボックス",
+              "price": 1280,
+              "description": "ふた付きの樹脂製収納。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-14",
+              "name": "雑巾 五枚",
+              "price": 298,
+              "description": "掃除向けの布セット。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-item-15",
+              "name": "養生シート",
+              "price": 880,
+              "description": "作業時に床などを覆うシート。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hardware-2",
+      "name": "くらし工房 みなと野",
+      "category": "hardware",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "national-chain",
+      "description": "町外れの生活用品店。入口には花苗、奥には工具や木材が並ぶ。",
+      "openingHours": "8:00〜20:00",
+      "menuSections": [
+        {
+          "id": "hardware-2-section-1",
+          "title": "工具",
+          "items": [
+            {
+              "id": "hardware-2-item-1",
+              "name": "工具収納ケース",
+              "price": 1850,
+              "description": "持ち手付きの小型ツールケース。",
+              "recommended": true
+            },
+            {
+              "id": "hardware-2-item-2",
+              "name": "メジャー 3m",
+              "price": 640,
+              "description": "寸法を測る巻尺。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-3",
+              "name": "作業手袋",
+              "price": 330,
+              "description": "荷物運びや軽作業に。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-4",
+              "name": "金づち",
+              "price": 970,
+              "description": "家庭の工作に使う小型工具。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-5",
+              "name": "布テープ",
+              "price": 270,
+              "description": "梱包や固定に使うテープ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hardware-2-section-2",
+          "title": "園芸",
+          "items": [
+            {
+              "id": "hardware-2-item-6",
+              "name": "培養土 14L",
+              "price": 660,
+              "description": "草花の鉢植え用の土。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-7",
+              "name": "植木鉢",
+              "price": 440,
+              "description": "受け皿付きの樹脂鉢。",
+              "recommended": true
+            },
+            {
+              "id": "hardware-2-item-8",
+              "name": "じょうろ",
+              "price": 860,
+              "description": "容量4Lの水やり道具。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-9",
+              "name": "園芸スコップ",
+              "price": 440,
+              "description": "鉢植えの土いじりに使う小型。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-10",
+              "name": "花苗",
+              "price": 220,
+              "description": "季節の草花一株。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hardware-2-section-3",
+          "title": "生活用品",
+          "items": [
+            {
+              "id": "hardware-2-item-11",
+              "name": "LED電球",
+              "price": 770,
+              "description": "家庭用の口金E26タイプ。",
+              "recommended": true
+            },
+            {
+              "id": "hardware-2-item-12",
+              "name": "延長コード 2m",
+              "price": 1080,
+              "description": "室内用の三口コード。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-13",
+              "name": "収納ボックス",
+              "price": 1410,
+              "description": "ふた付きの樹脂製収納。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-14",
+              "name": "雑巾 五枚",
+              "price": 330,
+              "description": "掃除向けの布セット。",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-item-15",
+              "name": "養生シート",
+              "price": 970,
+              "description": "作業時に床などを覆うシート。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

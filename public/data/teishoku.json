@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "teishoku",
+    "label": "定食屋",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "teishoku-1",
+      "name": "ごはん処 こはぜ",
+      "category": "teishoku",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "昼どきには湯気がのぼる町の食堂。炊きたてのご飯と小鉢が、お腹も気持ちも満たしてくれる。",
+      "openingHours": "11:00〜21:00",
+      "menuSections": [
+        {
+          "id": "teishoku-1-section-1",
+          "title": "定食",
+          "items": [
+            {
+              "id": "teishoku-1-item-1",
+              "name": "豚の生姜焼き定食",
+              "price": 850,
+              "description": "生姜だれの豚肉に千切りキャベツ。",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-1-item-2",
+              "name": "鶏の唐揚げ定食",
+              "price": 820,
+              "description": "大きな唐揚げ五個とご飯、味噌汁。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-3",
+              "name": "焼き鯖定食",
+              "price": 880,
+              "description": "脂ののった鯖を皮まで香ばしく。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-4",
+              "name": "野菜炒め定食",
+              "price": 780,
+              "description": "もやしとキャベツを強火で炒めた一皿。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-5",
+              "name": "煮込みハンバーグ定食",
+              "price": 920,
+              "description": "玉ねぎソースでじっくり煮込んだ洋風定食。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-1-section-2",
+          "title": "小鉢・追加",
+          "items": [
+            {
+              "id": "teishoku-1-item-6",
+              "name": "ひじき煮",
+              "price": 180,
+              "description": "大豆とにんじん入りの家庭的な小鉢。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-7",
+              "name": "冷奴",
+              "price": 180,
+              "description": "ねぎと生姜をのせた豆腐。",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-1-item-8",
+              "name": "納豆",
+              "price": 120,
+              "description": "小さな器で提供。刻みねぎ付き。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-9",
+              "name": "ご飯大盛り",
+              "price": 100,
+              "description": "定食のご飯を増量。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-10",
+              "name": "味噌汁単品",
+              "price": 150,
+              "description": "豆腐とわかめの味噌汁。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-1-section-3",
+          "title": "お飲みもの・甘味",
+          "items": [
+            {
+              "id": "teishoku-1-item-11",
+              "name": "瓶ビール",
+              "price": 550,
+              "description": "食事に添える中瓶。",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-1-item-12",
+              "name": "ウーロン茶",
+              "price": 220,
+              "description": "冷たい無糖のお茶。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-13",
+              "name": "オレンジジュース",
+              "price": 220,
+              "description": "子どもにも飲みやすい果汁飲料。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-14",
+              "name": "食後のコーヒー",
+              "price": 250,
+              "description": "食事注文時の小さな一杯。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-item-15",
+              "name": "黒糖寒天",
+              "price": 280,
+              "description": "黒糖蜜をかけたさっぱり甘味。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teishoku-2",
+      "name": "食堂 三日月坂",
+      "category": "teishoku",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅裏の細い道にある定食屋。厨房から聞こえる鍋の音と、黒板の日替わり献立が目印。",
+      "openingHours": "11:00〜21:00",
+      "menuSections": [
+        {
+          "id": "teishoku-2-section-1",
+          "title": "定食",
+          "items": [
+            {
+              "id": "teishoku-2-item-1",
+              "name": "鯵フライ定食",
+              "price": 990,
+              "description": "揚げたての鯵フライ二枚。ソース付き。",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-2-item-2",
+              "name": "鶏の唐揚げ定食",
+              "price": 900,
+              "description": "大きな唐揚げ五個とご飯、味噌汁。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-3",
+              "name": "焼き鯖定食",
+              "price": 970,
+              "description": "脂ののった鯖を皮まで香ばしく。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-4",
+              "name": "野菜炒め定食",
+              "price": 860,
+              "description": "もやしとキャベツを強火で炒めた一皿。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-5",
+              "name": "煮込みハンバーグ定食",
+              "price": 1010,
+              "description": "玉ねぎソースでじっくり煮込んだ洋風定食。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-2-section-2",
+          "title": "小鉢・追加",
+          "items": [
+            {
+              "id": "teishoku-2-item-6",
+              "name": "ひじき煮",
+              "price": 200,
+              "description": "大豆とにんじん入りの家庭的な小鉢。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-7",
+              "name": "冷奴",
+              "price": 200,
+              "description": "ねぎと生姜をのせた豆腐。",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-2-item-8",
+              "name": "納豆",
+              "price": 130,
+              "description": "小さな器で提供。刻みねぎ付き。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-9",
+              "name": "ご飯大盛り",
+              "price": 110,
+              "description": "定食のご飯を増量。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-10",
+              "name": "味噌汁単品",
+              "price": 170,
+              "description": "豆腐とわかめの味噌汁。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-2-section-3",
+          "title": "お飲みもの・甘味",
+          "items": [
+            {
+              "id": "teishoku-2-item-11",
+              "name": "瓶ビール",
+              "price": 610,
+              "description": "食事に添える中瓶。",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-2-item-12",
+              "name": "ウーロン茶",
+              "price": 240,
+              "description": "冷たい無糖のお茶。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-13",
+              "name": "オレンジジュース",
+              "price": 240,
+              "description": "子どもにも飲みやすい果汁飲料。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-14",
+              "name": "食後のコーヒー",
+              "price": 280,
+              "description": "食事注文時の小さな一杯。",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-item-15",
+              "name": "黒糖寒天",
+              "price": 310,
+              "description": "黒糖蜜をかけたさっぱり甘味。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

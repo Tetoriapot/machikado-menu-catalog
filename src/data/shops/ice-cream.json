@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "ice-cream",
+    "label": "アイス店",
+    "group": "テイクアウト",
+    "icon": "icecream"
+  },
+  "shops": [
+    {
+      "id": "ice-cream-1",
+      "name": "ジェラート 雪の実",
+      "category": "ice-cream",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "果実の色が並ぶ小さなアイス店。散歩の途中に、ひとつ好みの味を選べる。",
+      "openingHours": "11:00〜19:00",
+      "menuSections": [
+        {
+          "id": "ice-cream-1-section-1",
+          "title": "シングル",
+          "items": [
+            {
+              "id": "ice-cream-1-item-1",
+              "name": "ミルク シングル",
+              "price": 380,
+              "description": "牛乳の甘みを楽しむ基本の味。",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-1-item-2",
+              "name": "チョコ シングル",
+              "price": 420,
+              "description": "カカオの香りが濃厚な一玉。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-3",
+              "name": "いちご シングル",
+              "price": 420,
+              "description": "いちごの果肉を混ぜ込んで。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-4",
+              "name": "抹茶 シングル",
+              "price": 420,
+              "description": "抹茶の渋みを感じる一玉。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-5",
+              "name": "レモンソルベ",
+              "price": 400,
+              "description": "果汁の酸味が爽やかな氷菓。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ice-cream-1-section-2",
+          "title": "サンデー",
+          "items": [
+            {
+              "id": "ice-cream-1-item-6",
+              "name": "チョコサンデー",
+              "price": 650,
+              "description": "チョコソースとクッキーを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-7",
+              "name": "ベリーサンデー",
+              "price": 680,
+              "description": "甘酸っぱいベリーソース。",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-1-item-8",
+              "name": "黒蜜きな粉サンデー",
+              "price": 650,
+              "description": "和の香りを重ねた一品。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-9",
+              "name": "バナナスプリット",
+              "price": 880,
+              "description": "バナナに三種類のアイス。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-10",
+              "name": "アフォガート",
+              "price": 580,
+              "description": "ミルクアイスに熱い珈琲。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ice-cream-1-section-3",
+          "title": "セット・飲料",
+          "items": [
+            {
+              "id": "ice-cream-1-item-11",
+              "name": "ダブルカップ",
+              "price": 650,
+              "description": "二つの味を選べるカップ。",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-1-item-12",
+              "name": "ワッフルコーン変更",
+              "price": 80,
+              "description": "香ばしいコーンへの変更。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-13",
+              "name": "持ち帰り六個箱",
+              "price": 2400,
+              "description": "選んだ六種類をカップで。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-14",
+              "name": "アイスコーヒー",
+              "price": 350,
+              "description": "甘味に合わせる無糖の一杯。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-item-15",
+              "name": "オレンジジュース",
+              "price": 300,
+              "description": "飲みやすい果汁飲料。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ice-cream-2",
+      "name": "アイスクリーム 波待ち",
+      "category": "ice-cream",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "海岸へ続く道のアイススタンド。カップを片手に、外のベンチでひと休み。",
+      "openingHours": "11:00〜19:00",
+      "menuSections": [
+        {
+          "id": "ice-cream-2-section-1",
+          "title": "シングル",
+          "items": [
+            {
+              "id": "ice-cream-2-item-1",
+              "name": "ほうじ茶 シングル",
+              "price": 480,
+              "description": "香ばしい焙じ茶のミルクアイス。",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-2-item-2",
+              "name": "チョコ シングル",
+              "price": 460,
+              "description": "カカオの香りが濃厚な一玉。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-3",
+              "name": "いちご シングル",
+              "price": 460,
+              "description": "いちごの果肉を混ぜ込んで。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-4",
+              "name": "抹茶 シングル",
+              "price": 460,
+              "description": "抹茶の渋みを感じる一玉。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-5",
+              "name": "レモンソルベ",
+              "price": 440,
+              "description": "果汁の酸味が爽やかな氷菓。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ice-cream-2-section-2",
+          "title": "サンデー",
+          "items": [
+            {
+              "id": "ice-cream-2-item-6",
+              "name": "チョコサンデー",
+              "price": 720,
+              "description": "チョコソースとクッキーを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-7",
+              "name": "ベリーサンデー",
+              "price": 750,
+              "description": "甘酸っぱいベリーソース。",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-2-item-8",
+              "name": "黒蜜きな粉サンデー",
+              "price": 720,
+              "description": "和の香りを重ねた一品。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-9",
+              "name": "バナナスプリット",
+              "price": 970,
+              "description": "バナナに三種類のアイス。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-10",
+              "name": "アフォガート",
+              "price": 640,
+              "description": "ミルクアイスに熱い珈琲。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ice-cream-2-section-3",
+          "title": "セット・飲料",
+          "items": [
+            {
+              "id": "ice-cream-2-item-11",
+              "name": "ダブルカップ",
+              "price": 720,
+              "description": "二つの味を選べるカップ。",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-2-item-12",
+              "name": "ワッフルコーン変更",
+              "price": 90,
+              "description": "香ばしいコーンへの変更。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-13",
+              "name": "持ち帰り六個箱",
+              "price": 2640,
+              "description": "選んだ六種類をカップで。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-14",
+              "name": "アイスコーヒー",
+              "price": 390,
+              "description": "甘味に合わせる無糖の一杯。",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-item-15",
+              "name": "オレンジジュース",
+              "price": 330,
+              "description": "飲みやすい果汁飲料。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

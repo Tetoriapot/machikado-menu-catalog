@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "chinese",
+    "label": "町中華",
+    "group": "飲食店",
+    "icon": "soup"
+  },
+  "shops": [
+    {
+      "id": "chinese-1",
+      "name": "中華料理 翠鳩飯店",
+      "category": "chinese",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "赤い椅子が並ぶ商店街の中華屋。厨房の中華鍋が、いつものチャーハンを香ばしく仕上げる。",
+      "openingHours": "11:00〜14:30 / 17:00〜22:00",
+      "menuSections": [
+        {
+          "id": "chinese-1-section-1",
+          "title": "麺・飯",
+          "items": [
+            {
+              "id": "chinese-1-item-1",
+              "name": "五目チャーハン",
+              "price": 750,
+              "description": "焼豚、卵、ねぎの香ばしい炒めご飯。",
+              "recommended": true
+            },
+            {
+              "id": "chinese-1-item-2",
+              "name": "中華丼",
+              "price": 800,
+              "description": "野菜たっぷりのとろみ餡をご飯に。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-3",
+              "name": "天津飯",
+              "price": 780,
+              "description": "かに風味の卵焼きに甘酢餡。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-4",
+              "name": "タンメン",
+              "price": 820,
+              "description": "炒め野菜を盛った塩味の麺。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-5",
+              "name": "あんかけ焼きそば",
+              "price": 850,
+              "description": "焼き目のついた麺に五目餡。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-1-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "id": "chinese-1-item-6",
+              "name": "麻婆豆腐",
+              "price": 780,
+              "description": "豆板醤と山椒をきかせた一皿。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-7",
+              "name": "酢豚",
+              "price": 980,
+              "description": "豚肉と彩り野菜の甘酢炒め。",
+              "recommended": true
+            },
+            {
+              "id": "chinese-1-item-8",
+              "name": "回鍋肉",
+              "price": 880,
+              "description": "豚肉とキャベツの甘味噌炒め。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-9",
+              "name": "ニラレバ炒め",
+              "price": 850,
+              "description": "にんにくをきかせた定番炒め。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-10",
+              "name": "海老チリ",
+              "price": 1080,
+              "description": "ぷりっとした海老のピリ辛ソース。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-1-section-3",
+          "title": "点心・飲みもの",
+          "items": [
+            {
+              "id": "chinese-1-item-11",
+              "name": "焼餃子 六個",
+              "price": 420,
+              "description": "肉と野菜を包んだ手作り餃子。",
+              "recommended": true
+            },
+            {
+              "id": "chinese-1-item-12",
+              "name": "春巻き 二本",
+              "price": 380,
+              "description": "筍入りの餡をぱりっと揚げて。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-13",
+              "name": "杏仁豆腐",
+              "price": 300,
+              "description": "なめらかな口当たりの食後の甘味。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-14",
+              "name": "瓶ビール",
+              "price": 580,
+              "description": "中瓶。冷えたグラスと一緒に。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-item-15",
+              "name": "ジャスミン茶",
+              "price": 250,
+              "description": "花の香りがさわやかな中国茶。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-2",
+      "name": "町中華 星和軒",
+      "category": "chinese",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "昔ながらのガラス引き戸の中華食堂。ボリュームのある定食を目当てに地元の人が集まる。",
+      "openingHours": "11:00〜14:30 / 17:00〜22:00",
+      "menuSections": [
+        {
+          "id": "chinese-2-section-1",
+          "title": "麺・飯",
+          "items": [
+            {
+              "id": "chinese-2-item-1",
+              "name": "黒胡椒チャーハン",
+              "price": 900,
+              "description": "挽きたて黒胡椒が香る炒めご飯。",
+              "recommended": true
+            },
+            {
+              "id": "chinese-2-item-2",
+              "name": "中華丼",
+              "price": 880,
+              "description": "野菜たっぷりのとろみ餡をご飯に。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-3",
+              "name": "天津飯",
+              "price": 860,
+              "description": "かに風味の卵焼きに甘酢餡。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-4",
+              "name": "タンメン",
+              "price": 900,
+              "description": "炒め野菜を盛った塩味の麺。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-5",
+              "name": "あんかけ焼きそば",
+              "price": 940,
+              "description": "焼き目のついた麺に五目餡。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-2-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "id": "chinese-2-item-6",
+              "name": "麻婆豆腐",
+              "price": 860,
+              "description": "豆板醤と山椒をきかせた一皿。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-7",
+              "name": "酢豚",
+              "price": 1080,
+              "description": "豚肉と彩り野菜の甘酢炒め。",
+              "recommended": true
+            },
+            {
+              "id": "chinese-2-item-8",
+              "name": "回鍋肉",
+              "price": 970,
+              "description": "豚肉とキャベツの甘味噌炒め。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-9",
+              "name": "ニラレバ炒め",
+              "price": 940,
+              "description": "にんにくをきかせた定番炒め。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-10",
+              "name": "海老チリ",
+              "price": 1190,
+              "description": "ぷりっとした海老のピリ辛ソース。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-2-section-3",
+          "title": "点心・飲みもの",
+          "items": [
+            {
+              "id": "chinese-2-item-11",
+              "name": "焼餃子 六個",
+              "price": 460,
+              "description": "肉と野菜を包んだ手作り餃子。",
+              "recommended": true
+            },
+            {
+              "id": "chinese-2-item-12",
+              "name": "春巻き 二本",
+              "price": 420,
+              "description": "筍入りの餡をぱりっと揚げて。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-13",
+              "name": "杏仁豆腐",
+              "price": 330,
+              "description": "なめらかな口当たりの食後の甘味。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-14",
+              "name": "瓶ビール",
+              "price": 640,
+              "description": "中瓶。冷えたグラスと一緒に。",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-item-15",
+              "name": "ジャスミン茶",
+              "price": 280,
+              "description": "花の香りがさわやかな中国茶。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

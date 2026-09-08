@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "cafe",
+    "label": "カフェ",
+    "group": "飲食店",
+    "icon": "coffee"
+  },
+  "shops": [
+    {
+      "id": "cafe-1",
+      "name": "cafe 栞庭",
+      "category": "cafe",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "中庭の緑を眺められる小さなカフェ。焼き菓子の香りとページをめくる音がゆっくり混ざる。",
+      "openingHours": "10:00〜19:00",
+      "menuSections": [
+        {
+          "id": "cafe-1-section-1",
+          "title": "DRINK",
+          "items": [
+            {
+              "id": "cafe-1-item-1",
+              "name": "ハンドドリップコーヒー",
+              "price": 580,
+              "description": "注文ごとに豆を挽き、丁寧に抽出。",
+              "recommended": true
+            },
+            {
+              "id": "cafe-1-item-2",
+              "name": "カフェラテ",
+              "price": 620,
+              "description": "細やかな泡のミルクを重ねた一杯。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-3",
+              "name": "ほうじ茶ラテ",
+              "price": 640,
+              "description": "香ばしいほうじ茶にやさしい甘み。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-4",
+              "name": "自家製レモネード",
+              "price": 600,
+              "description": "蜂蜜漬けレモンを炭酸で割って。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-5",
+              "name": "アールグレイ",
+              "price": 560,
+              "description": "柑橘の香りを楽しむポットティー。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cafe-1-section-2",
+          "title": "LUNCH",
+          "items": [
+            {
+              "id": "cafe-1-item-6",
+              "name": "キッシュプレート",
+              "price": 1180,
+              "description": "ほうれん草のキッシュにサラダを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-7",
+              "name": "アボカドサンド",
+              "price": 980,
+              "description": "全粒粉パンにアボカドと蒸し鶏。",
+              "recommended": true
+            },
+            {
+              "id": "cafe-1-item-8",
+              "name": "週替わりスープセット",
+              "price": 1050,
+              "description": "野菜のスープとパンの軽い昼食。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-9",
+              "name": "きのこリゾット",
+              "price": 1120,
+              "description": "米にきのこの旨みを含ませた一皿。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-10",
+              "name": "キャロットサラダ",
+              "price": 480,
+              "description": "にんじんを柑橘ドレッシングで。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cafe-1-section-3",
+          "title": "SWEETS",
+          "items": [
+            {
+              "id": "cafe-1-item-11",
+              "name": "固焼きプリン",
+              "price": 580,
+              "description": "卵の風味が広がるカスタード。",
+              "recommended": true
+            },
+            {
+              "id": "cafe-1-item-12",
+              "name": "りんごのタルト",
+              "price": 650,
+              "description": "薄切りりんごを重ねて焼いたタルト。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-13",
+              "name": "チーズケーキ",
+              "price": 620,
+              "description": "濃厚なベイクドタイプ。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-14",
+              "name": "スコーン 二個",
+              "price": 520,
+              "description": "クロテッド風クリームとジャム付き。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-item-15",
+              "name": "塩バタークッキー",
+              "price": 280,
+              "description": "珈琲に合う小袋入り焼き菓子。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafe-2",
+      "name": "カフェ 灯台窓",
+      "category": "cafe",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "海へ続く坂道にあるカフェ。明るい窓辺で、季節のタルトと一杯のラテを楽しめる。",
+      "openingHours": "10:00〜19:00",
+      "menuSections": [
+        {
+          "id": "cafe-2-section-1",
+          "title": "DRINK",
+          "items": [
+            {
+              "id": "cafe-2-item-1",
+              "name": "水出しアイスコーヒー",
+              "price": 660,
+              "description": "一晩かけて抽出したまろやかな味。",
+              "recommended": true
+            },
+            {
+              "id": "cafe-2-item-2",
+              "name": "カフェラテ",
+              "price": 680,
+              "description": "細やかな泡のミルクを重ねた一杯。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-3",
+              "name": "ほうじ茶ラテ",
+              "price": 700,
+              "description": "香ばしいほうじ茶にやさしい甘み。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-4",
+              "name": "自家製レモネード",
+              "price": 660,
+              "description": "蜂蜜漬けレモンを炭酸で割って。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-5",
+              "name": "アールグレイ",
+              "price": 620,
+              "description": "柑橘の香りを楽しむポットティー。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cafe-2-section-2",
+          "title": "LUNCH",
+          "items": [
+            {
+              "id": "cafe-2-item-6",
+              "name": "キッシュプレート",
+              "price": 1300,
+              "description": "ほうれん草のキッシュにサラダを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-7",
+              "name": "アボカドサンド",
+              "price": 1080,
+              "description": "全粒粉パンにアボカドと蒸し鶏。",
+              "recommended": true
+            },
+            {
+              "id": "cafe-2-item-8",
+              "name": "週替わりスープセット",
+              "price": 1160,
+              "description": "野菜のスープとパンの軽い昼食。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-9",
+              "name": "きのこリゾット",
+              "price": 1230,
+              "description": "米にきのこの旨みを含ませた一皿。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-10",
+              "name": "キャロットサラダ",
+              "price": 530,
+              "description": "にんじんを柑橘ドレッシングで。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cafe-2-section-3",
+          "title": "SWEETS",
+          "items": [
+            {
+              "id": "cafe-2-item-11",
+              "name": "固焼きプリン",
+              "price": 640,
+              "description": "卵の風味が広がるカスタード。",
+              "recommended": true
+            },
+            {
+              "id": "cafe-2-item-12",
+              "name": "りんごのタルト",
+              "price": 720,
+              "description": "薄切りりんごを重ねて焼いたタルト。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-13",
+              "name": "チーズケーキ",
+              "price": 680,
+              "description": "濃厚なベイクドタイプ。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-14",
+              "name": "スコーン 二個",
+              "price": 570,
+              "description": "クロテッド風クリームとジャム付き。",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-item-15",
+              "name": "塩バタークッキー",
+              "price": 310,
+              "description": "珈琲に合う小袋入り焼き菓子。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

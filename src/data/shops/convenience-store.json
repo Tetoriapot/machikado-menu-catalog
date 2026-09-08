@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "convenience-store",
+    "label": "コンビニ",
+    "group": "小売店",
+    "icon": "store"
+  },
+  "shops": [
+    {
+      "id": "convenience-store-1",
+      "name": "まちのコンビニ ひより",
+      "category": "convenience-store",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "住宅街と駅をつなぐ道にある小さなコンビニ。おにぎりから日用品まで、急な買い物を支えている。",
+      "openingHours": "24時間",
+      "menuSections": [
+        {
+          "id": "convenience-store-1-section-1",
+          "title": "お弁当・軽食",
+          "items": [
+            {
+              "id": "convenience-store-1-item-1",
+              "name": "鮭おにぎり",
+              "price": 168,
+              "description": "塩鮭のほぐし身を包んだ定番おにぎり。",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-1-item-2",
+              "name": "ツナマヨおにぎり",
+              "price": 158,
+              "description": "ツナとマヨネーズのまろやかな具。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-3",
+              "name": "のり弁当",
+              "price": 498,
+              "description": "白身魚フライとちくわ天をのせたお弁当。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-4",
+              "name": "卵サンド",
+              "price": 278,
+              "description": "卵サラダをやわらかな食パンで挟んだサンド。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-5",
+              "name": "レジ横チキン",
+              "price": 228,
+              "description": "胡椒をきかせた衣の骨なしフライドチキン。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-1-section-2",
+          "title": "飲料・お菓子",
+          "items": [
+            {
+              "id": "convenience-store-1-item-6",
+              "name": "天然水 500ml",
+              "price": 108,
+              "description": "持ち歩きやすいペットボトル入りの水。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-7",
+              "name": "緑茶 600ml",
+              "price": 138,
+              "description": "食事にも合う、無糖の緑茶。",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-1-item-8",
+              "name": "缶コーヒー",
+              "price": 128,
+              "description": "ミルク入りの甘さ控えめコーヒー。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-9",
+              "name": "カスタードプリン",
+              "price": 198,
+              "description": "食後にちょうどよいカップ入りプリン。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-10",
+              "name": "ポテトチップス",
+              "price": 168,
+              "description": "じゃがいもの風味が生きるうす塩味。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-1-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "convenience-store-1-item-11",
+              "name": "歯ブラシセット",
+              "price": 328,
+              "description": "小さな歯磨き粉付きの携帯セット。",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-1-item-12",
+              "name": "ポケットティッシュ 六個",
+              "price": 138,
+              "description": "外出先で便利な六個入りパック。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-13",
+              "name": "ビニール傘",
+              "price": 698,
+              "description": "急な雨に。透明タイプ、親骨60cm。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-14",
+              "name": "単三電池 四本",
+              "price": 498,
+              "description": "日用品や小型機器に使うアルカリ乾電池。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-item-15",
+              "name": "黒ボールペン",
+              "price": 148,
+              "description": "文房具の定番、0.5mmの油性ペン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convenience-store-2",
+      "name": "デイリーポケット 澄坂店",
+      "category": "convenience-store",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "national-chain",
+      "description": "交差点に面した明るいコンビニ。朝は通勤客、夜は近隣住民が立ち寄る、町のちょっとした拠点。",
+      "openingHours": "24時間",
+      "menuSections": [
+        {
+          "id": "convenience-store-2-section-1",
+          "title": "お弁当・軽食",
+          "items": [
+            {
+              "id": "convenience-store-2-item-1",
+              "name": "鶏そぼろ弁当",
+              "price": 510,
+              "description": "甘辛い鶏そぼろと炒り卵の二色弁当。",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-2-item-2",
+              "name": "ツナマヨおにぎり",
+              "price": 170,
+              "description": "ツナとマヨネーズのまろやかな具。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-3",
+              "name": "のり弁当",
+              "price": 550,
+              "description": "白身魚フライとちくわ天をのせたお弁当。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-4",
+              "name": "卵サンド",
+              "price": 310,
+              "description": "卵サラダをやわらかな食パンで挟んだサンド。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-5",
+              "name": "レジ横チキン",
+              "price": 250,
+              "description": "胡椒をきかせた衣の骨なしフライドチキン。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-2-section-2",
+          "title": "飲料・お菓子",
+          "items": [
+            {
+              "id": "convenience-store-2-item-6",
+              "name": "天然水 500ml",
+              "price": 120,
+              "description": "持ち歩きやすいペットボトル入りの水。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-7",
+              "name": "緑茶 600ml",
+              "price": 150,
+              "description": "食事にも合う、無糖の緑茶。",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-2-item-8",
+              "name": "缶コーヒー",
+              "price": 140,
+              "description": "ミルク入りの甘さ控えめコーヒー。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-9",
+              "name": "カスタードプリン",
+              "price": 220,
+              "description": "食後にちょうどよいカップ入りプリン。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-10",
+              "name": "ポテトチップス",
+              "price": 180,
+              "description": "じゃがいもの風味が生きるうす塩味。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-2-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "convenience-store-2-item-11",
+              "name": "歯ブラシセット",
+              "price": 360,
+              "description": "小さな歯磨き粉付きの携帯セット。",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-2-item-12",
+              "name": "ポケットティッシュ 六個",
+              "price": 150,
+              "description": "外出先で便利な六個入りパック。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-13",
+              "name": "ビニール傘",
+              "price": 770,
+              "description": "急な雨に。透明タイプ、親骨60cm。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-14",
+              "name": "単三電池 四本",
+              "price": 550,
+              "description": "日用品や小型機器に使うアルカリ乾電池。",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-item-15",
+              "name": "黒ボールペン",
+              "price": 160,
+              "description": "文房具の定番、0.5mmの油性ペン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

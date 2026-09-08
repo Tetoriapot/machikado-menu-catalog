@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "donut",
+    "label": "ドーナツ店",
+    "group": "テイクアウト",
+    "icon": "circle"
+  },
+  "shops": [
+    {
+      "id": "donut-1",
+      "name": "ドーナツ まるい日",
+      "category": "donut",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "丸いドーナツがトレーに並ぶ小さな店。揚げたての時間に合わせて訪れる常連も多い。",
+      "openingHours": "9:00〜19:00",
+      "menuSections": [
+        {
+          "id": "donut-1-section-1",
+          "title": "定番ドーナツ",
+          "items": [
+            {
+              "id": "donut-1-item-1",
+              "name": "シュガーリング",
+              "price": 170,
+              "description": "ふわっとした生地に砂糖をまぶして。",
+              "recommended": true
+            },
+            {
+              "id": "donut-1-item-2",
+              "name": "チョコリング",
+              "price": 210,
+              "description": "チョコで表面をコーティング。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-3",
+              "name": "オールドファッション",
+              "price": 190,
+              "description": "さっくり食感の素朴な一個。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-4",
+              "name": "シナモンシュガー",
+              "price": 190,
+              "description": "シナモンの香りをまとわせて。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-5",
+              "name": "きな粉ドーナツ",
+              "price": 190,
+              "description": "香ばしいきな粉をたっぷり。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "donut-1-section-2",
+          "title": "クリーム・季節",
+          "items": [
+            {
+              "id": "donut-1-item-6",
+              "name": "カスタードドーナツ",
+              "price": 260,
+              "description": "中にカスタードクリームを詰めて。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-7",
+              "name": "ホイップドーナツ",
+              "price": 260,
+              "description": "軽やかなクリーム入り。",
+              "recommended": true
+            },
+            {
+              "id": "donut-1-item-8",
+              "name": "いちごミルク",
+              "price": 280,
+              "description": "いちご風味の甘いグレーズ。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-9",
+              "name": "レモンケーキドーナツ",
+              "price": 250,
+              "description": "レモンの皮が香る生地。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-10",
+              "name": "あんバタードーナツ",
+              "price": 300,
+              "description": "粒あんとバターを挟んだ一個。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "donut-1-section-3",
+          "title": "セット・飲料",
+          "items": [
+            {
+              "id": "donut-1-item-11",
+              "name": "小粒ドーナツ 六個",
+              "price": 330,
+              "description": "つまみやすい小さな丸型。",
+              "recommended": true
+            },
+            {
+              "id": "donut-1-item-12",
+              "name": "おまかせ六個箱",
+              "price": 1180,
+              "description": "定番から六個を詰め合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-13",
+              "name": "ブレンドコーヒー",
+              "price": 300,
+              "description": "揚げ菓子に合う深煎り。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-14",
+              "name": "カフェオレ",
+              "price": 350,
+              "description": "ミルクたっぷりの一杯。",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-item-15",
+              "name": "牛乳",
+              "price": 250,
+              "description": "冷たいミルクをカップで。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "donut-2",
+      "name": "こな輪堂",
+      "category": "donut",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅から少し離れたドーナツ屋。牛乳と合わせたい、素朴な甘さのお菓子を作っている。",
+      "openingHours": "9:00〜19:00",
+      "menuSections": [
+        {
+          "id": "donut-2-section-1",
+          "title": "定番ドーナツ",
+          "items": [
+            {
+              "id": "donut-2-item-1",
+              "name": "黒糖リング",
+              "price": 240,
+              "description": "黒糖蜜の深い甘みをまとった一個。",
+              "recommended": true
+            },
+            {
+              "id": "donut-2-item-2",
+              "name": "チョコリング",
+              "price": 230,
+              "description": "チョコで表面をコーティング。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-3",
+              "name": "オールドファッション",
+              "price": 210,
+              "description": "さっくり食感の素朴な一個。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-4",
+              "name": "シナモンシュガー",
+              "price": 210,
+              "description": "シナモンの香りをまとわせて。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-5",
+              "name": "きな粉ドーナツ",
+              "price": 210,
+              "description": "香ばしいきな粉をたっぷり。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "donut-2-section-2",
+          "title": "クリーム・季節",
+          "items": [
+            {
+              "id": "donut-2-item-6",
+              "name": "カスタードドーナツ",
+              "price": 290,
+              "description": "中にカスタードクリームを詰めて。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-7",
+              "name": "ホイップドーナツ",
+              "price": 290,
+              "description": "軽やかなクリーム入り。",
+              "recommended": true
+            },
+            {
+              "id": "donut-2-item-8",
+              "name": "いちごミルク",
+              "price": 310,
+              "description": "いちご風味の甘いグレーズ。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-9",
+              "name": "レモンケーキドーナツ",
+              "price": 280,
+              "description": "レモンの皮が香る生地。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-10",
+              "name": "あんバタードーナツ",
+              "price": 330,
+              "description": "粒あんとバターを挟んだ一個。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "donut-2-section-3",
+          "title": "セット・飲料",
+          "items": [
+            {
+              "id": "donut-2-item-11",
+              "name": "小粒ドーナツ 六個",
+              "price": 360,
+              "description": "つまみやすい小さな丸型。",
+              "recommended": true
+            },
+            {
+              "id": "donut-2-item-12",
+              "name": "おまかせ六個箱",
+              "price": 1300,
+              "description": "定番から六個を詰め合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-13",
+              "name": "ブレンドコーヒー",
+              "price": 330,
+              "description": "揚げ菓子に合う深煎り。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-14",
+              "name": "カフェオレ",
+              "price": 390,
+              "description": "ミルクたっぷりの一杯。",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-item-15",
+              "name": "牛乳",
+              "price": 280,
+              "description": "冷たいミルクをカップで。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

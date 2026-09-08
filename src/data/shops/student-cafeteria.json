@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "student-cafeteria",
+    "label": "学食",
+    "group": "施設・娯楽",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "student-cafeteria-1",
+      "name": "汀川大学 第一食堂",
+      "category": "student-cafeteria",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "very-cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "昼休みの学生で賑わう大学食堂。トレーを持って並び、今日のおかずを選ぶ。",
+      "openingHours": "10:30〜19:00（平日）",
+      "menuSections": [
+        {
+          "id": "student-cafeteria-1-section-1",
+          "title": "ご飯・定食",
+          "items": [
+            {
+              "id": "student-cafeteria-1-item-1",
+              "name": "日替わり定食",
+              "price": 480,
+              "description": "主菜と小鉢、ご飯、味噌汁。",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-1-item-2",
+              "name": "唐揚げ定食",
+              "price": 520,
+              "description": "鶏唐揚げとたっぷりキャベツ。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-3",
+              "name": "カレーライス",
+              "price": 350,
+              "description": "食べやすい辛さのカレー。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-4",
+              "name": "カツカレー",
+              "price": 550,
+              "description": "カレーに揚げたてカツを追加。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-5",
+              "name": "親子丼",
+              "price": 450,
+              "description": "鶏肉と卵のやさしい丼。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-1-section-2",
+          "title": "麺・小鉢",
+          "items": [
+            {
+              "id": "student-cafeteria-1-item-6",
+              "name": "かけうどん",
+              "price": 280,
+              "description": "温かい出汁のうどん。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-7",
+              "name": "醤油ラーメン",
+              "price": 380,
+              "description": "チャーシュー一枚入りの定番麺。",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-1-item-8",
+              "name": "冷奴",
+              "price": 90,
+              "description": "薬味付きの小さな豆腐。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-9",
+              "name": "ひじき小鉢",
+              "price": 100,
+              "description": "ご飯に添える煮物。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-10",
+              "name": "野菜サラダ",
+              "price": 150,
+              "description": "ドレッシング付きの小皿。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-1-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "id": "student-cafeteria-1-item-11",
+              "name": "プリン",
+              "price": 130,
+              "description": "トレーにのる小さなカップ。",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-1-item-12",
+              "name": "ヨーグルト",
+              "price": 100,
+              "description": "個食サイズの乳製品。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-13",
+              "name": "コーヒー",
+              "price": 160,
+              "description": "紙コップで提供する珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-14",
+              "name": "オレンジジュース",
+              "price": 150,
+              "description": "小さなカップの果汁飲料。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-item-15",
+              "name": "牛乳",
+              "price": 110,
+              "description": "200mlの紙パック。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student-cafeteria-2",
+      "name": "白森キャンパス 食堂",
+      "category": "student-cafeteria",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "very-cheap",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "中庭に面した明るい学食。ノートを広げる学生の隣に、温かい定食が運ばれる。",
+      "openingHours": "10:30〜19:00（平日）",
+      "menuSections": [
+        {
+          "id": "student-cafeteria-2-section-1",
+          "title": "ご飯・定食",
+          "items": [
+            {
+              "id": "student-cafeteria-2-item-1",
+              "name": "鯖味噌定食",
+              "price": 620,
+              "description": "鯖の味噌煮とご飯、小鉢。",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-2-item-2",
+              "name": "唐揚げ定食",
+              "price": 570,
+              "description": "鶏唐揚げとたっぷりキャベツ。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-3",
+              "name": "カレーライス",
+              "price": 390,
+              "description": "食べやすい辛さのカレー。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-4",
+              "name": "カツカレー",
+              "price": 610,
+              "description": "カレーに揚げたてカツを追加。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-5",
+              "name": "親子丼",
+              "price": 500,
+              "description": "鶏肉と卵のやさしい丼。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-2-section-2",
+          "title": "麺・小鉢",
+          "items": [
+            {
+              "id": "student-cafeteria-2-item-6",
+              "name": "かけうどん",
+              "price": 310,
+              "description": "温かい出汁のうどん。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-7",
+              "name": "醤油ラーメン",
+              "price": 420,
+              "description": "チャーシュー一枚入りの定番麺。",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-2-item-8",
+              "name": "冷奴",
+              "price": 100,
+              "description": "薬味付きの小さな豆腐。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-9",
+              "name": "ひじき小鉢",
+              "price": 110,
+              "description": "ご飯に添える煮物。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-10",
+              "name": "野菜サラダ",
+              "price": 170,
+              "description": "ドレッシング付きの小皿。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-2-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "id": "student-cafeteria-2-item-11",
+              "name": "プリン",
+              "price": 140,
+              "description": "トレーにのる小さなカップ。",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-2-item-12",
+              "name": "ヨーグルト",
+              "price": 110,
+              "description": "個食サイズの乳製品。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-13",
+              "name": "コーヒー",
+              "price": 180,
+              "description": "紙コップで提供する珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-14",
+              "name": "オレンジジュース",
+              "price": 170,
+              "description": "小さなカップの果汁飲料。",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-item-15",
+              "name": "牛乳",
+              "price": 120,
+              "description": "200mlの紙パック。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

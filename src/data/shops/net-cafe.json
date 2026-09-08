@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "net-cafe",
+    "label": "ネットカフェ",
+    "group": "施設・娯楽",
+    "icon": "monitor"
+  },
+  "shops": [
+    {
+      "id": "net-cafe-1",
+      "name": "ネットラウンジ 夜舟",
+      "category": "net-cafe",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "駅近くのネットカフェ。仕切られた席で漫画を読んだり、短い休憩を取ったりできる。",
+      "openingHours": "24時間",
+      "menuSections": [
+        {
+          "id": "net-cafe-1-section-1",
+          "title": "利用料金 一人",
+          "items": [
+            {
+              "id": "net-cafe-1-item-1",
+              "name": "基本三十分",
+              "price": 280,
+              "description": "ブース一席の利用料金。",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-1-item-2",
+              "name": "延長十分",
+              "price": 100,
+              "description": "基本料金への追加分。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-3",
+              "name": "三時間パック",
+              "price": 1180,
+              "description": "受付から三時間までの利用。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-4",
+              "name": "六時間パック",
+              "price": 1880,
+              "description": "長めの滞在向けの料金。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-5",
+              "name": "ナイト八時間",
+              "price": 2200,
+              "description": "20〜翌4時入店限定の八時間利用。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-1-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "id": "net-cafe-1-item-6",
+              "name": "ビーフカレー",
+              "price": 580,
+              "description": "温かいご飯に定番のカレー。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-7",
+              "name": "唐揚げ丼",
+              "price": 650,
+              "description": "唐揚げと甘辛だれの丼。",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-1-item-8",
+              "name": "ミートソースパスタ",
+              "price": 620,
+              "description": "食べやすいミートパスタ。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-9",
+              "name": "フライドポテト",
+              "price": 350,
+              "description": "軽食にちょうどよい一皿。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-10",
+              "name": "ホットドッグ",
+              "price": 380,
+              "description": "ソーセージを挟んだ温かいパン。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-1-section-3",
+          "title": "追加サービス",
+          "items": [
+            {
+              "id": "net-cafe-1-item-11",
+              "name": "シャワー 三十分",
+              "price": 330,
+              "description": "タオルは別売りの設備利用。",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-1-item-12",
+              "name": "タオル販売",
+              "price": 220,
+              "description": "シャワー向けの小さなタオル。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-13",
+              "name": "歯磨きセット",
+              "price": 165,
+              "description": "使い切りの歯磨きセット。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-14",
+              "name": "白黒印刷 一枚",
+              "price": 20,
+              "description": "A4片面一枚の料金。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-item-15",
+              "name": "カラー印刷 一枚",
+              "price": 60,
+              "description": "A4片面一枚の料金。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "net-cafe-2",
+      "name": "コミック&ネット すみか窓",
+      "category": "net-cafe",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "national-chain",
+      "description": "大通りに面した静かなラウンジ。パソコン席とリクライニング席が奥へ続く。",
+      "openingHours": "24時間",
+      "menuSections": [
+        {
+          "id": "net-cafe-2-section-1",
+          "title": "利用料金 一人",
+          "items": [
+            {
+              "id": "net-cafe-2-item-1",
+              "name": "九十分パック",
+              "price": 750,
+              "description": "短い休憩向けの席利用。",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-2-item-2",
+              "name": "延長十分",
+              "price": 110,
+              "description": "基本料金への追加分。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-3",
+              "name": "三時間パック",
+              "price": 1300,
+              "description": "受付から三時間までの利用。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-4",
+              "name": "六時間パック",
+              "price": 2070,
+              "description": "長めの滞在向けの料金。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-5",
+              "name": "ナイト八時間",
+              "price": 2420,
+              "description": "20〜翌4時入店限定の八時間利用。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-2-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "id": "net-cafe-2-item-6",
+              "name": "ビーフカレー",
+              "price": 640,
+              "description": "温かいご飯に定番のカレー。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-7",
+              "name": "唐揚げ丼",
+              "price": 720,
+              "description": "唐揚げと甘辛だれの丼。",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-2-item-8",
+              "name": "ミートソースパスタ",
+              "price": 680,
+              "description": "食べやすいミートパスタ。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-9",
+              "name": "フライドポテト",
+              "price": 390,
+              "description": "軽食にちょうどよい一皿。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-10",
+              "name": "ホットドッグ",
+              "price": 420,
+              "description": "ソーセージを挟んだ温かいパン。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-2-section-3",
+          "title": "追加サービス",
+          "items": [
+            {
+              "id": "net-cafe-2-item-11",
+              "name": "シャワー 三十分",
+              "price": 360,
+              "description": "タオルは別売りの設備利用。",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-2-item-12",
+              "name": "タオル販売",
+              "price": 240,
+              "description": "シャワー向けの小さなタオル。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-13",
+              "name": "歯磨きセット",
+              "price": 180,
+              "description": "使い切りの歯磨きセット。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-14",
+              "name": "白黒印刷 一枚",
+              "price": 20,
+              "description": "A4片面一枚の料金。",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-item-15",
+              "name": "カラー印刷 一枚",
+              "price": 70,
+              "description": "A4片面一枚の料金。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

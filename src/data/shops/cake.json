@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "cake",
+    "label": "ケーキ屋",
+    "group": "テイクアウト",
+    "icon": "cake"
+  },
+  "shops": [
+    {
+      "id": "cake-1",
+      "name": "菓子工房 小鳥雨",
+      "category": "cake",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "白いショーケースに小さなケーキが並ぶ洋菓子店。誕生日の相談に訪れる家族も多い。",
+      "openingHours": "10:00〜19:00",
+      "menuSections": [
+        {
+          "id": "cake-1-section-1",
+          "title": "ケーキ 一切",
+          "items": [
+            {
+              "id": "cake-1-item-1",
+              "name": "いちごショート",
+              "price": 580,
+              "description": "生クリームといちごの定番ケーキ。",
+              "recommended": true
+            },
+            {
+              "id": "cake-1-item-2",
+              "name": "チョコレートケーキ",
+              "price": 560,
+              "description": "なめらかなガナッシュを重ねて。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-3",
+              "name": "モンブラン",
+              "price": 620,
+              "description": "栗のクリームをたっぷり絞って。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-4",
+              "name": "ベイクドチーズケーキ",
+              "price": 520,
+              "description": "しっとり焼いたチーズのケーキ。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-5",
+              "name": "フルーツタルト",
+              "price": 650,
+              "description": "季節の果実を彩りよく。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cake-1-section-2",
+          "title": "カップ・シュー",
+          "items": [
+            {
+              "id": "cake-1-item-6",
+              "name": "カスタードプリン",
+              "price": 320,
+              "description": "卵の風味を生かした瓶入りプリン。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-7",
+              "name": "シュークリーム",
+              "price": 280,
+              "description": "香ばしい皮にたっぷりクリーム。",
+              "recommended": true
+            },
+            {
+              "id": "cake-1-item-8",
+              "name": "コーヒーゼリー",
+              "price": 350,
+              "description": "珈琲の苦味とミルクの甘み。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-9",
+              "name": "パンナコッタ",
+              "price": 380,
+              "description": "生クリームのやさしいミルクデザート。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-10",
+              "name": "レアチーズカップ",
+              "price": 420,
+              "description": "小さなカップに入れたチーズムース。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cake-1-section-3",
+          "title": "焼き菓子",
+          "items": [
+            {
+              "id": "cake-1-item-11",
+              "name": "フィナンシェ",
+              "price": 220,
+              "description": "焦がしバターとアーモンドの焼き菓子。",
+              "recommended": true
+            },
+            {
+              "id": "cake-1-item-12",
+              "name": "マドレーヌ",
+              "price": 200,
+              "description": "貝殻型のしっとりしたお菓子。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-13",
+              "name": "クッキー 三枚",
+              "price": 240,
+              "description": "さくさくのバタークッキー。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-14",
+              "name": "パウンドケーキ 一切",
+              "price": 280,
+              "description": "ドライフルーツを混ぜた焼き菓子。",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-item-15",
+              "name": "焼き菓子詰め合わせ",
+              "price": 1650,
+              "description": "贈り物に使える六個入り。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cake-2",
+      "name": "パティスリー 月のしずく",
+      "category": "cake",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "裏通りの小さな菓子店。焼き菓子の缶と、色とりどりのケーキが迎えてくれる。",
+      "openingHours": "10:00〜19:00",
+      "menuSections": [
+        {
+          "id": "cake-2-section-1",
+          "title": "ケーキ 一切",
+          "items": [
+            {
+              "id": "cake-2-item-1",
+              "name": "洋梨のタルト",
+              "price": 750,
+              "description": "柔らかく煮た洋梨を重ねたタルト。",
+              "recommended": true
+            },
+            {
+              "id": "cake-2-item-2",
+              "name": "チョコレートケーキ",
+              "price": 620,
+              "description": "なめらかなガナッシュを重ねて。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-3",
+              "name": "モンブラン",
+              "price": 680,
+              "description": "栗のクリームをたっぷり絞って。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-4",
+              "name": "ベイクドチーズケーキ",
+              "price": 570,
+              "description": "しっとり焼いたチーズのケーキ。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-5",
+              "name": "フルーツタルト",
+              "price": 720,
+              "description": "季節の果実を彩りよく。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cake-2-section-2",
+          "title": "カップ・シュー",
+          "items": [
+            {
+              "id": "cake-2-item-6",
+              "name": "カスタードプリン",
+              "price": 350,
+              "description": "卵の風味を生かした瓶入りプリン。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-7",
+              "name": "シュークリーム",
+              "price": 310,
+              "description": "香ばしい皮にたっぷりクリーム。",
+              "recommended": true
+            },
+            {
+              "id": "cake-2-item-8",
+              "name": "コーヒーゼリー",
+              "price": 390,
+              "description": "珈琲の苦味とミルクの甘み。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-9",
+              "name": "パンナコッタ",
+              "price": 420,
+              "description": "生クリームのやさしいミルクデザート。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-10",
+              "name": "レアチーズカップ",
+              "price": 460,
+              "description": "小さなカップに入れたチーズムース。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cake-2-section-3",
+          "title": "焼き菓子",
+          "items": [
+            {
+              "id": "cake-2-item-11",
+              "name": "フィナンシェ",
+              "price": 240,
+              "description": "焦がしバターとアーモンドの焼き菓子。",
+              "recommended": true
+            },
+            {
+              "id": "cake-2-item-12",
+              "name": "マドレーヌ",
+              "price": 220,
+              "description": "貝殻型のしっとりしたお菓子。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-13",
+              "name": "クッキー 三枚",
+              "price": 260,
+              "description": "さくさくのバタークッキー。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-14",
+              "name": "パウンドケーキ 一切",
+              "price": 310,
+              "description": "ドライフルーツを混ぜた焼き菓子。",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-item-15",
+              "name": "焼き菓子詰め合わせ",
+              "price": 1820,
+              "description": "贈り物に使える六個入り。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

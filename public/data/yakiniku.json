@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "yakiniku",
+    "label": "焼肉屋",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "yakiniku-1",
+      "name": "焼肉 ほむら庭",
+      "category": "yakiniku",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "家族連れで賑わう郊外の焼肉店。甘めの自家製だれと大皿の盛り合わせが評判。",
+      "openingHours": "17:00〜23:00",
+      "menuSections": [
+        {
+          "id": "yakiniku-1-section-1",
+          "title": "お肉",
+          "items": [
+            {
+              "id": "yakiniku-1-item-1",
+              "name": "牛カルビ",
+              "price": 980,
+              "description": "甘い脂が広がる定番部位。",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-1-item-2",
+              "name": "牛ロース",
+              "price": 1080,
+              "description": "赤身の旨みを楽しむ薄切り。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-3",
+              "name": "ねぎ塩タン",
+              "price": 1280,
+              "description": "刻みねぎとレモンを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-4",
+              "name": "豚トロ",
+              "price": 680,
+              "description": "歯ごたえのよい豚の首肉。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-5",
+              "name": "鶏もも味噌だれ",
+              "price": 580,
+              "description": "味噌だれに漬け込んだ鶏肉。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-1-section-2",
+          "title": "野菜・ご飯",
+          "items": [
+            {
+              "id": "yakiniku-1-item-6",
+              "name": "焼き野菜盛り",
+              "price": 580,
+              "description": "玉ねぎ、かぼちゃ、ピーマンの盛り合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-7",
+              "name": "白菜キムチ",
+              "price": 380,
+              "description": "ほどよい辛さの発酵白菜。",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-1-item-8",
+              "name": "ナムル盛り",
+              "price": 480,
+              "description": "もやしや青菜の和え物。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-9",
+              "name": "石焼きビビンバ",
+              "price": 880,
+              "description": "熱い石鍋でおこげを作る混ぜご飯。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-10",
+              "name": "冷麺",
+              "price": 850,
+              "description": "歯ごたえのある麺と冷たいスープ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "id": "yakiniku-1-item-11",
+              "name": "生ビール",
+              "price": 580,
+              "description": "焼肉に合わせる中ジョッキ。",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-1-item-12",
+              "name": "レモンサワー",
+              "price": 480,
+              "description": "すっきりしたレモンの炭酸割り。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-13",
+              "name": "ウーロン茶",
+              "price": 280,
+              "description": "大きめグラスの冷茶。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-14",
+              "name": "バニラアイス",
+              "price": 280,
+              "description": "締めにうれしい小さな甘味。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-item-15",
+              "name": "柚子シャーベット",
+              "price": 300,
+              "description": "柚子皮の香りが残るさっぱり味。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yakiniku-2",
+      "name": "炭火焼肉 夕星",
+      "category": "yakiniku",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "路地裏の小さな炭火焼肉店。カウンター席では一人分から気軽に注文できる。",
+      "openingHours": "17:00〜23:00",
+      "menuSections": [
+        {
+          "id": "yakiniku-2-section-1",
+          "title": "お肉",
+          "items": [
+            {
+              "id": "yakiniku-2-item-1",
+              "name": "厚切りハラミ",
+              "price": 1520,
+              "description": "食べごたえのある厚切り肉を特製だれで。",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-2-item-2",
+              "name": "牛ロース",
+              "price": 1190,
+              "description": "赤身の旨みを楽しむ薄切り。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-3",
+              "name": "ねぎ塩タン",
+              "price": 1410,
+              "description": "刻みねぎとレモンを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-4",
+              "name": "豚トロ",
+              "price": 750,
+              "description": "歯ごたえのよい豚の首肉。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-5",
+              "name": "鶏もも味噌だれ",
+              "price": 640,
+              "description": "味噌だれに漬け込んだ鶏肉。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-2-section-2",
+          "title": "野菜・ご飯",
+          "items": [
+            {
+              "id": "yakiniku-2-item-6",
+              "name": "焼き野菜盛り",
+              "price": 640,
+              "description": "玉ねぎ、かぼちゃ、ピーマンの盛り合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-7",
+              "name": "白菜キムチ",
+              "price": 420,
+              "description": "ほどよい辛さの発酵白菜。",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-2-item-8",
+              "name": "ナムル盛り",
+              "price": 530,
+              "description": "もやしや青菜の和え物。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-9",
+              "name": "石焼きビビンバ",
+              "price": 970,
+              "description": "熱い石鍋でおこげを作る混ぜご飯。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-10",
+              "name": "冷麺",
+              "price": 940,
+              "description": "歯ごたえのある麺と冷たいスープ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "id": "yakiniku-2-item-11",
+              "name": "生ビール",
+              "price": 640,
+              "description": "焼肉に合わせる中ジョッキ。",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-2-item-12",
+              "name": "レモンサワー",
+              "price": 530,
+              "description": "すっきりしたレモンの炭酸割り。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-13",
+              "name": "ウーロン茶",
+              "price": 310,
+              "description": "大きめグラスの冷茶。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-14",
+              "name": "バニラアイス",
+              "price": 310,
+              "description": "締めにうれしい小さな甘味。",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-item-15",
+              "name": "柚子シャーベット",
+              "price": 330,
+              "description": "柚子皮の香りが残るさっぱり味。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

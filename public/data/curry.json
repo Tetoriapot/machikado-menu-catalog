@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "curry",
+    "label": "カレー屋",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "curry-1",
+      "name": "スパイス小屋 茜匙",
+      "category": "curry",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "カウンターだけのカレー屋。鍋から立ちのぼるスパイスの香りが通りの目印。",
+      "openingHours": "11:00〜21:00",
+      "menuSections": [
+        {
+          "id": "curry-1-section-1",
+          "title": "カレー",
+          "items": [
+            {
+              "id": "curry-1-item-1",
+              "name": "チキンカレー",
+              "price": 980,
+              "description": "玉ねぎとスパイスで煮込んだ鶏カレー。",
+              "recommended": true
+            },
+            {
+              "id": "curry-1-item-2",
+              "name": "キーマカレー",
+              "price": 950,
+              "description": "挽肉の旨みと香辛料の香り。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-3",
+              "name": "豆カレー",
+              "price": 850,
+              "description": "レンズ豆を柔らかく煮込んだ一皿。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-4",
+              "name": "野菜カレー",
+              "price": 980,
+              "description": "彩り野菜をたっぷり添えて。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-5",
+              "name": "あいがけカレー",
+              "price": 1280,
+              "description": "二種類のカレーを一皿で。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "curry-1-section-2",
+          "title": "追加・副菜",
+          "items": [
+            {
+              "id": "curry-1-item-6",
+              "name": "ゆで卵",
+              "price": 100,
+              "description": "カレーに添える追加の卵。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-7",
+              "name": "チーズ",
+              "price": 180,
+              "description": "まろやかさを加えるトッピング。",
+              "recommended": true
+            },
+            {
+              "id": "curry-1-item-8",
+              "name": "タンドリー風チキン",
+              "price": 480,
+              "description": "ヨーグルトと香辛料に漬けて焼いた鶏肉。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-9",
+              "name": "にんじんのアチャール",
+              "price": 220,
+              "description": "スパイスと酢で和えた副菜。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-10",
+              "name": "ライス大盛り",
+              "price": 120,
+              "description": "ご飯を増量するオプション。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "curry-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "id": "curry-1-item-11",
+              "name": "ラッシー",
+              "price": 380,
+              "description": "ヨーグルトのさわやかな飲みもの。",
+              "recommended": true
+            },
+            {
+              "id": "curry-1-item-12",
+              "name": "マンゴーラッシー",
+              "price": 450,
+              "description": "マンゴーの甘みを加えた一杯。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-13",
+              "name": "チャイ",
+              "price": 420,
+              "description": "生姜とスパイスを煮出したミルクティー。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-14",
+              "name": "アイスコーヒー",
+              "price": 350,
+              "description": "食後に合う苦味のある珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-item-15",
+              "name": "カルダモンプリン",
+              "price": 420,
+              "description": "香辛料をほんのりきかせたプリン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curry-2",
+      "name": "カレー食堂 晴粒",
+      "category": "curry",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "壁に旅の写真が並ぶカレー食堂。やさしい辛さからしっかり辛口まで選べる。",
+      "openingHours": "11:00〜21:00",
+      "menuSections": [
+        {
+          "id": "curry-2-section-1",
+          "title": "カレー",
+          "items": [
+            {
+              "id": "curry-2-item-1",
+              "name": "黒胡椒ポークカレー",
+              "price": 1230,
+              "description": "柔らかな豚肉と粗挽き胡椒のカレー。",
+              "recommended": true
+            },
+            {
+              "id": "curry-2-item-2",
+              "name": "キーマカレー",
+              "price": 1050,
+              "description": "挽肉の旨みと香辛料の香り。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-3",
+              "name": "豆カレー",
+              "price": 940,
+              "description": "レンズ豆を柔らかく煮込んだ一皿。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-4",
+              "name": "野菜カレー",
+              "price": 1080,
+              "description": "彩り野菜をたっぷり添えて。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-5",
+              "name": "あいがけカレー",
+              "price": 1410,
+              "description": "二種類のカレーを一皿で。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "curry-2-section-2",
+          "title": "追加・副菜",
+          "items": [
+            {
+              "id": "curry-2-item-6",
+              "name": "ゆで卵",
+              "price": 110,
+              "description": "カレーに添える追加の卵。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-7",
+              "name": "チーズ",
+              "price": 200,
+              "description": "まろやかさを加えるトッピング。",
+              "recommended": true
+            },
+            {
+              "id": "curry-2-item-8",
+              "name": "タンドリー風チキン",
+              "price": 530,
+              "description": "ヨーグルトと香辛料に漬けて焼いた鶏肉。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-9",
+              "name": "にんじんのアチャール",
+              "price": 240,
+              "description": "スパイスと酢で和えた副菜。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-10",
+              "name": "ライス大盛り",
+              "price": 130,
+              "description": "ご飯を増量するオプション。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "curry-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "id": "curry-2-item-11",
+              "name": "ラッシー",
+              "price": 420,
+              "description": "ヨーグルトのさわやかな飲みもの。",
+              "recommended": true
+            },
+            {
+              "id": "curry-2-item-12",
+              "name": "マンゴーラッシー",
+              "price": 500,
+              "description": "マンゴーの甘みを加えた一杯。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-13",
+              "name": "チャイ",
+              "price": 460,
+              "description": "生姜とスパイスを煮出したミルクティー。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-14",
+              "name": "アイスコーヒー",
+              "price": 390,
+              "description": "食後に合う苦味のある珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-item-15",
+              "name": "カルダモンプリン",
+              "price": 460,
+              "description": "香辛料をほんのりきかせたプリン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

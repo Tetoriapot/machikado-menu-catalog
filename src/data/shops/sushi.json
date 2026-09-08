@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "sushi",
+    "label": "寿司屋",
+    "group": "飲食店",
+    "icon": "fish"
+  },
+  "shops": [
+    {
+      "id": "sushi-1",
+      "name": "鮨 水緒",
+      "category": "sushi",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "luxury",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "upscale",
+      "description": "木のカウンター越しに仕事が見える寿司屋。昼は握りのセット、夜は肴をゆっくり楽しめる。",
+      "openingHours": "11:30〜14:00 / 17:00〜22:00",
+      "menuSections": [
+        {
+          "id": "sushi-1-section-1",
+          "title": "握り・丼",
+          "items": [
+            {
+              "id": "sushi-1-item-1",
+              "name": "握り八貫",
+              "price": 2200,
+              "description": "白身、まぐろ、海老などの盛り合わせ。",
+              "recommended": true
+            },
+            {
+              "id": "sushi-1-item-2",
+              "name": "上握り十貫",
+              "price": 3400,
+              "description": "中とろや穴子も入る贅沢な盛り合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-3",
+              "name": "ちらし寿司",
+              "price": 2100,
+              "description": "酢飯の上に色とりどりの刺身。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-4",
+              "name": "まぐろ漬け丼",
+              "price": 1800,
+              "description": "醤油だれに漬けたまぐろをたっぷり。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-5",
+              "name": "穴子重",
+              "price": 2400,
+              "description": "ふっくら煮た穴子に甘だれ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "sushi-1-section-2",
+          "title": "巻物・一品",
+          "items": [
+            {
+              "id": "sushi-1-item-6",
+              "name": "鉄火巻",
+              "price": 680,
+              "description": "まぐろの赤身を細巻きに。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-7",
+              "name": "かっぱ巻",
+              "price": 380,
+              "description": "きゅうりの歯ごたえを楽しむ細巻き。",
+              "recommended": true
+            },
+            {
+              "id": "sushi-1-item-8",
+              "name": "だし巻き卵",
+              "price": 580,
+              "description": "出汁のきいた店仕込みの玉子焼き。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-9",
+              "name": "茶碗蒸し",
+              "price": 650,
+              "description": "海老と銀杏入りのなめらかな蒸し物。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-10",
+              "name": "あら汁",
+              "price": 480,
+              "description": "魚のあらから旨みを引き出した汁物。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "sushi-1-section-3",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "sushi-1-item-11",
+              "name": "生ビール",
+              "price": 680,
+              "description": "冷えた薄手のグラスで。",
+              "recommended": true
+            },
+            {
+              "id": "sushi-1-item-12",
+              "name": "日本酒 一合",
+              "price": 850,
+              "description": "魚に合う辛口の純米酒。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-13",
+              "name": "梅酒",
+              "price": 650,
+              "description": "ロックまたは炭酸割りで。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-14",
+              "name": "ノンアルコールビール",
+              "price": 480,
+              "description": "瓶で提供する麦芽飲料。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-item-15",
+              "name": "柚子ソーダ",
+              "price": 380,
+              "description": "柚子蜜を炭酸で割った一杯。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sushi-2",
+      "name": "寿司処 汀舟",
+      "category": "sushi",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "luxury",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "upscale",
+      "description": "川沿いの静かな寿司処。小上がり席では家族の祝い事や地元の集まりが開かれる。",
+      "openingHours": "11:30〜14:00 / 17:00〜22:00",
+      "menuSections": [
+        {
+          "id": "sushi-2-section-1",
+          "title": "握り・丼",
+          "items": [
+            {
+              "id": "sushi-2-item-1",
+              "name": "白身握り五貫",
+              "price": 2640,
+              "description": "昆布締めを含む白身魚の食べ比べ。",
+              "recommended": true
+            },
+            {
+              "id": "sushi-2-item-2",
+              "name": "上握り十貫",
+              "price": 3740,
+              "description": "中とろや穴子も入る贅沢な盛り合わせ。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-3",
+              "name": "ちらし寿司",
+              "price": 2310,
+              "description": "酢飯の上に色とりどりの刺身。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-4",
+              "name": "まぐろ漬け丼",
+              "price": 1980,
+              "description": "醤油だれに漬けたまぐろをたっぷり。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-5",
+              "name": "穴子重",
+              "price": 2640,
+              "description": "ふっくら煮た穴子に甘だれ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "sushi-2-section-2",
+          "title": "巻物・一品",
+          "items": [
+            {
+              "id": "sushi-2-item-6",
+              "name": "鉄火巻",
+              "price": 750,
+              "description": "まぐろの赤身を細巻きに。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-7",
+              "name": "かっぱ巻",
+              "price": 420,
+              "description": "きゅうりの歯ごたえを楽しむ細巻き。",
+              "recommended": true
+            },
+            {
+              "id": "sushi-2-item-8",
+              "name": "だし巻き卵",
+              "price": 640,
+              "description": "出汁のきいた店仕込みの玉子焼き。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-9",
+              "name": "茶碗蒸し",
+              "price": 720,
+              "description": "海老と銀杏入りのなめらかな蒸し物。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-10",
+              "name": "あら汁",
+              "price": 530,
+              "description": "魚のあらから旨みを引き出した汁物。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "sushi-2-section-3",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "sushi-2-item-11",
+              "name": "生ビール",
+              "price": 750,
+              "description": "冷えた薄手のグラスで。",
+              "recommended": true
+            },
+            {
+              "id": "sushi-2-item-12",
+              "name": "日本酒 一合",
+              "price": 940,
+              "description": "魚に合う辛口の純米酒。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-13",
+              "name": "梅酒",
+              "price": 720,
+              "description": "ロックまたは炭酸割りで。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-14",
+              "name": "ノンアルコールビール",
+              "price": 530,
+              "description": "瓶で提供する麦芽飲料。",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-item-15",
+              "name": "柚子ソーダ",
+              "price": 420,
+              "description": "柚子蜜を炭酸で割った一杯。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

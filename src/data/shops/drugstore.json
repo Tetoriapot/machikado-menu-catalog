@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "drugstore",
+    "label": "ドラッグストア",
+    "group": "小売店",
+    "icon": "cross"
+  },
+  "shops": [
+    {
+      "id": "drugstore-1",
+      "name": "くらし薬店 すみれ坂",
+      "category": "drugstore",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "食品から衛生用品まで揃う街のドラッグストア。入口には季節の日用品が並ぶ。",
+      "openingHours": "9:00〜21:00",
+      "menuSections": [
+        {
+          "id": "drugstore-1-section-1",
+          "title": "衛生用品",
+          "items": [
+            {
+              "id": "drugstore-1-item-1",
+              "name": "不織布マスク 三十枚",
+              "price": 598,
+              "description": "箱入りの使い捨てマスク。",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-1-item-2",
+              "name": "絆創膏 二十枚",
+              "price": 248,
+              "description": "持ち歩きにも便利な救急小物。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-3",
+              "name": "アルコールウェットシート",
+              "price": 198,
+              "description": "手まわりの汚れを拭くシート。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-4",
+              "name": "ガーゼ 五枚",
+              "price": 298,
+              "description": "家庭の救急箱に備える衛生用品。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-5",
+              "name": "使い捨て手袋 百枚",
+              "price": 698,
+              "description": "掃除や作業で使える手袋。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "drugstore-1-section-2",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "drugstore-1-item-6",
+              "name": "歯ブラシ",
+              "price": 178,
+              "description": "ふつうの硬さの歯ブラシ。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-7",
+              "name": "歯磨き粉",
+              "price": 298,
+              "description": "毎日の歯磨き用ペースト。",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-1-item-8",
+              "name": "シャンプー 詰め替え",
+              "price": 398,
+              "description": "日常使いの補充用パウチ。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-9",
+              "name": "洗濯洗剤",
+              "price": 498,
+              "description": "液体タイプの衣料用洗剤。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-10",
+              "name": "ハンドソープ",
+              "price": 298,
+              "description": "泡で出るポンプ式の洗浄料。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "drugstore-1-section-3",
+          "title": "食品・飲料",
+          "items": [
+            {
+              "id": "drugstore-1-item-11",
+              "name": "スポーツドリンク 500ml",
+              "price": 108,
+              "description": "運動時にも飲みやすい飲料。",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-1-item-12",
+              "name": "栄養補助ゼリー",
+              "price": 178,
+              "description": "携帯しやすいパウチ型の食品。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-13",
+              "name": "のど飴",
+              "price": 168,
+              "description": "個包装のすっきりした飴。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-14",
+              "name": "カップスープ 三袋",
+              "price": 158,
+              "description": "お湯を注いで作るスープ。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-item-15",
+              "name": "ミネラルウォーター 500ml",
+              "price": 78,
+              "description": "日常の水分補給用の水。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drugstore-2",
+      "name": "ドラッグ 翠の実",
+      "category": "drugstore",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "national-chain",
+      "description": "駅から住宅地へ向かう途中の薬店。明るい棚に旅行用の小物もまとめられている。",
+      "openingHours": "9:00〜21:00",
+      "menuSections": [
+        {
+          "id": "drugstore-2-section-1",
+          "title": "衛生用品",
+          "items": [
+            {
+              "id": "drugstore-2-item-1",
+              "name": "携帯救急ポーチ",
+              "price": 1080,
+              "description": "絆創膏とガーゼをまとめた小さなセット。",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-2-item-2",
+              "name": "絆創膏 二十枚",
+              "price": 270,
+              "description": "持ち歩きにも便利な救急小物。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-3",
+              "name": "アルコールウェットシート",
+              "price": 220,
+              "description": "手まわりの汚れを拭くシート。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-4",
+              "name": "ガーゼ 五枚",
+              "price": 330,
+              "description": "家庭の救急箱に備える衛生用品。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-5",
+              "name": "使い捨て手袋 百枚",
+              "price": 770,
+              "description": "掃除や作業で使える手袋。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "drugstore-2-section-2",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "drugstore-2-item-6",
+              "name": "歯ブラシ",
+              "price": 200,
+              "description": "ふつうの硬さの歯ブラシ。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-7",
+              "name": "歯磨き粉",
+              "price": 330,
+              "description": "毎日の歯磨き用ペースト。",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-2-item-8",
+              "name": "シャンプー 詰め替え",
+              "price": 440,
+              "description": "日常使いの補充用パウチ。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-9",
+              "name": "洗濯洗剤",
+              "price": 550,
+              "description": "液体タイプの衣料用洗剤。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-10",
+              "name": "ハンドソープ",
+              "price": 330,
+              "description": "泡で出るポンプ式の洗浄料。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "drugstore-2-section-3",
+          "title": "食品・飲料",
+          "items": [
+            {
+              "id": "drugstore-2-item-11",
+              "name": "スポーツドリンク 500ml",
+              "price": 120,
+              "description": "運動時にも飲みやすい飲料。",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-2-item-12",
+              "name": "栄養補助ゼリー",
+              "price": 200,
+              "description": "携帯しやすいパウチ型の食品。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-13",
+              "name": "のど飴",
+              "price": 180,
+              "description": "個包装のすっきりした飴。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-14",
+              "name": "カップスープ 三袋",
+              "price": 170,
+              "description": "お湯を注いで作るスープ。",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-item-15",
+              "name": "ミネラルウォーター 500ml",
+              "price": 90,
+              "description": "日常の水分補給用の水。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "general-store",
+    "label": "雑貨店",
+    "group": "小売店",
+    "icon": "gift"
+  },
+  "shops": [
+    {
+      "id": "general-store-1",
+      "name": "暮らしの余白 toko",
+      "category": "general-store",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "小さな道具をゆっくり選べる生活雑貨店。木、ガラス、布の品が並ぶ。",
+      "openingHours": "11:00〜19:00",
+      "menuSections": [
+        {
+          "id": "general-store-1-section-1",
+          "title": "食卓",
+          "items": [
+            {
+              "id": "general-store-1-item-1",
+              "name": "陶器のマグ",
+              "price": 1650,
+              "description": "釉薬の表情を楽しむ日常の器。",
+              "recommended": true
+            },
+            {
+              "id": "general-store-1-item-2",
+              "name": "木のスプーン",
+              "price": 660,
+              "description": "軽く口当たりのよい木製。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-3",
+              "name": "小皿",
+              "price": 880,
+              "description": "お菓子や薬味に使える器。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-4",
+              "name": "ガラスコップ",
+              "price": 770,
+              "description": "手になじむ小ぶりのグラス。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-5",
+              "name": "コースター 二枚",
+              "price": 550,
+              "description": "織り生地のコースター。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-1-section-2",
+          "title": "布小物",
+          "items": [
+            {
+              "id": "general-store-1-item-6",
+              "name": "リネンハンカチ",
+              "price": 1100,
+              "description": "乾きやすい麻混の布。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-7",
+              "name": "帆布ポーチ",
+              "price": 1650,
+              "description": "筆記具や小物を入れる袋。",
+              "recommended": true
+            },
+            {
+              "id": "general-store-1-item-8",
+              "name": "トートバッグ",
+              "price": 2200,
+              "description": "日常使いの薄手のかばん。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-9",
+              "name": "キッチンクロス",
+              "price": 880,
+              "description": "食器拭きにも使える布。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-10",
+              "name": "布製ブックカバー",
+              "price": 1320,
+              "description": "文庫サイズのカバー。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-1-section-3",
+          "title": "紙・香り",
+          "items": [
+            {
+              "id": "general-store-1-item-11",
+              "name": "活版カード",
+              "price": 330,
+              "description": "凹凸のある印刷を楽しむカード。",
+              "recommended": true
+            },
+            {
+              "id": "general-store-1-item-12",
+              "name": "マスキングテープ",
+              "price": 385,
+              "description": "柄入りの貼って剥がせるテープ。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-13",
+              "name": "小さなノート",
+              "price": 550,
+              "description": "無地の携帯ノート。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-14",
+              "name": "香り袋",
+              "price": 660,
+              "description": "引き出しに入れる乾燥花の袋。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-item-15",
+              "name": "キャンドル",
+              "price": 1320,
+              "description": "器入りの小さなろうそく。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-store-2",
+      "name": "雑貨室 うたかた棚",
+      "category": "general-store",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古い家を改装した雑貨店。贈り物にちょうどよい日用品が窓辺に揃う。",
+      "openingHours": "11:00〜19:00",
+      "menuSections": [
+        {
+          "id": "general-store-2-section-1",
+          "title": "食卓",
+          "items": [
+            {
+              "id": "general-store-2-item-1",
+              "name": "手描きの豆皿",
+              "price": 1330,
+              "description": "素朴な柄を描いた小さな器。",
+              "recommended": true
+            },
+            {
+              "id": "general-store-2-item-2",
+              "name": "木のスプーン",
+              "price": 730,
+              "description": "軽く口当たりのよい木製。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-3",
+              "name": "小皿",
+              "price": 970,
+              "description": "お菓子や薬味に使える器。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-4",
+              "name": "ガラスコップ",
+              "price": 850,
+              "description": "手になじむ小ぶりのグラス。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-5",
+              "name": "コースター 二枚",
+              "price": 610,
+              "description": "織り生地のコースター。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-2-section-2",
+          "title": "布小物",
+          "items": [
+            {
+              "id": "general-store-2-item-6",
+              "name": "リネンハンカチ",
+              "price": 1210,
+              "description": "乾きやすい麻混の布。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-7",
+              "name": "帆布ポーチ",
+              "price": 1820,
+              "description": "筆記具や小物を入れる袋。",
+              "recommended": true
+            },
+            {
+              "id": "general-store-2-item-8",
+              "name": "トートバッグ",
+              "price": 2420,
+              "description": "日常使いの薄手のかばん。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-9",
+              "name": "キッチンクロス",
+              "price": 970,
+              "description": "食器拭きにも使える布。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-10",
+              "name": "布製ブックカバー",
+              "price": 1450,
+              "description": "文庫サイズのカバー。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-2-section-3",
+          "title": "紙・香り",
+          "items": [
+            {
+              "id": "general-store-2-item-11",
+              "name": "活版カード",
+              "price": 360,
+              "description": "凹凸のある印刷を楽しむカード。",
+              "recommended": true
+            },
+            {
+              "id": "general-store-2-item-12",
+              "name": "マスキングテープ",
+              "price": 420,
+              "description": "柄入りの貼って剥がせるテープ。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-13",
+              "name": "小さなノート",
+              "price": 610,
+              "description": "無地の携帯ノート。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-14",
+              "name": "香り袋",
+              "price": 730,
+              "description": "引き出しに入れる乾燥花の袋。",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-item-15",
+              "name": "キャンドル",
+              "price": 1450,
+              "description": "器入りの小さなろうそく。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

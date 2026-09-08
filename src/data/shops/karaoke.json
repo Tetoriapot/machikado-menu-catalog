@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "karaoke",
+    "label": "カラオケ",
+    "group": "施設・娯楽",
+    "icon": "mic"
+  },
+  "shops": [
+    {
+      "id": "karaoke-1",
+      "name": "カラオケ 歌うしおり",
+      "category": "karaoke",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "駅前ビルにあるカラオケ店。明るい個室で歌いながら軽食やドリンクを楽しめる。",
+      "openingHours": "11:00〜翌5:00",
+      "menuSections": [
+        {
+          "id": "karaoke-1-section-1",
+          "title": "ルーム料金 一人",
+          "items": [
+            {
+              "id": "karaoke-1-item-1",
+              "name": "平日昼 三十分",
+              "price": 180,
+              "description": "11〜18時の一人分の室料。",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-1-item-2",
+              "name": "平日夜 三十分",
+              "price": 380,
+              "description": "18時以降の一人分の室料。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-3",
+              "name": "週末昼 三十分",
+              "price": 280,
+              "description": "土日祝11〜18時の室料。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-4",
+              "name": "週末夜 三十分",
+              "price": 480,
+              "description": "土日祝18時以降の室料。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-5",
+              "name": "平日昼フリータイム",
+              "price": 980,
+              "description": "11〜18時内の利用。満室時は三時間制。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-1-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "id": "karaoke-1-item-6",
+              "name": "フライドポテト",
+              "price": 480,
+              "description": "みんなで分ける定番スナック。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-7",
+              "name": "鶏の唐揚げ",
+              "price": 680,
+              "description": "レモン付きの一皿。",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-1-item-8",
+              "name": "ミックスピザ",
+              "price": 980,
+              "description": "歌の合間につまめる薄焼き。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-9",
+              "name": "焼きおにぎり",
+              "price": 380,
+              "description": "小ぶりのおにぎり二個。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-10",
+              "name": "チョコスナック盛り",
+              "price": 480,
+              "description": "ひと口菓子の盛り合わせ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-1-section-3",
+          "title": "ドリンク・甘味",
+          "items": [
+            {
+              "id": "karaoke-1-item-11",
+              "name": "ドリンクバー",
+              "price": 380,
+              "description": "室料と別途、一人分。",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-1-item-12",
+              "name": "生ビール",
+              "price": 620,
+              "description": "中ジョッキのビール。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-13",
+              "name": "クリームソーダ",
+              "price": 550,
+              "description": "バニラアイスをのせた炭酸。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-14",
+              "name": "チョコパフェ",
+              "price": 650,
+              "description": "アイスとチョコソースの甘味。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-item-15",
+              "name": "バニラアイス",
+              "price": 320,
+              "description": "小さなカップのデザート。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karaoke-2",
+      "name": "サウンドルーム 星灯",
+      "category": "karaoke",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "national-chain",
+      "description": "郊外のロードサイド型カラオケ。友人同士が集まる大きめの部屋も備える。",
+      "openingHours": "11:00〜翌5:00",
+      "menuSections": [
+        {
+          "id": "karaoke-2-section-1",
+          "title": "ルーム料金 一人",
+          "items": [
+            {
+              "id": "karaoke-2-item-1",
+              "name": "平日昼 一時間",
+              "price": 390,
+              "description": "11〜18時の一人分の室料。",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-2-item-2",
+              "name": "平日夜 三十分",
+              "price": 420,
+              "description": "18時以降の一人分の室料。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-3",
+              "name": "週末昼 三十分",
+              "price": 310,
+              "description": "土日祝11〜18時の室料。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-4",
+              "name": "週末夜 三十分",
+              "price": 530,
+              "description": "土日祝18時以降の室料。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-5",
+              "name": "平日昼フリータイム",
+              "price": 1080,
+              "description": "11〜18時内の利用。満室時は三時間制。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-2-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "id": "karaoke-2-item-6",
+              "name": "フライドポテト",
+              "price": 530,
+              "description": "みんなで分ける定番スナック。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-7",
+              "name": "鶏の唐揚げ",
+              "price": 750,
+              "description": "レモン付きの一皿。",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-2-item-8",
+              "name": "ミックスピザ",
+              "price": 1080,
+              "description": "歌の合間につまめる薄焼き。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-9",
+              "name": "焼きおにぎり",
+              "price": 420,
+              "description": "小ぶりのおにぎり二個。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-10",
+              "name": "チョコスナック盛り",
+              "price": 530,
+              "description": "ひと口菓子の盛り合わせ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-2-section-3",
+          "title": "ドリンク・甘味",
+          "items": [
+            {
+              "id": "karaoke-2-item-11",
+              "name": "ドリンクバー",
+              "price": 420,
+              "description": "室料と別途、一人分。",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-2-item-12",
+              "name": "生ビール",
+              "price": 680,
+              "description": "中ジョッキのビール。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-13",
+              "name": "クリームソーダ",
+              "price": 610,
+              "description": "バニラアイスをのせた炭酸。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-14",
+              "name": "チョコパフェ",
+              "price": 720,
+              "description": "アイスとチョコソースの甘味。",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-item-15",
+              "name": "バニラアイス",
+              "price": 350,
+              "description": "小さなカップのデザート。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

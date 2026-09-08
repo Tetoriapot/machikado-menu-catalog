@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "yakitori",
+    "label": "焼き鳥屋",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "yakitori-1",
+      "name": "炭火串焼 いとほし",
+      "category": "yakitori",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "炭火の香りが通りへこぼれる串焼き店。小さなカウンターで一串ずつ焼き上がりを待つ。",
+      "openingHours": "17:00〜翌0:00",
+      "menuSections": [
+        {
+          "id": "yakitori-1-section-1",
+          "title": "焼き鳥 一本",
+          "items": [
+            {
+              "id": "yakitori-1-item-1",
+              "name": "もも串",
+              "price": 180,
+              "description": "肉の旨みを楽しむ定番串。",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-1-item-2",
+              "name": "ねぎま串",
+              "price": 190,
+              "description": "鶏ももと長ねぎを交互に。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-3",
+              "name": "皮串",
+              "price": 160,
+              "description": "余分な脂を落としてぱりっと。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-4",
+              "name": "砂肝串",
+              "price": 170,
+              "description": "歯ごたえのよい塩焼き。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-5",
+              "name": "つくね串",
+              "price": 220,
+              "description": "ふんわり練った鶏つくね。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakitori-1-section-2",
+          "title": "一品・締め",
+          "items": [
+            {
+              "id": "yakitori-1-item-6",
+              "name": "鶏皮ぽん酢",
+              "price": 380,
+              "description": "茹でた鶏皮に柑橘ぽん酢。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-7",
+              "name": "塩だれキャベツ",
+              "price": 280,
+              "description": "ざく切りキャベツの箸休め。",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-1-item-8",
+              "name": "焼きおにぎり",
+              "price": 230,
+              "description": "炭火で焼いた醤油おにぎり。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-9",
+              "name": "鶏雑炊",
+              "price": 580,
+              "description": "鶏出汁と卵のやさしい締め。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-10",
+              "name": "串五本盛り",
+              "price": 880,
+              "description": "店おすすめの五種類。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakitori-1-section-3",
+          "title": "お飲みもの",
+          "items": [
+            {
+              "id": "yakitori-1-item-11",
+              "name": "生ビール",
+              "price": 520,
+              "description": "炭火焼きに合わせる一杯。",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-1-item-12",
+              "name": "ハイボール",
+              "price": 420,
+              "description": "強炭酸のすっきりした味。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-13",
+              "name": "梅サワー",
+              "price": 430,
+              "description": "梅の酸味をきかせたサワー。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-14",
+              "name": "芋焼酎",
+              "price": 480,
+              "description": "ロック、水割り、お湯割りから。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-item-15",
+              "name": "緑茶",
+              "price": 250,
+              "description": "温冷を選べるお茶。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yakitori-2",
+      "name": "焼鳥 たきつば",
+      "category": "yakitori",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "路地にある賑やかな焼鳥屋。塩とたれを選びながら、焼きたてを気軽につまめる。",
+      "openingHours": "17:00〜翌0:00",
+      "menuSections": [
+        {
+          "id": "yakitori-2-section-1",
+          "title": "焼き鳥 一本",
+          "items": [
+            {
+              "id": "yakitori-2-item-1",
+              "name": "せせり串",
+              "price": 260,
+              "description": "首まわりの弾力あるお肉。",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-2-item-2",
+              "name": "ねぎま串",
+              "price": 210,
+              "description": "鶏ももと長ねぎを交互に。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-3",
+              "name": "皮串",
+              "price": 180,
+              "description": "余分な脂を落としてぱりっと。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-4",
+              "name": "砂肝串",
+              "price": 190,
+              "description": "歯ごたえのよい塩焼き。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-5",
+              "name": "つくね串",
+              "price": 240,
+              "description": "ふんわり練った鶏つくね。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakitori-2-section-2",
+          "title": "一品・締め",
+          "items": [
+            {
+              "id": "yakitori-2-item-6",
+              "name": "鶏皮ぽん酢",
+              "price": 420,
+              "description": "茹でた鶏皮に柑橘ぽん酢。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-7",
+              "name": "塩だれキャベツ",
+              "price": 310,
+              "description": "ざく切りキャベツの箸休め。",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-2-item-8",
+              "name": "焼きおにぎり",
+              "price": 250,
+              "description": "炭火で焼いた醤油おにぎり。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-9",
+              "name": "鶏雑炊",
+              "price": 640,
+              "description": "鶏出汁と卵のやさしい締め。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-10",
+              "name": "串五本盛り",
+              "price": 970,
+              "description": "店おすすめの五種類。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "yakitori-2-section-3",
+          "title": "お飲みもの",
+          "items": [
+            {
+              "id": "yakitori-2-item-11",
+              "name": "生ビール",
+              "price": 570,
+              "description": "炭火焼きに合わせる一杯。",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-2-item-12",
+              "name": "ハイボール",
+              "price": 460,
+              "description": "強炭酸のすっきりした味。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-13",
+              "name": "梅サワー",
+              "price": 470,
+              "description": "梅の酸味をきかせたサワー。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-14",
+              "name": "芋焼酎",
+              "price": 530,
+              "description": "ロック、水割り、お湯割りから。",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-item-15",
+              "name": "緑茶",
+              "price": 280,
+              "description": "温冷を選べるお茶。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

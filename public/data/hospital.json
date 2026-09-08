@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "hospital",
+    "label": "病院売店",
+    "group": "施設・娯楽",
+    "icon": "cross"
+  },
+  "shops": [
+    {
+      "id": "hospital-1",
+      "name": "売店 はなさき窓",
+      "category": "hospital",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "病院の一階にある売店。見舞い客の軽食と、入院中に使う日用品が整然と並ぶ。",
+      "openingHours": "8:00〜19:00",
+      "menuSections": [
+        {
+          "id": "hospital-1-section-1",
+          "title": "食品・飲料",
+          "items": [
+            {
+              "id": "hospital-1-item-1",
+              "name": "卵サンド",
+              "price": 320,
+              "description": "食べやすいサイズのサンドイッチ。",
+              "recommended": true
+            },
+            {
+              "id": "hospital-1-item-2",
+              "name": "鮭おにぎり",
+              "price": 180,
+              "description": "個包装の定番おむすび。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-3",
+              "name": "プリン",
+              "price": 220,
+              "description": "小さなカップ入りデザート。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-4",
+              "name": "水 500ml",
+              "price": 130,
+              "description": "ふた付きペットボトルの水。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-5",
+              "name": "麦茶 600ml",
+              "price": 150,
+              "description": "無糖のお茶。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hospital-1-section-2",
+          "title": "入院小物",
+          "items": [
+            {
+              "id": "hospital-1-item-6",
+              "name": "タオル",
+              "price": 440,
+              "description": "日常使いのフェイスタオル。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-7",
+              "name": "前開き肌着",
+              "price": 1320,
+              "description": "着替えやすい前開きタイプ。",
+              "recommended": true
+            },
+            {
+              "id": "hospital-1-item-8",
+              "name": "滑り止め付き靴下",
+              "price": 660,
+              "description": "足裏に滑り止めのある靴下。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-9",
+              "name": "歯ブラシセット",
+              "price": 330,
+              "description": "携帯用の歯磨きセット。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-10",
+              "name": "樹脂コップ",
+              "price": 280,
+              "description": "割れにくい取っ手付きコップ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hospital-1-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "hospital-1-item-11",
+              "name": "箱ティッシュ",
+              "price": 150,
+              "description": "小さめの箱入りティッシュ。",
+              "recommended": true
+            },
+            {
+              "id": "hospital-1-item-12",
+              "name": "ウェットティッシュ",
+              "price": 220,
+              "description": "ノンアルコールの拭き取りシート。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-13",
+              "name": "耳栓",
+              "price": 330,
+              "description": "携帯ケース付きの小物。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-14",
+              "name": "イヤホン",
+              "price": 880,
+              "description": "有線タイプのイヤホン。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-item-15",
+              "name": "新聞",
+              "price": 180,
+              "description": "当日分の一般紙という設定。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hospital-2",
+      "name": "みずき病院 くらしの売店",
+      "category": "hospital",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "待合室の先にある小さなショップ。静かな店内で新聞や飲み物を買える。",
+      "openingHours": "8:00〜19:00",
+      "menuSections": [
+        {
+          "id": "hospital-2-section-1",
+          "title": "食品・飲料",
+          "items": [
+            {
+              "id": "hospital-2-item-1",
+              "name": "野菜スープ",
+              "price": 310,
+              "description": "カップ入りの温かい野菜スープ。",
+              "recommended": true
+            },
+            {
+              "id": "hospital-2-item-2",
+              "name": "鮭おにぎり",
+              "price": 200,
+              "description": "個包装の定番おむすび。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-3",
+              "name": "プリン",
+              "price": 240,
+              "description": "小さなカップ入りデザート。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-4",
+              "name": "水 500ml",
+              "price": 140,
+              "description": "ふた付きペットボトルの水。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-5",
+              "name": "麦茶 600ml",
+              "price": 170,
+              "description": "無糖のお茶。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hospital-2-section-2",
+          "title": "入院小物",
+          "items": [
+            {
+              "id": "hospital-2-item-6",
+              "name": "タオル",
+              "price": 480,
+              "description": "日常使いのフェイスタオル。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-7",
+              "name": "前開き肌着",
+              "price": 1450,
+              "description": "着替えやすい前開きタイプ。",
+              "recommended": true
+            },
+            {
+              "id": "hospital-2-item-8",
+              "name": "滑り止め付き靴下",
+              "price": 730,
+              "description": "足裏に滑り止めのある靴下。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-9",
+              "name": "歯ブラシセット",
+              "price": 360,
+              "description": "携帯用の歯磨きセット。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-10",
+              "name": "樹脂コップ",
+              "price": 310,
+              "description": "割れにくい取っ手付きコップ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "hospital-2-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "hospital-2-item-11",
+              "name": "箱ティッシュ",
+              "price": 170,
+              "description": "小さめの箱入りティッシュ。",
+              "recommended": true
+            },
+            {
+              "id": "hospital-2-item-12",
+              "name": "ウェットティッシュ",
+              "price": 240,
+              "description": "ノンアルコールの拭き取りシート。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-13",
+              "name": "耳栓",
+              "price": 360,
+              "description": "携帯ケース付きの小物。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-14",
+              "name": "イヤホン",
+              "price": 970,
+              "description": "有線タイプのイヤホン。",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-item-15",
+              "name": "新聞",
+              "price": 200,
+              "description": "当日分の一般紙という設定。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

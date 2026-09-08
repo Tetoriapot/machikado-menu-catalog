@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "izakaya",
+    "label": "居酒屋",
+    "group": "飲食店",
+    "icon": "beer"
+  },
+  "shops": [
+    {
+      "id": "izakaya-1",
+      "name": "酒と肴 よりみち灯",
+      "category": "izakaya",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅前の小道に灯る赤提灯。手書きの短冊メニューと、店主の気さくな声が一日の終わりを迎える。",
+      "openingHours": "17:00〜翌1:00",
+      "menuSections": [
+        {
+          "id": "izakaya-1-section-1",
+          "title": "とりあえず",
+          "items": [
+            {
+              "id": "izakaya-1-item-1",
+              "name": "枝豆",
+              "price": 320,
+              "description": "ほどよい塩気の茹でたて枝豆。",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-1-item-2",
+              "name": "冷奴",
+              "price": 320,
+              "description": "薬味をたっぷりのせた絹ごし豆腐。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-3",
+              "name": "たたききゅうり",
+              "price": 350,
+              "description": "ごま油と塩だれで和えた歯切れのよい一品。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-4",
+              "name": "ポテトサラダ",
+              "price": 420,
+              "description": "粗くつぶしたじゃがいもに半熟卵をのせて。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-5",
+              "name": "漬物盛り合わせ",
+              "price": 380,
+              "description": "大根、きゅうり、白菜の三種盛り。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "izakaya-1-section-2",
+          "title": "酒の肴",
+          "items": [
+            {
+              "id": "izakaya-1-item-6",
+              "name": "鶏の唐揚げ",
+              "price": 580,
+              "description": "生姜醤油に漬けた鶏もも肉をからりと。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-7",
+              "name": "もつ煮込み",
+              "price": 520,
+              "description": "大根とこんにゃくを味噌でことこと煮込んだ名物。",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-1-item-8",
+              "name": "だし巻き卵",
+              "price": 480,
+              "description": "注文ごとに巻く、出汁のきいたふんわり卵。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-9",
+              "name": "焼きおにぎり 二個",
+              "price": 420,
+              "description": "醤油を塗って香ばしく焼いた締めの一皿。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-10",
+              "name": "ほっけの開き",
+              "price": 780,
+              "description": "ふっくら焼いた大きめの干物。大根おろし付き。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "izakaya-1-section-3",
+          "title": "お飲みもの",
+          "items": [
+            {
+              "id": "izakaya-1-item-11",
+              "name": "生ビール",
+              "price": 480,
+              "description": "よく冷えた中ジョッキ。",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-1-item-12",
+              "name": "角氷ハイボール",
+              "price": 420,
+              "description": "大きな氷と強めの炭酸で爽やかに。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-13",
+              "name": "レモンサワー",
+              "price": 420,
+              "description": "搾ったレモンの酸味が心地よい一杯。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-14",
+              "name": "日本酒 一合",
+              "price": 580,
+              "description": "店主が選んだ辛口の食中酒。燗にも対応。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-item-15",
+              "name": "ウーロン茶",
+              "price": 280,
+              "description": "氷入りのグラスで提供するソフトドリンク。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "izakaya-2",
+      "name": "大衆酒場 まどい橋",
+      "category": "izakaya",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "商店街にある小さな大衆酒場。煮込み鍋を囲むカウンターには、いつもの常連が肩を並べる。",
+      "openingHours": "17:00〜翌1:00",
+      "menuSections": [
+        {
+          "id": "izakaya-2-section-1",
+          "title": "とりあえず",
+          "items": [
+            {
+              "id": "izakaya-2-item-1",
+              "name": "厚揚げのねぎ味噌焼き",
+              "price": 510,
+              "description": "厚揚げに自家製ねぎ味噌を塗って炙った一品。",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-2-item-2",
+              "name": "冷奴",
+              "price": 350,
+              "description": "薬味をたっぷりのせた絹ごし豆腐。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-3",
+              "name": "たたききゅうり",
+              "price": 390,
+              "description": "ごま油と塩だれで和えた歯切れのよい一品。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-4",
+              "name": "ポテトサラダ",
+              "price": 460,
+              "description": "粗くつぶしたじゃがいもに半熟卵をのせて。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-5",
+              "name": "漬物盛り合わせ",
+              "price": 420,
+              "description": "大根、きゅうり、白菜の三種盛り。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "izakaya-2-section-2",
+          "title": "酒の肴",
+          "items": [
+            {
+              "id": "izakaya-2-item-6",
+              "name": "鶏の唐揚げ",
+              "price": 640,
+              "description": "生姜醤油に漬けた鶏もも肉をからりと。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-7",
+              "name": "もつ煮込み",
+              "price": 570,
+              "description": "大根とこんにゃくを味噌でことこと煮込んだ名物。",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-2-item-8",
+              "name": "だし巻き卵",
+              "price": 530,
+              "description": "注文ごとに巻く、出汁のきいたふんわり卵。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-9",
+              "name": "焼きおにぎり 二個",
+              "price": 460,
+              "description": "醤油を塗って香ばしく焼いた締めの一皿。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-10",
+              "name": "ほっけの開き",
+              "price": 860,
+              "description": "ふっくら焼いた大きめの干物。大根おろし付き。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "izakaya-2-section-3",
+          "title": "お飲みもの",
+          "items": [
+            {
+              "id": "izakaya-2-item-11",
+              "name": "生ビール",
+              "price": 530,
+              "description": "よく冷えた中ジョッキ。",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-2-item-12",
+              "name": "角氷ハイボール",
+              "price": 460,
+              "description": "大きな氷と強めの炭酸で爽やかに。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-13",
+              "name": "レモンサワー",
+              "price": 460,
+              "description": "搾ったレモンの酸味が心地よい一杯。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-14",
+              "name": "日本酒 一合",
+              "price": 640,
+              "description": "店主が選んだ辛口の食中酒。燗にも対応。",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-item-15",
+              "name": "ウーロン茶",
+              "price": 310,
+              "description": "氷入りのグラスで提供するソフトドリンク。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

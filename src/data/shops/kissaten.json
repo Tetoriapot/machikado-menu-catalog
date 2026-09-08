@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "kissaten",
+    "label": "純喫茶",
+    "group": "飲食店",
+    "icon": "coffee"
+  },
+  "shops": [
+    {
+      "id": "kissaten-1",
+      "name": "喫茶 白樺",
+      "category": "kissaten",
+      "tags": [
+        "昭和レトロ",
+        "昔ながら"
+      ],
+      "priceLevel": "normal",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "商店街の路地に佇む、昔ながらの純喫茶。深煎りの珈琲と固めのプリン、静かに流れるレコードが迎えてくれる。",
+      "openingHours": "8:00〜20:00",
+      "menuSections": [
+        {
+          "id": "kissaten-1-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "id": "kissaten-1-item-1",
+              "name": "ブレンドコーヒー",
+              "price": 500,
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-1-item-2",
+              "name": "アメリカン",
+              "price": 500,
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-3",
+              "name": "カフェオレ",
+              "price": 580,
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-4",
+              "name": "紅茶",
+              "price": 500,
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-5",
+              "name": "クリームソーダ",
+              "price": 650,
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-1-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "id": "kissaten-1-item-6",
+              "name": "ナポリタン",
+              "price": 780,
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-7",
+              "name": "ミックスサンド",
+              "price": 720,
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-1-item-8",
+              "name": "ビーフカレー",
+              "price": 850,
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-9",
+              "name": "厚切りバタートースト",
+              "price": 420,
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-10",
+              "name": "ピザトースト",
+              "price": 620,
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-1-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "id": "kissaten-1-item-11",
+              "name": "自家製プリン",
+              "price": 550,
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-1-item-12",
+              "name": "ホットケーキ",
+              "price": 680,
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-13",
+              "name": "チョコレートパフェ",
+              "price": 780,
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-14",
+              "name": "珈琲ゼリー",
+              "price": 520,
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-item-15",
+              "name": "レモンケーキ",
+              "price": 480,
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kissaten-2",
+      "name": "珈琲室 風待ち",
+      "category": "kissaten",
+      "tags": [
+        "静かな空間",
+        "読書にぴったり"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅前ビルの二階にある喫茶室。窓際の席から行き交う人を眺めながら、厚切りトーストを楽しめる。",
+      "openingHours": "8:00〜20:00",
+      "menuSections": [
+        {
+          "id": "kissaten-2-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "id": "kissaten-2-item-1",
+              "name": "ブレンドコーヒー",
+              "price": 550,
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-2-item-2",
+              "name": "アメリカン",
+              "price": 550,
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-3",
+              "name": "カフェオレ",
+              "price": 640,
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-4",
+              "name": "紅茶",
+              "price": 550,
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-5",
+              "name": "クリームソーダ",
+              "price": 720,
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-2-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "id": "kissaten-2-item-6",
+              "name": "ナポリタン",
+              "price": 860,
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-7",
+              "name": "ミックスサンド",
+              "price": 790,
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-2-item-8",
+              "name": "ビーフカレー",
+              "price": 940,
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-9",
+              "name": "小倉バタートースト",
+              "price": 620,
+              "description": "粒あんと有塩バターを厚切りパンに。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-10",
+              "name": "ピザトースト",
+              "price": 680,
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-2-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "id": "kissaten-2-item-11",
+              "name": "自家製プリン",
+              "price": 610,
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-2-item-12",
+              "name": "ホットケーキ",
+              "price": 750,
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-13",
+              "name": "チョコレートパフェ",
+              "price": 860,
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-14",
+              "name": "珈琲ゼリー",
+              "price": 570,
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-item-15",
+              "name": "レモンケーキ",
+              "price": 530,
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "bookstore",
+    "label": "書店",
+    "group": "小売店",
+    "icon": "book"
+  },
+  "shops": [
+    {
+      "id": "bookstore-1",
+      "name": "栞野書房",
+      "category": "bookstore",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅前の小さな書店。小説から実用書まで、店員の手書きの紹介札が添えられる。",
+      "openingHours": "10:00〜21:00",
+      "menuSections": [
+        {
+          "id": "bookstore-1-section-1",
+          "title": "文芸",
+          "items": [
+            {
+              "id": "bookstore-1-item-1",
+              "name": "文庫小説『雨の向こうの停留所』",
+              "price": 780,
+              "description": "架空の町を舞台にした短編連作。",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-1-item-2",
+              "name": "単行本『夜明けの書架』",
+              "price": 1780,
+              "description": "古い書店をめぐる架空の長編小説。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-3",
+              "name": "短編集『窓辺の手紙』",
+              "price": 1540,
+              "description": "日常の出会いを綴る創作文芸。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-4",
+              "name": "詩集『木曜日の空白』",
+              "price": 1320,
+              "description": "季節の風景を集めた架空の詩集。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-5",
+              "name": "文庫ミステリー『七番街の鍵』",
+              "price": 850,
+              "description": "小さな謎を追う架空の推理小説。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-1-section-2",
+          "title": "実用・趣味",
+          "items": [
+            {
+              "id": "bookstore-1-item-6",
+              "name": "料理本『一汁の台所』",
+              "price": 1430,
+              "description": "日々の食事を扱う架空の実用書。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-7",
+              "name": "旅行本『各駅停車の休日』",
+              "price": 1650,
+              "description": "鉄道旅を紹介する架空の紀行。",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-1-item-8",
+              "name": "手帳術『余白をつくる』",
+              "price": 1320,
+              "description": "記録の工夫を集めた架空の実用書。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-9",
+              "name": "図鑑『身近な葉っぱ』",
+              "price": 2200,
+              "description": "身近な植物を学ぶ架空の図鑑。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-10",
+              "name": "TRPG入門『物語を囲む夜』",
+              "price": 1980,
+              "description": "対話型ゲームを紹介する架空の解説書。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-1-section-3",
+          "title": "雑誌・小物",
+          "items": [
+            {
+              "id": "bookstore-1-item-11",
+              "name": "月刊誌『街あるき通信』",
+              "price": 780,
+              "description": "地域散策を特集する架空の雑誌。",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-1-item-12",
+              "name": "季刊誌『紙と喫茶』",
+              "price": 1100,
+              "description": "読書と喫茶を扱う架空の季刊誌。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-13",
+              "name": "ブックカバー",
+              "price": 660,
+              "description": "文庫サイズの布製カバー。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-14",
+              "name": "しおり 三枚",
+              "price": 330,
+              "description": "厚紙のイラストしおり。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-item-15",
+              "name": "読書ノート",
+              "price": 440,
+              "description": "読んだ本の感想を残すノート。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-2",
+      "name": "本と余白 七頁",
+      "category": "bookstore",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街にある選書の店。窓辺の平台には、旅や暮らしの本が静かに並ぶ。",
+      "openingHours": "10:00〜21:00",
+      "menuSections": [
+        {
+          "id": "bookstore-2-section-1",
+          "title": "文芸",
+          "items": [
+            {
+              "id": "bookstore-2-item-1",
+              "name": "文庫小説『街灯の帰り道』",
+              "price": 900,
+              "description": "夜の町を描く架空の連作短編。",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-2-item-2",
+              "name": "単行本『夜明けの書架』",
+              "price": 1960,
+              "description": "古い書店をめぐる架空の長編小説。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-3",
+              "name": "短編集『窓辺の手紙』",
+              "price": 1690,
+              "description": "日常の出会いを綴る創作文芸。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-4",
+              "name": "詩集『木曜日の空白』",
+              "price": 1450,
+              "description": "季節の風景を集めた架空の詩集。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-5",
+              "name": "文庫ミステリー『七番街の鍵』",
+              "price": 940,
+              "description": "小さな謎を追う架空の推理小説。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-2-section-2",
+          "title": "実用・趣味",
+          "items": [
+            {
+              "id": "bookstore-2-item-6",
+              "name": "料理本『一汁の台所』",
+              "price": 1570,
+              "description": "日々の食事を扱う架空の実用書。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-7",
+              "name": "旅行本『各駅停車の休日』",
+              "price": 1820,
+              "description": "鉄道旅を紹介する架空の紀行。",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-2-item-8",
+              "name": "手帳術『余白をつくる』",
+              "price": 1450,
+              "description": "記録の工夫を集めた架空の実用書。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-9",
+              "name": "図鑑『身近な葉っぱ』",
+              "price": 2420,
+              "description": "身近な植物を学ぶ架空の図鑑。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-10",
+              "name": "TRPG入門『物語を囲む夜』",
+              "price": 2180,
+              "description": "対話型ゲームを紹介する架空の解説書。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-2-section-3",
+          "title": "雑誌・小物",
+          "items": [
+            {
+              "id": "bookstore-2-item-11",
+              "name": "月刊誌『街あるき通信』",
+              "price": 860,
+              "description": "地域散策を特集する架空の雑誌。",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-2-item-12",
+              "name": "季刊誌『紙と喫茶』",
+              "price": 1210,
+              "description": "読書と喫茶を扱う架空の季刊誌。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-13",
+              "name": "ブックカバー",
+              "price": 730,
+              "description": "文庫サイズの布製カバー。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-14",
+              "name": "しおり 三枚",
+              "price": 360,
+              "description": "厚紙のイラストしおり。",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-item-15",
+              "name": "読書ノート",
+              "price": 480,
+              "description": "読んだ本の感想を残すノート。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

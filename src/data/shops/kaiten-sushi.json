@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "kaiten-sushi",
+    "label": "回転寿司",
+    "group": "飲食店",
+    "icon": "fish"
+  },
+  "shops": [
+    {
+      "id": "kaiten-sushi-1",
+      "name": "回転寿司 なぎの輪",
+      "category": "kaiten-sushi",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "家族で立ち寄れる明るい回転寿司店。少しずつ好きな皿を選べる気軽さが魅力。",
+      "openingHours": "11:00〜22:00",
+      "menuSections": [
+        {
+          "id": "kaiten-sushi-1-section-1",
+          "title": "握り 二貫",
+          "items": [
+            {
+              "id": "kaiten-sushi-1-item-1",
+              "name": "まぐろ",
+              "price": 160,
+              "description": "赤身の旨みを楽しむ基本の二貫。",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-1-item-2",
+              "name": "サーモン",
+              "price": 180,
+              "description": "脂ののったサーモンの握り。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-3",
+              "name": "蒸し海老",
+              "price": 160,
+              "description": "ぷりっとした食感の海老。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-4",
+              "name": "いか",
+              "price": 140,
+              "description": "やわらかな身にわさびを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-5",
+              "name": "玉子",
+              "price": 130,
+              "description": "甘い玉子焼きの握り。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kaiten-sushi-1-section-2",
+          "title": "軍艦・巻物",
+          "items": [
+            {
+              "id": "kaiten-sushi-1-item-6",
+              "name": "ねぎとろ軍艦",
+              "price": 180,
+              "description": "刻みねぎをのせたまぐろの軍艦。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-7",
+              "name": "いくら軍艦",
+              "price": 320,
+              "description": "いくらを盛った二貫。",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-1-item-8",
+              "name": "コーン軍艦",
+              "price": 130,
+              "description": "コーンマヨネーズの軍艦。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-9",
+              "name": "かっぱ巻",
+              "price": 140,
+              "description": "きゅうりの細巻き一皿。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-10",
+              "name": "納豆巻",
+              "price": 150,
+              "description": "刻み納豆の細巻き。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kaiten-sushi-1-section-3",
+          "title": "サイド・甘味",
+          "items": [
+            {
+              "id": "kaiten-sushi-1-item-11",
+              "name": "茶碗蒸し",
+              "price": 280,
+              "description": "出汁が香る卵の蒸し物。",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-1-item-12",
+              "name": "あおさ味噌汁",
+              "price": 220,
+              "description": "磯の香りの温かい汁物。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-13",
+              "name": "鶏唐揚げ",
+              "price": 350,
+              "description": "揚げたての骨なしチキン。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-14",
+              "name": "プリン",
+              "price": 220,
+              "description": "小ぶりのなめらかなプリン。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-item-15",
+              "name": "練乳いちごアイス",
+              "price": 280,
+              "description": "いちごソースをかけたアイス。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaiten-sushi-2",
+      "name": "すし回廊 青浜",
+      "category": "kaiten-sushi",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "national-chain",
+      "description": "幹線道路沿いの寿司店。ボックス席で、握りからデザートまで楽しめる。",
+      "openingHours": "11:00〜22:00",
+      "menuSections": [
+        {
+          "id": "kaiten-sushi-2-section-1",
+          "title": "握り 二貫",
+          "items": [
+            {
+              "id": "kaiten-sushi-2-item-1",
+              "name": "炙りサーモン",
+              "price": 260,
+              "description": "表面を軽く炙って香ばしく。",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-2-item-2",
+              "name": "サーモン",
+              "price": 200,
+              "description": "脂ののったサーモンの握り。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-3",
+              "name": "蒸し海老",
+              "price": 180,
+              "description": "ぷりっとした食感の海老。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-4",
+              "name": "いか",
+              "price": 150,
+              "description": "やわらかな身にわさびを添えて。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-5",
+              "name": "玉子",
+              "price": 140,
+              "description": "甘い玉子焼きの握り。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kaiten-sushi-2-section-2",
+          "title": "軍艦・巻物",
+          "items": [
+            {
+              "id": "kaiten-sushi-2-item-6",
+              "name": "ねぎとろ軍艦",
+              "price": 200,
+              "description": "刻みねぎをのせたまぐろの軍艦。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-7",
+              "name": "いくら軍艦",
+              "price": 350,
+              "description": "いくらを盛った二貫。",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-2-item-8",
+              "name": "コーン軍艦",
+              "price": 140,
+              "description": "コーンマヨネーズの軍艦。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-9",
+              "name": "かっぱ巻",
+              "price": 150,
+              "description": "きゅうりの細巻き一皿。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-10",
+              "name": "納豆巻",
+              "price": 170,
+              "description": "刻み納豆の細巻き。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kaiten-sushi-2-section-3",
+          "title": "サイド・甘味",
+          "items": [
+            {
+              "id": "kaiten-sushi-2-item-11",
+              "name": "茶碗蒸し",
+              "price": 310,
+              "description": "出汁が香る卵の蒸し物。",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-2-item-12",
+              "name": "あおさ味噌汁",
+              "price": 240,
+              "description": "磯の香りの温かい汁物。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-13",
+              "name": "鶏唐揚げ",
+              "price": 390,
+              "description": "揚げたての骨なしチキン。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-14",
+              "name": "プリン",
+              "price": 240,
+              "description": "小ぶりのなめらかなプリン。",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-item-15",
+              "name": "練乳いちごアイス",
+              "price": 310,
+              "description": "いちごソースをかけたアイス。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "burger",
+    "label": "ハンバーガー店",
+    "group": "飲食店",
+    "icon": "sandwich"
+  },
+  "shops": [
+    {
+      "id": "burger-1",
+      "name": "BUNS & BENCH",
+      "category": "burger",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "公園の向かいにあるバーガー店。焼きたてパティを紙包みに入れて、ベンチでも楽しめる。",
+      "openingHours": "11:00〜21:00",
+      "menuSections": [
+        {
+          "id": "burger-1-section-1",
+          "title": "BURGER",
+          "items": [
+            {
+              "id": "burger-1-item-1",
+              "name": "クラシックバーガー",
+              "price": 880,
+              "description": "牛肉パティとレタス、トマトの基本形。",
+              "recommended": true
+            },
+            {
+              "id": "burger-1-item-2",
+              "name": "チーズバーガー",
+              "price": 980,
+              "description": "とろけるチェダーチーズを重ねて。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-3",
+              "name": "てりやきバーガー",
+              "price": 920,
+              "description": "甘辛い照り焼きソースの一品。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-4",
+              "name": "フィッシュバーガー",
+              "price": 850,
+              "description": "白身魚フライとタルタルソース。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-5",
+              "name": "アボカドバーガー",
+              "price": 1180,
+              "description": "厚切りアボカドで満足感をプラス。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-1-section-2",
+          "title": "SIDES",
+          "items": [
+            {
+              "id": "burger-1-item-6",
+              "name": "フライドポテト",
+              "price": 380,
+              "description": "皮付きじゃがいもをほくほくに。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-7",
+              "name": "オニオンリング",
+              "price": 420,
+              "description": "甘い玉ねぎにさっくりした衣。",
+              "recommended": true
+            },
+            {
+              "id": "burger-1-item-8",
+              "name": "チキンナゲット",
+              "price": 450,
+              "description": "小さな骨なしチキン五個。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-9",
+              "name": "コールスロー",
+              "price": 300,
+              "description": "キャベツを甘酸っぱく和えたサラダ。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-10",
+              "name": "ピクルス",
+              "price": 250,
+              "description": "きゅうりの爽やかな酢漬け。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-1-section-3",
+          "title": "DRINK",
+          "items": [
+            {
+              "id": "burger-1-item-11",
+              "name": "コーラ",
+              "price": 300,
+              "description": "氷をたっぷり入れた一杯。",
+              "recommended": true
+            },
+            {
+              "id": "burger-1-item-12",
+              "name": "ジンジャーエール",
+              "price": 320,
+              "description": "生姜の香りが爽やかな炭酸飲料。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-13",
+              "name": "バニラシェイク",
+              "price": 550,
+              "description": "ミルク感のある冷たいシェイク。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-14",
+              "name": "アイスティー",
+              "price": 300,
+              "description": "無糖で提供する紅茶。",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-item-15",
+              "name": "レモンスカッシュ",
+              "price": 380,
+              "description": "レモンの酸味をきかせた炭酸。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burger-2",
+      "name": "バーガースタンド 砂時計",
+      "category": "burger",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "小さな駅の商店街にあるバーガースタンド。香ばしいバンズと手切りポテトが看板。",
+      "openingHours": "11:00〜21:00",
+      "menuSections": [
+        {
+          "id": "burger-2-section-1",
+          "title": "BURGER",
+          "items": [
+            {
+              "id": "burger-2-item-1",
+              "name": "ベーコンエッグバーガー",
+              "price": 1380,
+              "description": "厚切りベーコンと目玉焼きを重ねて。",
+              "recommended": true
+            },
+            {
+              "id": "burger-2-item-2",
+              "name": "チーズバーガー",
+              "price": 1080,
+              "description": "とろけるチェダーチーズを重ねて。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-3",
+              "name": "てりやきバーガー",
+              "price": 1010,
+              "description": "甘辛い照り焼きソースの一品。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-4",
+              "name": "フィッシュバーガー",
+              "price": 940,
+              "description": "白身魚フライとタルタルソース。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-5",
+              "name": "アボカドバーガー",
+              "price": 1300,
+              "description": "厚切りアボカドで満足感をプラス。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-2-section-2",
+          "title": "SIDES",
+          "items": [
+            {
+              "id": "burger-2-item-6",
+              "name": "フライドポテト",
+              "price": 420,
+              "description": "皮付きじゃがいもをほくほくに。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-7",
+              "name": "オニオンリング",
+              "price": 460,
+              "description": "甘い玉ねぎにさっくりした衣。",
+              "recommended": true
+            },
+            {
+              "id": "burger-2-item-8",
+              "name": "チキンナゲット",
+              "price": 500,
+              "description": "小さな骨なしチキン五個。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-9",
+              "name": "コールスロー",
+              "price": 330,
+              "description": "キャベツを甘酸っぱく和えたサラダ。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-10",
+              "name": "ピクルス",
+              "price": 280,
+              "description": "きゅうりの爽やかな酢漬け。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-2-section-3",
+          "title": "DRINK",
+          "items": [
+            {
+              "id": "burger-2-item-11",
+              "name": "コーラ",
+              "price": 330,
+              "description": "氷をたっぷり入れた一杯。",
+              "recommended": true
+            },
+            {
+              "id": "burger-2-item-12",
+              "name": "ジンジャーエール",
+              "price": 350,
+              "description": "生姜の香りが爽やかな炭酸飲料。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-13",
+              "name": "バニラシェイク",
+              "price": 610,
+              "description": "ミルク感のある冷たいシェイク。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-14",
+              "name": "アイスティー",
+              "price": 330,
+              "description": "無糖で提供する紅茶。",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-item-15",
+              "name": "レモンスカッシュ",
+              "price": 420,
+              "description": "レモンの酸味をきかせた炭酸。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

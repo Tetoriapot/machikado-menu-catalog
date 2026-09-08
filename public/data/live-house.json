@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "live-house",
+    "label": "ライブハウス",
+    "group": "施設・娯楽",
+    "icon": "mic"
+  },
+  "shops": [
+    {
+      "id": "live-house-1",
+      "name": "ライブスペース 浮灯",
+      "category": "live-house",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "地下の小さなライブハウス。カウンターで飲み物を受け取り、開演を待つ。",
+      "openingHours": "公演日は18:00〜23:00",
+      "menuSections": [
+        {
+          "id": "live-house-1-section-1",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "live-house-1-item-1",
+              "name": "生ビール",
+              "price": 600,
+              "description": "公演中に持ちやすいカップで。",
+              "recommended": true
+            },
+            {
+              "id": "live-house-1-item-2",
+              "name": "ハイボール",
+              "price": 600,
+              "description": "ウイスキーの炭酸割り。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-3",
+              "name": "ジントニック",
+              "price": 650,
+              "description": "ライムを添えた爽やかな一杯。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-4",
+              "name": "カシスソーダ",
+              "price": 600,
+              "description": "果実の甘い炭酸カクテル。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-5",
+              "name": "ウーロン茶",
+              "price": 400,
+              "description": "無糖のソフトドリンク。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "live-house-1-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "live-house-1-item-6",
+              "name": "コーラ",
+              "price": 400,
+              "description": "氷入りカップの炭酸飲料。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-7",
+              "name": "ミックスナッツ",
+              "price": 400,
+              "description": "つまみやすい小袋入り。",
+              "recommended": true
+            },
+            {
+              "id": "live-house-1-item-8",
+              "name": "フライドポテト",
+              "price": 500,
+              "description": "休憩中に食べやすい軽食。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-9",
+              "name": "ホットドッグ",
+              "price": 600,
+              "description": "ソーセージを挟んだパン。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-10",
+              "name": "チョコバー",
+              "price": 250,
+              "description": "個包装の甘い軽食。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "live-house-1-section-3",
+          "title": "会場サービス",
+          "items": [
+            {
+              "id": "live-house-1-item-11",
+              "name": "入場時ドリンク券",
+              "price": 600,
+              "description": "入場料とは別途。一杯分の券。",
+              "recommended": true
+            },
+            {
+              "id": "live-house-1-item-12",
+              "name": "クローク 袋一個",
+              "price": 500,
+              "description": "手荷物を終演まで預ける料金。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-13",
+              "name": "耳栓",
+              "price": 300,
+              "description": "ライブ用の簡易フォーム耳栓。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-14",
+              "name": "会場ステッカー",
+              "price": 330,
+              "description": "架空会場の文字入りステッカー。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-item-15",
+              "name": "会場トートバッグ",
+              "price": 1650,
+              "description": "架空会場の名前入り布バッグ。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live-house-2",
+      "name": "LIVE ROOM 環",
+      "category": "live-house",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古いビルにある音楽スペース。終演後は出演者と客の会話がバーに広がる。",
+      "openingHours": "公演日は18:00〜23:00",
+      "menuSections": [
+        {
+          "id": "live-house-2-section-1",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "live-house-2-item-1",
+              "name": "レモンジンジャー",
+              "price": 720,
+              "description": "レモンと生姜のノンアルコールカクテル。",
+              "recommended": true
+            },
+            {
+              "id": "live-house-2-item-2",
+              "name": "ハイボール",
+              "price": 660,
+              "description": "ウイスキーの炭酸割り。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-3",
+              "name": "ジントニック",
+              "price": 720,
+              "description": "ライムを添えた爽やかな一杯。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-4",
+              "name": "カシスソーダ",
+              "price": 660,
+              "description": "果実の甘い炭酸カクテル。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-5",
+              "name": "ウーロン茶",
+              "price": 440,
+              "description": "無糖のソフトドリンク。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "live-house-2-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "live-house-2-item-6",
+              "name": "コーラ",
+              "price": 440,
+              "description": "氷入りカップの炭酸飲料。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-7",
+              "name": "ミックスナッツ",
+              "price": 440,
+              "description": "つまみやすい小袋入り。",
+              "recommended": true
+            },
+            {
+              "id": "live-house-2-item-8",
+              "name": "フライドポテト",
+              "price": 550,
+              "description": "休憩中に食べやすい軽食。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-9",
+              "name": "ホットドッグ",
+              "price": 660,
+              "description": "ソーセージを挟んだパン。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-10",
+              "name": "チョコバー",
+              "price": 280,
+              "description": "個包装の甘い軽食。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "live-house-2-section-3",
+          "title": "会場サービス",
+          "items": [
+            {
+              "id": "live-house-2-item-11",
+              "name": "入場時ドリンク券",
+              "price": 660,
+              "description": "入場料とは別途。一杯分の券。",
+              "recommended": true
+            },
+            {
+              "id": "live-house-2-item-12",
+              "name": "クローク 袋一個",
+              "price": 550,
+              "description": "手荷物を終演まで預ける料金。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-13",
+              "name": "耳栓",
+              "price": 330,
+              "description": "ライブ用の簡易フォーム耳栓。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-14",
+              "name": "会場ステッカー",
+              "price": 360,
+              "description": "架空会場の文字入りステッカー。",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-item-15",
+              "name": "会場トートバッグ",
+              "price": 1820,
+              "description": "架空会場の名前入り布バッグ。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

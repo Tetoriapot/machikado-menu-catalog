@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "florist",
+    "label": "花屋",
+    "group": "小売店",
+    "icon": "flower"
+  },
+  "shops": [
+    {
+      "id": "florist-1",
+      "name": "花のアトリエ 紡花",
+      "category": "florist",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "店先のバケツに季節の花が揺れる花屋。小さな贈り物から花束まで気軽に頼める。",
+      "openingHours": "10:00〜19:00",
+      "menuSections": [
+        {
+          "id": "florist-1-section-1",
+          "title": "切り花 一本",
+          "items": [
+            {
+              "id": "florist-1-item-1",
+              "name": "ガーベラ",
+              "price": 220,
+              "description": "明るい色の花を一本から。",
+              "recommended": true
+            },
+            {
+              "id": "florist-1-item-2",
+              "name": "バラ",
+              "price": 440,
+              "description": "贈り物にも使える切り花。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-3",
+              "name": "カーネーション",
+              "price": 275,
+              "description": "花もちのよい定番花材。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-4",
+              "name": "かすみ草",
+              "price": 330,
+              "description": "花束を柔らかくまとめる小花。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-5",
+              "name": "ユーカリ",
+              "price": 385,
+              "description": "香りのよい枝もの。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "florist-1-section-2",
+          "title": "花束・アレンジ",
+          "items": [
+            {
+              "id": "florist-1-item-6",
+              "name": "ミニブーケ",
+              "price": 1100,
+              "description": "小さな花瓶に合う花束。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-7",
+              "name": "季節の花束",
+              "price": 3300,
+              "description": "その日の花をまとめる標準サイズ。",
+              "recommended": true
+            },
+            {
+              "id": "florist-1-item-8",
+              "name": "お祝いアレンジ",
+              "price": 5500,
+              "description": "器に活けた華やかな贈り花。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-9",
+              "name": "一輪ラッピング",
+              "price": 165,
+              "description": "一本の花を包む簡易包装。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-10",
+              "name": "ドライフラワー束",
+              "price": 1650,
+              "description": "乾燥花を束ねた飾り。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "florist-1-section-3",
+          "title": "鉢物・小物",
+          "items": [
+            {
+              "id": "florist-1-item-11",
+              "name": "ミニ観葉植物",
+              "price": 880,
+              "description": "机に置ける小さな鉢物。",
+              "recommended": true
+            },
+            {
+              "id": "florist-1-item-12",
+              "name": "ハーブ苗",
+              "price": 330,
+              "description": "料理や香りを楽しむ苗。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-13",
+              "name": "花瓶",
+              "price": 1320,
+              "description": "口の狭い透明ガラスの花器。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-14",
+              "name": "切り花延命剤",
+              "price": 165,
+              "description": "花瓶の水に加える小袋。",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-item-15",
+              "name": "メッセージ札",
+              "price": 110,
+              "description": "贈り物に添える小さなカード。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "florist-2",
+      "name": "花屋 つゆ草窓",
+      "category": "florist",
+      "tags": [
+        "日用品",
+        "地域の暮らし"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "路面電車の通りにある花屋。鉢植えと切り花が、店の外まで緑を広げる。",
+      "openingHours": "10:00〜19:00",
+      "menuSections": [
+        {
+          "id": "florist-2-section-1",
+          "title": "切り花 一本",
+          "items": [
+            {
+              "id": "florist-2-item-1",
+              "name": "季節の枝もの",
+              "price": 730,
+              "description": "その時季に入荷した枝を一本。",
+              "recommended": true
+            },
+            {
+              "id": "florist-2-item-2",
+              "name": "バラ",
+              "price": 480,
+              "description": "贈り物にも使える切り花。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-3",
+              "name": "カーネーション",
+              "price": 300,
+              "description": "花もちのよい定番花材。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-4",
+              "name": "かすみ草",
+              "price": 360,
+              "description": "花束を柔らかくまとめる小花。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-5",
+              "name": "ユーカリ",
+              "price": 420,
+              "description": "香りのよい枝もの。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "florist-2-section-2",
+          "title": "花束・アレンジ",
+          "items": [
+            {
+              "id": "florist-2-item-6",
+              "name": "ミニブーケ",
+              "price": 1210,
+              "description": "小さな花瓶に合う花束。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-7",
+              "name": "季節の花束",
+              "price": 3630,
+              "description": "その日の花をまとめる標準サイズ。",
+              "recommended": true
+            },
+            {
+              "id": "florist-2-item-8",
+              "name": "お祝いアレンジ",
+              "price": 6050,
+              "description": "器に活けた華やかな贈り花。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-9",
+              "name": "一輪ラッピング",
+              "price": 180,
+              "description": "一本の花を包む簡易包装。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-10",
+              "name": "ドライフラワー束",
+              "price": 1820,
+              "description": "乾燥花を束ねた飾り。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "florist-2-section-3",
+          "title": "鉢物・小物",
+          "items": [
+            {
+              "id": "florist-2-item-11",
+              "name": "ミニ観葉植物",
+              "price": 970,
+              "description": "机に置ける小さな鉢物。",
+              "recommended": true
+            },
+            {
+              "id": "florist-2-item-12",
+              "name": "ハーブ苗",
+              "price": 360,
+              "description": "料理や香りを楽しむ苗。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-13",
+              "name": "花瓶",
+              "price": 1450,
+              "description": "口の狭い透明ガラスの花器。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-14",
+              "name": "切り花延命剤",
+              "price": 180,
+              "description": "花瓶の水に加える小袋。",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-item-15",
+              "name": "メッセージ札",
+              "price": 120,
+              "description": "贈り物に添える小さなカード。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

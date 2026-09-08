@@ -1,0 +1,78 @@
+import { useCallback,useEffect,useMemo,useRef,useState,type CSSProperties } from 'react';
+import { BookOpen,Search,Shuffle,ArrowUpRight,Bookmark,History,ChevronRight,SlidersHorizontal,X,Check,ArrowLeft,HelpCircle } from 'lucide-react';
+import { SidebarProvider,Sidebar,SidebarHeader,SidebarContent,SidebarFooter,SidebarMenu,SidebarMenuItem,SidebarMenuButton,SidebarTrigger,useSidebar } from '@/components/ui/sidebar';
+import { Dialog,DialogContent,DialogTitle,DialogDescription,DialogClose } from '@/components/ui/dialog';
+import { Empty,EmptyTitle,EmptyDescription } from '@/components/ui/empty';
+import { shops,categories,itemCount,priceLabels,locationLabels,eraLabels,scaleLabels,loadShop } from '../data';
+import type { Shop } from '../data/types';
+import { defaultFilters,matchesFilters,parseRoute,readIds,remember,sample,type Filters } from '../lib/catalog';
+import ShopCard from './ShopCard';
+import ShopDetail from './ShopDetail';
+import PlayerMenu from './PlayerMenu';
+import FilterSelect from './FilterSelect';
+import { ShopIcon } from './Icons';
+import { registerCatalogTools } from '../lib/webmcp';
+
+const validIds=shops.map(s=>s.id);
+const keys={favorites:'machikado.favorites.v1',recent:'machikado.recent.v1'};
+type Collection='all'|'favorites'|'recent';
+const collectionNames:Record<Collection,string>={all:'すべての店舗',favorites:'お気に入り',recent:'最近見た店舗'};
+
+function CatalogSidebar({collection,category,favoriteCount,recentCount,onCollection,onCategory,onHelp}:{collection:Collection;category:string;favoriteCount:number;recentCount:number;onCollection:(value:Collection)=>void;onCategory:(id:string)=>void;onHelp:()=>void}){
+ const {setOpenMobile}=useSidebar();
+ return <Sidebar className="catalog-sidebar"><SidebarHeader><a className="brand" href="#/" onClick={()=>{onCollection('all');setOpenMobile(false);}}><span className="brand-icon"><BookOpen/></span><span>まちかど<br/>メニュー帖<small>FICTIONAL SHOP CATALOG</small></span></a></SidebarHeader><SidebarContent><div className="side-label">ライブラリ</div><SidebarMenu>{(['all','favorites','recent'] as const).map(value=>{const Icon=value==='all'?BookOpen:value==='favorites'?Bookmark:History;return <SidebarMenuItem key={value}><SidebarMenuButton className={`nav-link ${collection===value&&category==='all'?'active':''}`} isActive={collection===value&&category==='all'} onClick={()=>{onCollection(value);setOpenMobile(false);}}><Icon/>{collectionNames[value]}<span>{value==='all'?shops.length:value==='favorites'?favoriteCount:recentCount}</span></SidebarMenuButton></SidebarMenuItem>})}</SidebarMenu><div className="side-label category-label">カテゴリから探す <span>{categories.length}</span></div>{(['飲食店','テイクアウト','小売店','施設・娯楽'] as const).map(group=><details className="category-group" key={group} open={group==='飲食店'||categories.some(c=>c.group===group&&c.id===category)}><summary className="side-group">{group}<ChevronRight size={13}/></summary><SidebarMenu>{categories.filter(c=>c.group===group).map(c=><SidebarMenuItem key={c.id}><SidebarMenuButton className={`nav-link ${category===c.id?'active':''}`} isActive={category===c.id} onClick={()=>{onCategory(c.id);setOpenMobile(false);}}><ShopIcon name={c.icon} size={17}/>{c.label}<span>{shops.filter(s=>s.category===c.id).length}</span></SidebarMenuButton></SidebarMenuItem>)}</SidebarMenu></details>)}</SidebarContent><SidebarFooter><button className="text-button help-link" onClick={()=>{onHelp();setOpenMobile(false);}}><HelpCircle size={15}/>このカタログについて</button><p className="side-foot">創作・TRPGのための架空店舗資料集<br/><span>50の店種、100の物語の入り口。</span></p></SidebarFooter></Sidebar>;
+}
+
+export default function CatalogApp(){
+ const [route,setRoute]=useState(()=>parseRoute(window.location.hash));
+ const [filters,setFilters]=useState<Filters>(()=>({...defaultFilters,category:route.kind==='catalog'?route.category:'all'}));
+ const [collection,setCollection]=useState<Collection>('all');
+ const [favorites,setFavorites]=useState<string[]>(()=>{try{return readIds(localStorage.getItem(keys.favorites),validIds);}catch{return [];}});
+ const [recent,setRecent]=useState<string[]>(()=>{try{return readIds(localStorage.getItem(keys.recent),validIds).slice(0,20);}catch{return [];}});
+ const [shop,setShop]=useState<Shop|null>(null);
+ const [loadError,setLoadError]=useState('');const [retry,setRetry]=useState(0);
+ const [visibleCount,setVisibleCount]=useState(18);
+ const [toast,setToast]=useState('');const [copyFallback,setCopyFallback]=useState<{text:string;label:string}|null>(null);
+ const [help,setHelp]=useState(false);const [storageWarning,setStorageWarning]=useState(false);
+ const searchRef=useRef<HTMLInputElement>(null);const titleRef=useRef<HTMLHeadingElement>(null);const toastTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
+ const returnHash=useRef('#/');
+ const notify=useCallback((message:string)=>{if(toastTimer.current)clearTimeout(toastTimer.current);setToast(message);toastTimer.current=setTimeout(()=>setToast(''),3600);},[]);
+ useEffect(()=>()=>{if(toastTimer.current)clearTimeout(toastTimer.current);},[]);
+ const persist=useCallback((key:string,ids:string[])=>{try{localStorage.setItem(key,JSON.stringify(ids));}catch{setStorageWarning(true);}},[]);
+ useEffect(()=>{const sync=(e:StorageEvent)=>{if(e.key===keys.favorites)setFavorites(readIds(e.newValue,validIds));if(e.key===keys.recent)setRecent(readIds(e.newValue,validIds).slice(0,20));};window.addEventListener('storage',sync);return()=>window.removeEventListener('storage',sync);},[]);
+ useEffect(()=>{const change=()=>{const next=parseRoute(window.location.hash);setRoute(next);if(next.kind==='catalog'){setFilters(f=>({...f,category:next.category}));returnHash.current=window.location.hash||'#/';}window.scrollTo({top:0});};window.addEventListener('hashchange',change);return()=>window.removeEventListener('hashchange',change);},[]);
+ const shopId=route.kind==='shop'?route.id:null;
+ useEffect(()=>{if(!shopId){setShop(null);setLoadError('');return;}const controller=new AbortController();setShop(null);setLoadError('');loadShop(shopId,controller.signal).then(value=>{if(controller.signal.aborted)return;setShop(value);setRecent(ids=>{const next=remember(ids,value.id);persist(keys.recent,next);return next;});}).catch((e:unknown)=>{if(!controller.signal.aborted)setLoadError(e instanceof Error?e.message:'メニューを読み込めませんでした。');});return()=>controller.abort();},[shopId,retry,persist]);
+ useEffect(()=>{document.title=shop?`${shop.name}｜まちかどメニュー帖`:'まちかどメニュー帖｜架空店舗メニューカタログ';},[shop]);
+ useEffect(()=>{setVisibleCount(18);},[filters,collection]);
+ useEffect(()=>{const onKey=(e:KeyboardEvent)=>{if(e.key==='/'&&route.kind==='catalog'&&!(e.target instanceof HTMLInputElement)&&!(e.target instanceof HTMLTextAreaElement)){e.preventDefault();searchRef.current?.focus();}};window.addEventListener('keydown',onKey);return()=>window.removeEventListener('keydown',onKey);},[route.kind]);
+ const toggleFavorite=useCallback((id:string)=>{setFavorites(ids=>{const exists=ids.includes(id);const next=exists?ids.filter(x=>x!==id):[id,...ids];persist(keys.favorites,next);return next;});},[persist]);
+ const copy=useCallback(async(text:string,label:string)=>{try{await navigator.clipboard.writeText(text);notify(`${label}をコピーしました`);}catch{setCopyFallback({text,label});}},[notify]);
+ const goList=useCallback(()=>{window.location.hash=returnHash.current;},[]);
+ const setFilter=useCallback((key:keyof Filters,value:string)=>setFilters(f=>({...f,[key]:value})),[]);
+ const chooseCollection=(value:Collection)=>{setCollection(value);setFilters({...defaultFilters});window.location.hash='#/';};
+ const chooseCategory=(id:string)=>{setCollection('all');setFilter('category',id);window.location.hash=`#/categories/${id}`;};
+ const reset=()=>{setFilters({...defaultFilters});window.location.hash='#/';};
+ const results=useMemo(()=>{
+  const base=collection==='recent'?recent.map(id=>shops.find(s=>s.id===id)!).filter(Boolean):shops;
+  return base.filter(s=>(collection!=='favorites'||favorites.includes(s.id))&&matchesFilters(s,filters,`${locationLabels[s.locationType]} ${priceLabels[s.priceLevel]} ${eraLabels[s.era]} ${scaleLabels[s.scale]}`));
+ },[filters,collection,favorites,recent]);
+ const randomShop=()=>{const selected=sample(results,1)[0];if(selected)window.location.hash=`#/shop/${selected.id}`;else notify('条件に合う店舗がありません。絞り込みを変更してください。');};
+ const selectCategory=categories.find(c=>c.id===filters.category);
+ const allTags=useMemo(()=>Object.fromEntries([...new Set(shops.flatMap(s=>s.tags))].sort().map(t=>[t,t])),[]);
+ const activeFilterCount=Object.entries(filters).filter(([key,value])=>key==='query'?Boolean(value):value!=='all').length;
+ useEffect(()=>registerCatalogTools({onSearch:input=>{setCollection('all');setFilters({...defaultFilters,...input});window.location.hash=input.category&&input.category!=='all'?`#/categories/${input.category}`:'#/';},onOpen:id=>{window.location.hash=`#/shop/${id}`;}}),[]);
+ const missing=route.kind==='missing'||(route.kind==='catalog'&&route.category!=='all'&&!categories.some(c=>c.id===route.category));
+ const closePL=useCallback(()=>{if(document.fullscreenElement)void document.exitFullscreen().catch(()=>{});window.location.hash=shopId?`#/shop/${shopId}`:'#/';},[shopId]);
+ const feedback=<>{toast&&<div className="toast" role="status"><Check size={17}/>{toast}<button aria-label="通知を閉じる" onClick={()=>setToast('')}><X size={14}/></button></div>}<Dialog open={Boolean(copyFallback)} onOpenChange={open=>{if(!open)setCopyFallback(null);}}><DialogContent className="copy-dialog" showCloseButton={false}><DialogTitle>{copyFallback?.label}をコピー</DialogTitle><DialogDescription>ブラウザで自動コピーが許可されていません。以下のテキストを選択してコピーしてください。</DialogDescription><textarea aria-label="コピーするテキスト" readOnly value={copyFallback?.text??''} onFocus={e=>e.currentTarget.select()}/><DialogClose className="button">閉じる</DialogClose></DialogContent></Dialog></>;
+ if(route.kind==='shop'&&route.pl&&shop)return <><PlayerMenu shop={shop} onClose={closePL} onCopy={copy} onNotify={notify}/>{feedback}</>;
+ return <SidebarProvider style={{'--sidebar-width':'244px'} as CSSProperties}><a href="#main-content" className="skip-link" onClick={e=>{e.preventDefault();document.getElementById('main-content')?.focus();}}>本文へ移動</a><CatalogSidebar collection={collection} category={filters.category} favoriteCount={favorites.length} recentCount={recent.length} onCollection={chooseCollection} onCategory={chooseCategory} onHelp={()=>setHelp(true)}/><div className="workspace"><header className="topbar"><div className="breadcrumb"><SidebarTrigger className="mobile-toggle" aria-label="カテゴリを開く"/><button onClick={()=>chooseCollection('all')}>店舗カタログ</button><ChevronRight size={14}/><strong>{shop?.name??selectCategory?.label??collectionNames[collection]}</strong></div><span className="edition">創作のための、小さなメニュー辞典</span></header><main className="main-content" id="main-content" tabIndex={-1}>{storageWarning&&<div className="storage-warning" role="status">保存領域が利用できません。お気に入りと履歴はこの画面を開いている間だけ保持されます。<button className="icon-button" aria-label="閉じる" onClick={()=>setStorageWarning(false)}><X size={16}/></button></div>}
+ {missing?<Empty className="empty-state"><Search/><EmptyTitle>ページが見つかりません</EmptyTitle><EmptyDescription>URLをご確認いただくか、店舗一覧からお探しください。</EmptyDescription><button className="button primary" onClick={()=>chooseCollection('all')}>店舗一覧へ</button></Empty>:route.kind==='shop'?(loadError?<Empty className="empty-state"><EmptyTitle>{loadError}</EmptyTitle><button className="button" onClick={()=>setRetry(n=>n+1)}>再試行</button><button className="text-button" onClick={goList}><ArrowLeft size={16}/>店舗一覧に戻る</button></Empty>:shop?<ShopDetail key={shop.id} shop={shop} saved={favorites.includes(shop.id)} onSave={()=>toggleFavorite(shop.id)} onBack={goList} onCopy={copy}/>:<div className="loading-state" role="status"><BookOpen size={28}/><p>メニューを開いています…</p></div>):<>
+ <div className="page-heading"><div><p className="eyebrow">THE TOWN IS YOUR STORY.</p><h1 ref={titleRef}>{collection==='all'?'今日は、どのお店へ？':collection==='favorites'?'物語にとっておく、一軒。':'さっきのお店に、もう一度。'}</h1><p>{collection==='all'?'そこにありそうな一軒と、物語のつづきを。':collection==='favorites'?'このブラウザに保存した、お気に入りのお店。':'このブラウザで開いた、最近20店舗のメニュー。'}</p></div><button className="button primary" onClick={randomShop} disabled={!results.length}><Shuffle size={17}/>適当な店を出す<ArrowUpRight size={16}/></button></div>
+ <section className="search-area" aria-label="店舗検索"><div className="search-input"><Search size={21}/><input ref={searchRef} aria-label="店舗やメニューを検索" value={filters.query} onChange={e=>setFilter('query',e.target.value)} placeholder="店舗名、メニュー、キーワードで探す"/>{filters.query?<button className="icon-button" aria-label="検索語を消す" onClick={()=>setFilter('query','')}><X size={17}/></button>:<kbd>/</kbd>}</div><div className="suggestions"><span>たとえば</span>{['プリン','コーヒー','唐揚げ','昭和レトロ'].map(q=><button key={q} onClick={()=>setFilter('query',q)}>{q}</button>)}</div></section>
+ <div className="filters-row"><span><SlidersHorizontal size={16}/>絞り込み</span><FilterSelect label="価格帯" value={filters.price} options={priceLabels} onChange={v=>setFilter('price',v)}/><FilterSelect label="立地" value={filters.location} options={locationLabels} onChange={v=>setFilter('location',v)}/><FilterSelect label="規模" value={filters.scale} options={scaleLabels} onChange={v=>setFilter('scale',v)}/><FilterSelect label="雰囲気" value={filters.tag} options={allTags} onChange={v=>setFilter('tag',v)}/><FilterSelect label="時代" value={filters.era} options={eraLabels} onChange={v=>setFilter('era',v)}/>{activeFilterCount>0&&<button className="text-button reset-filters" onClick={reset}><X size={13}/>解除</button>}</div>
+ <div className="results-heading"><h2>{selectCategory?.label??collectionNames[collection]}<span aria-live="polite">{results.length}<small>店舗</small></span></h2><span>{categories.length}カテゴリ ／ {itemCount.toLocaleString()}品のメニュー</span></div>
+ {results.length?<><div className="shop-grid">{results.slice(0,visibleCount).map((s,index)=><ShopCard key={s.id} shop={s} index={index} saved={favorites.includes(s.id)} onSave={()=>toggleFavorite(s.id)}/>)}</div>{results.length>visibleCount&&<div className="load-more"><button className="button" onClick={()=>setVisibleCount(n=>n+18)}>さらに18店舗を見る <span>（残り{results.length-visibleCount}店舗）</span></button></div>}</>:<Empty className="empty-state"><Search size={30}/><EmptyTitle>{collection==='favorites'&&!favorites.length?'お気に入りは、まだありません':collection==='recent'&&!recent.length?'まだ開いた店舗がありません':'条件に合う店舗が見つかりませんでした'}</EmptyTitle><EmptyDescription>{collection==='favorites'&&!favorites.length?'店舗カードのしおりマークを押して保存できます。':filters.era!=='all'&&filters.era!=='modern'?'現在の収録データは現代の店舗です。時代を「現代」または「すべて」に変更してください。':'キーワードを短くするか、絞り込み条件を変更してお探しください。'}</EmptyDescription><button className="button" onClick={()=>{if(collection!=='all')chooseCollection('all');else reset();}}>すべての店舗を見る</button></Empty>}
+ </>}
+ <footer className="page-footer"><BookOpen size={18}/><p>この街のお店は、すべてフィクションです。<span>店舗名・商品・価格は創作用の架空設定です。</span></p><span>まちかどメニュー帖</span></footer></main></div>{feedback}<Dialog open={help} onOpenChange={setHelp}><DialogContent className="help-dialog" showCloseButton={false}><DialogTitle>まちかどメニュー帖について</DialogTitle><DialogDescription>現代日本の創作とTRPGに使う、架空店舗のメニュー集です。</DialogDescription><div className="help-body"><p><b>探す</b>カテゴリや商品名で検索し、価格帯・立地・雰囲気を絞り込めます。「適当な店を出す」は現在の条件の中から一軒を選びます。</p><p><b>見せる</b>店舗の「メニュー表として表示」でPL用の紙面へ。操作を隠したら、画面上端をタップするかEscキーで操作を戻せます。</p><p><b>持ち出す</b>商品・店舗説明・メニュー・GM用テキストをコピーできます。URLは店舗ごとに固定です。</p><p><b>保存する</b>お気に入りと最近20店舗は、今お使いのブラウザに保存されます。端末間の同期はありません。</p><p className="help-note">すべて架空の設定です。実店舗の紹介や価格保証ではありません。収録内容は編集用初稿で、人による最終確認は未実施です。</p></div><DialogClose className="button primary">閉じる</DialogClose></DialogContent></Dialog></SidebarProvider>;
+}

@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "pizza",
+    "label": "ピザ屋",
+    "group": "飲食店",
+    "icon": "pizza"
+  },
+  "shops": [
+    {
+      "id": "pizza-1",
+      "name": "窯焼きピッツァ 風車庭",
+      "category": "pizza",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "小さな窯を据えた路面店。生地が焼ける香りと賑やかな会話が広がる。",
+      "openingHours": "11:30〜22:00",
+      "menuSections": [
+        {
+          "id": "pizza-1-section-1",
+          "title": "PIZZA",
+          "items": [
+            {
+              "id": "pizza-1-item-1",
+              "name": "マルゲリータ",
+              "price": 1280,
+              "description": "トマト、モッツァレラ、バジルの定番。",
+              "recommended": true
+            },
+            {
+              "id": "pizza-1-item-2",
+              "name": "四種のチーズ",
+              "price": 1580,
+              "description": "蜂蜜を添えたチーズのピザ。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-3",
+              "name": "きのことベーコン",
+              "price": 1480,
+              "description": "きのこの香りとベーコンの塩気。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-4",
+              "name": "シーフードピザ",
+              "price": 1680,
+              "description": "海老といかをのせた一枚。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-5",
+              "name": "照り焼きチキンピザ",
+              "price": 1450,
+              "description": "甘辛チキンと海苔の和風ピザ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pizza-1-section-2",
+          "title": "ANTIPASTO",
+          "items": [
+            {
+              "id": "pizza-1-item-6",
+              "name": "グリーンサラダ",
+              "price": 580,
+              "description": "シェアできる葉野菜のサラダ。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-7",
+              "name": "ミネストローネ",
+              "price": 450,
+              "description": "野菜を煮込んだトマトスープ。",
+              "recommended": true
+            },
+            {
+              "id": "pizza-1-item-8",
+              "name": "フライドポテト",
+              "price": 420,
+              "description": "ハーブ塩で仕上げたポテト。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-9",
+              "name": "生ハム盛り",
+              "price": 780,
+              "description": "薄く切った生ハムを一皿に。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-10",
+              "name": "ピクルス",
+              "price": 380,
+              "description": "野菜をさっぱりした酢漬けに。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pizza-1-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "id": "pizza-1-item-11",
+              "name": "ティラミス",
+              "price": 580,
+              "description": "珈琲を含ませた大人のデザート。",
+              "recommended": true
+            },
+            {
+              "id": "pizza-1-item-12",
+              "name": "ジェラート",
+              "price": 380,
+              "description": "ミルクの風味を楽しむ一玉。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-13",
+              "name": "グラスワイン",
+              "price": 580,
+              "description": "料理に合わせる赤または白。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-14",
+              "name": "ブラッドオレンジソーダ",
+              "price": 480,
+              "description": "赤いオレンジの爽やかな炭酸。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-item-15",
+              "name": "エスプレッソ",
+              "price": 350,
+              "description": "小さなカップに凝縮した香り。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza-2",
+      "name": "PIZZA TERRA NOTE",
+      "category": "pizza",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街の角にあるピザ屋。薄い生地と季節の具材を、気取らず楽しめる。",
+      "openingHours": "11:30〜22:00",
+      "menuSections": [
+        {
+          "id": "pizza-2-section-1",
+          "title": "PIZZA",
+          "items": [
+            {
+              "id": "pizza-2-item-1",
+              "name": "しらすと青ねぎのピザ",
+              "price": 1710,
+              "description": "しらすの塩気と青ねぎの香り。",
+              "recommended": true
+            },
+            {
+              "id": "pizza-2-item-2",
+              "name": "四種のチーズ",
+              "price": 1740,
+              "description": "蜂蜜を添えたチーズのピザ。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-3",
+              "name": "きのことベーコン",
+              "price": 1630,
+              "description": "きのこの香りとベーコンの塩気。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-4",
+              "name": "シーフードピザ",
+              "price": 1850,
+              "description": "海老といかをのせた一枚。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-5",
+              "name": "照り焼きチキンピザ",
+              "price": 1600,
+              "description": "甘辛チキンと海苔の和風ピザ。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pizza-2-section-2",
+          "title": "ANTIPASTO",
+          "items": [
+            {
+              "id": "pizza-2-item-6",
+              "name": "グリーンサラダ",
+              "price": 640,
+              "description": "シェアできる葉野菜のサラダ。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-7",
+              "name": "ミネストローネ",
+              "price": 500,
+              "description": "野菜を煮込んだトマトスープ。",
+              "recommended": true
+            },
+            {
+              "id": "pizza-2-item-8",
+              "name": "フライドポテト",
+              "price": 460,
+              "description": "ハーブ塩で仕上げたポテト。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-9",
+              "name": "生ハム盛り",
+              "price": 860,
+              "description": "薄く切った生ハムを一皿に。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-10",
+              "name": "ピクルス",
+              "price": 420,
+              "description": "野菜をさっぱりした酢漬けに。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pizza-2-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "id": "pizza-2-item-11",
+              "name": "ティラミス",
+              "price": 640,
+              "description": "珈琲を含ませた大人のデザート。",
+              "recommended": true
+            },
+            {
+              "id": "pizza-2-item-12",
+              "name": "ジェラート",
+              "price": 420,
+              "description": "ミルクの風味を楽しむ一玉。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-13",
+              "name": "グラスワイン",
+              "price": 640,
+              "description": "料理に合わせる赤または白。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-14",
+              "name": "ブラッドオレンジソーダ",
+              "price": 530,
+              "description": "赤いオレンジの爽やかな炭酸。",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-item-15",
+              "name": "エスプレッソ",
+              "price": 390,
+              "description": "小さなカップに凝縮した香り。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

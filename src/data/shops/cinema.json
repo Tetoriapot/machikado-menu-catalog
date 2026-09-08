@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "cinema",
+    "label": "映画館売店",
+    "group": "施設・娯楽",
+    "icon": "film"
+  },
+  "shops": [
+    {
+      "id": "cinema-1",
+      "name": "シネマ 燈映 売店",
+      "category": "cinema",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "映画館のロビーにある売店。上映前の客がポップコーンと飲み物を買い求める。",
+      "openingHours": "9:00〜最終上映開始",
+      "menuSections": [
+        {
+          "id": "cinema-1-section-1",
+          "title": "スナック",
+          "items": [
+            {
+              "id": "cinema-1-item-1",
+              "name": "塩ポップコーン M",
+              "price": 480,
+              "description": "定番の軽い塩味。",
+              "recommended": true
+            },
+            {
+              "id": "cinema-1-item-2",
+              "name": "キャラメルポップコーン M",
+              "price": 580,
+              "description": "甘いコーティングのポップコーン。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-3",
+              "name": "ハーフポップコーン L",
+              "price": 780,
+              "description": "塩とキャラメルの二種類。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-4",
+              "name": "ホットドッグ",
+              "price": 480,
+              "description": "ケチャップとマスタード付き。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-5",
+              "name": "チュロス",
+              "price": 380,
+              "description": "シナモンシュガーの揚げ菓子。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-1-section-2",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "cinema-1-item-6",
+              "name": "コーラ M",
+              "price": 350,
+              "description": "ふたとストロー付きのカップ。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-7",
+              "name": "ジンジャーエール M",
+              "price": 350,
+              "description": "爽やかな炭酸飲料。",
+              "recommended": true
+            },
+            {
+              "id": "cinema-1-item-8",
+              "name": "アイスティー M",
+              "price": 350,
+              "description": "甘さを調整できる紅茶。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-9",
+              "name": "ホットコーヒー",
+              "price": 380,
+              "description": "持ち込み用ふた付き珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-10",
+              "name": "オレンジジュース M",
+              "price": 350,
+              "description": "果実の甘みが広がる一杯。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-1-section-3",
+          "title": "セット・グッズ",
+          "items": [
+            {
+              "id": "cinema-1-item-11",
+              "name": "ポップコーンセット",
+              "price": 750,
+              "description": "塩MとソフトドリンクM。",
+              "recommended": true
+            },
+            {
+              "id": "cinema-1-item-12",
+              "name": "ペアセット",
+              "price": 1280,
+              "description": "ポップコーンLとドリンク二杯。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-13",
+              "name": "映画パンフレット",
+              "price": 880,
+              "description": "上映中の架空作品の冊子。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-14",
+              "name": "ポストカード 三枚",
+              "price": 550,
+              "description": "架空作品の場面イラスト。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-item-15",
+              "name": "クリアファイル",
+              "price": 440,
+              "description": "架空作品の絵柄入りA4ファイル。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema-2",
+      "name": "青幕シネマ スナックカウンター",
+      "category": "cinema",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "小さなシネコンの売店。次の上映を待つ人たちが、メニューの看板を見上げる。",
+      "openingHours": "9:00〜最終上映開始",
+      "menuSections": [
+        {
+          "id": "cinema-2-section-1",
+          "title": "スナック",
+          "items": [
+            {
+              "id": "cinema-2-item-1",
+              "name": "黒糖ポップコーン M",
+              "price": 680,
+              "description": "黒糖のコクをまとった甘い味。",
+              "recommended": true
+            },
+            {
+              "id": "cinema-2-item-2",
+              "name": "キャラメルポップコーン M",
+              "price": 640,
+              "description": "甘いコーティングのポップコーン。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-3",
+              "name": "ハーフポップコーン L",
+              "price": 860,
+              "description": "塩とキャラメルの二種類。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-4",
+              "name": "ホットドッグ",
+              "price": 530,
+              "description": "ケチャップとマスタード付き。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-5",
+              "name": "チュロス",
+              "price": 420,
+              "description": "シナモンシュガーの揚げ菓子。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-2-section-2",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "cinema-2-item-6",
+              "name": "コーラ M",
+              "price": 390,
+              "description": "ふたとストロー付きのカップ。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-7",
+              "name": "ジンジャーエール M",
+              "price": 390,
+              "description": "爽やかな炭酸飲料。",
+              "recommended": true
+            },
+            {
+              "id": "cinema-2-item-8",
+              "name": "アイスティー M",
+              "price": 390,
+              "description": "甘さを調整できる紅茶。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-9",
+              "name": "ホットコーヒー",
+              "price": 420,
+              "description": "持ち込み用ふた付き珈琲。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-10",
+              "name": "オレンジジュース M",
+              "price": 390,
+              "description": "果実の甘みが広がる一杯。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-2-section-3",
+          "title": "セット・グッズ",
+          "items": [
+            {
+              "id": "cinema-2-item-11",
+              "name": "ポップコーンセット",
+              "price": 830,
+              "description": "塩MとソフトドリンクM。",
+              "recommended": true
+            },
+            {
+              "id": "cinema-2-item-12",
+              "name": "ペアセット",
+              "price": 1410,
+              "description": "ポップコーンLとドリンク二杯。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-13",
+              "name": "映画パンフレット",
+              "price": 970,
+              "description": "上映中の架空作品の冊子。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-14",
+              "name": "ポストカード 三枚",
+              "price": 610,
+              "description": "架空作品の場面イラスト。",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-item-15",
+              "name": "クリアファイル",
+              "price": 480,
+              "description": "架空作品の絵柄入りA4ファイル。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

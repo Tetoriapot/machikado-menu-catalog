@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "service-area",
+    "label": "サービスエリア",
+    "group": "施設・娯楽",
+    "icon": "truck"
+  },
+  "shops": [
+    {
+      "id": "service-area-1",
+      "name": "風見峠SA フードコート",
+      "category": "service-area",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "normal",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "長距離ドライブの途中に立ち寄るサービスエリア。売店と食堂の灯りが夜の旅を支える。",
+      "openingHours": "24時間（一部売店は8:00〜20:00）",
+      "menuSections": [
+        {
+          "id": "service-area-1-section-1",
+          "title": "フードコート",
+          "items": [
+            {
+              "id": "service-area-1-item-1",
+              "name": "峠の豚汁定食",
+              "price": 980,
+              "description": "根菜たっぷりの汁とおにぎり。",
+              "recommended": true
+            },
+            {
+              "id": "service-area-1-item-2",
+              "name": "醤油ラーメン",
+              "price": 850,
+              "description": "休憩中に食べやすい定番の麺。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-3",
+              "name": "カツカレー",
+              "price": 1180,
+              "description": "大きめカツとコクのあるカレー。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-4",
+              "name": "山菜そば",
+              "price": 780,
+              "description": "山菜を盛った温かい蕎麦。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-5",
+              "name": "焼肉丼",
+              "price": 1080,
+              "description": "香ばしい豚肉とたっぷりご飯。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "service-area-1-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "service-area-1-item-6",
+              "name": "肉まん",
+              "price": 320,
+              "description": "温かい大ぶりの肉まん。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-7",
+              "name": "フランクフルト",
+              "price": 350,
+              "description": "串付きの焼きソーセージ。",
+              "recommended": true
+            },
+            {
+              "id": "service-area-1-item-8",
+              "name": "ソフトクリーム",
+              "price": 420,
+              "description": "濃いミルク風味のソフト。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-9",
+              "name": "じゃがバター",
+              "price": 380,
+              "description": "蒸したじゃがいもにバター。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-10",
+              "name": "たこ焼き 六個",
+              "price": 550,
+              "description": "ソースと鰹節の定番軽食。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "service-area-1-section-3",
+          "title": "売店",
+          "items": [
+            {
+              "id": "service-area-1-item-11",
+              "name": "地元風ミルク饅頭 六個",
+              "price": 980,
+              "description": "架空の地域土産を想定した箱菓子。",
+              "recommended": true
+            },
+            {
+              "id": "service-area-1-item-12",
+              "name": "瓶入りりんごジュース",
+              "price": 320,
+              "description": "休憩にうれしい果汁飲料。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-13",
+              "name": "コーヒー",
+              "price": 350,
+              "description": "ふた付きの持ち帰りカップ。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-14",
+              "name": "緑茶 600ml",
+              "price": 180,
+              "description": "携帯しやすい無糖茶。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-item-15",
+              "name": "道路地図冊子",
+              "price": 1320,
+              "description": "架空地域の道路案内という設定。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service-area-2",
+      "name": "はるな野SA 食堂",
+      "category": "service-area",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "normal",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "広い駐車場に面した休憩施設。名物風の料理から定番のお土産まで揃う。",
+      "openingHours": "24時間（一部売店は8:00〜20:00）",
+      "menuSections": [
+        {
+          "id": "service-area-2-section-1",
+          "title": "フードコート",
+          "items": [
+            {
+              "id": "service-area-2-item-1",
+              "name": "山里きのこ定食",
+              "price": 1270,
+              "description": "きのこご飯と野菜天ぷらのセット。",
+              "recommended": true
+            },
+            {
+              "id": "service-area-2-item-2",
+              "name": "醤油ラーメン",
+              "price": 940,
+              "description": "休憩中に食べやすい定番の麺。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-3",
+              "name": "カツカレー",
+              "price": 1300,
+              "description": "大きめカツとコクのあるカレー。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-4",
+              "name": "山菜そば",
+              "price": 860,
+              "description": "山菜を盛った温かい蕎麦。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-5",
+              "name": "焼肉丼",
+              "price": 1190,
+              "description": "香ばしい豚肉とたっぷりご飯。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "service-area-2-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "service-area-2-item-6",
+              "name": "肉まん",
+              "price": 350,
+              "description": "温かい大ぶりの肉まん。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-7",
+              "name": "フランクフルト",
+              "price": 390,
+              "description": "串付きの焼きソーセージ。",
+              "recommended": true
+            },
+            {
+              "id": "service-area-2-item-8",
+              "name": "ソフトクリーム",
+              "price": 460,
+              "description": "濃いミルク風味のソフト。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-9",
+              "name": "じゃがバター",
+              "price": 420,
+              "description": "蒸したじゃがいもにバター。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-10",
+              "name": "たこ焼き 六個",
+              "price": 610,
+              "description": "ソースと鰹節の定番軽食。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "service-area-2-section-3",
+          "title": "売店",
+          "items": [
+            {
+              "id": "service-area-2-item-11",
+              "name": "地元風ミルク饅頭 六個",
+              "price": 1080,
+              "description": "架空の地域土産を想定した箱菓子。",
+              "recommended": true
+            },
+            {
+              "id": "service-area-2-item-12",
+              "name": "瓶入りりんごジュース",
+              "price": 350,
+              "description": "休憩にうれしい果汁飲料。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-13",
+              "name": "コーヒー",
+              "price": 390,
+              "description": "ふた付きの持ち帰りカップ。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-14",
+              "name": "緑茶 600ml",
+              "price": 200,
+              "description": "携帯しやすい無糖茶。",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-item-15",
+              "name": "道路地図冊子",
+              "price": 1450,
+              "description": "架空地域の道路案内という設定。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

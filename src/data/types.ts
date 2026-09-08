@@ -1,0 +1,10 @@
+export type PriceLevel = 'very-cheap' | 'cheap' | 'normal' | 'expensive' | 'luxury';
+export type LocationType = 'city' | 'suburb' | 'local-city' | 'rural' | 'station' | 'shopping-street' | 'tourist';
+export type Era = 'modern' | '2010s' | '2000s' | '1990s' | 'showa';
+export type ShopScale = 'independent' | 'small-chain' | 'national-chain' | 'upscale';
+export type MenuItem = { id: string; name: string; price: number; description: string; tags?: string[]; recommended?: boolean; seasonal?: boolean };
+export type MenuSection = { id: string; title: string; items: MenuItem[] };
+export type Shop = { id: string; name: string; category: string; tags: string[]; priceLevel: PriceLevel; locationType: LocationType; era: Era; scale: ShopScale; description: string; openingHours: string; menuSections: MenuSection[] };
+export type Category = { id: string; label: string; group: '飲食店' | 'テイクアウト' | '小売店' | '施設・娯楽'; icon: string };
+export type CategorySeed = { category: Category; names: [string, string]; descriptions: [string, string]; hours: string; price?: PriceLevel; location?: LocationType; sections: [string, string, string]; menu: string; variant?: string };
+export type ShopSummary = Omit<Shop,'menuSections'> & {itemCount:number; preview:MenuItem[]; searchText:string};

@@ -1,0 +1,290 @@
+{
+  "category": {
+    "id": "bakery",
+    "label": "パン屋",
+    "group": "テイクアウト",
+    "icon": "croissant"
+  },
+  "shops": [
+    {
+      "id": "bakery-1",
+      "name": "パン工房 麦日和",
+      "category": "bakery",
+      "tags": [
+        "定番メニュー",
+        "気軽に入れる"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "朝の商店街にパンの香りが広がる小さな店。焼き上がりのたびに木の棚が埋まっていく。",
+      "openingHours": "7:00〜18:00",
+      "menuSections": [
+        {
+          "id": "bakery-1-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "id": "bakery-1-item-1",
+              "name": "山型食パン 一斤",
+              "price": 340,
+              "description": "毎朝のトーストに合う食パン。",
+              "recommended": true
+            },
+            {
+              "id": "bakery-1-item-2",
+              "name": "バゲット",
+              "price": 300,
+              "description": "皮を香ばしく焼いた長いパン。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-3",
+              "name": "塩パン",
+              "price": 150,
+              "description": "バターと岩塩のシンプルな一個。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-4",
+              "name": "クロワッサン",
+              "price": 220,
+              "description": "何層にも重ねたバター生地。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-5",
+              "name": "全粒粉ロール",
+              "price": 180,
+              "description": "小麦の風味を楽しむ丸パン。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-1-section-2",
+          "title": "惣菜パン",
+          "items": [
+            {
+              "id": "bakery-1-item-6",
+              "name": "カレーパン",
+              "price": 240,
+              "description": "自家製カレーを包んで揚げたパン。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-7",
+              "name": "ソーセージロール",
+              "price": 260,
+              "description": "粗挽きソーセージを生地で巻いて。",
+              "recommended": true
+            },
+            {
+              "id": "bakery-1-item-8",
+              "name": "卵サンド",
+              "price": 330,
+              "description": "まろやかな卵サラダ入り。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-9",
+              "name": "ツナコーンパン",
+              "price": 220,
+              "description": "ツナとコーンを焼き込んだパン。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-10",
+              "name": "枝豆チーズパン",
+              "price": 230,
+              "description": "枝豆とチーズの塩気。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-1-section-3",
+          "title": "甘いパン",
+          "items": [
+            {
+              "id": "bakery-1-item-11",
+              "name": "あんぱん",
+              "price": 180,
+              "description": "粒あん入りのふんわり生地。",
+              "recommended": true
+            },
+            {
+              "id": "bakery-1-item-12",
+              "name": "クリームパン",
+              "price": 200,
+              "description": "カスタードをたっぷり包んで。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-13",
+              "name": "メロンパン",
+              "price": 190,
+              "description": "外側のクッキー生地はさっくり。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-14",
+              "name": "シナモンロール",
+              "price": 260,
+              "description": "シナモンと砂糖を巻き込んで。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-item-15",
+              "name": "りんごデニッシュ",
+              "price": 280,
+              "description": "甘く煮たりんごの層状パン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-2",
+      "name": "ベーカリー こなつ窓",
+      "category": "bakery",
+      "tags": [
+        "落ち着いた雰囲気",
+        "地元で人気"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街の角にあるパン屋。通学前の子どもと、朝食を買いに来る住民がすれ違う。",
+      "openingHours": "7:00〜18:00",
+      "menuSections": [
+        {
+          "id": "bakery-2-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "id": "bakery-2-item-1",
+              "name": "くるみカンパーニュ",
+              "price": 570,
+              "description": "くるみを練り込んだ大きな丸パン。",
+              "recommended": true
+            },
+            {
+              "id": "bakery-2-item-2",
+              "name": "バゲット",
+              "price": 330,
+              "description": "皮を香ばしく焼いた長いパン。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-3",
+              "name": "塩パン",
+              "price": 170,
+              "description": "バターと岩塩のシンプルな一個。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-4",
+              "name": "クロワッサン",
+              "price": 240,
+              "description": "何層にも重ねたバター生地。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-5",
+              "name": "全粒粉ロール",
+              "price": 200,
+              "description": "小麦の風味を楽しむ丸パン。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-2-section-2",
+          "title": "惣菜パン",
+          "items": [
+            {
+              "id": "bakery-2-item-6",
+              "name": "カレーパン",
+              "price": 260,
+              "description": "自家製カレーを包んで揚げたパン。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-7",
+              "name": "ソーセージロール",
+              "price": 290,
+              "description": "粗挽きソーセージを生地で巻いて。",
+              "recommended": true
+            },
+            {
+              "id": "bakery-2-item-8",
+              "name": "卵サンド",
+              "price": 360,
+              "description": "まろやかな卵サラダ入り。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-9",
+              "name": "ツナコーンパン",
+              "price": 240,
+              "description": "ツナとコーンを焼き込んだパン。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-10",
+              "name": "枝豆チーズパン",
+              "price": 250,
+              "description": "枝豆とチーズの塩気。",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-2-section-3",
+          "title": "甘いパン",
+          "items": [
+            {
+              "id": "bakery-2-item-11",
+              "name": "あんぱん",
+              "price": 200,
+              "description": "粒あん入りのふんわり生地。",
+              "recommended": true
+            },
+            {
+              "id": "bakery-2-item-12",
+              "name": "クリームパン",
+              "price": 220,
+              "description": "カスタードをたっぷり包んで。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-13",
+              "name": "メロンパン",
+              "price": 210,
+              "description": "外側のクッキー生地はさっくり。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-14",
+              "name": "シナモンロール",
+              "price": 290,
+              "description": "シナモンと砂糖を巻き込んで。",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-item-15",
+              "name": "りんごデニッシュ",
+              "price": 310,
+              "description": "甘く煮たりんごの層状パン。",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
