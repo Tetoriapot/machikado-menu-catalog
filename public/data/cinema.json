@@ -30,35 +30,54 @@
               "name": "塩ポップコーン M",
               "price": 480,
               "description": "定番の軽い塩味。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cinema-1-item-2",
               "name": "キャラメルポップコーン M",
               "price": 580,
               "description": "甘いコーティングのポップコーン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cinema-1-item-3",
               "name": "ハーフポップコーン L",
               "price": 780,
               "description": "塩とキャラメルの二種類。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cinema-1-item-4",
               "name": "ホットドッグ",
               "price": 480,
               "description": "ケチャップとマスタード付き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cinema-1-item-5",
               "name": "チュロス",
               "price": 380,
               "description": "シナモンシュガーの揚げ菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cinema-1-curated-1",
+              "name": "バター醤油ポップコーン M",
+              "price": 550,
+              "description": "香ばしい醤油とバターの風味。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "コーラ M",
               "price": 350,
               "description": "ふたとストロー付きのカップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cinema-1-item-7",
               "name": "ジンジャーエール M",
               "price": 350,
               "description": "爽やかな炭酸飲料。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cinema-1-item-8",
               "name": "アイスティー M",
               "price": 350,
               "description": "甘さを調整できる紅茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cinema-1-item-9",
               "name": "ホットコーヒー",
               "price": 380,
               "description": "持ち込み用ふた付き珈琲。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cinema-1-item-10",
               "name": "オレンジジュース M",
               "price": 350,
               "description": "果実の甘みが広がる一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cinema-1-curated-2",
+              "name": "ホットほうじ茶",
+              "price": 320,
+              "description": "映画前に落ち着く温かい茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "ポップコーンセット",
               "price": 750,
               "description": "塩MとソフトドリンクM。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cinema-1-item-12",
               "name": "ペアセット",
               "price": 1280,
               "description": "ポップコーンLとドリンク二杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cinema-1-item-13",
               "name": "映画パンフレット",
               "price": 880,
               "description": "上映中の架空作品の冊子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "cinema-1-item-14",
               "name": "ポストカード 三枚",
               "price": 550,
               "description": "架空作品の場面イラスト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "cinema-1-item-15",
               "name": "クリアファイル",
               "price": 440,
               "description": "架空作品の絵柄入りA4ファイル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "cinema-1-curated-3",
+              "name": "鑑賞記録ノート",
+              "price": 550,
+              "description": "見た作品の感想を書ける小さなノート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "昔ながらの一館型映画館。売店窓口が一つ。",
+        "service": "上映時間を気にしながら、手早く紙袋へ詰める。",
+        "signature": "塩ポップコーンと温かいコーヒー",
+        "localFlavor": "近所の映画好きが一人で訪れることも多い。"
+      }
     },
     {
       "id": "cinema-2",
@@ -170,35 +233,54 @@
               "name": "黒糖ポップコーン M",
               "price": 680,
               "description": "黒糖のコクをまとった甘い味。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "cinema-2-item-2",
-              "name": "キャラメルポップコーン M",
-              "price": 640,
-              "description": "甘いコーティングのポップコーン。",
-              "recommended": false
+              "id": "cinema-2-curated-1",
+              "name": "チーズポップコーン M",
+              "price": 620,
+              "description": "濃いチーズ味のポップコーン。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cinema-2-item-3",
               "name": "ハーフポップコーン L",
               "price": 860,
               "description": "塩とキャラメルの二種類。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "cinema-2-item-4",
-              "name": "ホットドッグ",
-              "price": 530,
-              "description": "ケチャップとマスタード付き。",
-              "recommended": false
+              "id": "cinema-2-curated-2",
+              "name": "ナチョスとサルサ",
+              "price": 680,
+              "description": "トルティーヤチップにソース付き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cinema-2-item-5",
               "name": "チュロス",
               "price": 420,
               "description": "シナモンシュガーの揚げ菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cinema-2-curated-3",
+              "name": "一口チキンボックス",
+              "price": 650,
+              "description": "つまみやすい小さな唐揚げ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "コーラ M",
               "price": 390,
               "description": "ふたとストロー付きのカップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "cinema-2-item-7",
-              "name": "ジンジャーエール M",
-              "price": 390,
-              "description": "爽やかな炭酸飲料。",
-              "recommended": true
+              "id": "cinema-2-curated-4",
+              "name": "ベリーレモンスカッシュ",
+              "price": 580,
+              "description": "赤いベリーを加えた炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cinema-2-item-8",
               "name": "アイスティー M",
               "price": 390,
               "description": "甘さを調整できる紅茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "cinema-2-item-9",
-              "name": "ホットコーヒー",
-              "price": 420,
-              "description": "持ち込み用ふた付き珈琲。",
-              "recommended": false
+              "id": "cinema-2-curated-5",
+              "name": "キャラメルアイスラテ",
+              "price": 520,
+              "description": "甘い香りのミルク珈琲。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cinema-2-item-10",
               "name": "オレンジジュース M",
               "price": 390,
               "description": "果実の甘みが広がる一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cinema-2-curated-6",
+              "name": "キッズアップル 小",
+              "price": 250,
+              "description": "小さなカップのりんご飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "ポップコーンセット",
               "price": 830,
               "description": "塩MとソフトドリンクM。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "cinema-2-item-12",
-              "name": "ペアセット",
-              "price": 1410,
-              "description": "ポップコーンLとドリンク二杯。",
-              "recommended": false
+              "id": "cinema-2-curated-7",
+              "name": "友だちスナックセット",
+              "price": 1680,
+              "description": "ナチョス、ポップコーンM、ドリンク二杯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cinema-2-item-13",
               "name": "映画パンフレット",
               "price": 970,
               "description": "上映中の架空作品の冊子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "cinema-2-item-14",
-              "name": "ポストカード 三枚",
-              "price": 610,
-              "description": "架空作品の場面イラスト。",
-              "recommended": false
+              "id": "cinema-2-curated-8",
+              "name": "映画モチーフの缶バッジ",
+              "price": 550,
+              "description": "架空上映作品の柄を使った小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "cinema-2-item-15",
               "name": "クリアファイル",
               "price": 480,
               "description": "架空作品の絵柄入りA4ファイル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "cinema-2-curated-9",
+              "name": "チケット保管ファイル",
+              "price": 660,
+              "description": "鑑賞券を保管できる小型ファイル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "大型施設内のシネコン。カウンター上に大きなメニュー。",
+        "service": "複数列で注文を受け、トレーで渡す。",
+        "signature": "シェアスナックと限定風ドリンク",
+        "localFlavor": "休日の家族や友人同士で賑わう。"
+      }
     }
   ]
 }

@@ -30,35 +30,54 @@
               "name": "峠の豚汁定食",
               "price": 980,
               "description": "根菜たっぷりの汁とおにぎり。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "service-area-1-item-2",
               "name": "醤油ラーメン",
               "price": 850,
               "description": "休憩中に食べやすい定番の麺。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "service-area-1-item-3",
               "name": "カツカレー",
               "price": 1180,
               "description": "大きめカツとコクのあるカレー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "service-area-1-item-4",
               "name": "山菜そば",
               "price": 780,
               "description": "山菜を盛った温かい蕎麦。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "service-area-1-item-5",
               "name": "焼肉丼",
               "price": 1080,
               "description": "香ばしい豚肉とたっぷりご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "service-area-1-curated-1",
+              "name": "生姜たっぷり肉うどん",
+              "price": 980,
+              "description": "寒い時間帯にも嬉しい生姜のうどん。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "肉まん",
               "price": 320,
               "description": "温かい大ぶりの肉まん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-1-item-7",
               "name": "フランクフルト",
               "price": 350,
               "description": "串付きの焼きソーセージ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-1-item-8",
               "name": "ソフトクリーム",
               "price": 420,
               "description": "濃いミルク風味のソフト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-1-item-9",
               "name": "じゃがバター",
               "price": 380,
               "description": "蒸したじゃがいもにバター。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-1-item-10",
               "name": "たこ焼き 六個",
               "price": 550,
               "description": "ソースと鰹節の定番軽食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-1-curated-2",
+              "name": "焼き味噌おにぎり 二個",
+              "price": 480,
+              "description": "味噌を塗って焼いたおむすび。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "地元風ミルク饅頭 六個",
               "price": 980,
               "description": "架空の地域土産を想定した箱菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-1-item-12",
               "name": "瓶入りりんごジュース",
               "price": 320,
               "description": "休憩にうれしい果汁飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "service-area-1-item-13",
               "name": "コーヒー",
               "price": 350,
               "description": "ふた付きの持ち帰りカップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "service-area-1-item-14",
               "name": "緑茶 600ml",
               "price": 180,
               "description": "携帯しやすい無糖茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "service-area-1-item-15",
               "name": "道路地図冊子",
               "price": 1320,
               "description": "架空地域の道路案内という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "service-area-1-curated-3",
+              "name": "山の蜂蜜キャンディ",
+              "price": 380,
+              "description": "蜂蜜風味の個包装飴。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "山道の長いトンネルを抜けた場所にある食堂。",
+        "service": "食券の番号で呼び出し、熱い汁物はトレーで渡す。",
+        "signature": "峠の豚汁と温かい麺",
+        "localFlavor": "長距離運転の休憩客が夜明け前にも立ち寄る。"
+      }
     },
     {
       "id": "service-area-2",
@@ -170,35 +233,54 @@
               "name": "山里きのこ定食",
               "price": 1270,
               "description": "きのこご飯と野菜天ぷらのセット。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "service-area-2-item-2",
-              "name": "醤油ラーメン",
-              "price": 940,
-              "description": "休憩中に食べやすい定番の麺。",
-              "recommended": false
+              "id": "service-area-2-curated-1",
+              "name": "野菜天ぷらそば",
+              "price": 1050,
+              "description": "根菜ときのこの揚げたて天ぷら付き。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "service-area-2-item-3",
               "name": "カツカレー",
               "price": 1300,
               "description": "大きめカツとコクのあるカレー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "service-area-2-item-4",
-              "name": "山菜そば",
-              "price": 860,
-              "description": "山菜を盛った温かい蕎麦。",
-              "recommended": false
+              "id": "service-area-2-curated-2",
+              "name": "鶏ときのこの釜飯",
+              "price": 1280,
+              "description": "小さな釜で炊いた具だくさんご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "service-area-2-item-5",
               "name": "焼肉丼",
               "price": 1190,
               "description": "香ばしい豚肉とたっぷりご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "service-area-2-curated-3",
+              "name": "地元風ポークの生姜焼き膳",
+              "price": 1380,
+              "description": "厚めの豚肉と地場野菜を添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "肉まん",
               "price": 350,
               "description": "温かい大ぶりの肉まん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "service-area-2-item-7",
-              "name": "フランクフルト",
-              "price": 390,
-              "description": "串付きの焼きソーセージ。",
-              "recommended": true
+              "id": "service-area-2-curated-4",
+              "name": "とうもろこしコロッケ",
+              "price": 280,
+              "description": "粒コーンの甘みを感じる揚げ物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-2-item-8",
               "name": "ソフトクリーム",
               "price": 460,
               "description": "濃いミルク風味のソフト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "service-area-2-item-9",
-              "name": "じゃがバター",
-              "price": 420,
-              "description": "蒸したじゃがいもにバター。",
-              "recommended": false
+              "id": "service-area-2-curated-5",
+              "name": "りんごミルクソフト",
+              "price": 480,
+              "description": "果肉ソースをかけたミルクソフト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-2-item-10",
               "name": "たこ焼き 六個",
               "price": 610,
               "description": "ソースと鰹節の定番軽食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-2-curated-6",
+              "name": "野菜おやき 二個",
+              "price": 520,
+              "description": "野菜の餡を包んだ焼きまんじゅう。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +353,73 @@
               "name": "地元風ミルク饅頭 六個",
               "price": 1080,
               "description": "架空の地域土産を想定した箱菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "service-area-2-item-12",
-              "name": "瓶入りりんごジュース",
-              "price": 350,
-              "description": "休憩にうれしい果汁飲料。",
-              "recommended": false
+              "id": "service-area-2-curated-7",
+              "name": "きのこの炊き込みご飯の素",
+              "price": 680,
+              "description": "二合分の具と調味液の袋。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-2-item-13",
               "name": "コーヒー",
               "price": 390,
               "description": "ふた付きの持ち帰りカップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "service-area-2-item-14",
-              "name": "緑茶 600ml",
-              "price": 200,
-              "description": "携帯しやすい無糖茶。",
-              "recommended": false
+              "id": "service-area-2-curated-8",
+              "name": "小瓶の地元風ジャム",
+              "price": 580,
+              "description": "架空の地域果実を想定した瓶詰め。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "service-area-2-item-15",
               "name": "道路地図冊子",
               "price": 1450,
               "description": "架空地域の道路案内という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "service-area-2-curated-9",
+              "name": "麦茶 2L",
+              "price": 220,
+              "description": "長距離の車内で分けやすい大型ボトル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "service-area-2-curated-10",
+              "name": "野菜せんべい",
+              "price": 480,
+              "description": "野菜を練り込んだ薄焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "平野に面した広い休憩施設。農産品の売店を併設。",
+        "service": "家族連れに取り分け皿を用意し、土産は小箱でも販売。",
+        "signature": "きのこご飯と地場野菜の天ぷら",
+        "localFlavor": "休日の行楽客が、農産品を買って帰る。"
+      }
     }
   ]
 }

@@ -30,35 +30,48 @@
               "name": "平日昼 三十分",
               "price": 180,
               "description": "11〜18時の一人分の室料。",
-              "recommended": true
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "karaoke-1-item-2",
               "name": "平日夜 三十分",
               "price": 380,
               "description": "18時以降の一人分の室料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "karaoke-1-item-3",
               "name": "週末昼 三十分",
               "price": 280,
               "description": "土日祝11〜18時の室料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "karaoke-1-item-4",
               "name": "週末夜 三十分",
               "price": 480,
               "description": "土日祝18時以降の室料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "karaoke-1-item-5",
               "name": "平日昼フリータイム",
               "price": 980,
               "description": "11〜18時内の利用。満室時は三時間制。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "karaoke-1-curated-1",
+              "name": "平日昼 二時間パック",
+              "price": 650,
+              "description": "11〜18時内の一人分室料。飲料は別料金。",
+              "recommended": false,
+              "kind": "fee"
             }
           ]
         },
@@ -71,35 +84,54 @@
               "name": "フライドポテト",
               "price": 480,
               "description": "みんなで分ける定番スナック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "karaoke-1-item-7",
               "name": "鶏の唐揚げ",
               "price": 680,
               "description": "レモン付きの一皿。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "karaoke-1-item-8",
               "name": "ミックスピザ",
               "price": 980,
               "description": "歌の合間につまめる薄焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "karaoke-1-item-9",
               "name": "焼きおにぎり",
               "price": 380,
               "description": "小ぶりのおにぎり二個。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "karaoke-1-item-10",
               "name": "チョコスナック盛り",
               "price": 480,
               "description": "ひと口菓子の盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "karaoke-1-curated-2",
+              "name": "チーズ春巻き",
+              "price": 480,
+              "description": "片手で食べやすい小さな春巻き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +144,64 @@
               "name": "ドリンクバー",
               "price": 380,
               "description": "室料と別途、一人分。",
-              "recommended": true
+              "recommended": false,
+              "kind": "service"
             },
             {
               "id": "karaoke-1-item-12",
               "name": "生ビール",
               "price": 620,
               "description": "中ジョッキのビール。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "karaoke-1-item-13",
               "name": "クリームソーダ",
               "price": 550,
               "description": "バニラアイスをのせた炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "karaoke-1-item-14",
               "name": "チョコパフェ",
               "price": 650,
               "description": "アイスとチョコソースの甘味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "karaoke-1-item-15",
               "name": "バニラアイス",
               "price": 320,
               "description": "小さなカップのデザート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "karaoke-1-curated-3",
+              "name": "無糖アイスティー",
+              "price": 320,
+              "description": "単品で注文する冷たい紅茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "駅前ビルの個室。小さな二人部屋が多い。",
+        "service": "受付で料金時間を案内し、注文は室内端末から。",
+        "signature": "短時間利用と気軽なスナック",
+        "localFlavor": "学校や仕事の帰りに立ち寄りやすい。"
+      },
+      "priceNote": "税込価格。室料は1人あたり。ドリンク・料理は別料金です。パックの時間条件は各項目をご確認ください。"
     },
     {
       "id": "karaoke-2",
@@ -170,35 +227,48 @@
               "name": "平日昼 一時間",
               "price": 390,
               "description": "11〜18時の一人分の室料。",
-              "recommended": true
+              "recommended": false,
+              "kind": "fee"
             },
             {
-              "id": "karaoke-2-item-2",
-              "name": "平日夜 三十分",
-              "price": 420,
-              "description": "18時以降の一人分の室料。",
-              "recommended": false
+              "id": "karaoke-2-curated-1",
+              "name": "平日昼 三時間パック",
+              "price": 1080,
+              "description": "11〜18時内の一人分室料。飲料は別料金。",
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "karaoke-2-item-3",
               "name": "週末昼 三十分",
               "price": 310,
               "description": "土日祝11〜18時の室料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
-              "id": "karaoke-2-item-4",
-              "name": "週末夜 三十分",
-              "price": 530,
-              "description": "土日祝18時以降の室料。",
-              "recommended": false
+              "id": "karaoke-2-curated-2",
+              "name": "休日昼 三時間パック",
+              "price": 1480,
+              "description": "土日祝11〜18時内の一人分室料。",
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "karaoke-2-item-5",
               "name": "平日昼フリータイム",
               "price": 1080,
               "description": "11〜18時内の利用。満室時は三時間制。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "karaoke-2-curated-3",
+              "name": "小学生 平日昼 一時間",
+              "price": 280,
+              "description": "大人同伴時の一人分室料。",
+              "recommended": false,
+              "kind": "fee"
             }
           ]
         },
@@ -211,35 +281,54 @@
               "name": "フライドポテト",
               "price": 530,
               "description": "みんなで分ける定番スナック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "karaoke-2-item-7",
-              "name": "鶏の唐揚げ",
-              "price": 750,
-              "description": "レモン付きの一皿。",
-              "recommended": true
+              "id": "karaoke-2-curated-4",
+              "name": "ファミリー唐揚げプレート",
+              "price": 1280,
+              "description": "唐揚げ、ポテト、枝豆の大皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "karaoke-2-item-8",
               "name": "ミックスピザ",
               "price": 1080,
               "description": "歌の合間につまめる薄焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "karaoke-2-item-9",
-              "name": "焼きおにぎり",
-              "price": 420,
-              "description": "小ぶりのおにぎり二個。",
-              "recommended": false
+              "id": "karaoke-2-curated-5",
+              "name": "ミニハンバーグご飯",
+              "price": 580,
+              "description": "子ども向けの小さな食事。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "karaoke-2-item-10",
               "name": "チョコスナック盛り",
               "price": 530,
               "description": "ひと口菓子の盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "karaoke-2-curated-6",
+              "name": "ホットサンド三種盛り",
+              "price": 980,
+              "description": "ハム、卵、チーズを一口サイズで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +341,73 @@
               "name": "ドリンクバー",
               "price": 420,
               "description": "室料と別途、一人分。",
-              "recommended": true
+              "recommended": false,
+              "kind": "service"
             },
             {
-              "id": "karaoke-2-item-12",
-              "name": "生ビール",
-              "price": 680,
-              "description": "中ジョッキのビール。",
-              "recommended": false
+              "id": "karaoke-2-curated-7",
+              "name": "キッズりんごジュース",
+              "price": 220,
+              "description": "小さなふた付きカップで。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "karaoke-2-item-13",
               "name": "クリームソーダ",
               "price": 610,
               "description": "バニラアイスをのせた炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "karaoke-2-item-14",
-              "name": "チョコパフェ",
-              "price": 720,
-              "description": "アイスとチョコソースの甘味。",
-              "recommended": false
+              "id": "karaoke-2-curated-8",
+              "name": "いちごミルクフロート",
+              "price": 580,
+              "description": "いちごミルクにアイスをのせて。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "karaoke-2-item-15",
               "name": "バニラアイス",
               "price": 350,
               "description": "小さなカップのデザート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "karaoke-2-curated-9",
+              "name": "みんなのアイス四種",
+              "price": 880,
+              "description": "小さな四玉を盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "karaoke-2-curated-10",
+              "name": "ホットレモン",
+              "price": 320,
+              "description": "温かいレモンの甘い飲みもの。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "郊外の広い駐車場と家族用の大部屋。",
+        "service": "子ども連れには広い部屋を案内し、料理は取り分けで提供。",
+        "signature": "家族用フードと昼の長時間パック",
+        "localFlavor": "休日に車で集まる家族やグループが中心。"
+      },
+      "priceNote": "税込価格。室料は1人あたり。ドリンク・料理は別料金です。パックの時間条件は各項目をご確認ください。"
     }
   ]
 }

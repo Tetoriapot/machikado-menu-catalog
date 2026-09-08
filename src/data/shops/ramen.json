@@ -30,35 +30,54 @@
               "name": "醤油ラーメン",
               "price": 780,
               "description": "鶏ガラの澄んだスープと細縮れ麺。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "ramen-1-item-2",
               "name": "塩ラーメン",
               "price": 800,
               "description": "昆布の旨みを重ねた、あっさり塩味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "ramen-1-item-3",
               "name": "味噌ラーメン",
               "price": 880,
               "description": "炒め野菜と合わせ味噌のコク深い一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "ramen-1-item-4",
               "name": "チャーシュー麺",
               "price": 1080,
               "description": "肩ロースの焼豚をたっぷり五枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "ramen-1-item-5",
               "name": "ねぎそば",
               "price": 900,
               "description": "白髪ねぎの香りと自家製ラー油の辛み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ramen-1-curated-1",
+              "name": "ワンタン麺",
+              "price": 980,
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "焼餃子 五個",
               "price": 380,
               "description": "薄い皮で包んだ、野菜多めの焼餃子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "ramen-1-item-7",
               "name": "半チャーハン",
               "price": 380,
               "description": "ラーメンのお供にちょうどよい小盛り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "ramen-1-item-8",
               "name": "チャーシュー丼",
               "price": 420,
               "description": "甘辛だれの刻み焼豚を温かいご飯に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "ramen-1-item-9",
               "name": "ライス",
               "price": 180,
               "description": "茶碗一杯の白ご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "ramen-1-item-10",
               "name": "メンマ盛り",
               "price": 280,
               "description": "やさしい甘辛味に煮た太切りメンマ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ramen-1-curated-2",
+              "name": "生姜焼豚の小皿",
+              "price": 450,
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,60 @@
               "name": "味付け卵",
               "price": 120,
               "description": "黄身をとろりと仕上げた醤油漬け卵。",
-              "recommended": true
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "ramen-1-item-12",
               "name": "麺大盛り",
               "price": 150,
               "description": "麺を半玉分追加。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "ramen-1-item-13",
               "name": "海苔 三枚",
               "price": 100,
               "description": "磯の香りを添える焼海苔。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "ramen-1-item-14",
               "name": "瓶ビール",
               "price": 580,
               "description": "中瓶。小さなグラスを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "ramen-1-item-15",
               "name": "ラムネ",
               "price": 230,
               "description": "昔ながらのビー玉入り瓶ラムネ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "ramen-1-curated-3",
+              "name": "刻みねぎ追加",
+              "price": 100,
+              "description": "細切りの青ねぎを別皿で。",
+              "recommended": false,
+              "kind": "addon"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "八席のカウンターと曇ったガラス引き戸。",
+        "service": "注文は口頭、会計は食後。常連には麺の硬さを尋ねる。",
+        "signature": "澄んだ鶏ガラ醤油と半チャーハン",
+        "localFlavor": "昔からの住宅街で昼食を担う小さな店。"
+      }
     },
     {
       "id": "ramen-2",
@@ -170,35 +229,54 @@
               "name": "焦がしねぎ醤油そば",
               "price": 1010,
               "description": "焦がしねぎ油の香ばしさを加えた看板の一杯。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "ramen-2-item-2",
-              "name": "塩ラーメン",
-              "price": 880,
-              "description": "昆布の旨みを重ねた、あっさり塩味。",
-              "recommended": false
+              "id": "ramen-2-curated-1",
+              "name": "鶏白湯そば",
+              "price": 980,
+              "description": "白く炊いた鶏スープと中細麺。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "ramen-2-item-3",
               "name": "味噌ラーメン",
               "price": 970,
               "description": "炒め野菜と合わせ味噌のコク深い一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "ramen-2-item-4",
-              "name": "チャーシュー麺",
-              "price": 1190,
-              "description": "肩ロースの焼豚をたっぷり五枚。",
-              "recommended": false
+              "id": "ramen-2-curated-2",
+              "name": "辛味ねぎ味噌そば",
+              "price": 1080,
+              "description": "味噌スープに辛ねぎを高く盛って。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "ramen-2-item-5",
               "name": "ねぎそば",
               "price": 990,
               "description": "白髪ねぎの香りと自家製ラー油の辛み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ramen-2-curated-3",
+              "name": "炙り焼豚つけ麺",
+              "price": 1180,
+              "description": "濃い魚介だれに太麺をつけて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +289,54 @@
               "name": "焼餃子 五個",
               "price": 420,
               "description": "薄い皮で包んだ、野菜多めの焼餃子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "ramen-2-item-7",
-              "name": "半チャーハン",
-              "price": 420,
-              "description": "ラーメンのお供にちょうどよい小盛り。",
-              "recommended": true
+              "id": "ramen-2-curated-4",
+              "name": "炙り肉飯",
+              "price": 480,
+              "description": "香ばしく炙った角切り焼豚の小丼。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "ramen-2-item-8",
               "name": "チャーシュー丼",
               "price": 460,
               "description": "甘辛だれの刻み焼豚を温かいご飯に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "ramen-2-item-9",
-              "name": "ライス",
-              "price": 200,
-              "description": "茶碗一杯の白ご飯。",
-              "recommended": false
+              "id": "ramen-2-curated-5",
+              "name": "鶏皮の香味ぽん酢",
+              "price": 380,
+              "description": "冷やした鶏皮にねぎとぽん酢。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "ramen-2-item-10",
               "name": "メンマ盛り",
               "price": 310,
               "description": "やさしい甘辛味に煮た太切りメンマ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ramen-2-curated-6",
+              "name": "チーズ追い飯",
+              "price": 250,
+              "description": "残った濃厚スープに合わせる小ご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +349,60 @@
               "name": "味付け卵",
               "price": 130,
               "description": "黄身をとろりと仕上げた醤油漬け卵。",
-              "recommended": true
+              "recommended": false,
+              "kind": "addon"
             },
             {
-              "id": "ramen-2-item-12",
-              "name": "麺大盛り",
-              "price": 170,
-              "description": "麺を半玉分追加。",
-              "recommended": false
+              "id": "ramen-2-curated-7",
+              "name": "辛味香味油",
+              "price": 80,
+              "description": "焦がしにんにくと唐辛子の追加油。",
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "ramen-2-item-13",
               "name": "海苔 三枚",
               "price": 110,
               "description": "磯の香りを添える焼海苔。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             },
             {
-              "id": "ramen-2-item-14",
-              "name": "瓶ビール",
-              "price": 640,
-              "description": "中瓶。小さなグラスを添えて。",
-              "recommended": false
+              "id": "ramen-2-curated-8",
+              "name": "黒ウーロン茶",
+              "price": 280,
+              "description": "油の多い料理にも合わせやすい冷茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "ramen-2-item-15",
               "name": "ラムネ",
               "price": 250,
               "description": "昔ながらのビー玉入り瓶ラムネ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "ramen-2-curated-9",
+              "name": "味玉 二個",
+              "price": 240,
+              "description": "黄身を半熟に仕上げた卵を二個。",
+              "recommended": false,
+              "kind": "addon"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "券売機の横に香味油の瓶が並ぶ十席の麺処。",
+        "service": "食券を受け取ると好みを確認し、卓上の香味料を案内する。",
+        "signature": "焦がしねぎと炙り焼豚の濃い一杯",
+        "localFlavor": "住宅街から大通りへ出る角で、夜遅い仕事帰りにも寄れる。"
+      }
     }
   ]
 }

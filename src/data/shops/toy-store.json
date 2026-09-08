@@ -30,35 +30,45 @@
               "name": "トランプ",
               "price": 550,
               "description": "ケース付きの標準カード。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-2",
               "name": "六面ダイス 十個",
               "price": 660,
               "description": "テーブルゲーム用の色違いセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-3",
               "name": "多面体ダイス 七個",
               "price": 1100,
               "description": "TRPG向けの多面体一式。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-4",
               "name": "ボードゲーム『星の配達便』",
               "price": 3300,
               "description": "架空の協力型配達ゲーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-5",
               "name": "カードゲーム『猫の昼休み』",
               "price": 1650,
               "description": "架空の手軽なカードゲーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "木の積み木",
               "price": 2200,
               "description": "色付きの木製ブロック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-7",
               "name": "ミニカー",
               "price": 550,
               "description": "小さな架空車種の模型。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-8",
               "name": "ぬいぐるみ",
               "price": 1320,
               "description": "手のひらサイズのくま。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-9",
               "name": "シャボン玉",
               "price": 220,
               "description": "屋外遊び用の容器と吹き具。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-10",
               "name": "こま",
               "price": 440,
               "description": "ひもを巻いて回す昔遊び。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "折り紙セット",
               "price": 330,
               "description": "色紙と簡単な折り方の冊子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-12",
               "name": "工作用粘土",
               "price": 385,
               "description": "色を混ぜて遊べる粘土。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-13",
               "name": "ビーズキット",
               "price": 880,
               "description": "小さな飾りを作るセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-14",
               "name": "スケッチブック",
               "price": 440,
               "description": "絵や工作に使う厚紙の冊子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-1-item-15",
               "name": "ゲーム用コイン",
               "price": 330,
               "description": "点数管理に使う樹脂コイン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "ダイストレイ",
               "price": 2180,
               "description": "折り畳んで運べる布張りトレイ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-2",
               "name": "六面ダイス 十個",
               "price": 730,
               "description": "テーブルゲーム用の色違いセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-3",
               "name": "多面体ダイス 七個",
               "price": 1210,
               "description": "TRPG向けの多面体一式。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-4",
               "name": "ボードゲーム『星の配達便』",
               "price": 3630,
               "description": "架空の協力型配達ゲーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-5",
               "name": "カードゲーム『猫の昼休み』",
               "price": 1820,
               "description": "架空の手軽なカードゲーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "木の積み木",
               "price": 2420,
               "description": "色付きの木製ブロック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-7",
               "name": "ミニカー",
               "price": 610,
               "description": "小さな架空車種の模型。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-8",
               "name": "ぬいぐるみ",
               "price": 1450,
               "description": "手のひらサイズのくま。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-9",
               "name": "シャボン玉",
               "price": 240,
               "description": "屋外遊び用の容器と吹き具。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-10",
               "name": "こま",
               "price": 480,
               "description": "ひもを巻いて回す昔遊び。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "折り紙セット",
               "price": 360,
               "description": "色紙と簡単な折り方の冊子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-12",
               "name": "工作用粘土",
               "price": 420,
               "description": "色を混ぜて遊べる粘土。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-13",
               "name": "ビーズキット",
               "price": 970,
               "description": "小さな飾りを作るセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-14",
               "name": "スケッチブック",
               "price": 480,
               "description": "絵や工作に使う厚紙の冊子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "toy-store-2-item-15",
               "name": "ゲーム用コイン",
               "price": 360,
               "description": "点数管理に使う樹脂コイン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

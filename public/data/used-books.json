@@ -30,35 +30,45 @@
               "name": "中古文庫『風の坂道』",
               "price": 220,
               "description": "架空小説の古本。書き込みなし。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-2",
               "name": "中古文庫『灯りの地図』",
               "price": 330,
               "description": "架空の連作短編集。カバーに擦れあり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-3",
               "name": "中古単行本『遠い朝』",
               "price": 550,
               "description": "架空の長編小説。帯なし。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-4",
               "name": "古い詩集『水音』",
               "price": 660,
               "description": "架空の詩集。経年の変色あり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-5",
               "name": "随筆『机の隅から』",
               "price": 440,
               "description": "架空の暮らしのエッセイ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "古地図複製『汀市案内』",
               "price": 880,
               "description": "架空都市の観光地図の復刻紙面。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-7",
               "name": "中古料理本『小鍋の献立』",
               "price": 330,
               "description": "架空の家庭料理の本。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-8",
               "name": "中古鉄道写真集『線路の記憶』",
               "price": 1100,
               "description": "架空路線の写真資料という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-9",
               "name": "中古手芸本『糸のたより』",
               "price": 440,
               "description": "架空の編み物入門書。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-10",
               "name": "古雑誌『月刊まち窓』",
               "price": 220,
               "description": "架空雑誌のバックナンバー一冊。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "絵葉書 五枚",
               "price": 330,
               "description": "風景イラストの古い絵葉書。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-12",
               "name": "紙製しおり",
               "price": 110,
               "description": "店の印を押した厚紙のしおり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-13",
               "name": "蔵書票 十枚",
               "price": 440,
               "description": "名前を書き込める紙のラベル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-14",
               "name": "古い便箋",
               "price": 220,
               "description": "未使用の便箋十枚入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-1-item-15",
               "name": "紙袋",
               "price": 30,
               "description": "本の持ち帰り用の袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "中古文庫『硝子の郵便局』",
               "price": 420,
               "description": "架空の推理小説。小口に日焼けあり。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-2",
               "name": "中古文庫『灯りの地図』",
               "price": 360,
               "description": "架空の連作短編集。カバーに擦れあり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-3",
               "name": "中古単行本『遠い朝』",
               "price": 610,
               "description": "架空の長編小説。帯なし。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-4",
               "name": "古い詩集『水音』",
               "price": 730,
               "description": "架空の詩集。経年の変色あり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-5",
               "name": "随筆『机の隅から』",
               "price": 480,
               "description": "架空の暮らしのエッセイ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "古地図複製『汀市案内』",
               "price": 970,
               "description": "架空都市の観光地図の復刻紙面。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-7",
               "name": "中古料理本『小鍋の献立』",
               "price": 360,
               "description": "架空の家庭料理の本。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-8",
               "name": "中古鉄道写真集『線路の記憶』",
               "price": 1210,
               "description": "架空路線の写真資料という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-9",
               "name": "中古手芸本『糸のたより』",
               "price": 480,
               "description": "架空の編み物入門書。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-10",
               "name": "古雑誌『月刊まち窓』",
               "price": 240,
               "description": "架空雑誌のバックナンバー一冊。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "絵葉書 五枚",
               "price": 360,
               "description": "風景イラストの古い絵葉書。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-12",
               "name": "紙製しおり",
               "price": 120,
               "description": "店の印を押した厚紙のしおり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-13",
               "name": "蔵書票 十枚",
               "price": 480,
               "description": "名前を書き込める紙のラベル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-14",
               "name": "古い便箋",
               "price": 240,
               "description": "未使用の便箋十枚入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "used-books-2-item-15",
               "name": "紙袋",
               "price": 30,
               "description": "本の持ち帰り用の袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

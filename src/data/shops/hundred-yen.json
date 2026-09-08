@@ -30,35 +30,45 @@
               "name": "罫線ノート",
               "price": 110,
               "description": "B5判、三十枚の学習用ノート。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-2",
               "name": "黒ボールペン 三本",
               "price": 110,
               "description": "まとめ買いに便利な油性ペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-3",
               "name": "付箋セット",
               "price": 110,
               "description": "色分けできる小型付箋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-4",
               "name": "クリアファイル 五枚",
               "price": 110,
               "description": "A4書類をまとめる透明ファイル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-5",
               "name": "メモ帳",
               "price": 110,
               "description": "持ち歩きやすい小さなメモ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "保存容器",
               "price": 110,
               "description": "ふた付きの小型容器。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-7",
               "name": "スポンジ 五個",
               "price": 110,
               "description": "台所掃除に便利なセット。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-8",
               "name": "食品用袋",
               "price": 110,
               "description": "食品の小分けに使える袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-9",
               "name": "収納かご",
               "price": 220,
               "description": "机まわりを片付ける樹脂かご。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-10",
               "name": "マグカップ",
               "price": 220,
               "description": "無地の陶器製カップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "レインポンチョ",
               "price": 110,
               "description": "急な雨の簡易雨具。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-12",
               "name": "携帯スリッパ",
               "price": 220,
               "description": "折り畳める室内履き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-13",
               "name": "トランプ",
               "price": 110,
               "description": "紙製のカードゲーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-14",
               "name": "六面ダイス 六個",
               "price": 110,
               "description": "小さなゲーム用サイコロ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-1-item-15",
               "name": "折り紙 百枚",
               "price": 110,
               "description": "色を揃えた工作用紙。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "リングノート",
               "price": 110,
               "description": "めくりやすい小型のリングノート。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-2",
               "name": "黒ボールペン 三本",
               "price": 110,
               "description": "まとめ買いに便利な油性ペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-3",
               "name": "付箋セット",
               "price": 110,
               "description": "色分けできる小型付箋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-4",
               "name": "クリアファイル 五枚",
               "price": 110,
               "description": "A4書類をまとめる透明ファイル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-5",
               "name": "メモ帳",
               "price": 110,
               "description": "持ち歩きやすい小さなメモ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "保存容器",
               "price": 110,
               "description": "ふた付きの小型容器。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-7",
               "name": "スポンジ 五個",
               "price": 110,
               "description": "台所掃除に便利なセット。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-8",
               "name": "食品用袋",
               "price": 110,
               "description": "食品の小分けに使える袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-9",
               "name": "収納かご",
               "price": 220,
               "description": "机まわりを片付ける樹脂かご。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-10",
               "name": "マグカップ",
               "price": 220,
               "description": "無地の陶器製カップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "レインポンチョ",
               "price": 110,
               "description": "急な雨の簡易雨具。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-12",
               "name": "携帯スリッパ",
               "price": 220,
               "description": "折り畳める室内履き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-13",
               "name": "トランプ",
               "price": 110,
               "description": "紙製のカードゲーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-14",
               "name": "六面ダイス 六個",
               "price": 110,
               "description": "小さなゲーム用サイコロ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hundred-yen-2-item-15",
               "name": "折り紙 百枚",
               "price": 110,
               "description": "色を揃えた工作用紙。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

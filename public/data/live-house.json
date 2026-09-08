@@ -30,35 +30,45 @@
               "name": "生ビール",
               "price": 600,
               "description": "公演中に持ちやすいカップで。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-1-item-2",
               "name": "ハイボール",
               "price": 600,
               "description": "ウイスキーの炭酸割り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-1-item-3",
               "name": "ジントニック",
               "price": 650,
               "description": "ライムを添えた爽やかな一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-1-item-4",
               "name": "カシスソーダ",
               "price": 600,
               "description": "果実の甘い炭酸カクテル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-1-item-5",
               "name": "ウーロン茶",
               "price": 400,
               "description": "無糖のソフトドリンク。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "コーラ",
               "price": 400,
               "description": "氷入りカップの炭酸飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-1-item-7",
               "name": "ミックスナッツ",
               "price": 400,
               "description": "つまみやすい小袋入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "live-house-1-item-8",
               "name": "フライドポテト",
               "price": 500,
               "description": "休憩中に食べやすい軽食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "live-house-1-item-9",
               "name": "ホットドッグ",
               "price": 600,
               "description": "ソーセージを挟んだパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "live-house-1-item-10",
               "name": "チョコバー",
               "price": 250,
               "description": "個包装の甘い軽食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +132,48 @@
               "name": "入場時ドリンク券",
               "price": 600,
               "description": "入場料とは別途。一杯分の券。",
-              "recommended": true
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "live-house-1-item-12",
               "name": "クローク 袋一個",
               "price": 500,
               "description": "手荷物を終演まで預ける料金。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "live-house-1-item-13",
               "name": "耳栓",
               "price": 300,
               "description": "ライブ用の簡易フォーム耳栓。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "live-house-1-item-14",
               "name": "会場ステッカー",
               "price": 330,
               "description": "架空会場の文字入りステッカー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "live-house-1-item-15",
               "name": "会場トートバッグ",
               "price": 1650,
               "description": "架空会場の名前入り布バッグ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要です。"
     },
     {
       "id": "live-house-2",
@@ -170,35 +199,45 @@
               "name": "レモンジンジャー",
               "price": 720,
               "description": "レモンと生姜のノンアルコールカクテル。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-2-item-2",
               "name": "ハイボール",
               "price": 660,
               "description": "ウイスキーの炭酸割り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-2-item-3",
               "name": "ジントニック",
               "price": 720,
               "description": "ライムを添えた爽やかな一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-2-item-4",
               "name": "カシスソーダ",
               "price": 660,
               "description": "果実の甘い炭酸カクテル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-2-item-5",
               "name": "ウーロン茶",
               "price": 440,
               "description": "無糖のソフトドリンク。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -211,35 +250,45 @@
               "name": "コーラ",
               "price": 440,
               "description": "氷入りカップの炭酸飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "live-house-2-item-7",
               "name": "ミックスナッツ",
               "price": 440,
               "description": "つまみやすい小袋入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "live-house-2-item-8",
               "name": "フライドポテト",
               "price": 550,
               "description": "休憩中に食べやすい軽食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "live-house-2-item-9",
               "name": "ホットドッグ",
               "price": 660,
               "description": "ソーセージを挟んだパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "live-house-2-item-10",
               "name": "チョコバー",
               "price": 280,
               "description": "個包装の甘い軽食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +301,48 @@
               "name": "入場時ドリンク券",
               "price": 660,
               "description": "入場料とは別途。一杯分の券。",
-              "recommended": true
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "live-house-2-item-12",
               "name": "クローク 袋一個",
               "price": 550,
               "description": "手荷物を終演まで預ける料金。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "live-house-2-item-13",
               "name": "耳栓",
               "price": 330,
               "description": "ライブ用の簡易フォーム耳栓。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "live-house-2-item-14",
               "name": "会場ステッカー",
               "price": 360,
               "description": "架空会場の文字入りステッカー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "live-house-2-item-15",
               "name": "会場トートバッグ",
               "price": 1820,
               "description": "架空会場の名前入り布バッグ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要です。"
     }
   ]
 }

@@ -30,35 +30,45 @@
               "name": "クラシックバーガー",
               "price": 880,
               "description": "牛肉パティとレタス、トマトの基本形。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-1-item-2",
               "name": "チーズバーガー",
               "price": 980,
               "description": "とろけるチェダーチーズを重ねて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-1-item-3",
               "name": "てりやきバーガー",
               "price": 920,
               "description": "甘辛い照り焼きソースの一品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-1-item-4",
               "name": "フィッシュバーガー",
               "price": 850,
               "description": "白身魚フライとタルタルソース。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-1-item-5",
               "name": "アボカドバーガー",
               "price": 1180,
               "description": "厚切りアボカドで満足感をプラス。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "フライドポテト",
               "price": 380,
               "description": "皮付きじゃがいもをほくほくに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-1-item-7",
               "name": "オニオンリング",
               "price": 420,
               "description": "甘い玉ねぎにさっくりした衣。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-1-item-8",
               "name": "チキンナゲット",
               "price": 450,
               "description": "小さな骨なしチキン五個。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-1-item-9",
               "name": "コールスロー",
               "price": 300,
               "description": "キャベツを甘酸っぱく和えたサラダ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-1-item-10",
               "name": "ピクルス",
               "price": 250,
               "description": "きゅうりの爽やかな酢漬け。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "コーラ",
               "price": 300,
               "description": "氷をたっぷり入れた一杯。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-1-item-12",
               "name": "ジンジャーエール",
               "price": 320,
               "description": "生姜の香りが爽やかな炭酸飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-1-item-13",
               "name": "バニラシェイク",
               "price": 550,
               "description": "ミルク感のある冷たいシェイク。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-1-item-14",
               "name": "アイスティー",
               "price": 300,
               "description": "無糖で提供する紅茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-1-item-15",
               "name": "レモンスカッシュ",
               "price": 380,
               "description": "レモンの酸味をきかせた炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "ベーコンエッグバーガー",
               "price": 1380,
               "description": "厚切りベーコンと目玉焼きを重ねて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-2-item-2",
               "name": "チーズバーガー",
               "price": 1080,
               "description": "とろけるチェダーチーズを重ねて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-2-item-3",
               "name": "てりやきバーガー",
               "price": 1010,
               "description": "甘辛い照り焼きソースの一品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-2-item-4",
               "name": "フィッシュバーガー",
               "price": 940,
               "description": "白身魚フライとタルタルソース。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "burger-2-item-5",
               "name": "アボカドバーガー",
               "price": 1300,
               "description": "厚切りアボカドで満足感をプラス。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "フライドポテト",
               "price": 420,
               "description": "皮付きじゃがいもをほくほくに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-2-item-7",
               "name": "オニオンリング",
               "price": 460,
               "description": "甘い玉ねぎにさっくりした衣。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-2-item-8",
               "name": "チキンナゲット",
               "price": 500,
               "description": "小さな骨なしチキン五個。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-2-item-9",
               "name": "コールスロー",
               "price": 330,
               "description": "キャベツを甘酸っぱく和えたサラダ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "burger-2-item-10",
               "name": "ピクルス",
               "price": 280,
               "description": "きゅうりの爽やかな酢漬け。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "コーラ",
               "price": 330,
               "description": "氷をたっぷり入れた一杯。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-2-item-12",
               "name": "ジンジャーエール",
               "price": 350,
               "description": "生姜の香りが爽やかな炭酸飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-2-item-13",
               "name": "バニラシェイク",
               "price": 610,
               "description": "ミルク感のある冷たいシェイク。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-2-item-14",
               "name": "アイスティー",
               "price": 330,
               "description": "無糖で提供する紅茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "burger-2-item-15",
               "name": "レモンスカッシュ",
               "price": 420,
               "description": "レモンの酸味をきかせた炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }

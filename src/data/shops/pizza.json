@@ -30,35 +30,45 @@
               "name": "マルゲリータ",
               "price": 1280,
               "description": "トマト、モッツァレラ、バジルの定番。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-1-item-2",
               "name": "四種のチーズ",
               "price": 1580,
               "description": "蜂蜜を添えたチーズのピザ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-1-item-3",
               "name": "きのことベーコン",
               "price": 1480,
               "description": "きのこの香りとベーコンの塩気。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-1-item-4",
               "name": "シーフードピザ",
               "price": 1680,
               "description": "海老といかをのせた一枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-1-item-5",
               "name": "照り焼きチキンピザ",
               "price": 1450,
               "description": "甘辛チキンと海苔の和風ピザ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "グリーンサラダ",
               "price": 580,
               "description": "シェアできる葉野菜のサラダ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-1-item-7",
               "name": "ミネストローネ",
               "price": 450,
               "description": "野菜を煮込んだトマトスープ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-1-item-8",
               "name": "フライドポテト",
               "price": 420,
               "description": "ハーブ塩で仕上げたポテト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-1-item-9",
               "name": "生ハム盛り",
               "price": 780,
               "description": "薄く切った生ハムを一皿に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-1-item-10",
               "name": "ピクルス",
               "price": 380,
               "description": "野菜をさっぱりした酢漬けに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "ティラミス",
               "price": 580,
               "description": "珈琲を含ませた大人のデザート。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-1-item-12",
               "name": "ジェラート",
               "price": 380,
               "description": "ミルクの風味を楽しむ一玉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-1-item-13",
               "name": "グラスワイン",
               "price": 580,
               "description": "料理に合わせる赤または白。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "pizza-1-item-14",
               "name": "ブラッドオレンジソーダ",
               "price": 480,
               "description": "赤いオレンジの爽やかな炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "pizza-1-item-15",
               "name": "エスプレッソ",
               "price": 350,
               "description": "小さなカップに凝縮した香り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "しらすと青ねぎのピザ",
               "price": 1710,
               "description": "しらすの塩気と青ねぎの香り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-2-item-2",
               "name": "四種のチーズ",
               "price": 1740,
               "description": "蜂蜜を添えたチーズのピザ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-2-item-3",
               "name": "きのことベーコン",
               "price": 1630,
               "description": "きのこの香りとベーコンの塩気。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-2-item-4",
               "name": "シーフードピザ",
               "price": 1850,
               "description": "海老といかをのせた一枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "pizza-2-item-5",
               "name": "照り焼きチキンピザ",
               "price": 1600,
               "description": "甘辛チキンと海苔の和風ピザ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "グリーンサラダ",
               "price": 640,
               "description": "シェアできる葉野菜のサラダ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-2-item-7",
               "name": "ミネストローネ",
               "price": 500,
               "description": "野菜を煮込んだトマトスープ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-2-item-8",
               "name": "フライドポテト",
               "price": 460,
               "description": "ハーブ塩で仕上げたポテト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-2-item-9",
               "name": "生ハム盛り",
               "price": 860,
               "description": "薄く切った生ハムを一皿に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-2-item-10",
               "name": "ピクルス",
               "price": 420,
               "description": "野菜をさっぱりした酢漬けに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "ティラミス",
               "price": 640,
               "description": "珈琲を含ませた大人のデザート。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-2-item-12",
               "name": "ジェラート",
               "price": 420,
               "description": "ミルクの風味を楽しむ一玉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "pizza-2-item-13",
               "name": "グラスワイン",
               "price": 640,
               "description": "料理に合わせる赤または白。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "pizza-2-item-14",
               "name": "ブラッドオレンジソーダ",
               "price": 530,
               "description": "赤いオレンジの爽やかな炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "pizza-2-item-15",
               "name": "エスプレッソ",
               "price": 390,
               "description": "小さなカップに凝縮した香り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }

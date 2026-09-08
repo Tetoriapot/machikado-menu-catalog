@@ -30,35 +30,45 @@
               "name": "豚玉",
               "price": 850,
               "description": "豚肉とキャベツの定番お好み焼き。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-1-item-2",
               "name": "いか玉",
               "price": 900,
               "description": "いかの歯ごたえを楽しむ一枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-1-item-3",
               "name": "海老玉",
               "price": 980,
               "description": "海老をたっぷり混ぜ込んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-1-item-4",
               "name": "ミックス玉",
               "price": 1180,
               "description": "豚、いか、海老が入る一枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-1-item-5",
               "name": "モダン焼き",
               "price": 1080,
               "description": "焼きそばを重ねてボリュームたっぷり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "ソース焼きそば",
               "price": 780,
               "description": "太めの麺を鉄板で香ばしく。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-1-item-7",
               "name": "とん平焼き",
               "price": 580,
               "description": "豚肉を薄焼き卵で包んだ一品。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-1-item-8",
               "name": "ねぎ焼き",
               "price": 850,
               "description": "青ねぎをたっぷり、醤油で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-1-item-9",
               "name": "コーンバター",
               "price": 380,
               "description": "甘いコーンをバターで炒めて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-1-item-10",
               "name": "もちチーズ焼き",
               "price": 480,
               "description": "柔らかな餅とチーズの鉄板焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "生ビール",
               "price": 550,
               "description": "よく冷えたジョッキ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-1-item-12",
               "name": "ハイボール",
               "price": 450,
               "description": "軽快な炭酸の一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-1-item-13",
               "name": "レモンサワー",
               "price": 450,
               "description": "柑橘の酸味が爽やか。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-1-item-14",
               "name": "ウーロン茶",
               "price": 250,
               "description": "食事に合わせる無糖茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-1-item-15",
               "name": "ラムネ",
               "price": 280,
               "description": "懐かしい瓶入りの炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "山芋ふわとろ焼き",
               "price": 1080,
               "description": "山芋を多めに入れた柔らかな一枚。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-2-item-2",
               "name": "いか玉",
               "price": 990,
               "description": "いかの歯ごたえを楽しむ一枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-2-item-3",
               "name": "海老玉",
               "price": 1080,
               "description": "海老をたっぷり混ぜ込んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-2-item-4",
               "name": "ミックス玉",
               "price": 1300,
               "description": "豚、いか、海老が入る一枚。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "okonomiyaki-2-item-5",
               "name": "モダン焼き",
               "price": 1190,
               "description": "焼きそばを重ねてボリュームたっぷり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "ソース焼きそば",
               "price": 860,
               "description": "太めの麺を鉄板で香ばしく。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-2-item-7",
               "name": "とん平焼き",
               "price": 640,
               "description": "豚肉を薄焼き卵で包んだ一品。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-2-item-8",
               "name": "ねぎ焼き",
               "price": 940,
               "description": "青ねぎをたっぷり、醤油で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-2-item-9",
               "name": "コーンバター",
               "price": 420,
               "description": "甘いコーンをバターで炒めて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "okonomiyaki-2-item-10",
               "name": "もちチーズ焼き",
               "price": 530,
               "description": "柔らかな餅とチーズの鉄板焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "生ビール",
               "price": 610,
               "description": "よく冷えたジョッキ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-2-item-12",
               "name": "ハイボール",
               "price": 500,
               "description": "軽快な炭酸の一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-2-item-13",
               "name": "レモンサワー",
               "price": 500,
               "description": "柑橘の酸味が爽やか。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-2-item-14",
               "name": "ウーロン茶",
               "price": 280,
               "description": "食事に合わせる無糖茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "okonomiyaki-2-item-15",
               "name": "ラムネ",
               "price": 310,
               "description": "懐かしい瓶入りの炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }

@@ -30,35 +30,48 @@
               "name": "基本三十分",
               "price": 280,
               "description": "ブース一席の利用料金。",
-              "recommended": true
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "net-cafe-1-item-2",
               "name": "延長十分",
               "price": 100,
               "description": "基本料金への追加分。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "net-cafe-1-item-3",
               "name": "三時間パック",
               "price": 1180,
               "description": "受付から三時間までの利用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "net-cafe-1-item-4",
               "name": "六時間パック",
               "price": 1880,
               "description": "長めの滞在向けの料金。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "net-cafe-1-item-5",
               "name": "ナイト八時間",
               "price": 2200,
               "description": "20〜翌4時入店限定の八時間利用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "net-cafe-1-curated-1",
+              "name": "早朝三時間パック",
+              "price": 880,
+              "description": "5〜9時入店の一人分。ドリンクバー付き。",
+              "recommended": false,
+              "kind": "fee"
             }
           ]
         },
@@ -71,35 +84,54 @@
               "name": "ビーフカレー",
               "price": 580,
               "description": "温かいご飯に定番のカレー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "net-cafe-1-item-7",
               "name": "唐揚げ丼",
               "price": 650,
               "description": "唐揚げと甘辛だれの丼。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "net-cafe-1-item-8",
               "name": "ミートソースパスタ",
               "price": 620,
               "description": "食べやすいミートパスタ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "net-cafe-1-item-9",
               "name": "フライドポテト",
               "price": 350,
               "description": "軽食にちょうどよい一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "net-cafe-1-item-10",
               "name": "ホットドッグ",
               "price": 380,
               "description": "ソーセージを挟んだ温かいパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "net-cafe-1-curated-2",
+              "name": "温かい鶏だし雑炊",
+              "price": 520,
+              "description": "夜食にも食べやすい出汁のご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +144,62 @@
               "name": "シャワー 三十分",
               "price": 330,
               "description": "タオルは別売りの設備利用。",
-              "recommended": true
+              "recommended": false,
+              "kind": "service"
             },
             {
               "id": "net-cafe-1-item-12",
               "name": "タオル販売",
               "price": 220,
               "description": "シャワー向けの小さなタオル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "net-cafe-1-item-13",
               "name": "歯磨きセット",
               "price": 165,
               "description": "使い切りの歯磨きセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "net-cafe-1-item-14",
               "name": "白黒印刷 一枚",
               "price": 20,
               "description": "A4片面一枚の料金。",
-              "recommended": false
+              "recommended": false,
+              "kind": "service"
             },
             {
               "id": "net-cafe-1-item-15",
               "name": "カラー印刷 一枚",
               "price": 60,
               "description": "A4片面一枚の料金。",
-              "recommended": false
+              "recommended": false,
+              "kind": "service"
+            },
+            {
+              "id": "net-cafe-1-curated-3",
+              "name": "使い捨て室内履き",
+              "price": 180,
+              "description": "店内用の簡易スリッパ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "薄暗い廊下に個別ブースが並ぶ。",
+        "service": "料金と設備を短く説明し、滞在中は静かに対応する。",
+        "signature": "夜間の休憩向けパックと温かい丼",
+        "localFlavor": "駅前で終電後の休憩に使われる。"
+      },
+      "priceNote": "税込価格。利用料は1人あたり。延長・設備利用は選択したプランと別料金です。"
     },
     {
       "id": "net-cafe-2",
@@ -170,35 +225,48 @@
               "name": "九十分パック",
               "price": 750,
               "description": "短い休憩向けの席利用。",
-              "recommended": true
+              "recommended": false,
+              "kind": "fee"
             },
             {
-              "id": "net-cafe-2-item-2",
-              "name": "延長十分",
-              "price": 110,
-              "description": "基本料金への追加分。",
-              "recommended": false
+              "id": "net-cafe-2-curated-1",
+              "name": "平日作業 四時間パック",
+              "price": 1380,
+              "description": "9〜17時入店限定。ドリンクバー付き。",
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "net-cafe-2-item-3",
               "name": "三時間パック",
               "price": 1300,
               "description": "受付から三時間までの利用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
             },
             {
-              "id": "net-cafe-2-item-4",
-              "name": "六時間パック",
-              "price": 2070,
-              "description": "長めの滞在向けの料金。",
-              "recommended": false
+              "id": "net-cafe-2-curated-2",
+              "name": "読書席 二時間",
+              "price": 650,
+              "description": "オープン席の二時間利用。",
+              "recommended": false,
+              "kind": "fee"
             },
             {
               "id": "net-cafe-2-item-5",
               "name": "ナイト八時間",
               "price": 2420,
               "description": "20〜翌4時入店限定の八時間利用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "net-cafe-2-curated-3",
+              "name": "個室席 一時間",
+              "price": 680,
+              "description": "パソコン付き個室の短時間利用。",
+              "recommended": false,
+              "kind": "fee"
             }
           ]
         },
@@ -211,35 +279,54 @@
               "name": "ビーフカレー",
               "price": 640,
               "description": "温かいご飯に定番のカレー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "net-cafe-2-item-7",
-              "name": "唐揚げ丼",
+              "id": "net-cafe-2-curated-4",
+              "name": "焼き野菜のカレー",
               "price": 720,
-              "description": "唐揚げと甘辛だれの丼。",
-              "recommended": true
+              "description": "彩り野菜を添えたカレー。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "net-cafe-2-item-8",
               "name": "ミートソースパスタ",
               "price": 680,
               "description": "食べやすいミートパスタ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "net-cafe-2-item-9",
-              "name": "フライドポテト",
-              "price": 390,
-              "description": "軽食にちょうどよい一皿。",
-              "recommended": false
+              "id": "net-cafe-2-curated-5",
+              "name": "卵とハムのホットサンド",
+              "price": 580,
+              "description": "机でも食べやすい温かいパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "net-cafe-2-item-10",
               "name": "ホットドッグ",
               "price": 420,
               "description": "ソーセージを挟んだ温かいパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "net-cafe-2-curated-6",
+              "name": "具だくさんミネストローネ",
+              "price": 420,
+              "description": "パン一個を添えたスープ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +339,62 @@
               "name": "シャワー 三十分",
               "price": 360,
               "description": "タオルは別売りの設備利用。",
-              "recommended": true
+              "recommended": false,
+              "kind": "service"
             },
             {
-              "id": "net-cafe-2-item-12",
-              "name": "タオル販売",
-              "price": 240,
-              "description": "シャワー向けの小さなタオル。",
-              "recommended": false
+              "id": "net-cafe-2-curated-7",
+              "name": "スキャナー利用 十枚",
+              "price": 100,
+              "description": "受付機器で十枚まで取り込み。",
+              "recommended": false,
+              "kind": "service"
             },
             {
               "id": "net-cafe-2-item-13",
               "name": "歯磨きセット",
               "price": 180,
               "description": "使い切りの歯磨きセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "net-cafe-2-item-14",
-              "name": "白黒印刷 一枚",
-              "price": 20,
-              "description": "A4片面一枚の料金。",
-              "recommended": false
+              "id": "net-cafe-2-curated-8",
+              "name": "透明ファイル 二枚",
+              "price": 110,
+              "description": "印刷物を持ち帰るための袋。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "net-cafe-2-item-15",
               "name": "カラー印刷 一枚",
               "price": 70,
               "description": "A4片面一枚の料金。",
-              "recommended": false
+              "recommended": false,
+              "kind": "service"
+            },
+            {
+              "id": "net-cafe-2-curated-9",
+              "name": "筆記具セット",
+              "price": 220,
+              "description": "黒ペンと小さなメモ帳。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "窓際の読書席と明るい作業用カウンター。",
+        "service": "初回に席種を説明し、印刷などを手伝う。",
+        "signature": "昼間の作業パックと軽めの食事",
+        "localFlavor": "大学とオフィスの間で、昼の作業利用が多い。"
+      },
+      "priceNote": "税込価格。利用料は1人あたり。延長・設備利用は選択したプランと別料金です。"
     }
   ]
 }

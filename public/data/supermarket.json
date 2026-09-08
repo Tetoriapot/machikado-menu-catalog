@@ -30,35 +30,54 @@
               "name": "卵 十個",
               "price": 258,
               "description": "普段の料理に使いやすいパック卵。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "supermarket-1-item-2",
               "name": "牛乳 1L",
               "price": 228,
               "description": "冷蔵棚の定番の牛乳。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "supermarket-1-item-3",
               "name": "キャベツ 一玉",
               "price": 198,
               "description": "千切りにも炒め物にも使える一玉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "supermarket-1-item-4",
               "name": "豚こま肉 200g",
               "price": 298,
               "description": "小分け料理に便利な薄切り肉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "supermarket-1-item-5",
               "name": "塩鮭 二切",
               "price": 398,
               "description": "朝食やお弁当に使いやすい切り身。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "supermarket-1-curated-1",
+              "name": "鶏もも肉 600g",
+              "price": 698,
+              "description": "家族の夕食向けの大きめパック。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "鶏の唐揚げ 200g",
               "price": 398,
               "description": "惣菜コーナーで揚げた醤油味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "supermarket-1-item-7",
               "name": "ポテトサラダ 150g",
               "price": 228,
               "description": "きゅうりとにんじん入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "supermarket-1-item-8",
               "name": "白身フライ弁当",
               "price": 458,
               "description": "のりご飯と揚げ物のお弁当。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "supermarket-1-item-9",
               "name": "絹ごし豆腐",
               "price": 68,
               "description": "一丁300gの使いやすい豆腐。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "supermarket-1-item-10",
               "name": "食パン 六枚",
               "price": 138,
               "description": "朝食向けの角型食パン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-1-curated-2",
+              "name": "コロッケ 五個",
+              "price": 398,
+              "description": "まとめ買い向けの惣菜パック。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "緑茶 2L",
               "price": 148,
               "description": "家族で飲める大きなボトル。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "supermarket-1-item-12",
               "name": "ミネラルウォーター 2L",
               "price": 88,
               "description": "備蓄にも使える飲料水。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "supermarket-1-item-13",
               "name": "箱ティッシュ 五箱",
               "price": 328,
               "description": "日常使いのまとめ売り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "supermarket-1-item-14",
               "name": "食器用洗剤",
               "price": 178,
               "description": "台所用の中性洗剤。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "supermarket-1-item-15",
               "name": "保冷用氷 1kg",
               "price": 148,
               "description": "飲み物や持ち運びの保冷に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "supermarket-1-curated-3",
+              "name": "麦茶 2L",
+              "price": 138,
+              "description": "日常使いの大きなボトル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "入口に青果箱、奥に精肉と大きな惣菜ケース。",
+        "service": "夕方に惣菜を補充し、大きな袋へ手早く会計する。",
+        "signature": "家族向けの大容量品と揚げたて惣菜",
+        "localFlavor": "車でまとめ買いする郊外の世帯が中心。"
+      }
     },
     {
       "id": "supermarket-2",
@@ -170,35 +233,54 @@
               "name": "地場野菜の詰め合わせ",
               "price": 530,
               "description": "その日の入荷から三〜四種類を袋詰め。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "supermarket-2-item-2",
-              "name": "牛乳 1L",
-              "price": 250,
-              "description": "冷蔵棚の定番の牛乳。",
-              "recommended": false
+              "id": "supermarket-2-curated-1",
+              "name": "朝採れ小松菜 一束",
+              "price": 148,
+              "description": "その日の朝に届いた青菜。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "supermarket-2-item-3",
               "name": "キャベツ 一玉",
               "price": 220,
               "description": "千切りにも炒め物にも使える一玉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "supermarket-2-item-4",
-              "name": "豚こま肉 200g",
-              "price": 330,
-              "description": "小分け料理に便利な薄切り肉。",
-              "recommended": false
+              "id": "supermarket-2-curated-2",
+              "name": "少量の豚挽肉 100g",
+              "price": 138,
+              "description": "一人分に使いやすい小パック。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "supermarket-2-item-5",
               "name": "塩鮭 二切",
               "price": 440,
               "description": "朝食やお弁当に使いやすい切り身。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "supermarket-2-curated-3",
+              "name": "地場トマト 二個",
+              "price": 248,
+              "description": "完熟を選んだ小袋。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "鶏の唐揚げ 200g",
               "price": 440,
               "description": "惣菜コーナーで揚げた醤油味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "supermarket-2-item-7",
-              "name": "ポテトサラダ 150g",
-              "price": 250,
-              "description": "きゅうりとにんじん入り。",
-              "recommended": true
+              "id": "supermarket-2-curated-4",
+              "name": "おひとりさま煮物セット",
+              "price": 328,
+              "description": "根菜の煮物を少量ずつ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "supermarket-2-item-8",
               "name": "白身フライ弁当",
               "price": 500,
               "description": "のりご飯と揚げ物のお弁当。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "supermarket-2-item-9",
-              "name": "絹ごし豆腐",
-              "price": 70,
-              "description": "一丁300gの使いやすい豆腐。",
-              "recommended": false
+              "id": "supermarket-2-curated-5",
+              "name": "焼き魚と雑穀弁当",
+              "price": 598,
+              "description": "白身魚に小鉢を添えた小弁当。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "supermarket-2-item-10",
               "name": "食パン 六枚",
               "price": 150,
               "description": "朝食向けの角型食パン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-2-curated-6",
+              "name": "手作りおはぎ 二個",
+              "price": 298,
+              "description": "店で仕込む粒あんのおはぎ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "緑茶 2L",
               "price": 160,
               "description": "家族で飲める大きなボトル。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "supermarket-2-item-12",
-              "name": "ミネラルウォーター 2L",
-              "price": 100,
-              "description": "備蓄にも使える飲料水。",
-              "recommended": false
+              "id": "supermarket-2-curated-7",
+              "name": "小瓶の柑橘ジュース",
+              "price": 268,
+              "description": "小さな瓶の果汁飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "supermarket-2-item-13",
               "name": "箱ティッシュ 五箱",
               "price": 360,
               "description": "日常使いのまとめ売り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "supermarket-2-item-14",
-              "name": "食器用洗剤",
-              "price": 200,
-              "description": "台所用の中性洗剤。",
-              "recommended": false
+              "id": "supermarket-2-curated-8",
+              "name": "再生紙キッチンペーパー",
+              "price": 248,
+              "description": "日常の台所用紙。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "supermarket-2-item-15",
               "name": "保冷用氷 1kg",
               "price": 160,
               "description": "飲み物や持ち運びの保冷に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "supermarket-2-curated-9",
+              "name": "小袋の焙じ茶",
+              "price": 328,
+              "description": "毎日飲みやすい茶葉。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "通路は細く、野菜に生産者の手書き札が付く。",
+        "service": "少量パックの相談に応じ、常連には入荷日を伝える。",
+        "signature": "地場野菜と小分けのおかず",
+        "localFlavor": "徒歩圏の住民が毎日の献立を考えに来る。"
+      }
     }
   ]
 }

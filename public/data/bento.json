@@ -30,35 +30,45 @@
               "name": "のり弁当",
               "price": 450,
               "description": "白身フライとちくわ天の定番。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-1-item-2",
               "name": "唐揚げ弁当",
               "price": 590,
               "description": "醤油味の唐揚げ四個入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-1-item-3",
               "name": "生姜焼き弁当",
               "price": 650,
               "description": "豚肉と玉ねぎの生姜炒め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-1-item-4",
               "name": "焼き鮭弁当",
               "price": 680,
               "description": "焼き鮭と小さな煮物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-1-item-5",
               "name": "幕の内弁当",
               "price": 780,
               "description": "焼き物、揚げ物、煮物を少しずつ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "唐揚げ 三個",
               "price": 280,
               "description": "おかずを追加したい時に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-1-item-7",
               "name": "ポテトサラダ",
               "price": 180,
               "description": "小さなカップ入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-1-item-8",
               "name": "きんぴらごぼう",
               "price": 180,
               "description": "甘辛いごぼうの炒め煮。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-1-item-9",
               "name": "玉子焼き",
               "price": 200,
               "description": "甘めに焼いた三切れ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-1-item-10",
               "name": "コロッケ 二個",
               "price": 220,
               "description": "じゃがいもと挽肉のコロッケ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,44 @@
               "name": "ご飯大盛り",
               "price": 80,
               "description": "弁当のご飯を増量。",
-              "recommended": true
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "bento-1-item-12",
               "name": "白ご飯 単品",
               "price": 180,
               "description": "容器一杯の炊きたてご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-1-item-13",
               "name": "即席味噌汁",
               "price": 100,
               "description": "お湯で作るわかめの味噌汁。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-1-item-14",
               "name": "緑茶 500ml",
               "price": 140,
               "description": "お弁当に合うペットボトル茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bento-1-item-15",
               "name": "麦茶 500ml",
               "price": 130,
               "description": "香ばしい無糖のお茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
@@ -170,35 +199,45 @@
               "name": "鶏南蛮弁当",
               "price": 790,
               "description": "甘酢チキンとタルタルソース。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-2-item-2",
               "name": "唐揚げ弁当",
               "price": 650,
               "description": "醤油味の唐揚げ四個入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-2-item-3",
               "name": "生姜焼き弁当",
               "price": 720,
               "description": "豚肉と玉ねぎの生姜炒め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-2-item-4",
               "name": "焼き鮭弁当",
               "price": 750,
               "description": "焼き鮭と小さな煮物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bento-2-item-5",
               "name": "幕の内弁当",
               "price": 860,
               "description": "焼き物、揚げ物、煮物を少しずつ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +250,45 @@
               "name": "唐揚げ 三個",
               "price": 310,
               "description": "おかずを追加したい時に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-2-item-7",
               "name": "ポテトサラダ",
               "price": 200,
               "description": "小さなカップ入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-2-item-8",
               "name": "きんぴらごぼう",
               "price": 200,
               "description": "甘辛いごぼうの炒め煮。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-2-item-9",
               "name": "玉子焼き",
               "price": 220,
               "description": "甘めに焼いた三切れ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-2-item-10",
               "name": "コロッケ 二個",
               "price": 240,
               "description": "じゃがいもと挽肉のコロッケ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +301,44 @@
               "name": "ご飯大盛り",
               "price": 90,
               "description": "弁当のご飯を増量。",
-              "recommended": true
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "bento-2-item-12",
               "name": "白ご飯 単品",
               "price": 200,
               "description": "容器一杯の炊きたてご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-2-item-13",
               "name": "即席味噌汁",
               "price": 110,
               "description": "お湯で作るわかめの味噌汁。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bento-2-item-14",
               "name": "緑茶 500ml",
               "price": 150,
               "description": "お弁当に合うペットボトル茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bento-2-item-15",
               "name": "麦茶 500ml",
               "price": 140,
               "description": "香ばしい無糖のお茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }

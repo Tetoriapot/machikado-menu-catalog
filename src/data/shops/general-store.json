@@ -30,35 +30,45 @@
               "name": "陶器のマグ",
               "price": 1650,
               "description": "釉薬の表情を楽しむ日常の器。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-2",
               "name": "木のスプーン",
               "price": 660,
               "description": "軽く口当たりのよい木製。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-3",
               "name": "小皿",
               "price": 880,
               "description": "お菓子や薬味に使える器。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-4",
               "name": "ガラスコップ",
               "price": 770,
               "description": "手になじむ小ぶりのグラス。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-5",
               "name": "コースター 二枚",
               "price": 550,
               "description": "織り生地のコースター。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "リネンハンカチ",
               "price": 1100,
               "description": "乾きやすい麻混の布。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-7",
               "name": "帆布ポーチ",
               "price": 1650,
               "description": "筆記具や小物を入れる袋。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-8",
               "name": "トートバッグ",
               "price": 2200,
               "description": "日常使いの薄手のかばん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-9",
               "name": "キッチンクロス",
               "price": 880,
               "description": "食器拭きにも使える布。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-10",
               "name": "布製ブックカバー",
               "price": 1320,
               "description": "文庫サイズのカバー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "活版カード",
               "price": 330,
               "description": "凹凸のある印刷を楽しむカード。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-12",
               "name": "マスキングテープ",
               "price": 385,
               "description": "柄入りの貼って剥がせるテープ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-13",
               "name": "小さなノート",
               "price": 550,
               "description": "無地の携帯ノート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-14",
               "name": "香り袋",
               "price": 660,
               "description": "引き出しに入れる乾燥花の袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-1-item-15",
               "name": "キャンドル",
               "price": 1320,
               "description": "器入りの小さなろうそく。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "手描きの豆皿",
               "price": 1330,
               "description": "素朴な柄を描いた小さな器。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-2",
               "name": "木のスプーン",
               "price": 730,
               "description": "軽く口当たりのよい木製。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-3",
               "name": "小皿",
               "price": 970,
               "description": "お菓子や薬味に使える器。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-4",
               "name": "ガラスコップ",
               "price": 850,
               "description": "手になじむ小ぶりのグラス。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-5",
               "name": "コースター 二枚",
               "price": 610,
               "description": "織り生地のコースター。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "リネンハンカチ",
               "price": 1210,
               "description": "乾きやすい麻混の布。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-7",
               "name": "帆布ポーチ",
               "price": 1820,
               "description": "筆記具や小物を入れる袋。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-8",
               "name": "トートバッグ",
               "price": 2420,
               "description": "日常使いの薄手のかばん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-9",
               "name": "キッチンクロス",
               "price": 970,
               "description": "食器拭きにも使える布。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-10",
               "name": "布製ブックカバー",
               "price": 1450,
               "description": "文庫サイズのカバー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "活版カード",
               "price": 360,
               "description": "凹凸のある印刷を楽しむカード。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-12",
               "name": "マスキングテープ",
               "price": 420,
               "description": "柄入りの貼って剥がせるテープ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-13",
               "name": "小さなノート",
               "price": 610,
               "description": "無地の携帯ノート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-14",
               "name": "香り袋",
               "price": 730,
               "description": "引き出しに入れる乾燥花の袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "general-store-2-item-15",
               "name": "キャンドル",
               "price": 1450,
               "description": "器入りの小さなろうそく。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

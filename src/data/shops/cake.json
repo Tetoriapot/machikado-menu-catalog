@@ -30,35 +30,45 @@
               "name": "いちごショート",
               "price": 580,
               "description": "生クリームといちごの定番ケーキ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cake-1-item-2",
               "name": "チョコレートケーキ",
               "price": 560,
               "description": "なめらかなガナッシュを重ねて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-1-item-3",
               "name": "モンブラン",
               "price": 620,
               "description": "栗のクリームをたっぷり絞って。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cake-1-item-4",
               "name": "ベイクドチーズケーキ",
               "price": 520,
               "description": "しっとり焼いたチーズのケーキ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-1-item-5",
               "name": "フルーツタルト",
               "price": 650,
               "description": "季節の果実を彩りよく。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "カスタードプリン",
               "price": 320,
               "description": "卵の風味を生かした瓶入りプリン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-1-item-7",
               "name": "シュークリーム",
               "price": 280,
               "description": "香ばしい皮にたっぷりクリーム。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-1-item-8",
               "name": "コーヒーゼリー",
               "price": 350,
               "description": "珈琲の苦味とミルクの甘み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-1-item-9",
               "name": "パンナコッタ",
               "price": 380,
               "description": "生クリームのやさしいミルクデザート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-1-item-10",
               "name": "レアチーズカップ",
               "price": 420,
               "description": "小さなカップに入れたチーズムース。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "フィナンシェ",
               "price": 220,
               "description": "焦がしバターとアーモンドの焼き菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-1-item-12",
               "name": "マドレーヌ",
               "price": 200,
               "description": "貝殻型のしっとりしたお菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-1-item-13",
               "name": "クッキー 三枚",
               "price": 240,
               "description": "さくさくのバタークッキー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-1-item-14",
               "name": "パウンドケーキ 一切",
               "price": 280,
               "description": "ドライフルーツを混ぜた焼き菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-1-item-15",
               "name": "焼き菓子詰め合わせ",
               "price": 1650,
               "description": "贈り物に使える六個入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "洋梨のタルト",
               "price": 750,
               "description": "柔らかく煮た洋梨を重ねたタルト。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-2-item-2",
               "name": "チョコレートケーキ",
               "price": 620,
               "description": "なめらかなガナッシュを重ねて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-2-item-3",
               "name": "モンブラン",
               "price": 680,
               "description": "栗のクリームをたっぷり絞って。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "cake-2-item-4",
               "name": "ベイクドチーズケーキ",
               "price": 570,
               "description": "しっとり焼いたチーズのケーキ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-2-item-5",
               "name": "フルーツタルト",
               "price": 720,
               "description": "季節の果実を彩りよく。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "カスタードプリン",
               "price": 350,
               "description": "卵の風味を生かした瓶入りプリン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-2-item-7",
               "name": "シュークリーム",
               "price": 310,
               "description": "香ばしい皮にたっぷりクリーム。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-2-item-8",
               "name": "コーヒーゼリー",
               "price": 390,
               "description": "珈琲の苦味とミルクの甘み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-2-item-9",
               "name": "パンナコッタ",
               "price": 420,
               "description": "生クリームのやさしいミルクデザート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-2-item-10",
               "name": "レアチーズカップ",
               "price": 460,
               "description": "小さなカップに入れたチーズムース。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "フィナンシェ",
               "price": 240,
               "description": "焦がしバターとアーモンドの焼き菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-2-item-12",
               "name": "マドレーヌ",
               "price": 220,
               "description": "貝殻型のしっとりしたお菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-2-item-13",
               "name": "クッキー 三枚",
               "price": 260,
               "description": "さくさくのバタークッキー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cake-2-item-14",
               "name": "パウンドケーキ 一切",
               "price": 310,
               "description": "ドライフルーツを混ぜた焼き菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cake-2-item-15",
               "name": "焼き菓子詰め合わせ",
               "price": 1820,
               "description": "贈り物に使える六個入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }

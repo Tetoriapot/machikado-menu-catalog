@@ -30,35 +30,54 @@
               "name": "五目チャーハン",
               "price": 750,
               "description": "焼豚、卵、ねぎの香ばしい炒めご飯。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "chinese-1-item-2",
               "name": "中華丼",
               "price": 800,
               "description": "野菜たっぷりのとろみ餡をご飯に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "chinese-1-item-3",
               "name": "天津飯",
               "price": 780,
               "description": "かに風味の卵焼きに甘酢餡。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "chinese-1-item-4",
               "name": "タンメン",
               "price": 820,
               "description": "炒め野菜を盛った塩味の麺。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "chinese-1-item-5",
               "name": "あんかけ焼きそば",
               "price": 850,
               "description": "焼き目のついた麺に五目餡。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "chinese-1-curated-1",
+              "name": "五目おこげ",
+              "price": 1180,
+              "description": "揚げたご飯に熱い五目餡をかけて。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "麻婆豆腐",
               "price": 780,
               "description": "豆板醤と山椒をきかせた一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-7",
               "name": "酢豚",
               "price": 980,
               "description": "豚肉と彩り野菜の甘酢炒め。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-8",
               "name": "回鍋肉",
               "price": 880,
               "description": "豚肉とキャベツの甘味噌炒め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-9",
               "name": "ニラレバ炒め",
               "price": 850,
               "description": "にんにくをきかせた定番炒め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-10",
               "name": "海老チリ",
               "price": 1080,
               "description": "ぷりっとした海老のピリ辛ソース。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-1-curated-2",
+              "name": "青菜のにんにく炒め",
+              "price": 680,
+              "description": "青菜を強火で手早く炒めた一皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "焼餃子 六個",
               "price": 420,
               "description": "肉と野菜を包んだ手作り餃子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-12",
               "name": "春巻き 二本",
               "price": 380,
               "description": "筍入りの餡をぱりっと揚げて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-13",
               "name": "杏仁豆腐",
               "price": 300,
               "description": "なめらかな口当たりの食後の甘味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-1-item-14",
               "name": "瓶ビール",
               "price": 580,
               "description": "中瓶。冷えたグラスと一緒に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "chinese-1-item-15",
               "name": "ジャスミン茶",
               "price": 250,
               "description": "花の香りがさわやかな中国茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "chinese-1-curated-3",
+              "name": "胡麻団子 三個",
+              "price": 360,
+              "description": "小豆餡入りの香ばしい揚げ団子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "赤い丸椅子と年季の入った丸卓。",
+        "service": "一品料理は取り分け皿を先に出し、昼は手早く回す。",
+        "signature": "五目チャーハンと焼餃子",
+        "localFlavor": "商店街の昼休みに家族と働く人が混ざる。"
+      }
     },
     {
       "id": "chinese-2",
@@ -170,35 +233,54 @@
               "name": "黒胡椒チャーハン",
               "price": 900,
               "description": "挽きたて黒胡椒が香る炒めご飯。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "chinese-2-item-2",
-              "name": "中華丼",
+              "id": "chinese-2-curated-1",
+              "name": "生姜湯麺",
               "price": 880,
-              "description": "野菜たっぷりのとろみ餡をご飯に。",
-              "recommended": false
+              "description": "生姜をたっぷり加えた澄んだ塩スープ。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "chinese-2-item-3",
               "name": "天津飯",
               "price": 860,
               "description": "かに風味の卵焼きに甘酢餡。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "chinese-2-item-4",
-              "name": "タンメン",
-              "price": 900,
-              "description": "炒め野菜を盛った塩味の麺。",
-              "recommended": false
+              "id": "chinese-2-curated-2",
+              "name": "豚角煮のせご飯",
+              "price": 1050,
+              "description": "柔らかい角煮を青菜と一緒に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "chinese-2-item-5",
               "name": "あんかけ焼きそば",
               "price": 940,
               "description": "焼き目のついた麺に五目餡。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "chinese-2-curated-3",
+              "name": "海老入り卵あんかけ飯",
+              "price": 980,
+              "description": "半熟卵の餡と海老をかけたご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "麻婆豆腐",
               "price": 860,
               "description": "豆板醤と山椒をきかせた一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "chinese-2-item-7",
-              "name": "酢豚",
+              "id": "chinese-2-curated-4",
+              "name": "鶏とカシューナッツ炒め",
               "price": 1080,
-              "description": "豚肉と彩り野菜の甘酢炒め。",
-              "recommended": true
+              "description": "甘辛いソースとナッツの歯ごたえ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-2-item-8",
               "name": "回鍋肉",
               "price": 970,
               "description": "豚肉とキャベツの甘味噌炒め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "chinese-2-item-9",
-              "name": "ニラレバ炒め",
-              "price": 940,
-              "description": "にんにくをきかせた定番炒め。",
-              "recommended": false
+              "id": "chinese-2-curated-5",
+              "name": "蒸し鶏のねぎ生姜だれ",
+              "price": 780,
+              "description": "しっとりした鶏に香味だれ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-2-item-10",
               "name": "海老チリ",
               "price": 1190,
               "description": "ぷりっとした海老のピリ辛ソース。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-2-curated-6",
+              "name": "茄子の豆鼓炒め",
+              "price": 850,
+              "description": "発酵豆の旨みをきかせた炒め物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "焼餃子 六個",
               "price": 460,
               "description": "肉と野菜を包んだ手作り餃子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "chinese-2-item-12",
-              "name": "春巻き 二本",
-              "price": 420,
-              "description": "筍入りの餡をぱりっと揚げて。",
-              "recommended": false
+              "id": "chinese-2-curated-7",
+              "name": "肉焼売 四個",
+              "price": 480,
+              "description": "肉汁を閉じ込めた大きめ焼売。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-2-item-13",
               "name": "杏仁豆腐",
               "price": 330,
               "description": "なめらかな口当たりの食後の甘味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "chinese-2-item-14",
-              "name": "瓶ビール",
-              "price": 640,
-              "description": "中瓶。冷えたグラスと一緒に。",
-              "recommended": false
+              "id": "chinese-2-curated-8",
+              "name": "水餃子 六個",
+              "price": 520,
+              "description": "もちもちした皮の茹で餃子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "chinese-2-item-15",
               "name": "ジャスミン茶",
               "price": 280,
               "description": "花の香りがさわやかな中国茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "chinese-2-curated-9",
+              "name": "烏龍ミルクプリン",
+              "price": 350,
+              "description": "茶葉を煮出したミルクプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "厨房を囲むL字カウンターと二つの小上がり。",
+        "service": "麺と小丼の組み合わせを相談できる。",
+        "signature": "生姜の効いた湯麺と包み蒸し",
+        "localFlavor": "近隣の工場の勤務時間に合わせ、夕方の開店が早い。"
+      }
     }
   ]
 }

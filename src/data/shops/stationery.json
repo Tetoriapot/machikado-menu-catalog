@@ -30,35 +30,45 @@
               "name": "油性ボールペン",
               "price": 165,
               "description": "0.7mmの黒インク。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-2",
               "name": "ゲルインクペン",
               "price": 220,
               "description": "滑らかな書き心地の黒ペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-3",
               "name": "シャープペンシル",
               "price": 330,
               "description": "0.5mm芯を使う定番の筆記具。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-4",
               "name": "鉛筆 六本",
               "price": 264,
               "description": "学習やスケッチに使えるHB。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-5",
               "name": "蛍光ペン",
               "price": 132,
               "description": "淡い黄色で文字を目立たせるペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "大学ノート",
               "price": 198,
               "description": "B5判、横罫のノート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-7",
               "name": "方眼ノート",
               "price": 242,
               "description": "図や間取りにも使える5mm方眼。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-8",
               "name": "原稿用紙",
               "price": 330,
               "description": "A4判、四百字詰め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-9",
               "name": "レターセット",
               "price": 440,
               "description": "便箋と封筒を揃えたセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-10",
               "name": "メッセージカード",
               "price": 275,
               "description": "二つ折りの無地カード。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "消しゴム",
               "price": 110,
               "description": "鉛筆の文字を消す白い消しゴム。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-12",
               "name": "定規 15cm",
               "price": 165,
               "description": "透明な樹脂製定規。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-13",
               "name": "はさみ",
               "price": 550,
               "description": "紙工作や事務作業向け。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-14",
               "name": "スティックのり",
               "price": 198,
               "description": "紙を貼る繰り出し式のり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-1-item-15",
               "name": "クリップ 一箱",
               "price": 165,
               "description": "書類をまとめる金属クリップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "万年筆用ノート",
               "price": 730,
               "description": "インクがにじみにくい紙のノート。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-2",
               "name": "ゲルインクペン",
               "price": 240,
               "description": "滑らかな書き心地の黒ペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-3",
               "name": "シャープペンシル",
               "price": 360,
               "description": "0.5mm芯を使う定番の筆記具。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-4",
               "name": "鉛筆 六本",
               "price": 290,
               "description": "学習やスケッチに使えるHB。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-5",
               "name": "蛍光ペン",
               "price": 150,
               "description": "淡い黄色で文字を目立たせるペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "大学ノート",
               "price": 220,
               "description": "B5判、横罫のノート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-7",
               "name": "方眼ノート",
               "price": 270,
               "description": "図や間取りにも使える5mm方眼。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-8",
               "name": "原稿用紙",
               "price": 360,
               "description": "A4判、四百字詰め。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-9",
               "name": "レターセット",
               "price": 480,
               "description": "便箋と封筒を揃えたセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-10",
               "name": "メッセージカード",
               "price": 300,
               "description": "二つ折りの無地カード。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "消しゴム",
               "price": 120,
               "description": "鉛筆の文字を消す白い消しゴム。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-12",
               "name": "定規 15cm",
               "price": 180,
               "description": "透明な樹脂製定規。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-13",
               "name": "はさみ",
               "price": 610,
               "description": "紙工作や事務作業向け。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-14",
               "name": "スティックのり",
               "price": 220,
               "description": "紙を貼る繰り出し式のり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "stationery-2-item-15",
               "name": "クリップ 一箱",
               "price": 180,
               "description": "書類をまとめる金属クリップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

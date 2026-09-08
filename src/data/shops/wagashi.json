@@ -30,35 +30,45 @@
               "name": "豆大福",
               "price": 190,
               "description": "赤えんどうの塩気と粒あん。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "wagashi-1-item-2",
               "name": "どら焼き",
               "price": 220,
               "description": "ふっくらした皮に粒あんを挟んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "wagashi-1-item-3",
               "name": "みたらし団子",
               "price": 150,
               "description": "醤油だれをからめた三玉串。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "wagashi-1-item-4",
               "name": "草餅",
               "price": 180,
               "description": "よもぎが香る餅で餡を包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "wagashi-1-item-5",
               "name": "栗まんじゅう",
               "price": 240,
               "description": "栗入りの白餡を焼き皮で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "練り切り",
               "price": 350,
               "description": "季節の形をかたどった上生菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-7",
               "name": "水ようかん",
               "price": 280,
               "description": "みずみずしい口当たりの小豆菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-8",
               "name": "いちご大福",
               "price": 320,
               "description": "甘酸っぱいいちごを白餡と餅で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-9",
               "name": "わらび餅",
               "price": 380,
               "description": "きな粉と黒蜜を添えた小箱。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-10",
               "name": "栗きんとん",
               "price": 330,
               "description": "栗の風味を生かした小さなお菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "羊羹 小棹",
               "price": 680,
               "description": "切り分けやすい小さな羊羹。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-12",
               "name": "最中 五個箱",
               "price": 1100,
               "description": "香ばしい皮と粒あんの詰め合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-13",
               "name": "どら焼き 六個箱",
               "price": 1420,
               "description": "贈答用の箱入りどら焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-1-item-14",
               "name": "煎茶 茶葉50g",
               "price": 650,
               "description": "菓子に合わせる日常のお茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "wagashi-1-item-15",
               "name": "ほうじ茶 茶葉50g",
               "price": 480,
               "description": "香ばしく焙じた茶葉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "黒糖まんじゅう",
               "price": 220,
               "description": "黒糖の皮にこしあんを包んだ蒸し菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "wagashi-2-item-2",
               "name": "どら焼き",
               "price": 240,
               "description": "ふっくらした皮に粒あんを挟んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "wagashi-2-item-3",
               "name": "みたらし団子",
               "price": 170,
               "description": "醤油だれをからめた三玉串。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "wagashi-2-item-4",
               "name": "草餅",
               "price": 200,
               "description": "よもぎが香る餅で餡を包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "wagashi-2-item-5",
               "name": "栗まんじゅう",
               "price": 260,
               "description": "栗入りの白餡を焼き皮で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "練り切り",
               "price": 390,
               "description": "季節の形をかたどった上生菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-7",
               "name": "水ようかん",
               "price": 310,
               "description": "みずみずしい口当たりの小豆菓子。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-8",
               "name": "いちご大福",
               "price": 350,
               "description": "甘酸っぱいいちごを白餡と餅で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-9",
               "name": "わらび餅",
               "price": 420,
               "description": "きな粉と黒蜜を添えた小箱。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-10",
               "name": "栗きんとん",
               "price": 360,
               "description": "栗の風味を生かした小さなお菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "羊羹 小棹",
               "price": 750,
               "description": "切り分けやすい小さな羊羹。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-12",
               "name": "最中 五個箱",
               "price": 1210,
               "description": "香ばしい皮と粒あんの詰め合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-13",
               "name": "どら焼き 六個箱",
               "price": 1560,
               "description": "贈答用の箱入りどら焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "wagashi-2-item-14",
               "name": "煎茶 茶葉50g",
               "price": 720,
               "description": "菓子に合わせる日常のお茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "wagashi-2-item-15",
               "name": "ほうじ茶 茶葉50g",
               "price": 530,
               "description": "香ばしく焙じた茶葉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

@@ -30,35 +30,45 @@
               "name": "もりそば",
               "price": 780,
               "description": "蕎麦の香りを楽しむ基本の一枚。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-1-item-2",
               "name": "ざるそば",
               "price": 850,
               "description": "刻み海苔をのせた冷たい蕎麦。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-1-item-3",
               "name": "天せいろ",
               "price": 1480,
               "description": "海老と野菜の天ぷらを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-1-item-4",
               "name": "とろろそば",
               "price": 1080,
               "description": "すりおろした長芋と一緒に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-1-item-5",
               "name": "鴨せいろ",
               "price": 1580,
               "description": "鴨の脂が溶けた温かいつけ汁。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "かけそば",
               "price": 780,
               "description": "出汁の香りが立つ温かい一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-7",
               "name": "たぬきそば",
               "price": 850,
               "description": "揚げ玉のコクを楽しむ蕎麦。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-8",
               "name": "月見そば",
               "price": 880,
               "description": "卵を落としたやさしい味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-9",
               "name": "山菜そば",
               "price": 980,
               "description": "山菜とわかめをのせて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-10",
               "name": "にしんそば",
               "price": 1280,
               "description": "甘辛く炊いたにしんを一尾。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "板わさ",
               "price": 480,
               "description": "かまぼこをわさび醤油で。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-12",
               "name": "そば味噌",
               "price": 350,
               "description": "炒った蕎麦の実を混ぜた味噌。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-13",
               "name": "天ぷら盛り",
               "price": 880,
               "description": "海老と季節の野菜の盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-1-item-14",
               "name": "日本酒 一合",
               "price": 650,
               "description": "蕎麦に合うすっきりした一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "soba-1-item-15",
               "name": "そば茶プリン",
               "price": 380,
               "description": "焙煎そば茶の香りを生かした甘味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "くるみだれせいろ",
               "price": 1190,
               "description": "すり潰したくるみを使う濃厚なつけ汁。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-2-item-2",
               "name": "ざるそば",
               "price": 940,
               "description": "刻み海苔をのせた冷たい蕎麦。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-2-item-3",
               "name": "天せいろ",
               "price": 1630,
               "description": "海老と野菜の天ぷらを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-2-item-4",
               "name": "とろろそば",
               "price": 1190,
               "description": "すりおろした長芋と一緒に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "soba-2-item-5",
               "name": "鴨せいろ",
               "price": 1740,
               "description": "鴨の脂が溶けた温かいつけ汁。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "かけそば",
               "price": 860,
               "description": "出汁の香りが立つ温かい一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-7",
               "name": "たぬきそば",
               "price": 940,
               "description": "揚げ玉のコクを楽しむ蕎麦。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-8",
               "name": "月見そば",
               "price": 970,
               "description": "卵を落としたやさしい味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-9",
               "name": "山菜そば",
               "price": 1080,
               "description": "山菜とわかめをのせて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-10",
               "name": "にしんそば",
               "price": 1410,
               "description": "甘辛く炊いたにしんを一尾。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "板わさ",
               "price": 530,
               "description": "かまぼこをわさび醤油で。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-12",
               "name": "そば味噌",
               "price": 390,
               "description": "炒った蕎麦の実を混ぜた味噌。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-13",
               "name": "天ぷら盛り",
               "price": 970,
               "description": "海老と季節の野菜の盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "soba-2-item-14",
               "name": "日本酒 一合",
               "price": 720,
               "description": "蕎麦に合うすっきりした一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "soba-2-item-15",
               "name": "そば茶プリン",
               "price": 420,
               "description": "焙煎そば茶の香りを生かした甘味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }

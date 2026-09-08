@@ -30,35 +30,45 @@
               "name": "チョコバナナ",
               "price": 520,
               "description": "生クリームとバナナにチョコソース。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-1-item-2",
               "name": "いちごホイップ",
               "price": 620,
               "description": "いちごと軽いホイップクリーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-1-item-3",
               "name": "キャラメルナッツ",
               "price": 560,
               "description": "ローストナッツとキャラメル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-1-item-4",
               "name": "シュガーバター",
               "price": 380,
               "description": "焼きたて生地に砂糖とバター。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-1-item-5",
               "name": "抹茶あずき",
               "price": 580,
               "description": "抹茶クリームと粒あん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "ツナサラダ",
               "price": 520,
               "description": "野菜とツナの軽食クレープ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-1-item-7",
               "name": "ハムチーズ",
               "price": 500,
               "description": "とろけるチーズをハムと一緒に。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-1-item-8",
               "name": "照り焼きチキン",
               "price": 650,
               "description": "甘辛い鶏肉とレタス。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-1-item-9",
               "name": "卵サラダ",
               "price": 480,
               "description": "たっぷり卵の食事系。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-1-item-10",
               "name": "きのこチーズ",
               "price": 580,
               "description": "炒めきのことチーズを包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,43 @@
               "name": "バニラアイス追加",
               "price": 120,
               "description": "好きなクレープに一玉。",
-              "recommended": true
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "crepe-1-item-12",
               "name": "ホイップ増量",
               "price": 80,
               "description": "クリームを多めに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "crepe-1-item-13",
               "name": "コーヒー",
               "price": 280,
               "description": "持ち歩けるカップ入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "crepe-1-item-14",
               "name": "ミルクティー",
               "price": 320,
               "description": "甘さ控えめの紅茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "crepe-1-item-15",
               "name": "レモンソーダ",
               "price": 350,
               "description": "爽やかな柑橘の炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
@@ -170,35 +198,45 @@
               "name": "焼きりんごシナモン",
               "price": 720,
               "description": "温かいりんごとシナモンの甘い一枚。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-2-item-2",
               "name": "いちごホイップ",
               "price": 680,
               "description": "いちごと軽いホイップクリーム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-2-item-3",
               "name": "キャラメルナッツ",
               "price": 620,
               "description": "ローストナッツとキャラメル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-2-item-4",
               "name": "シュガーバター",
               "price": 420,
               "description": "焼きたて生地に砂糖とバター。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "crepe-2-item-5",
               "name": "抹茶あずき",
               "price": 640,
               "description": "抹茶クリームと粒あん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +249,45 @@
               "name": "ツナサラダ",
               "price": 570,
               "description": "野菜とツナの軽食クレープ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-2-item-7",
               "name": "ハムチーズ",
               "price": 550,
               "description": "とろけるチーズをハムと一緒に。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-2-item-8",
               "name": "照り焼きチキン",
               "price": 720,
               "description": "甘辛い鶏肉とレタス。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-2-item-9",
               "name": "卵サラダ",
               "price": 530,
               "description": "たっぷり卵の食事系。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "crepe-2-item-10",
               "name": "きのこチーズ",
               "price": 640,
               "description": "炒めきのことチーズを包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +300,43 @@
               "name": "バニラアイス追加",
               "price": 130,
               "description": "好きなクレープに一玉。",
-              "recommended": true
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "crepe-2-item-12",
               "name": "ホイップ増量",
               "price": 90,
               "description": "クリームを多めに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             },
             {
               "id": "crepe-2-item-13",
               "name": "コーヒー",
               "price": 310,
               "description": "持ち歩けるカップ入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "crepe-2-item-14",
               "name": "ミルクティー",
               "price": 350,
               "description": "甘さ控えめの紅茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "crepe-2-item-15",
               "name": "レモンソーダ",
               "price": 390,
               "description": "爽やかな柑橘の炭酸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }

@@ -30,35 +30,54 @@
               "name": "ハンドドリップコーヒー",
               "price": 580,
               "description": "注文ごとに豆を挽き、丁寧に抽出。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cafe-1-item-2",
               "name": "カフェラテ",
               "price": 620,
               "description": "細やかな泡のミルクを重ねた一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cafe-1-item-3",
               "name": "ほうじ茶ラテ",
               "price": 640,
               "description": "香ばしいほうじ茶にやさしい甘み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cafe-1-item-4",
               "name": "自家製レモネード",
               "price": 600,
               "description": "蜂蜜漬けレモンを炭酸で割って。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cafe-1-item-5",
               "name": "アールグレイ",
               "price": 560,
               "description": "柑橘の香りを楽しむポットティー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cafe-1-curated-1",
+              "name": "庭のミントティー",
+              "price": 580,
+              "description": "ミントとレモングラスを合わせた温かい一杯。",
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "キッシュプレート",
               "price": 1180,
               "description": "ほうれん草のキッシュにサラダを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-1-item-7",
               "name": "アボカドサンド",
               "price": 980,
               "description": "全粒粉パンにアボカドと蒸し鶏。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-1-item-8",
               "name": "週替わりスープセット",
               "price": 1050,
               "description": "野菜のスープとパンの軽い昼食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-1-item-9",
               "name": "きのこリゾット",
               "price": 1120,
               "description": "米にきのこの旨みを含ませた一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-1-item-10",
               "name": "キャロットサラダ",
               "price": 480,
               "description": "にんじんを柑橘ドレッシングで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-1-curated-2",
+              "name": "焼き野菜と白いんげんのスープ",
+              "price": 780,
+              "description": "豆のとろみを生かしたスープに小パン付き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "固焼きプリン",
               "price": 580,
               "description": "卵の風味が広がるカスタード。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cafe-1-item-12",
               "name": "りんごのタルト",
               "price": 650,
               "description": "薄切りりんごを重ねて焼いたタルト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cafe-1-item-13",
               "name": "チーズケーキ",
               "price": 620,
               "description": "濃厚なベイクドタイプ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cafe-1-item-14",
               "name": "スコーン 二個",
               "price": 520,
               "description": "クロテッド風クリームとジャム付き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-1-item-15",
               "name": "塩バタークッキー",
               "price": 280,
               "description": "珈琲に合う小袋入り焼き菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-1-curated-3",
+              "name": "ローズマリーのスコーン",
+              "price": 560,
+              "description": "ハーブの香りと塩気のある二個セット。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "中庭へ向く丸テーブルと小さな焼き菓子棚。",
+        "service": "注文後は席へ届け、読書中の客には静かに声をかける。",
+        "signature": "野菜キッシュとハーブのスコーン",
+        "localFlavor": "図書館から歩いて来る一人客の休憩場所。"
+      }
     },
     {
       "id": "cafe-2",
@@ -170,35 +233,54 @@
               "name": "水出しアイスコーヒー",
               "price": 660,
               "description": "一晩かけて抽出したまろやかな味。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "cafe-2-item-2",
-              "name": "カフェラテ",
-              "price": 680,
-              "description": "細やかな泡のミルクを重ねた一杯。",
-              "recommended": false
+              "id": "cafe-2-curated-1",
+              "name": "塩キャラメルラテ",
+              "price": 720,
+              "description": "キャラメルに少しの塩をきかせたラテ。",
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cafe-2-item-3",
               "name": "ほうじ茶ラテ",
               "price": 700,
               "description": "香ばしいほうじ茶にやさしい甘み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "cafe-2-item-4",
-              "name": "自家製レモネード",
-              "price": 660,
-              "description": "蜂蜜漬けレモンを炭酸で割って。",
-              "recommended": false
+              "id": "cafe-2-curated-2",
+              "name": "オレンジの水出し紅茶",
+              "price": 620,
+              "description": "輪切りオレンジを添えた冷たい紅茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "cafe-2-item-5",
               "name": "アールグレイ",
               "price": 620,
               "description": "柑橘の香りを楽しむポットティー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cafe-2-curated-3",
+              "name": "自家製柑橘ソーダ",
+              "price": 650,
+              "description": "数種の柑橘を漬けたシロップの炭酸割り。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "キッシュプレート",
               "price": 1300,
               "description": "ほうれん草のキッシュにサラダを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "cafe-2-item-7",
-              "name": "アボカドサンド",
-              "price": 1080,
-              "description": "全粒粉パンにアボカドと蒸し鶏。",
-              "recommended": true
+              "id": "cafe-2-curated-4",
+              "name": "白身魚とディルのサンド",
+              "price": 1180,
+              "description": "魚のフライにディル入りタルタル。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-2-item-8",
               "name": "週替わりスープセット",
               "price": 1160,
               "description": "野菜のスープとパンの軽い昼食。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "cafe-2-item-9",
-              "name": "きのこリゾット",
-              "price": 1230,
-              "description": "米にきのこの旨みを含ませた一皿。",
-              "recommended": false
+              "id": "cafe-2-curated-5",
+              "name": "しらすとトマトのオープンサンド",
+              "price": 1080,
+              "description": "厚切りパンにしらすと刻みトマト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-2-item-10",
               "name": "キャロットサラダ",
               "price": 530,
               "description": "にんじんを柑橘ドレッシングで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-2-curated-6",
+              "name": "海老と豆のレモンサラダ",
+              "price": 980,
+              "description": "小海老と豆をレモンドレッシングで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "固焼きプリン",
               "price": 640,
               "description": "卵の風味が広がるカスタード。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
-              "id": "cafe-2-item-12",
-              "name": "りんごのタルト",
+              "id": "cafe-2-curated-7",
+              "name": "オレンジのタルト",
               "price": 720,
-              "description": "薄切りりんごを重ねて焼いたタルト。",
-              "recommended": false
+              "description": "柑橘の果肉を載せたアーモンドタルト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "cafe-2-item-13",
               "name": "チーズケーキ",
               "price": 680,
               "description": "濃厚なベイクドタイプ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
-              "id": "cafe-2-item-14",
-              "name": "スコーン 二個",
-              "price": 570,
-              "description": "クロテッド風クリームとジャム付き。",
-              "recommended": false
+              "id": "cafe-2-curated-8",
+              "name": "塩ミルクのパンナコッタ",
+              "price": 580,
+              "description": "ほんのり塩をきかせたミルクの甘味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "cafe-2-item-15",
               "name": "塩バタークッキー",
               "price": 310,
               "description": "珈琲に合う小袋入り焼き菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-2-curated-9",
+              "name": "レモンのバターサンド",
+              "price": 480,
+              "description": "レモンクリームをクッキーで挟んだ一個。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "海へ下る坂に面したガラス窓と白木の椅子。",
+        "service": "先にカウンターで注文し、持ち帰りも同じ窓口で受け取る。",
+        "signature": "魚介サンドと柑橘のタルト",
+        "localFlavor": "海辺の散歩客と近隣の小さな宿の宿泊客が立ち寄る。"
+      }
     }
   ]
 }

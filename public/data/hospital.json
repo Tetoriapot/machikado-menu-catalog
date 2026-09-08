@@ -30,35 +30,54 @@
               "name": "卵サンド",
               "price": 320,
               "description": "食べやすいサイズのサンドイッチ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "hospital-1-item-2",
               "name": "鮭おにぎり",
               "price": 180,
               "description": "個包装の定番おむすび。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "hospital-1-item-3",
               "name": "プリン",
               "price": 220,
               "description": "小さなカップ入りデザート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "hospital-1-item-4",
               "name": "水 500ml",
               "price": 130,
               "description": "ふた付きペットボトルの水。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "hospital-1-item-5",
               "name": "麦茶 600ml",
               "price": 150,
               "description": "無糖のお茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "hospital-1-curated-1",
+              "name": "バナナ 一本",
+              "price": 130,
+              "description": "皮をむいて食べられる小さな果物。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "タオル",
               "price": 440,
               "description": "日常使いのフェイスタオル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-7",
               "name": "前開き肌着",
               "price": 1320,
               "description": "着替えやすい前開きタイプ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-8",
               "name": "滑り止め付き靴下",
               "price": 660,
               "description": "足裏に滑り止めのある靴下。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-9",
               "name": "歯ブラシセット",
               "price": 330,
               "description": "携帯用の歯磨きセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-10",
               "name": "樹脂コップ",
               "price": 280,
               "description": "割れにくい取っ手付きコップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-1-curated-2",
+              "name": "曲がるストロー 二十本",
+              "price": 180,
+              "description": "曲げられる節付きのストロー。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "箱ティッシュ",
               "price": 150,
               "description": "小さめの箱入りティッシュ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-12",
               "name": "ウェットティッシュ",
               "price": 220,
               "description": "ノンアルコールの拭き取りシート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-13",
               "name": "耳栓",
               "price": 330,
               "description": "携帯ケース付きの小物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-14",
               "name": "イヤホン",
               "price": 880,
               "description": "有線タイプのイヤホン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-1-item-15",
               "name": "新聞",
               "price": 180,
               "description": "当日分の一般紙という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-1-curated-3",
+              "name": "無地の便箋セット",
+              "price": 330,
+              "description": "手紙を書きたいときの紙小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "待合室に近い売店。棚は低く、通路を広く取る。",
+        "service": "短い声かけで必要な棚を案内し、付き添い客を待たせない。",
+        "signature": "入院生活の基本小物と軽食",
+        "localFlavor": "大きな病院の来院者と見舞い客が中心。"
+      }
     },
     {
       "id": "hospital-2",
@@ -170,35 +233,54 @@
               "name": "野菜スープ",
               "price": 310,
               "description": "カップ入りの温かい野菜スープ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "hospital-2-item-2",
-              "name": "鮭おにぎり",
-              "price": 200,
-              "description": "個包装の定番おむすび。",
-              "recommended": false
+              "id": "hospital-2-curated-1",
+              "name": "やわらかミルクロール",
+              "price": 220,
+              "description": "小さなパン二個入り。食事制限への適合は別途確認。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "hospital-2-item-3",
               "name": "プリン",
               "price": 240,
               "description": "小さなカップ入りデザート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
-              "id": "hospital-2-item-4",
-              "name": "水 500ml",
-              "price": 140,
-              "description": "ふた付きペットボトルの水。",
-              "recommended": false
+              "id": "hospital-2-curated-2",
+              "name": "ゼリー飲料 りんご",
+              "price": 198,
+              "description": "持ちやすいパウチ入りの食品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "hospital-2-item-5",
               "name": "麦茶 600ml",
               "price": 170,
               "description": "無糖のお茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "hospital-2-curated-3",
+              "name": "小分けビスケット",
+              "price": 180,
+              "description": "個包装の素朴な焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "タオル",
               "price": 480,
               "description": "日常使いのフェイスタオル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "hospital-2-item-7",
-              "name": "前開き肌着",
-              "price": 1450,
-              "description": "着替えやすい前開きタイプ。",
-              "recommended": true
+              "id": "hospital-2-curated-4",
+              "name": "前開きパジャマ",
+              "price": 2980,
+              "description": "綿混素材の上下セット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-2-item-8",
               "name": "滑り止め付き靴下",
               "price": 730,
               "description": "足裏に滑り止めのある靴下。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "hospital-2-item-9",
-              "name": "歯ブラシセット",
-              "price": 360,
-              "description": "携帯用の歯磨きセット。",
-              "recommended": false
+              "id": "hospital-2-curated-5",
+              "name": "大判の薄手タオル",
+              "price": 880,
+              "description": "乾きやすい薄手の一枚。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-2-item-10",
               "name": "樹脂コップ",
               "price": 310,
               "description": "割れにくい取っ手付きコップ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-2-curated-6",
+              "name": "ふた付きコップ",
+              "price": 440,
+              "description": "こぼれにくいふたを備えた樹脂コップ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "箱ティッシュ",
               "price": 170,
               "description": "小さめの箱入りティッシュ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "hospital-2-item-12",
-              "name": "ウェットティッシュ",
-              "price": 240,
-              "description": "ノンアルコールの拭き取りシート。",
-              "recommended": false
+              "id": "hospital-2-curated-7",
+              "name": "衣類用名札シール",
+              "price": 330,
+              "description": "持ち物に名前を付けるシール。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-2-item-13",
               "name": "耳栓",
               "price": 360,
               "description": "携帯ケース付きの小物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "hospital-2-item-14",
-              "name": "イヤホン",
-              "price": 970,
-              "description": "有線タイプのイヤホン。",
-              "recommended": false
+              "id": "hospital-2-curated-8",
+              "name": "洗濯ネット",
+              "price": 280,
+              "description": "着替えをまとめて洗うための袋。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "hospital-2-item-15",
               "name": "新聞",
               "price": 200,
               "description": "当日分の一般紙という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-2-curated-9",
+              "name": "小さな置き時計",
+              "price": 1280,
+              "description": "時刻が読みやすい数字表示。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "病棟への渡り廊下に面した小さな売店。",
+        "service": "一品から袋に入れ、病棟で使う小物を取り寄せる。",
+        "signature": "着替え用品と使いやすい生活道具",
+        "localFlavor": "長く入院する人の家族が補充品を買いに来る。"
+      }
     }
   ]
 }

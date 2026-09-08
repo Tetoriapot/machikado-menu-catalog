@@ -30,35 +30,54 @@
               "name": "ジントニック",
               "price": 850,
               "description": "ジンとトニックにライムを添えて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-2",
               "name": "モスコミュール",
               "price": 900,
               "description": "ウォッカに生姜の風味をきかせて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-3",
               "name": "カシスオレンジ",
               "price": 850,
               "description": "果実の甘みを楽しむ軽いカクテル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-4",
               "name": "季節のフルーツカクテル",
               "price": 1200,
               "description": "その日の果実を使った一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-5",
               "name": "ノンアルコールモヒート",
               "price": 750,
               "description": "ミントとライムを炭酸で爽やかに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-1-curated-1",
+              "name": "オールドファッションド",
+              "price": 1200,
+              "description": "ウイスキーに砂糖とビターズを合わせて。",
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "ブレンデッドウイスキー",
               "price": 900,
               "description": "ロック、水割り、ハイボールから。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-7",
               "name": "シングルモルト",
               "price": 1400,
               "description": "樽の香りを楽しむ一杯。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-8",
               "name": "ダークラム",
               "price": 950,
               "description": "焦がし砂糖を思わせる芳醇なラム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-9",
               "name": "グラスワイン",
               "price": 850,
               "description": "赤か白を選べるハウスワイン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-1-item-10",
               "name": "クラフトビール",
               "price": 980,
               "description": "瓶で提供する香り豊かなビール。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-1-curated-2",
+              "name": "樽熟成ブランデー",
+              "price": 1500,
+              "description": "果実と樽の香りをゆっくり楽しむ一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "ミックスナッツ",
               "price": 450,
               "description": "軽くローストしたナッツ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bar-1-item-12",
               "name": "生チョコレート",
               "price": 650,
               "description": "お酒と合わせる口溶けのよい甘味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bar-1-item-13",
               "name": "チーズ三種",
               "price": 980,
               "description": "白カビ、青カビ、ハードタイプの盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bar-1-item-14",
               "name": "オリーブ",
               "price": 480,
               "description": "ハーブ入りオイルに漬けた実。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bar-1-item-15",
               "name": "席料 一人",
               "price": 500,
               "description": "お席の利用料。小さなお通し付き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "bar-1-curated-3",
+              "name": "オレンジピールチョコ",
+              "price": 580,
+              "description": "ほろ苦い皮にビターチョコをまとわせて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "真鍮の照明と八席の一枚板カウンター。",
+        "service": "最初に好みを聞き、静かな会話の間合いを保つ。",
+        "signature": "クラシックカクテルと生チョコ",
+        "localFlavor": "地下にあり、終電前後の一人客が中心。"
+      },
+      "priceNote": "税込価格。席料は別途、1人500円です。"
     },
     {
       "id": "bar-2",
@@ -170,35 +233,54 @@
               "name": "柚子ジンフィズ",
               "price": 1210,
               "description": "柚子とジンを炭酸で軽やかに。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "bar-2-item-2",
-              "name": "モスコミュール",
-              "price": 990,
-              "description": "ウォッカに生姜の風味をきかせて。",
-              "recommended": false
+              "id": "bar-2-curated-1",
+              "name": "洋梨のロングカクテル",
+              "price": 1280,
+              "description": "洋梨と白いスピリッツを炭酸で軽く。",
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-2-item-3",
               "name": "カシスオレンジ",
               "price": 940,
               "description": "果実の甘みを楽しむ軽いカクテル。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "bar-2-item-4",
-              "name": "季節のフルーツカクテル",
-              "price": 1320,
-              "description": "その日の果実を使った一杯。",
-              "recommended": false
+              "id": "bar-2-curated-2",
+              "name": "無花果のノンアルコール",
+              "price": 980,
+              "description": "無花果と紅茶の香りを合わせた一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-2-item-5",
               "name": "ノンアルコールモヒート",
               "price": 830,
               "description": "ミントとライムを炭酸で爽やかに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-2-curated-3",
+              "name": "焙じ茶ラムカクテル",
+              "price": 1150,
+              "description": "茶の香りを移したラムで作る一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "ブレンデッドウイスキー",
               "price": 990,
               "description": "ロック、水割り、ハイボールから。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "bar-2-item-7",
-              "name": "シングルモルト",
-              "price": 1540,
-              "description": "樽の香りを楽しむ一杯。",
-              "recommended": true
+              "id": "bar-2-curated-4",
+              "name": "ホワイトラム",
+              "price": 880,
+              "description": "ライムを添えた軽い口当たり。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-2-item-8",
               "name": "ダークラム",
               "price": 1050,
               "description": "焦がし砂糖を思わせる芳醇なラム。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "bar-2-item-9",
-              "name": "グラスワイン",
-              "price": 940,
-              "description": "赤か白を選べるハウスワイン。",
-              "recommended": false
+              "id": "bar-2-curated-5",
+              "name": "果実漬けウォッカ",
+              "price": 980,
+              "description": "季節の果実を漬けた少量の一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "bar-2-item-10",
               "name": "クラフトビール",
               "price": 1080,
               "description": "瓶で提供する香り豊かなビール。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-2-curated-6",
+              "name": "ドライシードル",
+              "price": 980,
+              "description": "りんごの香りが爽やかな発泡酒。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "ミックスナッツ",
               "price": 500,
               "description": "軽くローストしたナッツ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "bar-2-item-12",
-              "name": "生チョコレート",
-              "price": 720,
-              "description": "お酒と合わせる口溶けのよい甘味。",
-              "recommended": false
+              "id": "bar-2-curated-7",
+              "name": "自家製燻製チーズ",
+              "price": 780,
+              "description": "桜チップの香りを移したチーズ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bar-2-item-13",
               "name": "チーズ三種",
               "price": 1080,
               "description": "白カビ、青カビ、ハードタイプの盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "bar-2-item-14",
-              "name": "オリーブ",
-              "price": 530,
-              "description": "ハーブ入りオイルに漬けた実。",
-              "recommended": false
+              "id": "bar-2-curated-8",
+              "name": "鴨の燻製 小皿",
+              "price": 1080,
+              "description": "薄切りの燻製に粒マスタード。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bar-2-item-15",
               "name": "席料 一人",
               "price": 550,
               "description": "お席の利用料。小さなお通し付き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "bar-2-curated-9",
+              "name": "ドライフルーツ三種",
+              "price": 680,
+              "description": "甘みを凝縮した果実の盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "古い船の写真、窓際の二人卓、果実の入った籠。",
+        "service": "果実の香りを紹介し、度数を下げる相談にも応じる。",
+        "signature": "柚子のカクテルと自家製燻製",
+        "localFlavor": "音楽帰りの客がゆっくり過ごす雑居ビルの一角。"
+      },
+      "priceNote": "税込価格。席料は別途、1人550円です。"
     }
   ]
 }

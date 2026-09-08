@@ -30,35 +30,54 @@
               "name": "鉄板ハンバーグ",
               "price": 980,
               "description": "熱々の鉄板にデミグラスソースをかけて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "family-restaurant-1-item-2",
               "name": "チキンステーキ",
               "price": 920,
               "description": "皮を香ばしく焼き、和風おろしソースを添えた一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "family-restaurant-1-item-3",
               "name": "オムライス",
               "price": 890,
               "description": "ケチャップライスを薄焼き卵で包んだ定番。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "family-restaurant-1-item-4",
               "name": "ミートドリア",
               "price": 850,
               "description": "ミートソースとホワイトソースの重ね焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "family-restaurant-1-item-5",
               "name": "ポークカツ定食",
               "price": 1080,
               "description": "厚切り豚カツにご飯、味噌汁、小鉢付き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "family-restaurant-1-curated-1",
+              "name": "和風おろしハンバーグ",
+              "price": 1050,
+              "description": "大根おろしとぽん酢でさっぱり仕上げる一皿。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "きのこ和風パスタ",
               "price": 820,
               "description": "三種のきのこを醤油バターで仕上げたパスタ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-1-item-7",
               "name": "マルゲリータ",
               "price": 880,
               "description": "トマトとチーズの薄焼きピザ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-1-item-8",
               "name": "シーザーサラダ",
               "price": 580,
               "description": "葉野菜に温泉卵と粉チーズを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-1-item-9",
               "name": "フライドポテト",
               "price": 380,
               "description": "みんなでつまめる細切りポテト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-1-item-10",
               "name": "お子さまプレート",
               "price": 620,
               "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "family-restaurant-1-curated-2",
+              "name": "家族で分ける前菜プレート",
+              "price": 1280,
+              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,63 @@
               "name": "カスタードプリン",
               "price": 420,
               "description": "卵の風味を生かしたなめらかなプリン。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "family-restaurant-1-item-12",
               "name": "チョコブラウニー",
               "price": 480,
               "description": "濃厚なブラウニーにバニラアイスを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-1-item-13",
               "name": "ミニいちごパフェ",
               "price": 580,
               "description": "いちごソースとヨーグルトを重ねた小さなパフェ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "family-restaurant-1-item-14",
               "name": "ドリンクバー",
               "price": 320,
               "description": "コーヒー、紅茶、ソフトドリンクを自由に。",
-              "recommended": false
+              "recommended": false,
+              "kind": "service"
             },
             {
               "id": "family-restaurant-1-item-15",
               "name": "生ビール",
               "price": 540,
               "description": "中ジョッキで提供する冷たい一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "family-restaurant-1-curated-3",
+              "name": "お子さまミルクプリン",
+              "price": 260,
+              "description": "小さなカップのやさしいミルク味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "六人掛けのボックス席と低い絵本棚。駐車場が広い。",
+        "service": "子ども用食器を先に運び、家族の注文をまとめて聞く。",
+        "signature": "煮込みハンバーグと取り分けプレート",
+        "localFlavor": "郊外の買い物帰りや休日の家族連れが多い。"
+      }
     },
     {
       "id": "family-restaurant-2",
@@ -170,35 +232,54 @@
               "name": "焼きチーズカレー",
               "price": 1060,
               "description": "スパイスカレーをチーズで香ばしく焼き上げた一皿。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "family-restaurant-2-item-2",
-              "name": "チキンステーキ",
-              "price": 1010,
-              "description": "皮を香ばしく焼き、和風おろしソースを添えた一皿。",
-              "recommended": false
+              "id": "family-restaurant-2-curated-1",
+              "name": "香草チキンと温野菜",
+              "price": 1180,
+              "description": "鶏肉を香草で焼き、根菜を添えた一皿。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "family-restaurant-2-item-3",
               "name": "オムライス",
               "price": 980,
               "description": "ケチャップライスを薄焼き卵で包んだ定番。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "family-restaurant-2-item-4",
-              "name": "ミートドリア",
-              "price": 940,
-              "description": "ミートソースとホワイトソースの重ね焼き。",
-              "recommended": false
+              "id": "family-restaurant-2-curated-2",
+              "name": "トマトソースのロールキャベツ",
+              "price": 1120,
+              "description": "キャベツで包んだ挽肉を柔らかく煮込んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "family-restaurant-2-item-5",
               "name": "ポークカツ定食",
               "price": 1190,
               "description": "厚切り豚カツにご飯、味噌汁、小鉢付き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "family-restaurant-2-curated-3",
+              "name": "白身魚のレモンバター焼き",
+              "price": 1280,
+              "description": "白身魚のソテーに酸味のあるバターソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +292,54 @@
               "name": "きのこ和風パスタ",
               "price": 900,
               "description": "三種のきのこを醤油バターで仕上げたパスタ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "family-restaurant-2-item-7",
-              "name": "マルゲリータ",
-              "price": 970,
-              "description": "トマトとチーズの薄焼きピザ。",
-              "recommended": true
+              "id": "family-restaurant-2-curated-4",
+              "name": "厚焼き卵のカツサンド",
+              "price": 880,
+              "description": "衣をつけた卵焼きをパンで挟んだ軽食。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-2-item-8",
               "name": "シーザーサラダ",
               "price": 640,
               "description": "葉野菜に温泉卵と粉チーズを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "family-restaurant-2-item-9",
-              "name": "フライドポテト",
-              "price": 420,
-              "description": "みんなでつまめる細切りポテト。",
-              "recommended": false
+              "id": "family-restaurant-2-curated-5",
+              "name": "豆と雑穀のサラダボウル",
+              "price": 780,
+              "description": "三種の豆と雑穀を柑橘のドレッシングで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-2-item-10",
               "name": "お子さまプレート",
               "price": 680,
               "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "family-restaurant-2-curated-6",
+              "name": "本日のスープとパン",
+              "price": 680,
+              "description": "日替わりポタージュと焼きたての小パン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +352,73 @@
               "name": "カスタードプリン",
               "price": 460,
               "description": "卵の風味を生かしたなめらかなプリン。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
-              "id": "family-restaurant-2-item-12",
-              "name": "チョコブラウニー",
-              "price": 530,
-              "description": "濃厚なブラウニーにバニラアイスを添えて。",
-              "recommended": false
+              "id": "family-restaurant-2-curated-7",
+              "name": "焼きバナナのクレープ",
+              "price": 720,
+              "description": "温かいバナナを薄い生地で包んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "family-restaurant-2-item-13",
               "name": "ミニいちごパフェ",
               "price": 640,
               "description": "いちごソースとヨーグルトを重ねた小さなパフェ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
-              "id": "family-restaurant-2-item-14",
-              "name": "ドリンクバー",
-              "price": 350,
-              "description": "コーヒー、紅茶、ソフトドリンクを自由に。",
-              "recommended": false
+              "id": "family-restaurant-2-curated-8",
+              "name": "自家製ジンジャーソーダ",
+              "price": 480,
+              "description": "生姜の辛みを控えめにした炭酸飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "family-restaurant-2-item-15",
               "name": "生ビール",
               "price": 590,
               "description": "中ジョッキで提供する冷たい一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "family-restaurant-2-curated-9",
+              "name": "紅茶のシフォンケーキ",
+              "price": 550,
+              "description": "ふんわり生地にホイップを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "family-restaurant-2-curated-10",
+              "name": "ベリーとヨーグルトのパフェ",
+              "price": 680,
+              "description": "酸味のあるベリーを重ねた軽いパフェ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "大きな窓と二人用ソファ。壁際には一人用カウンター。",
+        "service": "ランチは早く提供し、午後の滞在には追加注文を急かさない。",
+        "signature": "焼きチーズカレーと野菜たっぷりの軽食",
+        "localFlavor": "駅前の仕事帰りや学生の打ち合わせに使われる。"
+      }
     }
   ]
 }

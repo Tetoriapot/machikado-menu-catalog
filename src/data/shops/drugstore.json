@@ -30,35 +30,54 @@
               "name": "不織布マスク 三十枚",
               "price": 598,
               "description": "箱入りの使い捨てマスク。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-2",
               "name": "絆創膏 二十枚",
               "price": 248,
               "description": "持ち歩きにも便利な救急小物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-3",
               "name": "アルコールウェットシート",
               "price": 198,
               "description": "手まわりの汚れを拭くシート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-4",
               "name": "ガーゼ 五枚",
               "price": 298,
               "description": "家庭の救急箱に備える衛生用品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-5",
               "name": "使い捨て手袋 百枚",
               "price": 698,
               "description": "掃除や作業で使える手袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-1-curated-1",
+              "name": "ウェットシート詰め替え 三個",
+              "price": 448,
+              "description": "家庭で補充するための三個組。",
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "歯ブラシ",
               "price": 178,
               "description": "ふつうの硬さの歯ブラシ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-7",
               "name": "歯磨き粉",
               "price": 298,
               "description": "毎日の歯磨き用ペースト。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-8",
               "name": "シャンプー 詰め替え",
               "price": 398,
               "description": "日常使いの補充用パウチ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-9",
               "name": "洗濯洗剤",
               "price": 498,
               "description": "液体タイプの衣料用洗剤。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-1-item-10",
               "name": "ハンドソープ",
               "price": 298,
               "description": "泡で出るポンプ式の洗浄料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-1-curated-2",
+              "name": "食器洗いスポンジ 六個",
+              "price": 248,
+              "description": "日常使いの台所小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "スポーツドリンク 500ml",
               "price": 108,
               "description": "運動時にも飲みやすい飲料。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "drugstore-1-item-12",
               "name": "栄養補助ゼリー",
               "price": 178,
               "description": "携帯しやすいパウチ型の食品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "drugstore-1-item-13",
               "name": "のど飴",
               "price": 168,
               "description": "個包装のすっきりした飴。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "drugstore-1-item-14",
               "name": "カップスープ 三袋",
               "price": 158,
               "description": "お湯を注いで作るスープ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "drugstore-1-item-15",
               "name": "ミネラルウォーター 500ml",
               "price": 78,
               "description": "日常の水分補給用の水。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "drugstore-1-curated-3",
+              "name": "シリアルバー 四本",
+              "price": 298,
+              "description": "小分けで持ち歩ける食品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "広い日用品通路とまとめ買いの島棚。",
+        "service": "品物の場所を案内し、大きな買い物かごを入口で渡す。",
+        "signature": "家庭用の衛生用品と補充パック",
+        "localFlavor": "住宅街の家族が食品と消耗品を一緒に買う。"
+      }
     },
     {
       "id": "drugstore-2",
@@ -170,35 +233,54 @@
               "name": "携帯救急ポーチ",
               "price": 1080,
               "description": "絆創膏とガーゼをまとめた小さなセット。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "drugstore-2-item-2",
-              "name": "絆創膏 二十枚",
-              "price": 270,
-              "description": "持ち歩きにも便利な救急小物。",
-              "recommended": false
+              "id": "drugstore-2-curated-1",
+              "name": "携帯除菌シート 十枚",
+              "price": 128,
+              "description": "バッグに入れやすい小袋。",
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-2-item-3",
               "name": "アルコールウェットシート",
               "price": 220,
               "description": "手まわりの汚れを拭くシート。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "drugstore-2-item-4",
-              "name": "ガーゼ 五枚",
-              "price": 330,
-              "description": "家庭の救急箱に備える衛生用品。",
-              "recommended": false
+              "id": "drugstore-2-curated-2",
+              "name": "個包装マスク 五枚",
+              "price": 248,
+              "description": "予備として携帯しやすい包装。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-2-item-5",
               "name": "使い捨て手袋 百枚",
               "price": 770,
               "description": "掃除や作業で使える手袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-2-curated-3",
+              "name": "ポケット綿棒 二十本",
+              "price": 148,
+              "description": "小型ケース入りの衛生小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "歯ブラシ",
               "price": 200,
               "description": "ふつうの硬さの歯ブラシ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "drugstore-2-item-7",
-              "name": "歯磨き粉",
-              "price": 330,
-              "description": "毎日の歯磨き用ペースト。",
-              "recommended": true
+              "id": "drugstore-2-curated-4",
+              "name": "旅行用洗顔フォーム",
+              "price": 248,
+              "description": "一泊の荷物に入れやすい小容量。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-2-item-8",
               "name": "シャンプー 詰め替え",
               "price": 440,
               "description": "日常使いの補充用パウチ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "drugstore-2-item-9",
-              "name": "洗濯洗剤",
-              "price": 550,
-              "description": "液体タイプの衣料用洗剤。",
-              "recommended": false
+              "id": "drugstore-2-curated-5",
+              "name": "衣類用粘着クリーナー 携帯型",
+              "price": 398,
+              "description": "出先で衣類の埃を取る小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "drugstore-2-item-10",
               "name": "ハンドソープ",
               "price": 330,
               "description": "泡で出るポンプ式の洗浄料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-2-curated-6",
+              "name": "折り畳みヘアブラシ",
+              "price": 328,
+              "description": "鏡付きの小さなブラシ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "スポーツドリンク 500ml",
               "price": 120,
               "description": "運動時にも飲みやすい飲料。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "drugstore-2-item-12",
-              "name": "栄養補助ゼリー",
-              "price": 200,
-              "description": "携帯しやすいパウチ型の食品。",
-              "recommended": false
+              "id": "drugstore-2-curated-7",
+              "name": "無糖ミルクティー 500ml",
+              "price": 138,
+              "description": "甘さを加えないミルク紅茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "drugstore-2-item-13",
               "name": "のど飴",
               "price": 180,
               "description": "個包装のすっきりした飴。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "drugstore-2-item-14",
-              "name": "カップスープ 三袋",
-              "price": 170,
-              "description": "お湯を注いで作るスープ。",
-              "recommended": false
+              "id": "drugstore-2-curated-8",
+              "name": "ひと口ドライフルーツ",
+              "price": 218,
+              "description": "小袋入りの果実食品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "drugstore-2-item-15",
               "name": "ミネラルウォーター 500ml",
               "price": 90,
               "description": "日常の水分補給用の水。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "drugstore-2-curated-9",
+              "name": "全粒粉クラッカー",
+              "price": 188,
+              "description": "軽食にもなる小袋菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "駅前の細い店舗。入口に旅行用品と小容量品。",
+        "service": "急いでいる客にも分かるよう、携帯用品の棚を案内する。",
+        "signature": "携帯衛生セットと身だしなみ用品",
+        "localFlavor": "出張客や通勤客が忘れ物を買い足す。"
+      }
     }
   ]
 }

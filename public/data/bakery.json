@@ -30,35 +30,45 @@
               "name": "山型食パン 一斤",
               "price": 340,
               "description": "毎朝のトーストに合う食パン。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-1-item-2",
               "name": "バゲット",
               "price": 300,
               "description": "皮を香ばしく焼いた長いパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-1-item-3",
               "name": "塩パン",
               "price": 150,
               "description": "バターと岩塩のシンプルな一個。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-1-item-4",
               "name": "クロワッサン",
               "price": 220,
               "description": "何層にも重ねたバター生地。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-1-item-5",
               "name": "全粒粉ロール",
               "price": 180,
               "description": "小麦の風味を楽しむ丸パン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "カレーパン",
               "price": 240,
               "description": "自家製カレーを包んで揚げたパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-7",
               "name": "ソーセージロール",
               "price": 260,
               "description": "粗挽きソーセージを生地で巻いて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-8",
               "name": "卵サンド",
               "price": 330,
               "description": "まろやかな卵サラダ入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-9",
               "name": "ツナコーンパン",
               "price": 220,
               "description": "ツナとコーンを焼き込んだパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-10",
               "name": "枝豆チーズパン",
               "price": 230,
               "description": "枝豆とチーズの塩気。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "あんぱん",
               "price": 180,
               "description": "粒あん入りのふんわり生地。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-12",
               "name": "クリームパン",
               "price": 200,
               "description": "カスタードをたっぷり包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-13",
               "name": "メロンパン",
               "price": 190,
               "description": "外側のクッキー生地はさっくり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-14",
               "name": "シナモンロール",
               "price": 260,
               "description": "シナモンと砂糖を巻き込んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-1-item-15",
               "name": "りんごデニッシュ",
               "price": 280,
               "description": "甘く煮たりんごの層状パン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "くるみカンパーニュ",
               "price": 570,
               "description": "くるみを練り込んだ大きな丸パン。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-2-item-2",
               "name": "バゲット",
               "price": 330,
               "description": "皮を香ばしく焼いた長いパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-2-item-3",
               "name": "塩パン",
               "price": 170,
               "description": "バターと岩塩のシンプルな一個。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-2-item-4",
               "name": "クロワッサン",
               "price": 240,
               "description": "何層にも重ねたバター生地。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "bakery-2-item-5",
               "name": "全粒粉ロール",
               "price": 200,
               "description": "小麦の風味を楽しむ丸パン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "カレーパン",
               "price": 260,
               "description": "自家製カレーを包んで揚げたパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-7",
               "name": "ソーセージロール",
               "price": 290,
               "description": "粗挽きソーセージを生地で巻いて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-8",
               "name": "卵サンド",
               "price": 360,
               "description": "まろやかな卵サラダ入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-9",
               "name": "ツナコーンパン",
               "price": 240,
               "description": "ツナとコーンを焼き込んだパン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-10",
               "name": "枝豆チーズパン",
               "price": 250,
               "description": "枝豆とチーズの塩気。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "あんぱん",
               "price": 200,
               "description": "粒あん入りのふんわり生地。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-12",
               "name": "クリームパン",
               "price": 220,
               "description": "カスタードをたっぷり包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-13",
               "name": "メロンパン",
               "price": 210,
               "description": "外側のクッキー生地はさっくり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-14",
               "name": "シナモンロール",
               "price": 290,
               "description": "シナモンと砂糖を巻き込んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "bakery-2-item-15",
               "name": "りんごデニッシュ",
               "price": 310,
               "description": "甘く煮たりんごの層状パン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }

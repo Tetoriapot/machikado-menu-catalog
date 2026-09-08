@@ -30,35 +30,45 @@
               "name": "チキンカレー",
               "price": 980,
               "description": "玉ねぎとスパイスで煮込んだ鶏カレー。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-1-item-2",
               "name": "キーマカレー",
               "price": 950,
               "description": "挽肉の旨みと香辛料の香り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-1-item-3",
               "name": "豆カレー",
               "price": 850,
               "description": "レンズ豆を柔らかく煮込んだ一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-1-item-4",
               "name": "野菜カレー",
               "price": 980,
               "description": "彩り野菜をたっぷり添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-1-item-5",
               "name": "あいがけカレー",
               "price": 1280,
               "description": "二種類のカレーを一皿で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,44 @@
               "name": "ゆで卵",
               "price": 100,
               "description": "カレーに添える追加の卵。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-1-item-7",
               "name": "チーズ",
               "price": 180,
               "description": "まろやかさを加えるトッピング。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-1-item-8",
               "name": "タンドリー風チキン",
               "price": 480,
               "description": "ヨーグルトと香辛料に漬けて焼いた鶏肉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-1-item-9",
               "name": "にんじんのアチャール",
               "price": 220,
               "description": "スパイスと酢で和えた副菜。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-1-item-10",
               "name": "ライス大盛り",
               "price": 120,
               "description": "ご飯を増量するオプション。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             }
           ]
         },
@@ -112,35 +131,45 @@
               "name": "ラッシー",
               "price": 380,
               "description": "ヨーグルトのさわやかな飲みもの。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-1-item-12",
               "name": "マンゴーラッシー",
               "price": 450,
               "description": "マンゴーの甘みを加えた一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-1-item-13",
               "name": "チャイ",
               "price": 420,
               "description": "生姜とスパイスを煮出したミルクティー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-1-item-14",
               "name": "アイスコーヒー",
               "price": 350,
               "description": "食後に合う苦味のある珈琲。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-1-item-15",
               "name": "カルダモンプリン",
               "price": 420,
               "description": "香辛料をほんのりきかせたプリン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }
@@ -170,35 +199,45 @@
               "name": "黒胡椒ポークカレー",
               "price": 1230,
               "description": "柔らかな豚肉と粗挽き胡椒のカレー。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-2-item-2",
               "name": "キーマカレー",
               "price": 1050,
               "description": "挽肉の旨みと香辛料の香り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-2-item-3",
               "name": "豆カレー",
               "price": 940,
               "description": "レンズ豆を柔らかく煮込んだ一皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-2-item-4",
               "name": "野菜カレー",
               "price": 1080,
               "description": "彩り野菜をたっぷり添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "curry-2-item-5",
               "name": "あいがけカレー",
               "price": 1410,
               "description": "二種類のカレーを一皿で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +250,44 @@
               "name": "ゆで卵",
               "price": 110,
               "description": "カレーに添える追加の卵。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-2-item-7",
               "name": "チーズ",
               "price": 200,
               "description": "まろやかさを加えるトッピング。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-2-item-8",
               "name": "タンドリー風チキン",
               "price": 530,
               "description": "ヨーグルトと香辛料に漬けて焼いた鶏肉。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-2-item-9",
               "name": "にんじんのアチャール",
               "price": 240,
               "description": "スパイスと酢で和えた副菜。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "curry-2-item-10",
               "name": "ライス大盛り",
               "price": 130,
               "description": "ご飯を増量するオプション。",
-              "recommended": false
+              "recommended": false,
+              "kind": "addon"
             }
           ]
         },
@@ -252,35 +300,45 @@
               "name": "ラッシー",
               "price": 420,
               "description": "ヨーグルトのさわやかな飲みもの。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-2-item-12",
               "name": "マンゴーラッシー",
               "price": 500,
               "description": "マンゴーの甘みを加えた一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-2-item-13",
               "name": "チャイ",
               "price": 460,
               "description": "生姜とスパイスを煮出したミルクティー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-2-item-14",
               "name": "アイスコーヒー",
               "price": 390,
               "description": "食後に合う苦味のある珈琲。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "curry-2-item-15",
               "name": "カルダモンプリン",
               "price": 460,
               "description": "香辛料をほんのりきかせたプリン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             }
           ]
         }

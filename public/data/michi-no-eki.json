@@ -30,35 +30,45 @@
               "name": "季節野菜 三種袋",
               "price": 380,
               "description": "その日に届いた野菜の詰め合わせ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-1-item-2",
               "name": "地場米 2kg",
               "price": 1380,
               "description": "架空地域で育った精米という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-1-item-3",
               "name": "りんご 三個",
               "price": 480,
               "description": "食べきりサイズの果実袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-1-item-4",
               "name": "生しいたけ 一袋",
               "price": 280,
               "description": "香りのよい肉厚のきのこ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-1-item-5",
               "name": "小松菜 一束",
               "price": 160,
               "description": "料理に使いやすい青菜。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "山菜うどん",
               "price": 750,
               "description": "山菜をたっぷりのせた麺。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-7",
               "name": "田舎そば",
               "price": 850,
               "description": "歯ごたえのある太めの蕎麦。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-8",
               "name": "野菜天丼",
               "price": 880,
               "description": "季節野菜の揚げたて天ぷら。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-9",
               "name": "炊き込みおにぎり",
               "price": 250,
               "description": "根菜ときのこの混ぜご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-10",
               "name": "ミルクソフト",
               "price": 380,
               "description": "地元風牛乳の甘みを楽しむソフト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "手作りジャム",
               "price": 580,
               "description": "果実を煮た小瓶入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-12",
               "name": "はちみつ 150g",
               "price": 980,
               "description": "食卓用の小さな瓶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-13",
               "name": "米粉クッキー",
               "price": 480,
               "description": "ほろほろ食感の袋菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-14",
               "name": "木の箸",
               "price": 660,
               "description": "土産にもなる素朴な箸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-1-item-15",
               "name": "絵葉書",
               "price": 165,
               "description": "架空の里山風景のイラスト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "旬の野菜ボックス",
               "price": 970,
               "description": "五種類ほどを組み合わせた箱。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-2-item-2",
               "name": "地場米 2kg",
               "price": 1520,
               "description": "架空地域で育った精米という設定。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-2-item-3",
               "name": "りんご 三個",
               "price": 530,
               "description": "食べきりサイズの果実袋。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-2-item-4",
               "name": "生しいたけ 一袋",
               "price": 310,
               "description": "香りのよい肉厚のきのこ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "michi-no-eki-2-item-5",
               "name": "小松菜 一束",
               "price": 180,
               "description": "料理に使いやすい青菜。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "山菜うどん",
               "price": 830,
               "description": "山菜をたっぷりのせた麺。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-7",
               "name": "田舎そば",
               "price": 940,
               "description": "歯ごたえのある太めの蕎麦。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-8",
               "name": "野菜天丼",
               "price": 970,
               "description": "季節野菜の揚げたて天ぷら。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-9",
               "name": "炊き込みおにぎり",
               "price": 280,
               "description": "根菜ときのこの混ぜご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-10",
               "name": "ミルクソフト",
               "price": 420,
               "description": "地元風牛乳の甘みを楽しむソフト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "手作りジャム",
               "price": 640,
               "description": "果実を煮た小瓶入り。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-12",
               "name": "はちみつ 150g",
               "price": 1080,
               "description": "食卓用の小さな瓶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-13",
               "name": "米粉クッキー",
               "price": 530,
               "description": "ほろほろ食感の袋菓子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-14",
               "name": "木の箸",
               "price": 730,
               "description": "土産にもなる素朴な箸。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "michi-no-eki-2-item-15",
               "name": "絵葉書",
               "price": 180,
               "description": "架空の里山風景のイラスト。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }

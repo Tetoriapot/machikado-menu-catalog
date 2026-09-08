@@ -30,35 +30,54 @@
               "name": "握り八貫",
               "price": 2200,
               "description": "白身、まぐろ、海老などの盛り合わせ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "sushi-1-item-2",
               "name": "上握り十貫",
               "price": 3400,
               "description": "中とろや穴子も入る贅沢な盛り合わせ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "sushi-1-item-3",
               "name": "ちらし寿司",
               "price": 2100,
               "description": "酢飯の上に色とりどりの刺身。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "sushi-1-item-4",
               "name": "まぐろ漬け丼",
               "price": 1800,
               "description": "醤油だれに漬けたまぐろをたっぷり。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "sushi-1-item-5",
               "name": "穴子重",
               "price": 2400,
               "description": "ふっくら煮た穴子に甘だれ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "sushi-1-curated-1",
+              "name": "昆布締め白身 三貫",
+              "price": 980,
+              "description": "昆布の旨みを含ませた白身の握り。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "鉄火巻",
               "price": 680,
               "description": "まぐろの赤身を細巻きに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "sushi-1-item-7",
               "name": "かっぱ巻",
               "price": 380,
               "description": "きゅうりの歯ごたえを楽しむ細巻き。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "sushi-1-item-8",
               "name": "だし巻き卵",
               "price": 580,
               "description": "出汁のきいた店仕込みの玉子焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "sushi-1-item-9",
               "name": "茶碗蒸し",
               "price": 650,
               "description": "海老と銀杏入りのなめらかな蒸し物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "sushi-1-item-10",
               "name": "あら汁",
               "price": 480,
               "description": "魚のあらから旨みを引き出した汁物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "sushi-1-curated-2",
+              "name": "海老しんじょのお椀",
+              "price": 850,
+              "description": "柔らかな海老のしんじょを澄まし汁で。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "生ビール",
               "price": 680,
               "description": "冷えた薄手のグラスで。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "sushi-1-item-12",
               "name": "日本酒 一合",
               "price": 850,
               "description": "魚に合う辛口の純米酒。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "sushi-1-item-13",
               "name": "梅酒",
               "price": 650,
               "description": "ロックまたは炭酸割りで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "sushi-1-item-14",
               "name": "ノンアルコールビール",
               "price": 480,
               "description": "瓶で提供する麦芽飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "sushi-1-item-15",
               "name": "柚子ソーダ",
               "price": 380,
               "description": "柚子蜜を炭酸で割った一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "sushi-1-curated-3",
+              "name": "温かいほうじ茶",
+              "price": 300,
+              "description": "食後に香りを楽しむ焙じ茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "白木のカウンター八席と季節の一輪挿し。",
+        "service": "好みと予算を聞いてから、握りを一貫ずつ出す。",
+        "signature": "握りの盛り合わせと昆布締め",
+        "localFlavor": "都心の裏通りで、少人数の会食に使われる。"
+      }
     },
     {
       "id": "sushi-2",
@@ -170,35 +233,54 @@
               "name": "白身握り五貫",
               "price": 2640,
               "description": "昆布締めを含む白身魚の食べ比べ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "sushi-2-item-2",
-              "name": "上握り十貫",
-              "price": 3740,
-              "description": "中とろや穴子も入る贅沢な盛り合わせ。",
-              "recommended": false
+              "id": "sushi-2-curated-1",
+              "name": "煮穴子の押し寿司",
+              "price": 2480,
+              "description": "穴子と酢飯を木枠で押した一折。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "sushi-2-item-3",
               "name": "ちらし寿司",
               "price": 2310,
               "description": "酢飯の上に色とりどりの刺身。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "sushi-2-item-4",
-              "name": "まぐろ漬け丼",
-              "price": 1980,
-              "description": "醤油だれに漬けたまぐろをたっぷり。",
-              "recommended": false
+              "id": "sushi-2-curated-2",
+              "name": "祝いちらし 二人盛り",
+              "price": 4800,
+              "description": "魚介と卵を華やかに盛り付けた大皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "sushi-2-item-5",
               "name": "穴子重",
               "price": 2640,
               "description": "ふっくら煮た穴子に甘だれ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "sushi-2-curated-3",
+              "name": "子どもの握り膳",
+              "price": 1380,
+              "description": "玉子、海老、まぐろのわさび抜き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "鉄火巻",
               "price": 750,
               "description": "まぐろの赤身を細巻きに。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "sushi-2-item-7",
-              "name": "かっぱ巻",
-              "price": 420,
-              "description": "きゅうりの歯ごたえを楽しむ細巻き。",
-              "recommended": true
+              "id": "sushi-2-curated-4",
+              "name": "魚の南蛮漬け",
+              "price": 680,
+              "description": "白身魚を野菜と甘酢に漬けて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "sushi-2-item-8",
               "name": "だし巻き卵",
               "price": 640,
               "description": "出汁のきいた店仕込みの玉子焼き。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "sushi-2-item-9",
-              "name": "茶碗蒸し",
-              "price": 720,
-              "description": "海老と銀杏入りのなめらかな蒸し物。",
-              "recommended": false
+              "id": "sushi-2-curated-5",
+              "name": "帆立の磯辺焼き",
+              "price": 980,
+              "description": "帆立を醤油で焼いて海苔を添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "sushi-2-item-10",
               "name": "あら汁",
               "price": 530,
               "description": "魚のあらから旨みを引き出した汁物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "sushi-2-curated-6",
+              "name": "あさりの酒蒸し",
+              "price": 850,
+              "description": "あさりを酒と少量の出汁で蒸して。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +353,64 @@
               "name": "生ビール",
               "price": 750,
               "description": "冷えた薄手のグラスで。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "sushi-2-item-12",
-              "name": "日本酒 一合",
-              "price": 940,
-              "description": "魚に合う辛口の純米酒。",
-              "recommended": false
+              "id": "sushi-2-curated-7",
+              "name": "地元風柑橘ジュース",
+              "price": 450,
+              "description": "架空の地域産柑橘を想定した飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "sushi-2-item-13",
               "name": "梅酒",
               "price": 720,
               "description": "ロックまたは炭酸割りで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "sushi-2-item-14",
-              "name": "ノンアルコールビール",
-              "price": 530,
-              "description": "瓶で提供する麦芽飲料。",
-              "recommended": false
+              "id": "sushi-2-curated-8",
+              "name": "純米酒 小瓶",
+              "price": 1200,
+              "description": "二人で分けやすい300ml瓶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "sushi-2-item-15",
               "name": "柚子ソーダ",
               "price": 420,
               "description": "柚子蜜を炭酸で割った一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "sushi-2-curated-9",
+              "name": "煎茶 冷茶",
+              "price": 350,
+              "description": "ゆっくり抽出した冷たい煎茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "川を望む小上がりと家族用の個室。",
+        "service": "大皿を中心に、子どものわさび抜きにも応じる。",
+        "signature": "煮穴子と祝いちらし",
+        "localFlavor": "川沿いの地域行事や親族の集まりに使われる。"
+      }
     }
   ]
 }

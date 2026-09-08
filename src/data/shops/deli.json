@@ -30,35 +30,45 @@
               "name": "肉じゃがコロッケ",
               "price": 120,
               "description": "じゃがいもと牛肉の甘辛い具。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-1-item-2",
               "name": "メンチカツ",
               "price": 180,
               "description": "肉汁のある挽肉カツ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-1-item-3",
               "name": "鶏唐揚げ 100g",
               "price": 220,
               "description": "生姜醤油の下味がついた唐揚げ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-1-item-4",
               "name": "鯵フライ",
               "price": 180,
               "description": "衣をさっくり揚げた鯵。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-1-item-5",
               "name": "いかフライ",
               "price": 160,
               "description": "やわらかないかのフライ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "ひじき煮",
               "price": 180,
               "description": "大豆入りの定番小鉢。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-7",
               "name": "切干大根",
               "price": 180,
               "description": "油揚げと一緒に煮含めた一品。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-8",
               "name": "かぼちゃ煮",
               "price": 200,
               "description": "甘みを引き出した煮物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-9",
               "name": "ポテトサラダ",
               "price": 190,
               "description": "粗つぶしじゃがいものサラダ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-10",
               "name": "ほうれん草胡麻和え",
               "price": 240,
               "description": "すり胡麻の香ばしい和え物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "炊き込みご飯",
               "price": 320,
               "description": "鶏とごぼうの小パック。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-12",
               "name": "おにぎり 二個",
               "price": 280,
               "description": "梅と鮭のおむすびセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-13",
               "name": "惣菜三種セット",
               "price": 580,
               "description": "日替わりの小鉢三品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-14",
               "name": "豚汁",
               "price": 280,
               "description": "根菜と豚肉の具だくさん汁。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-1-item-15",
               "name": "煮物弁当",
               "price": 650,
               "description": "季節の煮物とご飯のセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "蓮根はさみ揚げ",
               "price": 240,
               "description": "蓮根に鶏つくねを挟んで揚げた一品。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-2-item-2",
               "name": "メンチカツ",
               "price": 200,
               "description": "肉汁のある挽肉カツ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-2-item-3",
               "name": "鶏唐揚げ 100g",
               "price": 240,
               "description": "生姜醤油の下味がついた唐揚げ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-2-item-4",
               "name": "鯵フライ",
               "price": 200,
               "description": "衣をさっくり揚げた鯵。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "deli-2-item-5",
               "name": "いかフライ",
               "price": 180,
               "description": "やわらかないかのフライ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "ひじき煮",
               "price": 200,
               "description": "大豆入りの定番小鉢。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-7",
               "name": "切干大根",
               "price": 200,
               "description": "油揚げと一緒に煮含めた一品。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-8",
               "name": "かぼちゃ煮",
               "price": 220,
               "description": "甘みを引き出した煮物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-9",
               "name": "ポテトサラダ",
               "price": 210,
               "description": "粗つぶしじゃがいものサラダ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-10",
               "name": "ほうれん草胡麻和え",
               "price": 260,
               "description": "すり胡麻の香ばしい和え物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "炊き込みご飯",
               "price": 350,
               "description": "鶏とごぼうの小パック。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-12",
               "name": "おにぎり 二個",
               "price": 310,
               "description": "梅と鮭のおむすびセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-13",
               "name": "惣菜三種セット",
               "price": 640,
               "description": "日替わりの小鉢三品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-14",
               "name": "豚汁",
               "price": 310,
               "description": "根菜と豚肉の具だくさん汁。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "deli-2-item-15",
               "name": "煮物弁当",
               "price": 720,
               "description": "季節の煮物とご飯のセット。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }

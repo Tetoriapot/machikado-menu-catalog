@@ -30,35 +30,45 @@
               "name": "かけうどん",
               "price": 420,
               "description": "いりこの旨みを感じる基本の出汁。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-1-item-2",
               "name": "ぶっかけうどん",
               "price": 480,
               "description": "冷たい麺に濃いつゆをかけて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-1-item-3",
               "name": "釜玉うどん",
               "price": 520,
               "description": "熱々の麺を生卵と醤油で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-1-item-4",
               "name": "きつねうどん",
               "price": 580,
               "description": "甘く炊いた大きなお揚げ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-1-item-5",
               "name": "肉うどん",
               "price": 750,
               "description": "甘辛く煮た牛肉をのせた一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "海老天",
               "price": 220,
               "description": "尾付き海老をさっくり揚げて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-7",
               "name": "ちくわ天",
               "price": 150,
               "description": "青海苔が香る定番の天ぷら。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-8",
               "name": "半熟卵天",
               "price": 180,
               "description": "黄身をとろりと残した卵の天ぷら。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-9",
               "name": "かぼちゃ天",
               "price": 130,
               "description": "甘みのある厚切りかぼちゃ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-10",
               "name": "野菜かき揚げ",
               "price": 190,
               "description": "玉ねぎとにんじんの大きなかき揚げ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "いなり 二個",
               "price": 220,
               "description": "甘酢飯を詰めたお揚げ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-12",
               "name": "おにぎり",
               "price": 150,
               "description": "梅か昆布を選べるおむすび。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-13",
               "name": "炊き込みご飯",
               "price": 250,
               "description": "鶏と根菜の小さなご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-1-item-14",
               "name": "瓶ラムネ",
               "price": 220,
               "description": "食後にも爽やかな炭酸飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "udon-1-item-15",
               "name": "温泉卵",
               "price": 110,
               "description": "うどんに追加できるとろりとした卵。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "すだちおろしうどん",
               "price": 720,
               "description": "すだちと大根おろしでさっぱり。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-2-item-2",
               "name": "ぶっかけうどん",
               "price": 530,
               "description": "冷たい麺に濃いつゆをかけて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-2-item-3",
               "name": "釜玉うどん",
               "price": 570,
               "description": "熱々の麺を生卵と醤油で。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-2-item-4",
               "name": "きつねうどん",
               "price": 640,
               "description": "甘く炊いた大きなお揚げ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "udon-2-item-5",
               "name": "肉うどん",
               "price": 830,
               "description": "甘辛く煮た牛肉をのせた一杯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "海老天",
               "price": 240,
               "description": "尾付き海老をさっくり揚げて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-7",
               "name": "ちくわ天",
               "price": 170,
               "description": "青海苔が香る定番の天ぷら。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-8",
               "name": "半熟卵天",
               "price": 200,
               "description": "黄身をとろりと残した卵の天ぷら。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-9",
               "name": "かぼちゃ天",
               "price": 140,
               "description": "甘みのある厚切りかぼちゃ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-10",
               "name": "野菜かき揚げ",
               "price": 210,
               "description": "玉ねぎとにんじんの大きなかき揚げ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "いなり 二個",
               "price": 240,
               "description": "甘酢飯を詰めたお揚げ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-12",
               "name": "おにぎり",
               "price": 170,
               "description": "梅か昆布を選べるおむすび。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-13",
               "name": "炊き込みご飯",
               "price": 280,
               "description": "鶏と根菜の小さなご飯。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "udon-2-item-14",
               "name": "瓶ラムネ",
               "price": 240,
               "description": "食後にも爽やかな炭酸飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "udon-2-item-15",
               "name": "温泉卵",
               "price": 120,
               "description": "うどんに追加できるとろりとした卵。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         }

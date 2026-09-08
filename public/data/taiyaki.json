@@ -30,35 +30,45 @@
               "name": "粒あんたい焼き",
               "price": 200,
               "description": "小豆の粒を残した定番の餡。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-1-item-2",
               "name": "こしあんたい焼き",
               "price": 200,
               "description": "なめらかな餡を尻尾まで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-1-item-3",
               "name": "カスタードたい焼き",
               "price": 220,
               "description": "やさしい甘さのクリーム入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-1-item-4",
               "name": "チョコたい焼き",
               "price": 230,
               "description": "温かいチョコクリームを包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-1-item-5",
               "name": "白あんたい焼き",
               "price": 210,
               "description": "白いんげんのまろやかな餡。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +81,45 @@
               "name": "焼き団子",
               "price": 150,
               "description": "香ばしい醤油の串団子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "taiyaki-1-item-7",
               "name": "ぜんざい",
               "price": 450,
               "description": "温かい小豆に焼き餅を添えて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-1-item-8",
               "name": "あんみつ",
               "price": 520,
               "description": "寒天と餡に黒蜜をかけて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-1-item-9",
               "name": "わらび餅カップ",
               "price": 350,
               "description": "きな粉をまぶした食べ歩き用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-1-item-10",
               "name": "小豆ソフト",
               "price": 380,
               "description": "ソフトクリームに粒あんを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,35 +132,45 @@
               "name": "煎茶",
               "price": 180,
               "description": "温かい日本茶。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "taiyaki-1-item-12",
               "name": "ほうじ茶",
               "price": 180,
               "description": "香ばしい焙じ茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "taiyaki-1-item-13",
               "name": "甘酒",
               "price": 300,
               "description": "米麹のやさしい甘み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "taiyaki-1-item-14",
               "name": "たい焼き五個箱",
               "price": 1050,
               "description": "粒あんたい焼きの箱入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-1-item-15",
               "name": "保冷袋",
               "price": 100,
               "description": "冷たい甘味の持ち帰り用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -170,35 +200,45 @@
               "name": "さつまいもたい焼き",
               "price": 280,
               "description": "ほくほくした芋あんを包んだ一個。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-2-item-2",
               "name": "こしあんたい焼き",
               "price": 220,
               "description": "なめらかな餡を尻尾まで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-2-item-3",
               "name": "カスタードたい焼き",
               "price": 240,
               "description": "やさしい甘さのクリーム入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-2-item-4",
               "name": "チョコたい焼き",
               "price": 250,
               "description": "温かいチョコクリームを包んで。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "taiyaki-2-item-5",
               "name": "白あんたい焼き",
               "price": 230,
               "description": "白いんげんのまろやかな餡。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +251,45 @@
               "name": "焼き団子",
               "price": 170,
               "description": "香ばしい醤油の串団子。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "taiyaki-2-item-7",
               "name": "ぜんざい",
               "price": 500,
               "description": "温かい小豆に焼き餅を添えて。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-2-item-8",
               "name": "あんみつ",
               "price": 570,
               "description": "寒天と餡に黒蜜をかけて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-2-item-9",
               "name": "わらび餅カップ",
               "price": 390,
               "description": "きな粉をまぶした食べ歩き用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-2-item-10",
               "name": "小豆ソフト",
               "price": 420,
               "description": "ソフトクリームに粒あんを添えて。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,35 +302,45 @@
               "name": "煎茶",
               "price": 200,
               "description": "温かい日本茶。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "taiyaki-2-item-12",
               "name": "ほうじ茶",
               "price": 200,
               "description": "香ばしい焙じ茶。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "taiyaki-2-item-13",
               "name": "甘酒",
               "price": 330,
               "description": "米麹のやさしい甘み。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "taiyaki-2-item-14",
               "name": "たい焼き五個箱",
               "price": 1160,
               "description": "粒あんたい焼きの箱入り。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "taiyaki-2-item-15",
               "name": "保冷袋",
               "price": 110,
               "description": "冷たい甘味の持ち帰り用。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

@@ -20,11 +20,11 @@ for(const shop of shops){
  if(!categories.some(c=>c.id===shop.category))throw new Error(`Unknown category ${shop.id}`);
  const items=shop.menuSections.flatMap(s=>s.items);
  if(items.length<15)throw new Error(`Too few items ${shop.id}`);
- for(const item of items){if(!item.name||!item.description||!Number.isInteger(item.price)||item.price<0)throw new Error(`Invalid item ${item.id}`);if(ids.has(item.id))throw new Error(`Duplicate ID ${item.id}`);ids.add(item.id);}
+ for(const item of items){if(!item.name||!item.description||!Number.isInteger(item.price)||item.price<0)throw new Error(`Invalid item ${item.id}`);if(!['food','drink','goods','addon','fee','service'].includes(item.kind))throw new Error(`Invalid item kind ${item.id}`);if(ids.has(item.id))throw new Error(`Duplicate ID ${item.id}`);ids.add(item.id);}
 }
 const index=shops.map(({menuSections,...shop})=>{
  const items=menuSections.flatMap(s=>s.items);const category=categories.find(c=>c.id===shop.category)!;
- return {...shop,itemCount:items.length,preview:items.slice(0,1),searchText:[category.label,...menuSections.map(s=>s.title),...items.flatMap(i=>[i.name,i.description,...(i.tags??[])])].join(' ')};
+ return {...shop,itemCount:items.length,preview:items.slice(0,1),menuIndex:items,searchText:[category.label,...menuSections.map(s=>s.title),...Object.values(shop.scene??{})].join(' ')};
 });
 writeFileSync('src/data/generated-index.json',JSON.stringify({categories,shops:index,itemCount:shops.reduce((n,s)=>n+s.menuSections.flatMap(x=>x.items).length,0)}));
 console.log(`${categories.length} categories, ${shops.length} shops, ${index.reduce((n,s)=>n+s.itemCount,0)} menu items validated.`);

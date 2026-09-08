@@ -30,35 +30,54 @@
               "name": "鮭おにぎり",
               "price": 168,
               "description": "塩鮭のほぐし身を包んだ定番おにぎり。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "convenience-store-1-item-2",
               "name": "ツナマヨおにぎり",
               "price": 158,
               "description": "ツナとマヨネーズのまろやかな具。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "convenience-store-1-item-3",
               "name": "のり弁当",
               "price": 498,
               "description": "白身魚フライとちくわ天をのせたお弁当。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "convenience-store-1-item-4",
               "name": "卵サンド",
               "price": 278,
               "description": "卵サラダをやわらかな食パンで挟んだサンド。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "convenience-store-1-item-5",
               "name": "レジ横チキン",
               "price": 228,
               "description": "胡椒をきかせた衣の骨なしフライドチキン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-1-curated-1",
+              "name": "昆布おにぎり",
+              "price": 148,
+              "description": "甘辛い昆布を包んだ手軽な一個。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -71,35 +90,54 @@
               "name": "天然水 500ml",
               "price": 108,
               "description": "持ち歩きやすいペットボトル入りの水。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "convenience-store-1-item-7",
               "name": "緑茶 600ml",
               "price": 138,
               "description": "食事にも合う、無糖の緑茶。",
-              "recommended": true
+              "recommended": true,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "convenience-store-1-item-8",
               "name": "缶コーヒー",
               "price": 128,
               "description": "ミルク入りの甘さ控えめコーヒー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "convenience-store-1-item-9",
               "name": "カスタードプリン",
               "price": 198,
               "description": "食後にちょうどよいカップ入りプリン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "convenience-store-1-item-10",
               "name": "ポテトチップス",
               "price": 168,
               "description": "じゃがいもの風味が生きるうす塩味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "convenience-store-1-curated-2",
+              "name": "小さな牛乳 200ml",
+              "price": 118,
+              "description": "朝食に合わせやすい紙パック。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         },
@@ -112,39 +150,64 @@
               "name": "歯ブラシセット",
               "price": 328,
               "description": "小さな歯磨き粉付きの携帯セット。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "convenience-store-1-item-12",
               "name": "ポケットティッシュ 六個",
               "price": 138,
               "description": "外出先で便利な六個入りパック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "convenience-store-1-item-13",
               "name": "ビニール傘",
               "price": 698,
               "description": "急な雨に。透明タイプ、親骨60cm。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "convenience-store-1-item-14",
               "name": "単三電池 四本",
               "price": 498,
               "description": "日用品や小型機器に使うアルカリ乾電池。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "convenience-store-1-item-15",
               "name": "黒ボールペン",
               "price": 148,
               "description": "文房具の定番、0.5mmの油性ペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "convenience-store-1-curated-3",
+              "name": "地域指定ごみ袋 十枚",
+              "price": 280,
+              "description": "架空の自治体指定袋を想定した生活用品。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "狭い通路とレジ横の手書き近所案内。",
+        "service": "常連に軽く挨拶し、取り置きの新聞を手渡す。",
+        "signature": "手頃なおにぎりと日々の買い足し",
+        "localFlavor": "住宅街の通学路にある生活の拠点。"
+      }
     },
     {
       "id": "convenience-store-2",
@@ -170,35 +233,54 @@
               "name": "鶏そぼろ弁当",
               "price": 510,
               "description": "甘辛い鶏そぼろと炒り卵の二色弁当。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "convenience-store-2-item-2",
-              "name": "ツナマヨおにぎり",
-              "price": 170,
-              "description": "ツナとマヨネーズのまろやかな具。",
-              "recommended": false
+              "id": "convenience-store-2-curated-1",
+              "name": "全粒粉チキンサンド",
+              "price": 368,
+              "description": "蒸し鶏と野菜を全粒粉パンで。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "convenience-store-2-item-3",
               "name": "のり弁当",
               "price": 550,
               "description": "白身魚フライとちくわ天をのせたお弁当。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "convenience-store-2-item-4",
-              "name": "卵サンド",
-              "price": 310,
-              "description": "卵サラダをやわらかな食パンで挟んだサンド。",
-              "recommended": false
+              "id": "convenience-store-2-curated-2",
+              "name": "焼きチーズカレーパン",
+              "price": 218,
+              "description": "温めるとチーズが柔らかくなるパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "convenience-store-2-item-5",
               "name": "レジ横チキン",
               "price": 250,
               "description": "胡椒をきかせた衣の骨なしフライドチキン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-2-curated-3",
+              "name": "高菜明太おにぎり",
+              "price": 198,
+              "description": "高菜と明太風の具材を包んだ一個。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +293,54 @@
               "name": "天然水 500ml",
               "price": 120,
               "description": "持ち歩きやすいペットボトル入りの水。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "convenience-store-2-item-7",
-              "name": "緑茶 600ml",
-              "price": 150,
-              "description": "食事にも合う、無糖の緑茶。",
-              "recommended": true
+              "id": "convenience-store-2-curated-4",
+              "name": "無糖炭酸水 500ml",
+              "price": 108,
+              "description": "気分転換に飲みやすい強炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "convenience-store-2-item-8",
               "name": "缶コーヒー",
               "price": 140,
               "description": "ミルク入りの甘さ控えめコーヒー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "convenience-store-2-item-9",
-              "name": "カスタードプリン",
-              "price": 220,
-              "description": "食後にちょうどよいカップ入りプリン。",
-              "recommended": false
+              "id": "convenience-store-2-curated-5",
+              "name": "カフェラテ カップ",
+              "price": 188,
+              "description": "ミルク入りのチルド飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "convenience-store-2-item-10",
               "name": "ポテトチップス",
               "price": 180,
               "description": "じゃがいもの風味が生きるうす塩味。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "convenience-store-2-curated-6",
+              "name": "小袋アーモンド",
+              "price": 248,
+              "description": "小腹を満たす素焼きナッツ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +353,73 @@
               "name": "歯ブラシセット",
               "price": 360,
               "description": "小さな歯磨き粉付きの携帯セット。",
-              "recommended": true
+              "recommended": true,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "convenience-store-2-item-12",
-              "name": "ポケットティッシュ 六個",
-              "price": 150,
-              "description": "外出先で便利な六個入りパック。",
-              "recommended": false
+              "id": "convenience-store-2-curated-7",
+              "name": "携帯充電器",
+              "price": 2480,
+              "description": "USB-C対応の小型充電器。ケーブル別売。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "convenience-store-2-item-13",
               "name": "ビニール傘",
               "price": 770,
               "description": "急な雨に。透明タイプ、親骨60cm。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
-              "id": "convenience-store-2-item-14",
-              "name": "単三電池 四本",
-              "price": 550,
-              "description": "日用品や小型機器に使うアルカリ乾電池。",
-              "recommended": false
+              "id": "convenience-store-2-curated-8",
+              "name": "靴下 一足",
+              "price": 498,
+              "description": "出張先にも便利な黒い靴下。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "convenience-store-2-item-15",
               "name": "黒ボールペン",
               "price": 160,
               "description": "文房具の定番、0.5mmの油性ペン。",
-              "recommended": false
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "convenience-store-2-curated-9",
+              "name": "衣類用しみ取りシート",
+              "price": 298,
+              "description": "外出先で使う使い切りシート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "convenience-store-2-curated-10",
+              "name": "薄型メモパッド",
+              "price": 198,
+              "description": "ポケットに入る小さな文具。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "明るい交差点角の店。旅行用小物の棚が大きい。",
+        "service": "会計は素早く、温める商品と冷たい商品を分けて渡す。",
+        "signature": "朝のパンと出張客向け小物",
+        "localFlavor": "駅前のホテルとオフィスへ向かう客が多い。"
+      }
     }
   ]
 }

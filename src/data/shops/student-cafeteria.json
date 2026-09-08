@@ -30,35 +30,53 @@
               "name": "日替わり定食",
               "price": 480,
               "description": "主菜と小鉢、ご飯、味噌汁。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "student-cafeteria-1-item-2",
               "name": "唐揚げ定食",
               "price": 520,
               "description": "鶏唐揚げとたっぷりキャベツ。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "student-cafeteria-1-item-3",
               "name": "カレーライス",
               "price": 350,
               "description": "食べやすい辛さのカレー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "student-cafeteria-1-item-4",
               "name": "カツカレー",
               "price": 550,
               "description": "カレーに揚げたてカツを追加。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "student-cafeteria-1-item-5",
               "name": "親子丼",
               "price": 450,
               "description": "鶏肉と卵のやさしい丼。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "student-cafeteria-1-curated-1",
+              "name": "大盛りチキンカツ丼",
+              "price": 620,
+              "description": "食べ盛り向けの鶏カツとご飯。",
+              "recommended": false,
+              "kind": "addon"
             }
           ]
         },
@@ -71,35 +89,54 @@
               "name": "かけうどん",
               "price": 280,
               "description": "温かい出汁のうどん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-1-item-7",
               "name": "醤油ラーメン",
               "price": 380,
               "description": "チャーシュー一枚入りの定番麺。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-1-item-8",
               "name": "冷奴",
               "price": 90,
               "description": "薬味付きの小さな豆腐。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-1-item-9",
               "name": "ひじき小鉢",
               "price": 100,
               "description": "ご飯に添える煮物。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-1-item-10",
               "name": "野菜サラダ",
               "price": 150,
               "description": "ドレッシング付きの小皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "student-cafeteria-1-curated-2",
+              "name": "温かい豆腐小鉢",
+              "price": 120,
+              "description": "温めた豆腐に生姜だれ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -112,39 +149,64 @@
               "name": "プリン",
               "price": 130,
               "description": "トレーにのる小さなカップ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "student-cafeteria-1-item-12",
               "name": "ヨーグルト",
               "price": 100,
               "description": "個食サイズの乳製品。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-1-item-13",
               "name": "コーヒー",
               "price": 160,
               "description": "紙コップで提供する珈琲。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "student-cafeteria-1-item-14",
               "name": "オレンジジュース",
               "price": 150,
               "description": "小さなカップの果汁飲料。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "student-cafeteria-1-item-15",
               "name": "牛乳",
               "price": 110,
               "description": "200mlの紙パック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "student-cafeteria-1-curated-3",
+              "name": "学食ココア",
+              "price": 180,
+              "description": "紙コップの温かい甘味飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "二階建て食堂の広い長机と返却口。",
+        "service": "食券を渡して料理を受け取り、食後は自分で返却。",
+        "signature": "安いカレーとボリュームのある定食",
+        "localFlavor": "講義の合間に学生が一斉に集まる。"
+      }
     },
     {
       "id": "student-cafeteria-2",
@@ -170,35 +232,54 @@
               "name": "鯖味噌定食",
               "price": 620,
               "description": "鯖の味噌煮とご飯、小鉢。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "student-cafeteria-2-item-2",
-              "name": "唐揚げ定食",
-              "price": 570,
-              "description": "鶏唐揚げとたっぷりキャベツ。",
-              "recommended": false
+              "id": "student-cafeteria-2-curated-1",
+              "name": "鶏と野菜の塩麹定食",
+              "price": 620,
+              "description": "塩麹に漬けた鶏肉と蒸し野菜。",
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "student-cafeteria-2-item-3",
               "name": "カレーライス",
               "price": 390,
               "description": "食べやすい辛さのカレー。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
-              "id": "student-cafeteria-2-item-4",
-              "name": "カツカレー",
-              "price": 610,
-              "description": "カレーに揚げたてカツを追加。",
-              "recommended": false
+              "id": "student-cafeteria-2-curated-2",
+              "name": "豆とトマトのカレー",
+              "price": 480,
+              "description": "豆をたっぷり煮込んだカレー。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             },
             {
               "id": "student-cafeteria-2-item-5",
               "name": "親子丼",
               "price": 500,
               "description": "鶏肉と卵のやさしい丼。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "student-cafeteria-2-curated-3",
+              "name": "小さな焼き魚丼",
+              "price": 520,
+              "description": "ほぐした魚と薬味を少なめご飯に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -211,35 +292,54 @@
               "name": "かけうどん",
               "price": 310,
               "description": "温かい出汁のうどん。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "student-cafeteria-2-item-7",
-              "name": "醤油ラーメン",
-              "price": 420,
-              "description": "チャーシュー一枚入りの定番麺。",
-              "recommended": true
+              "id": "student-cafeteria-2-curated-4",
+              "name": "小松菜と油揚げの煮浸し",
+              "price": 130,
+              "description": "青菜と揚げを出汁で煮て。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-2-item-8",
               "name": "冷奴",
               "price": 100,
               "description": "薬味付きの小さな豆腐。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
-              "id": "student-cafeteria-2-item-9",
-              "name": "ひじき小鉢",
-              "price": 110,
-              "description": "ご飯に添える煮物。",
-              "recommended": false
+              "id": "student-cafeteria-2-curated-5",
+              "name": "きのこのおろし和え",
+              "price": 150,
+              "description": "茹できのこと大根おろし。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-2-item-10",
               "name": "野菜サラダ",
               "price": 170,
               "description": "ドレッシング付きの小皿。",
-              "recommended": false
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "student-cafeteria-2-curated-6",
+              "name": "春雨の中華サラダ",
+              "price": 150,
+              "description": "ごま油が香る小鉢。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             }
           ]
         },
@@ -252,39 +352,64 @@
               "name": "プリン",
               "price": 140,
               "description": "トレーにのる小さなカップ。",
-              "recommended": true
+              "recommended": true,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
-              "id": "student-cafeteria-2-item-12",
-              "name": "ヨーグルト",
-              "price": 110,
-              "description": "個食サイズの乳製品。",
-              "recommended": false
+              "id": "student-cafeteria-2-curated-7",
+              "name": "ほうじ茶ゼリー",
+              "price": 180,
+              "description": "控えめな甘さの茶のゼリー。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
             },
             {
               "id": "student-cafeteria-2-item-13",
               "name": "コーヒー",
               "price": 180,
               "description": "紙コップで提供する珈琲。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
-              "id": "student-cafeteria-2-item-14",
-              "name": "オレンジジュース",
-              "price": 170,
-              "description": "小さなカップの果汁飲料。",
-              "recommended": false
+              "id": "student-cafeteria-2-curated-8",
+              "name": "果物入りヨーグルト",
+              "price": 180,
+              "description": "刻んだ果実を合わせた小カップ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
             },
             {
               "id": "student-cafeteria-2-item-15",
               "name": "牛乳",
               "price": 120,
               "description": "200mlの紙パック。",
-              "recommended": false
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "student-cafeteria-2-curated-9",
+              "name": "豆乳カフェラテ",
+              "price": 230,
+              "description": "豆乳の甘みを生かした飲みもの。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
             }
           ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "中庭に面したカウンターと少人数用の丸卓。",
+        "service": "小鉢を選ぶトレー方式で、量の相談にも応じる。",
+        "signature": "野菜の小鉢と少なめご飯の昼食",
+        "localFlavor": "研究室の学生が遅い昼食にも使う。"
+      }
     }
   ]
 }
