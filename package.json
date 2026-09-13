@@ -2,6 +2,7 @@
   "name": "sites-project",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@11.19.0",
   "engines": {
     "node": ">=22.13.0"
   },
@@ -10,6 +11,7 @@
     "build": "node --experimental-strip-types scripts/prepare-data.ts && tsc --noEmit && vite build",
     "start": "vite preview --host 0.0.0.0",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "check:pages": "node scripts/verify-pages.mjs",
     "lint": "oxlint",
     "format": "oxfmt"
   },

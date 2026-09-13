@@ -73,6 +73,14 @@ pnpm start
 
 ## 静的公開
 
+### GitHub Pages
+
+GitHub Pages用の自動公開設定を追加しています。リポジトリにこのプロジェクトをpushし、**Settings → Pages → SourceをGitHub Actions** に設定すると、`main` のビルドとテストが通った後に公開します。初回設定後はActionsの **Deploy to GitHub Pages → Run workflow** でも実行できます。
+
+詳しい手順は [GitHub Pagesで公開する](docs/github-pages.md) を参照してください。リポジトリ名の設定やAPIキーは不要です。公開先のGitHubリポジトリは別途必要です。
+
+### その他の静的ホスト
+
 `pnpm build`が作る`dist/`をGitHub Pages、Cloudflare Pages、Netlify、Vercelなどへ配置できます。`base: './'`とハッシュルーティングのため、サブディレクトリ公開とページ再読込に対応し、サーバーのリライト設定は不要です。
 
 - 店舗URL: `https://example.com/#/shop/kissaten-1`
