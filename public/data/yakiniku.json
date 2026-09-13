@@ -200,6 +200,39 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "yakiniku-1-section-editorial",
+          "title": "ほむら庭の焼き台へ",
+          "items": [
+            {
+              "id": "yakiniku-1-editorial-1",
+              "name": "厚切り豚肩ロースの塩だれ焼き",
+              "price": 980,
+              "description": "厚めの豚肉を塩だれで。焼き野菜を少量添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-1-editorial-2",
+              "name": "鶏ももと長ねぎの味噌盛り",
+              "price": 880,
+              "description": "鶏肉と長ねぎを甘めの味噌で合わせた焼き物。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-1-editorial-3",
+              "name": "石鍋チーズと卵の小ビビンバ",
+              "price": 780,
+              "description": "野菜と卵、チーズを載せた小さな石鍋ご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-2-section-editorial",
+          "title": "夕星の炭火と小皿",
+          "items": [
+            {
+              "id": "yakiniku-2-editorial-1",
+              "name": "香味だれの薄切り牛ロース",
+              "price": 1380,
+              "description": "薄切り牛肉にねぎと生姜のたれを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-2-editorial-2",
+              "name": "焼き野菜ときのこの籠盛り",
+              "price": 780,
+              "description": "玉ねぎ、かぼちゃ、きのこなどを一皿に。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-2-editorial-3",
+              "name": "牛だしの小さな卵クッパ",
+              "price": 720,
+              "description": "牛の出汁と卵の汁にご飯を少量合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
             }
           ]
         }

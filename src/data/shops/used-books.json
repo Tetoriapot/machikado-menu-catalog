@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "used-books-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "used-books-1-editorial-1",
+              "name": "古い街歩き帖『川向こうの商店』",
+              "price": 880,
+              "description": "架空の町を紹介する古い小冊子。角に軽い擦れあり。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "used-books-1-editorial-2",
+              "name": "文庫随筆『駅の待合室で』",
+              "price": 440,
+              "description": "待ち時間の風景を綴る架空の随筆。読書用の並品。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-1-editorial-3",
+              "name": "復刻地図『夕栞町の路地』",
+              "price": 1320,
+              "description": "架空の旧市街を描いた折り畳み地図。復刻版の設定。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-1-editorial-4",
+              "name": "手芸冊子『小さな布の仕事』",
+              "price": 660,
+              "description": "袋や小物の作り方を載せた架空の冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-1-editorial-5",
+              "name": "絵葉書の古い紙袋セット 五枚",
+              "price": 550,
+              "description": "架空の観光地の絵葉書を五枚。未使用の設定。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-1-editorial-6",
+              "name": "蔵書票の図案小冊子",
+              "price": 770,
+              "description": "本に貼る紙札の架空図案を集めた薄い本。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "細長い通路の両側に文庫が詰まり、棚の上段まで紙札が下がる。奥に小さな読書灯のある机。",
+        "service": "本の状態を開いて示し、書き込みがある場合は札で伝える。取り置きは短い紙に名前を記す。",
+        "signature": "古い街歩き帖『川向こうの商店』と文庫随筆『駅の待合室で』",
+        "localFlavor": "近くの学校の卒業時期には本を持ち込む人が増える。郷土資料を探して長く棚を見る常連もいる。"
+      }
     },
     {
       "id": "used-books-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "used-books-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "used-books-2-editorial-1",
+              "name": "写真集『窓から見た三つの港』",
+              "price": 1980,
+              "description": "架空の港町の風景をまとめた古い写真集。外箱なし。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "used-books-2-editorial-2",
+              "name": "展覧会図録『青い椅子の部屋』",
+              "price": 1540,
+              "description": "架空の家具展の図録。書き込みのない一冊。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-2-editorial-3",
+              "name": "詩集『階段の途中で』",
+              "price": 880,
+              "description": "短い詩と線画を合わせた架空の本。表紙に小さな擦れ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-2-editorial-4",
+              "name": "建築小冊子『丘の上の住まい』",
+              "price": 1100,
+              "description": "架空の住宅の間取りと写真を収めた資料。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-2-editorial-5",
+              "name": "古い便箋の詰め合わせ 十枚",
+              "price": 440,
+              "description": "柄の異なる未使用の便箋。紙の色合いは一枚ずつ異なる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-2-editorial-6",
+              "name": "読みかけ本の保護カバー",
+              "price": 660,
+              "description": "薄い紙の本を包む布製カバー。文庫サイズ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "急な階段を上ると窓際に大きな机。棚には余白があり、写真集や古い図録が表紙を見せて置かれる。",
+        "service": "気になる本は机で見られる。紙の傷みや付属品の有無を会計前に確認する。",
+        "signature": "写真集『窓から見た三つの港』と展覧会図録『青い椅子の部屋』",
+        "localFlavor": "坂道を散歩する人が看板を見つけて上がってくる。近隣の作り手が資料を探しに通う。"
+      }
     }
   ]
 }

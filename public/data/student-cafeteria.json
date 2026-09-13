@@ -199,6 +199,39 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "student-cafeteria-1-section-editorial",
+          "title": "第一食堂の日替わり札",
+          "items": [
+            {
+              "id": "student-cafeteria-1-editorial-1",
+              "name": "鶏と茄子の甘辛丼",
+              "price": 620,
+              "description": "炒めた鶏肉と茄子をご飯へ。小さな漬物付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-1-editorial-2",
+              "name": "豆腐ハンバーグのおろし定食",
+              "price": 650,
+              "description": "豆腐入りの主菜に大根おろし、ご飯と味噌汁。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-1-editorial-3",
+              "name": "小さな胡麻だれ春雨サラダ",
+              "price": 140,
+              "description": "春雨ときゅうり、人参を胡麻だれで和えた小鉢。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -400,6 +433,39 @@
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-2-section-editorial",
+          "title": "白森の午後ごはん",
+          "items": [
+            {
+              "id": "student-cafeteria-2-editorial-1",
+              "name": "焼きトマトのチーズリゾット",
+              "price": 680,
+              "description": "トマトとチーズを合わせたご飯料理。小サラダ付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-2-editorial-2",
+              "name": "野菜と卵のあんかけうどん",
+              "price": 520,
+              "description": "野菜のとろみあんに卵を合わせた温かい麺。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-2-editorial-3",
+              "name": "白森のココアバナナケーキ",
+              "price": 280,
+              "description": "バナナを混ぜたココア生地の小さな一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
             }
           ]
         }

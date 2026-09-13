@@ -173,8 +173,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "pizza-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "pizza-1-editorial-1",
+              "name": "燻製チーズと舞茸のピッツァ",
+              "price": 1580,
+              "description": "舞茸と燻製チーズを載せた、香りの強い一枚。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "pizza-1-editorial-2",
+              "name": "生ハムと焼き桃のピッツァ",
+              "price": 1780,
+              "description": "焼いた桃の甘みに生ハムの塩気。仕上げに葉野菜。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-editorial-3",
+              "name": "海老とズッキーニの白いピッツァ",
+              "price": 1680,
+              "description": "クリーム系の土台に海老と薄切りズッキーニ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-editorial-4",
+              "name": "白いんげんの温かいトマト煮",
+              "price": 580,
+              "description": "豆をトマトで煮込み、小さな耐熱皿で出す。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-editorial-5",
+              "name": "レモン香るオリーブ盛り",
+              "price": 480,
+              "description": "オリーブをレモン皮と香草で和えた前菜。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "pizza-1-editorial-6",
+              "name": "窯焼きりんごとバニラ",
+              "price": 680,
+              "description": "窯で温めたりんごに小さなバニラアイスを添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "入口から丸い窯口が見え、薪の香りがかすかに漂う。白い皿を重ねた棚と、路地向きの窓。",
+        "service": "一枚を分ける人数を聞き、切り分けて運ぶ。焼き時間が重なる注文には待ち時間を伝える。",
+        "signature": "燻製チーズと舞茸のピッツァと生ハムと焼き桃のピッツァ",
+        "localFlavor": "夕方は近所の友人同士が集まる。店先で持ち帰りの箱を受け取って帰る常連もいる。"
+      }
     },
     {
       "id": "pizza-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "pizza-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "pizza-2-editorial-1",
+              "name": "しらすと大葉の薄焼きピザ",
+              "price": 1480,
+              "description": "しらすと大葉を散らし、薄い生地を軽く焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "pizza-2-editorial-2",
+              "name": "焼き蓮根と照り焼き鶏のピザ",
+              "price": 1580,
+              "description": "蓮根の食感と甘辛い鶏肉を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-editorial-3",
+              "name": "三種きのこと青ねぎのピザ",
+              "price": 1450,
+              "description": "きのこと青ねぎに少量の醤油。和風の一枚。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-editorial-4",
+              "name": "小さな野菜のグリル皿",
+              "price": 620,
+              "description": "季節の野菜を焼き、塩とオリーブ油で仕上げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-editorial-5",
+              "name": "トマトと豆腐のハーブサラダ",
+              "price": 580,
+              "description": "角切り豆腐とトマトにハーブの調味を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "pizza-2-editorial-6",
+              "name": "白ぶどうのノンアルコールスプリッツ",
+              "price": 520,
+              "description": "白ぶどう飲料に炭酸と柑橘を加えた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "薄い生地を伸ばす作業台が客席から見える。壁の黒板に野菜の入荷とおすすめが書かれる。",
+        "service": "具材の組み合わせを短く説明する。食事の進み具合を見て次の一枚を窯へ入れる。",
+        "signature": "しらすと大葉の薄焼きピザと焼き蓮根と照り焼き鶏のピザ",
+        "localFlavor": "住宅街の家族や一人客が通う。庭で採れた野菜の話をする近所の住民もいる。"
+      }
     }
   ]
 }

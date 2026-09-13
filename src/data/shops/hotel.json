@@ -200,6 +200,39 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "hotel-1-section-editorial",
+          "title": "灯波のロビーの小さな品",
+          "items": [
+            {
+              "id": "hotel-1-editorial-1",
+              "name": "灯波の塩バターサンド 三個箱",
+              "price": 980,
+              "description": "薄いクッキーに塩バタークリーム。ホテル柄の小箱入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "hotel-1-editorial-2",
+              "name": "夜のカップオニオンスープ",
+              "price": 480,
+              "description": "飴色玉ねぎのスープ。客室へ持ち帰れる蓋付き容器。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "hotel-1-editorial-3",
+              "name": "海辺の便箋と封筒セット",
+              "price": 660,
+              "description": "架空の海岸線を描いた便箋六枚と封筒三枚。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hotel-2-section-editorial",
+          "title": "青庭の朝支度",
+          "items": [
+            {
+              "id": "hotel-2-editorial-1",
+              "name": "早朝の卵とチキンのサンド箱",
+              "price": 780,
+              "description": "卵サラダと鶏肉のサンドを半分ずつ。早い出発向け。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "hotel-2-editorial-2",
+              "name": "青庭ブレンドのドリップ袋 五袋",
+              "price": 880,
+              "description": "客室でも淹れられる架空ブレンドの一杯用珈琲。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hotel-2-editorial-3",
+              "name": "小物をまとめる旅行ポーチ",
+              "price": 1320,
+              "description": "ケーブルや筆記具を分ける内ポケット付きの小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
             }
           ]
         }

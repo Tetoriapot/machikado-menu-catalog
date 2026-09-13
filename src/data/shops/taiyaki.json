@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "taiyaki-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "taiyaki-1-editorial-1",
+              "name": "栗あんと小豆のたい焼き",
+              "price": 320,
+              "description": "栗の餡と粒餡を半分ずつ入れた、薄皮の一匹。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "taiyaki-1-editorial-2",
+              "name": "焼き芋バターたい焼き",
+              "price": 300,
+              "description": "さつまいもの餡に少量のバターを合わせる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-1-editorial-3",
+              "name": "黒胡麻ミルクたい焼き",
+              "price": 280,
+              "description": "黒胡麻入りのミルク餡を、端まで詰めて焼く。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-1-editorial-4",
+              "name": "小豆灯の小さな塩豆大福",
+              "price": 180,
+              "description": "塩豆の入った餅でこし餡を包んだ小ぶりな一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-1-editorial-5",
+              "name": "焼きたて二匹と番茶",
+              "price": 650,
+              "description": "対象のたい焼き二匹と、温かい番茶のセット。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-1-editorial-6",
+              "name": "餡を楽しむ小瓶 150g",
+              "price": 480,
+              "description": "店の粒餡を持ち帰る小瓶。パンや甘味に添えて。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "商店街に面した窓口で鉄の型が列を作る。奥の鍋から餡の甘い香りが届き、焼き待ちの札が掛かる。",
+        "service": "焼き上がりの順に番号で渡す。持ち帰りは重ねすぎないよう紙を挟む。",
+        "signature": "栗あんと小豆のたい焼きと焼き芋バターたい焼き",
+        "localFlavor": "寒い日の買い物帰りに寄る客が多い。子どもは窓から型を返す手元を眺める。"
+      }
     },
     {
       "id": "taiyaki-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "taiyaki-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "taiyaki-2-editorial-1",
+              "name": "白あん柚子のたい焼き",
+              "price": 280,
+              "description": "白餡に刻んだ柚子皮を混ぜた香りのよい一匹。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "taiyaki-2-editorial-2",
+              "name": "あずきチーズたい焼き",
+              "price": 300,
+              "description": "粒餡と少量のチーズを一緒に包んで焼く。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-2-editorial-3",
+              "name": "ほうじ茶カスタードたい焼き",
+              "price": 300,
+              "description": "茶の香るカスタードを入れた温かい甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-2-editorial-4",
+              "name": "ひと口こもち鯛 五匹",
+              "price": 450,
+              "description": "小さな型で焼いた粒餡入りを五匹、紙袋に。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-2-editorial-5",
+              "name": "焼き餅入りのおしるこ 小椀",
+              "price": 420,
+              "description": "小さな焼き餅を浮かべた一人用のおしるこ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-2-editorial-6",
+              "name": "鯛の小箱の食べ比べ四匹箱",
+              "price": 1120,
+              "description": "粒餡、白あん柚子、チーズ、茶カスタードを一匹ずつ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "小さな暖簾の奥に一枚ずつ焼く型。店先に二脚の椅子と、餡の種類を書いた黒板がある。",
+        "service": "餡を詰めるところから客の前で焼く。急ぐ客には焼き置きの有無を先に伝える。",
+        "signature": "白あん柚子のたい焼きとあずきチーズたい焼き",
+        "localFlavor": "近所の高齢の常連が茶飲み話に寄る。休日は家族へ持ち帰る箱の注文が増える。"
+      }
     }
   ]
 }

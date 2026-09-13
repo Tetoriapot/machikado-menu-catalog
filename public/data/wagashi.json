@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "wagashi-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "wagashi-1-editorial-1",
+              "name": "上生菓子『朝露の葉』",
+              "price": 420,
+              "description": "葉の形に仕立てた練り切り。透明な寒天を一粒添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "wagashi-1-editorial-2",
+              "name": "栗ひと粒の小さな最中",
+              "price": 320,
+              "description": "栗と粒餡を薄い皮で挟んだ、小ぶりな最中。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-1-editorial-3",
+              "name": "胡桃入り黒糖羊羹 一切",
+              "price": 280,
+              "description": "くるみの食感を残した黒糖の羊羹。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-1-editorial-4",
+              "name": "煎茶餡の求肥包み",
+              "price": 260,
+              "description": "煎茶風味の白餡を柔らかな求肥で包む。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-1-editorial-5",
+              "name": "露乃庵の季節菓子 六個箱",
+              "price": 2380,
+              "description": "上生菓子を六種類詰める予約向けの箱。内容は店頭で案内。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-1-editorial-6",
+              "name": "小豆と寒天の涼菓カップ",
+              "price": 380,
+              "description": "透明な寒天と小豆を重ねた、一人分の甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "上生菓子の見本がガラス越しに一列に並ぶ。奥の暖簾から、餡を炊く甘い香りが流れる。",
+        "service": "菓子の名前と季節の意匠を説明し、持ち歩く向きを箱の上に記す。",
+        "signature": "上生菓子『朝露の葉』と栗ひと粒の小さな最中",
+        "localFlavor": "茶を習う人が予約の菓子を受け取り、商店街の住民は日々のおやつを二、三個買う。"
+      }
     },
     {
       "id": "wagashi-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "wagashi-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "wagashi-2-editorial-1",
+              "name": "橋のたもとの胡麻だれ団子",
+              "price": 220,
+              "description": "三玉の団子に濃い胡麻だれをたっぷり掛ける。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "wagashi-2-editorial-2",
+              "name": "焼き栗入りどら焼き",
+              "price": 330,
+              "description": "焼き栗と粒餡を、香ばしい皮で挟んだ一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-2-editorial-3",
+              "name": "柚子白餡の浮島 一切",
+              "price": 280,
+              "description": "柚子が香る餡入りの蒸し菓子。しっとりした一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-2-editorial-4",
+              "name": "川面の水まんじゅう 二個",
+              "price": 360,
+              "description": "透ける生地にこし餡を包んだ冷たい甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-2-editorial-5",
+              "name": "花綴りのひと口羊羹 四本",
+              "price": 880,
+              "description": "小豆、抹茶、黒糖、柚子の小さな羊羹を一本ずつ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-2-editorial-6",
+              "name": "温かい玄米茶と団子一串",
+              "price": 500,
+              "description": "玄米茶と胡麻だれ団子の店先向けセット。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "橋のたもとに低い木の看板。店先に団子を焼く台があり、川を見られる腰掛けが一つ。",
+        "service": "焼いた団子はたれが垂れないよう包む。贈答は食べる人数を聞いて箱の大きさを案内する。",
+        "signature": "橋のたもとの胡麻だれ団子と焼き栗入りどら焼き",
+        "localFlavor": "川沿いの散歩客が休憩に寄る。橋を渡る子どもたちは、季節ごとに変わる菓子の札を見ていく。"
+      }
     }
   ]
 }

@@ -6,8 +6,28 @@ import { matchingItems,parseRoute,recommendItems,matchesFilters,defaultFilters }
 import { renderMenuHtml,toMenuDocument } from '../src/lib/menu-document.ts';
 import { emptyLibrary, mergeBackup, parseBackup, randomPool, updateEntry, validateLibrary, type LibraryBackup } from '../src/lib/library.ts';
 import { menuPlainText, menuTotal, renderMenuCsv, renderMenuJson, renderMenuSvg } from '../src/lib/menu-export.ts';
+import { gmText } from '../src/lib/catalog.ts';
 const summaries=JSON.parse(readFileSync('src/data/generated-index.json','utf8')).shops as ShopSummary[];
 const shop=JSON.parse(readFileSync('src/data/shops/kissaten.json','utf8')).shops[0] as Shop;
+test('増補後は全100店舗に21品以上と情景があり、480品の追加内容が重複しない', () => {
+ assert.equal(summaries.length,100);assert.equal(summaries.reduce((n,s)=>n+s.itemCount,0),2104);
+ let additions=0;
+ for(const summary of summaries){
+  assert.ok(summary.itemCount>=21,summary.id);
+  for(const field of ['interior','service','signature','localFlavor'] as const)assert.ok((summary.scene?.[field].length??0)>0,`${summary.id}: ${field}`);
+  const items=summary.menuIndex.filter(i=>i.id.includes('-editorial-'));assert.ok(items.length===3||items.length===6);additions+=items.length;
+  const sibling=summaries.find(s=>s.category===summary.category&&s.id!==summary.id)!;
+  assert.ok(items.every(i=>!sibling.menuIndex.some(other=>other.name===i.name)),summary.id);
+ }
+ assert.equal(additions,480);
+});
+test('新しい情景をGMテキストに含め、PL配布物へは持ち出さない', () => {
+ const book=JSON.parse(readFileSync('src/data/shops/bookstore.json','utf8')).shops[0] as Shop;
+ const gm=gmText(book);const player=renderMenuHtml(toMenuDocument(book));
+ for(const value of Object.values(book.scene!)){assert.ok(gm.includes(value));assert.ok(!player.includes(value));}
+ assert.ok(player.includes('郷土資料『旧駅舎と商店街の百年』'));
+ assert.ok(matchesFilters(summaries.find(s=>s.id===book.id)!,{...defaultFilters,query:'郷土資料'}));
+});
 test('検索結果には一致した商品と価格が出て、商品へのURLを解釈できる',()=>{
  const summary=summaries.find(s=>s.id===shop.id)!;const matches=matchingItems(summary,'プリン');assert.equal(matches[0].name,'自家製プリン');assert.equal(matches[0].price,550);assert.equal(matchingItems(summary,'昭和レトロ').length,0);assert.equal(matchingItems(summary,'').length,0);
  assert.deepEqual(parseRoute(`#/shop/${shop.id}?item=${matches[0].id}`),{kind:'shop',id:shop.id,pl:false,item:matches[0].id});

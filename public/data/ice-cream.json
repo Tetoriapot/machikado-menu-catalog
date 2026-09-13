@@ -172,8 +172,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "ice-cream-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "ice-cream-1-editorial-1",
+              "name": "白桃ヨーグルトのジェラート",
+              "price": 480,
+              "description": "桃の果肉とヨーグルトを合わせた、一人用カップ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-1-editorial-2",
+              "name": "焙じ茶くるみのジェラート",
+              "price": 460,
+              "description": "茶の香りに刻んだくるみ。香ばしく落ち着いた甘さ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-editorial-3",
+              "name": "黒蜜きなこの小さなパフェ",
+              "price": 680,
+              "description": "ミルクアイスに黒蜜、きなこ、白玉を重ねる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-editorial-4",
+              "name": "焼きりんごの温冷カップ",
+              "price": 720,
+              "description": "温かいりんごにバニラのジェラートを載せる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-editorial-5",
+              "name": "持ち帰りジェラート 三種箱",
+              "price": 1380,
+              "description": "蓋付きの小カップ三個。味は店頭の対象品から選べる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-1-editorial-6",
+              "name": "柑橘ソルベの炭酸フロート",
+              "price": 580,
+              "description": "炭酸に柑橘のソルベを浮かべた、酸味のある一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "果物色のジェラートケースと、店先の小さな黒板。奥では小さな機械が低い音を立てて回る。",
+        "service": "気になる味は小さな匙で案内する。持ち帰りの時間を聞き、カップに蓋を付ける。",
+        "signature": "白桃ヨーグルトのジェラートと焙じ茶くるみのジェラート",
+        "localFlavor": "散歩コースの折り返しに寄る人が多い。近くの果物店から届く箱で季節を感じられる。"
+      }
     },
     {
       "id": "ice-cream-2",
@@ -341,8 +407,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "ice-cream-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "ice-cream-2-editorial-1",
+              "name": "潮風ミルクと塩キャラメル",
+              "price": 480,
+              "description": "ミルクアイスに細い塩キャラメルの筋を重ねる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-2-editorial-2",
+              "name": "パイナップルとココナッツのカップ",
+              "price": 520,
+              "description": "果肉入りパインとココナッツの二つの味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-editorial-3",
+              "name": "波待ちのチョコバナナボート",
+              "price": 780,
+              "description": "縦に切ったバナナにアイス二玉とチョコソース。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-editorial-4",
+              "name": "小さな貝殻クッキーサンド",
+              "price": 380,
+              "description": "貝殻形の焼き菓子でミルクアイスを挟んだ一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-editorial-5",
+              "name": "夕焼けベリーのソフトカップ",
+              "price": 560,
+              "description": "ソフトクリームに赤いベリーの果肉ソース。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-2-editorial-6",
+              "name": "冷たいカフェモカフロート",
+              "price": 620,
+              "description": "珈琲とチョコの飲み物にミルクアイスを浮かべる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "海へ向かう道沿いの小さな窓口。風よけの板が付いたベンチと、砂を払うマットがある。",
+        "service": "風の強い日はコーンよりカップを勧める。溶けやすい品は受け取り直前に盛る。",
+        "signature": "潮風ミルクと塩キャラメルとパイナップルとココナッツのカップ",
+        "localFlavor": "海岸の帰りに立ち寄る客が多い。夕方は潮の匂いとともに、地元の子どもがベンチへ集まる。"
+      }
     }
   ]
 }

@@ -200,6 +200,39 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "kissaten-1-section-editorial",
+          "title": "白樺の小さな楽しみ",
+          "items": [
+            {
+              "id": "kissaten-1-editorial-1",
+              "name": "喫茶店の厚焼きホットケーキ",
+              "price": 780,
+              "description": "厚めに焼いた二枚にバター。メープル風シロップは別添え。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-1-editorial-2",
+              "name": "珈琲ゼリーとバニラのグラス",
+              "price": 580,
+              "description": "深煎り珈琲のゼリーにアイスを載せた背の低いグラス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-1-editorial-3",
+              "name": "赤いチェリーのミルクセーキ",
+              "price": 650,
+              "description": "卵とミルクの冷たい飲み物。仕上げに赤いチェリー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "dessert"
+            }
+          ]
+        },
+        {
+          "id": "kissaten-2-section-editorial",
+          "title": "読書のおとも",
+          "items": [
+            {
+              "id": "kissaten-2-editorial-1",
+              "name": "くるみと蜂蜜の小倉トースト",
+              "price": 780,
+              "description": "小倉餡のトーストに、刻みくるみとはちみつを少し。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-2-editorial-2",
+              "name": "読書のための小さなビスコッティ",
+              "price": 320,
+              "description": "アーモンド入りの堅焼き菓子を二本。珈琲に浸しても。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-2-editorial-3",
+              "name": "風待ちの深煎りアイス珈琲",
+              "price": 620,
+              "description": "深煎り豆を濃いめに抽出し、大きな氷で冷やした一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
             }
           ]
         }

@@ -173,8 +173,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "cake-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "cake-1-editorial-1",
+              "name": "苺とミルクの小鳥ショート",
+              "price": 620,
+              "description": "丸い一人用のショートケーキ。薄いチョコの小鳥を飾る。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cake-1-editorial-2",
+              "name": "レモンカードのレアチーズ",
+              "price": 580,
+              "description": "酸味のあるレモンクリームを重ねた、なめらかなチーズケーキ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-editorial-3",
+              "name": "洋梨と紅茶のロール 一切",
+              "price": 520,
+              "description": "紅茶のスポンジで洋梨とクリームを巻いた一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-editorial-4",
+              "name": "焼きとうもろこしのプリン",
+              "price": 420,
+              "description": "コーンの甘みを生かした小瓶入り。上面に薄い焦がし砂糖。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-editorial-5",
+              "name": "小鳥雨のフィナンシェ 五個",
+              "price": 1180,
+              "description": "焦がしバターの焼き菓子を五個。小さな贈答箱入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-1-editorial-6",
+              "name": "お祝いミニホール 12cm",
+              "price": 2600,
+              "description": "二、三人で分ける果物のケーキ。文字プレートは予約時に指定。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "白いショーケースの上に、予約ケーキの見本写真が置かれる。奥の窓越しにクリームを絞る手元が見える。",
+        "service": "持ち歩く時間を尋ねて箱を選び、記念日の文字を確認してからプレートを用意する。",
+        "signature": "苺とミルクの小鳥ショートとレモンカードのレアチーズ",
+        "localFlavor": "近所の家族の誕生日を支える店。学校行事の後には小さなケーキを買う親子が増える。"
+      }
     },
     {
       "id": "cake-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "cake-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "cake-2-editorial-1",
+              "name": "月形のバニラムース",
+              "price": 680,
+              "description": "白い月形のムースに、薄い杏のソースを忍ばせた一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cake-2-editorial-2",
+              "name": "ピスタチオとチェリーのタルト",
+              "price": 760,
+              "description": "ナッツの生地にチェリーを載せた、濃い味のタルト。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-editorial-3",
+              "name": "珈琲ガナッシュの長方形ケーキ",
+              "price": 650,
+              "description": "珈琲のクリームとチョコを重ね、薄く切り分けた一品。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-editorial-4",
+              "name": "塩キャラメルのエクレア",
+              "price": 480,
+              "description": "細長いシューにほろ苦いクリーム。表面に塩をひとつまみ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-editorial-5",
+              "name": "星くずサブレ缶",
+              "price": 1980,
+              "description": "小さな星形と丸形のサブレを、月柄の缶に詰め合わせ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-2-editorial-6",
+              "name": "オレンジ香る焼きショコラ",
+              "price": 380,
+              "description": "柑橘ピールを混ぜた濃厚な焼き菓子。一個ずつ紙で包む。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "細い裏通りに紺色の看板。缶入りの焼き菓子と一人分のタルトが、低い照明の棚に並ぶ。",
+        "service": "好みの香りや食感を聞いて品を勧める。箱の中ではケーキが動かないよう紙を挟む。",
+        "signature": "月形のバニラムースとピスタチオとチェリーのタルト",
+        "localFlavor": "仕事帰りの一人客と、贈答の菓子を選ぶ常連が多い。近くの花屋と同じ時間に店じまいをする。"
+      }
     }
   ]
 }

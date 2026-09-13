@@ -200,6 +200,39 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "cinema-1-section-editorial",
+          "title": "燈映の上映前に",
+          "items": [
+            {
+              "id": "cinema-1-editorial-1",
+              "name": "燻製塩のポップコーン M",
+              "price": 580,
+              "description": "燻製風味の塩をまぶした中サイズのポップコーン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "cinema-1-editorial-2",
+              "name": "チーズソースのポテトカップ",
+              "price": 520,
+              "description": "太めのポテトに温かいチーズソース。深い紙カップ入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "cinema-1-editorial-3",
+              "name": "上映メモ付きチケットホルダー",
+              "price": 770,
+              "description": "半券と感想を一緒に保管できる薄いケース。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "cinema-2-section-editorial",
+          "title": "青幕の映画のおとも",
+          "items": [
+            {
+              "id": "cinema-2-editorial-1",
+              "name": "シナモンシュガーのミニチュロス 六本",
+              "price": 580,
+              "description": "短いチュロスを六本。音を立てにくい紙箱入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cinema-2-editorial-2",
+              "name": "青りんごとライムのソーダ",
+              "price": 480,
+              "description": "青りんご風味の炭酸にライムを少し合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "cinema-2-editorial-3",
+              "name": "架空名作ポスターのミニカード 五枚",
+              "price": 660,
+              "description": "架空の映画ポスターを図案にした小さなカードセット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
             }
           ]
         }

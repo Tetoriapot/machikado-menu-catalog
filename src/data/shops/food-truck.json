@@ -171,8 +171,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "food-truck-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "food-truck-1-editorial-1",
+              "name": "レモンハーブチキンの雑穀ボックス",
+              "price": 980,
+              "description": "鶏肉と焼き野菜、雑穀ご飯を仕切り容器に詰める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-1-editorial-2",
+              "name": "豆と挽肉のタコライスボックス",
+              "price": 920,
+              "description": "スパイス挽肉と豆を、ご飯と野菜に重ねる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-editorial-3",
+              "name": "焼き鯖と根菜の和風ボックス",
+              "price": 1050,
+              "description": "香味焼きの鯖に、根菜と青菜を添えた昼食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-editorial-4",
+              "name": "カップかぼちゃポタージュ",
+              "price": 350,
+              "description": "かぼちゃの温かいスープ。飲み口付きの容器で渡す。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-editorial-5",
+              "name": "レンズ豆のレモンサラダ",
+              "price": 320,
+              "description": "豆と刻み野菜をレモンで和えた小さなカップ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-1-editorial-6",
+              "name": "ミントライムの炭酸水",
+              "price": 400,
+              "description": "ライムとミントを合わせた甘さ控えめの炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "車体の横を開くと、保温ケースと色分けされた注文札が見える。車の前に折り畳みの受け渡し台。",
+        "service": "注文数を番号で整理し、短い昼休みでも受け取りやすくする。ソースは別容器にもできる。",
+        "signature": "レモンハーブチキンの雑穀ボックスと豆と挽肉のタコライスボックス",
+        "localFlavor": "平日はオフィス広場の決まった位置に停まる。昼前には近くの会社から予約の受け取りが続く。"
+      }
     },
     {
       "id": "food-truck-2",
@@ -339,8 +405,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "food-truck-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "food-truck-2-editorial-1",
+              "name": "旅ねこの煮込みチキンご飯",
+              "price": 950,
+              "description": "トマトで煮た鶏肉をご飯に載せ、刻み野菜を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-2-editorial-2",
+              "name": "炙り豚と温玉のライスボウル",
+              "price": 980,
+              "description": "甘辛い豚肉と温泉卵を深めの紙容器へ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-editorial-3",
+              "name": "焼き野菜のピタサンド",
+              "price": 780,
+              "description": "野菜とひよこ豆のペーストを袋状のパンに挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-editorial-4",
+              "name": "小さなチーズ揚げ春巻き 三本",
+              "price": 420,
+              "description": "細い春巻きにチーズを包み、紙カップで渡す。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-editorial-5",
+              "name": "ねこの肉球クッキー 二枚",
+              "price": 280,
+              "description": "肉球の形のバタークッキー。持ち帰り用の袋入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-2-editorial-6",
+              "name": "柚子とりんごの温かい飲みもの",
+              "price": 380,
+              "description": "りんご飲料に柚子皮を加え、温めてカップに注ぐ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "窓口に猫の小さな置物があり、黒板にその日の出店場所と料理名。脇に畳んだイベント用の旗。",
+        "service": "料理が仕上がると番号を呼ぶ。持ち歩く客には蓋を留め、食具を必要な分だけ添える。",
+        "signature": "旅ねこの煮込みチキンご飯と炙り豚と温玉のライスボウル",
+        "localFlavor": "公園の催しや週末の市を回る。常連は次の出店日を黒板で確認していく。"
+      }
     }
   ]
 }

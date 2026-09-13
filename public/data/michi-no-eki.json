@@ -173,8 +173,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "michi-no-eki-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "michi-no-eki-1-editorial-1",
+              "name": "朝採れ彩りミニトマト 250g",
+              "price": 380,
+              "description": "赤や黄色の小さなトマトを袋詰め。売場の農家札付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "michi-no-eki-1-editorial-2",
+              "name": "木立のきのこ汁と焼きおむすび",
+              "price": 780,
+              "description": "数種のきのこの汁物に、味噌を塗ったおむすび二個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-1-editorial-3",
+              "name": "里いもの胡麻味噌だれ 150g",
+              "price": 360,
+              "description": "蒸した里いもに甘めの胡麻味噌を添えた惣菜。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-1-editorial-4",
+              "name": "田園りんごの瓶ジュース 200ml",
+              "price": 320,
+              "description": "架空の地域のりんごを想定した、飲み切り瓶の果汁飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-1-editorial-5",
+              "name": "木立の竹箸 二膳",
+              "price": 660,
+              "description": "持ち手に焼き印を付けた竹箸。紙帯で二膳をまとめる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-1-editorial-6",
+              "name": "乾燥野菜の汁物セット 三袋",
+              "price": 540,
+              "description": "汁物に使う乾燥野菜を小分け。袋ごとに中身を記載。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "木の柱が見える大きな売場に農家の名札が付いた籠。窓の向こうに田畑と休憩用の長椅子がある。",
+        "service": "野菜の袋ごとに中身を案内し、重い買い物は箱へまとめる。食堂は番号札で料理を渡す。",
+        "signature": "朝採れ彩りミニトマト 250gと木立のきのこ汁と焼きおむすび",
+        "localFlavor": "朝は野菜を納める軽トラックが並ぶ。近所の住民と、遠方へ向かう旅行客が同じ食堂で休む。"
+      }
     },
     {
       "id": "michi-no-eki-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "michi-no-eki-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "michi-no-eki-2-editorial-1",
+              "name": "川辺の青菜おやき 二個",
+              "price": 480,
+              "description": "刻んだ青菜を包み、表面を焼いた小さなおやき。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "michi-no-eki-2-editorial-2",
+              "name": "鶏だし蓮根つみれ汁膳",
+              "price": 980,
+              "description": "蓮根入りつみれの汁物に、ご飯と漬物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-2-editorial-3",
+              "name": "ななせの米粉蒸しパン 二個",
+              "price": 420,
+              "description": "黒糖味と小豆味の蒸しパンを一個ずつ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-2-editorial-4",
+              "name": "季節の根菜袋 600g",
+              "price": 450,
+              "description": "煮物向けの根菜を数種類詰めた、持ち帰り用の袋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-2-editorial-5",
+              "name": "川面柄の手ぬぐい",
+              "price": 880,
+              "description": "波と葦を図案にした木綿の布。土産棚の定番。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-2-editorial-6",
+              "name": "柚子皮入りの甘酒 小瓶",
+              "price": 380,
+              "description": "柚子の香りを加えた米麹の甘酒。小さな瓶入り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "川を望む食堂と、地元の加工品を並べた低い棚。入口に散策路の大きな地図が置かれる。",
+        "service": "農産品の量や使い方をひとこと添える。食堂では持ち帰る品と今食べる品を分けて包む。",
+        "signature": "川辺の青菜おやき 二個と鶏だし蓮根つみれ汁膳",
+        "localFlavor": "川沿いを歩く人やサイクリング客が休憩する。夕方には農家が空の籠を引き取りに来る。"
+      }
     }
   ]
 }

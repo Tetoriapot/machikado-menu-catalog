@@ -173,8 +173,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "burger-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "burger-1-editorial-1",
+              "name": "ローストオニオンのダブルバーガー",
+              "price": 1380,
+              "description": "二枚のパティと甘い玉ねぎ。粒マスタードのソースでまとめる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "burger-1-editorial-2",
+              "name": "ハーブチキンとアボカドのバーガー",
+              "price": 1120,
+              "description": "香草をまぶした鶏肉とアボカドを、胚芽入りバンズに挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-editorial-3",
+              "name": "焼きパプリカの豆パティバーガー",
+              "price": 1080,
+              "description": "豆と刻み野菜のパティに焼きパプリカ。トマトソース仕立て。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-editorial-4",
+              "name": "皮付きポテトのローズマリー塩",
+              "price": 460,
+              "description": "太めの皮付きポテトに、刻んだハーブと塩をまぶす。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-editorial-5",
+              "name": "紫キャベツのカップコールスロー",
+              "price": 320,
+              "description": "りんご酢をきかせた、紫キャベツと人参の小さなサラダ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "burger-1-editorial-6",
+              "name": "ピーチアイスティー",
+              "price": 450,
+              "description": "桃のシロップを少し加えた冷たい紅茶。甘さは控えめ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "公園へ向いた大きな窓と木のカウンター。キッチンではパティを焼く音が途切れない。",
+        "service": "持ち帰りか店内かを先に聞き、ソースの多い品は二重の紙包みで渡す。",
+        "signature": "ローストオニオンのダブルバーガーとハーブチキンとアボカドのバーガー",
+        "localFlavor": "昼は公園を使う家族、夕方は近隣の会社員が立ち寄る。外のベンチで食べる客も多い。"
+      }
     },
     {
       "id": "burger-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "burger-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "burger-2-editorial-1",
+              "name": "炭焼き風てりたまバーガー",
+              "price": 890,
+              "description": "甘辛いパティに目玉焼きと千切りキャベツを重ねる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "burger-2-editorial-2",
+              "name": "海老カツのレモンタルタルバーガー",
+              "price": 980,
+              "description": "ざくっと揚げた海老カツと、レモンの香るタルタル。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-editorial-3",
+              "name": "厚切りハムと焼きチーズのバンズサンド",
+              "price": 780,
+              "description": "焼いたハムとチーズを挟んだ、軽食向けの温かいサンド。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-editorial-4",
+              "name": "手切りポテトの明太マヨ添え",
+              "price": 420,
+              "description": "揚げたてポテトに、別添えの明太子マヨネーズ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-editorial-5",
+              "name": "オニオンとコーンのフリッター",
+              "price": 390,
+              "description": "玉ねぎとコーンを小さなかき揚げ風にしたスナック。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "burger-2-editorial-6",
+              "name": "黒糖バナナシェイク",
+              "price": 520,
+              "description": "バナナのシェイクに黒糖ソース。太いストローで飲む一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "商店街の角に小さな注文窓があり、砂時計がいくつも棚に並ぶ。立ち寄り用の高い椅子が四脚。",
+        "service": "手切りポテトは注文後に揚げる。紙袋には品名を大きく書き、人数分に分けて渡す。",
+        "signature": "炭焼き風てりたまバーガーと海老カツのレモンタルタルバーガー",
+        "localFlavor": "駅からの帰り道に持ち帰る客が多い。祭りの日には商店街を歩く人向けに小さなセットを出す。"
+      }
     }
   ]
 }

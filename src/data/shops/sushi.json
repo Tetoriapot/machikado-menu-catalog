@@ -200,6 +200,39 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "sushi-1-section-editorial",
+          "title": "水緒の小さな季節皿",
+          "items": [
+            {
+              "id": "sushi-1-editorial-1",
+              "name": "白身三種の小さな握り合わせ",
+              "price": 1680,
+              "description": "その日の白身魚三種を二貫ずつ。魚の種類は札で案内。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "sushi-1-editorial-2",
+              "name": "海老と枝豆の蒸し寿司",
+              "price": 1380,
+              "description": "海老と枝豆、錦糸卵を載せて温めた一折。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "sushi-1-editorial-3",
+              "name": "帆立と菜の花の酢味噌和え",
+              "price": 780,
+              "description": "帆立と青菜を、穏やかな酸味の味噌で和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "sushi-2-section-editorial",
+          "title": "汀舟の昼と夜",
+          "items": [
+            {
+              "id": "sushi-2-editorial-1",
+              "name": "炙り穴子と卵の小丼",
+              "price": 1580,
+              "description": "香ばしい穴子と卵をご飯に載せた、小ぶりな寿司丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "sushi-2-editorial-2",
+              "name": "いかと胡麻の細巻き 一本",
+              "price": 480,
+              "description": "細切りいかと胡麻を巻き、六つに切り分ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "sushi-2-editorial-3",
+              "name": "鯛のあら出汁茶碗蒸し",
+              "price": 680,
+              "description": "魚の出汁を使う茶碗蒸し。白身と椎茸を入れる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
             }
           ]
         }

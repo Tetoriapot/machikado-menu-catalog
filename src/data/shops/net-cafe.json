@@ -191,6 +191,38 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "net-cafe-1-section-editorial",
+          "title": "夜舟の長い夜に",
+          "items": [
+            {
+              "id": "net-cafe-1-editorial-1",
+              "name": "焼き鮭と出汁茶漬けの小盆",
+              "price": 780,
+              "description": "小さな焼き鮭ご飯に熱い出汁を添えた一人分。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-1-editorial-2",
+              "name": "ホット豆乳ココア",
+              "price": 320,
+              "description": "豆乳とココアを合わせた温かいカップ。単品注文。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-1-editorial-3",
+              "name": "平日朝の作業パック 四時間 一人",
+              "price": 1280,
+              "description": "平日6〜10時の受付で四時間。設備の追加利用と食事は別料金。",
+              "kind": "fee",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -384,6 +416,38 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-2-section-editorial",
+          "title": "すみか窓の作業休憩",
+          "items": [
+            {
+              "id": "net-cafe-2-editorial-1",
+              "name": "野菜スープとハムチーズサンド",
+              "price": 820,
+              "description": "温かいスープに半分サイズのサンド二切れ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-2-editorial-2",
+              "name": "りんごとくるみの小さなケーキ",
+              "price": 380,
+              "description": "角切りりんごとくるみ入りの焼き菓子。紙皿で提供。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-2-editorial-3",
+              "name": "モノクロ資料の製本テープ留め 一冊",
+              "price": 220,
+              "description": "印刷済みの紙を一冊にまとめる追加作業。印刷代は別。",
+              "kind": "service",
+              "recommended": false
             }
           ]
         }

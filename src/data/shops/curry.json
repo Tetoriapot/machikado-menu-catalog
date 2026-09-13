@@ -172,8 +172,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "curry-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "curry-1-editorial-1",
+              "name": "焙煎胡麻の黒キーマ",
+              "price": 1080,
+              "description": "黒胡麻と挽肉の濃いカレー。炒め玉ねぎの甘みを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "curry-1-editorial-2",
+              "name": "鶏とひよこ豆のレモンカレー",
+              "price": 1050,
+              "description": "鶏肉と豆を煮込み、仕上げにレモンを搾る一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-editorial-3",
+              "name": "焼き茄子のトマトダル",
+              "price": 980,
+              "description": "焼き茄子と豆のカレー。小さなサラダを添えて。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-editorial-4",
+              "name": "赤玉ねぎの甘酢漬け 小皿",
+              "price": 180,
+              "description": "薄切り玉ねぎを甘酢に漬けた箸休め。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-editorial-5",
+              "name": "クミン香る焼きじゃがいも",
+              "price": 320,
+              "description": "角切りじゃがいもをクミンと一緒に香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "curry-1-editorial-6",
+              "name": "黒糖チャイの小さなプリン",
+              "price": 380,
+              "description": "紅茶とスパイスのプリンに黒糖のソース。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "八席のカウンターから三つの寸胴鍋が見える。壁には使っているスパイスの小瓶が並ぶ。",
+        "service": "一皿ずつ味の方向を説明し、辛味の追加は別皿で出す。食べ終わる頃に水を足す。",
+        "signature": "焙煎胡麻の黒キーマと鶏とひよこ豆のレモンカレー",
+        "localFlavor": "昼は近くの工房の人たちが来る。香りをたどって路地へ入る初めての客も多い。"
+      }
     },
     {
       "id": "curry-2",
@@ -341,8 +407,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "curry-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "curry-2-editorial-1",
+              "name": "旅の二色カレー皿",
+              "price": 1180,
+              "description": "その日の肉カレーと豆カレーを、ご飯の両側へ盛る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "curry-2-editorial-2",
+              "name": "ほうれん草と白いチーズのカレー",
+              "price": 1100,
+              "description": "青菜のなめらかなソースに、焼いた白いチーズ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-editorial-3",
+              "name": "港風の海老ココナッツカレー",
+              "price": 1280,
+              "description": "海老のうまみとココナッツを合わせた一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-editorial-4",
+              "name": "野菜のサモサ 二個",
+              "price": 420,
+              "description": "じゃがいもと豆を包んだ揚げ物。甘酸っぱいソース付き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-editorial-5",
+              "name": "紫キャベツと柑橘のピクルス",
+              "price": 220,
+              "description": "柑橘の皮が香る、色鮮やかな小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "curry-2-editorial-6",
+              "name": "生姜とカルダモンの温かいミルク",
+              "price": 480,
+              "description": "生姜を煮出したミルクに、カルダモンを少し。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "旅先の写真と古い乗車券が壁を埋める。二人席が多く、入口に荷物用の籠が積まれる。",
+        "service": "初めての客には辛さを確認する。二種類を迷う人には、小さなあいがけを案内する。",
+        "signature": "旅の二色カレー皿とほうれん草と白いチーズのカレー",
+        "localFlavor": "一人客が写真の場所を尋ねることがある。店主と旅行の話をするために通う常連もいる。"
+      }
     }
   ]
 }

@@ -173,8 +173,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "western-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "western-1-editorial-1",
+              "name": "デミグラスの煮込みロールキャベツ",
+              "price": 1380,
+              "description": "二つのロールキャベツを濃いソースで煮る。パンかご飯付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "western-1-editorial-2",
+              "name": "白身魚の香草パン粉焼き",
+              "price": 1480,
+              "description": "香草入りのパン粉を載せて焼き、レモンを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "western-1-editorial-3",
+              "name": "海老ときのこのクリームオムライス",
+              "price": 1420,
+              "description": "卵で包んだご飯に海老のクリームソース。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "western-1-editorial-4",
+              "name": "小さなポテトグラタン",
+              "price": 580,
+              "description": "薄切りじゃがいもとチーズを小皿で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "western-1-editorial-5",
+              "name": "人参とオレンジのサラダ",
+              "price": 420,
+              "description": "細切り人参に柑橘の果肉を合わせた前菜。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "western-1-editorial-6",
+              "name": "ヒバリ坂の焼きカスタード",
+              "price": 480,
+              "description": "表面を軽く焦がした、温かい小皿のカスタード。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "チェックのクロスを掛けた四人席と、鍋の見える小さな厨房。古い振り子時計が静かに鳴る。",
+        "service": "料理のソースを短く説明し、ご飯かパンを確認する。熱い皿は置く前に声を掛ける。",
+        "signature": "デミグラスの煮込みロールキャベツと白身魚の香草パン粉焼き",
+        "localFlavor": "家族の記念日にも、仕事の合間の昼食にも使われる。常連は入口で今日のスープを尋ねる。"
+      }
     },
     {
       "id": "western-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "western-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "western-2-editorial-1",
+              "name": "合い盛りフライの洋食膳",
+              "price": 1580,
+              "description": "海老と白身魚、じゃがいものフライにご飯と汁物。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "western-2-editorial-2",
+              "name": "鶏もも肉の茸クリーム煮",
+              "price": 1380,
+              "description": "鶏肉と数種のきのこを煮込んだ一皿。パン付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "western-2-editorial-3",
+              "name": "黒胡椒ポークのバターライス",
+              "price": 1280,
+              "description": "焼いた豚肉を、香ばしいバターライスに載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "western-2-editorial-4",
+              "name": "玉ねぎの小さなスープグラタン",
+              "price": 620,
+              "description": "甘い玉ねぎのスープにパンとチーズを重ねて焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "western-2-editorial-5",
+              "name": "キャベツとハムの温サラダ",
+              "price": 420,
+              "description": "軽く温めたキャベツにハムと粒マスタード。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "western-2-editorial-6",
+              "name": "銀の匙路のチョコムース",
+              "price": 480,
+              "description": "小さな器のチョコムース。薄い焼き菓子を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "家族写真と開店時の古い看板が壁に掛かる。揚げ物の音がする厨房の前にカウンターがある。",
+        "service": "揚げたてを少しずつ運び、追加のソースは小さな器で出す。子ども用の食具も揃う。",
+        "signature": "合い盛りフライの洋食膳と鶏もも肉の茸クリーム煮",
+        "localFlavor": "近くで働く人が日替わりを食べに来る。夜は家族連れが同じ席を予約することがある。"
+      }
     }
   ]
 }

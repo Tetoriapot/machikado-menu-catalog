@@ -200,6 +200,39 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "supermarket-1-section-editorial",
+          "title": "ひだまり野の食卓便り",
+          "items": [
+            {
+              "id": "supermarket-1-editorial-1",
+              "name": "家族の手巻き寿司具材セット",
+              "price": 1280,
+              "description": "魚の切り身、卵、きゅうりを二、三人分。海苔とご飯は別。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "supermarket-1-editorial-2",
+              "name": "焼き野菜のマリネ 180g",
+              "price": 398,
+              "description": "焼いた茄子とパプリカを酸味のある調味液に漬ける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-1-editorial-3",
+              "name": "朝食用ヨーグルト 四個組",
+              "price": 238,
+              "description": "小さなカップのプレーンヨーグルトを四個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "supermarket-2-section-editorial",
+          "title": "まる葉の小分け棚",
+          "items": [
+            {
+              "id": "supermarket-2-editorial-1",
+              "name": "二人分の鍋野菜パック",
+              "price": 298,
+              "description": "白菜、ねぎ、きのこなどを切ってまとめた野菜のセット。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "supermarket-2-editorial-2",
+              "name": "鯖の味噌煮 一切パック",
+              "price": 328,
+              "description": "一人分の魚の煮付け。持ち帰って温める惣菜。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-2-editorial-3",
+              "name": "小さな玄米おにぎり 二個",
+              "price": 258,
+              "description": "胡麻入りと昆布入りを一個ずつ。海苔は巻かない。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
             }
           ]
         }

@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "general-store-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "general-store-1-editorial-1",
+              "name": "朝の木製バターナイフ",
+              "price": 770,
+              "description": "小さな手にも収まる木のナイフ。丸みのある持ち手。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "general-store-1-editorial-2",
+              "name": "重ねられる色ガラス小鉢",
+              "price": 990,
+              "description": "浅い色付きガラスの器。前菜や小さなお菓子用。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-editorial-3",
+              "name": "洗いざらしのキッチンクロス 二枚",
+              "price": 1210,
+              "description": "吸水しやすい薄手の布を二枚。紐のループ付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-editorial-4",
+              "name": "丸いコルク鍋敷き",
+              "price": 660,
+              "description": "縁を落とした丸い鍋敷き。壁に掛けられる穴付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-editorial-5",
+              "name": "小さな裁縫道具の布ケース",
+              "price": 1650,
+              "description": "針や糸を仕分ける巻き型ケース。道具は別売り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-1-editorial-6",
+              "name": "暮らしの献立メモ帳",
+              "price": 550,
+              "description": "一週間の献立と買い物を書ける、切り離し式のメモ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "木の食器とガラスの器が低い棚に並ぶ。布小物を広げる大きな作業台と、柔らかな窓の光。",
+        "service": "手触りや大きさを確かめられる見本を出す。贈り物は使う場面を聞いて一緒に選ぶ。",
+        "signature": "朝の木製バターナイフと重ねられる色ガラス小鉢",
+        "localFlavor": "引っ越してきた人が日用品を揃え、近所の常連は割れた器の代わりをゆっくり探す。"
+      }
     },
     {
       "id": "general-store-2",
@@ -343,8 +409,73 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "general-store-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "general-store-2-editorial-1",
+              "name": "うたかた棚の陶器一輪挿し",
+              "price": 1760,
+              "description": "手のひらほどの丸い器。釉薬の色を店頭で選ぶ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "general-store-2-editorial-2",
+              "name": "手織り風の布コースター 二枚",
+              "price": 880,
+              "description": "異なる織り模様のコースターを二枚組に。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-editorial-3",
+              "name": "小箱入り香りの紙札",
+              "price": 660,
+              "description": "引き出しに置く香りの紙札。控えめな草木の香り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-editorial-4",
+              "name": "真鍮色のレタークリップ",
+              "price": 720,
+              "description": "手紙や写真を挟む小さな金属クリップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-editorial-5",
+              "name": "縁側の花柄ミニトート",
+              "price": 1980,
+              "description": "財布と本を入れて歩ける小さな布鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "general-store-2-editorial-6",
+              "name": "贈り物の折り箱と紙帯",
+              "price": 330,
+              "description": "購入品を箱に詰めて紙帯を掛ける包装。商品代は別。",
+              "kind": "service",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "古い家の柱を残した店内。部屋ごとに器、布、紙の品が分かれ、縁側に小さな椅子がある。",
+        "service": "器は重ねず一つずつ包む。贈答用には色の合う紙帯と短いメッセージ札を選べる。",
+        "signature": "うたかた棚の陶器一輪挿しと手織り風の布コースター 二枚",
+        "localFlavor": "手土産を探す人が商店街から少し足を延ばす。近所の作り手の小さな展示も開かれる。"
+      }
     }
   ]
 }

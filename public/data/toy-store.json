@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "toy-store-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "toy-store-1-editorial-1",
+              "name": "協力ゲーム『夜の駅をつなごう』",
+              "price": 2860,
+              "description": "架空の町の駅を全員でつなぐ卓上ゲーム。二〜四人用の設定。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "toy-store-1-editorial-2",
+              "name": "木製のくるみ星こま",
+              "price": 880,
+              "description": "星の焼き印を付けた手のひら大のこま。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-1-editorial-3",
+              "name": "紙の街並み工作キット",
+              "price": 1320,
+              "description": "切り抜いて小さな店を組み立てる厚紙の工作セット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-1-editorial-4",
+              "name": "磁石式の魚つりミニゲーム",
+              "price": 1650,
+              "description": "魚の札と小さな竿を箱に納めた遊具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-1-editorial-5",
+              "name": "くるみ星の絵合わせ札",
+              "price": 990,
+              "description": "街の道具を描いた二十四枚の絵合わせカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-1-editorial-6",
+              "name": "持ち歩きサイコロセット",
+              "price": 550,
+              "description": "色違いの六面体三個と小さな布袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "天井近くまで玩具の箱が積まれ、奥に小さな試遊台。レジ横に昔の店の写真と修理した見本が飾られる。",
+        "service": "遊ぶ人数と年齢の目安を聞き、説明書や箱の表示を一緒に確認する。",
+        "signature": "協力ゲーム『夜の駅をつなごう』と木製のくるみ星こま",
+        "localFlavor": "商店街の親子連れが通う。昔ここで遊んだ大人が、子どもを連れて戻ってくることもある。"
+      }
     },
     {
       "id": "toy-store-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "toy-store-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "toy-store-2-editorial-1",
+              "name": "積み木の小さな家セット",
+              "price": 2420,
+              "description": "屋根や窓の形の木片を組み合わせる小箱。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "toy-store-2-editorial-2",
+              "name": "カードゲーム『おやつの順番』",
+              "price": 1540,
+              "description": "架空のお菓子を集める短時間の遊び。三〜五人用の設定。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-2-editorial-3",
+              "name": "手のひら木製どうぶつ 三体",
+              "price": 1980,
+              "description": "丸みのある木の動物を三体。並べて遊べる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-2-editorial-4",
+              "name": "つみき堂の紙飛行機帖",
+              "price": 660,
+              "description": "柄入りの紙と折り方を綴じた工作冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-2-editorial-5",
+              "name": "小さなビーズ迷路",
+              "price": 2200,
+              "description": "木の台と曲がった線を使う、卓上の指遊び玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-2-editorial-6",
+              "name": "お話を作る絵カード 三十枚",
+              "price": 1210,
+              "description": "人物、場所、道具の架空の絵を組み合わせるカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "低い木の棚に積み木とカードゲーム。床には見本の線路が短く敷かれ、窓辺に工作の作例が並ぶ。",
+        "service": "見本を使って短く遊び方を説明する。贈り物には人数と持ち運びやすさも確認する。",
+        "signature": "積み木の小さな家セットとカードゲーム『おやつの順番』",
+        "localFlavor": "住宅街の集まりや家族の休日に使う玩具を買う客が多い。雨の日は室内遊びの棚が賑わう。"
+      }
     }
   ]
 }

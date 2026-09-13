@@ -200,6 +200,39 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "service-area-1-section-editorial",
+          "title": "峠で温まるひと皿",
+          "items": [
+            {
+              "id": "service-area-1-editorial-1",
+              "name": "峠の味噌豚汁うどん",
+              "price": 1080,
+              "description": "豚肉と根菜の味噌汁にうどんを合わせた大きな椀。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "service-area-1-editorial-2",
+              "name": "山椒香る鶏の唐揚げカップ",
+              "price": 580,
+              "description": "山椒を少しきかせた唐揚げ。持ち歩ける蓋付き容器。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "service-area-1-editorial-3",
+              "name": "風見峠の山並みマグネット",
+              "price": 550,
+              "description": "架空の山並みと道路を描いた小さな土産。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -410,6 +443,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "service-area-2-section-editorial",
+          "title": "はるな野の持ち帰り棚",
+          "items": [
+            {
+              "id": "service-area-2-editorial-1",
+              "name": "はるな野の野菜と鶏のせいろ膳",
+              "price": 1380,
+              "description": "野菜と鶏肉を蒸し、ご飯とつけだれを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "service-area-2-editorial-2",
+              "name": "小さなりんごパイ 三個箱",
+              "price": 780,
+              "description": "角切りりんごを包んだ焼き菓子。個包装の三個組。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "service-area-2-editorial-3",
+              "name": "田園柄の保冷ランチ袋",
+              "price": 1100,
+              "description": "売店の土産を入れて持ち帰る、持ち手付きの小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
             }
           ]
         }

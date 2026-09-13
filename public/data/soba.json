@@ -173,8 +173,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "soba-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "soba-1-editorial-1",
+              "name": "くるみだれの二色せいろ",
+              "price": 1280,
+              "description": "通常のつゆとくるみだれで、同じ蕎麦を食べ比べる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "soba-1-editorial-2",
+              "name": "鴨と焼きねぎの温つけ蕎麦",
+              "price": 1480,
+              "description": "冷たい蕎麦を鴨とねぎの熱いつゆでいただく。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-1-editorial-3",
+              "name": "すだちおろしの冷かけ蕎麦",
+              "price": 1180,
+              "description": "冷たい出汁に薄切りすだちと大根おろし。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-1-editorial-4",
+              "name": "蕎麦がきの揚げ出し",
+              "price": 680,
+              "description": "柔らかな蕎麦がきを揚げ、温かい出汁を張る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "soba-1-editorial-5",
+              "name": "庭菜の小さな天ぷら盛り",
+              "price": 580,
+              "description": "葉野菜と根菜を少しずつ揚げた一人用の盛り。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "soba-1-editorial-6",
+              "name": "蕎麦茶の寒天 黒蜜添え",
+              "price": 380,
+              "description": "蕎麦茶の香りを閉じ込めた寒天に黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "庭へ向いた窓の前に二人席が並ぶ。奥の打ち場には白い粉が薄く積もり、石臼の音がする。",
+        "service": "まず茶を出し、蕎麦は茹で上がりに合わせて運ぶ。最後に温かいそば湯を添える。",
+        "signature": "くるみだれの二色せいろと鴨と焼きねぎの温つけ蕎麦",
+        "localFlavor": "近くの古い住宅の住民が昼に集まる。庭の木が色づく頃は散歩帰りの客が増える。"
+      }
     },
     {
       "id": "soba-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "soba-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "soba-2-editorial-1",
+              "name": "焼ききのこのつけせいろ",
+              "price": 1250,
+              "description": "香ばしく焼いたきのこ入りの熱いつゆで食べる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "soba-2-editorial-2",
+              "name": "小海老かき揚げのかけ蕎麦",
+              "price": 1380,
+              "description": "小海老と玉ねぎのかき揚げを別皿に添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-2-editorial-3",
+              "name": "細切り大根の重ね蕎麦",
+              "price": 1080,
+              "description": "細切り大根を蕎麦に重ね、さっぱりしたつゆで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-2-editorial-4",
+              "name": "鶏とねぎの蕎麦味噌焼き",
+              "price": 720,
+              "description": "蕎麦味噌を塗った鶏肉とねぎを香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "soba-2-editorial-5",
+              "name": "だし浸しの焼き厚揚げ",
+              "price": 480,
+              "description": "焼いた厚揚げを温かい出汁に浸す小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "soba-2-editorial-6",
+              "name": "雨糸の小さな蕎麦ぜんざい",
+              "price": 420,
+              "description": "蕎麦粉の団子を二つ入れた小さなぜんざい。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "古い町並みの軒に短い暖簾。カウンターの上に酒器が並び、奥の席から小さな坪庭が見える。",
+        "service": "小さな酒肴から注文できる。蕎麦を出す時刻は、客の食事の進み具合に合わせる。",
+        "signature": "焼ききのこのつけせいろと小海老かき揚げのかけ蕎麦",
+        "localFlavor": "昼下がりには一人でゆっくり過ごす常連が多い。近隣の店を巡った客が休憩に使う。"
+      }
     }
   ]
 }

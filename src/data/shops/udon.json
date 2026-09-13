@@ -173,8 +173,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "udon-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "udon-1-editorial-1",
+              "name": "鶏天とすだちの冷やしうどん",
+              "price": 980,
+              "description": "冷たい出汁に鶏天二個と薄切りすだち。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "udon-1-editorial-2",
+              "name": "焼きねぎと豚肉のつけうどん",
+              "price": 1080,
+              "description": "豚肉入りの熱いつゆに、締めた麺をつけて食べる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-1-editorial-3",
+              "name": "梅とわかめの出汁うどん",
+              "price": 780,
+              "description": "梅肉とわかめを載せた、さっぱりした温かい一杯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-1-editorial-4",
+              "name": "半熟卵の天ぷら 二個",
+              "price": 300,
+              "description": "柔らかな黄身を残した卵の天ぷら。別皿で提供。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "udon-1-editorial-5",
+              "name": "八重波の出汁巻き 小皿",
+              "price": 380,
+              "description": "うどん出汁を合わせた卵焼き。四つに切り分ける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "udon-1-editorial-6",
+              "name": "小さな鶏五目ご飯",
+              "price": 280,
+              "description": "鶏肉と根菜の混ぜご飯を小椀に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "湯気の立つ釜と麺を切る手元がカウンター越しに見える。出汁の香りが入口まで届く。",
+        "service": "茹で時間を先に伝え、温かい器を盆で運ぶ。天ぷらは麺とは別皿にする。",
+        "signature": "鶏天とすだちの冷やしうどんと焼きねぎと豚肉のつけうどん",
+        "localFlavor": "近所の働く人が昼に集まる。開店直後には常連が釜の前の席を選ぶ。"
+      }
     },
     {
       "id": "udon-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "udon-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "udon-2-editorial-1",
+              "name": "胡麻だれ温玉ぶっかけ",
+              "price": 920,
+              "description": "締めた麺に胡麻だれと温泉卵、刻みねぎ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "udon-2-editorial-2",
+              "name": "きのこあんかけ生姜うどん",
+              "price": 880,
+              "description": "きのこのとろみ出汁におろし生姜を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-2-editorial-3",
+              "name": "甘辛牛肉とごぼうのうどん",
+              "price": 1080,
+              "description": "牛肉とごぼうを煮た具を、温かい麺へ載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-2-editorial-4",
+              "name": "丸ごと椎茸の天ぷら",
+              "price": 180,
+              "description": "肉厚の椎茸一個を揚げた、選べる天ぷら。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "udon-2-editorial-5",
+              "name": "さつまいもの厚切り天ぷら 二枚",
+              "price": 240,
+              "description": "厚めに切ったさつまいもをゆっくり揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "udon-2-editorial-6",
+              "name": "つづみの梅ひじきおにぎり",
+              "price": 160,
+              "description": "梅とひじきを混ぜた小さめのおむすび一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "大通りから入った先の明るい食堂。天ぷらの棚と会計台が一列に続き、奥に相席の長机。",
+        "service": "最初にうどんを選び、好きな天ぷらを取ってから会計する順番を案内する。",
+        "signature": "胡麻だれ温玉ぶっかけときのこあんかけ生姜うどん",
+        "localFlavor": "学生と近所の住民が気軽に食べに来る。混む時間を過ぎると店主が客席へ天ぷらを補充しに歩く。"
+      }
     }
   ]
 }

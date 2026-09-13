@@ -35,7 +35,12 @@ export function recommendItems(items:readonly MenuItem[],count=3,rng=Math.random
 export const money=(n:number)=>`¥${n.toLocaleString('ja-JP')}`;
 export const itemText=(item:MenuItem)=>`${item.name} ${money(item.price)}\n${item.description}`;
 export const menuText=(shop:Shop)=>`【${shop.name}】\n${shop.priceNote||'価格はすべて税込'}\n\n${shop.menuSections.map(s=>`${s.title}\n${s.items.map(itemText).join('\n\n')}`).join('\n\n')}`;
-export const gmText=(shop:Shop)=>`【${shop.name}】\n${shop.description}\n営業時間：${shop.openingHours}\n\n${shop.menuSections.flatMap(s=>s.items).map(i=>`${i.name} ${money(i.price)}`).join('\n')}`;
+export const gmText=(shop:Shop)=>[
+ `【${shop.name}】`,shop.description,`営業時間：${shop.openingHours}`,
+ ...(shop.scene?[`\n【店内】\n${shop.scene.interior}`,`【接客】\n${shop.scene.service}`,`【名物】\n${shop.scene.signature}`,`【街とのつながり】\n${shop.scene.localFlavor}`]:[]),
+ ...(shop.priceNote?[`\n価格の補足：${shop.priceNote}`]:[]),
+ `\n${shop.menuSections.flatMap(s=>s.items).map(i=>`${i.name} ${money(i.price)}`).join('\n')}`,
+].join('\n');
 export const remember=(ids:readonly string[],id:string)=>[id,...ids.filter(x=>x!==id)].slice(0,20);
 export function readIds(raw:string|null,validIds:readonly string[]):string[]{try{const parsed:unknown=JSON.parse(raw??'[]');return Array.isArray(parsed)?[...new Set(parsed.filter((id):id is string=>typeof id==='string'&&validIds.includes(id)))]:[];}catch{return [];}}
 export function parseRoute(hash:string):{kind:'catalog';category:string}|{kind:'shop';id:string;pl:boolean;item?:string;readOnly?:boolean}|{kind:'missing'}{

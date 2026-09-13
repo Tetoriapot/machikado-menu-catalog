@@ -199,6 +199,39 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "family-restaurant-1-section-editorial",
+          "title": "家族で選ぶもう一品",
+          "items": [
+            {
+              "id": "family-restaurant-1-editorial-1",
+              "name": "こもれびの小さな朝食プレート",
+              "price": 780,
+              "description": "卵料理、ソーセージ、トーストとサラダ。午前11時まで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "family-restaurant-1-editorial-2",
+              "name": "取り分けチーズハンバーグドリア",
+              "price": 1480,
+              "description": "ドリアの中央にハンバーグ。二人で分けやすい大きな皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-1-editorial-3",
+              "name": "果物とミルク寒天のキッズカップ",
+              "price": 320,
+              "description": "柔らかなミルク寒天に小さく切った果物を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -409,6 +442,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "dessert"
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-2-section-editorial",
+          "title": "アーチウェイの軽い食事",
+          "items": [
+            {
+              "id": "family-restaurant-2-editorial-1",
+              "name": "焼きチーズカレーの小さなドリア",
+              "price": 980,
+              "description": "カレー味のご飯にチーズを重ね、卵を一つ落として焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "family-restaurant-2-editorial-2",
+              "name": "スモークチキンと豆のサラダラップ",
+              "price": 880,
+              "description": "鶏肉と豆、葉野菜を薄い生地で包んだ軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-2-editorial-3",
+              "name": "りんごと紅茶のゼリーグラス",
+              "price": 580,
+              "description": "りんご果肉と紅茶ゼリーに軽いクリームを重ねる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
             }
           ]
         }

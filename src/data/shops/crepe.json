@@ -171,8 +171,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "crepe-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "crepe-1-editorial-1",
+              "name": "焼きりんごとシナモンカスタード",
+              "price": 680,
+              "description": "温かいりんごにカスタード。外側は軽く焼き目を付ける。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "crepe-1-editorial-2",
+              "name": "抹茶あずきの白玉クレープ",
+              "price": 720,
+              "description": "抹茶クリーム、小豆、白玉を巻いた和風の甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "crepe-1-editorial-3",
+              "name": "ツナと焼きチーズの温クレープ",
+              "price": 650,
+              "description": "ツナと玉ねぎを包み、チーズが溶けるまで鉄板で温める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "crepe-1-editorial-4",
+              "name": "レモンシュガーの折りクレープ",
+              "price": 430,
+              "description": "薄い生地に砂糖とレモンを合わせ、四つ折りにして渡す。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "crepe-1-editorial-5",
+              "name": "苺ミルクの小さなカップ",
+              "price": 380,
+              "description": "苺のソースを混ぜた冷たいミルク。小さな透明カップ入り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "crepe-1-editorial-6",
+              "name": "雲の端のバターサブレ",
+              "price": 240,
+              "description": "雲形のサブレ二枚。クレープを待つ間に選べる袋入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "駅前の細い窓口に、焼き色の見える丸い鉄板が二枚。メニュー札は写真と手書きの短い説明付き。",
+        "service": "焼きたてを巻いて番号で呼ぶ。待ち時間には、冷たい品か温かい品かを確認する。",
+        "signature": "焼きりんごとシナモンカスタードと抹茶あずきの白玉クレープ",
+        "localFlavor": "学校帰りの学生が連れ立って来る。改札へ急ぐ客は、包装しやすい軽食を選ぶことが多い。"
+      }
     },
     {
       "id": "crepe-2",
@@ -339,8 +405,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "crepe-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "crepe-2-editorial-1",
+              "name": "塩はちみつナッツクレープ",
+              "price": 620,
+              "description": "刻みナッツにはちみつと少しの塩。カリッとした食感。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "crepe-2-editorial-2",
+              "name": "桃とヨーグルトクリームのクレープ",
+              "price": 750,
+              "description": "桃の果肉と軽いヨーグルト風味のクリームを重ねる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "crepe-2-editorial-3",
+              "name": "照り焼きチキンのサラダクレープ",
+              "price": 730,
+              "description": "照り焼き鶏とレタスを包む、散歩の昼食向けの一本。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "crepe-2-editorial-4",
+              "name": "きのことハムのクリームクレープ",
+              "price": 700,
+              "description": "きのこのクリーム煮とハムを、温かい生地に包む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "crepe-2-editorial-5",
+              "name": "小さなバナナカスタードロール",
+              "price": 380,
+              "description": "バナナとカスタードを短く巻いた、小ぶりなクレープ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "crepe-2-editorial-6",
+              "name": "蜂蜜すだちソーダ",
+              "price": 420,
+              "description": "すだちの酸味とはちみつを合わせた、すっきりした炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "公園側へ開いたカウンターと小さな日よけ。ベンチの脇には包み紙を捨てる専用箱が置かれる。",
+        "service": "子どもには持ちやすい短めの巻き方を提案し、ソースを紙の内側へ収める。",
+        "signature": "塩はちみつナッツクレープと桃とヨーグルトクリームのクレープ",
+        "localFlavor": "散歩や遊具帰りの親子が多い。近くで小さな催しがある日は、朝から仕込みの音がする。"
+      }
     }
   ]
 }

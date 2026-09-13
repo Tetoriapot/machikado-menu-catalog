@@ -173,8 +173,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "bakery-1-section-editorial",
+          "title": "窯からのおすすめ",
+          "items": [
+            {
+              "id": "bakery-1-editorial-1",
+              "name": "くるみといちじくの田舎パン",
+              "price": 480,
+              "description": "乾燥いちじくを混ぜた密な生地。薄切りにして食べる小ぶりな一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bakery-1-editorial-2",
+              "name": "焦がし玉ねぎのチーズブール",
+              "price": 360,
+              "description": "丸パンの中に甘い玉ねぎとチーズ。表面まで香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-editorial-3",
+              "name": "塩麹チキンのチャバタ",
+              "price": 520,
+              "description": "しっとり焼いた鶏肉と人参を、歯切れのよいパンで挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-editorial-4",
+              "name": "黒糖きなこのねじりパン",
+              "price": 240,
+              "description": "柔らかなねじりパンに黒糖ときなこをまぶした一本。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-editorial-5",
+              "name": "柑橘ピールの朝焼きスコーン",
+              "price": 290,
+              "description": "刻んだ柑橘の皮が香る、表面さっくりの大きめスコーン。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bakery-1-editorial-6",
+              "name": "麦日和のラスク袋",
+              "price": 320,
+              "description": "薄切りパンを二度焼きしたラスク。砂糖味と胡麻味を詰め合わせ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "格子窓の内側に丸パンが並び、奥の窯から天板を引く音が聞こえる。入口脇に焼き上がり時刻の黒板。",
+        "service": "温かいパンは紙袋に分け、食パンは好みの厚さに切る。予約分は名前を書いた棚に取り置く。",
+        "signature": "くるみといちじくの田舎パンと焦がし玉ねぎのチーズブール",
+        "localFlavor": "商店街の開店前から灯りがつき、向かいの花屋が最初の客になる。雨の日は軒下で住民が立ち話をする。"
+      }
     },
     {
       "id": "bakery-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "bakery-2-section-editorial",
+          "title": "こなつ窓の小さなパン",
+          "items": [
+            {
+              "id": "bakery-2-editorial-1",
+              "name": "小さな豆乳ちぎりパン",
+              "price": 280,
+              "description": "四つの山がつながったやわらかいパン。少しずつ分けやすい。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bakery-2-editorial-2",
+              "name": "枝豆とコーンの平焼きパン",
+              "price": 250,
+              "description": "つぶした枝豆と甘いコーンを包み、両面を平たく焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-editorial-3",
+              "name": "朝の卵サラダロール",
+              "price": 330,
+              "description": "刻み卵のサラダを細長いロールパンにたっぷり挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-editorial-4",
+              "name": "りんごカスタードの小包",
+              "price": 300,
+              "description": "角切りりんごとカスタードを、折り畳んだ生地で包む。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-editorial-5",
+              "name": "ミニ胡麻あんぱん 三個",
+              "price": 360,
+              "description": "白胡麻の生地にこし餡を入れた、一口より少し大きい三個組。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bakery-2-editorial-6",
+              "name": "はちみつバターの耳スティック",
+              "price": 180,
+              "description": "食パンの耳を香ばしく焼いた袋入りのおやつ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "低い陳列台の横に子ども用トングが掛かる。窓際の二席から、通学路の小さな交差点が見える。",
+        "service": "朝は小銭で買える小さなパンを手前へ並べる。売り切れた品の次の焼き上がりはレジで案内する。",
+        "signature": "小さな豆乳ちぎりパンと枝豆とコーンの平焼きパン",
+        "localFlavor": "登校する子どもと出勤前の保護者が行き交う。午後には近所の人が、翌朝のパンを買いに来る。"
+      }
     }
   ]
 }

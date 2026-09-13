@@ -199,6 +199,39 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "teishoku-1-section-editorial",
+          "title": "こはぜの旬ごはん",
+          "items": [
+            {
+              "id": "teishoku-1-editorial-1",
+              "name": "鰆の西京焼きと豚汁の定食",
+              "price": 1180,
+              "description": "味噌漬けの魚と具だくさん豚汁、ご飯と漬物。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-1-editorial-2",
+              "name": "じゃがいもと青菜の胡麻和え",
+              "price": 220,
+              "description": "ほくほくのじゃがいもに青菜とすり胡麻を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-1-editorial-3",
+              "name": "小さな豆乳ごまプリン",
+              "price": 320,
+              "description": "豆乳と胡麻の甘味。黒蜜を少し添えた小鉢。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -400,6 +433,39 @@
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "teishoku-2-section-editorial",
+          "title": "三日月坂の小鉢便り",
+          "items": [
+            {
+              "id": "teishoku-2-editorial-1",
+              "name": "鶏の塩麹焼きと小鉢二つの定食",
+              "price": 1100,
+              "description": "鶏肉の香味焼きに、選べる小鉢二つとご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-2-editorial-2",
+              "name": "春雨入り五目きんちゃく",
+              "price": 280,
+              "description": "春雨と刻み野菜を油揚げに詰め、出汁で煮る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-2-editorial-3",
+              "name": "長芋と梅のおかか和え",
+              "price": 240,
+              "description": "短冊切りの長芋に梅肉とかつお節を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
             }
           ]
         }

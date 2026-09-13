@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "hundred-yen-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "hundred-yen-1-editorial-1",
+              "name": "書類仕分けの透明封筒 五枚",
+              "price": 110,
+              "description": "A5判の紙を分けて入れる透明封筒。口は折り返し式。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hundred-yen-1-editorial-2",
+              "name": "冷蔵庫用の日付ラベル",
+              "price": 110,
+              "description": "容器に日付を書いて貼る小さなシールの台紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-1-editorial-3",
+              "name": "小さな計量スプーン 三本",
+              "price": 110,
+              "description": "異なる容量のスプーンを輪でまとめたセット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-1-editorial-4",
+              "name": "吊り下げ洗濯ピンチ 八個",
+              "price": 110,
+              "description": "靴下やハンカチを干す小さなピンチ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-1-editorial-5",
+              "name": "携帯ごみ袋ケース",
+              "price": 110,
+              "description": "小巻きの袋を持ち歩く樹脂ケース。試用の袋入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-1-editorial-6",
+              "name": "色分け引き出しラベル",
+              "price": 110,
+              "description": "収納場所を書き込める四角いラベルのセット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "細い通路の両側に文具と台所用品。価格の札が棚の端に大きく付き、レジ前に新しい品の籠。",
+        "service": "似た用途の品を探す客には、容量と個数の違いを見比べて案内する。",
+        "signature": "書類仕分けの透明封筒 五枚と冷蔵庫用の日付ラベル",
+        "localFlavor": "商店街で買い物をする途中、電池や袋を一つだけ買う人が多い。学校行事前は工作棚が賑わう。"
+      }
     },
     {
       "id": "hundred-yen-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "hundred-yen-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "hundred-yen-2-editorial-1",
+              "name": "紙工作の色厚紙 十枚",
+              "price": 110,
+              "description": "小さな模型や飾りを作る色厚紙。五色を二枚ずつ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hundred-yen-2-editorial-2",
+              "name": "半透明の小物仕切り 二個",
+              "price": 110,
+              "description": "引き出しの中を分ける浅い仕切り箱。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-2-editorial-3",
+              "name": "手帳用ミニ定規しおり",
+              "price": 110,
+              "description": "しおりとして挟める短い定規。目盛りと丸穴付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-2-editorial-4",
+              "name": "写真を立てる木製クリップ 四個",
+              "price": 110,
+              "description": "机の上に写真や名札を立てる小さなクリップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-2-editorial-5",
+              "name": "持ち歩き用ジッパー袋 六枚",
+              "price": 110,
+              "description": "小物を分ける厚手の袋。二種類の大きさ入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-2-editorial-6",
+              "name": "窓飾りの透かし折り紙",
+              "price": 110,
+              "description": "光を通す薄い色紙。窓に飾る折り方の図付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "駅前ビルの一角に明るい棚が並ぶ。収納箱は組み合わせた状態で、工作材料は色別に展示。",
+        "service": "まとめ買いは袋の大きさを確認する。見本を触りたい客には売場の台を案内する。",
+        "signature": "紙工作の色厚紙 十枚と半透明の小物仕切り 二個",
+        "localFlavor": "帰宅前に小物を補充する人や、近隣の学生が来る。雨の日は傘袋や防水小物がよく動く。"
+      }
     }
   ]
 }

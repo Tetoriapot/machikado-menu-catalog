@@ -171,9 +171,75 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "live-house-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "live-house-1-editorial-1",
+              "name": "浮灯の赤いベリーソーダ",
+              "price": 550,
+              "description": "ベリーのシロップを炭酸で割るノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "live-house-1-editorial-2",
+              "name": "黒胡椒レモンハイボール",
+              "price": 650,
+              "description": "レモンの香りに黒胡椒を少し加えた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-editorial-3",
+              "name": "燻製チーズとクラッカー",
+              "price": 480,
+              "description": "燻製風味のチーズを切り分けた小さな紙トレー。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-editorial-4",
+              "name": "一口スパイシーチキン",
+              "price": 580,
+              "description": "片手でつまめる鶏の揚げ物。スパイスを薄くまぶす。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-editorial-5",
+              "name": "公演記録のミニノート",
+              "price": 660,
+              "description": "出演者名や曲目を書き留める小型ノート。会場印入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "live-house-1-editorial-6",
+              "name": "浮灯ロゴの布リストバンド",
+              "price": 550,
+              "description": "細い布のリストバンド。会場限定の架空ロゴ入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
       ],
-      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要です。"
+      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要です。",
+      "scene": {
+        "interior": "地下へ降りる階段に公演のポスターが貼られる。入口脇のドリンク台から、客席の照明が少し見える。",
+        "service": "注文は開演前にまとめて受け、飲み物を持つ客が通れるよう窓口前を空ける。",
+        "signature": "浮灯の赤いベリーソーダと黒胡椒レモンハイボール",
+        "localFlavor": "地元の学生や仕事帰りの客が集まる。終演後は外へ出る前に次回公演の紙を手に取る。"
+      }
     },
     {
       "id": "live-house-2",
@@ -340,9 +406,75 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "live-house-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "live-house-2-editorial-1",
+              "name": "環の柑橘トニック",
+              "price": 550,
+              "description": "柑橘とトニックを合わせたノンアルコールの一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "live-house-2-editorial-2",
+              "name": "梅と生姜のソーダ割り",
+              "price": 650,
+              "description": "梅酒に生姜の香りを加え、炭酸で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-editorial-3",
+              "name": "終演後の焼きチーズトースト",
+              "price": 520,
+              "description": "小さく切ったチーズトースト。温かいうちに渡す。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-editorial-4",
+              "name": "オリーブと豆の小皿",
+              "price": 420,
+              "description": "オリーブと豆を酸味のある調味で和えた小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-editorial-5",
+              "name": "ステージ図のポストカード 二枚",
+              "price": 330,
+              "description": "会場の舞台配置を図案にしたカード。二色のセット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "live-house-2-editorial-6",
+              "name": "環の手ぬぐい",
+              "price": 1100,
+              "description": "音の波を模した架空の図案。薄い木綿の手ぬぐい。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
       ],
-      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要です。"
+      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要です。",
+      "scene": {
+        "interior": "古いビルの一室に低いステージと立ち飲みカウンター。壁に出演者の写真と手書きの公演予定。",
+        "service": "終演後も短時間はバーを開け、客と出演者の会話を邪魔しない距離で注文を取る。",
+        "signature": "環の柑橘トニックと梅と生姜のソーダ割り",
+        "localFlavor": "近所の音楽好きが顔を合わせる場所。昼間はリハーサルの楽器を運ぶ人が出入りする。"
+      }
     }
   ]
 }

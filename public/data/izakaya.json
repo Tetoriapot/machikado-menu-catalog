@@ -200,6 +200,39 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "izakaya-1-section-editorial",
+          "title": "今夜の黒板から",
+          "items": [
+            {
+              "id": "izakaya-1-editorial-1",
+              "name": "ごぼうと豚ばらの味噌煮",
+              "price": 580,
+              "description": "柔らかなごぼうと豚肉を味噌で煮た小鉢。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-1-editorial-2",
+              "name": "揚げたて厚揚げのねぎだく",
+              "price": 480,
+              "description": "温かい厚揚げに刻みねぎと生姜をたっぷり載せる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-1-editorial-3",
+              "name": "よりみちの柚子胡椒焼き飯",
+              "price": 650,
+              "description": "卵と鶏肉の焼き飯に柚子胡椒を少しきかせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "izakaya-2-section-editorial",
+          "title": "魚札のとなり",
+          "items": [
+            {
+              "id": "izakaya-2-editorial-1",
+              "name": "白身魚と蓮根のさつま揚げ",
+              "price": 680,
+              "description": "魚のすり身と蓮根を合わせ、注文後に揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-2-editorial-2",
+              "name": "刺身切り落としの海苔和え",
+              "price": 620,
+              "description": "その日の魚を小さく切り、海苔と香味野菜で和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-2-editorial-3",
+              "name": "焼き鯖と大葉の小むすび 二個",
+              "price": 420,
+              "description": "ほぐした焼き鯖と大葉を混ぜた、小さなおむすび。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
             }
           ]
         }

@@ -173,8 +173,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "donut-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "donut-1-editorial-1",
+              "name": "焦がしバターのシュガーリング",
+              "price": 290,
+              "description": "表面に焦がしバターを薄く塗った、ふんわりしたリング。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "donut-1-editorial-2",
+              "name": "黒胡麻もちもちリング",
+              "price": 280,
+              "description": "黒胡麻を混ぜた弾力のある生地。きなこを軽く振る。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-editorial-3",
+              "name": "瀬戸風レモンのグレーズ",
+              "price": 320,
+              "description": "レモン風味の糖衣を掛けた、酸味のある一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-editorial-4",
+              "name": "ほうじ茶クリームボール",
+              "price": 350,
+              "description": "丸いドーナツの中に、香ばしい茶のクリーム。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-editorial-5",
+              "name": "ひと口きなこ 六個カップ",
+              "price": 380,
+              "description": "丸い小粒のドーナツを六個。きなこをまぶす。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-1-editorial-6",
+              "name": "揚げたてに合う水出し珈琲",
+              "price": 420,
+              "description": "苦みを穏やかにした冷たい珈琲。氷を少なめに。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "揚げ場が見える横長の窓と、丸い穴の開いた木製トレー。出来上がりの鐘が小さく鳴る。",
+        "service": "温かい品は砂糖が溶けないよう別袋にする。持ち帰りの箱には並び順を記した紙を添える。",
+        "signature": "焦がしバターのシュガーリングと黒胡麻もちもちリング",
+        "localFlavor": "揚げたての時間に近所の常連が集まり、昼すぎには差し入れの箱を買う客が来る。"
+      }
     },
     {
       "id": "donut-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "donut-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "donut-2-editorial-1",
+              "name": "豆乳プレーンの輪",
+              "price": 220,
+              "description": "豆乳を使った素朴な生地。砂糖を薄くまぶす。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "donut-2-editorial-2",
+              "name": "りんごとシナモンの焼き輪",
+              "price": 280,
+              "description": "小さなりんご片を混ぜ込んだ、焼きドーナツ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-editorial-3",
+              "name": "あずきミルクのサンド輪",
+              "price": 340,
+              "description": "横に切った輪に小豆とミルククリームを挟む。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-editorial-4",
+              "name": "塩キャラメルの四角ドーナツ",
+              "price": 320,
+              "description": "四角い生地に、ほろ苦いキャラメルを細く掛ける。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-editorial-5",
+              "name": "こな輪のミニ詰め合わせ 八個",
+              "price": 720,
+              "description": "小さな焼きドーナツ八個。プレーンと胡麻を半分ずつ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-2-editorial-6",
+              "name": "温かい蜂蜜ミルク",
+              "price": 360,
+              "description": "温めた牛乳にはちみつを添えた、穏やかな一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "古い駅から離れた細い通り。牛乳瓶の絵がある看板と、二人掛けの低いベンチが目印。",
+        "service": "小さな子には食べ切りやすい大きさを案内する。飲み物と一緒に木の盆で提供する。",
+        "signature": "豆乳プレーンの輪とりんごとシナモンの焼き輪",
+        "localFlavor": "散歩中の親子や自転車の客が多い。近所の住民には、甘さ控えめの定番が親しまれる。"
+      }
     }
   ]
 }

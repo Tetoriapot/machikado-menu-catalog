@@ -172,8 +172,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "bento-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "bento-1-editorial-1",
+              "name": "鶏の生姜照り焼き弁当",
+              "price": 780,
+              "description": "厚めの鶏肉に生姜だれ。麦入りご飯と人参の小鉢付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bento-1-editorial-2",
+              "name": "鮭と彩り野菜の二段弁当",
+              "price": 920,
+              "description": "焼き鮭と煮物を上段、ご飯を下段に詰めた持ち帰り弁当。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bento-1-editorial-3",
+              "name": "豆腐つくねとひじきの弁当",
+              "price": 740,
+              "description": "甘辛いつくねを三個。ひじき煮と卵焼きを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bento-1-editorial-4",
+              "name": "出汁巻き卵 四切",
+              "price": 360,
+              "description": "注文後に温かい卵焼きを切り分け、別容器で渡す。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bento-1-editorial-5",
+              "name": "切干大根と油揚げの小鉢",
+              "price": 180,
+              "description": "出汁を含ませた切干大根。一人分の小さな容器入り。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bento-1-editorial-6",
+              "name": "冷たい黒豆茶 350ml",
+              "price": 180,
+              "description": "香ばしい黒豆茶をボトルで。弁当と一緒に持ち歩きやすい。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "入口に番号札の機械があり、奥では大きな炊飯器が湯気を上げる。待つ客用の椅子が壁に三脚。",
+        "service": "注文を受けてから詰め、揚げ物が必要な場合は待ち時間を先に伝える。",
+        "signature": "鶏の生姜照り焼き弁当と鮭と彩り野菜の二段弁当",
+        "localFlavor": "近くの事務所から昼休みの客が集まる。まとまった予約弁当は、名前を書いた棚へ分けてある。"
+      }
     },
     {
       "id": "bento-2",
@@ -341,8 +407,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "bento-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "bento-2-editorial-1",
+              "name": "鯖の香味焼きのり弁",
+              "price": 690,
+              "description": "海苔ご飯に香ばしい鯖、ちくわと漬物を載せた弁当。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bento-2-editorial-2",
+              "name": "豚と蓮根の甘酢弁当",
+              "price": 790,
+              "description": "薄切り豚と蓮根を甘酢で和え、ご飯と別の仕切りに詰める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bento-2-editorial-3",
+              "name": "三色そぼろの小ぶり弁当",
+              "price": 580,
+              "description": "鶏そぼろ、炒り卵、青菜をご飯に載せた小さめの一折。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bento-2-editorial-4",
+              "name": "家族で分ける煮物パック",
+              "price": 480,
+              "description": "大根、厚揚げ、人参、こんにゃくを二、三人分詰め合わせ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bento-2-editorial-5",
+              "name": "おやつ大学いも 小パック",
+              "price": 260,
+              "description": "蜜を薄く絡めたさつまいも。黒胡麻を散らした食べ切り量。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bento-2-editorial-6",
+              "name": "昆布と梅のおむすび二個",
+              "price": 300,
+              "description": "昆布と梅を一個ずつ。海苔を巻いて小さな折箱に入れる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "道路向きの受け渡し窓と、日替わりを書いた白いボード。脇道側に自転車を置く小さな空間がある。",
+        "service": "ご飯の量を聞き、汁気のあるおかずは小容器へ分ける。夕方は温め直し方もひとこと添える。",
+        "signature": "鯖の香味焼きのり弁と豚と蓮根の甘酢弁当",
+        "localFlavor": "家へ帰る途中の客が一人分を買い、工事のある日は作業員の注文が朝から入る。"
+      }
     }
   ]
 }

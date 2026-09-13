@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "bookstore-1-section-editorial",
+          "title": "栞野の選書棚",
+          "items": [
+            {
+              "id": "bookstore-1-editorial-1",
+              "name": "短編集『帰り道の灯台』",
+              "price": 1760,
+              "description": "夜勤明けの街を歩く人々を描いた、架空の短編集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-1-editorial-2",
+              "name": "郷土資料『旧駅舎と商店街の百年』",
+              "price": 2200,
+              "description": "架空の町の写真と略図をまとめた資料集。街歩きの題材にも。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-editorial-3",
+              "name": "児童書『ねこの郵便局は坂の上』",
+              "price": 1320,
+              "description": "坂道の配達をめぐる物語。大きな文字と挿絵を添えた一冊。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-editorial-4",
+              "name": "随筆集『一人ぶんの夕食』",
+              "price": 1540,
+              "description": "料理と日々の暮らしを綴る、架空の随筆集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-editorial-5",
+              "name": "栞野書房の帆布ブックポーチ",
+              "price": 1480,
+              "description": "文庫本を二冊ほど入れられる、鳥の印が付いた布ポーチ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-1-editorial-6",
+              "name": "駅前散歩の読書カード 六枚",
+              "price": 330,
+              "description": "読んだ場所と印象を記す小さなカード。駅舎の線画入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "入口の平台に新刊、奥の細い通路に文庫棚。店員の短い手書き紹介が、棚から少しずつ飛び出している。",
+        "service": "探している本は題名の一部から一緒に調べる。購入した本には、店の鳥印が入った紙カバーを掛ける。",
+        "signature": "短編集『帰り道の灯台』と郷土資料『旧駅舎と商店街の百年』",
+        "localFlavor": "駅の帰り道に寄る会社員が多く、郷土資料の棚には商店街の古い写真を眺めに来る人もいる。"
+      }
     },
     {
       "id": "bookstore-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "bookstore-2-section-editorial",
+          "title": "七頁の旅と暮らし",
+          "items": [
+            {
+              "id": "bookstore-2-editorial-1",
+              "name": "旅の随筆『海まで六つの乗り換え』",
+              "price": 1870,
+              "description": "各駅停車と徒歩で海を目指す、架空の旅の記録。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-2-editorial-2",
+              "name": "写真集『朝の台所、十二の窓』",
+              "price": 2860,
+              "description": "さまざまな家庭の朝を収めた設定の、小判の架空写真集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-editorial-3",
+              "name": "選書小冊子『雨の日の七冊』",
+              "price": 550,
+              "description": "店員が架空の本を七冊紹介する、薄い折り綴じ冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-editorial-4",
+              "name": "詩画集『ベランダに小さな森』",
+              "price": 1980,
+              "description": "鉢植えと季節の暮らしを題材にした架空の詩画集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-editorial-5",
+              "name": "旅の切符ノート",
+              "price": 880,
+              "description": "切符や小さな紙を貼れる無地ノート。開きやすい糸綴じ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-2-editorial-6",
+              "name": "七頁の活版しおり 三枚",
+              "price": 440,
+              "description": "紙の凹凸が残るしおり。窓、椅子、地図の三つの柄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "窓際の大きな机に旅と生活の本を平置きする。棚の間には椅子が一脚あり、紙の地図が壁に掛かる。",
+        "service": "用途や気分を聞いて二、三冊を勧める。贈り物には本の紹介を一行書いた小さなカードを添える。",
+        "signature": "旅の随筆『海まで六つの乗り換え』と写真集『朝の台所、十二の窓』",
+        "localFlavor": "住宅街の読書会が月ごとの本を選びに来る。近所の喫茶店には、店員が選んだ一冊が置かれている。"
+      }
     }
   ]
 }

@@ -200,6 +200,39 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "drugstore-1-section-editorial",
+          "title": "外出と暮らしの小物",
+          "items": [
+            {
+              "id": "drugstore-1-editorial-1",
+              "name": "小分けボトル 三本セット",
+              "price": 398,
+              "description": "旅行用品を分ける空容器。中身を書けるラベル付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-1-editorial-2",
+              "name": "衣類用の携帯粘着ローラー",
+              "price": 498,
+              "description": "鞄に入る小さな衣類用ローラー。保護ケース付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-1-editorial-3",
+              "name": "やわらか全粒粉クラッカー 小袋",
+              "price": 178,
+              "description": "軽い塩味のクラッカーを食べ切り袋に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "drugstore-2-section-editorial",
+          "title": "翠の実の携帯用品",
+          "items": [
+            {
+              "id": "drugstore-2-editorial-1",
+              "name": "折り畳み式の手鏡",
+              "price": 550,
+              "description": "机に立てられる小さな鏡。薄い保護ケース付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-2-editorial-2",
+              "name": "持ち歩き用ティッシュケース",
+              "price": 330,
+              "description": "ポケットティッシュと小物を入れる柔らかいケース。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-2-editorial-3",
+              "name": "生姜はちみつ飲料 280ml",
+              "price": 158,
+              "description": "生姜とはちみつ風味の飲み物。飲み切りボトル。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
             }
           ]
         }

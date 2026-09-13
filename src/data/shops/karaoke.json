@@ -193,6 +193,38 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "karaoke-1-section-editorial",
+          "title": "歌うしおりの夜のおとも",
+          "items": [
+            {
+              "id": "karaoke-1-editorial-1",
+              "name": "鉄板ソース焼きそば",
+              "price": 780,
+              "description": "豚肉と野菜の焼きそばを熱い皿で。取り分け用の食具付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-1-editorial-2",
+              "name": "ハニーレモンのノンアルコールソーダ",
+              "price": 480,
+              "description": "はちみつとレモンの炭酸。氷入りの大きめグラス。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-1-editorial-3",
+              "name": "平日夜 三時間パック 一人",
+              "price": 1680,
+              "description": "平日18時以降の三時間室料。飲食代は別、延長は通常料金。",
+              "kind": "fee",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -397,6 +429,39 @@
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "karaoke-2-section-editorial",
+          "title": "星灯のグループメニュー",
+          "items": [
+            {
+              "id": "karaoke-2-editorial-1",
+              "name": "四人で分ける小さなピザ二枚",
+              "price": 1680,
+              "description": "チーズと照り焼き鶏の二種類。小さく切り分けて提供。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-2-editorial-2",
+              "name": "ベリーとミルクのキッズカップ",
+              "price": 320,
+              "description": "ベリー風味の冷たいミルク。小さなストロー付きカップ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-2-editorial-3",
+              "name": "家族のフルーツヨーグルト盛り",
+              "price": 980,
+              "description": "切った果物とヨーグルトを、三、四人で分ける大皿。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
             }
           ]
         }

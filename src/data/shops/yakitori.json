@@ -173,8 +173,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "yakitori-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "yakitori-1-editorial-1",
+              "name": "せせりの柚子胡椒串 一本",
+              "price": 240,
+              "description": "首肉を香ばしく焼き、柚子胡椒を少量添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-1-editorial-2",
+              "name": "しそ巻きつくね串 一本",
+              "price": 260,
+              "description": "粗めのつくねに大葉を巻き、たれを薄く塗る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-editorial-3",
+              "name": "長ねぎと鶏はらみ串 一本",
+              "price": 230,
+              "description": "鶏はらみと長ねぎを交互に刺した一本。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-editorial-4",
+              "name": "炭焼き椎茸の出汁醤油 二個",
+              "price": 380,
+              "description": "肉厚の椎茸を焼き、出汁醤油を少し含ませる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-editorial-5",
+              "name": "鶏だしの小さな雑炊",
+              "price": 520,
+              "description": "鶏の出汁にご飯と卵を合わせた締めの一椀。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-1-editorial-6",
+              "name": "青梅と炭酸のノンアルコール",
+              "price": 380,
+              "description": "梅のシロップを炭酸で割り、氷を浮かべる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "炭床の前に細いカウンターが続き、串の名を書いた木札が壁に並ぶ。換気扇の下で煙が揺れる。",
+        "service": "塩かたれかを串ごとに聞く。焼き上がった順に、皿へ少しずつ置いていく。",
+        "signature": "せせりの柚子胡椒串 一本としそ巻きつくね串 一本",
+        "localFlavor": "一人で立ち寄る近所の客が多い。終電前には駅へ向かう常連が最後の一串を頼む。"
+      }
     },
     {
       "id": "yakitori-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "yakitori-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "yakitori-2-editorial-1",
+              "name": "ねぎ塩砂肝串 一本",
+              "price": 220,
+              "description": "砂肝を焼き、刻みねぎ入りの塩だれを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "yakitori-2-editorial-2",
+              "name": "うずら卵の豚巻き串 一本",
+              "price": 260,
+              "description": "うずら卵を薄い豚肉で巻いて焼いた一本。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-editorial-3",
+              "name": "味噌だれの手羽先 二本",
+              "price": 480,
+              "description": "手羽先を焼いて、甘めの味噌だれを薄く塗る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-editorial-4",
+              "name": "焼き厚揚げの香味ねぎ",
+              "price": 380,
+              "description": "焼いた厚揚げに生姜とねぎを載せる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-editorial-5",
+              "name": "鶏皮と豆もやしのぽん酢和え",
+              "price": 420,
+              "description": "湯通しした鶏皮と豆もやしを冷たい小鉢に。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "yakitori-2-editorial-6",
+              "name": "たきつばの焦がし醤油焼きおにぎり",
+              "price": 240,
+              "description": "炭のそばで焼いたおむすび一個。刻み海苔付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "路地の赤い灯りの奥に四人用の卓。串焼きの台と厨房が近く、店員の短い声が行き交う。",
+        "service": "人数に合わせた串の盛り方を提案し、同じ種類は見分けやすい皿にまとめる。",
+        "signature": "ねぎ塩砂肝串 一本とうずら卵の豚巻き串 一本",
+        "localFlavor": "仕事帰りの小さな集まりに使われる。近隣の店を閉めた人が遅い夕食に来る。"
+      }
     }
   ]
 }

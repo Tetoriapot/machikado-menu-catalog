@@ -173,8 +173,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "aquarium-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "aquarium-1-editorial-1",
+              "name": "クラゲの透明しおり",
+              "price": 480,
+              "description": "透ける素材にクラゲを重ねたしおり。光にかざすと淡い青が見える。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "aquarium-1-editorial-2",
+              "name": "深海いきもの観察ノート",
+              "price": 720,
+              "description": "生き物の形や気づきを書き込める、方眼入りの小さなノート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-1-editorial-3",
+              "name": "潮だまりマグネット 三個",
+              "price": 660,
+              "description": "貝、ヤドカリ、ヒトデをかたどった小型マグネット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-1-editorial-4",
+              "name": "青い波の塩クッキー 八枚",
+              "price": 780,
+              "description": "波形の焼き菓子を個包装。ほんのり塩をきかせた箱入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-1-editorial-5",
+              "name": "蒼浜のレモンゼリー",
+              "price": 420,
+              "description": "青い層と透明なレモンの層を重ねた、小さなカップの甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-1-editorial-6",
+              "name": "水槽ブルーのクリームソーダ",
+              "price": 580,
+              "description": "青いソーダにミルクアイス。クラゲ柄の紙コースター付き。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "青い陳列棚の上に天井の水面照明が揺れる。出口の大窓から、展示の最後の小水槽が見える。",
+        "service": "壊れ物は薄紙で包み、展示のどの生き物を見たか尋ねながら品を案内する。",
+        "signature": "クラゲの透明しおりと深海いきもの観察ノート",
+        "localFlavor": "遠足の日には子どもの列が続き、夕方には年間パスを持つ近所の客が散歩帰りに寄る。"
+      }
     },
     {
       "id": "aquarium-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "aquarium-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "aquarium-2-editorial-1",
+              "name": "ペンギン親子の指人形",
+              "price": 880,
+              "description": "親子二体の柔らかな指人形。底に名前を書ける布札付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "aquarium-2-editorial-2",
+              "name": "海の仲間の絵合わせカード",
+              "price": 990,
+              "description": "同じ生き物を探して遊ぶ二十四枚組。持ち帰り用の小箱入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-2-editorial-3",
+              "name": "回廊の生き物スタンプ帳",
+              "price": 550,
+              "description": "館内の架空の記念印を集める蛇腹帳。見学日の記入欄付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-2-editorial-4",
+              "name": "ラッコのおやつ巾着",
+              "price": 1320,
+              "description": "小さな貝柄のお菓子袋を入れられる布巾着。お菓子は別売り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-2-editorial-5",
+              "name": "おさかなメープルワッフル",
+              "price": 380,
+              "description": "魚の形に焼いた小さなワッフル。紙袋に二枚入れる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-2-editorial-6",
+              "name": "親子りんごドリンクセット",
+              "price": 600,
+              "description": "大小二つのカップにりんご飲料。二人で分けて飲めるセット。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "低い棚にぬいぐるみが並び、壁には来館記念のスタンプ台。奥に家族で休める丸いベンチがある。",
+        "service": "子どもが自分で選ぶ間は急かさず、予算に合う小物の棚を一緒に探す。",
+        "signature": "ペンギン親子の指人形と海の仲間の絵合わせカード",
+        "localFlavor": "海辺の宿の宿泊客が土産を買い、週末の午後は展示を見終えた家族で賑わう。"
+      }
     }
   ]
 }

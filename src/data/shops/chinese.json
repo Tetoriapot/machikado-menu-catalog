@@ -200,6 +200,39 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "chinese-1-section-editorial",
+          "title": "翠鳩飯店の小黒板",
+          "items": [
+            {
+              "id": "chinese-1-editorial-1",
+              "name": "海老と青菜の塩あんかけ焼きそば",
+              "price": 1080,
+              "description": "焼いた麺に海老と青菜の塩味あんを掛ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "chinese-1-editorial-2",
+              "name": "豚肉と卵の木耳炒め",
+              "price": 880,
+              "description": "豚肉、卵、木耳をふんわり炒めた一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "chinese-1-editorial-3",
+              "name": "胡麻だれの蒸し鶏きゅうり",
+              "price": 580,
+              "description": "蒸し鶏ときゅうりに香ばしい胡麻だれを掛ける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "dessert"
+            }
+          ]
+        },
+        {
+          "id": "chinese-2-section-editorial",
+          "title": "星和軒のおすすめ皿",
+          "items": [
+            {
+              "id": "chinese-2-editorial-1",
+              "name": "焦がし醤油のレタス焼き飯",
+              "price": 920,
+              "description": "香りを立てた醤油の炒飯に、最後にレタスを合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "chinese-2-editorial-2",
+              "name": "揚げ豆腐の黒酢きのこあん",
+              "price": 780,
+              "description": "表面を揚げた豆腐に、きのこと黒酢のとろみあん。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "chinese-2-editorial-3",
+              "name": "柚子杏仁の小さなグラス",
+              "price": 380,
+              "description": "杏仁豆腐に柚子のシロップを添えた食後の甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
             }
           ]
         }

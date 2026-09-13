@@ -173,8 +173,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "kaiten-sushi-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "kaiten-sushi-1-editorial-1",
+              "name": "柚子塩の炙り真鯛 二貫",
+              "price": 330,
+              "description": "炙った白身に柚子皮と塩。小さな皿に二貫。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-1-editorial-2",
+              "name": "漬けまぐろ山かけ軍艦 二貫",
+              "price": 280,
+              "description": "漬けまぐろにとろろを合わせ、海苔で巻く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-editorial-3",
+              "name": "海老天手巻き 一本",
+              "price": 320,
+              "description": "揚げた海老と野菜を海苔で巻いた一本。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-editorial-4",
+              "name": "あおさと豆腐の赤だし",
+              "price": 240,
+              "description": "海藻と豆腐を入れた熱い汁物。小さな椀で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-editorial-5",
+              "name": "蒸し鶏と胡麻の茶碗蒸し",
+              "price": 360,
+              "description": "鶏肉を入れた茶碗蒸しに、白胡麻を少し。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-1-editorial-6",
+              "name": "小さな抹茶わらびもち皿",
+              "price": 280,
+              "description": "抹茶風味の甘味にきなこ。食後に分けやすい小皿。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "皿の流れるレーンに沿ってカウンターと家族席。入口に大きな番号表示と待ち合わせ椅子がある。",
+        "service": "注文皿は席番号を確認して渡す。小さな子には取り皿を先に出す。",
+        "signature": "柚子塩の炙り真鯛 二貫と漬けまぐろ山かけ軍艦 二貫",
+        "localFlavor": "休日は買い物帰りの家族が多い。平日の昼には一人客が少ない皿数で食事を済ませる。"
+      }
     },
     {
       "id": "kaiten-sushi-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "dessert"
             }
           ]
+        },
+        {
+          "id": "kaiten-sushi-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "kaiten-sushi-2-editorial-1",
+              "name": "焼き鯖押し寿司 三切",
+              "price": 390,
+              "description": "香ばしい鯖を載せた押し寿司。三つに切り分ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-2-editorial-2",
+              "name": "炙り帆立の焦がし醤油 二貫",
+              "price": 440,
+              "description": "帆立を軽く炙り、醤油の香りを立てた二貫。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-editorial-3",
+              "name": "いかと大葉の梅巻き 六切",
+              "price": 280,
+              "description": "いか、大葉、梅肉を細く巻いて切り分ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-editorial-4",
+              "name": "海老と舞茸の小天ぷら",
+              "price": 480,
+              "description": "海老一本と舞茸を揚げた小さな盛り合わせ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-editorial-5",
+              "name": "魚だしのミニうどん",
+              "price": 380,
+              "description": "魚の出汁に細いうどん。少量のねぎを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-2-editorial-6",
+              "name": "みかんゼリーとミルクアイス",
+              "price": 320,
+              "description": "果肉入りのみかんゼリーに、小さなアイス一玉。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "幹線道路に面した広い店。ボックス席の間に低い仕切りがあり、レーン脇に注文票が置かれる。",
+        "service": "食べたい量に合わせて皿を勧める。持ち帰りは店内の注文とは別に受け付ける。",
+        "signature": "焼き鯖押し寿司 三切と炙り帆立の焦がし醤油 二貫",
+        "localFlavor": "近隣の家族と移動中の客が混ざる。夕食時には入口の番号札を手に車で待つ人もいる。"
+      }
     }
   ]
 }

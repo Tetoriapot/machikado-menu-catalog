@@ -200,6 +200,39 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "convenience-store-1-section-editorial",
+          "title": "ひよりの朝と夜",
+          "items": [
+            {
+              "id": "convenience-store-1-editorial-1",
+              "name": "朝のハムたまごマフィン",
+              "price": 298,
+              "description": "ハムと卵を挟んだ小さなマフィン。温めて食べる軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-1-editorial-2",
+              "name": "鶏だし生姜スープ 250g",
+              "price": 328,
+              "description": "鶏肉と野菜、生姜の入った一人用スープ。容器入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-1-editorial-3",
+              "name": "携帯用衣類シミ取りシート 五枚",
+              "price": 330,
+              "description": "外出先で使う衣類用シート。小さな袋で個包装。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -410,6 +443,39 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-2-section-editorial",
+          "title": "澄坂店の持ち歩き棚",
+          "items": [
+            {
+              "id": "convenience-store-2-editorial-1",
+              "name": "胡麻だれ蒸し鶏のラップサンド",
+              "price": 398,
+              "description": "蒸し鶏と野菜を薄い生地で巻いた持ち歩き用の軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-2-editorial-2",
+              "name": "無糖レモン紅茶 500ml",
+              "price": 148,
+              "description": "レモンの香りを付けた無糖の紅茶。ボトル入り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-2-editorial-3",
+              "name": "雨の日の靴ふきシート 八枚",
+              "price": 220,
+              "description": "靴の表面を拭く小さなシート。携帯用の封付き袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
             }
           ]
         }

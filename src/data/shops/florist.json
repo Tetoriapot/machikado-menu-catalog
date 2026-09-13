@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "florist-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "florist-1-editorial-1",
+              "name": "朝摘み色の小さな花束",
+              "price": 1650,
+              "description": "白と淡い黄色を中心に束ねる、片手に収まる花束。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "florist-1-editorial-2",
+              "name": "深紅の一輪ラッピング",
+              "price": 660,
+              "description": "赤い花一輪に葉を添え、持ち歩ける紙で包む。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-editorial-3",
+              "name": "卓上グリーンのガラスアレンジ",
+              "price": 2420,
+              "description": "小さなガラス器に緑と白い花を生けた卓上飾り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-editorial-4",
+              "name": "野の花風の送別ブーケ",
+              "price": 3850,
+              "description": "揺れる草花を合わせた花束。色合いは注文時に相談。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-editorial-5",
+              "name": "紡花の押し花カード",
+              "price": 440,
+              "description": "小さな押し花をあしらった二つ折りカード。封筒付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-1-editorial-6",
+              "name": "小分けの切り花栄養剤 五袋",
+              "price": 220,
+              "description": "切り花用の袋入り用品。使い方を記した紙付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "入口の花桶から水の匂いがする。奥の作業台には鋏と包装紙、壁には花束の見本写真。",
+        "service": "贈る相手と渡す時刻を聞き、色や大きさを相談してから束ねる。",
+        "signature": "朝摘み色の小さな花束と深紅の一輪ラッピング",
+        "localFlavor": "通勤帰りに一輪を買う客と、記念日の花束を予約する常連がいる。隣の店の祝い花も担当する。"
+      }
     },
     {
       "id": "florist-2",
@@ -343,8 +409,73 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "florist-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "florist-2-editorial-1",
+              "name": "つゆ草色の一輪挿しセット",
+              "price": 1980,
+              "description": "青い小花と小さな花瓶。窓辺に置ける大きさ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "florist-2-editorial-2",
+              "name": "香りを楽しむハーブ鉢",
+              "price": 880,
+              "description": "ミントなどの小鉢を一点。品種は店頭の札で案内。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-editorial-3",
+              "name": "路面電車の窓辺ミニブーケ",
+              "price": 1320,
+              "description": "短めに束ねた季節の花。狭い場所にも飾りやすい。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-editorial-4",
+              "name": "吊るせる小さな観葉植物",
+              "price": 1760,
+              "description": "軽い吊り鉢入りの緑。室内向けの置き場所を店頭で相談。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-editorial-5",
+              "name": "素焼きの受け皿 二枚",
+              "price": 550,
+              "description": "小鉢用の受け皿を二枚。落ち着いた土色。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-2-editorial-6",
+              "name": "草花の布ラッピング",
+              "price": 330,
+              "description": "購入した小さな花束を布で包む追加サービス。花代は別。",
+              "kind": "service",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "路面電車の音が聞こえる店先に鉢物が並ぶ。窓辺には小さな花瓶の一輪挿し見本。",
+        "service": "置く場所の日当たりや持ち帰り方を聞く。切り花には短い手入れのメモを付ける。",
+        "signature": "つゆ草色の一輪挿しセットと香りを楽しむハーブ鉢",
+        "localFlavor": "車窓から店を見つけて降りる人もいる。近所の喫茶店が、週に一度テーブルの花を選びに来る。"
+      }
     }
   ]
 }

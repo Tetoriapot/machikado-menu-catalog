@@ -196,6 +196,39 @@
               "kind": "addon"
             }
           ]
+        },
+        {
+          "id": "ramen-1-section-editorial",
+          "title": "夕凪軒のもうひと品",
+          "items": [
+            {
+              "id": "ramen-1-editorial-1",
+              "name": "柚子香る鶏塩ワンタンそば",
+              "price": 1080,
+              "description": "澄んだ鶏塩スープにワンタンと柚子皮を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "ramen-1-editorial-2",
+              "name": "焼豚と白ねぎの小丼",
+              "price": 480,
+              "description": "刻んだ焼豚と白ねぎをご飯に載せ、たれを少し。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "ramen-1-editorial-3",
+              "name": "白菜ときゅうりの浅漬け",
+              "price": 220,
+              "description": "麺の合間につまめる、野菜の小さな漬物皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -393,6 +426,39 @@
               "description": "黄身を半熟に仕上げた卵を二個。",
               "recommended": false,
               "kind": "addon"
+            }
+          ]
+        },
+        {
+          "id": "ramen-2-section-editorial",
+          "title": "あかつき路の夜ごはん",
+          "items": [
+            {
+              "id": "ramen-2-editorial-1",
+              "name": "焦がしねぎの濃厚鶏そば",
+              "price": 1180,
+              "description": "鶏の濃いスープに焦がしねぎ。炙った肉を二枚載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "ramen-2-editorial-2",
+              "name": "温玉のせ炙り肉ご飯",
+              "price": 580,
+              "description": "香ばしい角切り肉と温泉卵を載せた小丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "ramen-2-editorial-3",
+              "name": "炙りチーズの肉味噌豆腐",
+              "price": 420,
+              "description": "小さな豆腐に肉味噌とチーズ。表面を炙って仕上げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
             }
           ]
         }

@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "hardware-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "hardware-1-editorial-1",
+              "name": "家庭用巻尺 3m",
+              "price": 680,
+              "description": "目盛りの大きな巻尺。手首用の短い紐付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hardware-1-editorial-2",
+              "name": "六角レンチ 九本セット",
+              "price": 980,
+              "description": "よく使う太さをケースにまとめた工具セット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-editorial-3",
+              "name": "滑り止め付き作業手袋 二双",
+              "price": 440,
+              "description": "手のひらに滑り止めを付けた布手袋の二双組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-editorial-4",
+              "name": "ベランダ園芸の小型じょうろ",
+              "price": 880,
+              "description": "細い注ぎ口の軽いじょうろ。容量は一リットル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-editorial-5",
+              "name": "補修用フェルトシート",
+              "price": 550,
+              "description": "家具の脚に合わせて切って使うシート。粘着面付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-1-editorial-6",
+              "name": "持ち手付き部品整理箱",
+              "price": 1280,
+              "description": "ねじなどを仕分ける仕切り付きの小箱。中身は含まない。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "広い通路の上に工具と園芸の大きな案内札。入口脇には修繕材料の組み合わせ見本がある。",
+        "service": "直したい物の寸法を聞いて売場へ案内する。重い袋は受け渡し台まで台車で運ぶ。",
+        "signature": "家庭用巻尺 3mと六角レンチ 九本セット",
+        "localFlavor": "週末は庭仕事の客が多く、平日の朝は近隣の作業現場へ向かう人が部材を買い足す。"
+      }
     },
     {
       "id": "hardware-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "hardware-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "hardware-2-editorial-1",
+              "name": "木工用の小型クランプ 二個",
+              "price": 1100,
+              "description": "工作時に板を押さえる小さな固定具の二個組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hardware-2-editorial-2",
+              "name": "工作用の角材 三本束",
+              "price": 660,
+              "description": "小さな模型や棚に使う短い木材。同じ長さを三本。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-editorial-3",
+              "name": "素焼き鉢と受け皿のセット",
+              "price": 770,
+              "description": "卓上向けの小鉢と同色の受け皿。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-editorial-4",
+              "name": "折り畳み園芸スコップ",
+              "price": 990,
+              "description": "柄を畳める小型スコップ。携帯用の袋付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-editorial-5",
+              "name": "布補修テープ 幅25mm",
+              "price": 480,
+              "description": "布製品の簡単な補修向けテープ。使い方は包装に記載。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-2-editorial-6",
+              "name": "屋内用の小さな踏み台",
+              "price": 1760,
+              "description": "高い棚の物を取るための一段踏み台。軽量な樹脂製。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "花苗の棚を抜けると工具と短い木材が並ぶ。作業台には端材で作った小さな棚の見本。",
+        "service": "用途を聞いて必要な量を一緒に数える。材料は運びやすい向きにまとめて渡す。",
+        "signature": "木工用の小型クランプ 二個と工作用の角材 三本束",
+        "localFlavor": "近所の住宅の修繕や学校の工作に使われる。入口には地域の催しの掲示板がある。"
+      }
     }
   ]
 }

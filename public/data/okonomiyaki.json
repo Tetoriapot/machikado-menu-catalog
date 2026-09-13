@@ -173,8 +173,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "okonomiyaki-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "okonomiyaki-1-editorial-1",
+              "name": "山芋ふわ焼き海老玉",
+              "price": 1180,
+              "description": "山芋を合わせた生地に海老。柔らかな食感の一枚。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "okonomiyaki-1-editorial-2",
+              "name": "もち明太ねぎ焼き",
+              "price": 1080,
+              "description": "もちと明太子、ねぎを薄めの生地でまとめる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-1-editorial-3",
+              "name": "豚ばらと大葉の塩焼きそば",
+              "price": 920,
+              "description": "豚肉と大葉を合わせた塩味の焼きそば。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-1-editorial-4",
+              "name": "長芋の焦がし醤油鉄板",
+              "price": 480,
+              "description": "輪切り長芋の両面を焼き、醤油の香りを立てる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-1-editorial-5",
+              "name": "もやしとにらの卵包み",
+              "price": 520,
+              "description": "炒め野菜を薄い卵で包み、ソースを細く掛ける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-1-editorial-6",
+              "name": "すだちジンジャーソーダ",
+              "price": 380,
+              "description": "生姜の炭酸にすだちを添えたノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "各卓の中央に鉄板があり、壁に古い試合の写真。ソースの瓶と刷毛が卓の端に揃う。",
+        "service": "焼き始めは店員が手伝い、返す頃合いを声で知らせる。熱い器は置く場所を確認する。",
+        "signature": "山芋ふわ焼き海老玉ともち明太ねぎ焼き",
+        "localFlavor": "近くの部活動帰りの学生や、夕食に集まる家族が多い。鉄板を囲んで長めの会話が続く。"
+      }
     },
     {
       "id": "okonomiyaki-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "drink"
             }
           ]
+        },
+        {
+          "id": "okonomiyaki-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "okonomiyaki-2-editorial-1",
+              "name": "牛すじこんにゃくの薄焼き",
+              "price": 1120,
+              "description": "甘辛い牛すじとこんにゃくを、薄めの生地に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "okonomiyaki-2-editorial-2",
+              "name": "海鮮たっぷり塩だれ焼き",
+              "price": 1280,
+              "description": "いかと海老入りの一枚。ねぎ入りの塩だれで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-2-editorial-3",
+              "name": "半熟卵のソースそばめし",
+              "price": 980,
+              "description": "そばとご飯を炒め、半熟卵を中央に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-2-editorial-4",
+              "name": "焼きキャベツの味噌バター",
+              "price": 420,
+              "description": "ざく切りキャベツを味噌とバターで焼いた小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-2-editorial-5",
+              "name": "帆立ときのこの鉄板包み",
+              "price": 680,
+              "description": "帆立ときのこを包み焼きにして、うまみを閉じ込める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-2-editorial-6",
+              "name": "黒糖レモンの冷たいお茶",
+              "price": 360,
+              "description": "冷たい紅茶にレモンと少量の黒糖を合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "商店街の奥にある細長い店。入口近くの大きな鉄板で店主が焼き、奥に二人席が並ぶ。",
+        "service": "焼き上がった品を客席の鉄板へ運ぶ。持ち帰りは湯気が落ち着くまで少し待ってから包む。",
+        "signature": "牛すじこんにゃくの薄焼きと海鮮たっぷり塩だれ焼き",
+        "localFlavor": "商店街の店を閉めた人が夕食に寄る。雨の日は軒下で注文を待つ客が立ち話をする。"
+      }
     }
   ]
 }

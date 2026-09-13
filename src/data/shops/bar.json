@@ -199,6 +199,39 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "bar-1-section-editorial",
+          "title": "AFTERGLOWの一杯と一皿",
+          "items": [
+            {
+              "id": "bar-1-editorial-1",
+              "name": "焼き林檎のバーボンハイボール",
+              "price": 1100,
+              "description": "バーボンに焼きりんご風味のシロップと炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "bar-1-editorial-2",
+              "name": "ローズマリーの柑橘モクテル",
+              "price": 880,
+              "description": "柑橘とハーブを合わせたノンアルコールカクテル。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bar-1-editorial-3",
+              "name": "燻製ナッツとドライいちじく",
+              "price": 780,
+              "description": "香ばしいナッツに、食べやすく切った乾燥いちじく。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -400,6 +433,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "bar-2-section-editorial",
+          "title": "夜間航路の寄港地",
+          "items": [
+            {
+              "id": "bar-2-editorial-1",
+              "name": "黒糖ラムと温かい珈琲",
+              "price": 1180,
+              "description": "ラムと珈琲に少量の黒糖。小さな耐熱グラスで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "bar-2-editorial-2",
+              "name": "航路の洋梨ジンジャーモクテル",
+              "price": 900,
+              "description": "洋梨と生姜のノンアルコール。薄切りの果実を添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bar-2-editorial-3",
+              "name": "青いチーズと蜂蜜のトースト",
+              "price": 880,
+              "description": "青かびチーズを載せた薄いトーストにはちみつを少し。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
             }
           ]
         }

@@ -200,6 +200,39 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "hospital-1-section-editorial",
+          "title": "はなさき窓の生活小物",
+          "items": [
+            {
+              "id": "hospital-1-editorial-1",
+              "name": "片手で開く筆記具ポーチ",
+              "price": 660,
+              "description": "ペンと小さなメモ帳をまとめる平たい布ケース。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hospital-1-editorial-2",
+              "name": "大きな文字の日付メモ帳",
+              "price": 330,
+              "description": "日付と短い予定を書き込める、罫線の広いメモ帳。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hospital-1-editorial-3",
+              "name": "やわらか桃のカップゼリー",
+              "price": 198,
+              "description": "桃の香りのゼリーを小カップに。紙スプーン付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hospital-2-section-editorial",
+          "title": "くらしの売店の小さな棚",
+          "items": [
+            {
+              "id": "hospital-2-editorial-1",
+              "name": "折り畳み式の卓上写真立て",
+              "price": 550,
+              "description": "小さな写真を机に置く軽いフレーム。畳んで運べる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hospital-2-editorial-2",
+              "name": "無地の大判ハンカチ 二枚",
+              "price": 660,
+              "description": "薄手の木綿ハンカチを二枚。名前を書けるタグ付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hospital-2-editorial-3",
+              "name": "温めるじゃがいものポタージュ",
+              "price": 298,
+              "description": "じゃがいものとろみのあるスープ。容器入りの一人分。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
             }
           ]
         }

@@ -200,6 +200,39 @@
               "recommendationGroup": "side"
             }
           ]
+        },
+        {
+          "id": "cafe-1-section-editorial",
+          "title": "庭からの一皿",
+          "items": [
+            {
+              "id": "cafe-1-editorial-1",
+              "name": "ほうれん草と山羊チーズの小さなキッシュ",
+              "price": 880,
+              "description": "青菜とチーズを焼いた一切れ。庭風の葉野菜を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "cafe-1-editorial-2",
+              "name": "蜂蜜レモンのヨーグルトボウル",
+              "price": 720,
+              "description": "ヨーグルトにレモン漬けとはちみつ、少量のグラノーラ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cafe-1-editorial-3",
+              "name": "カモミールとりんごの温かいお茶",
+              "price": 600,
+              "description": "カモミールにりんごの香りを重ねた穏やかな一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            }
+          ]
         }
       ],
       "scene": {
@@ -401,6 +434,39 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "cafe-2-section-editorial",
+          "title": "海辺の寄り道",
+          "items": [
+            {
+              "id": "cafe-2-editorial-1",
+              "name": "海老とアボカドのクロワッサン",
+              "price": 1280,
+              "description": "海老とアボカドに柑橘のソース。軽いサラダ付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "cafe-2-editorial-2",
+              "name": "潮風レモンの焼きチーズケーキ",
+              "price": 720,
+              "description": "レモン皮と少量の塩を加えた、濃厚な一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cafe-2-editorial-3",
+              "name": "ローズマリーとグレープフルーツのソーダ",
+              "price": 680,
+              "description": "柑橘の酸味にハーブの香りを添えるノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
             }
           ]
         }

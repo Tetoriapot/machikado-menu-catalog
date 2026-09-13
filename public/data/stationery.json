@@ -173,8 +173,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "stationery-1-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "stationery-1-editorial-1",
+              "name": "消しやすい学習ノート 五冊組",
+              "price": 550,
+              "description": "横罫のノートを五色の表紙でまとめたセット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "stationery-1-editorial-2",
+              "name": "芯が折れにくいシャープペン",
+              "price": 660,
+              "description": "握り部分に滑り止めを付けた筆記具。替え芯は別売り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-1-editorial-3",
+              "name": "ツバメ印の連絡メモ",
+              "price": 280,
+              "description": "伝言を短く書ける切り離し式メモ。時刻の欄付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-1-editorial-4",
+              "name": "持ち歩きミニホチキス",
+              "price": 480,
+              "description": "筆箱に収まる小型の綴じ具。試用の針付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-1-editorial-5",
+              "name": "色分けインデックス 三色",
+              "price": 330,
+              "description": "ノートの端に貼る見出しシール。書き込み用の白地付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-1-editorial-6",
+              "name": "A4書類の角留めクリップ 六個",
+              "price": 390,
+              "description": "紙の角をまとめる薄いクリップ。三色を二個ずつ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "学校用ノートを入口近くに積み、奥の棚には筆記具の替え芯。レジ横に試し書き用紙が置かれる。",
+        "service": "必要な学用品の規格を一緒に確認し、ペンは見本で書き味を試せる。",
+        "signature": "消しやすい学習ノート 五冊組と芯が折れにくいシャープペン",
+        "localFlavor": "通学路の子どもと近隣の事務所の人が買い足しに来る。新学期前には名札用品が前へ並ぶ。"
+      }
     },
     {
       "id": "stationery-2",
@@ -343,8 +409,74 @@
               "recommendationGroup": "goods"
             }
           ]
+        },
+        {
+          "id": "stationery-2-section-editorial",
+          "title": "この店ならではの品",
+          "items": [
+            {
+              "id": "stationery-2-editorial-1",
+              "name": "灯墨堂の雨色インク 20ml",
+              "price": 1650,
+              "description": "青灰色の架空オリジナルインク。小瓶と色見本付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "stationery-2-editorial-2",
+              "name": "透かし入り便箋 十枚",
+              "price": 770,
+              "description": "光にかざすと草の模様が見える便箋。封筒は別売り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-2-editorial-3",
+              "name": "細字のガラスペン",
+              "price": 2860,
+              "description": "ねじり模様のガラス軸。小さな紙箱に納める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-2-editorial-4",
+              "name": "旅の記録用蛇腹ノート",
+              "price": 1100,
+              "description": "地図や切符を貼って広げられる、無地の蛇腹帳。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-2-editorial-5",
+              "name": "真鍮色のペン置き",
+              "price": 880,
+              "description": "一本のペンを転がらずに置く、小さな金属台。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-2-editorial-6",
+              "name": "紙の手触り見本帖 十二種",
+              "price": 660,
+              "description": "十二種類の小さな紙を綴じた見本帳。紙名の札付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            }
+          ]
         }
-      ]
+      ],
+      "scene": {
+        "interior": "紙の見本帳が広げられる木の机と、便箋が見える浅い引き出し。壁際にはインク色の見本が並ぶ。",
+        "service": "贈る手紙の用途を聞いて紙を案内する。ペンの色は乾いた見本も一緒に見せる。",
+        "signature": "灯墨堂の雨色インク 20mlと透かし入り便箋 十枚",
+        "localFlavor": "手紙を書く常連や、作品の紙を選ぶ人がゆっくり過ごす。近くの古本屋と客が行き来する。"
+      }
     }
   ]
 }
