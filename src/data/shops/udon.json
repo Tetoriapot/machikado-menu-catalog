@@ -708,6 +708,717 @@
         "signature": "朝凪の卵とろみうどんとごぼうの細切りかき揚げ",
         "localFlavor": "始発を待つ客と運転手が朝に集まる。昼は近隣の店で働く人が短時間で食事を取る。"
       }
+    },
+    {
+      "id": "udon-showa-1",
+      "name": "うどん食堂 橋のたもと",
+      "category": "udon",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "定番メニューのうどん屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした定番メニューのうどん屋。近所の働く人が昼に集まる。開店直後には常連が釜の前の席を選ぶ。",
+      "openingHours": "10:30〜20:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "湯気の立つ釜と麺を切る手元がカウンター越しに見える。出汁の香りが入口まで届く。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "茹で時間を先に伝え、温かい器を盆で運ぶ。天ぷらは麺とは別皿にする。",
+        "signature": "玉子とじのあんかけうどん、玉ねぎの小かき揚げ、鶏ごぼうの混ぜご飯",
+        "localFlavor": "近所の働く人が昼に集まる。開店直後には常連が釜の前の席を選ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "udon-showa-1-section-1",
+          "title": "うどん",
+          "items": [
+            {
+              "name": "玉子とじのあんかけうどん",
+              "price": 90,
+              "kind": "food",
+              "description": "卵のあんを麺にかける。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "かけうどん",
+              "price": 60,
+              "kind": "food",
+              "description": "いりこの旨みを感じる基本の出汁。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ぶっかけうどん",
+              "price": 70,
+              "kind": "food",
+              "description": "冷たい麺に濃いつゆをかけて。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "釜揚げうどん",
+              "price": 80,
+              "kind": "food",
+              "description": "ゆでたうどんをつゆで食べる。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "きつねうどん",
+              "price": 90,
+              "kind": "food",
+              "description": "甘く炊いた大きなお揚げ。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "肉うどん",
+              "price": 100,
+              "kind": "food",
+              "description": "甘辛く煮た牛肉をのせた一杯。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "すだちおろしうどん",
+              "price": 120,
+              "kind": "food",
+              "description": "すだちと大根おろしでさっぱり。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "udon-showa-1-section-2",
+          "title": "天ぷら",
+          "items": [
+            {
+              "name": "玉ねぎの小かき揚げ",
+              "price": 70,
+              "kind": "food",
+              "description": "玉ねぎをまとめて揚げる。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "海老天",
+              "price": 40,
+              "kind": "food",
+              "description": "尾付き海老をさっくり揚げて。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ちくわ天",
+              "price": 50,
+              "kind": "food",
+              "description": "青海苔が香る定番の天ぷら。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "さつまいも天",
+              "price": 60,
+              "kind": "food",
+              "description": "輪切りの芋を衣で揚げる。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "かぼちゃ天",
+              "price": 70,
+              "kind": "food",
+              "description": "甘みのある厚切りかぼちゃ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "野菜かき揚げ",
+              "price": 80,
+              "kind": "food",
+              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ごぼうの細切りかき揚げ",
+              "price": 90,
+              "kind": "food",
+              "description": "細いごぼうをまとめて揚げた一枚。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "udon-showa-1-section-3",
+          "title": "ご飯・飲みもの",
+          "items": [
+            {
+              "name": "鶏ごぼうの混ぜご飯",
+              "price": 60,
+              "kind": "food",
+              "description": "鶏とごぼうを混ぜる。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "いなり 二個",
+              "price": 30,
+              "kind": "food",
+              "description": "甘酢飯を詰めたお揚げ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "おにぎり",
+              "price": 40,
+              "kind": "food",
+              "description": "梅か昆布を選べるおむすび。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "炊き込みご飯",
+              "price": 50,
+              "kind": "food",
+              "description": "鶏と根菜の小さなご飯。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ラムネ",
+              "price": 60,
+              "kind": "drink",
+              "description": "食後にも爽やかな炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "udon-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "温泉卵",
+              "price": 80,
+              "kind": "food",
+              "description": "うどんに追加できるとろりとした卵。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "鮭胡麻むすび",
+              "price": 100,
+              "kind": "food",
+              "description": "鮭と胡麻のご飯を握る。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "udon-showa-2",
+      "name": "手打ちうどん 朝露",
+      "category": "udon",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "tourist",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "落ち着いた雰囲気のうどん屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした落ち着いた雰囲気のうどん屋。学生と近所の住民が気軽に食べに来る。混む時間を過ぎると店主が客席へ天ぷらを補充しに歩く。",
+      "openingHours": "10:30〜20:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "大通りから入った先の明るい食堂。天ぷらの棚と会計台が一列に続き、奥に相席の長机。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "最初にうどんを選び、好きな天ぷらを取ってから会計する順番を案内する。",
+        "signature": "葱と鶏の煮込みうどん、蓮根の薄切り天ぷら、梅胡麻むすび",
+        "localFlavor": "学生と近所の住民が気軽に食べに来る。混む時間を過ぎると店主が客席へ天ぷらを補充しに歩く。"
+      },
+      "menuSections": [
+        {
+          "id": "udon-showa-2-section-1",
+          "title": "うどん",
+          "items": [
+            {
+              "name": "葱と鶏の煮込みうどん",
+              "price": 100,
+              "kind": "food",
+              "description": "鶏の汁で麺を煮込む。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "かけうどん",
+              "price": 60,
+              "kind": "food",
+              "description": "いりこの旨みを感じる基本の出汁。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ぶっかけうどん",
+              "price": 70,
+              "kind": "food",
+              "description": "冷たい麺に濃いつゆをかけて。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "釜揚げうどん",
+              "price": 80,
+              "kind": "food",
+              "description": "ゆでたうどんをつゆで食べる。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "きつねうどん",
+              "price": 90,
+              "kind": "food",
+              "description": "甘く炊いた大きなお揚げ。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "肉うどん",
+              "price": 100,
+              "kind": "food",
+              "description": "甘辛く煮た牛肉をのせた一杯。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "すだちおろしうどん",
+              "price": 120,
+              "kind": "food",
+              "description": "すだちと大根おろしでさっぱり。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "udon-showa-2-section-2",
+          "title": "天ぷら",
+          "items": [
+            {
+              "name": "蓮根の薄切り天ぷら",
+              "price": 80,
+              "kind": "food",
+              "description": "蓮根を薄衣で揚げる。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "海老天",
+              "price": 40,
+              "kind": "food",
+              "description": "尾付き海老をさっくり揚げて。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ちくわ天",
+              "price": 50,
+              "kind": "food",
+              "description": "青海苔が香る定番の天ぷら。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "さつまいも天",
+              "price": 60,
+              "kind": "food",
+              "description": "輪切りの芋を衣で揚げる。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "かぼちゃ天",
+              "price": 70,
+              "kind": "food",
+              "description": "甘みのある厚切りかぼちゃ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "野菜かき揚げ",
+              "price": 80,
+              "kind": "food",
+              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ごぼうの細切りかき揚げ",
+              "price": 90,
+              "kind": "food",
+              "description": "細いごぼうをまとめて揚げた一枚。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "udon-showa-2-section-3",
+          "title": "ご飯・飲みもの",
+          "items": [
+            {
+              "name": "梅胡麻むすび",
+              "price": 70,
+              "kind": "food",
+              "description": "梅と胡麻のご飯を握る。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "いなり 二個",
+              "price": 30,
+              "kind": "food",
+              "description": "甘酢飯を詰めたお揚げ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "おにぎり",
+              "price": 40,
+              "kind": "food",
+              "description": "梅か昆布を選べるおむすび。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "炊き込みご飯",
+              "price": 50,
+              "kind": "food",
+              "description": "鶏と根菜の小さなご飯。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ラムネ",
+              "price": 60,
+              "kind": "drink",
+              "description": "食後にも爽やかな炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "udon-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "温泉卵",
+              "price": 80,
+              "kind": "food",
+              "description": "うどんに追加できるとろりとした卵。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "鮭胡麻むすび",
+              "price": 100,
+              "kind": "food",
+              "description": "鮭と胡麻のご飯を握る。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "udon-showa-3",
+      "name": "うどん屋 東町一番",
+      "category": "udon",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "station",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "早朝営業のうどん屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした早朝営業のうどん屋。始発を待つ客と運転手が朝に集まる。昼は近隣の店で働く人が短時間で食事を取る。",
+      "openingHours": "10:30〜20:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "大きな時計と時刻表のある壁。釜の横から注文、受け取り、会計へ一列に進む。レジの横に黒電話と伝票の束を置く。",
+        "service": "出発時刻の迫った客には茹で上がっている麺を案内する。天ぷらは自分で選ぶ形式。",
+        "signature": "おろし冷やしうどん、いんげんの天ぷら、温かい番茶",
+        "localFlavor": "始発を待つ客と運転手が朝に集まる。昼は近隣の店で働く人が短時間で食事を取る。"
+      },
+      "menuSections": [
+        {
+          "id": "udon-showa-3-section-1",
+          "title": "うどん",
+          "items": [
+            {
+              "name": "おろし冷やしうどん",
+              "price": 110,
+              "kind": "food",
+              "description": "冷たい麺に大根おろし。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "かけうどん",
+              "price": 60,
+              "kind": "food",
+              "description": "いりこの旨みを感じる基本の出汁。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ぶっかけうどん",
+              "price": 70,
+              "kind": "food",
+              "description": "冷たい麺に濃いつゆをかけて。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "釜揚げうどん",
+              "price": 80,
+              "kind": "food",
+              "description": "ゆでたうどんをつゆで食べる。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "きつねうどん",
+              "price": 90,
+              "kind": "food",
+              "description": "甘く炊いた大きなお揚げ。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "肉うどん",
+              "price": 100,
+              "kind": "food",
+              "description": "甘辛く煮た牛肉をのせた一杯。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "すだちおろしうどん",
+              "price": 120,
+              "kind": "food",
+              "description": "すだちと大根おろしでさっぱり。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "udon-showa-3-section-2",
+          "title": "天ぷら",
+          "items": [
+            {
+              "name": "いんげんの天ぷら",
+              "price": 90,
+              "kind": "food",
+              "description": "いんげんを衣で揚げる。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "海老天",
+              "price": 40,
+              "kind": "food",
+              "description": "尾付き海老をさっくり揚げて。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ちくわ天",
+              "price": 50,
+              "kind": "food",
+              "description": "青海苔が香る定番の天ぷら。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "さつまいも天",
+              "price": 60,
+              "kind": "food",
+              "description": "輪切りの芋を衣で揚げる。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "かぼちゃ天",
+              "price": 70,
+              "kind": "food",
+              "description": "甘みのある厚切りかぼちゃ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "野菜かき揚げ",
+              "price": 80,
+              "kind": "food",
+              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ごぼうの細切りかき揚げ",
+              "price": 90,
+              "kind": "food",
+              "description": "細いごぼうをまとめて揚げた一枚。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "udon-showa-3-section-3",
+          "title": "ご飯・飲みもの",
+          "items": [
+            {
+              "name": "温かい番茶",
+              "price": 80,
+              "kind": "drink",
+              "description": "番茶を温かく淹れる。",
+              "recommendationGroup": "drink",
+              "id": "udon-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "いなり 二個",
+              "price": 30,
+              "kind": "food",
+              "description": "甘酢飯を詰めたお揚げ。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "おにぎり",
+              "price": 40,
+              "kind": "food",
+              "description": "梅か昆布を選べるおむすび。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "炊き込みご飯",
+              "price": 50,
+              "kind": "food",
+              "description": "鶏と根菜の小さなご飯。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ラムネ",
+              "price": 60,
+              "kind": "drink",
+              "description": "食後にも爽やかな炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "udon-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "温泉卵",
+              "price": 80,
+              "kind": "food",
+              "description": "うどんに追加できるとろりとした卵。",
+              "recommendationGroup": "side",
+              "id": "udon-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "鮭胡麻むすび",
+              "price": 100,
+              "kind": "food",
+              "description": "鮭と胡麻のご飯を握る。",
+              "recommendationGroup": "main",
+              "id": "udon-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

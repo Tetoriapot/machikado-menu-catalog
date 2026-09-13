@@ -704,6 +704,710 @@
         "signature": "鶏の柚子味噌焼き弁当と里芋とひき肉の照り煮",
         "localFlavor": "朝は通勤客、夕方は近所の住民が集まる。雨の日には店先の軒下で受け取りを待つ。"
       }
+    },
+    {
+      "id": "bento-heisei-1",
+      "name": "弁当屋 おひるの窓",
+      "category": "bento",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "定番メニューの弁当屋"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした定番メニューの弁当屋。近くの事務所から昼休みの客が集まる。まとまった予約弁当は、名前を書いた棚へ分けてある。",
+      "openingHours": "10:00〜20:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口に番号札の機械があり、奥では大きな炊飯器が湯気を上げる。待つ客用の椅子が壁に三脚。レジ横に公衆電話と時刻表がある。",
+        "service": "注文を受けてから詰め、揚げ物が必要な場合は待ち時間を先に伝える。",
+        "signature": "豚肉と玉ねぎの焼肉弁当、竹輪の甘辛炒め、温かい番茶カップ",
+        "localFlavor": "近くの事務所から昼休みの客が集まる。まとまった予約弁当は、名前を書いた棚へ分けてある。"
+      },
+      "menuSections": [
+        {
+          "id": "bento-heisei-1-section-1",
+          "title": "お弁当",
+          "items": [
+            {
+              "name": "豚肉と玉ねぎの焼肉弁当",
+              "price": 550,
+              "kind": "food",
+              "description": "焼肉と野菜を箱に詰める。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "のり弁当",
+              "price": 480,
+              "kind": "food",
+              "description": "白身フライとちくわ天の定番。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "唐揚げ弁当",
+              "price": 450,
+              "kind": "food",
+              "description": "醤油味の唐揚げ四個入り。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼き弁当",
+              "price": 500,
+              "kind": "food",
+              "description": "豚肉と玉ねぎの生姜炒め。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "焼き鮭弁当",
+              "price": 550,
+              "kind": "food",
+              "description": "焼き鮭と小さな煮物。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "幕の内弁当",
+              "price": 580,
+              "kind": "food",
+              "description": "焼き物、揚げ物、煮物を少しずつ。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "鶏南蛮弁当",
+              "price": 620,
+              "kind": "food",
+              "description": "甘酢チキンとタルタルソース。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bento-heisei-1-section-2",
+          "title": "おかず単品",
+          "items": [
+            {
+              "name": "竹輪の甘辛炒め",
+              "price": 150,
+              "kind": "food",
+              "description": "竹輪を甘辛く炒めたおかず。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "唐揚げ 三個",
+              "price": 180,
+              "kind": "food",
+              "description": "おかずを追加したい時に。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ポテトサラダ",
+              "price": 200,
+              "kind": "food",
+              "description": "小さなカップ入り。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "きんぴらごぼう",
+              "price": 220,
+              "kind": "food",
+              "description": "甘辛いごぼうの炒め煮。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉子焼き",
+              "price": 150,
+              "kind": "food",
+              "description": "甘めに焼いた三切れ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "コロッケ 二個",
+              "price": 250,
+              "kind": "food",
+              "description": "じゃがいもと挽肉のコロッケ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "里芋とひき肉の照り煮",
+              "price": 280,
+              "kind": "food",
+              "description": "里芋とひき肉を甘辛く煮た小さなカップ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bento-heisei-1-section-3",
+          "title": "追加・飲料",
+          "items": [
+            {
+              "name": "温かい番茶カップ",
+              "price": 180,
+              "kind": "drink",
+              "description": "温かい番茶を持ち帰る。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "ご飯大盛り",
+              "price": 100,
+              "kind": "addon",
+              "description": "弁当のご飯を増量。",
+              "id": "bento-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "白ご飯 単品",
+              "price": 120,
+              "kind": "food",
+              "description": "容器一杯の炊きたてご飯。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "即席味噌汁",
+              "price": 150,
+              "kind": "food",
+              "description": "お湯で作るわかめの味噌汁。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "緑茶 500ml",
+              "price": 180,
+              "kind": "drink",
+              "description": "お弁当に合うペットボトル茶。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "麦茶 500ml",
+              "price": 80,
+              "kind": "drink",
+              "description": "香ばしい無糖のお茶。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "しらす青菜ご飯への変更",
+              "price": 200,
+              "kind": "addon",
+              "description": "弁当の白飯をしらすと青菜のご飯に替える。",
+              "id": "bento-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bento-heisei-2",
+      "name": "手作り弁当 こまち坂",
+      "category": "bento",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "落ち着いた雰囲気の弁当屋"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした落ち着いた雰囲気の弁当屋。家へ帰る途中の客が一人分を買い、工事のある日は作業員の注文が朝から入る。",
+      "openingHours": "10:00〜20:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "道路向きの受け渡し窓と、日替わりを書いた白いボード。脇道側に自転車を置く小さな空間がある。入口に紙の地域情報誌が積まれている。",
+        "service": "ご飯の量を聞き、汁気のあるおかずは小容器へ分ける。夕方は温め直し方もひとこと添える。",
+        "signature": "鶏照り焼きのそぼろ弁当、茄子の胡麻和え、小盛り白飯への変更",
+        "localFlavor": "家へ帰る途中の客が一人分を買い、工事のある日は作業員の注文が朝から入る。"
+      },
+      "menuSections": [
+        {
+          "id": "bento-heisei-2-section-1",
+          "title": "お弁当",
+          "items": [
+            {
+              "name": "鶏照り焼きのそぼろ弁当",
+              "price": 600,
+              "kind": "food",
+              "description": "鶏照り焼きとそぼろのご飯。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "のり弁当",
+              "price": 480,
+              "kind": "food",
+              "description": "白身フライとちくわ天の定番。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "唐揚げ弁当",
+              "price": 450,
+              "kind": "food",
+              "description": "醤油味の唐揚げ四個入り。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼き弁当",
+              "price": 500,
+              "kind": "food",
+              "description": "豚肉と玉ねぎの生姜炒め。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "焼き鮭弁当",
+              "price": 550,
+              "kind": "food",
+              "description": "焼き鮭と小さな煮物。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "幕の内弁当",
+              "price": 580,
+              "kind": "food",
+              "description": "焼き物、揚げ物、煮物を少しずつ。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "鶏南蛮弁当",
+              "price": 620,
+              "kind": "food",
+              "description": "甘酢チキンとタルタルソース。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bento-heisei-2-section-2",
+          "title": "おかず単品",
+          "items": [
+            {
+              "name": "茄子の胡麻和え",
+              "price": 200,
+              "kind": "food",
+              "description": "柔らかな茄子を胡麻で和える。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "唐揚げ 三個",
+              "price": 180,
+              "kind": "food",
+              "description": "おかずを追加したい時に。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ポテトサラダ",
+              "price": 200,
+              "kind": "food",
+              "description": "小さなカップ入り。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "きんぴらごぼう",
+              "price": 220,
+              "kind": "food",
+              "description": "甘辛いごぼうの炒め煮。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉子焼き",
+              "price": 150,
+              "kind": "food",
+              "description": "甘めに焼いた三切れ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "コロッケ 二個",
+              "price": 250,
+              "kind": "food",
+              "description": "じゃがいもと挽肉のコロッケ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "里芋とひき肉の照り煮",
+              "price": 280,
+              "kind": "food",
+              "description": "里芋とひき肉を甘辛く煮た小さなカップ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bento-heisei-2-section-3",
+          "title": "追加・飲料",
+          "items": [
+            {
+              "name": "小盛り白飯への変更",
+              "price": 230,
+              "kind": "addon",
+              "description": "弁当のご飯を小盛りに替える。",
+              "id": "bento-heisei-2-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "ご飯大盛り",
+              "price": 100,
+              "kind": "addon",
+              "description": "弁当のご飯を増量。",
+              "id": "bento-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "白ご飯 単品",
+              "price": 120,
+              "kind": "food",
+              "description": "容器一杯の炊きたてご飯。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "即席味噌汁",
+              "price": 150,
+              "kind": "food",
+              "description": "お湯で作るわかめの味噌汁。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "緑茶 500ml",
+              "price": 180,
+              "kind": "drink",
+              "description": "お弁当に合うペットボトル茶。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "麦茶 500ml",
+              "price": 80,
+              "kind": "drink",
+              "description": "香ばしい無糖のお茶。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "しらす青菜ご飯への変更",
+              "price": 200,
+              "kind": "addon",
+              "description": "弁当の白飯をしらすと青菜のご飯に替える。",
+              "id": "bento-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bento-heisei-3",
+      "name": "お弁当 花時計亭",
+      "category": "bento",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "朝の弁当の弁当屋"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした朝の弁当の弁当屋。朝は通勤客、夕方は近所の住民が集まる。雨の日には店先の軒下で受け取りを待つ。",
+      "openingHours": "10:00〜20:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口のガラス棚に見本のお弁当が並ぶ。奥の調理場から炊きたてのご飯の湯気が上がる。カウンターに手書きの予約帳が置かれている。",
+        "service": "注文を受けてからご飯を詰め、持ち歩く時間を聞いて袋を分ける。",
+        "signature": "白身フライの二段弁当、かぼちゃの含め煮、持ち帰り豚汁",
+        "localFlavor": "朝は通勤客、夕方は近所の住民が集まる。雨の日には店先の軒下で受け取りを待つ。"
+      },
+      "menuSections": [
+        {
+          "id": "bento-heisei-3-section-1",
+          "title": "お弁当",
+          "items": [
+            {
+              "name": "白身フライの二段弁当",
+              "price": 650,
+              "kind": "food",
+              "description": "魚のフライとご飯を分ける。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "のり弁当",
+              "price": 480,
+              "kind": "food",
+              "description": "白身フライとちくわ天の定番。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "唐揚げ弁当",
+              "price": 450,
+              "kind": "food",
+              "description": "醤油味の唐揚げ四個入り。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼き弁当",
+              "price": 500,
+              "kind": "food",
+              "description": "豚肉と玉ねぎの生姜炒め。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "焼き鮭弁当",
+              "price": 550,
+              "kind": "food",
+              "description": "焼き鮭と小さな煮物。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "幕の内弁当",
+              "price": 580,
+              "kind": "food",
+              "description": "焼き物、揚げ物、煮物を少しずつ。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "鶏南蛮弁当",
+              "price": 620,
+              "kind": "food",
+              "description": "甘酢チキンとタルタルソース。",
+              "recommendationGroup": "main",
+              "id": "bento-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bento-heisei-3-section-2",
+          "title": "おかず単品",
+          "items": [
+            {
+              "name": "かぼちゃの含め煮",
+              "price": 250,
+              "kind": "food",
+              "description": "かぼちゃをだしで煮る。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "唐揚げ 三個",
+              "price": 180,
+              "kind": "food",
+              "description": "おかずを追加したい時に。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ポテトサラダ",
+              "price": 200,
+              "kind": "food",
+              "description": "小さなカップ入り。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "きんぴらごぼう",
+              "price": 220,
+              "kind": "food",
+              "description": "甘辛いごぼうの炒め煮。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉子焼き",
+              "price": 150,
+              "kind": "food",
+              "description": "甘めに焼いた三切れ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "コロッケ 二個",
+              "price": 250,
+              "kind": "food",
+              "description": "じゃがいもと挽肉のコロッケ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "里芋とひき肉の照り煮",
+              "price": 280,
+              "kind": "food",
+              "description": "里芋とひき肉を甘辛く煮た小さなカップ。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bento-heisei-3-section-3",
+          "title": "追加・飲料",
+          "items": [
+            {
+              "name": "持ち帰り豚汁",
+              "price": 280,
+              "kind": "food",
+              "description": "蓋付き容器で豚汁を渡す。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "ご飯大盛り",
+              "price": 100,
+              "kind": "addon",
+              "description": "弁当のご飯を増量。",
+              "id": "bento-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "白ご飯 単品",
+              "price": 120,
+              "kind": "food",
+              "description": "容器一杯の炊きたてご飯。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "即席味噌汁",
+              "price": 150,
+              "kind": "food",
+              "description": "お湯で作るわかめの味噌汁。",
+              "recommendationGroup": "side",
+              "id": "bento-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "緑茶 500ml",
+              "price": 180,
+              "kind": "drink",
+              "description": "お弁当に合うペットボトル茶。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "麦茶 500ml",
+              "price": 80,
+              "kind": "drink",
+              "description": "香ばしい無糖のお茶。",
+              "recommendationGroup": "drink",
+              "id": "bento-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "しらす青菜ご飯への変更",
+              "price": 200,
+              "kind": "addon",
+              "description": "弁当の白飯をしらすと青菜のご飯に替える。",
+              "id": "bento-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

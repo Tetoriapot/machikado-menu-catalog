@@ -7,7 +7,7 @@ import { renderMenuHtml,toMenuDocument } from '../src/lib/menu-document.ts';
 import { emptyLibrary, mergeBackup, parseBackup, randomPool, updateEntry, validateLibrary, type LibraryBackup } from '../src/lib/library.ts';
 import { menuPlainText, menuTotal, renderMenuCsv, renderMenuJson, renderMenuSvg } from '../src/lib/menu-export.ts';
 import { gmText } from '../src/lib/catalog.ts';
-const summaries=JSON.parse(readFileSync('src/data/generated-index.json','utf8')).shops as ShopSummary[];
+const summaries=(JSON.parse(readFileSync('src/data/generated-index.json','utf8')).shops as ShopSummary[]).filter(s=>s.era==='modern');
 const shop=JSON.parse(readFileSync('src/data/shops/kissaten.json','utf8')).shops[0] as Shop;
 const originalCategories=new Set((JSON.parse(readFileSync('scripts/third-shop-drafts.json','utf8')) as {category:string}[]).map(d=>d.category));
 const legacySummaries=summaries.filter(s=>originalCategories.has(s.category));

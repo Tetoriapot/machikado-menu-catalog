@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "grocer",
+    "label": "食料雑貨店",
+    "group": "小売店",
+    "icon": "basket"
+  },
+  "shops": [
+    {
+      "id": "grocer-victorian-1",
+      "name": "食料雑貨店・ブラウンバスケット",
+      "category": "grocer",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "量り売りの食料品店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした量り売りの食料品店。家の使いの人が買い物のメモを持って来る。",
+      "openingHours": "8:00〜19:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "粉の袋と豆の樽がカウンター奥に並ぶ。",
+        "service": "注文を聞いて品を量り、紙袋に移す。",
+        "signature": "大麦 一ポンド、玉ねぎの酢漬け瓶、濃い焙煎の珈琲袋",
+        "localFlavor": "家の使いの人が買い物のメモを持って来る。"
+      },
+      "menuSections": [
+        {
+          "id": "grocer-victorian-1-section-1",
+          "title": "穀物・保存食品",
+          "items": [
+            {
+              "name": "大麦 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "汁物用の大麦。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小麦粉 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "量り売りの小麦粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "燕麦 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "粥に使う燕麦の粒。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "米 一ポンド",
+              "price": 3,
+              "kind": "goods",
+              "description": "袋に量り入れた米。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "乾燥豆 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "煮込み用の乾いた豆。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "干しぶどう 小袋",
+              "price": 3,
+              "kind": "goods",
+              "description": "焼き菓子用の干し果実。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "乾燥りんご 小袋",
+              "price": 3,
+              "kind": "goods",
+              "description": "乾かしたりんごの袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "grocer-victorian-1-section-2",
+          "title": "瓶詰め・調味料",
+          "items": [
+            {
+              "name": "玉ねぎの酢漬け瓶",
+              "price": 5,
+              "kind": "goods",
+              "description": "小玉ねぎの保存食。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "苺ジャム 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "苺を煮詰めた瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マーマレード 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "柑橘の皮入りのジャム。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "からし粉 小缶",
+              "price": 4,
+              "kind": "goods",
+              "description": "水で練るからしの粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "食卓塩 小袋",
+              "price": 1,
+              "kind": "goods",
+              "description": "料理に使う塩の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜 小壺",
+              "price": 4,
+              "kind": "goods",
+              "description": "甘い糖蜜を壺に。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "酢 小瓶",
+              "price": 3,
+              "kind": "goods",
+              "description": "料理に使う酢の瓶。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "grocer-victorian-1-section-3",
+          "title": "飲料・生活小物",
+          "items": [
+            {
+              "name": "濃い焙煎の珈琲袋",
+              "price": 9,
+              "kind": "goods",
+              "description": "深煎りの珈琲豆。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "紅茶 茶葉小袋",
+              "price": 6,
+              "kind": "goods",
+              "description": "普段飲みの紅茶葉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "珈琲豆 小袋",
+              "price": 8,
+              "kind": "goods",
+              "description": "焙じた珈琲豆の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ココア 小缶",
+              "price": 8,
+              "kind": "goods",
+              "description": "飲料用のココア粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "洗濯石けん",
+              "price": 3,
+              "kind": "goods",
+              "description": "衣類を洗う石けん。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "蝋燭 二本",
+              "price": 2,
+              "kind": "goods",
+              "description": "明かりに使う蝋燭。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "箱入りマッチ",
+              "price": 1,
+              "kind": "goods",
+              "description": "火をつけるマッチ。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grocer-victorian-2",
+      "name": "食料雑貨店・アップルゲート",
+      "category": "grocer",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・田園の架空集落"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "村の保存食と日用品の店"
+      ],
+      "description": "1890年のイギリス・田園の架空集落を舞台にした村の保存食と日用品の店。農家の人が近況を話しながら品を補充する。",
+      "openingHours": "8:00〜19:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "瓶詰めの棚の下に野菜の籠がある。",
+        "service": "必要な日数を聞き、少量から量って渡す。",
+        "signature": "干し杏 小袋、黒すぐりジャム、丈夫な台所用たわし",
+        "localFlavor": "農家の人が近況を話しながら品を補充する。"
+      },
+      "menuSections": [
+        {
+          "id": "grocer-victorian-2-section-1",
+          "title": "穀物・保存食品",
+          "items": [
+            {
+              "name": "干し杏 小袋",
+              "price": 4,
+              "kind": "goods",
+              "description": "乾かした杏の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小麦粉 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "量り売りの小麦粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "燕麦 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "粥に使う燕麦の粒。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "米 一ポンド",
+              "price": 3,
+              "kind": "goods",
+              "description": "袋に量り入れた米。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "乾燥豆 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "煮込み用の乾いた豆。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "干しぶどう 小袋",
+              "price": 3,
+              "kind": "goods",
+              "description": "焼き菓子用の干し果実。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "乾燥りんご 小袋",
+              "price": 3,
+              "kind": "goods",
+              "description": "乾かしたりんごの袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "grocer-victorian-2-section-2",
+          "title": "瓶詰め・調味料",
+          "items": [
+            {
+              "name": "黒すぐりジャム",
+              "price": 7,
+              "kind": "goods",
+              "description": "果実を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "苺ジャム 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "苺を煮詰めた瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マーマレード 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "柑橘の皮入りのジャム。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "からし粉 小缶",
+              "price": 4,
+              "kind": "goods",
+              "description": "水で練るからしの粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "食卓塩 小袋",
+              "price": 1,
+              "kind": "goods",
+              "description": "料理に使う塩の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜 小壺",
+              "price": 4,
+              "kind": "goods",
+              "description": "甘い糖蜜を壺に。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "酢 小瓶",
+              "price": 3,
+              "kind": "goods",
+              "description": "料理に使う酢の瓶。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "grocer-victorian-2-section-3",
+          "title": "飲料・生活小物",
+          "items": [
+            {
+              "name": "丈夫な台所用たわし",
+              "price": 3,
+              "kind": "goods",
+              "description": "道具を洗うたわし。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "紅茶 茶葉小袋",
+              "price": 6,
+              "kind": "goods",
+              "description": "普段飲みの紅茶葉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "珈琲豆 小袋",
+              "price": 8,
+              "kind": "goods",
+              "description": "焙じた珈琲豆の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ココア 小缶",
+              "price": 8,
+              "kind": "goods",
+              "description": "飲料用のココア粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "洗濯石けん",
+              "price": 3,
+              "kind": "goods",
+              "description": "衣類を洗う石けん。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "蝋燭 二本",
+              "price": 2,
+              "kind": "goods",
+              "description": "明かりに使う蝋燭。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "箱入りマッチ",
+              "price": 1,
+              "kind": "goods",
+              "description": "火をつけるマッチ。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grocer-victorian-3",
+      "name": "食料雑貨店・コーナーランプ",
+      "category": "grocer",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・港の架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "船乗りと住民の雑貨店"
+      ],
+      "description": "1890年のイギリス・港の架空街区を舞台にした船乗りと住民の雑貨店。船への荷物を揃える人と近所の客が交じる。",
+      "openingHours": "8:00〜19:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口に蝋燭と縄の束、奥に食料の樽がある。",
+        "service": "持ち歩けるように袋を二重にして包む。",
+        "signature": "割りえんどう豆 一ポンド、にしんの塩漬け、木柄の小さなブラシ",
+        "localFlavor": "船への荷物を揃える人と近所の客が交じる。"
+      },
+      "menuSections": [
+        {
+          "id": "grocer-victorian-3-section-1",
+          "title": "穀物・保存食品",
+          "items": [
+            {
+              "name": "割りえんどう豆 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "半割りの乾燥豆。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小麦粉 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "量り売りの小麦粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "燕麦 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "粥に使う燕麦の粒。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "米 一ポンド",
+              "price": 3,
+              "kind": "goods",
+              "description": "袋に量り入れた米。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "乾燥豆 一ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "煮込み用の乾いた豆。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "干しぶどう 小袋",
+              "price": 3,
+              "kind": "goods",
+              "description": "焼き菓子用の干し果実。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "乾燥りんご 小袋",
+              "price": 3,
+              "kind": "goods",
+              "description": "乾かしたりんごの袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "grocer-victorian-3-section-2",
+          "title": "瓶詰め・調味料",
+          "items": [
+            {
+              "name": "にしんの塩漬け",
+              "price": 5,
+              "kind": "goods",
+              "description": "塩で保存した魚。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "苺ジャム 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "苺を煮詰めた瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マーマレード 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "柑橘の皮入りのジャム。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "からし粉 小缶",
+              "price": 4,
+              "kind": "goods",
+              "description": "水で練るからしの粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "食卓塩 小袋",
+              "price": 1,
+              "kind": "goods",
+              "description": "料理に使う塩の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜 小壺",
+              "price": 4,
+              "kind": "goods",
+              "description": "甘い糖蜜を壺に。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "酢 小瓶",
+              "price": 3,
+              "kind": "goods",
+              "description": "料理に使う酢の瓶。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "grocer-victorian-3-section-3",
+          "title": "飲料・生活小物",
+          "items": [
+            {
+              "name": "木柄の小さなブラシ",
+              "price": 4,
+              "kind": "goods",
+              "description": "家庭の掃除道具。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "紅茶 茶葉小袋",
+              "price": 6,
+              "kind": "goods",
+              "description": "普段飲みの紅茶葉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "珈琲豆 小袋",
+              "price": 8,
+              "kind": "goods",
+              "description": "焙じた珈琲豆の袋。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ココア 小缶",
+              "price": 8,
+              "kind": "goods",
+              "description": "飲料用のココア粉。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "洗濯石けん",
+              "price": 3,
+              "kind": "goods",
+              "description": "衣類を洗う石けん。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "蝋燭 二本",
+              "price": 2,
+              "kind": "goods",
+              "description": "明かりに使う蝋燭。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "箱入りマッチ",
+              "price": 1,
+              "kind": "goods",
+              "description": "火をつけるマッチ。",
+              "recommendationGroup": "goods",
+              "id": "grocer-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

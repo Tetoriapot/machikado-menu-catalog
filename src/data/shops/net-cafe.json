@@ -680,6 +680,691 @@
         "localFlavor": "昼は作業中の人、夜は長距離移動の休憩客が来る。明け方には窓際の読書席が明るくなる。"
       },
       "priceNote": "税込価格。利用料は1人あたりで、パックは一つを選択。延長・設備利用は別料金です。各パックの入店条件をご確認ください。"
+    },
+    {
+      "id": "net-cafe-heisei-1",
+      "name": "インターネット喫茶 回線坂",
+      "category": "net-cafe",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "時間制のインターネット喫茶"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした時間制のインターネット喫茶。駅前で終電後の休憩に使われる。",
+      "openingHours": "10:00〜22:00（火曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "机にブラウン管モニターが並び、壁に接続手順が貼られる。レジ横に公衆電話と時刻表がある。",
+        "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+        "signature": "二人の交代利用 九十分、ハムトースト、カラー印刷 一枚",
+        "localFlavor": "駅前で終電後の休憩に使われる。"
+      },
+      "menuSections": [
+        {
+          "id": "net-cafe-heisei-1-section-1",
+          "title": "利用料金 一人",
+          "items": [
+            {
+              "name": "二人の交代利用 九十分",
+              "price": 2000,
+              "kind": "fee",
+              "description": "一台を二人で交代して使う。",
+              "id": "net-cafe-heisei-1-signature-1",
+              "recommended": false
+            },
+            {
+              "name": "インターネット席 三十分",
+              "price": 300,
+              "kind": "fee",
+              "description": "一人三十分の端末利用。",
+              "id": "net-cafe-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "延長 十五分",
+              "price": 150,
+              "kind": "fee",
+              "description": "端末利用の延長料金。",
+              "id": "net-cafe-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "インターネット席 一時間",
+              "price": 550,
+              "kind": "fee",
+              "description": "一人一時間の端末利用。",
+              "id": "net-cafe-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ワープロ利用 一時間",
+              "price": 500,
+              "kind": "fee",
+              "description": "文書作成用の端末を使う。",
+              "id": "net-cafe-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "読書席 一時間",
+              "price": 300,
+              "kind": "fee",
+              "description": "新聞と雑誌を読める席。",
+              "id": "net-cafe-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "学生端末利用 一時間",
+              "price": 450,
+              "kind": "fee",
+              "description": "学生証提示時の一人分。",
+              "id": "net-cafe-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-heisei-1-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "name": "ハムトースト",
+              "price": 300,
+              "kind": "food",
+              "description": "ハムを載せて焼いたパン。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 500,
+              "kind": "food",
+              "description": "温かいカレーとご飯。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 350,
+              "kind": "food",
+              "description": "卵を挟んだ軽いサンド。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ミートソーススパゲティ",
+              "price": 550,
+              "kind": "food",
+              "description": "肉入りトマトソースの麺。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "フライドポテト",
+              "price": 250,
+              "kind": "food",
+              "description": "揚げた芋を小皿で出す。",
+              "recommendationGroup": "side",
+              "id": "net-cafe-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ホットドッグ",
+              "price": 300,
+              "kind": "food",
+              "description": "ソーセージをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 250,
+              "kind": "food",
+              "description": "厚めのパンをバターで焼く。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-heisei-1-section-3",
+          "title": "追加サービス",
+          "items": [
+            {
+              "name": "カラー印刷 一枚",
+              "price": 20,
+              "kind": "service",
+              "description": "文書や画像を一枚印刷する。",
+              "id": "net-cafe-heisei-1-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "白黒印刷 一枚",
+              "price": 20,
+              "kind": "service",
+              "description": "作った文書を一枚印刷。",
+              "id": "net-cafe-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "フロッピーディスク 一枚",
+              "price": 150,
+              "kind": "goods",
+              "description": "文書を持ち帰る記録媒体。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "封筒 五枚",
+              "price": 100,
+              "kind": "goods",
+              "description": "印刷した文書を入れる封筒。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ブレンド珈琲",
+              "price": 250,
+              "kind": "drink",
+              "description": "温かい珈琲をカップで。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 250,
+              "kind": "drink",
+              "description": "温かい紅茶をカップで。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 200,
+              "kind": "drink",
+              "description": "冷たい果実飲料を出す。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "net-cafe-heisei-2",
+      "name": "ネットサロン 若葉リンク",
+      "category": "net-cafe",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "新聞も読めるパソコン喫茶"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした新聞も読めるパソコン喫茶。大学とオフィスの間で、昼の作業利用が多い。",
+      "openingHours": "10:00〜22:00（火曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "雑誌棚の奥にデスクトップ機が三台置かれる。入口に紙の地域情報誌が積まれている。",
+        "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+        "signature": "文書作成 二時間、野菜カレー、文書保存用ディスクケース",
+        "localFlavor": "大学とオフィスの間で、昼の作業利用が多い。"
+      },
+      "menuSections": [
+        {
+          "id": "net-cafe-heisei-2-section-1",
+          "title": "利用料金 一人",
+          "items": [
+            {
+              "name": "文書作成 二時間",
+              "price": 2050,
+              "kind": "fee",
+              "description": "一人で文書用端末を使う。",
+              "id": "net-cafe-heisei-2-signature-1",
+              "recommended": false
+            },
+            {
+              "name": "インターネット席 三十分",
+              "price": 300,
+              "kind": "fee",
+              "description": "一人三十分の端末利用。",
+              "id": "net-cafe-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "延長 十五分",
+              "price": 150,
+              "kind": "fee",
+              "description": "端末利用の延長料金。",
+              "id": "net-cafe-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "インターネット席 一時間",
+              "price": 550,
+              "kind": "fee",
+              "description": "一人一時間の端末利用。",
+              "id": "net-cafe-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ワープロ利用 一時間",
+              "price": 500,
+              "kind": "fee",
+              "description": "文書作成用の端末を使う。",
+              "id": "net-cafe-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "読書席 一時間",
+              "price": 300,
+              "kind": "fee",
+              "description": "新聞と雑誌を読める席。",
+              "id": "net-cafe-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "学生端末利用 一時間",
+              "price": 450,
+              "kind": "fee",
+              "description": "学生証提示時の一人分。",
+              "id": "net-cafe-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-heisei-2-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "name": "野菜カレー",
+              "price": 350,
+              "kind": "food",
+              "description": "野菜を加えたカレーライス。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 500,
+              "kind": "food",
+              "description": "温かいカレーとご飯。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 350,
+              "kind": "food",
+              "description": "卵を挟んだ軽いサンド。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ミートソーススパゲティ",
+              "price": 550,
+              "kind": "food",
+              "description": "肉入りトマトソースの麺。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "フライドポテト",
+              "price": 250,
+              "kind": "food",
+              "description": "揚げた芋を小皿で出す。",
+              "recommendationGroup": "side",
+              "id": "net-cafe-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ホットドッグ",
+              "price": 300,
+              "kind": "food",
+              "description": "ソーセージをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 250,
+              "kind": "food",
+              "description": "厚めのパンをバターで焼く。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-heisei-2-section-3",
+          "title": "追加サービス",
+          "items": [
+            {
+              "name": "文書保存用ディスクケース",
+              "price": 70,
+              "kind": "goods",
+              "description": "ディスクを保護するケース。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "白黒印刷 一枚",
+              "price": 20,
+              "kind": "service",
+              "description": "作った文書を一枚印刷。",
+              "id": "net-cafe-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "フロッピーディスク 一枚",
+              "price": 150,
+              "kind": "goods",
+              "description": "文書を持ち帰る記録媒体。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "封筒 五枚",
+              "price": 100,
+              "kind": "goods",
+              "description": "印刷した文書を入れる封筒。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ブレンド珈琲",
+              "price": 250,
+              "kind": "drink",
+              "description": "温かい珈琲をカップで。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 250,
+              "kind": "drink",
+              "description": "温かい紅茶をカップで。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 200,
+              "kind": "drink",
+              "description": "冷たい果実飲料を出す。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "net-cafe-heisei-3",
+      "name": "パソコン喫茶 コネクト亭",
+      "category": "net-cafe",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "印刷を頼めるネット喫茶"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした印刷を頼めるネット喫茶。昼は作業中の人、夜は長距離移動の休憩客が来る。明け方には窓際の読書席が明るくなる。",
+      "openingHours": "10:00〜22:00（火曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "パソコンの横にフロッピーディスクのケースが並ぶ。カウンターに手書きの予約帳が置かれている。",
+        "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+        "signature": "調べもの端末 二時間、チーズホットサンド、スキャナー利用 一枚",
+        "localFlavor": "昼は作業中の人、夜は長距離移動の休憩客が来る。明け方には窓際の読書席が明るくなる。"
+      },
+      "menuSections": [
+        {
+          "id": "net-cafe-heisei-3-section-1",
+          "title": "利用料金 一人",
+          "items": [
+            {
+              "name": "調べもの端末 二時間",
+              "price": 2100,
+              "kind": "fee",
+              "description": "一人で通信端末を使う。",
+              "id": "net-cafe-heisei-3-signature-1",
+              "recommended": false
+            },
+            {
+              "name": "インターネット席 三十分",
+              "price": 300,
+              "kind": "fee",
+              "description": "一人三十分の端末利用。",
+              "id": "net-cafe-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "延長 十五分",
+              "price": 150,
+              "kind": "fee",
+              "description": "端末利用の延長料金。",
+              "id": "net-cafe-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "インターネット席 一時間",
+              "price": 550,
+              "kind": "fee",
+              "description": "一人一時間の端末利用。",
+              "id": "net-cafe-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ワープロ利用 一時間",
+              "price": 500,
+              "kind": "fee",
+              "description": "文書作成用の端末を使う。",
+              "id": "net-cafe-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "読書席 一時間",
+              "price": 300,
+              "kind": "fee",
+              "description": "新聞と雑誌を読める席。",
+              "id": "net-cafe-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "学生端末利用 一時間",
+              "price": 450,
+              "kind": "fee",
+              "description": "学生証提示時の一人分。",
+              "id": "net-cafe-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-heisei-3-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "name": "チーズホットサンド",
+              "price": 400,
+              "kind": "food",
+              "description": "チーズを挟んで温める。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 500,
+              "kind": "food",
+              "description": "温かいカレーとご飯。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 350,
+              "kind": "food",
+              "description": "卵を挟んだ軽いサンド。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ミートソーススパゲティ",
+              "price": 550,
+              "kind": "food",
+              "description": "肉入りトマトソースの麺。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "フライドポテト",
+              "price": 250,
+              "kind": "food",
+              "description": "揚げた芋を小皿で出す。",
+              "recommendationGroup": "side",
+              "id": "net-cafe-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ホットドッグ",
+              "price": 300,
+              "kind": "food",
+              "description": "ソーセージをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 250,
+              "kind": "food",
+              "description": "厚めのパンをバターで焼く。",
+              "recommendationGroup": "main",
+              "id": "net-cafe-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-heisei-3-section-3",
+          "title": "追加サービス",
+          "items": [
+            {
+              "name": "スキャナー利用 一枚",
+              "price": 120,
+              "kind": "service",
+              "description": "紙の画像を一枚取り込む。",
+              "id": "net-cafe-heisei-3-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "白黒印刷 一枚",
+              "price": 20,
+              "kind": "service",
+              "description": "作った文書を一枚印刷。",
+              "id": "net-cafe-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "フロッピーディスク 一枚",
+              "price": 150,
+              "kind": "goods",
+              "description": "文書を持ち帰る記録媒体。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "封筒 五枚",
+              "price": 100,
+              "kind": "goods",
+              "description": "印刷した文書を入れる封筒。",
+              "recommendationGroup": "goods",
+              "id": "net-cafe-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ブレンド珈琲",
+              "price": 250,
+              "kind": "drink",
+              "description": "温かい珈琲をカップで。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 250,
+              "kind": "drink",
+              "description": "温かい紅茶をカップで。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 200,
+              "kind": "drink",
+              "description": "冷たい果実飲料を出す。",
+              "recommendationGroup": "drink",
+              "id": "net-cafe-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

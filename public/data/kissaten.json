@@ -708,6 +708,1428 @@
         "signature": "音盤ブレンド珈琲と厚切りベーコンのクロックムッシュ",
         "localFlavor": "近所の音楽好きが新しく入った盤の話をしに来る。夕方には学校帰りの楽器ケースが椅子の横に並ぶ。"
       }
+    },
+    {
+      "id": "kissaten-heisei-1",
+      "name": "喫茶 若葉の時計",
+      "category": "kissaten",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "昭和レトロの純喫茶"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした昭和レトロの純喫茶。古い商店街の店主たちが開店前に集まる。",
+      "openingHours": "8:00〜20:00（水曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "赤いビロード椅子と振り子時計。奥に二人席が二卓。レジ横に公衆電話と時刻表がある。",
+        "service": "新聞を広げた常連を急かさず、空いたカップだけ静かに下げる。",
+        "signature": "ミルク多めの珈琲、玉子と胡瓜のサンド、桃のプリン皿",
+        "localFlavor": "古い商店街の店主たちが開店前に集まる。"
+      },
+      "menuSections": [
+        {
+          "id": "kissaten-heisei-1-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "name": "ミルク多めの珈琲",
+              "price": 380,
+              "kind": "drink",
+              "description": "温かいミルクを多めに注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ブレンドコーヒー",
+              "price": 350,
+              "kind": "drink",
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "アメリカン",
+              "price": 400,
+              "kind": "food",
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommendationGroup": "main",
+              "id": "kissaten-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "カフェオレ",
+              "price": 400,
+              "kind": "drink",
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 380,
+              "kind": "drink",
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 450,
+              "kind": "drink",
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ウインナーコーヒー",
+              "price": 450,
+              "kind": "drink",
+              "description": "深煎りに軽く泡立てた生クリームを浮かべて。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-heisei-1-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "name": "玉子と胡瓜のサンド",
+              "price": 650,
+              "kind": "food",
+              "description": "卵と薄切り胡瓜を挟む。",
+              "recommendationGroup": "main",
+              "id": "kissaten-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ナポリタン",
+              "price": 500,
+              "kind": "food",
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ミックスサンド",
+              "price": 550,
+              "kind": "food",
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 600,
+              "kind": "food",
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "厚切りバタートースト",
+              "price": 650,
+              "kind": "food",
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピザトースト",
+              "price": 450,
+              "kind": "food",
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "モーニングセット",
+              "price": 480,
+              "kind": "food",
+              "description": "11時まで。珈琲、トースト、ゆで卵のセット。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-heisei-1-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "name": "桃のプリン皿",
+              "price": 400,
+              "kind": "food",
+              "description": "プリンに桃の甘煮を添える。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "自家製プリン",
+              "price": 300,
+              "kind": "food",
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ホットケーキ",
+              "price": 350,
+              "kind": "food",
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコレートパフェ",
+              "price": 380,
+              "kind": "food",
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲ゼリー",
+              "price": 400,
+              "kind": "food",
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンケーキ",
+              "price": 320,
+              "kind": "food",
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ラムレーズンのバターケーキ",
+              "price": 420,
+              "kind": "food",
+              "description": "ラムの香るレーズンを焼き込んだ一切れ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kissaten-heisei-2",
+      "name": "珈琲館 夕映えノート",
+      "category": "kissaten",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "静かな空間の純喫茶"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした静かな空間の純喫茶。通勤の待ち時間に寄る人と、近くの出版社の客が多い。",
+      "openingHours": "8:00〜20:00（水曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "駅を見下ろす窓際カウンターと壁一面の文庫本。入口に紙の地域情報誌が積まれている。",
+        "service": "一人客には水のポットを置き、静かに読書できる距離を保つ。",
+        "signature": "レモン入りアイスティー、ハムエッグトースト、バナナのアイス添え",
+        "localFlavor": "通勤の待ち時間に寄る人と、近くの出版社の客が多い。"
+      },
+      "menuSections": [
+        {
+          "id": "kissaten-heisei-2-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "name": "レモン入りアイスティー",
+              "price": 430,
+              "kind": "drink",
+              "description": "冷たい紅茶にレモンを添える。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ブレンドコーヒー",
+              "price": 350,
+              "kind": "drink",
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "アメリカン",
+              "price": 400,
+              "kind": "food",
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommendationGroup": "main",
+              "id": "kissaten-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "カフェオレ",
+              "price": 400,
+              "kind": "drink",
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 380,
+              "kind": "drink",
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 450,
+              "kind": "drink",
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ウインナーコーヒー",
+              "price": 450,
+              "kind": "drink",
+              "description": "深煎りに軽く泡立てた生クリームを浮かべて。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-heisei-2-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "name": "ハムエッグトースト",
+              "price": 700,
+              "kind": "food",
+              "description": "焼いたパンにハムと卵。",
+              "recommendationGroup": "main",
+              "id": "kissaten-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ナポリタン",
+              "price": 500,
+              "kind": "food",
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ミックスサンド",
+              "price": 550,
+              "kind": "food",
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 600,
+              "kind": "food",
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "厚切りバタートースト",
+              "price": 650,
+              "kind": "food",
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピザトースト",
+              "price": 450,
+              "kind": "food",
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "モーニングセット",
+              "price": 480,
+              "kind": "food",
+              "description": "11時まで。珈琲、トースト、ゆで卵のセット。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-heisei-2-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "name": "バナナのアイス添え",
+              "price": 450,
+              "kind": "food",
+              "description": "バナナに小さなアイスを添える。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "自家製プリン",
+              "price": 300,
+              "kind": "food",
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ホットケーキ",
+              "price": 350,
+              "kind": "food",
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコレートパフェ",
+              "price": 380,
+              "kind": "food",
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲ゼリー",
+              "price": 400,
+              "kind": "food",
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンケーキ",
+              "price": 320,
+              "kind": "food",
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ラムレーズンのバターケーキ",
+              "price": 420,
+              "kind": "food",
+              "description": "ラムの香るレーズンを焼き込んだ一切れ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kissaten-heisei-3",
+      "name": "純喫茶 青いポスト",
+      "category": "kissaten",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "音楽の純喫茶"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした音楽の純喫茶。近所の音楽好きが新しく入った盤の話をしに来る。夕方には学校帰りの楽器ケースが椅子の横に並ぶ。",
+      "openingHours": "8:00〜20:00（水曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "壁一面にレコードの背が並び、窓際には二人席が三卓。カウンターの奥で古いプレーヤーが回る。カウンターに手書きの予約帳が置かれている。",
+        "service": "曲の合間に静かに注文を聞く。読書中の客には伝票を伏せて置き、水をそっと足す。",
+        "signature": "深煎りの濃い珈琲、ツナと玉ねぎのサンド、りんごの甘煮とケーキ",
+        "localFlavor": "近所の音楽好きが新しく入った盤の話をしに来る。夕方には学校帰りの楽器ケースが椅子の横に並ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "kissaten-heisei-3-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "name": "深煎りの濃い珈琲",
+              "price": 480,
+              "kind": "drink",
+              "description": "深く煎った豆の珈琲。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ブレンドコーヒー",
+              "price": 350,
+              "kind": "drink",
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "アメリカン",
+              "price": 400,
+              "kind": "food",
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommendationGroup": "main",
+              "id": "kissaten-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "カフェオレ",
+              "price": 400,
+              "kind": "drink",
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 380,
+              "kind": "drink",
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 450,
+              "kind": "drink",
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ウインナーコーヒー",
+              "price": 450,
+              "kind": "drink",
+              "description": "深煎りに軽く泡立てた生クリームを浮かべて。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-heisei-3-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "name": "ツナと玉ねぎのサンド",
+              "price": 750,
+              "kind": "food",
+              "description": "ツナと玉ねぎをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "kissaten-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ナポリタン",
+              "price": 500,
+              "kind": "food",
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ミックスサンド",
+              "price": 550,
+              "kind": "food",
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 600,
+              "kind": "food",
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "厚切りバタートースト",
+              "price": 650,
+              "kind": "food",
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピザトースト",
+              "price": 450,
+              "kind": "food",
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "モーニングセット",
+              "price": 480,
+              "kind": "food",
+              "description": "11時まで。珈琲、トースト、ゆで卵のセット。",
+              "recommendationGroup": "side",
+              "id": "kissaten-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-heisei-3-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "name": "りんごの甘煮とケーキ",
+              "price": 500,
+              "kind": "food",
+              "description": "焼き菓子に煮りんごを添える。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "自家製プリン",
+              "price": 300,
+              "kind": "food",
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ホットケーキ",
+              "price": 350,
+              "kind": "food",
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコレートパフェ",
+              "price": 380,
+              "kind": "food",
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲ゼリー",
+              "price": 400,
+              "kind": "food",
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンケーキ",
+              "price": 320,
+              "kind": "food",
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ラムレーズンのバターケーキ",
+              "price": 420,
+              "kind": "food",
+              "description": "ラムの香るレーズンを焼き込んだ一切れ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kissaten-showa-1",
+      "name": "喫茶 すずらん坂",
+      "category": "kissaten",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "昭和レトロの純喫茶"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした昭和レトロの純喫茶。古い商店街の店主たちが開店前に集まる。",
+      "openingHours": "8:00〜20:00（水曜休）",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "赤いビロード椅子と振り子時計。奥に二人席が二卓。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "新聞を広げた常連を急かさず、空いたカップだけ静かに下げる。",
+        "signature": "ミルク多めの珈琲、玉子と胡瓜のサンド、桃のプリン皿",
+        "localFlavor": "古い商店街の店主たちが開店前に集まる。"
+      },
+      "menuSections": [
+        {
+          "id": "kissaten-showa-1-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "name": "ミルク多めの珈琲",
+              "price": 90,
+              "kind": "drink",
+              "description": "温かいミルクを多めに注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ブレンドコーヒー",
+              "price": 80,
+              "kind": "drink",
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "アメリカン",
+              "price": 90,
+              "kind": "food",
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommendationGroup": "main",
+              "id": "kissaten-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "カフェオレ",
+              "price": 100,
+              "kind": "drink",
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 90,
+              "kind": "drink",
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 120,
+              "kind": "drink",
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ウインナーコーヒー",
+              "price": 100,
+              "kind": "drink",
+              "description": "深煎りに軽く泡立てた生クリームを浮かべて。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-showa-1-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "name": "玉子と胡瓜のサンド",
+              "price": 220,
+              "kind": "food",
+              "description": "卵と薄切り胡瓜を挟む。",
+              "recommendationGroup": "main",
+              "id": "kissaten-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ナポリタン",
+              "price": 150,
+              "kind": "food",
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ミックスサンド",
+              "price": 180,
+              "kind": "food",
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 200,
+              "kind": "food",
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "厚切りバタートースト",
+              "price": 220,
+              "kind": "food",
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピザトースト",
+              "price": 130,
+              "kind": "food",
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "モーニングセット",
+              "price": 160,
+              "kind": "food",
+              "description": "11時まで。珈琲、トースト、ゆで卵のセット。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-showa-1-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "name": "桃のプリン皿",
+              "price": 150,
+              "kind": "food",
+              "description": "プリンに桃の甘煮を添える。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "自家製プリン",
+              "price": 80,
+              "kind": "food",
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ホットケーキ",
+              "price": 100,
+              "kind": "food",
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコレートパフェ",
+              "price": 120,
+              "kind": "food",
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲ゼリー",
+              "price": 150,
+              "kind": "food",
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンケーキ",
+              "price": 100,
+              "kind": "food",
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ラムレーズンのバターケーキ",
+              "price": 130,
+              "kind": "food",
+              "description": "ラムの香るレーズンを焼き込んだ一切れ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kissaten-showa-2",
+      "name": "純喫茶 三日月座",
+      "category": "kissaten",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "静かな空間の純喫茶"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした静かな空間の純喫茶。通勤の待ち時間に寄る人と、近くの出版社の客が多い。",
+      "openingHours": "8:00〜20:00（水曜休）",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "駅を見下ろす窓際カウンターと壁一面の文庫本。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "一人客には水のポットを置き、静かに読書できる距離を保つ。",
+        "signature": "レモン入りアイスティー、ハムエッグトースト、バナナのアイス添え",
+        "localFlavor": "通勤の待ち時間に寄る人と、近くの出版社の客が多い。"
+      },
+      "menuSections": [
+        {
+          "id": "kissaten-showa-2-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "name": "レモン入りアイスティー",
+              "price": 100,
+              "kind": "drink",
+              "description": "冷たい紅茶にレモンを添える。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ブレンドコーヒー",
+              "price": 80,
+              "kind": "drink",
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "アメリカン",
+              "price": 90,
+              "kind": "food",
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommendationGroup": "main",
+              "id": "kissaten-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "カフェオレ",
+              "price": 100,
+              "kind": "drink",
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 90,
+              "kind": "drink",
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 120,
+              "kind": "drink",
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ウインナーコーヒー",
+              "price": 100,
+              "kind": "drink",
+              "description": "深煎りに軽く泡立てた生クリームを浮かべて。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-showa-2-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "name": "ハムエッグトースト",
+              "price": 230,
+              "kind": "food",
+              "description": "焼いたパンにハムと卵。",
+              "recommendationGroup": "main",
+              "id": "kissaten-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ナポリタン",
+              "price": 150,
+              "kind": "food",
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ミックスサンド",
+              "price": 180,
+              "kind": "food",
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 200,
+              "kind": "food",
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "厚切りバタートースト",
+              "price": 220,
+              "kind": "food",
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピザトースト",
+              "price": 130,
+              "kind": "food",
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "モーニングセット",
+              "price": 160,
+              "kind": "food",
+              "description": "11時まで。珈琲、トースト、ゆで卵のセット。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-showa-2-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "name": "バナナのアイス添え",
+              "price": 160,
+              "kind": "food",
+              "description": "バナナに小さなアイスを添える。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "自家製プリン",
+              "price": 80,
+              "kind": "food",
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ホットケーキ",
+              "price": 100,
+              "kind": "food",
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコレートパフェ",
+              "price": 120,
+              "kind": "food",
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲ゼリー",
+              "price": 150,
+              "kind": "food",
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンケーキ",
+              "price": 100,
+              "kind": "food",
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ラムレーズンのバターケーキ",
+              "price": 130,
+              "kind": "food",
+              "description": "ラムの香るレーズンを焼き込んだ一切れ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kissaten-showa-3",
+      "name": "珈琲店 東町ランプ",
+      "category": "kissaten",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "音楽の純喫茶"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした音楽の純喫茶。近所の音楽好きが新しく入った盤の話をしに来る。夕方には学校帰りの楽器ケースが椅子の横に並ぶ。",
+      "openingHours": "8:00〜20:00（水曜休）",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "壁一面にレコードの背が並び、窓際には二人席が三卓。カウンターの奥で古いプレーヤーが回る。レジの横に黒電話と伝票の束を置く。",
+        "service": "曲の合間に静かに注文を聞く。読書中の客には伝票を伏せて置き、水をそっと足す。",
+        "signature": "深煎りの濃い珈琲、ツナと玉ねぎのサンド、りんごの甘煮とケーキ",
+        "localFlavor": "近所の音楽好きが新しく入った盤の話をしに来る。夕方には学校帰りの楽器ケースが椅子の横に並ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "kissaten-showa-3-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "name": "深煎りの濃い珈琲",
+              "price": 110,
+              "kind": "drink",
+              "description": "深く煎った豆の珈琲。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ブレンドコーヒー",
+              "price": 80,
+              "kind": "drink",
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "アメリカン",
+              "price": 90,
+              "kind": "food",
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommendationGroup": "main",
+              "id": "kissaten-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "カフェオレ",
+              "price": 100,
+              "kind": "drink",
+              "description": "温めたミルクと深煎り珈琲を半分ずつ。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 90,
+              "kind": "drink",
+              "description": "ポットで提供する、香り豊かなセイロンティー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 120,
+              "kind": "drink",
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ウインナーコーヒー",
+              "price": 100,
+              "kind": "drink",
+              "description": "深煎りに軽く泡立てた生クリームを浮かべて。",
+              "recommendationGroup": "drink",
+              "id": "kissaten-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-showa-3-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "name": "ツナと玉ねぎのサンド",
+              "price": 240,
+              "kind": "food",
+              "description": "ツナと玉ねぎをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "kissaten-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ナポリタン",
+              "price": 150,
+              "kind": "food",
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ミックスサンド",
+              "price": 180,
+              "kind": "food",
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ビーフカレー",
+              "price": 200,
+              "kind": "food",
+              "description": "玉ねぎをじっくり煮込んだまろやかなカレー。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "厚切りバタートースト",
+              "price": 220,
+              "kind": "food",
+              "description": "外はさっくり、中はふんわりの厚切り。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピザトースト",
+              "price": 130,
+              "kind": "food",
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "モーニングセット",
+              "price": 160,
+              "kind": "food",
+              "description": "11時まで。珈琲、トースト、ゆで卵のセット。",
+              "recommendationGroup": "side",
+              "id": "kissaten-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "kissaten-showa-3-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "name": "りんごの甘煮とケーキ",
+              "price": 170,
+              "kind": "food",
+              "description": "焼き菓子に煮りんごを添える。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "自家製プリン",
+              "price": 80,
+              "kind": "food",
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ホットケーキ",
+              "price": 100,
+              "kind": "food",
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコレートパフェ",
+              "price": 120,
+              "kind": "food",
+              "description": "バナナとチョコアイスを重ねた定番パフェ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲ゼリー",
+              "price": 150,
+              "kind": "food",
+              "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンケーキ",
+              "price": 100,
+              "kind": "food",
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ラムレーズンのバターケーキ",
+              "price": 130,
+              "kind": "food",
+              "description": "ラムの香るレーズンを焼き込んだ一切れ。",
+              "recommendationGroup": "dessert",
+              "id": "kissaten-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

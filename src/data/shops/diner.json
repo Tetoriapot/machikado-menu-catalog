@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "diner",
+    "label": "ダイナー・ランチルーム",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "diner-america-1920s-1",
+      "name": "ダイナー・シルバートラック",
+      "category": "diner",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "駅近くの早朝ダイナー"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした駅近くの早朝ダイナー。鉄道の勤務を終えた人が朝食に来る。",
+      "openingHours": "6:00〜22:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "長いカウンターと回転する丸椅子が並ぶ。",
+        "service": "珈琲を注ぎ、卵の焼き方を短く尋ねる。",
+        "signature": "夜明けのコーンビーフ皿、玉ねぎと芋の焼き皿、バナナクリームパイ",
+        "localFlavor": "鉄道の勤務を終えた人が朝食に来る。"
+      },
+      "menuSections": [
+        {
+          "id": "diner-america-1920s-1-section-1",
+          "title": "朝食・食事",
+          "items": [
+            {
+              "name": "夜明けのコーンビーフ皿",
+              "price": 35,
+              "kind": "food",
+              "description": "肉と芋を炒める。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "卵二個とトースト",
+              "price": 25,
+              "kind": "food",
+              "description": "焼いた卵とパン。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハムエッグ",
+              "price": 35,
+              "kind": "food",
+              "description": "ハムと卵を鉄板で。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ベーコンエッグ",
+              "price": 35,
+              "kind": "food",
+              "description": "ベーコンに卵を添える。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ハンバーグステーキ",
+              "price": 40,
+              "kind": "food",
+              "description": "挽肉のステーキ。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ビーフシチュー",
+              "price": 35,
+              "kind": "food",
+              "description": "牛肉と野菜の煮込み。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンドイッチ",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムを挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "diner-america-1920s-1-section-2",
+          "title": "付け合わせ",
+          "items": [
+            {
+              "name": "玉ねぎと芋の焼き皿",
+              "price": 15,
+              "kind": "food",
+              "description": "玉ねぎと芋を焼く。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 10,
+              "kind": "food",
+              "description": "揚げたじゃがいも。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー",
+              "price": 10,
+              "kind": "food",
+              "description": "刻みキャベツのサラダ。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "豆の煮込み",
+              "price": 10,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 5,
+              "kind": "food",
+              "description": "パン一切れにバター。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "小さなスープ",
+              "price": 10,
+              "kind": "food",
+              "description": "一杯分の温かい汁。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ピクルス",
+              "price": 5,
+              "kind": "food",
+              "description": "きゅうりの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "diner-america-1920s-1-section-3",
+          "title": "飲みもの・パイ",
+          "items": [
+            {
+              "name": "バナナクリームパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "バナナとクリームのパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "珈琲",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい珈琲を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "牛乳",
+              "price": 10,
+              "kind": "drink",
+              "description": "冷たい牛乳のグラス。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい紅茶のカップ。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アップルパイ",
+              "price": 15,
+              "kind": "food",
+              "description": "りんごを詰めたパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "チェリーパイ",
+              "price": 15,
+              "kind": "food",
+              "description": "さくらんぼのパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "チョコケーキ",
+              "price": 15,
+              "kind": "food",
+              "description": "チョコ風味のケーキ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diner-america-1920s-2",
+      "name": "ランチルーム・メイプルデスク",
+      "category": "diner",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "事務街の昼食店"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした事務街の昼食店。昼休みの事務員が短い時間で食事をする。",
+      "openingHours": "6:00〜22:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "壁に大きな料理札と短い伝票の束がある。",
+        "service": "昼の客には出来上がりの早い料理を示す。",
+        "signature": "ミートローフとグレイビー、蒸し人参の小皿、レモンメレンゲパイ",
+        "localFlavor": "昼休みの事務員が短い時間で食事をする。"
+      },
+      "menuSections": [
+        {
+          "id": "diner-america-1920s-2-section-1",
+          "title": "朝食・食事",
+          "items": [
+            {
+              "name": "ミートローフとグレイビー",
+              "price": 45,
+              "kind": "food",
+              "description": "挽肉の焼きものに肉汁。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "卵二個とトースト",
+              "price": 25,
+              "kind": "food",
+              "description": "焼いた卵とパン。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハムエッグ",
+              "price": 35,
+              "kind": "food",
+              "description": "ハムと卵を鉄板で。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ベーコンエッグ",
+              "price": 35,
+              "kind": "food",
+              "description": "ベーコンに卵を添える。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ハンバーグステーキ",
+              "price": 40,
+              "kind": "food",
+              "description": "挽肉のステーキ。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ビーフシチュー",
+              "price": 35,
+              "kind": "food",
+              "description": "牛肉と野菜の煮込み。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンドイッチ",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムを挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "diner-america-1920s-2-section-2",
+          "title": "付け合わせ",
+          "items": [
+            {
+              "name": "蒸し人参の小皿",
+              "price": 10,
+              "kind": "food",
+              "description": "人参を柔らかく蒸す。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 10,
+              "kind": "food",
+              "description": "揚げたじゃがいも。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー",
+              "price": 10,
+              "kind": "food",
+              "description": "刻みキャベツのサラダ。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "豆の煮込み",
+              "price": 10,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 5,
+              "kind": "food",
+              "description": "パン一切れにバター。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "小さなスープ",
+              "price": 10,
+              "kind": "food",
+              "description": "一杯分の温かい汁。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ピクルス",
+              "price": 5,
+              "kind": "food",
+              "description": "きゅうりの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "diner-america-1920s-2-section-3",
+          "title": "飲みもの・パイ",
+          "items": [
+            {
+              "name": "レモンメレンゲパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "レモンと卵白のパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "珈琲",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい珈琲を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "牛乳",
+              "price": 10,
+              "kind": "drink",
+              "description": "冷たい牛乳のグラス。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい紅茶のカップ。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アップルパイ",
+              "price": 15,
+              "kind": "food",
+              "description": "りんごを詰めたパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "チェリーパイ",
+              "price": 15,
+              "kind": "food",
+              "description": "さくらんぼのパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "チョコケーキ",
+              "price": 15,
+              "kind": "food",
+              "description": "チョコ風味のケーキ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diner-america-1920s-3",
+      "name": "ダイナー・クロスロード",
+      "category": "diner",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・中西部の架空集落"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "街道の立ち寄り食堂"
+      ],
+      "description": "1926年のアメリカ・中西部の架空集落を舞台にした街道の立ち寄り食堂。車で移動する旅人と農家の客が顔を合わせる。",
+      "openingHours": "6:00〜22:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓から街道が見え、入口に荷物棚がある。",
+        "service": "旅の行き先を聞き、温かい料理を勧める。",
+        "signature": "七面鳥サンドイッチ、キャベツとベーコンの小皿、バタースコッチパイ",
+        "localFlavor": "車で移動する旅人と農家の客が顔を合わせる。"
+      },
+      "menuSections": [
+        {
+          "id": "diner-america-1920s-3-section-1",
+          "title": "朝食・食事",
+          "items": [
+            {
+              "name": "七面鳥サンドイッチ",
+              "price": 30,
+              "kind": "food",
+              "description": "七面鳥の薄切りを挟む。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "卵二個とトースト",
+              "price": 25,
+              "kind": "food",
+              "description": "焼いた卵とパン。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハムエッグ",
+              "price": 35,
+              "kind": "food",
+              "description": "ハムと卵を鉄板で。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ベーコンエッグ",
+              "price": 35,
+              "kind": "food",
+              "description": "ベーコンに卵を添える。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ハンバーグステーキ",
+              "price": 40,
+              "kind": "food",
+              "description": "挽肉のステーキ。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ビーフシチュー",
+              "price": 35,
+              "kind": "food",
+              "description": "牛肉と野菜の煮込み。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンドイッチ",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムを挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "diner-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "diner-america-1920s-3-section-2",
+          "title": "付け合わせ",
+          "items": [
+            {
+              "name": "キャベツとベーコンの小皿",
+              "price": 15,
+              "kind": "food",
+              "description": "野菜とベーコンを炒める。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 10,
+              "kind": "food",
+              "description": "揚げたじゃがいも。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー",
+              "price": 10,
+              "kind": "food",
+              "description": "刻みキャベツのサラダ。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "豆の煮込み",
+              "price": 10,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 5,
+              "kind": "food",
+              "description": "パン一切れにバター。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "小さなスープ",
+              "price": 10,
+              "kind": "food",
+              "description": "一杯分の温かい汁。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ピクルス",
+              "price": 5,
+              "kind": "food",
+              "description": "きゅうりの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "diner-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "diner-america-1920s-3-section-3",
+          "title": "飲みもの・パイ",
+          "items": [
+            {
+              "name": "バタースコッチパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "甘いバター風味のパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "珈琲",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい珈琲を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "牛乳",
+              "price": 10,
+              "kind": "drink",
+              "description": "冷たい牛乳のグラス。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい紅茶のカップ。",
+              "recommendationGroup": "drink",
+              "id": "diner-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アップルパイ",
+              "price": 15,
+              "kind": "food",
+              "description": "りんごを詰めたパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "チェリーパイ",
+              "price": 15,
+              "kind": "food",
+              "description": "さくらんぼのパイ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "チョコケーキ",
+              "price": 15,
+              "kind": "food",
+              "description": "チョコ風味のケーキ。",
+              "recommendationGroup": "dessert",
+              "id": "diner-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

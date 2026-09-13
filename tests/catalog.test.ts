@@ -5,9 +5,10 @@ import { defaultFilters,matchesFilters,sample,readIds,remember,menuText,gmText,p
 import type { Category,Shop,ShopSummary } from '../src/data/types.ts';
 const index=JSON.parse(readFileSync('src/data/generated-index.json','utf8')) as {categories:Category[];shops:ShopSummary[];itemCount:number};
 const allShops:Shop[]=readdirSync('src/data/shops').filter(f=>f.endsWith('.json')).flatMap(file=>JSON.parse(readFileSync(`src/data/shops/${file}`,'utf8')).shops);
-test('65カテゴリ・195店舗・4,099商品が揃い、全店に21品以上ある',()=>{
- assert.equal(index.categories.length,65);assert.equal(allShops.length,195);assert.equal(index.itemCount,4099);
- for(const category of index.categories)assert.equal(allShops.filter(s=>s.category===category.id).length,3,category.id);
+test('76カテゴリ・315店舗・6,619商品が揃い、現代の195店舗も保持する',()=>{
+ assert.equal(index.categories.length,76);assert.equal(allShops.length,315);assert.equal(index.itemCount,6619);
+ const modern=allShops.filter(s=>s.era==='modern');assert.equal(modern.length,195);assert.equal(new Set(modern.map(s=>s.category)).size,65);
+ for(const category of new Set(modern.map(s=>s.category)))assert.equal(modern.filter(s=>s.category===category).length,3,category);
  for(const shop of allShops)assert.ok(shop.menuSections.flatMap(section=>section.items).length>=21,shop.id);
  assert.equal(allShops.length,index.shops.length);
 });
@@ -30,7 +31,7 @@ test('条件を組み合わせ、ランダムも該当店舗だけから選ぶ',
  const results=index.shops.filter(s=>matchesFilters(s,{...defaultFilters,category:'izakaya',price:'cheap',scale:'independent',era:'modern'}));assert.ok(results.length>0);
  for(let i=0;i<30;i++){const selected=sample(results,1)[0];assert.equal(selected.category,'izakaya');assert.equal(selected.priceLevel,'cheap');}
  assert.equal(index.shops.filter(s=>matchesFilters(s,{...defaultFilters,category:'kissaten',price:'very-cheap'})).length,0);
- assert.equal(index.shops.filter(s=>matchesFilters(s,{...defaultFilters,era:'showa'})).length,0);
+ assert.equal(index.shops.filter(s=>matchesFilters(s,{...defaultFilters,era:'showa'})).length,30);
 });
 test('おすすめは重複せず空配列・少数品にも対応する',()=>{const items=allShops[0].menuSections.flatMap(s=>s.items);const selected=sample(items,3,()=>.4);assert.equal(selected.length,3);assert.equal(new Set(selected.map(x=>x.id)).size,3);assert.deepEqual(sample([],3),[]);assert.deepEqual(sample(['one'],3),['one']);});
 test('保存値の破損・未知IDを除外し、履歴は重複なしの最新20件',()=>{

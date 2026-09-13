@@ -1,8 +1,9 @@
+import { money, currencyUnit } from './currency.ts';
 import type { MenuDocument, DocumentOptions } from './menu-document.ts';
 import { escapeHtml } from './menu-document.ts';
 
 export function menuPlainText(menu: MenuDocument, short = false): string {
-  return [menu.name, ...menu.sections.map(section => `【${section.title}】\n${section.items.map(item => `${item.name}　¥${item.price.toLocaleString('ja-JP')}${!short && item.description ? `\n${item.description}` : ''}`).join('\n')}`), menu.priceNote].join('\n\n');
+  return [menu.name, ...menu.sections.map(section => `【${section.title}】\n${section.items.map(item => `${item.name}　${money(item.price,menu.currency)}${!short && item.description ? `\n${item.description}` : ''}`).join('\n')}`), menu.priceNote].join('\n\n');
 }
 
 export function menuTotal(menu: MenuDocument): number {
@@ -17,14 +18,14 @@ function csvCell(value: string | number): string {
 }
 
 export function renderMenuCsv(menu: MenuDocument): string {
-  const rows: (string | number)[][] = [['店舗名', '分類', '商品名', '税込価格（円）', '説明', '価格の補足']];
+  const rows: (string | number)[][] = [['店舗名', '分類', '商品名', `価格（${currencyUnit(menu.currency)}）`, '説明', '価格の補足']];
   for (const section of menu.sections) for (const item of section.items) rows.push([menu.name, section.title, item.name, item.price, item.description, menu.priceNote]);
   return '\uFEFF' + rows.map(row => row.map(csvCell).join(',')).join('\r\n');
 }
 
 export function renderMenuJson(menu: MenuDocument): string {
   // Reconstruct the public schema instead of serializing a Shop or session object.
-  return JSON.stringify({format: 'machikado-player-menu', version: 1, currency: 'JPY', name: menu.name, priceNote: menu.priceNote, sections: menu.sections.map(s => ({title: s.title, items: s.items.map(i => ({name: i.name, price: i.price, description: i.description}))}))}, null, 2);
+  return JSON.stringify({format: 'machikado-player-menu', version: 1, currency: menu.currency??'JPY', priceUnit: currencyUnit(menu.currency), name: menu.name, priceNote: menu.priceNote, sections: menu.sections.map(s => ({title: s.title, items: s.items.map(i => ({name: i.name, price: i.price, description: i.description}))}))}, null, 2);
 }
 
 function wrapText(text: string, width: number, font: number): string[] {
@@ -56,7 +57,7 @@ export function renderMenuSvg(menu: MenuDocument, options: DocumentOptions = {})
     parts.push(`<path d="M${x} ${y - 10}h${columnWidth}" stroke="#a3b18f"/>`);
     y += font;
     for (const item of section.items) {
-      const price = `¥${item.price.toLocaleString('ja-JP')}`;
+      const price = `${money(item.price,menu.currency)}`;
       const priceWidth = price.length * font * .64 + 25;
       const lines = wrapText(item.name, columnWidth - priceWidth, font);
       lines.forEach((line, i) => text(line, x, y + i * font * 1.45, font));

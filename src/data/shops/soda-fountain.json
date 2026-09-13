@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "soda-fountain",
+    "label": "ソーダファウンテン",
+    "group": "飲食店",
+    "icon": "icecream"
+  },
+  "shops": [
+    {
+      "id": "soda-fountain-america-1920s-1",
+      "name": "ソーダカウンター・チェリークロック",
+      "category": "soda-fountain",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "通り沿いのソーダ店"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした通り沿いのソーダ店。学校帰りの若者と買い物客が甘い飲料を頼む。",
+      "openingHours": "9:00〜21:00（日曜は午後のみ）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "磨いたカウンターにソーダ用の注ぎ口が並ぶ。",
+        "service": "グラスを冷やし、シロップを量って注ぐ。",
+        "signature": "オレンジクリームソーダ、ツナとセロリのサンド、キャラメルナッツサンデー",
+        "localFlavor": "学校帰りの若者と買い物客が甘い飲料を頼む。"
+      },
+      "menuSections": [
+        {
+          "id": "soda-fountain-america-1920s-1-section-1",
+          "title": "ソーダ・シェイク",
+          "items": [
+            {
+              "name": "オレンジクリームソーダ",
+              "price": 15,
+              "kind": "drink",
+              "description": "柑橘とクリームのソーダ。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "チョコレートソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "チョコ風味の炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "バニラソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "バニラ風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ルートビア",
+              "price": 5,
+              "kind": "drink",
+              "description": "ノンアルコールの甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "レモネード",
+              "price": 10,
+              "kind": "drink",
+              "description": "レモンの甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "バニラミルクシェイク",
+              "price": 15,
+              "kind": "drink",
+              "description": "ミルクの冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "苺ミルクシェイク",
+              "price": 15,
+              "kind": "drink",
+              "description": "苺風味のシェイク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soda-fountain-america-1920s-1-section-2",
+          "title": "サンド・軽食",
+          "items": [
+            {
+              "name": "ツナとセロリのサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "ツナに刻みセロリ。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "卵サラダサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "卵のサラダを挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "薄切りハムを挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズサンド",
+              "price": 15,
+              "kind": "food",
+              "description": "チーズを挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "チキンスープ",
+              "price": 15,
+              "kind": "food",
+              "description": "鶏のだしのスープ。",
+              "recommendationGroup": "side",
+              "id": "soda-fountain-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 10,
+              "kind": "food",
+              "description": "パンにバターを塗る。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "小さなポテトサラダ",
+              "price": 10,
+              "kind": "food",
+              "description": "じゃがいものサラダ。",
+              "recommendationGroup": "side",
+              "id": "soda-fountain-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soda-fountain-america-1920s-1-section-3",
+          "title": "サンデー・甘味",
+          "items": [
+            {
+              "name": "キャラメルナッツサンデー",
+              "price": 25,
+              "kind": "food",
+              "description": "ナッツと甘いソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "バニラアイス",
+              "price": 10,
+              "kind": "food",
+              "description": "小さなアイスの皿。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "チョコサンデー",
+              "price": 20,
+              "kind": "food",
+              "description": "アイスにチョコソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "苺サンデー",
+              "price": 20,
+              "kind": "food",
+              "description": "アイスに苺ソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "バナナスプリット",
+              "price": 30,
+              "kind": "food",
+              "description": "バナナとアイスの盛り。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "焼きりんご",
+              "price": 15,
+              "kind": "food",
+              "description": "りんごを丸く焼く。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "バタークッキー",
+              "price": 5,
+              "kind": "food",
+              "description": "小さな焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soda-fountain-america-1920s-2",
+      "name": "ソーダショップ・ブルージェイ",
+      "category": "soda-fountain",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ボストンの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "商店街の甘味カウンター"
+      ],
+      "description": "1926年のアメリカ・ボストンの架空街区を舞台にした商店街の甘味カウンター。家族連れが買い物の合間に腰掛ける。",
+      "openingHours": "9:00〜21:00（日曜は午後のみ）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "高い丸椅子とアイスの冷却箱がある。",
+        "service": "好みのソースを聞き、目の前で皿を作る。",
+        "signature": "チェリーライムソーダ、ローストビーフサンド、桃のメルバ風アイス皿",
+        "localFlavor": "家族連れが買い物の合間に腰掛ける。"
+      },
+      "menuSections": [
+        {
+          "id": "soda-fountain-america-1920s-2-section-1",
+          "title": "ソーダ・シェイク",
+          "items": [
+            {
+              "name": "チェリーライムソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "果実とライムの炭酸。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "チョコレートソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "チョコ風味の炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "バニラソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "バニラ風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ルートビア",
+              "price": 5,
+              "kind": "drink",
+              "description": "ノンアルコールの甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "レモネード",
+              "price": 10,
+              "kind": "drink",
+              "description": "レモンの甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "バニラミルクシェイク",
+              "price": 15,
+              "kind": "drink",
+              "description": "ミルクの冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "苺ミルクシェイク",
+              "price": 15,
+              "kind": "drink",
+              "description": "苺風味のシェイク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soda-fountain-america-1920s-2-section-2",
+          "title": "サンド・軽食",
+          "items": [
+            {
+              "name": "ローストビーフサンド",
+              "price": 30,
+              "kind": "food",
+              "description": "冷たい牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "卵サラダサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "卵のサラダを挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "薄切りハムを挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズサンド",
+              "price": 15,
+              "kind": "food",
+              "description": "チーズを挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "チキンスープ",
+              "price": 15,
+              "kind": "food",
+              "description": "鶏のだしのスープ。",
+              "recommendationGroup": "side",
+              "id": "soda-fountain-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 10,
+              "kind": "food",
+              "description": "パンにバターを塗る。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "小さなポテトサラダ",
+              "price": 10,
+              "kind": "food",
+              "description": "じゃがいものサラダ。",
+              "recommendationGroup": "side",
+              "id": "soda-fountain-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soda-fountain-america-1920s-2-section-3",
+          "title": "サンデー・甘味",
+          "items": [
+            {
+              "name": "桃のメルバ風アイス皿",
+              "price": 25,
+              "kind": "food",
+              "description": "桃とソースをアイスに。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "バニラアイス",
+              "price": 10,
+              "kind": "food",
+              "description": "小さなアイスの皿。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "チョコサンデー",
+              "price": 20,
+              "kind": "food",
+              "description": "アイスにチョコソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "苺サンデー",
+              "price": 20,
+              "kind": "food",
+              "description": "アイスに苺ソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "バナナスプリット",
+              "price": 30,
+              "kind": "food",
+              "description": "バナナとアイスの盛り。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "焼きりんご",
+              "price": 15,
+              "kind": "food",
+              "description": "りんごを丸く焼く。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "バタークッキー",
+              "price": 5,
+              "kind": "food",
+              "description": "小さな焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soda-fountain-america-1920s-3",
+      "name": "ソーダルーム・サニーアーチ",
+      "category": "soda-fountain",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・中西部の架空町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "町の待ち合わせの店"
+      ],
+      "description": "1926年のアメリカ・中西部の架空町を舞台にした町の待ち合わせの店。待ち合わせの客が新聞を読みながら過ごす。",
+      "openingHours": "9:00〜21:00（日曜は午後のみ）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "明るい窓と丸い時計がカウンターを見下ろす。",
+        "service": "客の人数に合わせて席を空け、飲料を運ぶ。",
+        "signature": "麦芽ミルクドリンク、焼きハムのチーズトースト、パインとココナツのサンデー",
+        "localFlavor": "待ち合わせの客が新聞を読みながら過ごす。"
+      },
+      "menuSections": [
+        {
+          "id": "soda-fountain-america-1920s-3-section-1",
+          "title": "ソーダ・シェイク",
+          "items": [
+            {
+              "name": "麦芽ミルクドリンク",
+              "price": 15,
+              "kind": "drink",
+              "description": "麦芽風味のミルク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "チョコレートソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "チョコ風味の炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "バニラソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "バニラ風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ルートビア",
+              "price": 5,
+              "kind": "drink",
+              "description": "ノンアルコールの甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "レモネード",
+              "price": 10,
+              "kind": "drink",
+              "description": "レモンの甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "バニラミルクシェイク",
+              "price": 15,
+              "kind": "drink",
+              "description": "ミルクの冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "苺ミルクシェイク",
+              "price": 15,
+              "kind": "drink",
+              "description": "苺風味のシェイク。",
+              "recommendationGroup": "drink",
+              "id": "soda-fountain-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soda-fountain-america-1920s-3-section-2",
+          "title": "サンド・軽食",
+          "items": [
+            {
+              "name": "焼きハムのチーズトースト",
+              "price": 25,
+              "kind": "food",
+              "description": "ハムとチーズを焼く。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "卵サラダサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "卵のサラダを挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "薄切りハムを挟む。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズサンド",
+              "price": 15,
+              "kind": "food",
+              "description": "チーズを挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "チキンスープ",
+              "price": 15,
+              "kind": "food",
+              "description": "鶏のだしのスープ。",
+              "recommendationGroup": "side",
+              "id": "soda-fountain-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 10,
+              "kind": "food",
+              "description": "パンにバターを塗る。",
+              "recommendationGroup": "main",
+              "id": "soda-fountain-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "小さなポテトサラダ",
+              "price": 10,
+              "kind": "food",
+              "description": "じゃがいものサラダ。",
+              "recommendationGroup": "side",
+              "id": "soda-fountain-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soda-fountain-america-1920s-3-section-3",
+          "title": "サンデー・甘味",
+          "items": [
+            {
+              "name": "パインとココナツのサンデー",
+              "price": 25,
+              "kind": "food",
+              "description": "果実をアイスに添える。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "バニラアイス",
+              "price": 10,
+              "kind": "food",
+              "description": "小さなアイスの皿。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "チョコサンデー",
+              "price": 20,
+              "kind": "food",
+              "description": "アイスにチョコソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "苺サンデー",
+              "price": 20,
+              "kind": "food",
+              "description": "アイスに苺ソース。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "バナナスプリット",
+              "price": 30,
+              "kind": "food",
+              "description": "バナナとアイスの盛り。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "焼きりんご",
+              "price": 15,
+              "kind": "food",
+              "description": "りんごを丸く焼く。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "バタークッキー",
+              "price": 5,
+              "kind": "food",
+              "description": "小さな焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "soda-fountain-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

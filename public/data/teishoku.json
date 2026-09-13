@@ -707,6 +707,714 @@
         "signature": "焼きほっけと納豆の朝定食とごぼうと人参の卵とじ小鉢",
         "localFlavor": "早番の作業員から近所の高齢者まで通う。夕方には弁当箱を持っておかずを買いに来る人もいる。"
       }
+    },
+    {
+      "id": "teishoku-showa-1",
+      "name": "大衆食堂 福のれん",
+      "category": "teishoku",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "定番メニューの定食屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした定番メニューの定食屋。昼は近所の作業着姿の客、夜は一人暮らしの客が集まる。",
+      "openingHours": "11:00〜21:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "長机と相席用の椅子、壁には今日の魚の札。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "お盆で一式を運び、少なめご飯にも応じる。",
+        "signature": "鰺フライと千切りキャベツ定食、切り干し大根の小皿、瓶入り牛乳",
+        "localFlavor": "昼は近所の作業着姿の客、夜は一人暮らしの客が集まる。"
+      },
+      "menuSections": [
+        {
+          "id": "teishoku-showa-1-section-1",
+          "title": "定食",
+          "items": [
+            {
+              "name": "鰺フライと千切りキャベツ定食",
+              "price": 200,
+              "kind": "food",
+              "description": "魚のフライにご飯と汁。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "豚の生姜焼き定食",
+              "price": 150,
+              "kind": "food",
+              "description": "生姜だれの豚肉に千切りキャベツ。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鶏の唐揚げ定食",
+              "price": 180,
+              "kind": "food",
+              "description": "大きな唐揚げ五個とご飯、味噌汁。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "焼き鯖定食",
+              "price": 160,
+              "kind": "food",
+              "description": "脂ののった鯖を皮まで香ばしく。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "野菜炒め定食",
+              "price": 200,
+              "kind": "food",
+              "description": "もやしとキャベツを強火で炒めた一皿。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "煮込みハンバーグ定食",
+              "price": 220,
+              "kind": "food",
+              "description": "玉ねぎソースでじっくり煮込んだ洋風定食。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "豚汁と焼き魚の定食",
+              "price": 250,
+              "kind": "food",
+              "description": "大きな椀の豚汁に焼き魚とご飯。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-showa-1-section-2",
+          "title": "小鉢・追加",
+          "items": [
+            {
+              "name": "切り干し大根の小皿",
+              "price": 60,
+              "kind": "food",
+              "description": "干した大根を甘辛く煮る。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ひじき煮",
+              "price": 80,
+              "kind": "food",
+              "description": "大豆とにんじん入りの家庭的な小鉢。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "冷奴",
+              "price": 90,
+              "kind": "food",
+              "description": "ねぎと生姜をのせた豆腐。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "納豆",
+              "price": 100,
+              "kind": "food",
+              "description": "小さな器で提供。刻みねぎ付き。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ご飯大盛り",
+              "price": 60,
+              "kind": "addon",
+              "description": "定食のご飯を増量。",
+              "id": "teishoku-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "味噌汁単品",
+              "price": 120,
+              "kind": "food",
+              "description": "豆腐とわかめの味噌汁。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草のおひたし",
+              "price": 100,
+              "kind": "food",
+              "description": "かつお出汁を含ませた青菜。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-showa-1-section-3",
+          "title": "お飲みもの・甘味",
+          "items": [
+            {
+              "name": "瓶入り牛乳",
+              "price": 80,
+              "kind": "drink",
+              "description": "冷たい瓶の牛乳を出す。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "瓶ビール",
+              "price": 40,
+              "kind": "drink",
+              "description": "食事に添える中瓶。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麦茶",
+              "price": 50,
+              "kind": "drink",
+              "description": "香ばしい麦茶を冷やして出す。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 60,
+              "kind": "drink",
+              "description": "子どもにも飲みやすい果汁飲料。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "食後のコーヒー",
+              "price": 80,
+              "kind": "drink",
+              "description": "食事注文時の小さな一杯。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "黒糖寒天",
+              "price": 30,
+              "kind": "food",
+              "description": "黒糖蜜をかけたさっぱり甘味。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "あずきミルク寒天",
+              "price": 50,
+              "kind": "food",
+              "description": "小豆を混ぜたミルク寒天。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teishoku-showa-2",
+      "name": "めし処 東町の朝",
+      "category": "teishoku",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "rural",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "落ち着いた雰囲気の定食屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした落ち着いた雰囲気の定食屋。駅裏の住宅街で、外食でも家庭料理を食べたい客が多い。",
+      "openingHours": "11:00〜21:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "細長い店に六つの二人席。小鉢を選べるガラス棚。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "主菜を選んだ後、小鉢を二つ選ぶ形式。",
+        "signature": "肉じゃがと卵焼き定食、胡瓜とわかめの酢の物、みかん寒天",
+        "localFlavor": "駅裏の住宅街で、外食でも家庭料理を食べたい客が多い。"
+      },
+      "menuSections": [
+        {
+          "id": "teishoku-showa-2-section-1",
+          "title": "定食",
+          "items": [
+            {
+              "name": "肉じゃがと卵焼き定食",
+              "price": 210,
+              "kind": "food",
+              "description": "肉じゃがに卵焼きを添える。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "豚の生姜焼き定食",
+              "price": 150,
+              "kind": "food",
+              "description": "生姜だれの豚肉に千切りキャベツ。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鶏の唐揚げ定食",
+              "price": 180,
+              "kind": "food",
+              "description": "大きな唐揚げ五個とご飯、味噌汁。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "焼き鯖定食",
+              "price": 160,
+              "kind": "food",
+              "description": "脂ののった鯖を皮まで香ばしく。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "野菜炒め定食",
+              "price": 200,
+              "kind": "food",
+              "description": "もやしとキャベツを強火で炒めた一皿。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "煮込みハンバーグ定食",
+              "price": 220,
+              "kind": "food",
+              "description": "玉ねぎソースでじっくり煮込んだ洋風定食。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "豚汁と焼き魚の定食",
+              "price": 250,
+              "kind": "food",
+              "description": "大きな椀の豚汁に焼き魚とご飯。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-showa-2-section-2",
+          "title": "小鉢・追加",
+          "items": [
+            {
+              "name": "胡瓜とわかめの酢の物",
+              "price": 70,
+              "kind": "food",
+              "description": "胡瓜とわかめを酢で和える。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ひじき煮",
+              "price": 80,
+              "kind": "food",
+              "description": "大豆とにんじん入りの家庭的な小鉢。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "冷奴",
+              "price": 90,
+              "kind": "food",
+              "description": "ねぎと生姜をのせた豆腐。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "納豆",
+              "price": 100,
+              "kind": "food",
+              "description": "小さな器で提供。刻みねぎ付き。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ご飯大盛り",
+              "price": 60,
+              "kind": "addon",
+              "description": "定食のご飯を増量。",
+              "id": "teishoku-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "味噌汁単品",
+              "price": 120,
+              "kind": "food",
+              "description": "豆腐とわかめの味噌汁。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草のおひたし",
+              "price": 100,
+              "kind": "food",
+              "description": "かつお出汁を含ませた青菜。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-showa-2-section-3",
+          "title": "お飲みもの・甘味",
+          "items": [
+            {
+              "name": "みかん寒天",
+              "price": 90,
+              "kind": "food",
+              "description": "みかん入りの寒天の甘味。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "瓶ビール",
+              "price": 40,
+              "kind": "drink",
+              "description": "食事に添える中瓶。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麦茶",
+              "price": 50,
+              "kind": "drink",
+              "description": "香ばしい麦茶を冷やして出す。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 60,
+              "kind": "drink",
+              "description": "子どもにも飲みやすい果汁飲料。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "食後のコーヒー",
+              "price": 80,
+              "kind": "drink",
+              "description": "食事注文時の小さな一杯。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "黒糖寒天",
+              "price": 30,
+              "kind": "food",
+              "description": "黒糖蜜をかけたさっぱり甘味。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "あずきミルク寒天",
+              "price": 50,
+              "kind": "food",
+              "description": "小豆を混ぜたミルク寒天。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teishoku-showa-3",
+      "name": "食堂 みつば橋",
+      "category": "teishoku",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "朝ごはんの定食屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした朝ごはんの定食屋。早番の作業員から近所の高齢者まで通う。夕方には弁当箱を持っておかずを買いに来る人もいる。",
+      "openingHours": "11:00〜21:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "長い相席テーブルと壁一面の献立札。入口から見える棚に、出来たての小鉢が並ぶ。レジの横に黒電話と伝票の束を置く。",
+        "service": "朝は先に味噌汁を出す。ご飯の量を聞き、昼の混雑時も一盆ずつ確認して運ぶ。",
+        "signature": "鮭の塩焼きと納豆定食、ごぼうと人参の卵とじ、きなこのミルク寒天",
+        "localFlavor": "早番の作業員から近所の高齢者まで通う。夕方には弁当箱を持っておかずを買いに来る人もいる。"
+      },
+      "menuSections": [
+        {
+          "id": "teishoku-showa-3-section-1",
+          "title": "定食",
+          "items": [
+            {
+              "name": "鮭の塩焼きと納豆定食",
+              "price": 220,
+              "kind": "food",
+              "description": "焼き鮭と納豆の朝の膳。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "豚の生姜焼き定食",
+              "price": 150,
+              "kind": "food",
+              "description": "生姜だれの豚肉に千切りキャベツ。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鶏の唐揚げ定食",
+              "price": 180,
+              "kind": "food",
+              "description": "大きな唐揚げ五個とご飯、味噌汁。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "焼き鯖定食",
+              "price": 160,
+              "kind": "food",
+              "description": "脂ののった鯖を皮まで香ばしく。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "野菜炒め定食",
+              "price": 200,
+              "kind": "food",
+              "description": "もやしとキャベツを強火で炒めた一皿。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "煮込みハンバーグ定食",
+              "price": 220,
+              "kind": "food",
+              "description": "玉ねぎソースでじっくり煮込んだ洋風定食。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "豚汁と焼き魚の定食",
+              "price": 250,
+              "kind": "food",
+              "description": "大きな椀の豚汁に焼き魚とご飯。",
+              "recommendationGroup": "main",
+              "id": "teishoku-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-showa-3-section-2",
+          "title": "小鉢・追加",
+          "items": [
+            {
+              "name": "ごぼうと人参の卵とじ",
+              "price": 80,
+              "kind": "food",
+              "description": "根菜を柔らかく卵でとじる。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ひじき煮",
+              "price": 80,
+              "kind": "food",
+              "description": "大豆とにんじん入りの家庭的な小鉢。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "冷奴",
+              "price": 90,
+              "kind": "food",
+              "description": "ねぎと生姜をのせた豆腐。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "納豆",
+              "price": 100,
+              "kind": "food",
+              "description": "小さな器で提供。刻みねぎ付き。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ご飯大盛り",
+              "price": 60,
+              "kind": "addon",
+              "description": "定食のご飯を増量。",
+              "id": "teishoku-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "味噌汁単品",
+              "price": 120,
+              "kind": "food",
+              "description": "豆腐とわかめの味噌汁。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草のおひたし",
+              "price": 100,
+              "kind": "food",
+              "description": "かつお出汁を含ませた青菜。",
+              "recommendationGroup": "side",
+              "id": "teishoku-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "teishoku-showa-3-section-3",
+          "title": "お飲みもの・甘味",
+          "items": [
+            {
+              "name": "きなこのミルク寒天",
+              "price": 100,
+              "kind": "food",
+              "description": "ミルク寒天にきなこを添える。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "瓶ビール",
+              "price": 40,
+              "kind": "drink",
+              "description": "食事に添える中瓶。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麦茶",
+              "price": 50,
+              "kind": "drink",
+              "description": "香ばしい麦茶を冷やして出す。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 60,
+              "kind": "drink",
+              "description": "子どもにも飲みやすい果汁飲料。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "食後のコーヒー",
+              "price": 80,
+              "kind": "drink",
+              "description": "食事注文時の小さな一杯。",
+              "recommendationGroup": "drink",
+              "id": "teishoku-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "黒糖寒天",
+              "price": 30,
+              "kind": "food",
+              "description": "黒糖蜜をかけたさっぱり甘味。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "あずきミルク寒天",
+              "price": 50,
+              "kind": "food",
+              "description": "小豆を混ぜたミルク寒天。",
+              "recommendationGroup": "dessert",
+              "id": "teishoku-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

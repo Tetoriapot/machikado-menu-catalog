@@ -708,6 +708,2139 @@
         "signature": "小説『坂道に灯る手紙』と『はじめての路地スケッチ』",
         "localFlavor": "川沿いの散歩の途中に立ち寄る客が多い。月末の閉店前には短い読書会の椅子が並ぶ。"
       }
+    },
+    {
+      "id": "bookstore-heisei-1",
+      "name": "若葉書房 駅前店",
+      "category": "bookstore",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "日用品の書店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした日用品の書店。駅の帰り道に寄る会社員が多く、郷土資料の棚には商店街の古い写真を眺めに来る人もいる。",
+      "openingHours": "10:00〜21:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口の平台に新刊、奥の細い通路に文庫棚。店員の短い手書き紹介が、棚から少しずつ飛び出している。レジ横に公衆電話と時刻表がある。",
+        "service": "探している本は題名の一部から一緒に調べる。購入した本には、店の鳥印が入った紙カバーを掛ける。",
+        "signature": "小説『夕暮れの伝言板』、実用書『手紙を書く週末』、紙の読書記録カード",
+        "localFlavor": "駅の帰り道に寄る会社員が多く、郷土資料の棚には商店街の古い写真を眺めに来る人もいる。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-heisei-1-section-1",
+          "title": "文芸",
+          "items": [
+            {
+              "name": "小説『夕暮れの伝言板』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "架空の街を舞台にした小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "文庫小説『雨の向こうの停留所』",
+              "price": 480,
+              "kind": "goods",
+              "description": "架空の町を舞台にした短編連作。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "単行本『夜明けの書架』",
+              "price": 580,
+              "kind": "goods",
+              "description": "古い書店をめぐる架空の長編小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "短編集『窓辺の手紙』",
+              "price": 620,
+              "kind": "goods",
+              "description": "日常の出会いを綴る創作文芸。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "詩集『木曜日の空白』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "季節の風景を集めた架空の詩集。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "文庫ミステリー『七番街の鍵』",
+              "price": 1500,
+              "kind": "goods",
+              "description": "小さな謎を追う架空の推理小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "文庫小説『街灯の帰り道』",
+              "price": 1700,
+              "kind": "goods",
+              "description": "夜の町を描く架空の連作短編。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-heisei-1-section-2",
+          "title": "実用・趣味",
+          "items": [
+            {
+              "name": "実用書『手紙を書く週末』",
+              "price": 1800,
+              "kind": "goods",
+              "description": "架空の手紙の書き方の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理本『一汁の台所』",
+              "price": 1000,
+              "kind": "goods",
+              "description": "日々の食事を扱う架空の実用書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "旅行本『各駅停車の休日』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "鉄道旅を紹介する架空の紀行。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "手帳術『余白をつくる』",
+              "price": 1500,
+              "kind": "goods",
+              "description": "記録の工夫を集めた架空の実用書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "図鑑『身近な葉っぱ』",
+              "price": 1800,
+              "kind": "goods",
+              "description": "身近な植物を学ぶ架空の図鑑。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "TRPG入門『物語を囲む夜』",
+              "price": 2000,
+              "kind": "goods",
+              "description": "対話型ゲームを紹介する架空の解説書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "『はじめての路地スケッチ』",
+              "price": 1300,
+              "kind": "goods",
+              "description": "身近な路地の描き方を紹介する架空の技法書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-heisei-1-section-3",
+          "title": "雑誌・小物",
+          "items": [
+            {
+              "name": "紙の読書記録カード",
+              "price": 350,
+              "kind": "goods",
+              "description": "読み終えた本を記録する紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "月刊誌『街あるき通信』",
+              "price": 450,
+              "kind": "goods",
+              "description": "地域散策を特集する架空の雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "季刊誌『紙と喫茶』",
+              "price": 550,
+              "kind": "goods",
+              "description": "読書と喫茶を扱う架空の季刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ブックカバー",
+              "price": 300,
+              "kind": "goods",
+              "description": "文庫サイズの布製カバー。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "しおり 三枚",
+              "price": 350,
+              "kind": "goods",
+              "description": "厚紙のイラストしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書ノート",
+              "price": 500,
+              "kind": "goods",
+              "description": "読んだ本の感想を残すノート。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "季刊誌『余白の散歩』",
+              "price": 200,
+              "kind": "goods",
+              "description": "散歩と町の店を紹介する架空の季刊雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-heisei-2",
+      "name": "書店 ページの森",
+      "category": "bookstore",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "日用品の書店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした日用品の書店。住宅街の読書会が月ごとの本を選びに来る。近所の喫茶店には、店員が選んだ一冊が置かれている。",
+      "openingHours": "10:00〜21:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓際の大きな机に旅と生活の本を平置きする。棚の間には椅子が一脚あり、紙の地図が壁に掛かる。入口に紙の地域情報誌が積まれている。",
+        "service": "用途や気分を聞いて二、三冊を勧める。贈り物には本の紹介を一行書いた小さなカードを添える。",
+        "signature": "短編集『改札の向こう側』、紀行『バス路線の終点まで』、布の文庫本カバー",
+        "localFlavor": "住宅街の読書会が月ごとの本を選びに来る。近所の喫茶店には、店員が選んだ一冊が置かれている。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-heisei-2-section-1",
+          "title": "文芸",
+          "items": [
+            {
+              "name": "短編集『改札の向こう側』",
+              "price": 1250,
+              "kind": "goods",
+              "description": "駅を題材にした架空短編集。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "文庫小説『雨の向こうの停留所』",
+              "price": 480,
+              "kind": "goods",
+              "description": "架空の町を舞台にした短編連作。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "単行本『夜明けの書架』",
+              "price": 580,
+              "kind": "goods",
+              "description": "古い書店をめぐる架空の長編小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "短編集『窓辺の手紙』",
+              "price": 620,
+              "kind": "goods",
+              "description": "日常の出会いを綴る創作文芸。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "詩集『木曜日の空白』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "季節の風景を集めた架空の詩集。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "文庫ミステリー『七番街の鍵』",
+              "price": 1500,
+              "kind": "goods",
+              "description": "小さな謎を追う架空の推理小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "文庫小説『街灯の帰り道』",
+              "price": 1700,
+              "kind": "goods",
+              "description": "夜の町を描く架空の連作短編。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-heisei-2-section-2",
+          "title": "実用・趣味",
+          "items": [
+            {
+              "name": "紀行『バス路線の終点まで』",
+              "price": 1850,
+              "kind": "goods",
+              "description": "架空の町を巡る旅行記。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理本『一汁の台所』",
+              "price": 1000,
+              "kind": "goods",
+              "description": "日々の食事を扱う架空の実用書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "旅行本『各駅停車の休日』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "鉄道旅を紹介する架空の紀行。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "手帳術『余白をつくる』",
+              "price": 1500,
+              "kind": "goods",
+              "description": "記録の工夫を集めた架空の実用書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "図鑑『身近な葉っぱ』",
+              "price": 1800,
+              "kind": "goods",
+              "description": "身近な植物を学ぶ架空の図鑑。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "TRPG入門『物語を囲む夜』",
+              "price": 2000,
+              "kind": "goods",
+              "description": "対話型ゲームを紹介する架空の解説書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "『はじめての路地スケッチ』",
+              "price": 1300,
+              "kind": "goods",
+              "description": "身近な路地の描き方を紹介する架空の技法書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-heisei-2-section-3",
+          "title": "雑誌・小物",
+          "items": [
+            {
+              "name": "布の文庫本カバー",
+              "price": 400,
+              "kind": "goods",
+              "description": "小さな本を包む布カバー。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "月刊誌『街あるき通信』",
+              "price": 450,
+              "kind": "goods",
+              "description": "地域散策を特集する架空の雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "季刊誌『紙と喫茶』",
+              "price": 550,
+              "kind": "goods",
+              "description": "読書と喫茶を扱う架空の季刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ブックカバー",
+              "price": 300,
+              "kind": "goods",
+              "description": "文庫サイズの布製カバー。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "しおり 三枚",
+              "price": 350,
+              "kind": "goods",
+              "description": "厚紙のイラストしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書ノート",
+              "price": 500,
+              "kind": "goods",
+              "description": "読んだ本の感想を残すノート。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "季刊誌『余白の散歩』",
+              "price": 200,
+              "kind": "goods",
+              "description": "散歩と町の店を紹介する架空の季刊雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-heisei-3",
+      "name": "本の店 月曜館",
+      "category": "bookstore",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "独立書店の書店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした独立書店の書店。川沿いの散歩の途中に立ち寄る客が多い。月末の閉店前には短い読書会の椅子が並ぶ。",
+      "openingHours": "10:00〜21:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "低い木の本棚が窓に向かって並び、入口に今月の小さな選書台がある。カウンターに手書きの予約帳が置かれている。",
+        "service": "本の探し物は用途や気分を聞いて棚を案内する。贈り物には落ち着いた色の紙で包む。",
+        "signature": "詩集『青い便箋』、図鑑『町の庭木』、鉛筆付き読書手帳",
+        "localFlavor": "川沿いの散歩の途中に立ち寄る客が多い。月末の閉店前には短い読書会の椅子が並ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-heisei-3-section-1",
+          "title": "文芸",
+          "items": [
+            {
+              "name": "詩集『青い便箋』",
+              "price": 1300,
+              "kind": "goods",
+              "description": "架空の詩を収めた小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "文庫小説『雨の向こうの停留所』",
+              "price": 480,
+              "kind": "goods",
+              "description": "架空の町を舞台にした短編連作。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "単行本『夜明けの書架』",
+              "price": 580,
+              "kind": "goods",
+              "description": "古い書店をめぐる架空の長編小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "短編集『窓辺の手紙』",
+              "price": 620,
+              "kind": "goods",
+              "description": "日常の出会いを綴る創作文芸。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "詩集『木曜日の空白』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "季節の風景を集めた架空の詩集。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "文庫ミステリー『七番街の鍵』",
+              "price": 1500,
+              "kind": "goods",
+              "description": "小さな謎を追う架空の推理小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "文庫小説『街灯の帰り道』",
+              "price": 1700,
+              "kind": "goods",
+              "description": "夜の町を描く架空の連作短編。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-heisei-3-section-2",
+          "title": "実用・趣味",
+          "items": [
+            {
+              "name": "図鑑『町の庭木』",
+              "price": 1900,
+              "kind": "goods",
+              "description": "庭の木を紹介する架空図鑑。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理本『一汁の台所』",
+              "price": 1000,
+              "kind": "goods",
+              "description": "日々の食事を扱う架空の実用書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "旅行本『各駅停車の休日』",
+              "price": 1200,
+              "kind": "goods",
+              "description": "鉄道旅を紹介する架空の紀行。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "手帳術『余白をつくる』",
+              "price": 1500,
+              "kind": "goods",
+              "description": "記録の工夫を集めた架空の実用書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "図鑑『身近な葉っぱ』",
+              "price": 1800,
+              "kind": "goods",
+              "description": "身近な植物を学ぶ架空の図鑑。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "TRPG入門『物語を囲む夜』",
+              "price": 2000,
+              "kind": "goods",
+              "description": "対話型ゲームを紹介する架空の解説書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "『はじめての路地スケッチ』",
+              "price": 1300,
+              "kind": "goods",
+              "description": "身近な路地の描き方を紹介する架空の技法書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-heisei-3-section-3",
+          "title": "雑誌・小物",
+          "items": [
+            {
+              "name": "鉛筆付き読書手帳",
+              "price": 450,
+              "kind": "goods",
+              "description": "短い鉛筆を添えた手帳。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "月刊誌『街あるき通信』",
+              "price": 450,
+              "kind": "goods",
+              "description": "地域散策を特集する架空の雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "季刊誌『紙と喫茶』",
+              "price": 550,
+              "kind": "goods",
+              "description": "読書と喫茶を扱う架空の季刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ブックカバー",
+              "price": 300,
+              "kind": "goods",
+              "description": "文庫サイズの布製カバー。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "しおり 三枚",
+              "price": 350,
+              "kind": "goods",
+              "description": "厚紙のイラストしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書ノート",
+              "price": 500,
+              "kind": "goods",
+              "description": "読んだ本の感想を残すノート。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "季刊誌『余白の散歩』",
+              "price": 200,
+              "kind": "goods",
+              "description": "散歩と町の店を紹介する架空の季刊雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-victorian-1",
+      "name": "書店・フォグランタン",
+      "category": "bookstore",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "小説と挿絵の書店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした小説と挿絵の書店。事務員や読書好きが新しい冊子を探しに来る。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "天井までの棚と移動用の梯子がある。",
+        "service": "題名を聞いて棚を探し、紙で包んで渡す。",
+        "signature": "小説『銅の扉の訪問者』、図譜『運河の橋と門』、青い表紙の文芸冊子",
+        "localFlavor": "事務員や読書好きが新しい冊子を探しに来る。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-victorian-1-section-1",
+          "title": "小説・読みもの",
+          "items": [
+            {
+              "name": "小説『銅の扉の訪問者』",
+              "price": 30,
+              "kind": "goods",
+              "description": "架空の謎解き小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小説『霧の橋』",
+              "price": 24,
+              "kind": "goods",
+              "description": "架空の都市小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "冒険譚『北の灯台』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の冒険物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "詩集『庭の手紙』",
+              "price": 12,
+              "kind": "goods",
+              "description": "架空の詩の小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "短編集『夕べの客』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の短編を収録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "家庭の物語『小さな窓』",
+              "price": 24,
+              "kind": "goods",
+              "description": "家族を描く架空小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "中古小説の薄冊",
+              "price": 6,
+              "kind": "goods",
+              "description": "使用感のある物語本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-victorian-1-section-2",
+          "title": "案内・実用",
+          "items": [
+            {
+              "name": "図譜『運河の橋と門』",
+              "price": 24,
+              "kind": "goods",
+              "description": "架空運河の図入り本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理手引き『炉辺の一皿』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の家庭料理の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "園芸手引き『裏庭の季節』",
+              "price": 12,
+              "kind": "goods",
+              "description": "架空の庭仕事の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "街歩き案内『川沿いの道』",
+              "price": 6,
+              "kind": "goods",
+              "description": "架空街区を歩く案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "鉄道旅行の小案内",
+              "price": 4,
+              "kind": "goods",
+              "description": "架空の旅程の案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "手紙の書き方小冊子",
+              "price": 6,
+              "kind": "goods",
+              "description": "書簡の例をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "植物図譜の小冊子",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の観察用図譜。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-victorian-1-section-3",
+          "title": "紙もの・小冊子",
+          "items": [
+            {
+              "name": "青い表紙の文芸冊子",
+              "price": 4,
+              "kind": "goods",
+              "description": "架空の文芸読みもの。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "週刊文芸の小冊子",
+              "price": 2,
+              "kind": "goods",
+              "description": "架空の読みもの週刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "挿絵入り月刊誌",
+              "price": 6,
+              "kind": "goods",
+              "description": "架空の挿絵雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紙のしおり",
+              "price": 1,
+              "kind": "goods",
+              "description": "細い紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "本を包む紙カバー",
+              "price": 1,
+              "kind": "goods",
+              "description": "本の表紙を包む紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書用の覚え帳",
+              "price": 3,
+              "kind": "goods",
+              "description": "本の感想を書く帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "絵入りカード 三枚",
+              "price": 2,
+              "kind": "goods",
+              "description": "図案を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-victorian-2",
+      "name": "書店・ノースクェイ",
+      "category": "bookstore",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・リヴァプールの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "旅と航海の書店"
+      ],
+      "description": "1890年のイギリス・リヴァプールの架空街区を舞台にした旅と航海の書店。船の乗客と港で働く人が立ち寄る。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓に船の図を飾り、地図の引き出しを置く。",
+        "service": "旅先を聞き、薄い案内冊子を示す。",
+        "signature": "航海譚『白い帆の先』、旅行記『北駅からの旅』、港の地図カード",
+        "localFlavor": "船の乗客と港で働く人が立ち寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-victorian-2-section-1",
+          "title": "小説・読みもの",
+          "items": [
+            {
+              "name": "航海譚『白い帆の先』",
+              "price": 24,
+              "kind": "goods",
+              "description": "架空の海の冒険譚。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小説『霧の橋』",
+              "price": 24,
+              "kind": "goods",
+              "description": "架空の都市小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "冒険譚『北の灯台』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の冒険物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "詩集『庭の手紙』",
+              "price": 12,
+              "kind": "goods",
+              "description": "架空の詩の小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "短編集『夕べの客』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の短編を収録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "家庭の物語『小さな窓』",
+              "price": 24,
+              "kind": "goods",
+              "description": "家族を描く架空小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "中古小説の薄冊",
+              "price": 6,
+              "kind": "goods",
+              "description": "使用感のある物語本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-victorian-2-section-2",
+          "title": "案内・実用",
+          "items": [
+            {
+              "name": "旅行記『北駅からの旅』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の旅行の記録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理手引き『炉辺の一皿』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の家庭料理の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "園芸手引き『裏庭の季節』",
+              "price": 12,
+              "kind": "goods",
+              "description": "架空の庭仕事の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "街歩き案内『川沿いの道』",
+              "price": 6,
+              "kind": "goods",
+              "description": "架空街区を歩く案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "鉄道旅行の小案内",
+              "price": 4,
+              "kind": "goods",
+              "description": "架空の旅程の案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "手紙の書き方小冊子",
+              "price": 6,
+              "kind": "goods",
+              "description": "書簡の例をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "植物図譜の小冊子",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の観察用図譜。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-victorian-2-section-3",
+          "title": "紙もの・小冊子",
+          "items": [
+            {
+              "name": "港の地図カード",
+              "price": 3,
+              "kind": "goods",
+              "description": "架空港の地図を刷る。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "週刊文芸の小冊子",
+              "price": 2,
+              "kind": "goods",
+              "description": "架空の読みもの週刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "挿絵入り月刊誌",
+              "price": 6,
+              "kind": "goods",
+              "description": "架空の挿絵雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紙のしおり",
+              "price": 1,
+              "kind": "goods",
+              "description": "細い紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "本を包む紙カバー",
+              "price": 1,
+              "kind": "goods",
+              "description": "本の表紙を包む紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書用の覚え帳",
+              "price": 3,
+              "kind": "goods",
+              "description": "本の感想を書く帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "絵入りカード 三枚",
+              "price": 2,
+              "kind": "goods",
+              "description": "図案を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-victorian-3",
+      "name": "書店・ガーデンページ",
+      "category": "bookstore",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・田園の架空集落"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "家庭と庭仕事の書店"
+      ],
+      "description": "1890年のイギリス・田園の架空集落を舞台にした家庭と庭仕事の書店。教師や近所の家族が読みものを買いに来る。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "低い棚に本が並び、窓辺に押し花の額がある。",
+        "service": "本の文字の大きさを確かめて選ぶ手助けをする。",
+        "signature": "童話『庭の小さな王様』、観察帳『野の花を描く』、布張りの読書手帳",
+        "localFlavor": "教師や近所の家族が読みものを買いに来る。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-victorian-3-section-1",
+          "title": "小説・読みもの",
+          "items": [
+            {
+              "name": "童話『庭の小さな王様』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の子どもの物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小説『霧の橋』",
+              "price": 24,
+              "kind": "goods",
+              "description": "架空の都市小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "冒険譚『北の灯台』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の冒険物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "詩集『庭の手紙』",
+              "price": 12,
+              "kind": "goods",
+              "description": "架空の詩の小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "短編集『夕べの客』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の短編を収録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "家庭の物語『小さな窓』",
+              "price": 24,
+              "kind": "goods",
+              "description": "家族を描く架空小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "中古小説の薄冊",
+              "price": 6,
+              "kind": "goods",
+              "description": "使用感のある物語本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-victorian-3-section-2",
+          "title": "案内・実用",
+          "items": [
+            {
+              "name": "観察帳『野の花を描く』",
+              "price": 12,
+              "kind": "goods",
+              "description": "花を描くための帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理手引き『炉辺の一皿』",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の家庭料理の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "園芸手引き『裏庭の季節』",
+              "price": 12,
+              "kind": "goods",
+              "description": "架空の庭仕事の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "街歩き案内『川沿いの道』",
+              "price": 6,
+              "kind": "goods",
+              "description": "架空街区を歩く案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "鉄道旅行の小案内",
+              "price": 4,
+              "kind": "goods",
+              "description": "架空の旅程の案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "手紙の書き方小冊子",
+              "price": 6,
+              "kind": "goods",
+              "description": "書簡の例をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "植物図譜の小冊子",
+              "price": 18,
+              "kind": "goods",
+              "description": "架空の観察用図譜。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-victorian-3-section-3",
+          "title": "紙もの・小冊子",
+          "items": [
+            {
+              "name": "布張りの読書手帳",
+              "price": 8,
+              "kind": "goods",
+              "description": "布で表紙を包む帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "週刊文芸の小冊子",
+              "price": 2,
+              "kind": "goods",
+              "description": "架空の読みもの週刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "挿絵入り月刊誌",
+              "price": 6,
+              "kind": "goods",
+              "description": "架空の挿絵雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紙のしおり",
+              "price": 1,
+              "kind": "goods",
+              "description": "細い紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "本を包む紙カバー",
+              "price": 1,
+              "kind": "goods",
+              "description": "本の表紙を包む紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書用の覚え帳",
+              "price": 3,
+              "kind": "goods",
+              "description": "本の感想を書く帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "絵入りカード 三枚",
+              "price": 2,
+              "kind": "goods",
+              "description": "図案を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-america-1920s-1",
+      "name": "書店・エレベーテッドページ",
+      "category": "bookstore",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "高架下の小説と雑誌の店"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした高架下の小説と雑誌の店。通勤の客が帰り道の読みものを選ぶ。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "列車の音が響く店内に雑誌の棚が並ぶ。",
+        "service": "探す作家や話の種類を聞いて本を示す。",
+        "signature": "小説『夜の高架線』、案内書『週末の鉄道旅行』、短編雑誌『街灯の下』",
+        "localFlavor": "通勤の客が帰り道の読みものを選ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-america-1920s-1-section-1",
+          "title": "小説・読みもの",
+          "items": [
+            {
+              "name": "小説『夜の高架線』",
+              "price": 150,
+              "kind": "goods",
+              "description": "架空の都会を描く小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小説『霧の橋』",
+              "price": 100,
+              "kind": "goods",
+              "description": "架空の都市小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "冒険譚『北の灯台』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の冒険物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "詩集『庭の手紙』",
+              "price": 50,
+              "kind": "goods",
+              "description": "架空の詩の小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "短編集『夕べの客』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の短編を収録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "家庭の物語『小さな窓』",
+              "price": 100,
+              "kind": "goods",
+              "description": "家族を描く架空小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "中古小説の薄冊",
+              "price": 25,
+              "kind": "goods",
+              "description": "使用感のある物語本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-america-1920s-1-section-2",
+          "title": "案内・実用",
+          "items": [
+            {
+              "name": "案内書『週末の鉄道旅行』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の旅程を紹介する。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理手引き『炉辺の一皿』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の家庭料理の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "園芸手引き『裏庭の季節』",
+              "price": 50,
+              "kind": "goods",
+              "description": "架空の庭仕事の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "街歩き案内『川沿いの道』",
+              "price": 25,
+              "kind": "goods",
+              "description": "架空街区を歩く案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "鉄道旅行の小案内",
+              "price": 15,
+              "kind": "goods",
+              "description": "架空の旅程の案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "手紙の書き方小冊子",
+              "price": 25,
+              "kind": "goods",
+              "description": "書簡の例をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "植物図譜の小冊子",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の観察用図譜。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-america-1920s-1-section-3",
+          "title": "紙もの・小冊子",
+          "items": [
+            {
+              "name": "短編雑誌『街灯の下』",
+              "price": 15,
+              "kind": "goods",
+              "description": "架空の短編の雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "週刊文芸の小冊子",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空の読みもの週刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "挿絵入り月刊誌",
+              "price": 25,
+              "kind": "goods",
+              "description": "架空の挿絵雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紙のしおり",
+              "price": 5,
+              "kind": "goods",
+              "description": "細い紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "本を包む紙カバー",
+              "price": 5,
+              "kind": "goods",
+              "description": "本の表紙を包む紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書用の覚え帳",
+              "price": 15,
+              "kind": "goods",
+              "description": "本の感想を書く帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "絵入りカード 三枚",
+              "price": 10,
+              "kind": "goods",
+              "description": "図案を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-america-1920s-2",
+      "name": "書店・ウエストエンヴェロープ",
+      "category": "bookstore",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "旅と工作の本を扱う店"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした旅と工作の本を扱う店。旅人と近所の工作好きが棚を眺める。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口に旅行案内、奥に実用書の棚がある。",
+        "service": "用途に合う図の多い本を開いて見せる。",
+        "signature": "冒険小説『西への封筒』、実用書『家庭のラジオ工作』、鉄道の絵葉書五枚",
+        "localFlavor": "旅人と近所の工作好きが棚を眺める。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-america-1920s-2-section-1",
+          "title": "小説・読みもの",
+          "items": [
+            {
+              "name": "冒険小説『西への封筒』",
+              "price": 125,
+              "kind": "goods",
+              "description": "架空の冒険の物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小説『霧の橋』",
+              "price": 100,
+              "kind": "goods",
+              "description": "架空の都市小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "冒険譚『北の灯台』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の冒険物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "詩集『庭の手紙』",
+              "price": 50,
+              "kind": "goods",
+              "description": "架空の詩の小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "短編集『夕べの客』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の短編を収録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "家庭の物語『小さな窓』",
+              "price": 100,
+              "kind": "goods",
+              "description": "家族を描く架空小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "中古小説の薄冊",
+              "price": 25,
+              "kind": "goods",
+              "description": "使用感のある物語本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-america-1920s-2-section-2",
+          "title": "案内・実用",
+          "items": [
+            {
+              "name": "実用書『家庭のラジオ工作』",
+              "price": 100,
+              "kind": "goods",
+              "description": "架空の工作入門書。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理手引き『炉辺の一皿』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の家庭料理の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "園芸手引き『裏庭の季節』",
+              "price": 50,
+              "kind": "goods",
+              "description": "架空の庭仕事の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "街歩き案内『川沿いの道』",
+              "price": 25,
+              "kind": "goods",
+              "description": "架空街区を歩く案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "鉄道旅行の小案内",
+              "price": 15,
+              "kind": "goods",
+              "description": "架空の旅程の案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "手紙の書き方小冊子",
+              "price": 25,
+              "kind": "goods",
+              "description": "書簡の例をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "植物図譜の小冊子",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の観察用図譜。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-america-1920s-2-section-3",
+          "title": "紙もの・小冊子",
+          "items": [
+            {
+              "name": "鉄道の絵葉書五枚",
+              "price": 20,
+              "kind": "goods",
+              "description": "架空の鉄道を描いた紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "週刊文芸の小冊子",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空の読みもの週刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "挿絵入り月刊誌",
+              "price": 25,
+              "kind": "goods",
+              "description": "架空の挿絵雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紙のしおり",
+              "price": 5,
+              "kind": "goods",
+              "description": "細い紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "本を包む紙カバー",
+              "price": 5,
+              "kind": "goods",
+              "description": "本の表紙を包む紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書用の覚え帳",
+              "price": 15,
+              "kind": "goods",
+              "description": "本の感想を書く帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "絵入りカード 三枚",
+              "price": 10,
+              "kind": "goods",
+              "description": "図案を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bookstore-america-1920s-3",
+      "name": "書店・ハーバーポエム",
+      "category": "bookstore",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ボストンの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "詩と紀行を集める書店"
+      ],
+      "description": "1926年のアメリカ・ボストンの架空街区を舞台にした詩と紀行を集める書店。港の近くに住む読書好きが定期的に訪れる。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓際の机に新しい本を数冊ずつ積む。",
+        "service": "短い感想を添え、気になる本を紹介する。",
+        "signature": "詩集『港の朝』、旅行記『湖畔の町々』、革表紙の読書手帳",
+        "localFlavor": "港の近くに住む読書好きが定期的に訪れる。"
+      },
+      "menuSections": [
+        {
+          "id": "bookstore-america-1920s-3-section-1",
+          "title": "小説・読みもの",
+          "items": [
+            {
+              "name": "詩集『港の朝』",
+              "price": 75,
+              "kind": "goods",
+              "description": "港を題材にした架空詩集。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小説『霧の橋』",
+              "price": 100,
+              "kind": "goods",
+              "description": "架空の都市小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "冒険譚『北の灯台』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の冒険物語。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "詩集『庭の手紙』",
+              "price": 50,
+              "kind": "goods",
+              "description": "架空の詩の小冊子。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "短編集『夕べの客』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の短編を収録。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "家庭の物語『小さな窓』",
+              "price": 100,
+              "kind": "goods",
+              "description": "家族を描く架空小説。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "中古小説の薄冊",
+              "price": 25,
+              "kind": "goods",
+              "description": "使用感のある物語本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-america-1920s-3-section-2",
+          "title": "案内・実用",
+          "items": [
+            {
+              "name": "旅行記『湖畔の町々』",
+              "price": 100,
+              "kind": "goods",
+              "description": "架空の町を巡る旅行記。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "料理手引き『炉辺の一皿』",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の家庭料理の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "園芸手引き『裏庭の季節』",
+              "price": 50,
+              "kind": "goods",
+              "description": "架空の庭仕事の本。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "街歩き案内『川沿いの道』",
+              "price": 25,
+              "kind": "goods",
+              "description": "架空街区を歩く案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "鉄道旅行の小案内",
+              "price": 15,
+              "kind": "goods",
+              "description": "架空の旅程の案内。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "手紙の書き方小冊子",
+              "price": 25,
+              "kind": "goods",
+              "description": "書簡の例をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "植物図譜の小冊子",
+              "price": 75,
+              "kind": "goods",
+              "description": "架空の観察用図譜。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bookstore-america-1920s-3-section-3",
+          "title": "紙もの・小冊子",
+          "items": [
+            {
+              "name": "革表紙の読書手帳",
+              "price": 50,
+              "kind": "goods",
+              "description": "革で表紙を包む手帳。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "週刊文芸の小冊子",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空の読みもの週刊誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "挿絵入り月刊誌",
+              "price": 25,
+              "kind": "goods",
+              "description": "架空の挿絵雑誌。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "紙のしおり",
+              "price": 5,
+              "kind": "goods",
+              "description": "細い紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "本を包む紙カバー",
+              "price": 5,
+              "kind": "goods",
+              "description": "本の表紙を包む紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "読書用の覚え帳",
+              "price": 15,
+              "kind": "goods",
+              "description": "本の感想を書く帳面。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "絵入りカード 三枚",
+              "price": 10,
+              "kind": "goods",
+              "description": "図案を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "bookstore-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

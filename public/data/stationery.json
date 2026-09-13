@@ -708,6 +708,717 @@
         "signature": "真鍮軸の細字ボールペンと糸綴じ方眼ノート A5",
         "localFlavor": "放課後の学生と帰宅途中の会社員が訪れる。階段の踊り場には手書きの催し案内がある。"
       }
+    },
+    {
+      "id": "stationery-victorian-1",
+      "name": "文具店・ブルーインク",
+      "category": "stationery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "事務街の筆記具店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした事務街の筆記具店。事務所の使いの人が紙とインクを買い足す。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "木の引き出しにペン先と封筒が収まる。",
+        "service": "使う文字の太さを聞き、試し書きを勧める。",
+        "signature": "真鍮飾りのペン軸、青枠の便箋十二枚、陶器の小さなインク壺",
+        "localFlavor": "事務所の使いの人が紙とインクを買い足す。"
+      },
+      "menuSections": [
+        {
+          "id": "stationery-victorian-1-section-1",
+          "title": "筆記具",
+          "items": [
+            {
+              "name": "真鍮飾りのペン軸",
+              "price": 12,
+              "kind": "goods",
+              "description": "飾り金具付きの軸。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "木軸のつけペン",
+              "price": 3,
+              "kind": "goods",
+              "description": "ペン先を付ける木軸。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鋼のペン先 六個",
+              "price": 4,
+              "kind": "goods",
+              "description": "交換用のペン先。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "黒インク 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "書きもの用の黒い液。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "鉛筆 一本",
+              "price": 1,
+              "kind": "goods",
+              "description": "木軸の筆記用鉛筆。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "青鉛筆 一本",
+              "price": 2,
+              "kind": "goods",
+              "description": "青い芯の筆記具。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "赤インク 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "赤い文字を書くインク。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "stationery-victorian-1-section-2",
+          "title": "紙・封筒",
+          "items": [
+            {
+              "name": "青枠の便箋十二枚",
+              "price": 6,
+              "kind": "goods",
+              "description": "青い枠を刷った紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "便箋 十二枚",
+              "price": 4,
+              "kind": "goods",
+              "description": "手紙を書くための紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "封筒 十二枚",
+              "price": 3,
+              "kind": "goods",
+              "description": "手紙を入れる封筒。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "小型覚え帳",
+              "price": 4,
+              "kind": "goods",
+              "description": "携帯用の小さな帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "大判帳簿",
+              "price": 24,
+              "kind": "goods",
+              "description": "出納を記録する帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "吸取紙 六枚",
+              "price": 2,
+              "kind": "goods",
+              "description": "余分なインクを吸う紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "厚紙カード 十枚",
+              "price": 3,
+              "kind": "goods",
+              "description": "短文を書ける厚紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "stationery-victorian-1-section-3",
+          "title": "机上の小物",
+          "items": [
+            {
+              "name": "陶器の小さなインク壺",
+              "price": 18,
+              "kind": "goods",
+              "description": "インクを入れる器。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "封蝋 一本",
+              "price": 4,
+              "kind": "goods",
+              "description": "封をするための蝋。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "木製定規",
+              "price": 3,
+              "kind": "goods",
+              "description": "長さを測る木の定規。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "小さな紙ばさみ",
+              "price": 4,
+              "kind": "goods",
+              "description": "紙を留める金具。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ペン置き",
+              "price": 6,
+              "kind": "goods",
+              "description": "筆記具を置く台。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糊の小瓶",
+              "price": 3,
+              "kind": "goods",
+              "description": "紙を貼り合わせる糊。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "木の書類箱",
+              "price": 18,
+              "kind": "goods",
+              "description": "紙をしまう小箱。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stationery-victorian-2",
+      "name": "文具店・スクールベル",
+      "category": "stationery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ヨークの架空街区"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "学校近くの文具店"
+      ],
+      "description": "1890年のイギリス・ヨークの架空街区を舞台にした学校近くの文具店。学校へ通う子どもと教師が朝に訪れる。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓に帳面を積み、鉛筆を小箱に並べる。",
+        "service": "必要な本数を数え、紙袋に名前を書く。",
+        "signature": "学校用鉛筆六本、罫線入り練習帳、木柄の吸取器",
+        "localFlavor": "学校へ通う子どもと教師が朝に訪れる。"
+      },
+      "menuSections": [
+        {
+          "id": "stationery-victorian-2-section-1",
+          "title": "筆記具",
+          "items": [
+            {
+              "name": "学校用鉛筆六本",
+              "price": 5,
+              "kind": "goods",
+              "description": "授業用の鉛筆の組。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "木軸のつけペン",
+              "price": 3,
+              "kind": "goods",
+              "description": "ペン先を付ける木軸。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鋼のペン先 六個",
+              "price": 4,
+              "kind": "goods",
+              "description": "交換用のペン先。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "黒インク 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "書きもの用の黒い液。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "鉛筆 一本",
+              "price": 1,
+              "kind": "goods",
+              "description": "木軸の筆記用鉛筆。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "青鉛筆 一本",
+              "price": 2,
+              "kind": "goods",
+              "description": "青い芯の筆記具。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "赤インク 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "赤い文字を書くインク。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "stationery-victorian-2-section-2",
+          "title": "紙・封筒",
+          "items": [
+            {
+              "name": "罫線入り練習帳",
+              "price": 4,
+              "kind": "goods",
+              "description": "文字の練習をする帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "便箋 十二枚",
+              "price": 4,
+              "kind": "goods",
+              "description": "手紙を書くための紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "封筒 十二枚",
+              "price": 3,
+              "kind": "goods",
+              "description": "手紙を入れる封筒。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "小型覚え帳",
+              "price": 4,
+              "kind": "goods",
+              "description": "携帯用の小さな帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "大判帳簿",
+              "price": 24,
+              "kind": "goods",
+              "description": "出納を記録する帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "吸取紙 六枚",
+              "price": 2,
+              "kind": "goods",
+              "description": "余分なインクを吸う紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "厚紙カード 十枚",
+              "price": 3,
+              "kind": "goods",
+              "description": "短文を書ける厚紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "stationery-victorian-2-section-3",
+          "title": "机上の小物",
+          "items": [
+            {
+              "name": "木柄の吸取器",
+              "price": 10,
+              "kind": "goods",
+              "description": "紙を押してインクを吸う。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "封蝋 一本",
+              "price": 4,
+              "kind": "goods",
+              "description": "封をするための蝋。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "木製定規",
+              "price": 3,
+              "kind": "goods",
+              "description": "長さを測る木の定規。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "小さな紙ばさみ",
+              "price": 4,
+              "kind": "goods",
+              "description": "紙を留める金具。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ペン置き",
+              "price": 6,
+              "kind": "goods",
+              "description": "筆記具を置く台。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糊の小瓶",
+              "price": 3,
+              "kind": "goods",
+              "description": "紙を貼り合わせる糊。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "木の書類箱",
+              "price": 18,
+              "kind": "goods",
+              "description": "紙をしまう小箱。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stationery-victorian-3",
+      "name": "文具店・クイルアーチ",
+      "category": "stationery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・バーミンガムの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "商人の帳簿用品店"
+      ],
+      "description": "1890年のイギリス・バーミンガムの架空街区を舞台にした商人の帳簿用品店。商店主が帳面の買い替えに立ち寄る。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "帳簿を立てた棚と広い会計台がある。",
+        "service": "帳簿の罫線を開いて見せ、厚さを確かめる。",
+        "signature": "細字用ペン先三個、帳簿用の仕切り紙、真鍮の文鎮",
+        "localFlavor": "商店主が帳面の買い替えに立ち寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "stationery-victorian-3-section-1",
+          "title": "筆記具",
+          "items": [
+            {
+              "name": "細字用ペン先三個",
+              "price": 4,
+              "kind": "goods",
+              "description": "細い字用のペン先。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "木軸のつけペン",
+              "price": 3,
+              "kind": "goods",
+              "description": "ペン先を付ける木軸。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鋼のペン先 六個",
+              "price": 4,
+              "kind": "goods",
+              "description": "交換用のペン先。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "黒インク 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "書きもの用の黒い液。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "鉛筆 一本",
+              "price": 1,
+              "kind": "goods",
+              "description": "木軸の筆記用鉛筆。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "青鉛筆 一本",
+              "price": 2,
+              "kind": "goods",
+              "description": "青い芯の筆記具。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "赤インク 小瓶",
+              "price": 6,
+              "kind": "goods",
+              "description": "赤い文字を書くインク。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "stationery-victorian-3-section-2",
+          "title": "紙・封筒",
+          "items": [
+            {
+              "name": "帳簿用の仕切り紙",
+              "price": 3,
+              "kind": "goods",
+              "description": "帳面を区切る紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "便箋 十二枚",
+              "price": 4,
+              "kind": "goods",
+              "description": "手紙を書くための紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "封筒 十二枚",
+              "price": 3,
+              "kind": "goods",
+              "description": "手紙を入れる封筒。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "小型覚え帳",
+              "price": 4,
+              "kind": "goods",
+              "description": "携帯用の小さな帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "大判帳簿",
+              "price": 24,
+              "kind": "goods",
+              "description": "出納を記録する帳面。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "吸取紙 六枚",
+              "price": 2,
+              "kind": "goods",
+              "description": "余分なインクを吸う紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "厚紙カード 十枚",
+              "price": 3,
+              "kind": "goods",
+              "description": "短文を書ける厚紙。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "stationery-victorian-3-section-3",
+          "title": "机上の小物",
+          "items": [
+            {
+              "name": "真鍮の文鎮",
+              "price": 12,
+              "kind": "goods",
+              "description": "紙を押さえる重し。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "封蝋 一本",
+              "price": 4,
+              "kind": "goods",
+              "description": "封をするための蝋。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "木製定規",
+              "price": 3,
+              "kind": "goods",
+              "description": "長さを測る木の定規。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "小さな紙ばさみ",
+              "price": 4,
+              "kind": "goods",
+              "description": "紙を留める金具。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ペン置き",
+              "price": 6,
+              "kind": "goods",
+              "description": "筆記具を置く台。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糊の小瓶",
+              "price": 3,
+              "kind": "goods",
+              "description": "紙を貼り合わせる糊。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "木の書類箱",
+              "price": 18,
+              "kind": "goods",
+              "description": "紙をしまう小箱。",
+              "recommendationGroup": "goods",
+              "id": "stationery-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

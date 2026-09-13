@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "fish-and-chips",
+    "label": "フィッシュ＆チップス店",
+    "group": "テイクアウト",
+    "icon": "fish"
+  },
+  "shops": [
+    {
+      "id": "fish-and-chips-victorian-1",
+      "name": "フライショップ・シルバーコッド",
+      "category": "fish-and-chips",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "揚げ魚の持ち帰り店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした揚げ魚の持ち帰り店。帰宅途中の労働者が夕飯の包みを買う。",
+      "openingHours": "11:00〜20:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "揚げ鍋の前に紙包み用の台がある。",
+        "service": "塩と酢の好みを聞き、厚い紙で包む。",
+        "signature": "港の大きなタラ包み、薄切り芋のカリカリ包み、蜂蜜と生姜の温かい水",
+        "localFlavor": "帰宅途中の労働者が夕飯の包みを買う。"
+      },
+      "menuSections": [
+        {
+          "id": "fish-and-chips-victorian-1-section-1",
+          "title": "揚げ魚",
+          "items": [
+            {
+              "name": "港の大きなタラ包み",
+              "price": 9,
+              "kind": "food",
+              "description": "厚いタラを揚げて包む。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白身魚のフライ",
+              "price": 4,
+              "kind": "food",
+              "description": "白身魚を衣で揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハドックのフライ",
+              "price": 5,
+              "kind": "food",
+              "description": "魚の切り身を揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "小魚の揚げ物",
+              "price": 3,
+              "kind": "food",
+              "description": "小さな魚をまとめて揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "魚と芋の包み",
+              "price": 6,
+              "kind": "food",
+              "description": "揚げ魚と芋を包む。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "大きな魚と芋",
+              "price": 8,
+              "kind": "food",
+              "description": "大きめの切り身の包み。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "魚の二人包み",
+              "price": 12,
+              "kind": "food",
+              "description": "二人分の魚と芋。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips-victorian-1-section-2",
+          "title": "付け合わせ・包み",
+          "items": [
+            {
+              "name": "薄切り芋のカリカリ包み",
+              "price": 3,
+              "kind": "food",
+              "description": "薄い芋を香ばしく揚げる。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チップス 小",
+              "price": 2,
+              "kind": "food",
+              "description": "揚げた芋の小包み。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "チップス 大",
+              "price": 3,
+              "kind": "food",
+              "description": "揚げた芋を多めに。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "パン一切れ",
+              "price": 1,
+              "kind": "food",
+              "description": "揚げ物に添えるパン。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "酢漬け玉ねぎ",
+              "price": 1,
+              "kind": "food",
+              "description": "小さな玉ねぎの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "塩きゅうり",
+              "price": 2,
+              "kind": "food",
+              "description": "きゅうりを漬けた小皿。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ゆでグリーンピース",
+              "price": 2,
+              "kind": "food",
+              "description": "豆をゆでて添える。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips-victorian-1-section-3",
+          "title": "飲みもの・小さな菓子",
+          "items": [
+            {
+              "name": "蜂蜜と生姜の温かい水",
+              "price": 3,
+              "kind": "drink",
+              "description": "蜂蜜と生姜を湯に溶く。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "温かい紅茶",
+              "price": 2,
+              "kind": "drink",
+              "description": "紅茶をカップに注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "レモン風味の水",
+              "price": 1,
+              "kind": "drink",
+              "description": "薄いレモン風味の水。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "生姜の瓶飲料",
+              "price": 2,
+              "kind": "drink",
+              "description": "生姜風味の飲みもの。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "小さなレーズンバン",
+              "price": 2,
+              "kind": "food",
+              "description": "干しぶどうの菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜ビスケット",
+              "price": 2,
+              "kind": "food",
+              "description": "糖蜜の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "りんご一個",
+              "price": 2,
+              "kind": "food",
+              "description": "持ち歩ける果物一個。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-and-chips-victorian-2",
+      "name": "フライショップ・クェイサイド",
+      "category": "fish-and-chips",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・港の架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "波止場の魚料理店"
+      ],
+      "description": "1890年のイギリス・港の架空街区を舞台にした波止場の魚料理店。港の荷役が終わる時間に短い列ができる。",
+      "openingHours": "11:00〜20:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "板張りの床と持ち帰り窓が海側にある。",
+        "service": "次に揚がる魚を伝え、順番に手渡す。",
+        "signature": "二枚の小カレイ包み、麦パンのバター付き、柑橘の小ビスケット",
+        "localFlavor": "港の荷役が終わる時間に短い列ができる。"
+      },
+      "menuSections": [
+        {
+          "id": "fish-and-chips-victorian-2-section-1",
+          "title": "揚げ魚",
+          "items": [
+            {
+              "name": "二枚の小カレイ包み",
+              "price": 8,
+              "kind": "food",
+              "description": "小さな魚を二枚揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白身魚のフライ",
+              "price": 4,
+              "kind": "food",
+              "description": "白身魚を衣で揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハドックのフライ",
+              "price": 5,
+              "kind": "food",
+              "description": "魚の切り身を揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "小魚の揚げ物",
+              "price": 3,
+              "kind": "food",
+              "description": "小さな魚をまとめて揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "魚と芋の包み",
+              "price": 6,
+              "kind": "food",
+              "description": "揚げ魚と芋を包む。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "大きな魚と芋",
+              "price": 8,
+              "kind": "food",
+              "description": "大きめの切り身の包み。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "魚の二人包み",
+              "price": 12,
+              "kind": "food",
+              "description": "二人分の魚と芋。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips-victorian-2-section-2",
+          "title": "付け合わせ・包み",
+          "items": [
+            {
+              "name": "麦パンのバター付き",
+              "price": 2,
+              "kind": "food",
+              "description": "麦のパンにバター。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チップス 小",
+              "price": 2,
+              "kind": "food",
+              "description": "揚げた芋の小包み。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "チップス 大",
+              "price": 3,
+              "kind": "food",
+              "description": "揚げた芋を多めに。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "パン一切れ",
+              "price": 1,
+              "kind": "food",
+              "description": "揚げ物に添えるパン。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "酢漬け玉ねぎ",
+              "price": 1,
+              "kind": "food",
+              "description": "小さな玉ねぎの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "塩きゅうり",
+              "price": 2,
+              "kind": "food",
+              "description": "きゅうりを漬けた小皿。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ゆでグリーンピース",
+              "price": 2,
+              "kind": "food",
+              "description": "豆をゆでて添える。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips-victorian-2-section-3",
+          "title": "飲みもの・小さな菓子",
+          "items": [
+            {
+              "name": "柑橘の小ビスケット",
+              "price": 3,
+              "kind": "food",
+              "description": "皮の香りを付けた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "温かい紅茶",
+              "price": 2,
+              "kind": "drink",
+              "description": "紅茶をカップに注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "レモン風味の水",
+              "price": 1,
+              "kind": "drink",
+              "description": "薄いレモン風味の水。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "生姜の瓶飲料",
+              "price": 2,
+              "kind": "drink",
+              "description": "生姜風味の飲みもの。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "小さなレーズンバン",
+              "price": 2,
+              "kind": "food",
+              "description": "干しぶどうの菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜ビスケット",
+              "price": 2,
+              "kind": "food",
+              "description": "糖蜜の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "りんご一個",
+              "price": 2,
+              "kind": "food",
+              "description": "持ち歩ける果物一個。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-and-chips-victorian-3",
+      "name": "フライショップ・ミルレーン",
+      "category": "fish-and-chips",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・工場町の架空街区"
+      },
+      "locationType": "suburb",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "工場門前の揚げ物店"
+      ],
+      "description": "1890年のイギリス・工場町の架空街区を舞台にした工場門前の揚げ物店。交代勤務の人が工場から歩いて立ち寄る。",
+      "openingHours": "11:00〜20:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓際の小さな台と短い腰掛けがある。",
+        "service": "休憩時間を気にかけ、手早く包みを渡す。",
+        "signature": "魚とパンの昼包み、柔らかい白豆の小皿、赤りんごの甘煮",
+        "localFlavor": "交代勤務の人が工場から歩いて立ち寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "fish-and-chips-victorian-3-section-1",
+          "title": "揚げ魚",
+          "items": [
+            {
+              "name": "魚とパンの昼包み",
+              "price": 7,
+              "kind": "food",
+              "description": "揚げた魚にパンを添える。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白身魚のフライ",
+              "price": 4,
+              "kind": "food",
+              "description": "白身魚を衣で揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハドックのフライ",
+              "price": 5,
+              "kind": "food",
+              "description": "魚の切り身を揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "小魚の揚げ物",
+              "price": 3,
+              "kind": "food",
+              "description": "小さな魚をまとめて揚げる。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "魚と芋の包み",
+              "price": 6,
+              "kind": "food",
+              "description": "揚げ魚と芋を包む。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "大きな魚と芋",
+              "price": 8,
+              "kind": "food",
+              "description": "大きめの切り身の包み。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "魚の二人包み",
+              "price": 12,
+              "kind": "food",
+              "description": "二人分の魚と芋。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips-victorian-3-section-2",
+          "title": "付け合わせ・包み",
+          "items": [
+            {
+              "name": "柔らかい白豆の小皿",
+              "price": 3,
+              "kind": "food",
+              "description": "豆を煮て小皿にする。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チップス 小",
+              "price": 2,
+              "kind": "food",
+              "description": "揚げた芋の小包み。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "チップス 大",
+              "price": 3,
+              "kind": "food",
+              "description": "揚げた芋を多めに。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "パン一切れ",
+              "price": 1,
+              "kind": "food",
+              "description": "揚げ物に添えるパン。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "酢漬け玉ねぎ",
+              "price": 1,
+              "kind": "food",
+              "description": "小さな玉ねぎの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "塩きゅうり",
+              "price": 2,
+              "kind": "food",
+              "description": "きゅうりを漬けた小皿。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ゆでグリーンピース",
+              "price": 2,
+              "kind": "food",
+              "description": "豆をゆでて添える。",
+              "recommendationGroup": "side",
+              "id": "fish-and-chips-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "fish-and-chips-victorian-3-section-3",
+          "title": "飲みもの・小さな菓子",
+          "items": [
+            {
+              "name": "赤りんごの甘煮",
+              "price": 3,
+              "kind": "food",
+              "description": "りんごを甘く煮る。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "温かい紅茶",
+              "price": 2,
+              "kind": "drink",
+              "description": "紅茶をカップに注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "レモン風味の水",
+              "price": 1,
+              "kind": "drink",
+              "description": "薄いレモン風味の水。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "生姜の瓶飲料",
+              "price": 2,
+              "kind": "drink",
+              "description": "生姜風味の飲みもの。",
+              "recommendationGroup": "drink",
+              "id": "fish-and-chips-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "小さなレーズンバン",
+              "price": 2,
+              "kind": "food",
+              "description": "干しぶどうの菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜ビスケット",
+              "price": 2,
+              "kind": "food",
+              "description": "糖蜜の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "fish-and-chips-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "りんご一個",
+              "price": 2,
+              "kind": "food",
+              "description": "持ち歩ける果物一個。",
+              "recommendationGroup": "main",
+              "id": "fish-and-chips-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

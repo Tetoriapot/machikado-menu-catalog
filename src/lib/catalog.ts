@@ -1,6 +1,8 @@
-import type { Shop, ShopSummary, MenuItem } from '../data/types.ts';
+import type { Shop, ShopSummary, MenuItem, Currency } from '../data/types.ts';
+import { money } from './currency.ts';
+export { money } from './currency.ts';
 export type Filters={query:string;category:string;price:string;location:string;era:string;scale:string;tag:string;maxItemPrice:string};
-export const defaultFilters:Filters={query:'',category:'all',price:'all',location:'all',era:'all',scale:'all',tag:'all',maxItemPrice:''};
+export const defaultFilters:Filters={query:'',category:'all',price:'all',location:'all',era:'modern',scale:'all',tag:'all',maxItemPrice:''};
 export const normalize=(text:string)=>text.normalize('NFKC').toLocaleLowerCase('ja').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60));
 const synonyms:Record<string,string>={'ファミリーレストラン':'ファミレス','珈琲':'コーヒー','からあげ':'唐揚げ','らーめん':'ラーメン','こんびに':'コンビニ'};
 export const searchWords=(query:string)=>query.trim().split(/\s+/).filter(Boolean).map(word=>normalize(synonyms[word]??word));
@@ -32,14 +34,13 @@ export function recommendItems(items:readonly MenuItem[],count=3,rng=Math.random
  while(result.length<count&&remaining.length){const diverse=remaining.find(i=>!result.some(p=>p.recommendationGroup===i.recommendationGroup));const next=diverse??remaining[0];result.push(next);remaining=remaining.filter(i=>i.id!==next.id);}
  return result.slice(0,count);
 }
-export const money=(n:number)=>`¥${n.toLocaleString('ja-JP')}`;
-export const itemText=(item:MenuItem)=>`${item.name} ${money(item.price)}\n${item.description}`;
-export const menuText=(shop:Shop)=>`【${shop.name}】\n${shop.priceNote||'価格はすべて税込'}\n\n${shop.menuSections.map(s=>`${s.title}\n${s.items.map(itemText).join('\n\n')}`).join('\n\n')}`;
+export const itemText=(item:MenuItem,currency:Currency='JPY')=>`${item.name} ${money(item.price,currency)}\n${item.description}`;
+export const menuText=(shop:Shop)=>`【${shop.name}】\n${shop.priceNote||'価格はすべて税込'}\n\n${shop.menuSections.map(s=>`${s.title}\n${s.items.map(i=>itemText(i,shop.currency)).join('\n\n')}`).join('\n\n')}`;
 export const gmText=(shop:Shop)=>[
- `【${shop.name}】`,shop.description,`営業時間：${shop.openingHours}`,
+ `【${shop.name}】`,shop.description,`営業時間：${shop.openingHours}`,...(shop.setting?[`舞台：${shop.setting.year}年・${shop.setting.place}`]:[]),
  ...(shop.scene?[`\n【店内】\n${shop.scene.interior}`,`【接客】\n${shop.scene.service}`,`【名物】\n${shop.scene.signature}`,`【街とのつながり】\n${shop.scene.localFlavor}`]:[]),
  ...(shop.priceNote?[`\n価格の補足：${shop.priceNote}`]:[]),
- `\n${shop.menuSections.flatMap(s=>s.items).map(i=>`${i.name} ${money(i.price)}`).join('\n')}`,
+ `\n${shop.menuSections.flatMap(s=>s.items).map(i=>`${i.name} ${money(i.price,shop.currency)}`).join('\n')}`,
 ].join('\n');
 export const remember=(ids:readonly string[],id:string)=>[id,...ids.filter(x=>x!==id)].slice(0,20);
 export function readIds(raw:string|null,validIds:readonly string[]):string[]{try{const parsed:unknown=JSON.parse(raw??'[]');return Array.isArray(parsed)?[...new Set(parsed.filter((id):id is string=>typeof id==='string'&&validIds.includes(id)))]:[];}catch{return [];}}

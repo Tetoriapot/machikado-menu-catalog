@@ -708,6 +708,1428 @@
         "signature": "海老と青梗菜の塩湯麺といかとセロリの生姜炒め",
         "localFlavor": "港で働く人が早朝から訪れる。夕方には近隣の住民が持ち帰りの炒飯を頼む。"
       }
+    },
+    {
+      "id": "chinese-showa-1",
+      "name": "中華 東町軒",
+      "category": "chinese",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "定番メニューの町中華"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした定番メニューの町中華。商店街の昼休みに家族と働く人が混ざる。",
+      "openingHours": "11:00〜14:30 / 17:00〜22:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "赤い丸椅子と年季の入った丸卓。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "一品料理は取り分け皿を先に出し、昼は手早く回す。",
+        "signature": "五目汁そば、豚肉ともやしの炒め皿、焼売 四個",
+        "localFlavor": "商店街の昼休みに家族と働く人が混ざる。"
+      },
+      "menuSections": [
+        {
+          "id": "chinese-showa-1-section-1",
+          "title": "麺・飯",
+          "items": [
+            {
+              "name": "五目汁そば",
+              "price": 150,
+              "kind": "food",
+              "description": "肉と野菜を載せた汁麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "五目チャーハン",
+              "price": 100,
+              "kind": "food",
+              "description": "焼豚、卵、ねぎの香ばしい炒めご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "中華丼",
+              "price": 120,
+              "kind": "food",
+              "description": "野菜たっぷりのとろみ餡をご飯に。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "天津飯",
+              "price": 130,
+              "kind": "food",
+              "description": "かに風味の卵焼きに甘酢餡。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "タンメン",
+              "price": 150,
+              "kind": "food",
+              "description": "炒め野菜を盛った塩味の麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "あんかけ焼きそば",
+              "price": 180,
+              "kind": "food",
+              "description": "焼き目のついた麺に五目餡。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "五目おこげ",
+              "price": 200,
+              "kind": "food",
+              "description": "揚げたご飯に熱い五目餡をかけて。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-showa-1-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "name": "豚肉ともやしの炒め皿",
+              "price": 150,
+              "kind": "food",
+              "description": "豚肉ともやしを炒める。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "麻婆豆腐",
+              "price": 80,
+              "kind": "food",
+              "description": "豆板醤と山椒をきかせた一皿。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "酢豚",
+              "price": 100,
+              "kind": "food",
+              "description": "豚肉と彩り野菜の甘酢炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "回鍋肉",
+              "price": 120,
+              "kind": "food",
+              "description": "豚肉とキャベツの甘味噌炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ニラレバ炒め",
+              "price": 150,
+              "kind": "food",
+              "description": "にんにくをきかせた定番炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "海老チリ",
+              "price": 180,
+              "kind": "food",
+              "description": "ぷりっとした海老のピリ辛ソース。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "青菜のにんにく炒め",
+              "price": 200,
+              "kind": "food",
+              "description": "青菜を強火で手早く炒めた一皿。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-showa-1-section-3",
+          "title": "点心・飲みもの",
+          "items": [
+            {
+              "name": "焼売 四個",
+              "price": 80,
+              "kind": "food",
+              "description": "肉入りの焼売を蒸す。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 六個",
+              "price": 40,
+              "kind": "food",
+              "description": "肉と野菜を包んだ手作り餃子。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "春巻き 二本",
+              "price": 50,
+              "kind": "food",
+              "description": "筍入りの餡をぱりっと揚げて。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "杏仁豆腐",
+              "price": 60,
+              "kind": "food",
+              "description": "なめらかな口当たりの食後の甘味。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 80,
+              "kind": "drink",
+              "description": "中瓶。冷えたグラスと一緒に。",
+              "recommendationGroup": "drink",
+              "id": "chinese-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ジャスミン茶",
+              "price": 100,
+              "kind": "drink",
+              "description": "花の香りがさわやかな中国茶。",
+              "recommendationGroup": "drink",
+              "id": "chinese-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "胡麻団子 三個",
+              "price": 120,
+              "kind": "food",
+              "description": "小豆餡入りの香ばしい揚げ団子。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-showa-2",
+      "name": "中華食堂 赤い卓",
+      "category": "chinese",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "station",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "落ち着いた雰囲気の町中華"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした落ち着いた雰囲気の町中華。近隣の工場の勤務時間に合わせ、夕方の開店が早い。",
+      "openingHours": "11:00〜14:30 / 17:00〜22:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "厨房を囲むL字カウンターと二つの小上がり。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "麺と小丼の組み合わせを相談できる。",
+        "signature": "葱入り肉そば、蒸し鶏の生姜だれ、水餃子 六個",
+        "localFlavor": "近隣の工場の勤務時間に合わせ、夕方の開店が早い。"
+      },
+      "menuSections": [
+        {
+          "id": "chinese-showa-2-section-1",
+          "title": "麺・飯",
+          "items": [
+            {
+              "name": "葱入り肉そば",
+              "price": 160,
+              "kind": "food",
+              "description": "肉と葱を細く切って載せる。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "五目チャーハン",
+              "price": 100,
+              "kind": "food",
+              "description": "焼豚、卵、ねぎの香ばしい炒めご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "中華丼",
+              "price": 120,
+              "kind": "food",
+              "description": "野菜たっぷりのとろみ餡をご飯に。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "天津飯",
+              "price": 130,
+              "kind": "food",
+              "description": "かに風味の卵焼きに甘酢餡。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "タンメン",
+              "price": 150,
+              "kind": "food",
+              "description": "炒め野菜を盛った塩味の麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "あんかけ焼きそば",
+              "price": 180,
+              "kind": "food",
+              "description": "焼き目のついた麺に五目餡。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "五目おこげ",
+              "price": 200,
+              "kind": "food",
+              "description": "揚げたご飯に熱い五目餡をかけて。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-showa-2-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "name": "蒸し鶏の生姜だれ",
+              "price": 160,
+              "kind": "food",
+              "description": "鶏に生姜のたれを添える。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "麻婆豆腐",
+              "price": 80,
+              "kind": "food",
+              "description": "豆板醤と山椒をきかせた一皿。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "酢豚",
+              "price": 100,
+              "kind": "food",
+              "description": "豚肉と彩り野菜の甘酢炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "回鍋肉",
+              "price": 120,
+              "kind": "food",
+              "description": "豚肉とキャベツの甘味噌炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ニラレバ炒め",
+              "price": 150,
+              "kind": "food",
+              "description": "にんにくをきかせた定番炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "海老チリ",
+              "price": 180,
+              "kind": "food",
+              "description": "ぷりっとした海老のピリ辛ソース。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "青菜のにんにく炒め",
+              "price": 200,
+              "kind": "food",
+              "description": "青菜を強火で手早く炒めた一皿。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-showa-2-section-3",
+          "title": "点心・飲みもの",
+          "items": [
+            {
+              "name": "水餃子 六個",
+              "price": 90,
+              "kind": "food",
+              "description": "水でゆでた餃子を出す。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 六個",
+              "price": 40,
+              "kind": "food",
+              "description": "肉と野菜を包んだ手作り餃子。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "春巻き 二本",
+              "price": 50,
+              "kind": "food",
+              "description": "筍入りの餡をぱりっと揚げて。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "杏仁豆腐",
+              "price": 60,
+              "kind": "food",
+              "description": "なめらかな口当たりの食後の甘味。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 80,
+              "kind": "drink",
+              "description": "中瓶。冷えたグラスと一緒に。",
+              "recommendationGroup": "drink",
+              "id": "chinese-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ジャスミン茶",
+              "price": 100,
+              "kind": "drink",
+              "description": "花の香りがさわやかな中国茶。",
+              "recommendationGroup": "drink",
+              "id": "chinese-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "胡麻団子 三個",
+              "price": 120,
+              "kind": "food",
+              "description": "小豆餡入りの香ばしい揚げ団子。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-showa-3",
+      "name": "中華料理 華の橋",
+      "category": "chinese",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "港町の町中華"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした港町の町中華。港で働く人が早朝から訪れる。夕方には近隣の住民が持ち帰りの炒飯を頼む。",
+      "openingHours": "11:00〜14:30 / 17:00〜22:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "青いタイルの壁と回転椅子のカウンター。入口近くに水差し、奥に大きな中華鍋が掛かる。レジの横に黒電話と伝票の束を置く。",
+        "service": "昼は皿を素早く揃え、初めての客には量を伝える。麺と炒め物の提供順を確認する。",
+        "signature": "白菜と海老の塩そば、いかと玉ねぎの炒め皿、小さな卵スープ",
+        "localFlavor": "港で働く人が早朝から訪れる。夕方には近隣の住民が持ち帰りの炒飯を頼む。"
+      },
+      "menuSections": [
+        {
+          "id": "chinese-showa-3-section-1",
+          "title": "麺・飯",
+          "items": [
+            {
+              "name": "白菜と海老の塩そば",
+              "price": 170,
+              "kind": "food",
+              "description": "白菜と海老の塩味の麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "五目チャーハン",
+              "price": 100,
+              "kind": "food",
+              "description": "焼豚、卵、ねぎの香ばしい炒めご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "中華丼",
+              "price": 120,
+              "kind": "food",
+              "description": "野菜たっぷりのとろみ餡をご飯に。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "天津飯",
+              "price": 130,
+              "kind": "food",
+              "description": "かに風味の卵焼きに甘酢餡。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "タンメン",
+              "price": 150,
+              "kind": "food",
+              "description": "炒め野菜を盛った塩味の麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "あんかけ焼きそば",
+              "price": 180,
+              "kind": "food",
+              "description": "焼き目のついた麺に五目餡。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "五目おこげ",
+              "price": 200,
+              "kind": "food",
+              "description": "揚げたご飯に熱い五目餡をかけて。",
+              "recommendationGroup": "main",
+              "id": "chinese-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-showa-3-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "name": "いかと玉ねぎの炒め皿",
+              "price": 170,
+              "kind": "food",
+              "description": "いかと玉ねぎを炒める。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "麻婆豆腐",
+              "price": 80,
+              "kind": "food",
+              "description": "豆板醤と山椒をきかせた一皿。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "酢豚",
+              "price": 100,
+              "kind": "food",
+              "description": "豚肉と彩り野菜の甘酢炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "回鍋肉",
+              "price": 120,
+              "kind": "food",
+              "description": "豚肉とキャベツの甘味噌炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ニラレバ炒め",
+              "price": 150,
+              "kind": "food",
+              "description": "にんにくをきかせた定番炒め。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "海老チリ",
+              "price": 180,
+              "kind": "food",
+              "description": "ぷりっとした海老のピリ辛ソース。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "青菜のにんにく炒め",
+              "price": 200,
+              "kind": "food",
+              "description": "青菜を強火で手早く炒めた一皿。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-showa-3-section-3",
+          "title": "点心・飲みもの",
+          "items": [
+            {
+              "name": "小さな卵スープ",
+              "price": 100,
+              "kind": "food",
+              "description": "だしを卵でとじた汁物。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 六個",
+              "price": 40,
+              "kind": "food",
+              "description": "肉と野菜を包んだ手作り餃子。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "春巻き 二本",
+              "price": 50,
+              "kind": "food",
+              "description": "筍入りの餡をぱりっと揚げて。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "杏仁豆腐",
+              "price": 60,
+              "kind": "food",
+              "description": "なめらかな口当たりの食後の甘味。",
+              "recommendationGroup": "side",
+              "id": "chinese-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 80,
+              "kind": "drink",
+              "description": "中瓶。冷えたグラスと一緒に。",
+              "recommendationGroup": "drink",
+              "id": "chinese-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ジャスミン茶",
+              "price": 100,
+              "kind": "drink",
+              "description": "花の香りがさわやかな中国茶。",
+              "recommendationGroup": "drink",
+              "id": "chinese-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "胡麻団子 三個",
+              "price": 120,
+              "kind": "food",
+              "description": "小豆餡入りの香ばしい揚げ団子。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-america-1920s-1",
+      "name": "チャイニーズ・ジェイドブリッジ",
+      "category": "chinese",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "繁華街の中華料理店"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした繁華街の中華料理店。劇場帰りの客が遅い夕食を囲んでいる。",
+      "openingHours": "11:00〜23:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "丸卓と白い器、壁の挿絵が客席を囲む。",
+        "service": "取り分ける人数を確認し、小皿を先に出す。",
+        "signature": "海老とセロリのチョップスイ、豚肉と豆の炒め皿、きのこの卵スープ",
+        "localFlavor": "劇場帰りの客が遅い夕食を囲んでいる。"
+      },
+      "menuSections": [
+        {
+          "id": "chinese-america-1920s-1-section-1",
+          "title": "米・麺料理",
+          "items": [
+            {
+              "name": "海老とセロリのチョップスイ",
+              "price": 55,
+              "kind": "food",
+              "description": "海老と野菜のあん。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "チョップスイとライス",
+              "price": 40,
+              "kind": "food",
+              "description": "肉野菜のあんにご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鶏のチャウメン",
+              "price": 45,
+              "kind": "food",
+              "description": "鶏と野菜の炒め麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "豚肉の炒飯",
+              "price": 30,
+              "kind": "food",
+              "description": "豚肉入りの炒めご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "海老の炒飯",
+              "price": 40,
+              "kind": "food",
+              "description": "海老を加えた炒め飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "卵入り野菜麺",
+              "price": 30,
+              "kind": "food",
+              "description": "野菜と卵の麺料理。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "白いライス",
+              "price": 5,
+              "kind": "food",
+              "description": "食事に添えるご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-america-1920s-1-section-2",
+          "title": "取り分け料理",
+          "items": [
+            {
+              "name": "豚肉と豆の炒め皿",
+              "price": 40,
+              "kind": "food",
+              "description": "豚肉と豆を炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "酢豚",
+              "price": 45,
+              "kind": "food",
+              "description": "揚げた豚を甘酢に。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "牛肉と玉ねぎ炒め",
+              "price": 50,
+              "kind": "food",
+              "description": "肉と玉ねぎを炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "鶏ときのこの炒め物",
+              "price": 45,
+              "kind": "food",
+              "description": "鶏ときのこを炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "卵の芙蓉風オムレツ",
+              "price": 30,
+              "kind": "food",
+              "description": "野菜入り卵焼き。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "野菜の炒め皿",
+              "price": 20,
+              "kind": "food",
+              "description": "野菜を手早く炒める。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "焼き豚の小皿",
+              "price": 30,
+              "kind": "food",
+              "description": "薄切りの焼き豚。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-america-1920s-1-section-3",
+          "title": "スープ・飲みもの",
+          "items": [
+            {
+              "name": "きのこの卵スープ",
+              "price": 15,
+              "kind": "food",
+              "description": "きのこを汁に加える。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "卵スープ",
+              "price": 10,
+              "kind": "food",
+              "description": "卵を散らした汁。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "鶏の澄ましスープ",
+              "price": 15,
+              "kind": "food",
+              "description": "鶏のだしのスープ。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "温かい中国茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "茶葉を湯で淹れる。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "オレンジの小皿",
+              "price": 10,
+              "kind": "food",
+              "description": "切った果実を出す。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "アーモンド菓子",
+              "price": 10,
+              "kind": "food",
+              "description": "ナッツの焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-america-1920s-2",
+      "name": "チャイニーズ・レッドファン",
+      "category": "chinese",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・サンフランシスコの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "商店街の中華食堂"
+      ],
+      "description": "1926年のアメリカ・サンフランシスコの架空街区を舞台にした商店街の中華食堂。買い物客と近くの店で働く人が昼に集まる。",
+      "openingHours": "11:00〜23:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "厨房へ続く扉の前に大きな丸卓がある。",
+        "service": "料理の量と米か麺かを聞いて注文を取る。",
+        "signature": "牛肉と細麺の炒め皿、蒸し鶏の生姜添え、甘いライチ風味の飲料",
+        "localFlavor": "買い物客と近くの店で働く人が昼に集まる。"
+      },
+      "menuSections": [
+        {
+          "id": "chinese-america-1920s-2-section-1",
+          "title": "米・麺料理",
+          "items": [
+            {
+              "name": "牛肉と細麺の炒め皿",
+              "price": 50,
+              "kind": "food",
+              "description": "牛肉入りの炒め麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "チョップスイとライス",
+              "price": 40,
+              "kind": "food",
+              "description": "肉野菜のあんにご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鶏のチャウメン",
+              "price": 45,
+              "kind": "food",
+              "description": "鶏と野菜の炒め麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "豚肉の炒飯",
+              "price": 30,
+              "kind": "food",
+              "description": "豚肉入りの炒めご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "海老の炒飯",
+              "price": 40,
+              "kind": "food",
+              "description": "海老を加えた炒め飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "卵入り野菜麺",
+              "price": 30,
+              "kind": "food",
+              "description": "野菜と卵の麺料理。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "白いライス",
+              "price": 5,
+              "kind": "food",
+              "description": "食事に添えるご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-america-1920s-2-section-2",
+          "title": "取り分け料理",
+          "items": [
+            {
+              "name": "蒸し鶏の生姜添え",
+              "price": 40,
+              "kind": "food",
+              "description": "蒸した鶏に生姜。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "酢豚",
+              "price": 45,
+              "kind": "food",
+              "description": "揚げた豚を甘酢に。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "牛肉と玉ねぎ炒め",
+              "price": 50,
+              "kind": "food",
+              "description": "肉と玉ねぎを炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "鶏ときのこの炒め物",
+              "price": 45,
+              "kind": "food",
+              "description": "鶏ときのこを炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "卵の芙蓉風オムレツ",
+              "price": 30,
+              "kind": "food",
+              "description": "野菜入り卵焼き。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "野菜の炒め皿",
+              "price": 20,
+              "kind": "food",
+              "description": "野菜を手早く炒める。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "焼き豚の小皿",
+              "price": 30,
+              "kind": "food",
+              "description": "薄切りの焼き豚。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-america-1920s-2-section-3",
+          "title": "スープ・飲みもの",
+          "items": [
+            {
+              "name": "甘いライチ風味の飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "果実の香りの飲料。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "卵スープ",
+              "price": 10,
+              "kind": "food",
+              "description": "卵を散らした汁。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "鶏の澄ましスープ",
+              "price": 15,
+              "kind": "food",
+              "description": "鶏のだしのスープ。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "温かい中国茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "茶葉を湯で淹れる。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "オレンジの小皿",
+              "price": 10,
+              "kind": "food",
+              "description": "切った果実を出す。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "アーモンド菓子",
+              "price": 10,
+              "kind": "food",
+              "description": "ナッツの焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-america-1920s-3",
+      "name": "チャイニーズ・ムーンガーデン",
+      "category": "chinese",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "住宅地の家族向け食堂"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした住宅地の家族向け食堂。休日に近所の家族が少し長い夕食を取る。",
+      "openingHours": "11:00〜23:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓際の四人卓に小さな花瓶が置かれる。",
+        "service": "家族の人数に合わせて大皿を提案する。",
+        "signature": "鶏と卵のご飯皿、海老と白菜の煮物、干し果実の甘い小鉢",
+        "localFlavor": "休日に近所の家族が少し長い夕食を取る。"
+      },
+      "menuSections": [
+        {
+          "id": "chinese-america-1920s-3-section-1",
+          "title": "米・麺料理",
+          "items": [
+            {
+              "name": "鶏と卵のご飯皿",
+              "price": 40,
+              "kind": "food",
+              "description": "鶏と卵をご飯に。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "チョップスイとライス",
+              "price": 40,
+              "kind": "food",
+              "description": "肉野菜のあんにご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "鶏のチャウメン",
+              "price": 45,
+              "kind": "food",
+              "description": "鶏と野菜の炒め麺。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "豚肉の炒飯",
+              "price": 30,
+              "kind": "food",
+              "description": "豚肉入りの炒めご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "海老の炒飯",
+              "price": 40,
+              "kind": "food",
+              "description": "海老を加えた炒め飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "卵入り野菜麺",
+              "price": 30,
+              "kind": "food",
+              "description": "野菜と卵の麺料理。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "白いライス",
+              "price": 5,
+              "kind": "food",
+              "description": "食事に添えるご飯。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-america-1920s-3-section-2",
+          "title": "取り分け料理",
+          "items": [
+            {
+              "name": "海老と白菜の煮物",
+              "price": 50,
+              "kind": "food",
+              "description": "海老と白菜を煮る。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "酢豚",
+              "price": 45,
+              "kind": "food",
+              "description": "揚げた豚を甘酢に。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "牛肉と玉ねぎ炒め",
+              "price": 50,
+              "kind": "food",
+              "description": "肉と玉ねぎを炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "鶏ときのこの炒め物",
+              "price": 45,
+              "kind": "food",
+              "description": "鶏ときのこを炒める。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "卵の芙蓉風オムレツ",
+              "price": 30,
+              "kind": "food",
+              "description": "野菜入り卵焼き。",
+              "recommendationGroup": "main",
+              "id": "chinese-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "野菜の炒め皿",
+              "price": 20,
+              "kind": "food",
+              "description": "野菜を手早く炒める。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "焼き豚の小皿",
+              "price": 30,
+              "kind": "food",
+              "description": "薄切りの焼き豚。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chinese-america-1920s-3-section-3",
+          "title": "スープ・飲みもの",
+          "items": [
+            {
+              "name": "干し果実の甘い小鉢",
+              "price": 15,
+              "kind": "food",
+              "description": "果実を甘く煮る。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "卵スープ",
+              "price": 10,
+              "kind": "food",
+              "description": "卵を散らした汁。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "鶏の澄ましスープ",
+              "price": 15,
+              "kind": "food",
+              "description": "鶏のだしのスープ。",
+              "recommendationGroup": "side",
+              "id": "chinese-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "温かい中国茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "茶葉を湯で淹れる。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "chinese-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "オレンジの小皿",
+              "price": 10,
+              "kind": "food",
+              "description": "切った果実を出す。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "アーモンド菓子",
+              "price": 10,
+              "kind": "food",
+              "description": "ナッツの焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "chinese-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

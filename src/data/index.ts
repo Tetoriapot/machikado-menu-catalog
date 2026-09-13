@@ -5,7 +5,7 @@ export const categories = data.categories as Category[];
 export const itemCount = data.itemCount;
 export const priceLabels: Record<PriceLevel,string> = {'very-cheap':'激安',cheap:'安い',normal:'普通',expensive:'やや高い',luxury:'高級'};
 export const locationLabels: Record<LocationType,string> = {city:'都心',suburb:'郊外','local-city':'地方都市',rural:'田舎',station:'駅前','shopping-street':'商店街',tourist:'観光地'};
-export const eraLabels: Record<Era,string> = {modern:'現代','2010s':'2010年代','2000s':'2000年代','1990s':'1990年代',showa:'昭和'};
+export { eraLabels } from './eras';
 export const scaleLabels: Record<ShopScale,string> = {independent:'個人店','small-chain':'小規模チェーン風','national-chain':'全国チェーン風',upscale:'高級店'};
 const menuCache = new Map<string, Shop[]>();
 export async function loadShop(id:string, signal?:AbortSignal):Promise<Shop>{

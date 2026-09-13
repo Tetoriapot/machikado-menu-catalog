@@ -708,6 +708,717 @@
         "signature": "燻製ベーコンと黒胡椒のバーガーと燻製パプリカの厚切りポテト",
         "localFlavor": "周辺の工房で働く人が昼に集まる。夜は近くの催し帰りの客が遅い食事を取る。"
       }
+    },
+    {
+      "id": "burger-heisei-1",
+      "name": "バーガーハウス 若葉テラス",
+      "category": "burger",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "定番メニューのハンバーガー店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした定番メニューのハンバーガー店。昼は公園を使う家族、夕方は近隣の会社員が立ち寄る。外のベンチで食べる客も多い。",
+      "openingHours": "11:00〜21:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "公園へ向いた大きな窓と木のカウンター。キッチンではパティを焼く音が途切れない。レジ横に公衆電話と時刻表がある。",
+        "service": "持ち帰りか店内かを先に聞き、ソースの多い品は二重の紙包みで渡す。",
+        "signature": "厚切り玉子のサンドバーガー、ハーブポテトの小皿、いちごミルクシェイク",
+        "localFlavor": "昼は公園を使う家族、夕方は近隣の会社員が立ち寄る。外のベンチで食べる客も多い。"
+      },
+      "menuSections": [
+        {
+          "id": "burger-heisei-1-section-1",
+          "title": "BURGER",
+          "items": [
+            {
+              "name": "厚切り玉子のサンドバーガー",
+              "price": 420,
+              "kind": "food",
+              "description": "卵焼きとレタスを挟む。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "クラシックバーガー",
+              "price": 280,
+              "kind": "food",
+              "description": "牛肉パティとレタス、トマトの基本形。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "チーズバーガー",
+              "price": 320,
+              "kind": "food",
+              "description": "とろけるチェダーチーズを重ねて。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "てりやきバーガー",
+              "price": 380,
+              "kind": "food",
+              "description": "甘辛い照り焼きソースの一品。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "フィッシュバーガー",
+              "price": 420,
+              "kind": "food",
+              "description": "白身魚フライとタルタルソース。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ベーコンエッグバーガー",
+              "price": 480,
+              "kind": "food",
+              "description": "厚切りベーコンと目玉焼きを重ねて。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "燻製ベーコンと黒胡椒のバーガー",
+              "price": 550,
+              "kind": "food",
+              "description": "厚いベーコンと牛肉に黒胡椒のソース。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-heisei-1-section-2",
+          "title": "SIDES",
+          "items": [
+            {
+              "name": "ハーブポテトの小皿",
+              "price": 250,
+              "kind": "food",
+              "description": "揚げた芋に乾燥香草を振る。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 180,
+              "kind": "food",
+              "description": "皮付きじゃがいもをほくほくに。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "オニオンリング",
+              "price": 220,
+              "kind": "food",
+              "description": "甘い玉ねぎにさっくりした衣。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チキンナゲット",
+              "price": 280,
+              "kind": "food",
+              "description": "小さな骨なしチキン五個。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー",
+              "price": 250,
+              "kind": "food",
+              "description": "キャベツを甘酸っぱく和えたサラダ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピクルス",
+              "price": 320,
+              "kind": "food",
+              "description": "きゅうりの爽やかな酢漬け。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "燻製パプリカの厚切りポテト",
+              "price": 380,
+              "kind": "food",
+              "description": "厚切りポテトに香りのある粉末パプリカ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-heisei-1-section-3",
+          "title": "DRINK",
+          "items": [
+            {
+              "name": "いちごミルクシェイク",
+              "price": 230,
+              "kind": "drink",
+              "description": "苺風味の冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "コーラ",
+              "price": 150,
+              "kind": "drink",
+              "description": "氷をたっぷり入れた一杯。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 180,
+              "kind": "drink",
+              "description": "生姜の香りが爽やかな炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バニラシェイク",
+              "price": 200,
+              "kind": "drink",
+              "description": "ミルク感のある冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アイスティー",
+              "price": 230,
+              "kind": "drink",
+              "description": "無糖で提供する紅茶。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンスカッシュ",
+              "price": 250,
+              "kind": "drink",
+              "description": "レモンの酸味をきかせた炭酸。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ローストナッツのミルクシェイク",
+              "price": 280,
+              "kind": "drink",
+              "description": "ナッツの香りを加えた濃いミルクシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burger-heisei-2",
+      "name": "ハンバーガー キッチンベル",
+      "category": "burger",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "落ち着いた雰囲気のハンバーガー店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした落ち着いた雰囲気のハンバーガー店。駅からの帰り道に持ち帰る客が多い。祭りの日には商店街を歩く人向けに小さなセットを出す。",
+      "openingHours": "11:00〜21:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "商店街の角に小さな注文窓があり、砂時計がいくつも棚に並ぶ。立ち寄り用の高い椅子が四脚。入口に紙の地域情報誌が積まれている。",
+        "service": "手切りポテトは注文後に揚げる。紙袋には品名を大きく書き、人数分に分けて渡す。",
+        "signature": "甘辛ポークオニオンバーガー、マカロニのサラダカップ、チョコレートシェイク",
+        "localFlavor": "駅からの帰り道に持ち帰る客が多い。祭りの日には商店街を歩く人向けに小さなセットを出す。"
+      },
+      "menuSections": [
+        {
+          "id": "burger-heisei-2-section-1",
+          "title": "BURGER",
+          "items": [
+            {
+              "name": "甘辛ポークオニオンバーガー",
+              "price": 470,
+              "kind": "food",
+              "description": "甘辛い豚肉と玉ねぎを挟む。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "クラシックバーガー",
+              "price": 280,
+              "kind": "food",
+              "description": "牛肉パティとレタス、トマトの基本形。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "チーズバーガー",
+              "price": 320,
+              "kind": "food",
+              "description": "とろけるチェダーチーズを重ねて。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "てりやきバーガー",
+              "price": 380,
+              "kind": "food",
+              "description": "甘辛い照り焼きソースの一品。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "フィッシュバーガー",
+              "price": 420,
+              "kind": "food",
+              "description": "白身魚フライとタルタルソース。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ベーコンエッグバーガー",
+              "price": 480,
+              "kind": "food",
+              "description": "厚切りベーコンと目玉焼きを重ねて。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "燻製ベーコンと黒胡椒のバーガー",
+              "price": 550,
+              "kind": "food",
+              "description": "厚いベーコンと牛肉に黒胡椒のソース。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-heisei-2-section-2",
+          "title": "SIDES",
+          "items": [
+            {
+              "name": "マカロニのサラダカップ",
+              "price": 300,
+              "kind": "food",
+              "description": "マカロニと野菜の小サラダ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 180,
+              "kind": "food",
+              "description": "皮付きじゃがいもをほくほくに。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "オニオンリング",
+              "price": 220,
+              "kind": "food",
+              "description": "甘い玉ねぎにさっくりした衣。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チキンナゲット",
+              "price": 280,
+              "kind": "food",
+              "description": "小さな骨なしチキン五個。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー",
+              "price": 250,
+              "kind": "food",
+              "description": "キャベツを甘酸っぱく和えたサラダ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピクルス",
+              "price": 320,
+              "kind": "food",
+              "description": "きゅうりの爽やかな酢漬け。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "燻製パプリカの厚切りポテト",
+              "price": 380,
+              "kind": "food",
+              "description": "厚切りポテトに香りのある粉末パプリカ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-heisei-2-section-3",
+          "title": "DRINK",
+          "items": [
+            {
+              "name": "チョコレートシェイク",
+              "price": 280,
+              "kind": "drink",
+              "description": "チョコ風味の冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "コーラ",
+              "price": 150,
+              "kind": "drink",
+              "description": "氷をたっぷり入れた一杯。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 180,
+              "kind": "drink",
+              "description": "生姜の香りが爽やかな炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バニラシェイク",
+              "price": 200,
+              "kind": "drink",
+              "description": "ミルク感のある冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アイスティー",
+              "price": 230,
+              "kind": "drink",
+              "description": "無糖で提供する紅茶。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンスカッシュ",
+              "price": 250,
+              "kind": "drink",
+              "description": "レモンの酸味をきかせた炭酸。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ローストナッツのミルクシェイク",
+              "price": 280,
+              "kind": "drink",
+              "description": "ナッツの香りを加えた濃いミルクシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burger-heisei-3",
+      "name": "グリルバーガー 銀の輪",
+      "category": "burger",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "燻製のハンバーガー店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした燻製のハンバーガー店。周辺の工房で働く人が昼に集まる。夜は近くの催し帰りの客が遅い食事を取る。",
+      "openingHours": "11:00〜21:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "赤い煉瓦の壁と金属脚のテーブル。半分開いた厨房から肉を焼く香りが流れる。カウンターに手書きの予約帳が置かれている。",
+        "service": "紙包みの使い方を案内し、ソースの多い品には追加の紙を添える。",
+        "signature": "白身フライのタルタルバーガー、小さなフライドチキン、ミルクセーキ",
+        "localFlavor": "周辺の工房で働く人が昼に集まる。夜は近くの催し帰りの客が遅い食事を取る。"
+      },
+      "menuSections": [
+        {
+          "id": "burger-heisei-3-section-1",
+          "title": "BURGER",
+          "items": [
+            {
+              "name": "白身フライのタルタルバーガー",
+              "price": 520,
+              "kind": "food",
+              "description": "白身フライにタルタルを添える。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "クラシックバーガー",
+              "price": 280,
+              "kind": "food",
+              "description": "牛肉パティとレタス、トマトの基本形。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "チーズバーガー",
+              "price": 320,
+              "kind": "food",
+              "description": "とろけるチェダーチーズを重ねて。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "てりやきバーガー",
+              "price": 380,
+              "kind": "food",
+              "description": "甘辛い照り焼きソースの一品。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "フィッシュバーガー",
+              "price": 420,
+              "kind": "food",
+              "description": "白身魚フライとタルタルソース。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ベーコンエッグバーガー",
+              "price": 480,
+              "kind": "food",
+              "description": "厚切りベーコンと目玉焼きを重ねて。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "燻製ベーコンと黒胡椒のバーガー",
+              "price": 550,
+              "kind": "food",
+              "description": "厚いベーコンと牛肉に黒胡椒のソース。",
+              "recommendationGroup": "main",
+              "id": "burger-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-heisei-3-section-2",
+          "title": "SIDES",
+          "items": [
+            {
+              "name": "小さなフライドチキン",
+              "price": 350,
+              "kind": "food",
+              "description": "骨付きの鶏を一本揚げる。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 180,
+              "kind": "food",
+              "description": "皮付きじゃがいもをほくほくに。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "オニオンリング",
+              "price": 220,
+              "kind": "food",
+              "description": "甘い玉ねぎにさっくりした衣。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チキンナゲット",
+              "price": 280,
+              "kind": "food",
+              "description": "小さな骨なしチキン五個。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー",
+              "price": 250,
+              "kind": "food",
+              "description": "キャベツを甘酸っぱく和えたサラダ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ピクルス",
+              "price": 320,
+              "kind": "food",
+              "description": "きゅうりの爽やかな酢漬け。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "燻製パプリカの厚切りポテト",
+              "price": 380,
+              "kind": "food",
+              "description": "厚切りポテトに香りのある粉末パプリカ。",
+              "recommendationGroup": "side",
+              "id": "burger-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "burger-heisei-3-section-3",
+          "title": "DRINK",
+          "items": [
+            {
+              "name": "ミルクセーキ",
+              "price": 330,
+              "kind": "drink",
+              "description": "牛乳と卵風味の甘い飲料。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "コーラ",
+              "price": 150,
+              "kind": "drink",
+              "description": "氷をたっぷり入れた一杯。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 180,
+              "kind": "drink",
+              "description": "生姜の香りが爽やかな炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バニラシェイク",
+              "price": 200,
+              "kind": "drink",
+              "description": "ミルク感のある冷たいシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アイスティー",
+              "price": 230,
+              "kind": "drink",
+              "description": "無糖で提供する紅茶。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "レモンスカッシュ",
+              "price": 250,
+              "kind": "drink",
+              "description": "レモンの酸味をきかせた炭酸。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ローストナッツのミルクシェイク",
+              "price": 280,
+              "kind": "drink",
+              "description": "ナッツの香りを加えた濃いミルクシェイク。",
+              "recommendationGroup": "drink",
+              "id": "burger-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -699,6 +699,714 @@
           ]
         }
       ]
+    },
+    {
+      "id": "music-store-heisei-1",
+      "name": "楽器のリズムポート",
+      "category": "music-store",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "ギターの楽器店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にしたギターの楽器店。演奏前のバンド客と初心者が交じる。夜は弦が切れて駆け込む客もいる。",
+      "openingHours": "12:00〜21:00（火曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "壁にギターが並び、試奏用の椅子と小さなアンプを置く。奥には調整用の作業台。レジ横に公衆電話と時刻表がある。",
+        "service": "弾く音楽と予算を聞いて案内する。試奏前に音量と使う席を確認する。",
+        "signature": "練習用クラシックギター、交換用エレキギター弦、ギター練習日誌",
+        "localFlavor": "演奏前のバンド客と初心者が交じる。夜は弦が切れて駆け込む客もいる。"
+      },
+      "menuSections": [
+        {
+          "id": "music-store-heisei-1-section-1",
+          "title": "楽器",
+          "items": [
+            {
+              "name": "練習用クラシックギター",
+              "price": 500,
+              "kind": "goods",
+              "description": "ナイロン弦の入門用ギター。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小ぶりなフォークギター",
+              "price": 6800,
+              "kind": "goods",
+              "description": "抱えやすい胴の入門ギター。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ショートスケールベース",
+              "price": 3980,
+              "kind": "goods",
+              "description": "弦の長さが短めのベース。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "金属製カズー",
+              "price": 1200,
+              "kind": "goods",
+              "description": "声を響かせて鳴らす小楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "入門用ソプラノウクレレ",
+              "price": 500,
+              "kind": "goods",
+              "description": "練習を始める方向けの楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "小型鍵盤ハーモニカ",
+              "price": 19800,
+              "kind": "goods",
+              "description": "息を吹き込んで弾く小型鍵盤。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "木製タンバリン",
+              "price": 29800,
+              "kind": "goods",
+              "description": "手で振ったり打ったりする楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-heisei-1-section-2",
+          "title": "消耗品・周辺用品",
+          "items": [
+            {
+              "name": "交換用エレキギター弦",
+              "price": 1500,
+              "kind": "goods",
+              "description": "六本組の金属製の弦。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "革端のギターストラップ",
+              "price": 250,
+              "kind": "goods",
+              "description": "肩に掛けて楽器を支える帯。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "三メートル楽器シールド",
+              "price": 700,
+              "kind": "goods",
+              "description": "楽器とアンプをつなぐ線。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ばね式カポタスト",
+              "price": 1800,
+              "kind": "goods",
+              "description": "弦を押さえる位置を変える小物。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ギターピック 三枚",
+              "price": 1500,
+              "kind": "goods",
+              "description": "厚みの違うピックの組。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "アコースティック弦 一組",
+              "price": 980,
+              "kind": "goods",
+              "description": "六本組の交換用ギター弦。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "電子式チューナー",
+              "price": 1980,
+              "kind": "goods",
+              "description": "針の表示を見て音程を合わせる。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-heisei-1-section-3",
+          "title": "楽譜・小物・サービス",
+          "items": [
+            {
+              "name": "ギター練習日誌",
+              "price": 680,
+              "kind": "goods",
+              "description": "練習した曲を記録する帳面。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "架空曲集『路地の六弦』",
+              "price": 250,
+              "kind": "goods",
+              "description": "架空の練習曲を収めた楽譜。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ギター弦交換工賃 一台",
+              "price": 480,
+              "kind": "service",
+              "description": "ギター一台の弦交換。弦代別。",
+              "id": "music-store-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "丸いピックケース",
+              "price": 350,
+              "kind": "goods",
+              "description": "ピックを入れる小さなケース。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "五線ノート",
+              "price": 680,
+              "kind": "goods",
+              "description": "音符を書き込めるノート。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "楽器用クロス",
+              "price": 1200,
+              "kind": "goods",
+              "description": "楽器を拭く柔らかな布。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "譜面クリップ 二個",
+              "price": 800,
+              "kind": "goods",
+              "description": "譜面の端を留める小物。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-store-heisei-2",
+      "name": "ミュージックショップ 青い窓",
+      "category": "music-store",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "学校近くの楽器店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした学校近くの楽器店。放課後には学生が数人で来る。新学期は家族と一緒に楽器を選ぶ客が増える。",
+      "openingHours": "12:00〜21:00（火曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口に打楽器の見本、奥に譜面棚がある。カウンターに学校別の注文箱が置かれる。入口に紙の地域情報誌が積まれている。",
+        "service": "使う授業や楽器の型を確認する。消耗品は対応表を見せて案内する。",
+        "signature": "小型電子キーボード、ヘッドホン用延長コード、架空楽譜集『街角の旋律』",
+        "localFlavor": "放課後には学生が数人で来る。新学期は家族と一緒に楽器を選ぶ客が増える。"
+      },
+      "menuSections": [
+        {
+          "id": "music-store-heisei-2-section-1",
+          "title": "楽器",
+          "items": [
+            {
+              "name": "小型電子キーボード",
+              "price": 550,
+              "kind": "goods",
+              "description": "机に置いて弾ける電子鍵盤。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小ぶりなフォークギター",
+              "price": 6800,
+              "kind": "goods",
+              "description": "抱えやすい胴の入門ギター。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ショートスケールベース",
+              "price": 3980,
+              "kind": "goods",
+              "description": "弦の長さが短めのベース。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "金属製カズー",
+              "price": 1200,
+              "kind": "goods",
+              "description": "声を響かせて鳴らす小楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "入門用ソプラノウクレレ",
+              "price": 500,
+              "kind": "goods",
+              "description": "練習を始める方向けの楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "小型鍵盤ハーモニカ",
+              "price": 19800,
+              "kind": "goods",
+              "description": "息を吹き込んで弾く小型鍵盤。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "木製タンバリン",
+              "price": 29800,
+              "kind": "goods",
+              "description": "手で振ったり打ったりする楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-heisei-2-section-2",
+          "title": "消耗品・周辺用品",
+          "items": [
+            {
+              "name": "ヘッドホン用延長コード",
+              "price": 1550,
+              "kind": "goods",
+              "description": "対応端子を延長するコード。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "革端のギターストラップ",
+              "price": 250,
+              "kind": "goods",
+              "description": "肩に掛けて楽器を支える帯。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "三メートル楽器シールド",
+              "price": 700,
+              "kind": "goods",
+              "description": "楽器とアンプをつなぐ線。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ばね式カポタスト",
+              "price": 1800,
+              "kind": "goods",
+              "description": "弦を押さえる位置を変える小物。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ギターピック 三枚",
+              "price": 1500,
+              "kind": "goods",
+              "description": "厚みの違うピックの組。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "アコースティック弦 一組",
+              "price": 980,
+              "kind": "goods",
+              "description": "六本組の交換用ギター弦。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "電子式チューナー",
+              "price": 1980,
+              "kind": "goods",
+              "description": "針の表示を見て音程を合わせる。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-heisei-2-section-3",
+          "title": "楽譜・小物・サービス",
+          "items": [
+            {
+              "name": "架空楽譜集『街角の旋律』",
+              "price": 730,
+              "kind": "goods",
+              "description": "創作の旋律を収録した楽譜。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "架空曲集『路地の六弦』",
+              "price": 250,
+              "kind": "goods",
+              "description": "架空の練習曲を収めた楽譜。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ギター弦交換工賃 一台",
+              "price": 480,
+              "kind": "service",
+              "description": "ギター一台の弦交換。弦代別。",
+              "id": "music-store-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "丸いピックケース",
+              "price": 350,
+              "kind": "goods",
+              "description": "ピックを入れる小さなケース。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "五線ノート",
+              "price": 680,
+              "kind": "goods",
+              "description": "音符を書き込めるノート。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "楽器用クロス",
+              "price": 1200,
+              "kind": "goods",
+              "description": "楽器を拭く柔らかな布。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "譜面クリップ 二個",
+              "price": 800,
+              "kind": "goods",
+              "description": "譜面の端を留める小物。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-store-heisei-3",
+      "name": "音楽屋 夕空スタジオ",
+      "category": "music-store",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "中古楽器の楽器店"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした中古楽器の楽器店。町の音楽好きが掘り出し物を探す。使わなくなった楽器を相談に持つ人も来る。",
+      "openingHours": "12:00〜21:00（火曜休）",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "棚に中古の楽器と札が並ぶ。古い演奏会の架空ポスターが壁に重なっている。カウンターに手書きの予約帳が置かれている。",
+        "service": "傷や付属品の有無を最初に示す。音を試すときは店員が楽器を取り出す。",
+        "signature": "中古アコースティックギター、木製ドラムスティック、楽器用肩掛けバッグ",
+        "localFlavor": "町の音楽好きが掘り出し物を探す。使わなくなった楽器を相談に持つ人も来る。"
+      },
+      "menuSections": [
+        {
+          "id": "music-store-heisei-3-section-1",
+          "title": "楽器",
+          "items": [
+            {
+              "name": "中古アコースティックギター",
+              "price": 600,
+              "kind": "goods",
+              "description": "使用感を確認して買う楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小ぶりなフォークギター",
+              "price": 6800,
+              "kind": "goods",
+              "description": "抱えやすい胴の入門ギター。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ショートスケールベース",
+              "price": 3980,
+              "kind": "goods",
+              "description": "弦の長さが短めのベース。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "金属製カズー",
+              "price": 1200,
+              "kind": "goods",
+              "description": "声を響かせて鳴らす小楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "入門用ソプラノウクレレ",
+              "price": 500,
+              "kind": "goods",
+              "description": "練習を始める方向けの楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "小型鍵盤ハーモニカ",
+              "price": 19800,
+              "kind": "goods",
+              "description": "息を吹き込んで弾く小型鍵盤。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "木製タンバリン",
+              "price": 29800,
+              "kind": "goods",
+              "description": "手で振ったり打ったりする楽器。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-heisei-3-section-2",
+          "title": "消耗品・周辺用品",
+          "items": [
+            {
+              "name": "木製ドラムスティック",
+              "price": 1600,
+              "kind": "goods",
+              "description": "二本組の練習用スティック。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "革端のギターストラップ",
+              "price": 250,
+              "kind": "goods",
+              "description": "肩に掛けて楽器を支える帯。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "三メートル楽器シールド",
+              "price": 700,
+              "kind": "goods",
+              "description": "楽器とアンプをつなぐ線。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ばね式カポタスト",
+              "price": 1800,
+              "kind": "goods",
+              "description": "弦を押さえる位置を変える小物。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ギターピック 三枚",
+              "price": 1500,
+              "kind": "goods",
+              "description": "厚みの違うピックの組。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "アコースティック弦 一組",
+              "price": 980,
+              "kind": "goods",
+              "description": "六本組の交換用ギター弦。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "電子式チューナー",
+              "price": 1980,
+              "kind": "goods",
+              "description": "針の表示を見て音程を合わせる。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-heisei-3-section-3",
+          "title": "楽譜・小物・サービス",
+          "items": [
+            {
+              "name": "楽器用肩掛けバッグ",
+              "price": 780,
+              "kind": "goods",
+              "description": "小さな楽器を運ぶ布袋。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "架空曲集『路地の六弦』",
+              "price": 250,
+              "kind": "goods",
+              "description": "架空の練習曲を収めた楽譜。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ギター弦交換工賃 一台",
+              "price": 480,
+              "kind": "service",
+              "description": "ギター一台の弦交換。弦代別。",
+              "id": "music-store-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "丸いピックケース",
+              "price": 350,
+              "kind": "goods",
+              "description": "ピックを入れる小さなケース。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "五線ノート",
+              "price": 680,
+              "kind": "goods",
+              "description": "音符を書き込めるノート。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "楽器用クロス",
+              "price": 1200,
+              "kind": "goods",
+              "description": "楽器を拭く柔らかな布。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "譜面クリップ 二個",
+              "price": 800,
+              "kind": "goods",
+              "description": "譜面の端を留める小物。",
+              "recommendationGroup": "goods",
+              "id": "music-store-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

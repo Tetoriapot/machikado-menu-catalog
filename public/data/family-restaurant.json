@@ -716,6 +716,714 @@
         "signature": "灯る丘の煮込みチーズハンバーグと鶏むね肉のレモンサラダラップ",
         "localFlavor": "送迎前の朝食や週末の親族の集まりに使われる。夜は近くの施設で働く人が立ち寄る。"
       }
+    },
+    {
+      "id": "family-restaurant-heisei-1",
+      "name": "ファミリーダイニング 若葉坂",
+      "category": "family-restaurant",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "定番メニューのファミレス"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした定番メニューのファミレス。郊外の買い物帰りや休日の家族連れが多い。",
+      "openingHours": "7:00〜23:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "六人掛けのボックス席と低い絵本棚。駐車場が広い。レジ横に公衆電話と時刻表がある。",
+        "service": "子ども用食器を先に運び、家族の注文をまとめて聞く。",
+        "signature": "和風チキンの鉄板皿、海老フライの小皿、苺サンデー",
+        "localFlavor": "郊外の買い物帰りや休日の家族連れが多い。"
+      },
+      "menuSections": [
+        {
+          "id": "family-restaurant-heisei-1-section-1",
+          "title": "MAIN DISH",
+          "items": [
+            {
+              "name": "和風チキンの鉄板皿",
+              "price": 720,
+              "kind": "food",
+              "description": "鶏肉に大根おろしを添える。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "鉄板ハンバーグ",
+              "price": 680,
+              "kind": "food",
+              "description": "熱々の鉄板にデミグラスソースをかけて。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "チキンステーキ",
+              "price": 580,
+              "kind": "food",
+              "description": "皮を香ばしく焼き、和風おろしソースを添えた一皿。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "オムライス",
+              "price": 620,
+              "kind": "food",
+              "description": "ケチャップライスを薄焼き卵で包んだ定番。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ミートドリア",
+              "price": 720,
+              "kind": "food",
+              "description": "ミートソースとホワイトソースの重ね焼き。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ポークカツ定食",
+              "price": 780,
+              "kind": "food",
+              "description": "厚切り豚カツにご飯、味噌汁、小鉢付き。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "和風おろしハンバーグ",
+              "price": 850,
+              "kind": "food",
+              "description": "大根おろしとぽん酢でさっぱり仕上げる一皿。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-heisei-1-section-2",
+          "title": "LIGHT MEAL",
+          "items": [
+            {
+              "name": "海老フライの小皿",
+              "price": 480,
+              "kind": "food",
+              "description": "小ぶりな海老を三本揚げる。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "きのこ和風パスタ",
+              "price": 320,
+              "kind": "food",
+              "description": "三種のきのこを醤油バターで仕上げたパスタ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マルゲリータ",
+              "price": 280,
+              "kind": "food",
+              "description": "トマトとチーズの薄焼きピザ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "シーザーサラダ",
+              "price": 380,
+              "kind": "food",
+              "description": "葉野菜に温泉卵と粉チーズを添えて。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "フライドポテト",
+              "price": 480,
+              "kind": "food",
+              "description": "みんなでつまめる細切りポテト。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "お子さまプレート",
+              "price": 220,
+              "kind": "food",
+              "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "家族で分ける前菜プレート",
+              "price": 250,
+              "kind": "food",
+              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-heisei-1-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "name": "苺サンデー",
+              "price": 380,
+              "kind": "food",
+              "description": "アイスに苺ソースをかける。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 200,
+              "kind": "food",
+              "description": "卵の風味を生かしたなめらかなプリン。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "チョコブラウニー",
+              "price": 280,
+              "kind": "food",
+              "description": "濃厚なブラウニーにバニラアイスを添えて。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ミニいちごパフェ",
+              "price": 320,
+              "kind": "food",
+              "description": "いちごソースとヨーグルトを重ねた小さなパフェ。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ドリンクバー",
+              "price": 380,
+              "kind": "service",
+              "description": "コーヒー、紅茶、ソフトドリンクを自由に。",
+              "id": "family-restaurant-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "生ビール",
+              "price": 420,
+              "kind": "drink",
+              "description": "中ジョッキで提供する冷たい一杯。",
+              "recommendationGroup": "drink",
+              "id": "family-restaurant-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "お子さまミルクプリン",
+              "price": 180,
+              "kind": "food",
+              "description": "小さなカップのやさしいミルク味。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-restaurant-heisei-2",
+      "name": "レストラン オレンジ街道",
+      "category": "family-restaurant",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "落ち着いた雰囲気のファミレス"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした落ち着いた雰囲気のファミレス。駅前の仕事帰りや学生の打ち合わせに使われる。",
+      "openingHours": "7:00〜23:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "大きな窓と二人用ソファ。壁際には一人用カウンター。入口に紙の地域情報誌が積まれている。",
+        "service": "ランチは早く提供し、午後の滞在には追加注文を急かさない。",
+        "signature": "煮込みビーフのご飯皿、ツナと玉子のサラダ、バナナミルクパフェ",
+        "localFlavor": "駅前の仕事帰りや学生の打ち合わせに使われる。"
+      },
+      "menuSections": [
+        {
+          "id": "family-restaurant-heisei-2-section-1",
+          "title": "MAIN DISH",
+          "items": [
+            {
+              "name": "煮込みビーフのご飯皿",
+              "price": 770,
+              "kind": "food",
+              "description": "牛肉の煮込みにご飯を添える。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "鉄板ハンバーグ",
+              "price": 680,
+              "kind": "food",
+              "description": "熱々の鉄板にデミグラスソースをかけて。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "チキンステーキ",
+              "price": 580,
+              "kind": "food",
+              "description": "皮を香ばしく焼き、和風おろしソースを添えた一皿。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "オムライス",
+              "price": 620,
+              "kind": "food",
+              "description": "ケチャップライスを薄焼き卵で包んだ定番。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ミートドリア",
+              "price": 720,
+              "kind": "food",
+              "description": "ミートソースとホワイトソースの重ね焼き。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ポークカツ定食",
+              "price": 780,
+              "kind": "food",
+              "description": "厚切り豚カツにご飯、味噌汁、小鉢付き。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "和風おろしハンバーグ",
+              "price": 850,
+              "kind": "food",
+              "description": "大根おろしとぽん酢でさっぱり仕上げる一皿。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-heisei-2-section-2",
+          "title": "LIGHT MEAL",
+          "items": [
+            {
+              "name": "ツナと玉子のサラダ",
+              "price": 530,
+              "kind": "food",
+              "description": "ツナと卵を葉野菜に載せる。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "きのこ和風パスタ",
+              "price": 320,
+              "kind": "food",
+              "description": "三種のきのこを醤油バターで仕上げたパスタ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マルゲリータ",
+              "price": 280,
+              "kind": "food",
+              "description": "トマトとチーズの薄焼きピザ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "シーザーサラダ",
+              "price": 380,
+              "kind": "food",
+              "description": "葉野菜に温泉卵と粉チーズを添えて。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "フライドポテト",
+              "price": 480,
+              "kind": "food",
+              "description": "みんなでつまめる細切りポテト。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "お子さまプレート",
+              "price": 220,
+              "kind": "food",
+              "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "家族で分ける前菜プレート",
+              "price": 250,
+              "kind": "food",
+              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-heisei-2-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "name": "バナナミルクパフェ",
+              "price": 430,
+              "kind": "food",
+              "description": "バナナとアイスを重ねる。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 200,
+              "kind": "food",
+              "description": "卵の風味を生かしたなめらかなプリン。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "チョコブラウニー",
+              "price": 280,
+              "kind": "food",
+              "description": "濃厚なブラウニーにバニラアイスを添えて。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ミニいちごパフェ",
+              "price": 320,
+              "kind": "food",
+              "description": "いちごソースとヨーグルトを重ねた小さなパフェ。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ドリンクバー",
+              "price": 380,
+              "kind": "service",
+              "description": "コーヒー、紅茶、ソフトドリンクを自由に。",
+              "id": "family-restaurant-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "生ビール",
+              "price": 420,
+              "kind": "drink",
+              "description": "中ジョッキで提供する冷たい一杯。",
+              "recommendationGroup": "drink",
+              "id": "family-restaurant-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "お子さまミルクプリン",
+              "price": 180,
+              "kind": "food",
+              "description": "小さなカップのやさしいミルク味。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-restaurant-heisei-3",
+      "name": "ファミリー食堂 ひばり野",
+      "category": "family-restaurant",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "家族向けのファミレス"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした家族向けのファミレス。送迎前の朝食や週末の親族の集まりに使われる。夜は近くの施設で働く人が立ち寄る。",
+      "openingHours": "7:00〜23:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "丘の住宅街を望む広い窓と六人用のボックス席。入口脇に子どもの絵本を置く棚。カウンターに手書きの予約帳が置かれている。",
+        "service": "子ども用の椅子と取り皿を最初に確認する。料理は家族で分ける順に並べる。",
+        "signature": "きのこソースのハンバーグ、ハムとチーズのサンド、キャラメルプリンアラモード",
+        "localFlavor": "送迎前の朝食や週末の親族の集まりに使われる。夜は近くの施設で働く人が立ち寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "family-restaurant-heisei-3-section-1",
+          "title": "MAIN DISH",
+          "items": [
+            {
+              "name": "きのこソースのハンバーグ",
+              "price": 820,
+              "kind": "food",
+              "description": "きのこのソースを肉にかける。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "鉄板ハンバーグ",
+              "price": 680,
+              "kind": "food",
+              "description": "熱々の鉄板にデミグラスソースをかけて。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "チキンステーキ",
+              "price": 580,
+              "kind": "food",
+              "description": "皮を香ばしく焼き、和風おろしソースを添えた一皿。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "オムライス",
+              "price": 620,
+              "kind": "food",
+              "description": "ケチャップライスを薄焼き卵で包んだ定番。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ミートドリア",
+              "price": 720,
+              "kind": "food",
+              "description": "ミートソースとホワイトソースの重ね焼き。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ポークカツ定食",
+              "price": 780,
+              "kind": "food",
+              "description": "厚切り豚カツにご飯、味噌汁、小鉢付き。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "和風おろしハンバーグ",
+              "price": 850,
+              "kind": "food",
+              "description": "大根おろしとぽん酢でさっぱり仕上げる一皿。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-heisei-3-section-2",
+          "title": "LIGHT MEAL",
+          "items": [
+            {
+              "name": "ハムとチーズのサンド",
+              "price": 580,
+              "kind": "food",
+              "description": "ハムとチーズをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "family-restaurant-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "きのこ和風パスタ",
+              "price": 320,
+              "kind": "food",
+              "description": "三種のきのこを醤油バターで仕上げたパスタ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マルゲリータ",
+              "price": 280,
+              "kind": "food",
+              "description": "トマトとチーズの薄焼きピザ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "シーザーサラダ",
+              "price": 380,
+              "kind": "food",
+              "description": "葉野菜に温泉卵と粉チーズを添えて。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "フライドポテト",
+              "price": 480,
+              "kind": "food",
+              "description": "みんなでつまめる細切りポテト。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "お子さまプレート",
+              "price": 220,
+              "kind": "food",
+              "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "家族で分ける前菜プレート",
+              "price": 250,
+              "kind": "food",
+              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-heisei-3-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "name": "キャラメルプリンアラモード",
+              "price": 480,
+              "kind": "food",
+              "description": "プリンに果物を飾った甘味。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 200,
+              "kind": "food",
+              "description": "卵の風味を生かしたなめらかなプリン。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "チョコブラウニー",
+              "price": 280,
+              "kind": "food",
+              "description": "濃厚なブラウニーにバニラアイスを添えて。",
+              "recommendationGroup": "side",
+              "id": "family-restaurant-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ミニいちごパフェ",
+              "price": 320,
+              "kind": "food",
+              "description": "いちごソースとヨーグルトを重ねた小さなパフェ。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ドリンクバー",
+              "price": 380,
+              "kind": "service",
+              "description": "コーヒー、紅茶、ソフトドリンクを自由に。",
+              "id": "family-restaurant-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "生ビール",
+              "price": 420,
+              "kind": "drink",
+              "description": "中ジョッキで提供する冷たい一杯。",
+              "recommendationGroup": "drink",
+              "id": "family-restaurant-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "お子さまミルクプリン",
+              "price": 180,
+              "kind": "food",
+              "description": "小さなカップのやさしいミルク味。",
+              "recommendationGroup": "dessert",
+              "id": "family-restaurant-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,1432 @@
+{
+  "category": {
+    "id": "confectionery",
+    "label": "菓子・キャンディ店",
+    "group": "テイクアウト",
+    "icon": "gift"
+  },
+  "shops": [
+    {
+      "id": "confectionery-victorian-1",
+      "name": "菓子店・ブルーリボン",
+      "category": "confectionery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "贈答の砂糖菓子店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした贈答の砂糖菓子店。贈り物を選ぶ客と小銭を持つ子どもが来る。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "蓋付きのガラス瓶が棚に並んでいる。",
+        "service": "秤で菓子を量り、紙袋の口を丁寧に折る。",
+        "signature": "花形のミント飴、胡桃の砂糖がけ、青リボンの小菓子箱",
+        "localFlavor": "贈り物を選ぶ客と小銭を持つ子どもが来る。"
+      },
+      "menuSections": [
+        {
+          "id": "confectionery-victorian-1-section-1",
+          "title": "飴・砂糖菓子",
+          "items": [
+            {
+              "name": "花形のミント飴",
+              "price": 3,
+              "kind": "goods",
+              "description": "小さな花形に固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "レモンドロップ 小袋",
+              "price": 2,
+              "kind": "goods",
+              "description": "レモン風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴 小袋",
+              "price": 2,
+              "kind": "goods",
+              "description": "ミントの香る飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バタートフィー",
+              "price": 3,
+              "kind": "goods",
+              "description": "バター風味の柔らかい菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜飴",
+              "price": 2,
+              "kind": "goods",
+              "description": "糖蜜を煮詰めた飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "リコリス菓子",
+              "price": 2,
+              "kind": "goods",
+              "description": "甘草風味の黒い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "シュガーアーモンド",
+              "price": 4,
+              "kind": "goods",
+              "description": "砂糖で包んだアーモンド。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-victorian-1-section-2",
+          "title": "チョコ・焼き菓子",
+          "items": [
+            {
+              "name": "胡桃の砂糖がけ",
+              "price": 4,
+              "kind": "goods",
+              "description": "胡桃を糖衣で包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チョコレート 小板",
+              "price": 4,
+              "kind": "goods",
+              "description": "小さな板状のチョコ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ココアビスケット",
+              "price": 3,
+              "kind": "goods",
+              "description": "ココア入りの焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜ビスケット",
+              "price": 2,
+              "kind": "goods",
+              "description": "生姜を利かせた菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オレンジピール糖漬け",
+              "price": 3,
+              "kind": "goods",
+              "description": "柑橘の皮を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "果実のゼリー菓子",
+              "price": 3,
+              "kind": "goods",
+              "description": "果実風味の柔らかな菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ココナツ菓子",
+              "price": 3,
+              "kind": "goods",
+              "description": "ココナツを混ぜて固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-victorian-1-section-3",
+          "title": "贈答・小包み",
+          "items": [
+            {
+              "name": "青リボンの小菓子箱",
+              "price": 14,
+              "kind": "goods",
+              "description": "少量の菓子を飾る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "飴の三種包み",
+              "price": 5,
+              "kind": "goods",
+              "description": "三種類の飴を包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "小さな菓子缶",
+              "price": 12,
+              "kind": "goods",
+              "description": "菓子を缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコの贈答箱",
+              "price": 18,
+              "kind": "goods",
+              "description": "チョコを箱に並べる。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ビスケット詰め合わせ",
+              "price": 8,
+              "kind": "goods",
+              "description": "焼き菓子の詰め合わせ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙袋入りトフィー",
+              "price": 6,
+              "kind": "goods",
+              "description": "トフィーを多めに包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "リボン付き菓子包み",
+              "price": 10,
+              "kind": "goods",
+              "description": "贈り物の菓子包み。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confectionery-victorian-2",
+      "name": "菓子店・ハニーポスト",
+      "category": "confectionery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ヨークの架空街区"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "旅の菓子を扱う店"
+      ],
+      "description": "1890年のイギリス・ヨークの架空街区を舞台にした旅の菓子を扱う店。汽車に乗る前の客が菓子の包みを買う。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓辺に小箱を積み、カウンターに秤を置く。",
+        "service": "旅の長さを聞いて溶けにくい菓子を示す。",
+        "signature": "蜂蜜レモンの飴、薄焼きアーモンド菓子、駅の旅菓子包み",
+        "localFlavor": "汽車に乗る前の客が菓子の包みを買う。"
+      },
+      "menuSections": [
+        {
+          "id": "confectionery-victorian-2-section-1",
+          "title": "飴・砂糖菓子",
+          "items": [
+            {
+              "name": "蜂蜜レモンの飴",
+              "price": 3,
+              "kind": "goods",
+              "description": "蜂蜜と柑橘の風味。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "レモンドロップ 小袋",
+              "price": 2,
+              "kind": "goods",
+              "description": "レモン風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴 小袋",
+              "price": 2,
+              "kind": "goods",
+              "description": "ミントの香る飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バタートフィー",
+              "price": 3,
+              "kind": "goods",
+              "description": "バター風味の柔らかい菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜飴",
+              "price": 2,
+              "kind": "goods",
+              "description": "糖蜜を煮詰めた飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "リコリス菓子",
+              "price": 2,
+              "kind": "goods",
+              "description": "甘草風味の黒い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "シュガーアーモンド",
+              "price": 4,
+              "kind": "goods",
+              "description": "砂糖で包んだアーモンド。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-victorian-2-section-2",
+          "title": "チョコ・焼き菓子",
+          "items": [
+            {
+              "name": "薄焼きアーモンド菓子",
+              "price": 4,
+              "kind": "goods",
+              "description": "ナッツを薄く焼く。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チョコレート 小板",
+              "price": 4,
+              "kind": "goods",
+              "description": "小さな板状のチョコ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ココアビスケット",
+              "price": 3,
+              "kind": "goods",
+              "description": "ココア入りの焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜ビスケット",
+              "price": 2,
+              "kind": "goods",
+              "description": "生姜を利かせた菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オレンジピール糖漬け",
+              "price": 3,
+              "kind": "goods",
+              "description": "柑橘の皮を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "果実のゼリー菓子",
+              "price": 3,
+              "kind": "goods",
+              "description": "果実風味の柔らかな菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ココナツ菓子",
+              "price": 3,
+              "kind": "goods",
+              "description": "ココナツを混ぜて固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-victorian-2-section-3",
+          "title": "贈答・小包み",
+          "items": [
+            {
+              "name": "駅の旅菓子包み",
+              "price": 9,
+              "kind": "goods",
+              "description": "持ち歩きやすく包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "飴の三種包み",
+              "price": 5,
+              "kind": "goods",
+              "description": "三種類の飴を包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "小さな菓子缶",
+              "price": 12,
+              "kind": "goods",
+              "description": "菓子を缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコの贈答箱",
+              "price": 18,
+              "kind": "goods",
+              "description": "チョコを箱に並べる。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ビスケット詰め合わせ",
+              "price": 8,
+              "kind": "goods",
+              "description": "焼き菓子の詰め合わせ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙袋入りトフィー",
+              "price": 6,
+              "kind": "goods",
+              "description": "トフィーを多めに包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "リボン付き菓子包み",
+              "price": 10,
+              "kind": "goods",
+              "description": "贈り物の菓子包み。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confectionery-victorian-3",
+      "name": "菓子店・レッドカラント",
+      "category": "confectionery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ブライトンの架空街区"
+      },
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "海辺の贈り物の店"
+      ],
+      "description": "1890年のイギリス・ブライトンの架空街区を舞台にした海辺の贈り物の店。海辺を歩いた客が帰りの土産を選ぶ。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "色紙の箱と明るい瓶を低い棚に並べる。",
+        "service": "家族で分ける数を聞き、小袋を添える。",
+        "signature": "赤すぐりの砂糖菓子、カラント入りビスケット、金紙のチョコ六個箱",
+        "localFlavor": "海辺を歩いた客が帰りの土産を選ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "confectionery-victorian-3-section-1",
+          "title": "飴・砂糖菓子",
+          "items": [
+            {
+              "name": "赤すぐりの砂糖菓子",
+              "price": 4,
+              "kind": "goods",
+              "description": "甘酸っぱい果実の菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "レモンドロップ 小袋",
+              "price": 2,
+              "kind": "goods",
+              "description": "レモン風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴 小袋",
+              "price": 2,
+              "kind": "goods",
+              "description": "ミントの香る飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バタートフィー",
+              "price": 3,
+              "kind": "goods",
+              "description": "バター風味の柔らかい菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜飴",
+              "price": 2,
+              "kind": "goods",
+              "description": "糖蜜を煮詰めた飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "リコリス菓子",
+              "price": 2,
+              "kind": "goods",
+              "description": "甘草風味の黒い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "シュガーアーモンド",
+              "price": 4,
+              "kind": "goods",
+              "description": "砂糖で包んだアーモンド。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-victorian-3-section-2",
+          "title": "チョコ・焼き菓子",
+          "items": [
+            {
+              "name": "カラント入りビスケット",
+              "price": 3,
+              "kind": "goods",
+              "description": "干し果実入りの菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チョコレート 小板",
+              "price": 4,
+              "kind": "goods",
+              "description": "小さな板状のチョコ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ココアビスケット",
+              "price": 3,
+              "kind": "goods",
+              "description": "ココア入りの焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜ビスケット",
+              "price": 2,
+              "kind": "goods",
+              "description": "生姜を利かせた菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オレンジピール糖漬け",
+              "price": 3,
+              "kind": "goods",
+              "description": "柑橘の皮を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "果実のゼリー菓子",
+              "price": 3,
+              "kind": "goods",
+              "description": "果実風味の柔らかな菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ココナツ菓子",
+              "price": 3,
+              "kind": "goods",
+              "description": "ココナツを混ぜて固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-victorian-3-section-3",
+          "title": "贈答・小包み",
+          "items": [
+            {
+              "name": "金紙のチョコ六個箱",
+              "price": 16,
+              "kind": "goods",
+              "description": "チョコを六個詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "飴の三種包み",
+              "price": 5,
+              "kind": "goods",
+              "description": "三種類の飴を包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "小さな菓子缶",
+              "price": 12,
+              "kind": "goods",
+              "description": "菓子を缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコの贈答箱",
+              "price": 18,
+              "kind": "goods",
+              "description": "チョコを箱に並べる。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ビスケット詰め合わせ",
+              "price": 8,
+              "kind": "goods",
+              "description": "焼き菓子の詰め合わせ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙袋入りトフィー",
+              "price": 6,
+              "kind": "goods",
+              "description": "トフィーを多めに包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "リボン付き菓子包み",
+              "price": 10,
+              "kind": "goods",
+              "description": "贈り物の菓子包み。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confectionery-america-1920s-1",
+      "name": "キャンディ店・レッドペニー",
+      "category": "confectionery",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "小銭で買える菓子店"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした小銭で買える菓子店。学校帰りの子どもが菓子の色を見比べる。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "ガラス瓶の前に小さな秤が置かれる。",
+        "service": "小銭の額を聞いて飴を少しずつ量る。",
+        "signature": "ピーナツブリトル、チョコがけキャラメル、赤箱のキャンディ詰め合わせ",
+        "localFlavor": "学校帰りの子どもが菓子の色を見比べる。"
+      },
+      "menuSections": [
+        {
+          "id": "confectionery-america-1920s-1-section-1",
+          "title": "飴・砂糖菓子",
+          "items": [
+            {
+              "name": "ピーナツブリトル",
+              "price": 10,
+              "kind": "goods",
+              "description": "ナッツを飴で固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "レモンドロップ 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "レモン風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "ミントの香る飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バタートフィー",
+              "price": 5,
+              "kind": "goods",
+              "description": "バター風味の柔らかい菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜飴",
+              "price": 5,
+              "kind": "goods",
+              "description": "糖蜜を煮詰めた飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "リコリス菓子",
+              "price": 5,
+              "kind": "goods",
+              "description": "甘草風味の黒い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "シュガーアーモンド",
+              "price": 10,
+              "kind": "goods",
+              "description": "砂糖で包んだアーモンド。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-america-1920s-1-section-2",
+          "title": "チョコ・焼き菓子",
+          "items": [
+            {
+              "name": "チョコがけキャラメル",
+              "price": 10,
+              "kind": "goods",
+              "description": "キャラメルをチョコで包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チョコレート 小板",
+              "price": 10,
+              "kind": "goods",
+              "description": "小さな板状のチョコ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ココアビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "ココア入りの焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜ビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "生姜を利かせた菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オレンジピール糖漬け",
+              "price": 10,
+              "kind": "goods",
+              "description": "柑橘の皮を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "果実のゼリー菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "果実風味の柔らかな菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ココナツ菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "ココナツを混ぜて固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-america-1920s-1-section-3",
+          "title": "贈答・小包み",
+          "items": [
+            {
+              "name": "赤箱のキャンディ詰め合わせ",
+              "price": 40,
+              "kind": "goods",
+              "description": "色々な飴を箱に。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "飴の三種包み",
+              "price": 15,
+              "kind": "goods",
+              "description": "三種類の飴を包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "小さな菓子缶",
+              "price": 35,
+              "kind": "goods",
+              "description": "菓子を缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコの贈答箱",
+              "price": 50,
+              "kind": "goods",
+              "description": "チョコを箱に並べる。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ビスケット詰め合わせ",
+              "price": 25,
+              "kind": "goods",
+              "description": "焼き菓子の詰め合わせ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙袋入りトフィー",
+              "price": 15,
+              "kind": "goods",
+              "description": "トフィーを多めに包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "リボン付き菓子包み",
+              "price": 30,
+              "kind": "goods",
+              "description": "贈り物の菓子包み。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confectionery-america-1920s-2",
+      "name": "キャンディ店・トレインベル",
+      "category": "confectionery",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ボストンの架空街区"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "旅行者の菓子の店"
+      ],
+      "description": "1926年のアメリカ・ボストンの架空街区を舞台にした旅行者の菓子の店。汽車に乗る客が旅のお供の菓子を買う。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓辺に土産缶と紙の包みが並ぶ。",
+        "service": "持ち歩く時間を聞いて丈夫な箱を勧める。",
+        "signature": "チェリー風味のドロップ、マシュマロの小袋、汽車の絵の菓子缶",
+        "localFlavor": "汽車に乗る客が旅のお供の菓子を買う。"
+      },
+      "menuSections": [
+        {
+          "id": "confectionery-america-1920s-2-section-1",
+          "title": "飴・砂糖菓子",
+          "items": [
+            {
+              "name": "チェリー風味のドロップ",
+              "price": 5,
+              "kind": "goods",
+              "description": "果実風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "レモンドロップ 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "レモン風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "ミントの香る飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バタートフィー",
+              "price": 5,
+              "kind": "goods",
+              "description": "バター風味の柔らかい菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜飴",
+              "price": 5,
+              "kind": "goods",
+              "description": "糖蜜を煮詰めた飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "リコリス菓子",
+              "price": 5,
+              "kind": "goods",
+              "description": "甘草風味の黒い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "シュガーアーモンド",
+              "price": 10,
+              "kind": "goods",
+              "description": "砂糖で包んだアーモンド。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-america-1920s-2-section-2",
+          "title": "チョコ・焼き菓子",
+          "items": [
+            {
+              "name": "マシュマロの小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "柔らかい甘い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チョコレート 小板",
+              "price": 10,
+              "kind": "goods",
+              "description": "小さな板状のチョコ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ココアビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "ココア入りの焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜ビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "生姜を利かせた菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オレンジピール糖漬け",
+              "price": 10,
+              "kind": "goods",
+              "description": "柑橘の皮を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "果実のゼリー菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "果実風味の柔らかな菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ココナツ菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "ココナツを混ぜて固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-america-1920s-2-section-3",
+          "title": "贈答・小包み",
+          "items": [
+            {
+              "name": "汽車の絵の菓子缶",
+              "price": 35,
+              "kind": "goods",
+              "description": "汽車の絵の缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "飴の三種包み",
+              "price": 15,
+              "kind": "goods",
+              "description": "三種類の飴を包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "小さな菓子缶",
+              "price": 35,
+              "kind": "goods",
+              "description": "菓子を缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコの贈答箱",
+              "price": 50,
+              "kind": "goods",
+              "description": "チョコを箱に並べる。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ビスケット詰め合わせ",
+              "price": 25,
+              "kind": "goods",
+              "description": "焼き菓子の詰め合わせ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙袋入りトフィー",
+              "price": 15,
+              "kind": "goods",
+              "description": "トフィーを多めに包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "リボン付き菓子包み",
+              "price": 30,
+              "kind": "goods",
+              "description": "贈り物の菓子包み。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "confectionery-america-1920s-3",
+      "name": "キャンディ店・メープルハート",
+      "category": "confectionery",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "贈答用の甘味を扱う店"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした贈答用の甘味を扱う店。休日の訪問用に小さな贈り物を選ぶ客が来る。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "リボン付きの箱とチョコのケースがある。",
+        "service": "贈る相手を聞き、紙の色を合わせる。",
+        "signature": "メープル風味の砂糖菓子、ピーカンのチョコ包み、小さな祝日のボンボン箱",
+        "localFlavor": "休日の訪問用に小さな贈り物を選ぶ客が来る。"
+      },
+      "menuSections": [
+        {
+          "id": "confectionery-america-1920s-3-section-1",
+          "title": "飴・砂糖菓子",
+          "items": [
+            {
+              "name": "メープル風味の砂糖菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "甘い樹液風味の菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "レモンドロップ 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "レモン風味の硬い飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "ミントの香る飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バタートフィー",
+              "price": 5,
+              "kind": "goods",
+              "description": "バター風味の柔らかい菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜飴",
+              "price": 5,
+              "kind": "goods",
+              "description": "糖蜜を煮詰めた飴。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "リコリス菓子",
+              "price": 5,
+              "kind": "goods",
+              "description": "甘草風味の黒い菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "シュガーアーモンド",
+              "price": 10,
+              "kind": "goods",
+              "description": "砂糖で包んだアーモンド。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-america-1920s-3-section-2",
+          "title": "チョコ・焼き菓子",
+          "items": [
+            {
+              "name": "ピーカンのチョコ包み",
+              "price": 15,
+              "kind": "goods",
+              "description": "ナッツをチョコで包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "チョコレート 小板",
+              "price": 10,
+              "kind": "goods",
+              "description": "小さな板状のチョコ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ココアビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "ココア入りの焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜ビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "生姜を利かせた菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オレンジピール糖漬け",
+              "price": 10,
+              "kind": "goods",
+              "description": "柑橘の皮を甘く煮る。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "果実のゼリー菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "果実風味の柔らかな菓子。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ココナツ菓子",
+              "price": 10,
+              "kind": "goods",
+              "description": "ココナツを混ぜて固める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "confectionery-america-1920s-3-section-3",
+          "title": "贈答・小包み",
+          "items": [
+            {
+              "name": "小さな祝日のボンボン箱",
+              "price": 50,
+              "kind": "goods",
+              "description": "一口菓子を贈答箱に。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "飴の三種包み",
+              "price": 15,
+              "kind": "goods",
+              "description": "三種類の飴を包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "小さな菓子缶",
+              "price": 35,
+              "kind": "goods",
+              "description": "菓子を缶に詰める。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チョコの贈答箱",
+              "price": 50,
+              "kind": "goods",
+              "description": "チョコを箱に並べる。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ビスケット詰め合わせ",
+              "price": 25,
+              "kind": "goods",
+              "description": "焼き菓子の詰め合わせ。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙袋入りトフィー",
+              "price": 15,
+              "kind": "goods",
+              "description": "トフィーを多めに包む。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "リボン付き菓子包み",
+              "price": 30,
+              "kind": "goods",
+              "description": "贈り物の菓子包み。",
+              "recommendationGroup": "goods",
+              "id": "confectionery-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

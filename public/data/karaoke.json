@@ -697,6 +697,693 @@
         "localFlavor": "昼は歌の練習をする一人客、夜は近所で働く友人同士が来る。受付に商店街の催し札が並ぶ。"
       },
       "priceNote": "税込価格。室料は1人あたりで、時間制またはパックから一つを選択。料理・飲料は別料金。パック終了後は該当時間帯の30分料金で延長します。"
+    },
+    {
+      "id": "karaoke-heisei-1",
+      "name": "カラオケボックス 星くず通り",
+      "category": "karaoke",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "定番メニューのカラオケ"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした定番メニューのカラオケ。学校や仕事の帰りに立ち寄りやすい。",
+      "openingHours": "11:00〜翌5:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "駅前ビルの個室。小さな二人部屋が多い。レジ横に公衆電話と時刻表がある。",
+        "service": "受付で料金時間を案内し、注文は室内備え付けの電話から。",
+        "signature": "平日午後 九十分、チキンナゲット盛り、レモンソーダフロート",
+        "localFlavor": "学校や仕事の帰りに立ち寄りやすい。"
+      },
+      "menuSections": [
+        {
+          "id": "karaoke-heisei-1-section-1",
+          "title": "ルーム料金 一人",
+          "items": [
+            {
+              "name": "平日午後 九十分",
+              "price": 500,
+              "kind": "fee",
+              "description": "平日昼の一人分の室料。",
+              "id": "karaoke-heisei-1-signature-1",
+              "recommended": false
+            },
+            {
+              "name": "平日昼 三十分",
+              "price": 200,
+              "kind": "fee",
+              "description": "11〜18時の一人分の室料。",
+              "id": "karaoke-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "平日夜 三十分",
+              "price": 400,
+              "kind": "fee",
+              "description": "18時以降の一人分の室料。",
+              "id": "karaoke-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "週末昼 三十分",
+              "price": 300,
+              "kind": "fee",
+              "description": "土日祝11〜18時の室料。",
+              "id": "karaoke-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "週末夜 三十分",
+              "price": 500,
+              "kind": "fee",
+              "description": "土日祝18時以降の室料。",
+              "id": "karaoke-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "平日昼フリータイム",
+              "price": 1000,
+              "kind": "fee",
+              "description": "11〜18時内の利用。満室時は三時間制。",
+              "id": "karaoke-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "平日昼 二時間パック",
+              "price": 700,
+              "kind": "fee",
+              "description": "11〜18時内の一人分室料。飲料は別料金。",
+              "id": "karaoke-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-heisei-1-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "name": "チキンナゲット盛り",
+              "price": 300,
+              "kind": "food",
+              "description": "小さな鶏の揚げ物を盛る。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 400,
+              "kind": "food",
+              "description": "みんなで分ける定番スナック。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "鶏の唐揚げ",
+              "price": 600,
+              "kind": "food",
+              "description": "レモン付きの一皿。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ミックスピザ",
+              "price": 900,
+              "kind": "food",
+              "description": "歌の合間につまめる薄焼き。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "焼きおにぎり",
+              "price": 300,
+              "kind": "food",
+              "description": "小ぶりのおにぎり二個。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チョコスナック盛り",
+              "price": 400,
+              "kind": "food",
+              "description": "ひと口菓子の盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "チーズ春巻き",
+              "price": 450,
+              "kind": "food",
+              "description": "片手で食べやすい小さな春巻き。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-heisei-1-section-3",
+          "title": "ドリンク・甘味",
+          "items": [
+            {
+              "name": "レモンソーダフロート",
+              "price": 600,
+              "kind": "drink",
+              "description": "レモンの炭酸にアイスを載せる。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "ドリンクバー",
+              "price": 350,
+              "kind": "service",
+              "description": "室料と別途、一人分。",
+              "id": "karaoke-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "生ビール",
+              "price": 550,
+              "kind": "drink",
+              "description": "中ジョッキのビール。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 500,
+              "kind": "drink",
+              "description": "バニラアイスをのせた炭酸。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "チョコパフェ",
+              "price": 600,
+              "kind": "food",
+              "description": "アイスとチョコソースの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "バニラアイス",
+              "price": 280,
+              "kind": "food",
+              "description": "小さなカップのデザート。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "無糖アイスティー",
+              "price": 300,
+              "kind": "drink",
+              "description": "単品で注文する冷たい紅茶。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karaoke-heisei-2",
+      "name": "カラオケ 夕暮れパレット",
+      "category": "karaoke",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "落ち着いた雰囲気のカラオケ"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした落ち着いた雰囲気のカラオケ。休日に車で集まる家族やグループが中心。",
+      "openingHours": "11:00〜翌5:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "郊外の広い駐車場と家族用の大部屋。入口に紙の地域情報誌が積まれている。",
+        "service": "子ども連れには広い部屋を案内し、料理は取り分けで提供。",
+        "signature": "土曜昼 二時間、焼きそばの取り分け皿、バナナチョコサンデー",
+        "localFlavor": "休日に車で集まる家族やグループが中心。"
+      },
+      "menuSections": [
+        {
+          "id": "karaoke-heisei-2-section-1",
+          "title": "ルーム料金 一人",
+          "items": [
+            {
+              "name": "土曜昼 二時間",
+              "price": 550,
+              "kind": "fee",
+              "description": "土曜昼の一人分の室料。",
+              "id": "karaoke-heisei-2-signature-1",
+              "recommended": false
+            },
+            {
+              "name": "平日昼 三十分",
+              "price": 200,
+              "kind": "fee",
+              "description": "11〜18時の一人分の室料。",
+              "id": "karaoke-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "平日夜 三十分",
+              "price": 400,
+              "kind": "fee",
+              "description": "18時以降の一人分の室料。",
+              "id": "karaoke-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "週末昼 三十分",
+              "price": 300,
+              "kind": "fee",
+              "description": "土日祝11〜18時の室料。",
+              "id": "karaoke-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "週末夜 三十分",
+              "price": 500,
+              "kind": "fee",
+              "description": "土日祝18時以降の室料。",
+              "id": "karaoke-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "平日昼フリータイム",
+              "price": 1000,
+              "kind": "fee",
+              "description": "11〜18時内の利用。満室時は三時間制。",
+              "id": "karaoke-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "平日昼 二時間パック",
+              "price": 700,
+              "kind": "fee",
+              "description": "11〜18時内の一人分室料。飲料は別料金。",
+              "id": "karaoke-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-heisei-2-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "name": "焼きそばの取り分け皿",
+              "price": 350,
+              "kind": "food",
+              "description": "ソース焼きそばを大皿で。",
+              "recommendationGroup": "main",
+              "id": "karaoke-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 400,
+              "kind": "food",
+              "description": "みんなで分ける定番スナック。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "鶏の唐揚げ",
+              "price": 600,
+              "kind": "food",
+              "description": "レモン付きの一皿。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ミックスピザ",
+              "price": 900,
+              "kind": "food",
+              "description": "歌の合間につまめる薄焼き。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "焼きおにぎり",
+              "price": 300,
+              "kind": "food",
+              "description": "小ぶりのおにぎり二個。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チョコスナック盛り",
+              "price": 400,
+              "kind": "food",
+              "description": "ひと口菓子の盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "チーズ春巻き",
+              "price": 450,
+              "kind": "food",
+              "description": "片手で食べやすい小さな春巻き。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-heisei-2-section-3",
+          "title": "ドリンク・甘味",
+          "items": [
+            {
+              "name": "バナナチョコサンデー",
+              "price": 650,
+              "kind": "food",
+              "description": "バナナとチョコの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "ドリンクバー",
+              "price": 350,
+              "kind": "service",
+              "description": "室料と別途、一人分。",
+              "id": "karaoke-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "生ビール",
+              "price": 550,
+              "kind": "drink",
+              "description": "中ジョッキのビール。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 500,
+              "kind": "drink",
+              "description": "バニラアイスをのせた炭酸。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "チョコパフェ",
+              "price": 600,
+              "kind": "food",
+              "description": "アイスとチョコソースの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "バニラアイス",
+              "price": 280,
+              "kind": "food",
+              "description": "小さなカップのデザート。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "無糖アイスティー",
+              "price": 300,
+              "kind": "drink",
+              "description": "単品で注文する冷たい紅茶。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karaoke-heisei-3",
+      "name": "歌の部屋 ミント坂",
+      "category": "karaoke",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "少人数のカラオケ"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした少人数のカラオケ。昼は歌の練習をする一人客、夜は近所で働く友人同士が来る。受付に商店街の催し札が並ぶ。",
+      "openingHours": "11:00〜翌5:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "星の図案を描いた受付の奥に、二〜六人用の部屋が並ぶ。廊下に貸出用の小物棚がある。カウンターに手書きの予約帳が置かれている。",
+        "service": "利用人数と終了予定を確認し、料金を案内する。料理は室内備え付けの電話から頼める。",
+        "signature": "平日夜 一時間、ソーセージの盛り合わせ、甘いミルクココア",
+        "localFlavor": "昼は歌の練習をする一人客、夜は近所で働く友人同士が来る。受付に商店街の催し札が並ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "karaoke-heisei-3-section-1",
+          "title": "ルーム料金 一人",
+          "items": [
+            {
+              "name": "平日夜 一時間",
+              "price": 600,
+              "kind": "fee",
+              "description": "平日夜の一人分の室料。",
+              "id": "karaoke-heisei-3-signature-1",
+              "recommended": false
+            },
+            {
+              "name": "平日昼 三十分",
+              "price": 200,
+              "kind": "fee",
+              "description": "11〜18時の一人分の室料。",
+              "id": "karaoke-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "平日夜 三十分",
+              "price": 400,
+              "kind": "fee",
+              "description": "18時以降の一人分の室料。",
+              "id": "karaoke-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "週末昼 三十分",
+              "price": 300,
+              "kind": "fee",
+              "description": "土日祝11〜18時の室料。",
+              "id": "karaoke-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "週末夜 三十分",
+              "price": 500,
+              "kind": "fee",
+              "description": "土日祝18時以降の室料。",
+              "id": "karaoke-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "平日昼フリータイム",
+              "price": 1000,
+              "kind": "fee",
+              "description": "11〜18時内の利用。満室時は三時間制。",
+              "id": "karaoke-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "平日昼 二時間パック",
+              "price": 700,
+              "kind": "fee",
+              "description": "11〜18時内の一人分室料。飲料は別料金。",
+              "id": "karaoke-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-heisei-3-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "name": "ソーセージの盛り合わせ",
+              "price": 400,
+              "kind": "food",
+              "description": "焼いたソーセージを分ける。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "フライドポテト",
+              "price": 400,
+              "kind": "food",
+              "description": "みんなで分ける定番スナック。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "鶏の唐揚げ",
+              "price": 600,
+              "kind": "food",
+              "description": "レモン付きの一皿。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ミックスピザ",
+              "price": 900,
+              "kind": "food",
+              "description": "歌の合間につまめる薄焼き。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "焼きおにぎり",
+              "price": 300,
+              "kind": "food",
+              "description": "小ぶりのおにぎり二個。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チョコスナック盛り",
+              "price": 400,
+              "kind": "food",
+              "description": "ひと口菓子の盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "チーズ春巻き",
+              "price": 450,
+              "kind": "food",
+              "description": "片手で食べやすい小さな春巻き。",
+              "recommendationGroup": "side",
+              "id": "karaoke-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "karaoke-heisei-3-section-3",
+          "title": "ドリンク・甘味",
+          "items": [
+            {
+              "name": "甘いミルクココア",
+              "price": 700,
+              "kind": "drink",
+              "description": "ミルクで溶いた温かいココア。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "ドリンクバー",
+              "price": 350,
+              "kind": "service",
+              "description": "室料と別途、一人分。",
+              "id": "karaoke-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "生ビール",
+              "price": 550,
+              "kind": "drink",
+              "description": "中ジョッキのビール。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "クリームソーダ",
+              "price": 500,
+              "kind": "drink",
+              "description": "バニラアイスをのせた炭酸。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "チョコパフェ",
+              "price": 600,
+              "kind": "food",
+              "description": "アイスとチョコソースの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "バニラアイス",
+              "price": 280,
+              "kind": "food",
+              "description": "小さなカップのデザート。",
+              "recommendationGroup": "dessert",
+              "id": "karaoke-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "無糖アイスティー",
+              "price": 300,
+              "kind": "drink",
+              "description": "単品で注文する冷たい紅茶。",
+              "recommendationGroup": "drink",
+              "id": "karaoke-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

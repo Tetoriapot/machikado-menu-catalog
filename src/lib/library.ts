@@ -5,14 +5,14 @@ export type LibraryBackup={format:'machikado-session-library';version:1;library:
 export const emptyLibrary=():SessionLibrary=>({folders:[],activeId:null});
 const object=(value:unknown):value is Record<string,unknown>=>typeof value==='object'&&value!==null&&!Array.isArray(value);
 const text=(value:unknown,max:number,label:string)=>{if(typeof value!=='string'||value.length>max)throw new Error(`${label}の形式が正しくありません。`);return value;};
-const validList=(value:unknown,validIds:readonly string[],limit=200):string[]=>{if(!Array.isArray(value)||value.length>1000||value.some(x=>typeof x!=='string'))throw new Error('店舗IDの一覧が正しくありません。');return [...new Set(value.filter(id=>validIds.includes(id)))].slice(0,limit);};
+const validList=(value:unknown,validIds:readonly string[],limit=validIds.length):string[]=>{if(!Array.isArray(value)||value.length>Math.max(1000,validIds.length)||value.some(x=>typeof x!=='string'))throw new Error('店舗IDの一覧が正しくありません。');return [...new Set(value.filter(id=>validIds.includes(id)))].slice(0,limit);};
 export function validateLibrary(value:unknown,validIds:readonly string[]):SessionLibrary{
  if(!object(value)||!Array.isArray(value.folders)||value.folders.length>100)throw new Error('セッションは100件まで保存できます。');
  const folderIds=new Set<string>();const folders=value.folders.map(raw=>{
   if(!object(raw))throw new Error('セッションの形式が正しくありません。');
   const id=text(raw.id,100,'セッションID');if(!/^[a-zA-Z0-9-]+$/.test(id)||folderIds.has(id))throw new Error('セッションIDが重複または不正です。');folderIds.add(id);
   const name=text(raw.name,80,'セッション名').trim();if(!name)throw new Error('セッション名が空です。');
-  if(!Array.isArray(raw.entries)||raw.entries.length>200)throw new Error('店舗の件数が多すぎます。');
+  if(!Array.isArray(raw.entries)||raw.entries.length>Math.max(200,validIds.length))throw new Error('店舗の件数が多すぎます。');
   const entries:SessionEntry[]=[];const seen=new Set<string>();
   for(const entry of raw.entries){if(!object(entry))throw new Error('店舗設定が正しくありません。');const shopId=text(entry.shopId,100,'店舗ID');const alias=text(entry.alias,80,'別名');const notes=text(entry.notes,5000,'GMメモ');if(validIds.includes(shopId)&&!seen.has(shopId)){seen.add(shopId);entries.push({shopId,alias,notes});}}
   return {id,name,entries,usedIds:validList(raw.usedIds,validIds)};

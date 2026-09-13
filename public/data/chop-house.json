@@ -1,0 +1,718 @@
+{
+  "category": {
+    "id": "chop-house",
+    "label": "チョップハウス",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "chop-house-victorian-1",
+      "name": "チョップハウス・ブラスフォーク",
+      "category": "chop-house",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "expensive",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "事務員の昼の肉料理店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした事務員の昼の肉料理店。近くの事務所から昼食の客が続けて来る。",
+      "openingHours": "11:00〜21:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "仕切り付きの木の卓に白い皿が並ぶ。",
+        "service": "肉の焼き加減を聞き、伝票を手書きする。",
+        "signature": "胡椒の骨付きビーフ、炒め玉ねぎの小皿、糖蜜の蒸し菓子",
+        "localFlavor": "近くの事務所から昼食の客が続けて来る。"
+      },
+      "menuSections": [
+        {
+          "id": "chop-house-victorian-1-section-1",
+          "title": "肉料理",
+          "items": [
+            {
+              "name": "胡椒の骨付きビーフ",
+              "price": 22,
+              "kind": "food",
+              "description": "胡椒を利かせた牛肉。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "マトンチョップ",
+              "price": 12,
+              "kind": "food",
+              "description": "羊肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ビーフステーキ",
+              "price": 18,
+              "kind": "food",
+              "description": "牛肉の厚切りを焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフ",
+              "price": 15,
+              "kind": "food",
+              "description": "焼いた牛肉を切り分ける。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ポークチョップ",
+              "price": 10,
+              "kind": "food",
+              "description": "豚肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "牛肉のパイ",
+              "price": 10,
+              "kind": "food",
+              "description": "牛肉を生地で包み焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "冷製肉の盛り皿",
+              "price": 9,
+              "kind": "food",
+              "description": "冷たい肉を盛り合わせる。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chop-house-victorian-1-section-2",
+          "title": "付け合わせ・汁物",
+          "items": [
+            {
+              "name": "炒め玉ねぎの小皿",
+              "price": 3,
+              "kind": "food",
+              "description": "玉ねぎを茶色く炒める。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ゆでじゃがいも",
+              "price": 3,
+              "kind": "food",
+              "description": "皮をむいた芋をゆでる。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "煮キャベツ",
+              "price": 2,
+              "kind": "food",
+              "description": "キャベツを柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "人参のバター煮",
+              "price": 3,
+              "kind": "food",
+              "description": "人参をバターで煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "グレイビー",
+              "price": 1,
+              "kind": "addon",
+              "description": "肉汁のソースを添える。",
+              "id": "chop-house-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "大麦のスープ",
+              "price": 4,
+              "kind": "food",
+              "description": "麦を入れた温かい汁。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 2,
+              "kind": "food",
+              "description": "パンにバターを添える。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chop-house-victorian-1-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "name": "糖蜜の蒸し菓子",
+              "price": 6,
+              "kind": "food",
+              "description": "糖蜜入りの生地を蒸す。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "スエットプディング",
+              "price": 5,
+              "kind": "food",
+              "description": "牛脂入りの生地を蒸す。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "煮りんごのタルト",
+              "price": 5,
+              "kind": "food",
+              "description": "煮たりんごを詰める。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チーズ小皿",
+              "price": 4,
+              "kind": "food",
+              "description": "食後のチーズの小皿。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 3,
+              "kind": "drink",
+              "description": "温かい紅茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 4,
+              "kind": "drink",
+              "description": "食後の珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "エール 一杯",
+              "price": 4,
+              "kind": "drink",
+              "description": "樽から注ぐ酒の一杯。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chop-house-victorian-2",
+      "name": "チョップハウス・キングズオーク",
+      "category": "chop-house",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ヨークの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "expensive",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "旅館隣の肉料理店"
+      ],
+      "description": "1890年のイギリス・ヨークの架空街区を舞台にした旅館隣の肉料理店。宿泊客と地元商人が夕食の卓を囲む。",
+      "openingHours": "11:00〜21:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "高い背もたれの椅子と古い銅の鍋を飾る。",
+        "service": "旅人に料理の量を説明して注文を取る。",
+        "signature": "羊肉と腎臓のパイ、かぶのバター煮、干しぶどうの米プディング",
+        "localFlavor": "宿泊客と地元商人が夕食の卓を囲む。"
+      },
+      "menuSections": [
+        {
+          "id": "chop-house-victorian-2-section-1",
+          "title": "肉料理",
+          "items": [
+            {
+              "name": "羊肉と腎臓のパイ",
+              "price": 14,
+              "kind": "food",
+              "description": "肉と腎臓を包んで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "マトンチョップ",
+              "price": 12,
+              "kind": "food",
+              "description": "羊肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ビーフステーキ",
+              "price": 18,
+              "kind": "food",
+              "description": "牛肉の厚切りを焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフ",
+              "price": 15,
+              "kind": "food",
+              "description": "焼いた牛肉を切り分ける。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ポークチョップ",
+              "price": 10,
+              "kind": "food",
+              "description": "豚肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "牛肉のパイ",
+              "price": 10,
+              "kind": "food",
+              "description": "牛肉を生地で包み焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "冷製肉の盛り皿",
+              "price": 9,
+              "kind": "food",
+              "description": "冷たい肉を盛り合わせる。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chop-house-victorian-2-section-2",
+          "title": "付け合わせ・汁物",
+          "items": [
+            {
+              "name": "かぶのバター煮",
+              "price": 3,
+              "kind": "food",
+              "description": "かぶをバターで煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ゆでじゃがいも",
+              "price": 3,
+              "kind": "food",
+              "description": "皮をむいた芋をゆでる。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "煮キャベツ",
+              "price": 2,
+              "kind": "food",
+              "description": "キャベツを柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "人参のバター煮",
+              "price": 3,
+              "kind": "food",
+              "description": "人参をバターで煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "グレイビー",
+              "price": 1,
+              "kind": "addon",
+              "description": "肉汁のソースを添える。",
+              "id": "chop-house-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "大麦のスープ",
+              "price": 4,
+              "kind": "food",
+              "description": "麦を入れた温かい汁。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 2,
+              "kind": "food",
+              "description": "パンにバターを添える。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chop-house-victorian-2-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "name": "干しぶどうの米プディング",
+              "price": 5,
+              "kind": "food",
+              "description": "米と果実を甘く煮る。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "スエットプディング",
+              "price": 5,
+              "kind": "food",
+              "description": "牛脂入りの生地を蒸す。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "煮りんごのタルト",
+              "price": 5,
+              "kind": "food",
+              "description": "煮たりんごを詰める。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チーズ小皿",
+              "price": 4,
+              "kind": "food",
+              "description": "食後のチーズの小皿。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 3,
+              "kind": "drink",
+              "description": "温かい紅茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 4,
+              "kind": "drink",
+              "description": "食後の珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "エール 一杯",
+              "price": 4,
+              "kind": "drink",
+              "description": "樽から注ぐ酒の一杯。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chop-house-victorian-3",
+      "name": "チョップハウス・マーケットベル",
+      "category": "chop-house",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・バーミンガムの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "expensive",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "市場帰りの食事処"
+      ],
+      "description": "1890年のイギリス・バーミンガムの架空街区を舞台にした市場帰りの食事処。市場の仕事を終えた人が肉料理を分け合う。",
+      "openingHours": "11:00〜21:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓から市場を見渡せる長卓がある。",
+        "service": "相席を頼むときは客に一声かけてから案内する。",
+        "signature": "厚切り豚肉のりんご添え、白いんげんの煮込み、焼き梨のクリーム添え",
+        "localFlavor": "市場の仕事を終えた人が肉料理を分け合う。"
+      },
+      "menuSections": [
+        {
+          "id": "chop-house-victorian-3-section-1",
+          "title": "肉料理",
+          "items": [
+            {
+              "name": "厚切り豚肉のりんご添え",
+              "price": 16,
+              "kind": "food",
+              "description": "焼いた豚にりんごを添える。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "マトンチョップ",
+              "price": 12,
+              "kind": "food",
+              "description": "羊肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ビーフステーキ",
+              "price": 18,
+              "kind": "food",
+              "description": "牛肉の厚切りを焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフ",
+              "price": 15,
+              "kind": "food",
+              "description": "焼いた牛肉を切り分ける。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "ポークチョップ",
+              "price": 10,
+              "kind": "food",
+              "description": "豚肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "牛肉のパイ",
+              "price": 10,
+              "kind": "food",
+              "description": "牛肉を生地で包み焼く。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "冷製肉の盛り皿",
+              "price": 9,
+              "kind": "food",
+              "description": "冷たい肉を盛り合わせる。",
+              "recommendationGroup": "main",
+              "id": "chop-house-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chop-house-victorian-3-section-2",
+          "title": "付け合わせ・汁物",
+          "items": [
+            {
+              "name": "白いんげんの煮込み",
+              "price": 4,
+              "kind": "food",
+              "description": "白い豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ゆでじゃがいも",
+              "price": 3,
+              "kind": "food",
+              "description": "皮をむいた芋をゆでる。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "煮キャベツ",
+              "price": 2,
+              "kind": "food",
+              "description": "キャベツを柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "人参のバター煮",
+              "price": 3,
+              "kind": "food",
+              "description": "人参をバターで煮る。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "グレイビー",
+              "price": 1,
+              "kind": "addon",
+              "description": "肉汁のソースを添える。",
+              "id": "chop-house-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "大麦のスープ",
+              "price": 4,
+              "kind": "food",
+              "description": "麦を入れた温かい汁。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 2,
+              "kind": "food",
+              "description": "パンにバターを添える。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "chop-house-victorian-3-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "name": "焼き梨のクリーム添え",
+              "price": 6,
+              "kind": "food",
+              "description": "焼いた梨にクリーム。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "スエットプディング",
+              "price": 5,
+              "kind": "food",
+              "description": "牛脂入りの生地を蒸す。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "煮りんごのタルト",
+              "price": 5,
+              "kind": "food",
+              "description": "煮たりんごを詰める。",
+              "recommendationGroup": "dessert",
+              "id": "chop-house-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "チーズ小皿",
+              "price": 4,
+              "kind": "food",
+              "description": "食後のチーズの小皿。",
+              "recommendationGroup": "side",
+              "id": "chop-house-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 3,
+              "kind": "drink",
+              "description": "温かい紅茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 4,
+              "kind": "drink",
+              "description": "食後の珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "エール 一杯",
+              "price": 4,
+              "kind": "drink",
+              "description": "樽から注ぐ酒の一杯。",
+              "recommendationGroup": "drink",
+              "id": "chop-house-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -708,6 +708,717 @@
         "signature": "霧の庵の山菜おろしせいろと茸と鶏団子のあんかけ蕎麦",
         "localFlavor": "山へ行く途中の客と近所の住民が同席する。昼すぎには農作業を終えた人が遅い食事に来る。"
       }
+    },
+    {
+      "id": "soba-showa-1",
+      "name": "そば処 三本松",
+      "category": "soba",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "定番メニューの蕎麦屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした定番メニューの蕎麦屋。近くの古い住宅の住民が昼に集まる。庭の木が色づく頃は散歩帰りの客が増える。",
+      "openingHours": "11:00〜20:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "庭へ向いた窓の前に二人席が並ぶ。奥の打ち場には白い粉が薄く積もり、石臼の音がする。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "まず茶を出し、蕎麦は茹で上がりに合わせて運ぶ。最後に温かいそば湯を添える。",
+        "signature": "山芋と海苔の冷たい蕎麦、鶏と葱の煮込み蕎麦、だし巻き玉子の小皿",
+        "localFlavor": "近くの古い住宅の住民が昼に集まる。庭の木が色づく頃は散歩帰りの客が増える。"
+      },
+      "menuSections": [
+        {
+          "id": "soba-showa-1-section-1",
+          "title": "冷たい蕎麦",
+          "items": [
+            {
+              "name": "山芋と海苔の冷たい蕎麦",
+              "price": 120,
+              "kind": "food",
+              "description": "山芋と海苔を冷たい麺に。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "もりそば",
+              "price": 70,
+              "kind": "food",
+              "description": "蕎麦の香りを楽しむ基本の一枚。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ざるそば",
+              "price": 80,
+              "kind": "food",
+              "description": "刻み海苔をのせた冷たい蕎麦。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "天せいろ",
+              "price": 100,
+              "kind": "food",
+              "description": "海老と野菜の天ぷらを添えて。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "とろろそば",
+              "price": 120,
+              "kind": "food",
+              "description": "すりおろした長芋と一緒に。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "鴨せいろ",
+              "price": 150,
+              "kind": "food",
+              "description": "鴨の脂が溶けた温かいつけ汁。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "くるみだれせいろ",
+              "price": 180,
+              "kind": "food",
+              "description": "すり潰したくるみを使う濃厚なつけ汁。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soba-showa-1-section-2",
+          "title": "温かい蕎麦",
+          "items": [
+            {
+              "name": "鶏と葱の煮込み蕎麦",
+              "price": 120,
+              "kind": "food",
+              "description": "鶏と葱を温かい麺に。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "かけそば",
+              "price": 60,
+              "kind": "food",
+              "description": "出汁の香りが立つ温かい一杯。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "たぬきそば",
+              "price": 80,
+              "kind": "food",
+              "description": "揚げ玉のコクを楽しむ蕎麦。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "月見そば",
+              "price": 100,
+              "kind": "food",
+              "description": "卵を落としたやさしい味。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "山菜そば",
+              "price": 120,
+              "kind": "food",
+              "description": "山菜とわかめをのせて。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "にしんそば",
+              "price": 150,
+              "kind": "food",
+              "description": "甘辛く炊いたにしんを一尾。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "茸と鶏団子のあんかけ蕎麦",
+              "price": 180,
+              "kind": "food",
+              "description": "きのこと鶏団子のとろみ出汁を掛ける。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soba-showa-1-section-3",
+          "title": "一品・飲みもの",
+          "items": [
+            {
+              "name": "だし巻き玉子の小皿",
+              "price": 80,
+              "kind": "food",
+              "description": "柔らかな卵焼きを出す。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "板わさ",
+              "price": 30,
+              "kind": "food",
+              "description": "かまぼこをわさび醤油で。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "そば味噌",
+              "price": 40,
+              "kind": "food",
+              "description": "炒った蕎麦の実を混ぜた味噌。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "天ぷら盛り",
+              "price": 50,
+              "kind": "food",
+              "description": "海老と季節の野菜の盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "日本酒 一合",
+              "price": 80,
+              "kind": "drink",
+              "description": "蕎麦に合うすっきりした一杯。",
+              "recommendationGroup": "drink",
+              "id": "soba-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "そば団子",
+              "price": 100,
+              "kind": "food",
+              "description": "蕎麦粉の団子に蜜を添える。",
+              "recommendationGroup": "dessert",
+              "id": "soba-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "山の根菜かき揚げ 小皿",
+              "price": 120,
+              "kind": "food",
+              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soba-showa-2",
+      "name": "蕎麦屋 朝霞庵",
+      "category": "soba",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "落ち着いた雰囲気の蕎麦屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした落ち着いた雰囲気の蕎麦屋。昼下がりには一人でゆっくり過ごす常連が多い。近隣の店を巡った客が休憩に使う。",
+      "openingHours": "11:00〜20:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "古い町並みの軒に短い暖簾。カウンターの上に酒器が並び、奥の席から小さな坪庭が見える。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "小さな酒肴から注文できる。蕎麦を出す時刻は、客の食事の進み具合に合わせる。",
+        "signature": "大根おろしのもり蕎麦、きのこと油揚げの蕎麦、蕎麦粉の焼き団子",
+        "localFlavor": "昼下がりには一人でゆっくり過ごす常連が多い。近隣の店を巡った客が休憩に使う。"
+      },
+      "menuSections": [
+        {
+          "id": "soba-showa-2-section-1",
+          "title": "冷たい蕎麦",
+          "items": [
+            {
+              "name": "大根おろしのもり蕎麦",
+              "price": 130,
+              "kind": "food",
+              "description": "冷たい麺に大根おろし。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "もりそば",
+              "price": 70,
+              "kind": "food",
+              "description": "蕎麦の香りを楽しむ基本の一枚。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ざるそば",
+              "price": 80,
+              "kind": "food",
+              "description": "刻み海苔をのせた冷たい蕎麦。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "天せいろ",
+              "price": 100,
+              "kind": "food",
+              "description": "海老と野菜の天ぷらを添えて。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "とろろそば",
+              "price": 120,
+              "kind": "food",
+              "description": "すりおろした長芋と一緒に。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "鴨せいろ",
+              "price": 150,
+              "kind": "food",
+              "description": "鴨の脂が溶けた温かいつけ汁。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "くるみだれせいろ",
+              "price": 180,
+              "kind": "food",
+              "description": "すり潰したくるみを使う濃厚なつけ汁。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soba-showa-2-section-2",
+          "title": "温かい蕎麦",
+          "items": [
+            {
+              "name": "きのこと油揚げの蕎麦",
+              "price": 130,
+              "kind": "food",
+              "description": "きのこと揚げを汁に入れる。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "かけそば",
+              "price": 60,
+              "kind": "food",
+              "description": "出汁の香りが立つ温かい一杯。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "たぬきそば",
+              "price": 80,
+              "kind": "food",
+              "description": "揚げ玉のコクを楽しむ蕎麦。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "月見そば",
+              "price": 100,
+              "kind": "food",
+              "description": "卵を落としたやさしい味。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "山菜そば",
+              "price": 120,
+              "kind": "food",
+              "description": "山菜とわかめをのせて。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "にしんそば",
+              "price": 150,
+              "kind": "food",
+              "description": "甘辛く炊いたにしんを一尾。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "茸と鶏団子のあんかけ蕎麦",
+              "price": 180,
+              "kind": "food",
+              "description": "きのこと鶏団子のとろみ出汁を掛ける。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soba-showa-2-section-3",
+          "title": "一品・飲みもの",
+          "items": [
+            {
+              "name": "蕎麦粉の焼き団子",
+              "price": 90,
+              "kind": "food",
+              "description": "蕎麦粉の団子を焼く。",
+              "recommendationGroup": "dessert",
+              "id": "soba-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "板わさ",
+              "price": 30,
+              "kind": "food",
+              "description": "かまぼこをわさび醤油で。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "そば味噌",
+              "price": 40,
+              "kind": "food",
+              "description": "炒った蕎麦の実を混ぜた味噌。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "天ぷら盛り",
+              "price": 50,
+              "kind": "food",
+              "description": "海老と季節の野菜の盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "日本酒 一合",
+              "price": 80,
+              "kind": "drink",
+              "description": "蕎麦に合うすっきりした一杯。",
+              "recommendationGroup": "drink",
+              "id": "soba-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "そば団子",
+              "price": 100,
+              "kind": "food",
+              "description": "蕎麦粉の団子に蜜を添える。",
+              "recommendationGroup": "dessert",
+              "id": "soba-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "山の根菜かき揚げ 小皿",
+              "price": 120,
+              "kind": "food",
+              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soba-showa-3",
+      "name": "そば食堂 つづみ",
+      "category": "soba",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "山里の蕎麦屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした山里の蕎麦屋。山へ行く途中の客と近所の住民が同席する。昼すぎには農作業を終えた人が遅い食事に来る。",
+      "openingHours": "11:00〜20:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "土間に丸太の腰掛けがあり、座敷の窓から畑が見える。梁に古い農具が飾られる。レジの横に黒電話と伝票の束を置く。",
+        "service": "靴を脱ぐ場所を案内し、蕎麦は茹でた順に運ぶ。帰りにそば湯のおかわりを尋ねる。",
+        "signature": "胡麻だれのせいろ蕎麦、玉子とじかけ蕎麦、蕎麦茶の急須",
+        "localFlavor": "山へ行く途中の客と近所の住民が同席する。昼すぎには農作業を終えた人が遅い食事に来る。"
+      },
+      "menuSections": [
+        {
+          "id": "soba-showa-3-section-1",
+          "title": "冷たい蕎麦",
+          "items": [
+            {
+              "name": "胡麻だれのせいろ蕎麦",
+              "price": 140,
+              "kind": "food",
+              "description": "胡麻のつけ汁で食べる。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "もりそば",
+              "price": 70,
+              "kind": "food",
+              "description": "蕎麦の香りを楽しむ基本の一枚。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ざるそば",
+              "price": 80,
+              "kind": "food",
+              "description": "刻み海苔をのせた冷たい蕎麦。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "天せいろ",
+              "price": 100,
+              "kind": "food",
+              "description": "海老と野菜の天ぷらを添えて。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "とろろそば",
+              "price": 120,
+              "kind": "food",
+              "description": "すりおろした長芋と一緒に。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "鴨せいろ",
+              "price": 150,
+              "kind": "food",
+              "description": "鴨の脂が溶けた温かいつけ汁。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "くるみだれせいろ",
+              "price": 180,
+              "kind": "food",
+              "description": "すり潰したくるみを使う濃厚なつけ汁。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soba-showa-3-section-2",
+          "title": "温かい蕎麦",
+          "items": [
+            {
+              "name": "玉子とじかけ蕎麦",
+              "price": 140,
+              "kind": "food",
+              "description": "温かい汁を卵でとじる。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "かけそば",
+              "price": 60,
+              "kind": "food",
+              "description": "出汁の香りが立つ温かい一杯。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "たぬきそば",
+              "price": 80,
+              "kind": "food",
+              "description": "揚げ玉のコクを楽しむ蕎麦。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "月見そば",
+              "price": 100,
+              "kind": "food",
+              "description": "卵を落としたやさしい味。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "山菜そば",
+              "price": 120,
+              "kind": "food",
+              "description": "山菜とわかめをのせて。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "にしんそば",
+              "price": 150,
+              "kind": "food",
+              "description": "甘辛く炊いたにしんを一尾。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "茸と鶏団子のあんかけ蕎麦",
+              "price": 180,
+              "kind": "food",
+              "description": "きのこと鶏団子のとろみ出汁を掛ける。",
+              "recommendationGroup": "main",
+              "id": "soba-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "soba-showa-3-section-3",
+          "title": "一品・飲みもの",
+          "items": [
+            {
+              "name": "蕎麦茶の急須",
+              "price": 100,
+              "kind": "drink",
+              "description": "温かい蕎麦茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "soba-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "板わさ",
+              "price": 30,
+              "kind": "food",
+              "description": "かまぼこをわさび醤油で。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "そば味噌",
+              "price": 40,
+              "kind": "food",
+              "description": "炒った蕎麦の実を混ぜた味噌。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "天ぷら盛り",
+              "price": 50,
+              "kind": "food",
+              "description": "海老と季節の野菜の盛り合わせ。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "日本酒 一合",
+              "price": 80,
+              "kind": "drink",
+              "description": "蕎麦に合うすっきりした一杯。",
+              "recommendationGroup": "drink",
+              "id": "soba-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "そば団子",
+              "price": 100,
+              "kind": "food",
+              "description": "蕎麦粉の団子に蜜を添える。",
+              "recommendationGroup": "dessert",
+              "id": "soba-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "山の根菜かき揚げ 小皿",
+              "price": 120,
+              "kind": "food",
+              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "recommendationGroup": "side",
+              "id": "soba-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

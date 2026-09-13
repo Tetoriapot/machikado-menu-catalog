@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "delicatessen",
+    "label": "デリカテッセン",
+    "group": "テイクアウト",
+    "icon": "basket"
+  },
+  "shops": [
+    {
+      "id": "delicatessen-america-1920s-1",
+      "name": "デリ・ライウィンドウ",
+      "category": "delicatessen",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "昼食を包む街角デリ"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした昼食を包む街角デリ。事務所の使いの人が昼食の包みを買う。",
+      "openingHours": "8:00〜20:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "冷蔵ケースに肉が並び、横にパンの籠がある。",
+        "service": "肉の厚さとパンの種類を聞いて切る。",
+        "signature": "厚切り塩牛肉のライ麦サンド、赤キャベツの甘酢漬け、レモンジンジャーの瓶飲料",
+        "localFlavor": "事務所の使いの人が昼食の包みを買う。"
+      },
+      "menuSections": [
+        {
+          "id": "delicatessen-america-1920s-1-section-1",
+          "title": "サンドイッチ",
+          "items": [
+            {
+              "name": "厚切り塩牛肉のライ麦サンド",
+              "price": 35,
+              "kind": "food",
+              "description": "肉を厚く挟んだパン。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "コーンビーフサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "塩漬け牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハムとライ麦パン",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムをライ麦パンに。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフサンド",
+              "price": 30,
+              "kind": "food",
+              "description": "焼いた牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チーズとピクルスサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "チーズと酢漬けを挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "卵サラダのロール",
+              "price": 15,
+              "kind": "food",
+              "description": "卵を丸パンに詰める。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "チキンサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "鶏肉を薄く切って挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "delicatessen-america-1920s-1-section-2",
+          "title": "惣菜・量り売り",
+          "items": [
+            {
+              "name": "赤キャベツの甘酢漬け",
+              "price": 10,
+              "kind": "food",
+              "description": "赤いキャベツを漬ける。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ポテトサラダ 小箱",
+              "price": 10,
+              "kind": "food",
+              "description": "じゃがいもを和える。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー 小箱",
+              "price": 10,
+              "kind": "food",
+              "description": "刻みキャベツの惣菜。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "大きなピクルス",
+              "price": 5,
+              "kind": "food",
+              "description": "きゅうりを一本売る。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "豆の煮込み 小箱",
+              "price": 15,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "冷製ハム 小包み",
+              "price": 20,
+              "kind": "goods",
+              "description": "持ち帰り用のハム。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ライ麦パン 半斤",
+              "price": 10,
+              "kind": "goods",
+              "description": "食事用のパンを包む。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "delicatessen-america-1920s-1-section-3",
+          "title": "飲みもの・菓子",
+          "items": [
+            {
+              "name": "レモンジンジャーの瓶飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "柑橘と生姜の飲料。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "瓶のジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "瓶ソーダ水",
+              "price": 5,
+              "kind": "drink",
+              "description": "無糖の炭酸水。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "りんご飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "りんごの果汁飲料。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "シードビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "種の香りの菓子。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "果実の小パイ",
+              "price": 15,
+              "kind": "food",
+              "description": "果実を詰めたパイ。",
+              "recommendationGroup": "dessert",
+              "id": "delicatessen-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delicatessen-america-1920s-2",
+      "name": "デリ・メイプルコーナー",
+      "category": "delicatessen",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "近隣住民の惣菜店"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした近隣住民の惣菜店。近所の家庭が夕食に一品足すために寄る。",
+      "openingHours": "8:00〜20:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "大きなボウルの惣菜が低いケースに並ぶ。",
+        "service": "人数を聞いて惣菜を量り、小箱に詰める。",
+        "signature": "七面鳥とレタスのサンド、セロリ入り豆サラダ、オートミールクッキー",
+        "localFlavor": "近所の家庭が夕食に一品足すために寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "delicatessen-america-1920s-2-section-1",
+          "title": "サンドイッチ",
+          "items": [
+            {
+              "name": "七面鳥とレタスのサンド",
+              "price": 30,
+              "kind": "food",
+              "description": "鳥肉と葉野菜を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "コーンビーフサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "塩漬け牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハムとライ麦パン",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムをライ麦パンに。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフサンド",
+              "price": 30,
+              "kind": "food",
+              "description": "焼いた牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チーズとピクルスサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "チーズと酢漬けを挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "卵サラダのロール",
+              "price": 15,
+              "kind": "food",
+              "description": "卵を丸パンに詰める。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "チキンサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "鶏肉を薄く切って挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "delicatessen-america-1920s-2-section-2",
+          "title": "惣菜・量り売り",
+          "items": [
+            {
+              "name": "セロリ入り豆サラダ",
+              "price": 15,
+              "kind": "food",
+              "description": "豆とセロリを和える。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ポテトサラダ 小箱",
+              "price": 10,
+              "kind": "food",
+              "description": "じゃがいもを和える。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー 小箱",
+              "price": 10,
+              "kind": "food",
+              "description": "刻みキャベツの惣菜。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "大きなピクルス",
+              "price": 5,
+              "kind": "food",
+              "description": "きゅうりを一本売る。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "豆の煮込み 小箱",
+              "price": 15,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "冷製ハム 小包み",
+              "price": 20,
+              "kind": "goods",
+              "description": "持ち帰り用のハム。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ライ麦パン 半斤",
+              "price": 10,
+              "kind": "goods",
+              "description": "食事用のパンを包む。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "delicatessen-america-1920s-2-section-3",
+          "title": "飲みもの・菓子",
+          "items": [
+            {
+              "name": "オートミールクッキー",
+              "price": 10,
+              "kind": "food",
+              "description": "燕麦を混ぜた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "delicatessen-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "瓶のジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "瓶ソーダ水",
+              "price": 5,
+              "kind": "drink",
+              "description": "無糖の炭酸水。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "りんご飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "りんごの果汁飲料。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "シードビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "種の香りの菓子。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "果実の小パイ",
+              "price": 15,
+              "kind": "food",
+              "description": "果実を詰めたパイ。",
+              "recommendationGroup": "dessert",
+              "id": "delicatessen-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delicatessen-america-1920s-3",
+      "name": "デリ・ハーバーライ",
+      "category": "delicatessen",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ボストンの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "港町の保存食の店"
+      ],
+      "description": "1926年のアメリカ・ボストンの架空街区を舞台にした港町の保存食の店。港で働く人が休憩の食事を買いに来る。",
+      "openingHours": "8:00〜20:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "魚の瓶詰めとパンの棚をカウンターが囲む。",
+        "service": "持ち歩く時間を聞き、しっかり紙で包む。",
+        "signature": "燻製牛肉の小ロール、にしんの酢漬け小皿、アプリコットの小タルト",
+        "localFlavor": "港で働く人が休憩の食事を買いに来る。"
+      },
+      "menuSections": [
+        {
+          "id": "delicatessen-america-1920s-3-section-1",
+          "title": "サンドイッチ",
+          "items": [
+            {
+              "name": "燻製牛肉の小ロール",
+              "price": 25,
+              "kind": "food",
+              "description": "燻製肉を丸パンに。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "コーンビーフサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "塩漬け牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ハムとライ麦パン",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムをライ麦パンに。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフサンド",
+              "price": 30,
+              "kind": "food",
+              "description": "焼いた牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チーズとピクルスサンド",
+              "price": 20,
+              "kind": "food",
+              "description": "チーズと酢漬けを挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "卵サラダのロール",
+              "price": 15,
+              "kind": "food",
+              "description": "卵を丸パンに詰める。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "チキンサンド",
+              "price": 25,
+              "kind": "food",
+              "description": "鶏肉を薄く切って挟む。",
+              "recommendationGroup": "main",
+              "id": "delicatessen-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "delicatessen-america-1920s-3-section-2",
+          "title": "惣菜・量り売り",
+          "items": [
+            {
+              "name": "にしんの酢漬け小皿",
+              "price": 20,
+              "kind": "food",
+              "description": "魚を酢で漬ける。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ポテトサラダ 小箱",
+              "price": 10,
+              "kind": "food",
+              "description": "じゃがいもを和える。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "コールスロー 小箱",
+              "price": 10,
+              "kind": "food",
+              "description": "刻みキャベツの惣菜。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "大きなピクルス",
+              "price": 5,
+              "kind": "food",
+              "description": "きゅうりを一本売る。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "豆の煮込み 小箱",
+              "price": 15,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "delicatessen-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "冷製ハム 小包み",
+              "price": 20,
+              "kind": "goods",
+              "description": "持ち帰り用のハム。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ライ麦パン 半斤",
+              "price": 10,
+              "kind": "goods",
+              "description": "食事用のパンを包む。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "delicatessen-america-1920s-3-section-3",
+          "title": "飲みもの・菓子",
+          "items": [
+            {
+              "name": "アプリコットの小タルト",
+              "price": 15,
+              "kind": "food",
+              "description": "杏を詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "delicatessen-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "瓶のジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "瓶ソーダ水",
+              "price": 5,
+              "kind": "drink",
+              "description": "無糖の炭酸水。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "りんご飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "りんごの果汁飲料。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 5,
+              "kind": "drink",
+              "description": "温かい珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "delicatessen-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "シードビスケット",
+              "price": 5,
+              "kind": "goods",
+              "description": "種の香りの菓子。",
+              "recommendationGroup": "goods",
+              "id": "delicatessen-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "果実の小パイ",
+              "price": 15,
+              "kind": "food",
+              "description": "果実を詰めたパイ。",
+              "recommendationGroup": "dessert",
+              "id": "delicatessen-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

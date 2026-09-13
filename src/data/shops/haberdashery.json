@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "haberdashery",
+    "label": "服飾小物・裁縫用品店",
+    "group": "小売店",
+    "icon": "gift"
+  },
+  "shops": [
+    {
+      "id": "haberdashery-victorian-1",
+      "name": "裁縫小物店・シルクスパロウ",
+      "category": "haberdashery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "裁縫と贈り物の店"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした裁縫と贈り物の店。近所の仕立屋と家庭の繕い客が行き交う。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "引き出しに糸とボタンを色別に収める。",
+        "service": "布の色を見ながら合う糸を取り出す。",
+        "signature": "紺色の絹糸、小さな真鍮ブローチ、花刺繍の布包み",
+        "localFlavor": "近所の仕立屋と家庭の繕い客が行き交う。"
+      },
+      "menuSections": [
+        {
+          "id": "haberdashery-victorian-1-section-1",
+          "title": "糸・裁縫用品",
+          "items": [
+            {
+              "name": "紺色の絹糸",
+              "price": 6,
+              "kind": "goods",
+              "description": "光沢のある絹の糸。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "木綿糸 一巻",
+              "price": 2,
+              "kind": "goods",
+              "description": "裁縫用の木綿糸。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "縫い針 六本",
+              "price": 2,
+              "kind": "goods",
+              "description": "太さ違いの縫い針。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "木のボタン 六個",
+              "price": 3,
+              "kind": "goods",
+              "description": "衣服に付けるボタン。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "白いリボン 一ヤード",
+              "price": 4,
+              "kind": "goods",
+              "description": "飾りに使う白い布帯。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "指ぬき",
+              "price": 3,
+              "kind": "goods",
+              "description": "縫い針を押す道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "小さな裁縫ばさみ",
+              "price": 12,
+              "kind": "goods",
+              "description": "糸や布を切る道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "haberdashery-victorian-1-section-2",
+          "title": "身につける小物",
+          "items": [
+            {
+              "name": "小さな真鍮ブローチ",
+              "price": 24,
+              "kind": "goods",
+              "description": "衣服に留める飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "木綿ハンカチ",
+              "price": 4,
+              "kind": "goods",
+              "description": "薄手の四角い布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "無地の襟飾り",
+              "price": 8,
+              "kind": "goods",
+              "description": "首元に付ける飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "櫛 小型",
+              "price": 4,
+              "kind": "goods",
+              "description": "髪を整える道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "髪留めピン 六本",
+              "price": 2,
+              "kind": "goods",
+              "description": "髪を留める金具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "襟ボタン 二個",
+              "price": 3,
+              "kind": "goods",
+              "description": "襟を留める小物。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ウールの手袋",
+              "price": 18,
+              "kind": "goods",
+              "description": "毛糸の手袋一組。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "haberdashery-victorian-1-section-3",
+          "title": "布・贈りもの",
+          "items": [
+            {
+              "name": "花刺繍の布包み",
+              "price": 18,
+              "kind": "goods",
+              "description": "花の刺繍を入れた布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "レースの縁取り 一ヤード",
+              "price": 6,
+              "kind": "goods",
+              "description": "布に縫い付ける飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "木綿布 一ヤード",
+              "price": 8,
+              "kind": "goods",
+              "description": "普段の裁縫用の布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "小さな針山",
+              "price": 4,
+              "kind": "goods",
+              "description": "針を刺す布の台。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "裁縫道具の小箱",
+              "price": 24,
+              "kind": "goods",
+              "description": "針と糸を収める箱。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "リボンの三色包み",
+              "price": 10,
+              "kind": "goods",
+              "description": "三色の布帯をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刺繍用の小布",
+              "price": 6,
+              "kind": "goods",
+              "description": "刺繍をする四角い布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haberdashery-victorian-2",
+      "name": "服飾用品店・メンドレーン",
+      "category": "haberdashery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・工場町の架空街区"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "普段着の補修用品店"
+      ],
+      "description": "1890年のイギリス・工場町の架空街区を舞台にした普段着の補修用品店。工場で働く家族が衣類の小物を補充する。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "端切れの籠と靴下を吊るす棚がある。",
+        "service": "繕う場所を聞き、丈夫な糸を提案する。",
+        "signature": "丈夫な補修糸、厚手の靴下、端切れの束",
+        "localFlavor": "工場で働く家族が衣類の小物を補充する。"
+      },
+      "menuSections": [
+        {
+          "id": "haberdashery-victorian-2-section-1",
+          "title": "糸・裁縫用品",
+          "items": [
+            {
+              "name": "丈夫な補修糸",
+              "price": 3,
+              "kind": "goods",
+              "description": "繕いもの用の太い糸。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "木綿糸 一巻",
+              "price": 2,
+              "kind": "goods",
+              "description": "裁縫用の木綿糸。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "縫い針 六本",
+              "price": 2,
+              "kind": "goods",
+              "description": "太さ違いの縫い針。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "木のボタン 六個",
+              "price": 3,
+              "kind": "goods",
+              "description": "衣服に付けるボタン。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "白いリボン 一ヤード",
+              "price": 4,
+              "kind": "goods",
+              "description": "飾りに使う白い布帯。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "指ぬき",
+              "price": 3,
+              "kind": "goods",
+              "description": "縫い針を押す道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "小さな裁縫ばさみ",
+              "price": 12,
+              "kind": "goods",
+              "description": "糸や布を切る道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "haberdashery-victorian-2-section-2",
+          "title": "身につける小物",
+          "items": [
+            {
+              "name": "厚手の靴下",
+              "price": 12,
+              "kind": "goods",
+              "description": "寒い日の足元の衣類。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "木綿ハンカチ",
+              "price": 4,
+              "kind": "goods",
+              "description": "薄手の四角い布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "無地の襟飾り",
+              "price": 8,
+              "kind": "goods",
+              "description": "首元に付ける飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "櫛 小型",
+              "price": 4,
+              "kind": "goods",
+              "description": "髪を整える道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "髪留めピン 六本",
+              "price": 2,
+              "kind": "goods",
+              "description": "髪を留める金具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "襟ボタン 二個",
+              "price": 3,
+              "kind": "goods",
+              "description": "襟を留める小物。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ウールの手袋",
+              "price": 18,
+              "kind": "goods",
+              "description": "毛糸の手袋一組。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "haberdashery-victorian-2-section-3",
+          "title": "布・贈りもの",
+          "items": [
+            {
+              "name": "端切れの束",
+              "price": 5,
+              "kind": "goods",
+              "description": "小さな布を束にする。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "レースの縁取り 一ヤード",
+              "price": 6,
+              "kind": "goods",
+              "description": "布に縫い付ける飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "木綿布 一ヤード",
+              "price": 8,
+              "kind": "goods",
+              "description": "普段の裁縫用の布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "小さな針山",
+              "price": 4,
+              "kind": "goods",
+              "description": "針を刺す布の台。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "裁縫道具の小箱",
+              "price": 24,
+              "kind": "goods",
+              "description": "針と糸を収める箱。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "リボンの三色包み",
+              "price": 10,
+              "kind": "goods",
+              "description": "三色の布帯をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刺繍用の小布",
+              "price": 6,
+              "kind": "goods",
+              "description": "刺繍をする四角い布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haberdashery-victorian-3",
+      "name": "服飾小物店・ベルベットリーフ",
+      "category": "haberdashery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ブライトンの架空街区"
+      },
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "帽子と飾りの小物店"
+      ],
+      "description": "1890年のイギリス・ブライトンの架空街区を舞台にした帽子と飾りの小物店。散歩用の帽子を飾りたい客が品を選ぶ。",
+      "openingHours": "9:00〜18:00（日曜休）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "リボンと櫛をガラスケースに並べる。",
+        "service": "鏡を差し出し、飾りの色を合わせる。",
+        "signature": "黒い帽子用リボン、装飾付きヘアコーム、贈答用レースハンカチ",
+        "localFlavor": "散歩用の帽子を飾りたい客が品を選ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "haberdashery-victorian-3-section-1",
+          "title": "糸・裁縫用品",
+          "items": [
+            {
+              "name": "黒い帽子用リボン",
+              "price": 8,
+              "kind": "goods",
+              "description": "帽子を飾る黒い帯。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "木綿糸 一巻",
+              "price": 2,
+              "kind": "goods",
+              "description": "裁縫用の木綿糸。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "縫い針 六本",
+              "price": 2,
+              "kind": "goods",
+              "description": "太さ違いの縫い針。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "木のボタン 六個",
+              "price": 3,
+              "kind": "goods",
+              "description": "衣服に付けるボタン。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "白いリボン 一ヤード",
+              "price": 4,
+              "kind": "goods",
+              "description": "飾りに使う白い布帯。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "指ぬき",
+              "price": 3,
+              "kind": "goods",
+              "description": "縫い針を押す道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "小さな裁縫ばさみ",
+              "price": 12,
+              "kind": "goods",
+              "description": "糸や布を切る道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "haberdashery-victorian-3-section-2",
+          "title": "身につける小物",
+          "items": [
+            {
+              "name": "装飾付きヘアコーム",
+              "price": 18,
+              "kind": "goods",
+              "description": "髪に挿す櫛の飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "木綿ハンカチ",
+              "price": 4,
+              "kind": "goods",
+              "description": "薄手の四角い布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "無地の襟飾り",
+              "price": 8,
+              "kind": "goods",
+              "description": "首元に付ける飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "櫛 小型",
+              "price": 4,
+              "kind": "goods",
+              "description": "髪を整える道具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "髪留めピン 六本",
+              "price": 2,
+              "kind": "goods",
+              "description": "髪を留める金具。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "襟ボタン 二個",
+              "price": 3,
+              "kind": "goods",
+              "description": "襟を留める小物。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "ウールの手袋",
+              "price": 18,
+              "kind": "goods",
+              "description": "毛糸の手袋一組。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "haberdashery-victorian-3-section-3",
+          "title": "布・贈りもの",
+          "items": [
+            {
+              "name": "贈答用レースハンカチ",
+              "price": 20,
+              "kind": "goods",
+              "description": "縁をレースで飾る。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "レースの縁取り 一ヤード",
+              "price": 6,
+              "kind": "goods",
+              "description": "布に縫い付ける飾り。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "木綿布 一ヤード",
+              "price": 8,
+              "kind": "goods",
+              "description": "普段の裁縫用の布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "小さな針山",
+              "price": 4,
+              "kind": "goods",
+              "description": "針を刺す布の台。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "裁縫道具の小箱",
+              "price": 24,
+              "kind": "goods",
+              "description": "針と糸を収める箱。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "リボンの三色包み",
+              "price": 10,
+              "kind": "goods",
+              "description": "三色の布帯をまとめる。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刺繍用の小布",
+              "price": 6,
+              "kind": "goods",
+              "description": "刺繍をする四角い布。",
+              "recommendationGroup": "goods",
+              "id": "haberdashery-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

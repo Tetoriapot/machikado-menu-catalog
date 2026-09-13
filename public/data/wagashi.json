@@ -708,6 +708,717 @@
         "signature": "門前のくるみ味噌饅頭と上生菓子『夕鐘』",
         "localFlavor": "参拝客と門前町の住民が立ち寄る。祭りの日は朝から予約の箱が棚を埋める。"
       }
+    },
+    {
+      "id": "wagashi-showa-1",
+      "name": "和菓子舗 こはる堂",
+      "category": "wagashi",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "定番メニューの和菓子屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした定番メニューの和菓子屋。茶を習う人が予約の菓子を受け取り、商店街の住民は日々のおやつを二、三個買う。",
+      "openingHours": "9:00〜18:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "上生菓子の見本がガラス越しに一列に並ぶ。奥の暖簾から、餡を炊く甘い香りが流れる。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "菓子の名前と季節の意匠を説明し、持ち歩く向きを箱の上に記す。",
+        "signature": "胡桃入り焼き饅頭、柿餡の包み菓子、玄米茶 小袋",
+        "localFlavor": "茶を習う人が予約の菓子を受け取り、商店街の住民は日々のおやつを二、三個買う。"
+      },
+      "menuSections": [
+        {
+          "id": "wagashi-showa-1-section-1",
+          "title": "日々のお菓子",
+          "items": [
+            {
+              "name": "胡桃入り焼き饅頭",
+              "price": 40,
+              "kind": "food",
+              "description": "胡桃を餡に混ぜた饅頭。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "豆大福",
+              "price": 25,
+              "kind": "food",
+              "description": "赤えんどうの塩気と粒あん。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "どら焼き",
+              "price": 30,
+              "kind": "food",
+              "description": "ふっくらした皮に粒あんを挟んで。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "みたらし団子",
+              "price": 35,
+              "kind": "food",
+              "description": "醤油だれをからめた三玉串。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "草餅",
+              "price": 40,
+              "kind": "food",
+              "description": "よもぎが香る餅で餡を包んで。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "栗まんじゅう",
+              "price": 50,
+              "kind": "food",
+              "description": "栗入りの白餡を焼き皮で。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "黒糖まんじゅう",
+              "price": 60,
+              "kind": "food",
+              "description": "黒糖の皮にこしあんを包んだ蒸し菓子。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "wagashi-showa-1-section-2",
+          "title": "季節・生菓子",
+          "items": [
+            {
+              "name": "柿餡の包み菓子",
+              "price": 60,
+              "kind": "food",
+              "description": "柿風味の餡を包む。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "練り切り",
+              "price": 30,
+              "kind": "food",
+              "description": "季節の形をかたどった上生菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "水ようかん",
+              "price": 40,
+              "kind": "food",
+              "description": "みずみずしい口当たりの小豆菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "豆かん",
+              "price": 50,
+              "kind": "food",
+              "description": "寒天と豆に蜜を添えた甘味。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "わらび餅",
+              "price": 60,
+              "kind": "food",
+              "description": "きな粉と黒蜜を添えた小箱。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "栗きんとん",
+              "price": 80,
+              "kind": "food",
+              "description": "栗の風味を生かした小さなお菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "上生菓子『夕鐘』",
+              "price": 100,
+              "kind": "food",
+              "description": "夕空を思わせる色の練り切りを鐘形に仕立てる。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "wagashi-showa-1-section-3",
+          "title": "贈答・お茶",
+          "items": [
+            {
+              "name": "玄米茶 小袋",
+              "price": 180,
+              "kind": "goods",
+              "description": "茶葉と玄米を合わせる。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "羊羹 小棹",
+              "price": 100,
+              "kind": "food",
+              "description": "切り分けやすい小さな羊羹。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "最中 五個箱",
+              "price": 120,
+              "kind": "food",
+              "description": "香ばしい皮と粒あんの詰め合わせ。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "どら焼き 六個箱",
+              "price": 150,
+              "kind": "food",
+              "description": "贈答用の箱入りどら焼き。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "煎茶 茶葉50g",
+              "price": 180,
+              "kind": "goods",
+              "description": "菓子に合わせる日常のお茶。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 茶葉50g",
+              "price": 200,
+              "kind": "goods",
+              "description": "香ばしく焙じた茶葉。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "小菓子の詰め合わせ八個箱",
+              "price": 250,
+              "kind": "food",
+              "description": "小さな和菓子を八個詰める。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagashi-showa-2",
+      "name": "餅菓子 白い暖簾",
+      "category": "wagashi",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "落ち着いた雰囲気の和菓子屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした落ち着いた雰囲気の和菓子屋。川沿いの散歩客が休憩に寄る。橋を渡る子どもたちは、季節ごとに変わる菓子の札を見ていく。",
+      "openingHours": "9:00〜18:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "橋のたもとに低い木の看板。店先に団子を焼く台があり、川を見られる腰掛けが一つ。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "焼いた団子はたれが垂れないよう包む。贈答は食べる人数を聞いて箱の大きさを案内する。",
+        "signature": "黒豆餅、琥珀糖の小箱、番茶 茶葉小袋",
+        "localFlavor": "川沿いの散歩客が休憩に寄る。橋を渡る子どもたちは、季節ごとに変わる菓子の札を見ていく。"
+      },
+      "menuSections": [
+        {
+          "id": "wagashi-showa-2-section-1",
+          "title": "日々のお菓子",
+          "items": [
+            {
+              "name": "黒豆餅",
+              "price": 50,
+              "kind": "food",
+              "description": "黒豆を柔らかな餅に混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "豆大福",
+              "price": 25,
+              "kind": "food",
+              "description": "赤えんどうの塩気と粒あん。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "どら焼き",
+              "price": 30,
+              "kind": "food",
+              "description": "ふっくらした皮に粒あんを挟んで。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "みたらし団子",
+              "price": 35,
+              "kind": "food",
+              "description": "醤油だれをからめた三玉串。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "草餅",
+              "price": 40,
+              "kind": "food",
+              "description": "よもぎが香る餅で餡を包んで。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "栗まんじゅう",
+              "price": 50,
+              "kind": "food",
+              "description": "栗入りの白餡を焼き皮で。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "黒糖まんじゅう",
+              "price": 60,
+              "kind": "food",
+              "description": "黒糖の皮にこしあんを包んだ蒸し菓子。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "wagashi-showa-2-section-2",
+          "title": "季節・生菓子",
+          "items": [
+            {
+              "name": "琥珀糖の小箱",
+              "price": 70,
+              "kind": "food",
+              "description": "寒天の砂糖菓子を箱に。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "練り切り",
+              "price": 30,
+              "kind": "food",
+              "description": "季節の形をかたどった上生菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "水ようかん",
+              "price": 40,
+              "kind": "food",
+              "description": "みずみずしい口当たりの小豆菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "豆かん",
+              "price": 50,
+              "kind": "food",
+              "description": "寒天と豆に蜜を添えた甘味。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "わらび餅",
+              "price": 60,
+              "kind": "food",
+              "description": "きな粉と黒蜜を添えた小箱。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "栗きんとん",
+              "price": 80,
+              "kind": "food",
+              "description": "栗の風味を生かした小さなお菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "上生菓子『夕鐘』",
+              "price": 100,
+              "kind": "food",
+              "description": "夕空を思わせる色の練り切りを鐘形に仕立てる。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "wagashi-showa-2-section-3",
+          "title": "贈答・お茶",
+          "items": [
+            {
+              "name": "番茶 茶葉小袋",
+              "price": 190,
+              "kind": "goods",
+              "description": "普段のお茶を紙袋に。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "羊羹 小棹",
+              "price": 100,
+              "kind": "food",
+              "description": "切り分けやすい小さな羊羹。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "最中 五個箱",
+              "price": 120,
+              "kind": "food",
+              "description": "香ばしい皮と粒あんの詰め合わせ。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "どら焼き 六個箱",
+              "price": 150,
+              "kind": "food",
+              "description": "贈答用の箱入りどら焼き。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "煎茶 茶葉50g",
+              "price": 180,
+              "kind": "goods",
+              "description": "菓子に合わせる日常のお茶。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 茶葉50g",
+              "price": 200,
+              "kind": "goods",
+              "description": "香ばしく焙じた茶葉。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "小菓子の詰め合わせ八個箱",
+              "price": 250,
+              "kind": "food",
+              "description": "小さな和菓子を八個詰める。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagashi-showa-3",
+      "name": "甘味商 夕凪屋",
+      "category": "wagashi",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "門前町の和菓子屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした門前町の和菓子屋。参拝客と門前町の住民が立ち寄る。祭りの日は朝から予約の箱が棚を埋める。",
+      "openingHours": "9:00〜18:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "木枠のケースと古い暦が掛かる壁。店先には腰掛けがあり、参道の石畳が見える。レジの横に黒電話と伝票の束を置く。",
+        "service": "菓子の形の意味をひとこと添える。箱詰めは食べる人数に合わせて相談する。",
+        "signature": "焼き胡麻の最中、蜜入りくず桜、小さな饅頭六個箱",
+        "localFlavor": "参拝客と門前町の住民が立ち寄る。祭りの日は朝から予約の箱が棚を埋める。"
+      },
+      "menuSections": [
+        {
+          "id": "wagashi-showa-3-section-1",
+          "title": "日々のお菓子",
+          "items": [
+            {
+              "name": "焼き胡麻の最中",
+              "price": 60,
+              "kind": "food",
+              "description": "胡麻の餡を皮で挟む。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "豆大福",
+              "price": 25,
+              "kind": "food",
+              "description": "赤えんどうの塩気と粒あん。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "どら焼き",
+              "price": 30,
+              "kind": "food",
+              "description": "ふっくらした皮に粒あんを挟んで。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "みたらし団子",
+              "price": 35,
+              "kind": "food",
+              "description": "醤油だれをからめた三玉串。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "草餅",
+              "price": 40,
+              "kind": "food",
+              "description": "よもぎが香る餅で餡を包んで。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "栗まんじゅう",
+              "price": 50,
+              "kind": "food",
+              "description": "栗入りの白餡を焼き皮で。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "黒糖まんじゅう",
+              "price": 60,
+              "kind": "food",
+              "description": "黒糖の皮にこしあんを包んだ蒸し菓子。",
+              "recommendationGroup": "main",
+              "id": "wagashi-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "wagashi-showa-3-section-2",
+          "title": "季節・生菓子",
+          "items": [
+            {
+              "name": "蜜入りくず桜",
+              "price": 80,
+              "kind": "food",
+              "description": "餡をくずの生地で包む。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "練り切り",
+              "price": 30,
+              "kind": "food",
+              "description": "季節の形をかたどった上生菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "水ようかん",
+              "price": 40,
+              "kind": "food",
+              "description": "みずみずしい口当たりの小豆菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "豆かん",
+              "price": 50,
+              "kind": "food",
+              "description": "寒天と豆に蜜を添えた甘味。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "わらび餅",
+              "price": 60,
+              "kind": "food",
+              "description": "きな粉と黒蜜を添えた小箱。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "栗きんとん",
+              "price": 80,
+              "kind": "food",
+              "description": "栗の風味を生かした小さなお菓子。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "上生菓子『夕鐘』",
+              "price": 100,
+              "kind": "food",
+              "description": "夕空を思わせる色の練り切りを鐘形に仕立てる。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "wagashi-showa-3-section-3",
+          "title": "贈答・お茶",
+          "items": [
+            {
+              "name": "小さな饅頭六個箱",
+              "price": 200,
+              "kind": "goods",
+              "description": "小ぶりの饅頭を詰める。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "羊羹 小棹",
+              "price": 100,
+              "kind": "food",
+              "description": "切り分けやすい小さな羊羹。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "最中 五個箱",
+              "price": 120,
+              "kind": "food",
+              "description": "香ばしい皮と粒あんの詰め合わせ。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "どら焼き 六個箱",
+              "price": 150,
+              "kind": "food",
+              "description": "贈答用の箱入りどら焼き。",
+              "recommendationGroup": "side",
+              "id": "wagashi-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "煎茶 茶葉50g",
+              "price": 180,
+              "kind": "goods",
+              "description": "菓子に合わせる日常のお茶。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 茶葉50g",
+              "price": 200,
+              "kind": "goods",
+              "description": "香ばしく焙じた茶葉。",
+              "recommendationGroup": "goods",
+              "id": "wagashi-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "小菓子の詰め合わせ八個箱",
+              "price": 250,
+              "kind": "food",
+              "description": "小さな和菓子を八個詰める。",
+              "recommendationGroup": "dessert",
+              "id": "wagashi-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

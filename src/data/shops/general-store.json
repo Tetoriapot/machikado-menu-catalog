@@ -707,6 +707,717 @@
         "signature": "灰釉の小さなスープ碗と麻混の台所クロス",
         "localFlavor": "近所の人が買い替えの器を探しに来る。週末は町歩きの客が縁側で包み終わりを待つ。"
       }
+    },
+    {
+      "id": "general-store-america-1920s-1",
+      "name": "雑貨店・プレーリーボックス",
+      "category": "general-store",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・中西部の架空集落"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "食料と日用品の店"
+      ],
+      "description": "1926年のアメリカ・中西部の架空集落を舞台にした食料と日用品の店。近隣の農家が町へ出る日にまとめて訪れる。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "粉の袋と生活道具を並べる長い棚がある。",
+        "service": "買い物の紙を見ながら品を一つずつ揃える。",
+        "signature": "コーンミール 一ポンド、ピーナツバター 小瓶、木の洗濯ばさみ十二個",
+        "localFlavor": "近隣の農家が町へ出る日にまとめて訪れる。"
+      },
+      "menuSections": [
+        {
+          "id": "general-store-america-1920s-1-section-1",
+          "title": "穀物・保存食品",
+          "items": [
+            {
+              "name": "コーンミール 一ポンド",
+              "price": 8,
+              "kind": "goods",
+              "description": "粉にしたとうもろこし。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小麦粉 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "量り売りの小麦粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "燕麦 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "粥に使う燕麦の粒。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "米 一ポンド",
+              "price": 8,
+              "kind": "goods",
+              "description": "袋に量り入れた米。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "乾燥豆 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "煮込み用の乾いた豆。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "干しぶどう 小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "焼き菓子用の干し果実。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "乾燥りんご 小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "乾かしたりんごの袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-america-1920s-1-section-2",
+          "title": "瓶詰め・調味料",
+          "items": [
+            {
+              "name": "ピーナツバター 小瓶",
+              "price": 25,
+              "kind": "goods",
+              "description": "ナッツをすりつぶす。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "苺ジャム 小瓶",
+              "price": 20,
+              "kind": "goods",
+              "description": "苺を煮詰めた瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マーマレード 小瓶",
+              "price": 20,
+              "kind": "goods",
+              "description": "柑橘の皮入りのジャム。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "からし粉 小缶",
+              "price": 10,
+              "kind": "goods",
+              "description": "水で練るからしの粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "食卓塩 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "料理に使う塩の袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜 小壺",
+              "price": 10,
+              "kind": "goods",
+              "description": "甘い糖蜜を壺に。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "酢 小瓶",
+              "price": 10,
+              "kind": "goods",
+              "description": "料理に使う酢の瓶。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-america-1920s-1-section-3",
+          "title": "飲料・生活小物",
+          "items": [
+            {
+              "name": "木の洗濯ばさみ十二個",
+              "price": 10,
+              "kind": "goods",
+              "description": "衣類を留める木の道具。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "紅茶 茶葉小袋",
+              "price": 25,
+              "kind": "goods",
+              "description": "普段飲みの紅茶葉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "珈琲豆 小袋",
+              "price": 30,
+              "kind": "goods",
+              "description": "焙じた珈琲豆の袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ココア 小缶",
+              "price": 25,
+              "kind": "goods",
+              "description": "飲料用のココア粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "洗濯石けん",
+              "price": 10,
+              "kind": "goods",
+              "description": "衣類を洗う石けん。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "蝋燭 二本",
+              "price": 5,
+              "kind": "goods",
+              "description": "明かりに使う蝋燭。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "箱入りマッチ",
+              "price": 5,
+              "kind": "goods",
+              "description": "火をつけるマッチ。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-store-america-1920s-2",
+      "name": "雑貨店・レールサイドサプライ",
+      "category": "general-store",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・中西部の架空町"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "駅の近くの補給品店"
+      ],
+      "description": "1926年のアメリカ・中西部の架空町を舞台にした駅の近くの補給品店。鉄道の仕事をする人が補給品を買いに来る。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "木箱と缶詰を入口近くに積み上げる。",
+        "service": "荷物になる重さを確かめて箱に詰める。",
+        "signature": "缶入りクラッカー、トマトの缶詰、無地の縫い糸三巻",
+        "localFlavor": "鉄道の仕事をする人が補給品を買いに来る。"
+      },
+      "menuSections": [
+        {
+          "id": "general-store-america-1920s-2-section-1",
+          "title": "穀物・保存食品",
+          "items": [
+            {
+              "name": "缶入りクラッカー",
+              "price": 20,
+              "kind": "goods",
+              "description": "缶に入った薄焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小麦粉 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "量り売りの小麦粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "燕麦 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "粥に使う燕麦の粒。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "米 一ポンド",
+              "price": 8,
+              "kind": "goods",
+              "description": "袋に量り入れた米。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "乾燥豆 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "煮込み用の乾いた豆。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "干しぶどう 小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "焼き菓子用の干し果実。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "乾燥りんご 小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "乾かしたりんごの袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-america-1920s-2-section-2",
+          "title": "瓶詰め・調味料",
+          "items": [
+            {
+              "name": "トマトの缶詰",
+              "price": 15,
+              "kind": "goods",
+              "description": "料理用の保存食品。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "苺ジャム 小瓶",
+              "price": 20,
+              "kind": "goods",
+              "description": "苺を煮詰めた瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マーマレード 小瓶",
+              "price": 20,
+              "kind": "goods",
+              "description": "柑橘の皮入りのジャム。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "からし粉 小缶",
+              "price": 10,
+              "kind": "goods",
+              "description": "水で練るからしの粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "食卓塩 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "料理に使う塩の袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜 小壺",
+              "price": 10,
+              "kind": "goods",
+              "description": "甘い糖蜜を壺に。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "酢 小瓶",
+              "price": 10,
+              "kind": "goods",
+              "description": "料理に使う酢の瓶。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-america-1920s-2-section-3",
+          "title": "飲料・生活小物",
+          "items": [
+            {
+              "name": "無地の縫い糸三巻",
+              "price": 10,
+              "kind": "goods",
+              "description": "繕いものに使う糸。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "紅茶 茶葉小袋",
+              "price": 25,
+              "kind": "goods",
+              "description": "普段飲みの紅茶葉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "珈琲豆 小袋",
+              "price": 30,
+              "kind": "goods",
+              "description": "焙じた珈琲豆の袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ココア 小缶",
+              "price": 25,
+              "kind": "goods",
+              "description": "飲料用のココア粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "洗濯石けん",
+              "price": 10,
+              "kind": "goods",
+              "description": "衣類を洗う石けん。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "蝋燭 二本",
+              "price": 5,
+              "kind": "goods",
+              "description": "明かりに使う蝋燭。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "箱入りマッチ",
+              "price": 5,
+              "kind": "goods",
+              "description": "火をつけるマッチ。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-store-america-1920s-3",
+      "name": "雑貨店・レイクフロント",
+      "category": "general-store",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・湖畔の架空集落"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "湖の暮らしの雑貨店"
+      ],
+      "description": "1926年のアメリカ・湖畔の架空集落を舞台にした湖の暮らしの雑貨店。町の住民と湖を訪れた旅人が交じる。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓から湖を望む店に瓶と道具の棚がある。",
+        "service": "小分けの量を確認し、紙袋に名前を書く。",
+        "signature": "乾燥プルーン 小袋、桃の瓶詰め、ブリキの小さなカップ",
+        "localFlavor": "町の住民と湖を訪れた旅人が交じる。"
+      },
+      "menuSections": [
+        {
+          "id": "general-store-america-1920s-3-section-1",
+          "title": "穀物・保存食品",
+          "items": [
+            {
+              "name": "乾燥プルーン 小袋",
+              "price": 15,
+              "kind": "goods",
+              "description": "干した果実を袋に。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "小麦粉 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "量り売りの小麦粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "燕麦 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "粥に使う燕麦の粒。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "米 一ポンド",
+              "price": 8,
+              "kind": "goods",
+              "description": "袋に量り入れた米。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "乾燥豆 一ポンド",
+              "price": 5,
+              "kind": "goods",
+              "description": "煮込み用の乾いた豆。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "干しぶどう 小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "焼き菓子用の干し果実。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "乾燥りんご 小袋",
+              "price": 10,
+              "kind": "goods",
+              "description": "乾かしたりんごの袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-america-1920s-3-section-2",
+          "title": "瓶詰め・調味料",
+          "items": [
+            {
+              "name": "桃の瓶詰め",
+              "price": 30,
+              "kind": "goods",
+              "description": "甘く煮た桃の瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "苺ジャム 小瓶",
+              "price": 20,
+              "kind": "goods",
+              "description": "苺を煮詰めた瓶詰め。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "マーマレード 小瓶",
+              "price": 20,
+              "kind": "goods",
+              "description": "柑橘の皮入りのジャム。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "からし粉 小缶",
+              "price": 10,
+              "kind": "goods",
+              "description": "水で練るからしの粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "食卓塩 小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "料理に使う塩の袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜 小壺",
+              "price": 10,
+              "kind": "goods",
+              "description": "甘い糖蜜を壺に。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "酢 小瓶",
+              "price": 10,
+              "kind": "goods",
+              "description": "料理に使う酢の瓶。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "general-store-america-1920s-3-section-3",
+          "title": "飲料・生活小物",
+          "items": [
+            {
+              "name": "ブリキの小さなカップ",
+              "price": 15,
+              "kind": "goods",
+              "description": "持ち手付きの金属器。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "紅茶 茶葉小袋",
+              "price": 25,
+              "kind": "goods",
+              "description": "普段飲みの紅茶葉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "珈琲豆 小袋",
+              "price": 30,
+              "kind": "goods",
+              "description": "焙じた珈琲豆の袋。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ココア 小缶",
+              "price": 25,
+              "kind": "goods",
+              "description": "飲料用のココア粉。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "洗濯石けん",
+              "price": 10,
+              "kind": "goods",
+              "description": "衣類を洗う石けん。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "蝋燭 二本",
+              "price": 5,
+              "kind": "goods",
+              "description": "明かりに使う蝋燭。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "箱入りマッチ",
+              "price": 5,
+              "kind": "goods",
+              "description": "火をつけるマッチ。",
+              "recommendationGroup": "goods",
+              "id": "general-store-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

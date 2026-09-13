@@ -695,6 +695,1400 @@
         "signature": "硝子雲の貝だし塩そばと炙り鶏と昆布の小ご飯",
         "localFlavor": "近くの住宅の住民が昼食に通う。週末には川沿いを歩いた人が暖簾をくぐる。"
       }
+    },
+    {
+      "id": "ramen-heisei-1",
+      "name": "中華そば なると橋",
+      "category": "ramen",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "昔ながらのラーメン屋"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした昔ながらのラーメン屋。昔からの住宅街で昼食を担う小さな店。",
+      "openingHours": "11:00〜15:00 / 17:30〜22:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "八席のカウンターと曇ったガラス引き戸。レジ横に公衆電話と時刻表がある。",
+        "service": "注文は口頭、会計は食後。常連には麺の硬さを尋ねる。",
+        "signature": "白菜と肉のうま煮そば、卵入り半焼き飯、なると追加 三枚",
+        "localFlavor": "昔からの住宅街で昼食を担う小さな店。"
+      },
+      "menuSections": [
+        {
+          "id": "ramen-heisei-1-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "name": "白菜と肉のうま煮そば",
+              "price": 650,
+              "kind": "food",
+              "description": "白菜と豚肉のあんを載せる。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "醤油ラーメン",
+              "price": 500,
+              "kind": "food",
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "塩ラーメン",
+              "price": 550,
+              "kind": "food",
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "味噌ラーメン",
+              "price": 600,
+              "kind": "food",
+              "description": "炒め野菜と合わせ味噌のコク深い一杯。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー麺",
+              "price": 650,
+              "kind": "food",
+              "description": "肩ロースの焼豚をたっぷり五枚。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ねぎそば",
+              "price": 700,
+              "kind": "food",
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ワンタン麺",
+              "price": 750,
+              "kind": "food",
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-heisei-1-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "name": "卵入り半焼き飯",
+              "price": 300,
+              "kind": "food",
+              "description": "卵を混ぜた小さな焼き飯。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 五個",
+              "price": 450,
+              "kind": "food",
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "半チャーハン",
+              "price": 500,
+              "kind": "food",
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー丼",
+              "price": 350,
+              "kind": "food",
+              "description": "甘辛だれの刻み焼豚を温かいご飯に。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ライス",
+              "price": 300,
+              "kind": "food",
+              "description": "茶碗一杯の白ご飯。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "メンマ盛り",
+              "price": 200,
+              "kind": "food",
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼豚の小皿",
+              "price": 180,
+              "kind": "food",
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-heisei-1-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "name": "なると追加 三枚",
+              "price": 250,
+              "kind": "addon",
+              "description": "薄切りなるとを追加する。",
+              "id": "ramen-heisei-1-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "味付け卵",
+              "price": 100,
+              "kind": "addon",
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "id": "ramen-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麺大盛り",
+              "price": 150,
+              "kind": "addon",
+              "description": "麺を半玉分追加。",
+              "id": "ramen-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "海苔 三枚",
+              "price": 200,
+              "kind": "addon",
+              "description": "磯の香りを添える焼海苔。",
+              "id": "ramen-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 250,
+              "kind": "drink",
+              "description": "中瓶。小さなグラスを添えて。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ラムネ",
+              "price": 80,
+              "kind": "drink",
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刻みねぎ追加",
+              "price": 100,
+              "kind": "addon",
+              "description": "細切りの青ねぎを別皿で。",
+              "id": "ramen-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramen-heisei-2",
+      "name": "らーめん 夕灯軒",
+      "category": "ramen",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "昔ながらのラーメン屋"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした昔ながらのラーメン屋。住宅街から大通りへ出る角で、夜遅い仕事帰りにも寄れる。",
+      "openingHours": "11:00〜15:00 / 17:30〜22:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "券売機の横に香味油の瓶が並ぶ十席の麺処。入口に紙の地域情報誌が積まれている。",
+        "service": "食券を受け取ると好みを確認し、卓上の香味料を案内する。",
+        "signature": "炒め野菜の塩そば、焼豚と葱の小皿、ゆで卵 一個",
+        "localFlavor": "住宅街から大通りへ出る角で、夜遅い仕事帰りにも寄れる。"
+      },
+      "menuSections": [
+        {
+          "id": "ramen-heisei-2-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "name": "炒め野菜の塩そば",
+              "price": 700,
+              "kind": "food",
+              "description": "炒めた野菜を塩味の麺に。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "醤油ラーメン",
+              "price": 500,
+              "kind": "food",
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "塩ラーメン",
+              "price": 550,
+              "kind": "food",
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "味噌ラーメン",
+              "price": 600,
+              "kind": "food",
+              "description": "炒め野菜と合わせ味噌のコク深い一杯。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー麺",
+              "price": 650,
+              "kind": "food",
+              "description": "肩ロースの焼豚をたっぷり五枚。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ねぎそば",
+              "price": 700,
+              "kind": "food",
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ワンタン麺",
+              "price": 750,
+              "kind": "food",
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-heisei-2-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "name": "焼豚と葱の小皿",
+              "price": 350,
+              "kind": "food",
+              "description": "焼豚に刻み葱を添える。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 五個",
+              "price": 450,
+              "kind": "food",
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "半チャーハン",
+              "price": 500,
+              "kind": "food",
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー丼",
+              "price": 350,
+              "kind": "food",
+              "description": "甘辛だれの刻み焼豚を温かいご飯に。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ライス",
+              "price": 300,
+              "kind": "food",
+              "description": "茶碗一杯の白ご飯。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "メンマ盛り",
+              "price": 200,
+              "kind": "food",
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼豚の小皿",
+              "price": 180,
+              "kind": "food",
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-heisei-2-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "name": "ゆで卵 一個",
+              "price": 300,
+              "kind": "addon",
+              "description": "ゆで卵を一個追加する。",
+              "id": "ramen-heisei-2-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "味付け卵",
+              "price": 100,
+              "kind": "addon",
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "id": "ramen-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麺大盛り",
+              "price": 150,
+              "kind": "addon",
+              "description": "麺を半玉分追加。",
+              "id": "ramen-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "海苔 三枚",
+              "price": 200,
+              "kind": "addon",
+              "description": "磯の香りを添える焼海苔。",
+              "id": "ramen-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 250,
+              "kind": "drink",
+              "description": "中瓶。小さなグラスを添えて。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ラムネ",
+              "price": 80,
+              "kind": "drink",
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刻みねぎ追加",
+              "price": 100,
+              "kind": "addon",
+              "description": "細切りの青ねぎを別皿で。",
+              "id": "ramen-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramen-heisei-3",
+      "name": "麺処 若葉のれん",
+      "category": "ramen",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "塩ラーメンのラーメン屋"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした塩ラーメンのラーメン屋。近くの住宅の住民が昼食に通う。週末には川沿いを歩いた人が暖簾をくぐる。",
+      "openingHours": "11:00〜15:00 / 17:30〜22:00",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "白いカウンターが九席。窓越しに川沿いの並木が見え、厨房には小さなスープ鍋が並ぶ。カウンターに手書きの予約帳が置かれている。",
+        "service": "初来店には塩そばを短く紹介する。香味油は途中で加えられるよう別添えにもする。",
+        "signature": "玉子とじ醤油そば、もやし炒めの小皿、冷たい麦茶",
+        "localFlavor": "近くの住宅の住民が昼食に通う。週末には川沿いを歩いた人が暖簾をくぐる。"
+      },
+      "menuSections": [
+        {
+          "id": "ramen-heisei-3-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "name": "玉子とじ醤油そば",
+              "price": 750,
+              "kind": "food",
+              "description": "醤油味の汁を卵でとじる。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "醤油ラーメン",
+              "price": 500,
+              "kind": "food",
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "塩ラーメン",
+              "price": 550,
+              "kind": "food",
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "味噌ラーメン",
+              "price": 600,
+              "kind": "food",
+              "description": "炒め野菜と合わせ味噌のコク深い一杯。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー麺",
+              "price": 650,
+              "kind": "food",
+              "description": "肩ロースの焼豚をたっぷり五枚。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ねぎそば",
+              "price": 700,
+              "kind": "food",
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ワンタン麺",
+              "price": 750,
+              "kind": "food",
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommendationGroup": "main",
+              "id": "ramen-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-heisei-3-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "name": "もやし炒めの小皿",
+              "price": 400,
+              "kind": "food",
+              "description": "もやしを手早く炒める。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 五個",
+              "price": 450,
+              "kind": "food",
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "半チャーハン",
+              "price": 500,
+              "kind": "food",
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー丼",
+              "price": 350,
+              "kind": "food",
+              "description": "甘辛だれの刻み焼豚を温かいご飯に。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ライス",
+              "price": 300,
+              "kind": "food",
+              "description": "茶碗一杯の白ご飯。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "メンマ盛り",
+              "price": 200,
+              "kind": "food",
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼豚の小皿",
+              "price": 180,
+              "kind": "food",
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommendationGroup": "side",
+              "id": "ramen-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-heisei-3-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "name": "冷たい麦茶",
+              "price": 350,
+              "kind": "drink",
+              "description": "冷やした麦茶を出す。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "味付け卵",
+              "price": 100,
+              "kind": "addon",
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "id": "ramen-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麺大盛り",
+              "price": 150,
+              "kind": "addon",
+              "description": "麺を半玉分追加。",
+              "id": "ramen-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "海苔 三枚",
+              "price": 200,
+              "kind": "addon",
+              "description": "磯の香りを添える焼海苔。",
+              "id": "ramen-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 250,
+              "kind": "drink",
+              "description": "中瓶。小さなグラスを添えて。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ラムネ",
+              "price": 80,
+              "kind": "drink",
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommendationGroup": "drink",
+              "id": "ramen-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刻みねぎ追加",
+              "price": 100,
+              "kind": "addon",
+              "description": "細切りの青ねぎを別皿で。",
+              "id": "ramen-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramen-showa-1",
+      "name": "中華そば 月見軒",
+      "category": "ramen",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "昔ながらのラーメン屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした昔ながらのラーメン屋。昔からの住宅街で昼食を担う小さな店。",
+      "openingHours": "11:00〜15:00 / 17:30〜22:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "八席のカウンターと曇ったガラス引き戸。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "注文は口頭、会計は食後。常連には麺の硬さを尋ねる。",
+        "signature": "白菜と肉のうま煮そば、卵入り半焼き飯、なると追加 三枚",
+        "localFlavor": "昔からの住宅街で昼食を担う小さな店。"
+      },
+      "menuSections": [
+        {
+          "id": "ramen-showa-1-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "name": "白菜と肉のうま煮そば",
+              "price": 130,
+              "kind": "food",
+              "description": "白菜と豚肉のあんを載せる。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "醤油ラーメン",
+              "price": 80,
+              "kind": "food",
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "塩ラーメン",
+              "price": 100,
+              "kind": "food",
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "味噌ラーメン",
+              "price": 120,
+              "kind": "food",
+              "description": "炒め野菜と合わせ味噌のコク深い一杯。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー麺",
+              "price": 130,
+              "kind": "food",
+              "description": "肩ロースの焼豚をたっぷり五枚。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ねぎそば",
+              "price": 150,
+              "kind": "food",
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ワンタン麺",
+              "price": 180,
+              "kind": "food",
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-showa-1-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "name": "卵入り半焼き飯",
+              "price": 50,
+              "kind": "food",
+              "description": "卵を混ぜた小さな焼き飯。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 五個",
+              "price": 80,
+              "kind": "food",
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "半チャーハン",
+              "price": 100,
+              "kind": "food",
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー丼",
+              "price": 60,
+              "kind": "food",
+              "description": "甘辛だれの刻み焼豚を温かいご飯に。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ライス",
+              "price": 50,
+              "kind": "food",
+              "description": "茶碗一杯の白ご飯。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "メンマ盛り",
+              "price": 40,
+              "kind": "food",
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼豚の小皿",
+              "price": 30,
+              "kind": "food",
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-showa-1-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "name": "なると追加 三枚",
+              "price": 50,
+              "kind": "addon",
+              "description": "薄切りなるとを追加する。",
+              "id": "ramen-showa-1-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "味付け卵",
+              "price": 20,
+              "kind": "addon",
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "id": "ramen-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麺大盛り",
+              "price": 30,
+              "kind": "addon",
+              "description": "麺を半玉分追加。",
+              "id": "ramen-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "海苔 三枚",
+              "price": 40,
+              "kind": "addon",
+              "description": "磯の香りを添える焼海苔。",
+              "id": "ramen-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 50,
+              "kind": "drink",
+              "description": "中瓶。小さなグラスを添えて。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ラムネ",
+              "price": 20,
+              "kind": "drink",
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刻みねぎ追加",
+              "price": 30,
+              "kind": "addon",
+              "description": "細切りの青ねぎを別皿で。",
+              "id": "ramen-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramen-showa-2",
+      "name": "中華そば 東町横丁",
+      "category": "ramen",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "昔ながらのラーメン屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした昔ながらのラーメン屋。住宅街から大通りへ出る角で、夜遅い仕事帰りにも寄れる。",
+      "openingHours": "11:00〜15:00 / 17:30〜22:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "券売機の横に香味油の瓶が並ぶ十席の麺処。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "食券を受け取ると好みを確認し、卓上の香味料を案内する。",
+        "signature": "炒め野菜の塩そば、焼豚と葱の小皿、ゆで卵 一個",
+        "localFlavor": "住宅街から大通りへ出る角で、夜遅い仕事帰りにも寄れる。"
+      },
+      "menuSections": [
+        {
+          "id": "ramen-showa-2-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "name": "炒め野菜の塩そば",
+              "price": 140,
+              "kind": "food",
+              "description": "炒めた野菜を塩味の麺に。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "醤油ラーメン",
+              "price": 80,
+              "kind": "food",
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "塩ラーメン",
+              "price": 100,
+              "kind": "food",
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "味噌ラーメン",
+              "price": 120,
+              "kind": "food",
+              "description": "炒め野菜と合わせ味噌のコク深い一杯。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー麺",
+              "price": 130,
+              "kind": "food",
+              "description": "肩ロースの焼豚をたっぷり五枚。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ねぎそば",
+              "price": 150,
+              "kind": "food",
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ワンタン麺",
+              "price": 180,
+              "kind": "food",
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-showa-2-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "name": "焼豚と葱の小皿",
+              "price": 60,
+              "kind": "food",
+              "description": "焼豚に刻み葱を添える。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 五個",
+              "price": 80,
+              "kind": "food",
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "半チャーハン",
+              "price": 100,
+              "kind": "food",
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー丼",
+              "price": 60,
+              "kind": "food",
+              "description": "甘辛だれの刻み焼豚を温かいご飯に。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ライス",
+              "price": 50,
+              "kind": "food",
+              "description": "茶碗一杯の白ご飯。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "メンマ盛り",
+              "price": 40,
+              "kind": "food",
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼豚の小皿",
+              "price": 30,
+              "kind": "food",
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-showa-2-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "name": "ゆで卵 一個",
+              "price": 60,
+              "kind": "addon",
+              "description": "ゆで卵を一個追加する。",
+              "id": "ramen-showa-2-signature-3",
+              "recommended": false
+            },
+            {
+              "name": "味付け卵",
+              "price": 20,
+              "kind": "addon",
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "id": "ramen-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麺大盛り",
+              "price": 30,
+              "kind": "addon",
+              "description": "麺を半玉分追加。",
+              "id": "ramen-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "海苔 三枚",
+              "price": 40,
+              "kind": "addon",
+              "description": "磯の香りを添える焼海苔。",
+              "id": "ramen-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 50,
+              "kind": "drink",
+              "description": "中瓶。小さなグラスを添えて。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ラムネ",
+              "price": 20,
+              "kind": "drink",
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刻みねぎ追加",
+              "price": 30,
+              "kind": "addon",
+              "description": "細切りの青ねぎを別皿で。",
+              "id": "ramen-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramen-showa-3",
+      "name": "ラーメン食堂 三角屋",
+      "category": "ramen",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "塩ラーメンのラーメン屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした塩ラーメンのラーメン屋。近くの住宅の住民が昼食に通う。週末には川沿いを歩いた人が暖簾をくぐる。",
+      "openingHours": "11:00〜15:00 / 17:30〜22:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "白いカウンターが九席。窓越しに川沿いの並木が見え、厨房には小さなスープ鍋が並ぶ。レジの横に黒電話と伝票の束を置く。",
+        "service": "初来店には塩そばを短く紹介する。香味油は途中で加えられるよう別添えにもする。",
+        "signature": "玉子とじ醤油そば、もやし炒めの小皿、冷たい麦茶",
+        "localFlavor": "近くの住宅の住民が昼食に通う。週末には川沿いを歩いた人が暖簾をくぐる。"
+      },
+      "menuSections": [
+        {
+          "id": "ramen-showa-3-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "name": "玉子とじ醤油そば",
+              "price": 150,
+              "kind": "food",
+              "description": "醤油味の汁を卵でとじる。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "醤油ラーメン",
+              "price": 80,
+              "kind": "food",
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "塩ラーメン",
+              "price": 100,
+              "kind": "food",
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "味噌ラーメン",
+              "price": 120,
+              "kind": "food",
+              "description": "炒め野菜と合わせ味噌のコク深い一杯。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー麺",
+              "price": 130,
+              "kind": "food",
+              "description": "肩ロースの焼豚をたっぷり五枚。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ねぎそば",
+              "price": 150,
+              "kind": "food",
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ワンタン麺",
+              "price": 180,
+              "kind": "food",
+              "description": "肉餡入りの薄いワンタンを五個添えて。",
+              "recommendationGroup": "main",
+              "id": "ramen-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-showa-3-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "name": "もやし炒めの小皿",
+              "price": 70,
+              "kind": "food",
+              "description": "もやしを手早く炒める。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "焼餃子 五個",
+              "price": 80,
+              "kind": "food",
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "半チャーハン",
+              "price": 100,
+              "kind": "food",
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チャーシュー丼",
+              "price": 60,
+              "kind": "food",
+              "description": "甘辛だれの刻み焼豚を温かいご飯に。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ライス",
+              "price": 50,
+              "kind": "food",
+              "description": "茶碗一杯の白ご飯。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "メンマ盛り",
+              "price": 40,
+              "kind": "food",
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "生姜焼豚の小皿",
+              "price": 30,
+              "kind": "food",
+              "description": "柔らかな焼豚に刻み生姜を添えて。",
+              "recommendationGroup": "side",
+              "id": "ramen-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "ramen-showa-3-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "name": "冷たい麦茶",
+              "price": 70,
+              "kind": "drink",
+              "description": "冷やした麦茶を出す。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "味付け卵",
+              "price": 20,
+              "kind": "addon",
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "id": "ramen-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "麺大盛り",
+              "price": 30,
+              "kind": "addon",
+              "description": "麺を半玉分追加。",
+              "id": "ramen-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "海苔 三枚",
+              "price": 40,
+              "kind": "addon",
+              "description": "磯の香りを添える焼海苔。",
+              "id": "ramen-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "瓶ビール",
+              "price": 50,
+              "kind": "drink",
+              "description": "中瓶。小さなグラスを添えて。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "ラムネ",
+              "price": 20,
+              "kind": "drink",
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommendationGroup": "drink",
+              "id": "ramen-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "刻みねぎ追加",
+              "price": 30,
+              "kind": "addon",
+              "description": "細切りの青ねぎを別皿で。",
+              "id": "ramen-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

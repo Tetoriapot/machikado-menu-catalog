@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "steakhouse",
+    "label": "ステーキハウス",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "steakhouse-america-1920s-1",
+      "name": "グリル・カッパーホーン",
+      "category": "steakhouse",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "expensive",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "肉料理を囲む夜の店"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした肉料理を囲む夜の店。商用の客が肉料理を前に話を続ける。",
+      "openingHours": "11:30〜22:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "濃い木の椅子と白いクロスの卓が並ぶ。",
+        "service": "焼き加減と付け合わせを聞いてから厨房へ伝える。",
+        "signature": "厚切り骨付きビーフ、バターきのこの小皿、胡桃とバニラのアイス",
+        "localFlavor": "商用の客が肉料理を前に話を続ける。"
+      },
+      "menuSections": [
+        {
+          "id": "steakhouse-america-1920s-1-section-1",
+          "title": "肉・魚の主菜",
+          "items": [
+            {
+              "name": "厚切り骨付きビーフ",
+              "price": 175,
+              "kind": "food",
+              "description": "厚い牛肉を骨付きで焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "サーロインステーキ",
+              "price": 125,
+              "kind": "food",
+              "description": "牛肉のステーキ。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ポークチョップ",
+              "price": 75,
+              "kind": "food",
+              "description": "骨付きの豚肉を焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフ",
+              "price": 90,
+              "kind": "food",
+              "description": "焼いた牛肉を切る。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "グリルチキン",
+              "price": 75,
+              "kind": "food",
+              "description": "鶏を香ばしく焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "魚のバター焼き",
+              "price": 65,
+              "kind": "food",
+              "description": "魚をバターで焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ハンバーグステーキ",
+              "price": 55,
+              "kind": "food",
+              "description": "挽肉を形にして焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "steakhouse-america-1920s-1-section-2",
+          "title": "付け合わせ",
+          "items": [
+            {
+              "name": "バターきのこの小皿",
+              "price": 25,
+              "kind": "food",
+              "description": "きのこをバターで炒める。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ベイクドポテト",
+              "price": 15,
+              "kind": "food",
+              "description": "芋を丸く焼き上げる。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草の煮物",
+              "price": 15,
+              "kind": "food",
+              "description": "葉野菜を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "グリーンサラダ",
+              "price": 20,
+              "kind": "food",
+              "description": "葉野菜のサラダ。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オニオンスープ",
+              "price": 20,
+              "kind": "food",
+              "description": "玉ねぎのスープ。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 10,
+              "kind": "food",
+              "description": "パンを食事に添える。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "温野菜の盛り合わせ",
+              "price": 20,
+              "kind": "food",
+              "description": "温めた野菜を盛る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "steakhouse-america-1920s-1-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "name": "胡桃とバニラのアイス",
+              "price": 25,
+              "kind": "food",
+              "description": "アイスに胡桃を添える。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "珈琲",
+              "price": 10,
+              "kind": "drink",
+              "description": "食後の珈琲を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 10,
+              "kind": "drink",
+              "description": "温かい紅茶のカップ。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうジュース",
+              "price": 15,
+              "kind": "drink",
+              "description": "果実を搾った飲料。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アイスクリーム",
+              "price": 20,
+              "kind": "food",
+              "description": "冷たいミルクの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "アップルパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "りんごを包んだパイ。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 20,
+              "kind": "food",
+              "description": "卵と牛乳の甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steakhouse-america-1920s-2",
+      "name": "グリル・オークリッジ",
+      "category": "steakhouse",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "expensive",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "ホテル近くのグリル"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にしたホテル近くのグリル。宿泊客や待ち合わせの客が夕食に来る。",
+      "openingHours": "11:30〜22:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "大きな鏡と低い照明が食卓を照らす。",
+        "service": "客の上着を預かり、皿を順番に運ぶ。",
+        "signature": "鴨のロースト小皿膳、コーンのクリーム煮、チョコレートのムース皿",
+        "localFlavor": "宿泊客や待ち合わせの客が夕食に来る。"
+      },
+      "menuSections": [
+        {
+          "id": "steakhouse-america-1920s-2-section-1",
+          "title": "肉・魚の主菜",
+          "items": [
+            {
+              "name": "鴨のロースト小皿膳",
+              "price": 150,
+              "kind": "food",
+              "description": "焼いた鴨と付け合わせ。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "サーロインステーキ",
+              "price": 125,
+              "kind": "food",
+              "description": "牛肉のステーキ。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ポークチョップ",
+              "price": 75,
+              "kind": "food",
+              "description": "骨付きの豚肉を焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフ",
+              "price": 90,
+              "kind": "food",
+              "description": "焼いた牛肉を切る。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "グリルチキン",
+              "price": 75,
+              "kind": "food",
+              "description": "鶏を香ばしく焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "魚のバター焼き",
+              "price": 65,
+              "kind": "food",
+              "description": "魚をバターで焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ハンバーグステーキ",
+              "price": 55,
+              "kind": "food",
+              "description": "挽肉を形にして焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "steakhouse-america-1920s-2-section-2",
+          "title": "付け合わせ",
+          "items": [
+            {
+              "name": "コーンのクリーム煮",
+              "price": 20,
+              "kind": "food",
+              "description": "コーンをクリームで煮る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ベイクドポテト",
+              "price": 15,
+              "kind": "food",
+              "description": "芋を丸く焼き上げる。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草の煮物",
+              "price": 15,
+              "kind": "food",
+              "description": "葉野菜を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "グリーンサラダ",
+              "price": 20,
+              "kind": "food",
+              "description": "葉野菜のサラダ。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オニオンスープ",
+              "price": 20,
+              "kind": "food",
+              "description": "玉ねぎのスープ。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 10,
+              "kind": "food",
+              "description": "パンを食事に添える。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "温野菜の盛り合わせ",
+              "price": 20,
+              "kind": "food",
+              "description": "温めた野菜を盛る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "steakhouse-america-1920s-2-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "name": "チョコレートのムース皿",
+              "price": 30,
+              "kind": "food",
+              "description": "柔らかなチョコの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "珈琲",
+              "price": 10,
+              "kind": "drink",
+              "description": "食後の珈琲を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 10,
+              "kind": "drink",
+              "description": "温かい紅茶のカップ。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうジュース",
+              "price": 15,
+              "kind": "drink",
+              "description": "果実を搾った飲料。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アイスクリーム",
+              "price": 20,
+              "kind": "food",
+              "description": "冷たいミルクの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "アップルパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "りんごを包んだパイ。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 20,
+              "kind": "food",
+              "description": "卵と牛乳の甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steakhouse-america-1920s-3",
+      "name": "グリル・ゴールデンフィールド",
+      "category": "steakhouse",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・中西部の架空町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "expensive",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "市場通りの肉料理店"
+      ],
+      "description": "1926年のアメリカ・中西部の架空町を舞台にした市場通りの肉料理店。市場の商人と近隣の家族が食事を取る。",
+      "openingHours": "11:30〜22:00",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓から市場を望める木の長卓がある。",
+        "service": "二人で分ける料理には取り分け皿を添える。",
+        "signature": "仔牛の薄切りグリル、セロリとりんごのサラダ、レモンクリームのパイ",
+        "localFlavor": "市場の商人と近隣の家族が食事を取る。"
+      },
+      "menuSections": [
+        {
+          "id": "steakhouse-america-1920s-3-section-1",
+          "title": "肉・魚の主菜",
+          "items": [
+            {
+              "name": "仔牛の薄切りグリル",
+              "price": 125,
+              "kind": "food",
+              "description": "薄い肉を香ばしく焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "サーロインステーキ",
+              "price": 125,
+              "kind": "food",
+              "description": "牛肉のステーキ。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ポークチョップ",
+              "price": 75,
+              "kind": "food",
+              "description": "骨付きの豚肉を焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ローストビーフ",
+              "price": 90,
+              "kind": "food",
+              "description": "焼いた牛肉を切る。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "グリルチキン",
+              "price": 75,
+              "kind": "food",
+              "description": "鶏を香ばしく焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "魚のバター焼き",
+              "price": 65,
+              "kind": "food",
+              "description": "魚をバターで焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ハンバーグステーキ",
+              "price": 55,
+              "kind": "food",
+              "description": "挽肉を形にして焼く。",
+              "recommendationGroup": "main",
+              "id": "steakhouse-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "steakhouse-america-1920s-3-section-2",
+          "title": "付け合わせ",
+          "items": [
+            {
+              "name": "セロリとりんごのサラダ",
+              "price": 20,
+              "kind": "food",
+              "description": "果実と野菜を和える。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "ベイクドポテト",
+              "price": 15,
+              "kind": "food",
+              "description": "芋を丸く焼き上げる。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草の煮物",
+              "price": 15,
+              "kind": "food",
+              "description": "葉野菜を柔らかく煮る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "グリーンサラダ",
+              "price": 20,
+              "kind": "food",
+              "description": "葉野菜のサラダ。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "オニオンスープ",
+              "price": 20,
+              "kind": "food",
+              "description": "玉ねぎのスープ。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "パンとバター",
+              "price": 10,
+              "kind": "food",
+              "description": "パンを食事に添える。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "温野菜の盛り合わせ",
+              "price": 20,
+              "kind": "food",
+              "description": "温めた野菜を盛る。",
+              "recommendationGroup": "side",
+              "id": "steakhouse-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "steakhouse-america-1920s-3-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "name": "レモンクリームのパイ",
+              "price": 25,
+              "kind": "food",
+              "description": "柑橘のクリームのパイ。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "珈琲",
+              "price": 10,
+              "kind": "drink",
+              "description": "食後の珈琲を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "紅茶",
+              "price": 10,
+              "kind": "drink",
+              "description": "温かい紅茶のカップ。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうジュース",
+              "price": 15,
+              "kind": "drink",
+              "description": "果実を搾った飲料。",
+              "recommendationGroup": "drink",
+              "id": "steakhouse-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "アイスクリーム",
+              "price": 20,
+              "kind": "food",
+              "description": "冷たいミルクの甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "アップルパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "りんごを包んだパイ。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 20,
+              "kind": "food",
+              "description": "卵と牛乳の甘味。",
+              "recommendationGroup": "dessert",
+              "id": "steakhouse-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

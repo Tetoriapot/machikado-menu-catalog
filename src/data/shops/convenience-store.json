@@ -717,6 +717,717 @@
         "signature": "鮭ほぐしと野沢菜のおにぎりと焦がしキャラメルのミルク飲料",
         "localFlavor": "朝は通勤客、終電前は帰宅客で賑わう。駅前の待ち合わせで飲み物だけ買う人も多い。"
       }
+    },
+    {
+      "id": "convenience-store-heisei-1",
+      "name": "くらしストア 青葉駅南店",
+      "category": "convenience-store",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "suburb",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "日用品のコンビニ"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした日用品のコンビニ。住宅街の通学路にある生活の拠点。",
+      "openingHours": "24時間",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "狭い通路とレジ横の手書き近所案内。レジ横に公衆電話と時刻表がある。",
+        "service": "常連に軽く挨拶し、取り置きの新聞を手渡す。",
+        "signature": "昆布と鮭の二個むすび、缶ミルクティー、電話メモ帳",
+        "localFlavor": "住宅街の通学路にある生活の拠点。"
+      },
+      "menuSections": [
+        {
+          "id": "convenience-store-heisei-1-section-1",
+          "title": "お弁当・軽食",
+          "items": [
+            {
+              "name": "昆布と鮭の二個むすび",
+              "price": 280,
+              "kind": "food",
+              "description": "小さなおにぎりを二個詰める。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "鮭おにぎり",
+              "price": 100,
+              "kind": "food",
+              "description": "塩鮭のほぐし身を包んだ定番おにぎり。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ツナマヨおにぎり",
+              "price": 120,
+              "kind": "food",
+              "description": "ツナとマヨネーズのまろやかな具。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "のり弁当",
+              "price": 180,
+              "kind": "food",
+              "description": "白身魚フライとちくわ天をのせたお弁当。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 280,
+              "kind": "food",
+              "description": "卵サラダをやわらかな食パンで挟んだサンド。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "レジ横チキン",
+              "price": 350,
+              "kind": "food",
+              "description": "胡椒をきかせた衣の骨なしフライドチキン。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "昆布おにぎり",
+              "price": 450,
+              "kind": "food",
+              "description": "甘辛い昆布を包んだ手軽な一個。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-heisei-1-section-2",
+          "title": "飲料・お菓子",
+          "items": [
+            {
+              "name": "缶ミルクティー",
+              "price": 180,
+              "kind": "drink",
+              "description": "缶入りの甘いミルク紅茶。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "天然水 500ml",
+              "price": 120,
+              "kind": "drink",
+              "description": "持ち歩きやすいペットボトル入りの水。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "緑茶 500ml",
+              "price": 130,
+              "kind": "drink",
+              "description": "持ち帰り用の緑茶のボトル。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "缶コーヒー",
+              "price": 150,
+              "kind": "drink",
+              "description": "ミルク入りの甘さ控えめコーヒー。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 180,
+              "kind": "food",
+              "description": "食後にちょうどよいカップ入りプリン。",
+              "recommendationGroup": "dessert",
+              "id": "convenience-store-heisei-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ポテトチップス",
+              "price": 100,
+              "kind": "food",
+              "description": "じゃがいもの風味が生きるうす塩味。",
+              "recommendationGroup": "side",
+              "id": "convenience-store-heisei-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "小さな牛乳 200ml",
+              "price": 250,
+              "kind": "drink",
+              "description": "朝食に合わせやすい紙パック。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-heisei-1-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "name": "電話メモ帳",
+              "price": 480,
+              "kind": "goods",
+              "description": "電話の用件を書く小さな帳面。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "歯ブラシセット",
+              "price": 150,
+              "kind": "goods",
+              "description": "小さな歯磨き粉付きの携帯セット。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ポケットティッシュ 六個",
+              "price": 300,
+              "kind": "goods",
+              "description": "外出先で便利な六個入りパック。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ビニール傘",
+              "price": 200,
+              "kind": "goods",
+              "description": "急な雨に。透明タイプ、親骨60cm。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "単三電池 四本",
+              "price": 480,
+              "kind": "goods",
+              "description": "日用品や小型機器に使うアルカリ乾電池。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "黒ボールペン",
+              "price": 250,
+              "kind": "goods",
+              "description": "文房具の定番、0.5mmの油性ペン。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "地域指定ごみ袋 十枚",
+              "price": 500,
+              "kind": "goods",
+              "description": "架空の自治体指定袋を想定した生活用品。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convenience-store-heisei-2",
+      "name": "コンビニ つばめ通り",
+      "category": "convenience-store",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "日用品のコンビニ"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした日用品のコンビニ。駅前のホテルとオフィスへ向かう客が多い。",
+      "openingHours": "24時間",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "明るい交差点角の店。旅行用小物の棚が大きい。入口に紙の地域情報誌が積まれている。",
+        "service": "会計は素早く、温める商品と冷たい商品を分けて渡す。",
+        "signature": "焼肉ご飯の小弁当、チョコレート棒アイス、三色ボールペン",
+        "localFlavor": "駅前のホテルとオフィスへ向かう客が多い。"
+      },
+      "menuSections": [
+        {
+          "id": "convenience-store-heisei-2-section-1",
+          "title": "お弁当・軽食",
+          "items": [
+            {
+              "name": "焼肉ご飯の小弁当",
+              "price": 330,
+              "kind": "food",
+              "description": "焼肉とご飯を小箱に詰める。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "鮭おにぎり",
+              "price": 100,
+              "kind": "food",
+              "description": "塩鮭のほぐし身を包んだ定番おにぎり。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ツナマヨおにぎり",
+              "price": 120,
+              "kind": "food",
+              "description": "ツナとマヨネーズのまろやかな具。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "のり弁当",
+              "price": 180,
+              "kind": "food",
+              "description": "白身魚フライとちくわ天をのせたお弁当。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 280,
+              "kind": "food",
+              "description": "卵サラダをやわらかな食パンで挟んだサンド。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "レジ横チキン",
+              "price": 350,
+              "kind": "food",
+              "description": "胡椒をきかせた衣の骨なしフライドチキン。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "昆布おにぎり",
+              "price": 450,
+              "kind": "food",
+              "description": "甘辛い昆布を包んだ手軽な一個。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-heisei-2-section-2",
+          "title": "飲料・お菓子",
+          "items": [
+            {
+              "name": "チョコレート棒アイス",
+              "price": 230,
+              "kind": "food",
+              "description": "チョコで覆った棒アイス。",
+              "recommendationGroup": "dessert",
+              "id": "convenience-store-heisei-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "天然水 500ml",
+              "price": 120,
+              "kind": "drink",
+              "description": "持ち歩きやすいペットボトル入りの水。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "緑茶 500ml",
+              "price": 130,
+              "kind": "drink",
+              "description": "持ち帰り用の緑茶のボトル。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "缶コーヒー",
+              "price": 150,
+              "kind": "drink",
+              "description": "ミルク入りの甘さ控えめコーヒー。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 180,
+              "kind": "food",
+              "description": "食後にちょうどよいカップ入りプリン。",
+              "recommendationGroup": "dessert",
+              "id": "convenience-store-heisei-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ポテトチップス",
+              "price": 100,
+              "kind": "food",
+              "description": "じゃがいもの風味が生きるうす塩味。",
+              "recommendationGroup": "side",
+              "id": "convenience-store-heisei-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "小さな牛乳 200ml",
+              "price": 250,
+              "kind": "drink",
+              "description": "朝食に合わせやすい紙パック。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-heisei-2-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "name": "三色ボールペン",
+              "price": 530,
+              "kind": "goods",
+              "description": "黒赤青の三色を使えるペン。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "歯ブラシセット",
+              "price": 150,
+              "kind": "goods",
+              "description": "小さな歯磨き粉付きの携帯セット。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ポケットティッシュ 六個",
+              "price": 300,
+              "kind": "goods",
+              "description": "外出先で便利な六個入りパック。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ビニール傘",
+              "price": 200,
+              "kind": "goods",
+              "description": "急な雨に。透明タイプ、親骨60cm。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "単三電池 四本",
+              "price": 480,
+              "kind": "goods",
+              "description": "日用品や小型機器に使うアルカリ乾電池。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "黒ボールペン",
+              "price": 250,
+              "kind": "goods",
+              "description": "文房具の定番、0.5mmの油性ペン。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "地域指定ごみ袋 十枚",
+              "price": 500,
+              "kind": "goods",
+              "description": "架空の自治体指定袋を想定した生活用品。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convenience-store-heisei-3",
+      "name": "まちかどマート 若葉西店",
+      "category": "convenience-store",
+      "era": "heisei",
+      "currency": "JPY",
+      "setting": {
+        "year": 1998,
+        "place": "日本の架空都市・若葉市"
+      },
+      "locationType": "station",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "平成",
+        "1998年",
+        "駅前のコンビニ"
+      ],
+      "description": "1998年の日本の架空都市・若葉市を舞台にした駅前のコンビニ。朝は通勤客、終電前は帰宅客で賑わう。駅前の待ち合わせで飲み物だけ買う人も多い。",
+      "openingHours": "24時間",
+      "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "入口からおにぎりの棚が見え、窓側に二席の小さな飲食カウンターがある。カウンターに手書きの予約帳が置かれている。",
+        "service": "温める品と冷たい品を分けて渡す。列車の時間が近いとレジの応援を呼ぶ。",
+        "signature": "ポテトコロッケパン、紙パックりんご飲料、カセットテープ 六十分",
+        "localFlavor": "朝は通勤客、終電前は帰宅客で賑わう。駅前の待ち合わせで飲み物だけ買う人も多い。"
+      },
+      "menuSections": [
+        {
+          "id": "convenience-store-heisei-3-section-1",
+          "title": "お弁当・軽食",
+          "items": [
+            {
+              "name": "ポテトコロッケパン",
+              "price": 380,
+              "kind": "food",
+              "description": "コロッケをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "鮭おにぎり",
+              "price": 100,
+              "kind": "food",
+              "description": "塩鮭のほぐし身を包んだ定番おにぎり。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ツナマヨおにぎり",
+              "price": 120,
+              "kind": "food",
+              "description": "ツナとマヨネーズのまろやかな具。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "のり弁当",
+              "price": 180,
+              "kind": "food",
+              "description": "白身魚フライとちくわ天をのせたお弁当。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 280,
+              "kind": "food",
+              "description": "卵サラダをやわらかな食パンで挟んだサンド。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "レジ横チキン",
+              "price": 350,
+              "kind": "food",
+              "description": "胡椒をきかせた衣の骨なしフライドチキン。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "昆布おにぎり",
+              "price": 450,
+              "kind": "food",
+              "description": "甘辛い昆布を包んだ手軽な一個。",
+              "recommendationGroup": "main",
+              "id": "convenience-store-heisei-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-heisei-3-section-2",
+          "title": "飲料・お菓子",
+          "items": [
+            {
+              "name": "紙パックりんご飲料",
+              "price": 280,
+              "kind": "drink",
+              "description": "飲み切りサイズの果実飲料。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "天然水 500ml",
+              "price": 120,
+              "kind": "drink",
+              "description": "持ち歩きやすいペットボトル入りの水。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "緑茶 500ml",
+              "price": 130,
+              "kind": "drink",
+              "description": "持ち帰り用の緑茶のボトル。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "缶コーヒー",
+              "price": 150,
+              "kind": "drink",
+              "description": "ミルク入りの甘さ控えめコーヒー。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "カスタードプリン",
+              "price": 180,
+              "kind": "food",
+              "description": "食後にちょうどよいカップ入りプリン。",
+              "recommendationGroup": "dessert",
+              "id": "convenience-store-heisei-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ポテトチップス",
+              "price": 100,
+              "kind": "food",
+              "description": "じゃがいもの風味が生きるうす塩味。",
+              "recommendationGroup": "side",
+              "id": "convenience-store-heisei-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "小さな牛乳 200ml",
+              "price": 250,
+              "kind": "drink",
+              "description": "朝食に合わせやすい紙パック。",
+              "recommendationGroup": "drink",
+              "id": "convenience-store-heisei-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-heisei-3-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "name": "カセットテープ 六十分",
+              "price": 580,
+              "kind": "goods",
+              "description": "音声を録音するテープ一本。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "歯ブラシセット",
+              "price": 150,
+              "kind": "goods",
+              "description": "小さな歯磨き粉付きの携帯セット。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ポケットティッシュ 六個",
+              "price": 300,
+              "kind": "goods",
+              "description": "外出先で便利な六個入りパック。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ビニール傘",
+              "price": 200,
+              "kind": "goods",
+              "description": "急な雨に。透明タイプ、親骨60cm。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "単三電池 四本",
+              "price": 480,
+              "kind": "goods",
+              "description": "日用品や小型機器に使うアルカリ乾電池。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "黒ボールペン",
+              "price": 250,
+              "kind": "goods",
+              "description": "文房具の定番、0.5mmの油性ペン。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "地域指定ごみ袋 十枚",
+              "price": 500,
+              "kind": "goods",
+              "description": "架空の自治体指定袋を想定した生活用品。",
+              "recommendationGroup": "goods",
+              "id": "convenience-store-heisei-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

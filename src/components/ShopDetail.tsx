@@ -40,7 +40,7 @@ export default function ShopDetail({shop, saved, onSave, onBack, onCopy, focused
     <div className="detail-masthead"><div>
       <div className="detail-kicker"><ShopIcon name={category.icon}/><span>{category.label}</span><span>CATALOG / {shop.id.replace(/-/g, ' ').toUpperCase()}</span></div>
       <h1>{shop.name}</h1>{originalName !== shop.name && <p className="original-shop-name">元の店舗：{originalName}</p>}
-      <div className="tags">{shop.tags.map(t => <span key={t}>{t}</span>)}<span>{eraLabels[shop.era]}</span></div>
+      <div className="tags">{shop.tags.map(t => <span key={t}>{t}</span>)}<span>{eraLabels[shop.era]}</span>{shop.setting&&<span>{shop.setting.year}年・{shop.setting.place}</span>}</div>
     </div><button className={`button ${saved ? 'saved' : ''}`} onClick={onSave} aria-pressed={saved}><Bookmark size={17} fill={saved ? 'currentColor' : 'none'}/>{saved ? '保存済み' : 'お気に入り'}</button></div>
     <div className="detail-secondary-actions"><button className="text-button" onClick={onRandom}><Shuffle size={15}/>条件を保って別の店</button></div>
     <p className="detail-description">{shop.description}</p>
@@ -56,18 +56,18 @@ export default function ShopDetail({shop, saved, onSave, onBack, onCopy, focused
     <section className="recommendations"><div className="recommend-heading"><h2><Sparkles size={17}/>今日のおすすめ</h2><div className="button-row">
       <button className="text-button" disabled={!picks.length} onClick={() => onCopy(menuPlainText(toMenuDocument(shop, {itemIds: picks.map(i => i.id)}), true), 'おすすめ')}><Copy size={15}/>おすすめをコピー</button>
       <button className="text-button" onClick={() => setPicks(recommendItems(items))}><Shuffle size={15}/>選び直す</button>
-    </div></div><div className="recommend-grid">{picks.map((item, i) => <div key={item.id}><span className="pick-number">0{i + 1}</span><p>{item.name}<b>{money(item.price)}</b></p></div>)}</div>{!picks.length && <p className="muted-text">この店舗は料金・サービスの一覧です。</p>}</section>
+    </div></div><div className="recommend-grid">{picks.map((item, i) => <div key={item.id}><span className="pick-number">0{i + 1}</span><p>{item.name}<b>{money(item.price,shop.currency)}</b></p></div>)}</div>{!picks.length && <p className="muted-text">この店舗は料金・サービスの一覧です。</p>}</section>
     <Tabs defaultValue="menu" className="detail-tabs"><TabsList variant="line"><TabsTrigger value="menu">メニュー <span>{items.length}</span></TabsTrigger><TabsTrigger value="gm">GM用テキスト</TabsTrigger></TabsList>
       <TabsContent value="menu"><div className="menu-topline"><nav aria-label="メニューの分類">{shop.menuSections.map(s => <button className="text-button" key={s.id} onClick={() => document.getElementById(s.id)?.scrollIntoView({behavior: 'smooth', block: 'start'})}>{s.title}</button>)}</nav><span>{shop.priceNote || '表示価格はすべて税込'}</span></div>
         <div className="menu-selection-toolbar">
           <label><Checkbox checked={selectedIds.length === items.length} indeterminate={selectedIds.length > 0 && selectedIds.length < items.length} onCheckedChange={checked => setSelectedIds(checked ? items.map(i => i.id) : [])}/>全商品を選択</label>
-          <p role="status">{selectedIds.length}品を選択 <b>各1点の合計 {money(menuTotal(selectedMenu))}</b></p>
+          <p role="status">{selectedIds.length}品を選択 <b>各1点の合計 {money(menuTotal(selectedMenu),shop.currency)}</b></p>
           <div className="button-row"><button className="button" disabled={!selectedIds.length} onClick={() => onCopy(menuPlainText(selectedMenu, true), '選択商品の名前と価格')}><Copy size={15}/>名前と価格をコピー</button><button className="button" disabled={!selectedIds.length} onClick={() => onCopy(menuPlainText(selectedMenu), '選択商品（説明付き）')}>説明付きでコピー</button><button className="button" disabled={!selectedIds.length} onClick={() => setExportOpen(true)}>選択分を印刷・出力</button><button className="text-button" disabled={!selectedIds.length} onClick={() => setSelectedIds([])}>選択解除</button></div>
           <small>合計は表示額を1点ずつ足した目安です。時間・人数・追加料金は価格の補足をご確認ください。</small>
         </div>
         <div className="detail-menu">{shop.menuSections.map(section => <section id={section.id} key={section.id}><h2>{section.title}<span>{section.items.length}品</span></h2>{section.items.map(item => <article id={item.id} tabIndex={-1} className={`menu-item ${focusedItem === item.id ? 'matched-item' : ''} ${selectedIds.includes(item.id) ? 'selected-item' : ''}`} key={item.id}>
           <Checkbox checked={selectedIds.includes(item.id)} onCheckedChange={checked => selectItem(item.id, Boolean(checked))} aria-label={`${item.name}を選択`}/>
-          <div><h3>{item.name}{item.recommended && <span>定番</span>}</h3><p>{item.description}</p></div><b>{money(item.price)}</b><button className="icon-button" aria-label={`${item.name}をコピー`} onClick={() => onCopy(itemText(item), '商品')}><Copy size={15}/></button>
+          <div><h3>{item.name}{item.recommended && <span>定番</span>}</h3><p>{item.description}</p></div><b>{money(item.price,shop.currency)}</b><button className="icon-button" aria-label={`${item.name}をコピー`} onClick={() => onCopy(itemText(item,shop.currency), '商品')}><Copy size={15}/></button>
         </article>)}</section>)}</div>
       </TabsContent>
       <TabsContent value="gm"><div className="gm-panel"><h2>セッションへ、そのまま持ち出す。</h2><div className="detail-actions"><button className="button primary" onClick={() => onCopy(gm, 'GM用テキスト')}><Copy size={16}/>GM用テキストをコピー</button><button className="button" onClick={() => onCopy(shop.description, '店舗説明')}><Copy size={16}/>店舗説明だけコピー</button></div><pre>{gm}</pre></div></TabsContent>

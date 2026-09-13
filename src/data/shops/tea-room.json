@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "tea-room",
+    "label": "ティールーム",
+    "group": "飲食店",
+    "icon": "coffee"
+  },
+  "shops": [
+    {
+      "id": "tea-room-victorian-1",
+      "name": "ティールーム・アイヴィー",
+      "category": "tea-room",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "買い物途中のティールーム"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした買い物途中のティールーム。買い物帰りの二人客が店の窓辺で休む。",
+      "openingHours": "10:00〜18:00（日曜は午後のみ）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "白いクロスの小卓と陶器のポットが並ぶ。",
+        "service": "帽子を置く場所を示し、茶を注いで回る。",
+        "signature": "アイヴィーの濃い朝茶、卵とクレスのサンド、レモンの小ケーキ",
+        "localFlavor": "買い物帰りの二人客が店の窓辺で休む。"
+      },
+      "menuSections": [
+        {
+          "id": "tea-room-victorian-1-section-1",
+          "title": "紅茶・飲みもの",
+          "items": [
+            {
+              "name": "アイヴィーの濃い朝茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "濃く淹れた紅茶。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ポットの紅茶",
+              "price": 4,
+              "kind": "drink",
+              "description": "二杯分の紅茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ミルクティー",
+              "price": 3,
+              "kind": "drink",
+              "description": "紅茶にミルクを添える。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ブラックティー",
+              "price": 2,
+              "kind": "drink",
+              "description": "砂糖を別皿にした紅茶。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 3,
+              "kind": "drink",
+              "description": "温かい珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ココア",
+              "price": 4,
+              "kind": "drink",
+              "description": "甘いココアを出す。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "レモン水",
+              "price": 2,
+              "kind": "drink",
+              "description": "レモンの香りの飲料。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-room-victorian-1-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "name": "卵とクレスのサンド",
+              "price": 7,
+              "kind": "food",
+              "description": "卵とクレスを挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "胡瓜のサンドイッチ",
+              "price": 6,
+              "kind": "food",
+              "description": "薄い胡瓜をパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンドイッチ",
+              "price": 8,
+              "kind": "food",
+              "description": "薄切りハムを挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 3,
+              "kind": "food",
+              "description": "焼いたパンにバター。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ゆで卵とパン",
+              "price": 5,
+              "kind": "food",
+              "description": "卵に小さなパンを添える。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チーズのパン皿",
+              "price": 6,
+              "kind": "food",
+              "description": "チーズとパンの一皿。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "スープとロール",
+              "price": 7,
+              "kind": "food",
+              "description": "汁物と丸パンを出す。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-room-victorian-1-section-3",
+          "title": "焼き菓子",
+          "items": [
+            {
+              "name": "レモンの小ケーキ",
+              "price": 5,
+              "kind": "food",
+              "description": "柑橘の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "プレーンスコーン",
+              "price": 3,
+              "kind": "food",
+              "description": "素朴な小さな焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "シードケーキ",
+              "price": 4,
+              "kind": "food",
+              "description": "種の香りの焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーブレッド",
+              "price": 3,
+              "kind": "food",
+              "description": "生姜の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 4,
+              "kind": "food",
+              "description": "ジャム入りの小タルト。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 3,
+              "kind": "food",
+              "description": "干しぶどう入りのパン。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ショートブレッド",
+              "price": 3,
+              "kind": "food",
+              "description": "バターの風味の菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-room-victorian-2",
+      "name": "ティールーム・ウィロー",
+      "category": "tea-room",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ヨークの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "駅へ向かう道の茶店"
+      ],
+      "description": "1890年のイギリス・ヨークの架空街区を舞台にした駅へ向かう道の茶店。旅行者と近隣の商人が昼下がりに立ち寄る。",
+      "openingHours": "10:00〜18:00（日曜は午後のみ）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓際に長椅子があり、壁に鉄道時刻表を掛ける。",
+        "service": "列車までの時間を聞き、軽食を先に運ぶ。",
+        "signature": "ミント入りの温かい茶、鶏肉の小サンド、りんごの焼きタルト",
+        "localFlavor": "旅行者と近隣の商人が昼下がりに立ち寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "tea-room-victorian-2-section-1",
+          "title": "紅茶・飲みもの",
+          "items": [
+            {
+              "name": "ミント入りの温かい茶",
+              "price": 4,
+              "kind": "drink",
+              "description": "茶にミントを添える。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ポットの紅茶",
+              "price": 4,
+              "kind": "drink",
+              "description": "二杯分の紅茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ミルクティー",
+              "price": 3,
+              "kind": "drink",
+              "description": "紅茶にミルクを添える。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ブラックティー",
+              "price": 2,
+              "kind": "drink",
+              "description": "砂糖を別皿にした紅茶。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 3,
+              "kind": "drink",
+              "description": "温かい珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ココア",
+              "price": 4,
+              "kind": "drink",
+              "description": "甘いココアを出す。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "レモン水",
+              "price": 2,
+              "kind": "drink",
+              "description": "レモンの香りの飲料。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-room-victorian-2-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "name": "鶏肉の小サンド",
+              "price": 9,
+              "kind": "food",
+              "description": "薄い鶏肉をパンに。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "胡瓜のサンドイッチ",
+              "price": 6,
+              "kind": "food",
+              "description": "薄い胡瓜をパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンドイッチ",
+              "price": 8,
+              "kind": "food",
+              "description": "薄切りハムを挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 3,
+              "kind": "food",
+              "description": "焼いたパンにバター。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ゆで卵とパン",
+              "price": 5,
+              "kind": "food",
+              "description": "卵に小さなパンを添える。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チーズのパン皿",
+              "price": 6,
+              "kind": "food",
+              "description": "チーズとパンの一皿。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "スープとロール",
+              "price": 7,
+              "kind": "food",
+              "description": "汁物と丸パンを出す。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-room-victorian-2-section-3",
+          "title": "焼き菓子",
+          "items": [
+            {
+              "name": "りんごの焼きタルト",
+              "price": 6,
+              "kind": "food",
+              "description": "りんごを敷いて焼く。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "プレーンスコーン",
+              "price": 3,
+              "kind": "food",
+              "description": "素朴な小さな焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "シードケーキ",
+              "price": 4,
+              "kind": "food",
+              "description": "種の香りの焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーブレッド",
+              "price": 3,
+              "kind": "food",
+              "description": "生姜の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 4,
+              "kind": "food",
+              "description": "ジャム入りの小タルト。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 3,
+              "kind": "food",
+              "description": "干しぶどう入りのパン。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ショートブレッド",
+              "price": 3,
+              "kind": "food",
+              "description": "バターの風味の菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-room-victorian-3",
+      "name": "ティールーム・ローズベル",
+      "category": "tea-room",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ブライトンの架空街区"
+      },
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "海辺の茶と焼き菓子の店"
+      ],
+      "description": "1890年のイギリス・ブライトンの架空街区を舞台にした海辺の茶と焼き菓子の店。海辺を散歩する客が午後にゆっくり過ごす。",
+      "openingHours": "10:00〜18:00（日曜は午後のみ）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "海へ向いた窓と花模様の壁紙がある。",
+        "service": "茶の濃さを聞き、菓子を取り分けて渡す。",
+        "signature": "ローズの香りの茶、牛肉の冷製サンド、干し果実の厚切りケーキ",
+        "localFlavor": "海辺を散歩する客が午後にゆっくり過ごす。"
+      },
+      "menuSections": [
+        {
+          "id": "tea-room-victorian-3-section-1",
+          "title": "紅茶・飲みもの",
+          "items": [
+            {
+              "name": "ローズの香りの茶",
+              "price": 5,
+              "kind": "drink",
+              "description": "花の香りを添えた茶。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "ポットの紅茶",
+              "price": 4,
+              "kind": "drink",
+              "description": "二杯分の紅茶を淹れる。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ミルクティー",
+              "price": 3,
+              "kind": "drink",
+              "description": "紅茶にミルクを添える。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ブラックティー",
+              "price": 2,
+              "kind": "drink",
+              "description": "砂糖を別皿にした紅茶。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "珈琲",
+              "price": 3,
+              "kind": "drink",
+              "description": "温かい珈琲を出す。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ココア",
+              "price": 4,
+              "kind": "drink",
+              "description": "甘いココアを出す。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "レモン水",
+              "price": 2,
+              "kind": "drink",
+              "description": "レモンの香りの飲料。",
+              "recommendationGroup": "drink",
+              "id": "tea-room-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-room-victorian-3-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "name": "牛肉の冷製サンド",
+              "price": 10,
+              "kind": "food",
+              "description": "冷たい牛肉を挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "胡瓜のサンドイッチ",
+              "price": 6,
+              "kind": "food",
+              "description": "薄い胡瓜をパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンドイッチ",
+              "price": 8,
+              "kind": "food",
+              "description": "薄切りハムを挟む。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "バタートースト",
+              "price": 3,
+              "kind": "food",
+              "description": "焼いたパンにバター。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ゆで卵とパン",
+              "price": 5,
+              "kind": "food",
+              "description": "卵に小さなパンを添える。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チーズのパン皿",
+              "price": 6,
+              "kind": "food",
+              "description": "チーズとパンの一皿。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "スープとロール",
+              "price": 7,
+              "kind": "food",
+              "description": "汁物と丸パンを出す。",
+              "recommendationGroup": "main",
+              "id": "tea-room-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-room-victorian-3-section-3",
+          "title": "焼き菓子",
+          "items": [
+            {
+              "name": "干し果実の厚切りケーキ",
+              "price": 6,
+              "kind": "food",
+              "description": "果実を混ぜたケーキ。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "プレーンスコーン",
+              "price": 3,
+              "kind": "food",
+              "description": "素朴な小さな焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "シードケーキ",
+              "price": 4,
+              "kind": "food",
+              "description": "種の香りの焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーブレッド",
+              "price": 3,
+              "kind": "food",
+              "description": "生姜の香る焼き菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 4,
+              "kind": "food",
+              "description": "ジャム入りの小タルト。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 3,
+              "kind": "food",
+              "description": "干しぶどう入りのパン。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ショートブレッド",
+              "price": 3,
+              "kind": "food",
+              "description": "バターの風味の菓子。",
+              "recommendationGroup": "dessert",
+              "id": "tea-room-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

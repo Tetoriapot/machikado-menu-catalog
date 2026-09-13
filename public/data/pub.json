@@ -1,0 +1,721 @@
+{
+  "category": {
+    "id": "pub",
+    "label": "パブ",
+    "group": "飲食店",
+    "icon": "beer"
+  },
+  "shops": [
+    {
+      "id": "pub-victorian-1",
+      "name": "パブ・コッパーブリッジ",
+      "category": "pub",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "橋近くの職人のパブ"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした橋近くの職人のパブ。橋を行き交う職人が仕事の終わりに集まる。",
+      "openingHours": "11:00〜23:00（日曜は短縮営業）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "磨いた木のカウンターと樽の札が並ぶ。",
+        "service": "常連の杯を確かめ、注文ごとに酒を注ぐ。",
+        "signature": "ブリッジのマイルド 半パイント、牛肉と根菜の深皿煮、からし付きハム小皿",
+        "localFlavor": "橋を行き交う職人が仕事の終わりに集まる。"
+      },
+      "menuSections": [
+        {
+          "id": "pub-victorian-1-section-1",
+          "title": "エール・飲みもの",
+          "items": [
+            {
+              "name": "ブリッジのマイルド 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "穏やかな樽酒の杯。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "エール 半パイント",
+              "price": 2,
+              "kind": "drink",
+              "description": "樽のエールを小杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "エール 一パイント",
+              "price": 4,
+              "kind": "drink",
+              "description": "樽のエールを一杯。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ポーター 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "濃い色の酒を小杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "サイダー 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "りんごの酒を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ジン 一杯",
+              "price": 4,
+              "kind": "drink",
+              "description": "ジンを小さな杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャービア",
+              "price": 2,
+              "kind": "drink",
+              "description": "生姜風味の瓶飲料。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pub-victorian-1-section-2",
+          "title": "食事",
+          "items": [
+            {
+              "name": "牛肉と根菜の深皿煮",
+              "price": 9,
+              "kind": "food",
+              "description": "肉と根菜を煮込む。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉と玉ねぎのパイ",
+              "price": 8,
+              "kind": "food",
+              "description": "肉を生地で包み焼く。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ソーセージと芋",
+              "price": 7,
+              "kind": "food",
+              "description": "焼いた腸詰めと芋。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "冷製ハムとパン",
+              "price": 6,
+              "kind": "food",
+              "description": "ハムをパンに添える。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "チーズとパン",
+              "price": 5,
+              "kind": "food",
+              "description": "チーズの簡単な食事。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "羊肉の煮込み",
+              "price": 8,
+              "kind": "food",
+              "description": "羊肉を野菜と煮る。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "豆のスープ",
+              "price": 4,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pub-victorian-1-section-3",
+          "title": "小皿・甘味",
+          "items": [
+            {
+              "name": "からし付きハム小皿",
+              "price": 4,
+              "kind": "food",
+              "description": "ハムにからしを添える。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "玉ねぎのピクルス",
+              "price": 2,
+              "kind": "food",
+              "description": "小玉ねぎを酢漬けに。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ゆで卵",
+              "price": 2,
+              "kind": "food",
+              "description": "殻付きの卵を出す。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "パン一切れ",
+              "price": 1,
+              "kind": "food",
+              "description": "食事にパンを添える。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "熟成チーズ小皿",
+              "price": 3,
+              "kind": "food",
+              "description": "チーズを切って盛る。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "パンのプディング",
+              "price": 3,
+              "kind": "food",
+              "description": "パンを甘く蒸し焼き。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "りんごの煮物",
+              "price": 3,
+              "kind": "food",
+              "description": "りんごを砂糖で煮る。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pub-victorian-2",
+      "name": "パブ・アンカーリーフ",
+      "category": "pub",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・リヴァプールの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "港の荷役人が集まる店"
+      ],
+      "description": "1890年のイギリス・リヴァプールの架空街区を舞台にした港の荷役人が集まる店。港の仕事の噂が食事を囲む卓を巡る。",
+      "openingHours": "11:00〜23:00（日曜は短縮営業）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "縄と船の絵を飾った低い天井の店。",
+        "service": "濡れた外套を掛ける場所を示して席を空ける。",
+        "signature": "港のポーター 一パイント、魚の塩焼きとパン、酢漬けキャベツ",
+        "localFlavor": "港の仕事の噂が食事を囲む卓を巡る。"
+      },
+      "menuSections": [
+        {
+          "id": "pub-victorian-2-section-1",
+          "title": "エール・飲みもの",
+          "items": [
+            {
+              "name": "港のポーター 一パイント",
+              "price": 5,
+              "kind": "drink",
+              "description": "濃い色の樽酒を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "エール 半パイント",
+              "price": 2,
+              "kind": "drink",
+              "description": "樽のエールを小杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "エール 一パイント",
+              "price": 4,
+              "kind": "drink",
+              "description": "樽のエールを一杯。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ポーター 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "濃い色の酒を小杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "サイダー 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "りんごの酒を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ジン 一杯",
+              "price": 4,
+              "kind": "drink",
+              "description": "ジンを小さな杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャービア",
+              "price": 2,
+              "kind": "drink",
+              "description": "生姜風味の瓶飲料。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pub-victorian-2-section-2",
+          "title": "食事",
+          "items": [
+            {
+              "name": "魚の塩焼きとパン",
+              "price": 8,
+              "kind": "food",
+              "description": "魚の切り身を焼く。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉と玉ねぎのパイ",
+              "price": 8,
+              "kind": "food",
+              "description": "肉を生地で包み焼く。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ソーセージと芋",
+              "price": 7,
+              "kind": "food",
+              "description": "焼いた腸詰めと芋。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "冷製ハムとパン",
+              "price": 6,
+              "kind": "food",
+              "description": "ハムをパンに添える。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "チーズとパン",
+              "price": 5,
+              "kind": "food",
+              "description": "チーズの簡単な食事。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "羊肉の煮込み",
+              "price": 8,
+              "kind": "food",
+              "description": "羊肉を野菜と煮る。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "豆のスープ",
+              "price": 4,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pub-victorian-2-section-3",
+          "title": "小皿・甘味",
+          "items": [
+            {
+              "name": "酢漬けキャベツ",
+              "price": 2,
+              "kind": "food",
+              "description": "刻んだキャベツの酢漬け。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "玉ねぎのピクルス",
+              "price": 2,
+              "kind": "food",
+              "description": "小玉ねぎを酢漬けに。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ゆで卵",
+              "price": 2,
+              "kind": "food",
+              "description": "殻付きの卵を出す。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "パン一切れ",
+              "price": 1,
+              "kind": "food",
+              "description": "食事にパンを添える。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "熟成チーズ小皿",
+              "price": 3,
+              "kind": "food",
+              "description": "チーズを切って盛る。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "パンのプディング",
+              "price": 3,
+              "kind": "food",
+              "description": "パンを甘く蒸し焼き。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "りんごの煮物",
+              "price": 3,
+              "kind": "food",
+              "description": "りんごを砂糖で煮る。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pub-victorian-3",
+      "name": "パブ・エルムゲート",
+      "category": "pub",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・田園の架空集落"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "街道の旅人の休憩所"
+      ],
+      "description": "1890年のイギリス・田園の架空集落を舞台にした街道の旅人の休憩所。農夫と荷馬車の御者が雨宿りを兼ねて寄る。",
+      "openingHours": "11:00〜23:00（日曜は短縮営業）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "暖炉に向けた長椅子と大きな長机がある。",
+        "service": "旅程を聞き、温かい鍋を先に勧める。",
+        "signature": "アップルサイダー 一パイント、羊肉と大麦の一鍋、干し果実のプディング",
+        "localFlavor": "農夫と荷馬車の御者が雨宿りを兼ねて寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "pub-victorian-3-section-1",
+          "title": "エール・飲みもの",
+          "items": [
+            {
+              "name": "アップルサイダー 一パイント",
+              "price": 6,
+              "kind": "drink",
+              "description": "りんごの酒を大きな杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "エール 半パイント",
+              "price": 2,
+              "kind": "drink",
+              "description": "樽のエールを小杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "エール 一パイント",
+              "price": 4,
+              "kind": "drink",
+              "description": "樽のエールを一杯。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "ポーター 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "濃い色の酒を小杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "サイダー 半パイント",
+              "price": 3,
+              "kind": "drink",
+              "description": "りんごの酒を注ぐ。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ジン 一杯",
+              "price": 4,
+              "kind": "drink",
+              "description": "ジンを小さな杯で。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャービア",
+              "price": 2,
+              "kind": "drink",
+              "description": "生姜風味の瓶飲料。",
+              "recommendationGroup": "drink",
+              "id": "pub-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pub-victorian-3-section-2",
+          "title": "食事",
+          "items": [
+            {
+              "name": "羊肉と大麦の一鍋",
+              "price": 9,
+              "kind": "food",
+              "description": "羊肉と麦を煮込む。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉と玉ねぎのパイ",
+              "price": 8,
+              "kind": "food",
+              "description": "肉を生地で包み焼く。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ソーセージと芋",
+              "price": 7,
+              "kind": "food",
+              "description": "焼いた腸詰めと芋。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "冷製ハムとパン",
+              "price": 6,
+              "kind": "food",
+              "description": "ハムをパンに添える。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "チーズとパン",
+              "price": 5,
+              "kind": "food",
+              "description": "チーズの簡単な食事。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "羊肉の煮込み",
+              "price": 8,
+              "kind": "food",
+              "description": "羊肉を野菜と煮る。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "豆のスープ",
+              "price": 4,
+              "kind": "food",
+              "description": "豆を柔らかく煮る。",
+              "recommendationGroup": "main",
+              "id": "pub-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "pub-victorian-3-section-3",
+          "title": "小皿・甘味",
+          "items": [
+            {
+              "name": "干し果実のプディング",
+              "price": 4,
+              "kind": "food",
+              "description": "果実を混ぜて蒸す。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "玉ねぎのピクルス",
+              "price": 2,
+              "kind": "food",
+              "description": "小玉ねぎを酢漬けに。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "ゆで卵",
+              "price": 2,
+              "kind": "food",
+              "description": "殻付きの卵を出す。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "パン一切れ",
+              "price": 1,
+              "kind": "food",
+              "description": "食事にパンを添える。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "熟成チーズ小皿",
+              "price": 3,
+              "kind": "food",
+              "description": "チーズを切って盛る。",
+              "recommendationGroup": "side",
+              "id": "pub-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "パンのプディング",
+              "price": 3,
+              "kind": "food",
+              "description": "パンを甘く蒸し焼き。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "りんごの煮物",
+              "price": 3,
+              "kind": "food",
+              "description": "りんごを砂糖で煮る。",
+              "recommendationGroup": "dessert",
+              "id": "pub-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

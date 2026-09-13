@@ -708,6 +708,2139 @@
         "signature": "舟の穂の石窯ライ麦パンと燻製鶏と人参の石窯サンド",
         "localFlavor": "朝は近所の住民、昼は川沿いを歩く客が訪れる。橋の修繕の話が常連の会話に上る。"
       }
+    },
+    {
+      "id": "bakery-showa-1",
+      "name": "東町パン工房",
+      "category": "bakery",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "local-city",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "定番メニューのパン屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした定番メニューのパン屋。商店街の開店前から灯りがつき、向かいの花屋が最初の客になる。雨の日は軒下で住民が立ち話をする。",
+      "openingHours": "7:00〜18:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "格子窓の内側に丸パンが並び、奥の窯から天板を引く音が聞こえる。入口脇に焼き上がり時刻の黒板。壁に柱時計と紙の日めくりが掛かる。",
+        "service": "温かいパンは紙袋に分け、食パンは好みの厚さに切る。予約分は名前を書いた棚に取り置く。",
+        "signature": "丸いミルクパン、ポテトコロッケのコッペ、ピーナツクリームパン",
+        "localFlavor": "商店街の開店前から灯りがつき、向かいの花屋が最初の客になる。雨の日は軒下で住民が立ち話をする。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-showa-1-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "丸いミルクパン",
+              "price": 50,
+              "kind": "food",
+              "description": "ミルクを混ぜた丸いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "山型食パン 一斤",
+              "price": 30,
+              "kind": "food",
+              "description": "毎朝のトーストに合う食パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "バゲット",
+              "price": 35,
+              "kind": "food",
+              "description": "皮を香ばしく焼いた長いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バターロール",
+              "price": 40,
+              "kind": "food",
+              "description": "バターを折り込んだ小さなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "クロワッサン",
+              "price": 50,
+              "kind": "food",
+              "description": "何層にも重ねたバター生地。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "コッペパン",
+              "price": 60,
+              "kind": "food",
+              "description": "切れ目を入れた柔らかなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうパン",
+              "price": 70,
+              "kind": "food",
+              "description": "干しぶどうを混ぜて焼いたパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-showa-1-section-2",
+          "title": "惣菜パン",
+          "items": [
+            {
+              "name": "ポテトコロッケのコッペ",
+              "price": 40,
+              "kind": "food",
+              "description": "コロッケをコッペパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "カレーパン",
+              "price": 25,
+              "kind": "food",
+              "description": "自家製カレーを包んで揚げたパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ソーセージロール",
+              "price": 30,
+              "kind": "food",
+              "description": "粗挽きソーセージを生地で巻いて。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 35,
+              "kind": "food",
+              "description": "まろやかな卵サラダ入り。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンド",
+              "price": 40,
+              "kind": "food",
+              "description": "ハムと野菜を挟んだパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チーズパン",
+              "price": 50,
+              "kind": "food",
+              "description": "角切りチーズを入れたパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "コロッケサンド",
+              "price": 60,
+              "kind": "food",
+              "description": "揚げたコロッケをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-showa-1-section-3",
+          "title": "甘いパン",
+          "items": [
+            {
+              "name": "ピーナツクリームパン",
+              "price": 40,
+              "kind": "food",
+              "description": "ピーナツのクリームを包む。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-showa-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "あんぱん",
+              "price": 20,
+              "kind": "food",
+              "description": "粒あん入りのふんわり生地。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "クリームパン",
+              "price": 25,
+              "kind": "food",
+              "description": "カスタードをたっぷり包んで。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "メロンパン",
+              "price": 30,
+              "kind": "food",
+              "description": "外側のクッキー生地はさっくり。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "砂糖ねじりパン",
+              "price": 40,
+              "kind": "food",
+              "description": "ねじったパンに砂糖をまぶす。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "りんごデニッシュ",
+              "price": 50,
+              "kind": "food",
+              "description": "甘く煮たりんごの層状パン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムパン",
+              "price": 60,
+              "kind": "food",
+              "description": "いちごジャムを包んで焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-showa-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-showa-2",
+      "name": "パンの店 鳩の窓",
+      "category": "bakery",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "rural",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "落ち着いた雰囲気のパン屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした落ち着いた雰囲気のパン屋。登校する子どもと出勤前の保護者が行き交う。午後には近所の人が、翌朝のパンを買いに来る。",
+      "openingHours": "7:00〜18:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "低い陳列台の横に子ども用トングが掛かる。窓際の二席から、通学路の小さな交差点が見える。入口に木枠のガラス戸と手書きの札がある。",
+        "service": "朝は小銭で買える小さなパンを手前へ並べる。売り切れた品の次の焼き上がりはレジで案内する。",
+        "signature": "小さな食卓ロール六個、ハムと玉子の三角サンド、白あんの丸パン",
+        "localFlavor": "登校する子どもと出勤前の保護者が行き交う。午後には近所の人が、翌朝のパンを買いに来る。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-showa-2-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "小さな食卓ロール六個",
+              "price": 60,
+              "kind": "food",
+              "description": "食事用のパンを袋に詰める。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "山型食パン 一斤",
+              "price": 30,
+              "kind": "food",
+              "description": "毎朝のトーストに合う食パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "バゲット",
+              "price": 35,
+              "kind": "food",
+              "description": "皮を香ばしく焼いた長いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バターロール",
+              "price": 40,
+              "kind": "food",
+              "description": "バターを折り込んだ小さなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "クロワッサン",
+              "price": 50,
+              "kind": "food",
+              "description": "何層にも重ねたバター生地。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "コッペパン",
+              "price": 60,
+              "kind": "food",
+              "description": "切れ目を入れた柔らかなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうパン",
+              "price": 70,
+              "kind": "food",
+              "description": "干しぶどうを混ぜて焼いたパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-showa-2-section-2",
+          "title": "惣菜パン",
+          "items": [
+            {
+              "name": "ハムと玉子の三角サンド",
+              "price": 50,
+              "kind": "food",
+              "description": "ハムと卵を三角のパンに。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "カレーパン",
+              "price": 25,
+              "kind": "food",
+              "description": "自家製カレーを包んで揚げたパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ソーセージロール",
+              "price": 30,
+              "kind": "food",
+              "description": "粗挽きソーセージを生地で巻いて。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 35,
+              "kind": "food",
+              "description": "まろやかな卵サラダ入り。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンド",
+              "price": 40,
+              "kind": "food",
+              "description": "ハムと野菜を挟んだパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チーズパン",
+              "price": 50,
+              "kind": "food",
+              "description": "角切りチーズを入れたパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "コロッケサンド",
+              "price": 60,
+              "kind": "food",
+              "description": "揚げたコロッケをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-showa-2-section-3",
+          "title": "甘いパン",
+          "items": [
+            {
+              "name": "白あんの丸パン",
+              "price": 50,
+              "kind": "food",
+              "description": "白い餡を包んで焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-showa-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "あんぱん",
+              "price": 20,
+              "kind": "food",
+              "description": "粒あん入りのふんわり生地。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "クリームパン",
+              "price": 25,
+              "kind": "food",
+              "description": "カスタードをたっぷり包んで。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "メロンパン",
+              "price": 30,
+              "kind": "food",
+              "description": "外側のクッキー生地はさっくり。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "砂糖ねじりパン",
+              "price": 40,
+              "kind": "food",
+              "description": "ねじったパンに砂糖をまぶす。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "りんごデニッシュ",
+              "price": 50,
+              "kind": "food",
+              "description": "甘く煮たりんごの層状パン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムパン",
+              "price": 60,
+              "kind": "food",
+              "description": "いちごジャムを包んで焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-showa-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-showa-3",
+      "name": "製パン所 はるかぜ",
+      "category": "bakery",
+      "era": "showa",
+      "currency": "JPY",
+      "setting": {
+        "year": 1968,
+        "place": "日本の架空都市・東町"
+      },
+      "locationType": "tourist",
+      "priceLevel": "cheap",
+      "scale": "independent",
+      "tags": [
+        "昭和",
+        "1968年",
+        "石窯のパン屋"
+      ],
+      "description": "1968年の日本の架空都市・東町を舞台にした石窯のパン屋。朝は近所の住民、昼は川沿いを歩く客が訪れる。橋の修繕の話が常連の会話に上る。",
+      "openingHours": "7:00〜18:00",
+      "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "石の床と大きな窯口。窓辺の棚から川が見え、長い木の台に焼けたパンを冷ましている。レジの横に黒電話と伝票の束を置く。",
+        "service": "食事パンは食べる時刻を聞いて切り分ける。温かいパンを蒸らさないよう紙袋で渡す。",
+        "signature": "胚芽入り角食パン、ソース焼きそばコッペ、砂糖揚げパン",
+        "localFlavor": "朝は近所の住民、昼は川沿いを歩く客が訪れる。橋の修繕の話が常連の会話に上る。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-showa-3-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "胚芽入り角食パン",
+              "price": 70,
+              "kind": "food",
+              "description": "胚芽を混ぜた四角い食パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "山型食パン 一斤",
+              "price": 30,
+              "kind": "food",
+              "description": "毎朝のトーストに合う食パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "バゲット",
+              "price": 35,
+              "kind": "food",
+              "description": "皮を香ばしく焼いた長いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "バターロール",
+              "price": 40,
+              "kind": "food",
+              "description": "バターを折り込んだ小さなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "クロワッサン",
+              "price": 50,
+              "kind": "food",
+              "description": "何層にも重ねたバター生地。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "コッペパン",
+              "price": 60,
+              "kind": "food",
+              "description": "切れ目を入れた柔らかなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうパン",
+              "price": 70,
+              "kind": "food",
+              "description": "干しぶどうを混ぜて焼いたパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-showa-3-section-2",
+          "title": "惣菜パン",
+          "items": [
+            {
+              "name": "ソース焼きそばコッペ",
+              "price": 60,
+              "kind": "food",
+              "description": "ソース麺をパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "カレーパン",
+              "price": 25,
+              "kind": "food",
+              "description": "自家製カレーを包んで揚げたパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "ソーセージロール",
+              "price": 30,
+              "kind": "food",
+              "description": "粗挽きソーセージを生地で巻いて。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "卵サンド",
+              "price": 35,
+              "kind": "food",
+              "description": "まろやかな卵サラダ入り。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "ハムサンド",
+              "price": 40,
+              "kind": "food",
+              "description": "ハムと野菜を挟んだパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "チーズパン",
+              "price": 50,
+              "kind": "food",
+              "description": "角切りチーズを入れたパン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "コロッケサンド",
+              "price": 60,
+              "kind": "food",
+              "description": "揚げたコロッケをパンに挟む。",
+              "recommendationGroup": "main",
+              "id": "bakery-showa-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-showa-3-section-3",
+          "title": "甘いパン",
+          "items": [
+            {
+              "name": "砂糖揚げパン",
+              "price": 60,
+              "kind": "food",
+              "description": "揚げたパンに砂糖をまぶす。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-showa-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "あんぱん",
+              "price": 20,
+              "kind": "food",
+              "description": "粒あん入りのふんわり生地。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "クリームパン",
+              "price": 25,
+              "kind": "food",
+              "description": "カスタードをたっぷり包んで。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "メロンパン",
+              "price": 30,
+              "kind": "food",
+              "description": "外側のクッキー生地はさっくり。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "砂糖ねじりパン",
+              "price": 40,
+              "kind": "food",
+              "description": "ねじったパンに砂糖をまぶす。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "りんごデニッシュ",
+              "price": 50,
+              "kind": "food",
+              "description": "甘く煮たりんごの層状パン。",
+              "recommendationGroup": "side",
+              "id": "bakery-showa-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムパン",
+              "price": 60,
+              "kind": "food",
+              "description": "いちごジャムを包んで焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-showa-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-victorian-1",
+      "name": "ベーカリー・ブリックオーヴン",
+      "category": "bakery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ロンドンの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "町の朝のパン屋"
+      ],
+      "description": "1890年のイギリス・ロンドンの架空街区を舞台にした町の朝のパン屋。近所の使用人や職人が朝食のパンを買う。",
+      "openingHours": "6:00〜18:00（日曜午前のみ）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "石の窯と木の棚に焼けたパンが並ぶ。",
+        "service": "欲しい大きさを聞き、パンを紙で包む。",
+        "signature": "石窯の大きな茶色パン、鶏肉と葱のパイ、りんごの小さな渦巻き",
+        "localFlavor": "近所の使用人や職人が朝食のパンを買う。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-victorian-1-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "石窯の大きな茶色パン",
+              "price": 5,
+              "kind": "food",
+              "description": "茶色い食事パンを焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白パン 一斤",
+              "price": 4,
+              "kind": "food",
+              "description": "白い小麦の大きなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "全粒粉パン 一斤",
+              "price": 3,
+              "kind": "food",
+              "description": "ふすま入りの食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "丸ロール 二個",
+              "price": 2,
+              "kind": "food",
+              "description": "小さな丸いパン二個。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "コテージローフ",
+              "price": 4,
+              "kind": "food",
+              "description": "上下を重ねた形のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "オートケーキ",
+              "price": 2,
+              "kind": "food",
+              "description": "燕麦を使う薄いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "パンの切り売り",
+              "price": 1,
+              "kind": "food",
+              "description": "食事用に一切れ切る。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-victorian-1-section-2",
+          "title": "具入り・焼きもの",
+          "items": [
+            {
+              "name": "鶏肉と葱のパイ",
+              "price": 7,
+              "kind": "food",
+              "description": "鶏と葱を生地に詰める。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉の小パイ",
+              "price": 6,
+              "kind": "food",
+              "description": "牛肉を生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "豚肉のパイ",
+              "price": 5,
+              "kind": "food",
+              "description": "豚肉入りの焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズの焼きパン",
+              "price": 3,
+              "kind": "food",
+              "description": "チーズを載せて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉ねぎのパイ",
+              "price": 3,
+              "kind": "food",
+              "description": "玉ねぎを詰めて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バター付きロール",
+              "price": 3,
+              "kind": "food",
+              "description": "丸パンにバターを添える。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "卵入りの小パイ",
+              "price": 4,
+              "kind": "food",
+              "description": "卵を詰めた小パイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-victorian-1-section-3",
+          "title": "甘いパン・菓子",
+          "items": [
+            {
+              "name": "りんごの小さな渦巻き",
+              "price": 4,
+              "kind": "food",
+              "description": "りんごを巻き込む。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "チェルシーバン",
+              "price": 3,
+              "kind": "food",
+              "description": "干し果実入りの渦巻きパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 2,
+              "kind": "food",
+              "description": "小粒の干しぶどう入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バースバン",
+              "price": 3,
+              "kind": "food",
+              "description": "砂糖を飾る菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "種入りケーキ",
+              "price": 4,
+              "kind": "food",
+              "description": "香りのある種を混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜パン",
+              "price": 2,
+              "kind": "food",
+              "description": "糖蜜を使って焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 3,
+              "kind": "food",
+              "description": "ジャムを詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-victorian-2",
+      "name": "ベーカリー・ミルストーン",
+      "category": "bakery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・田園の架空集落"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "粉挽き場近くのパン屋"
+      ],
+      "description": "1890年のイギリス・田園の架空集落を舞台にした粉挽き場近くのパン屋。農家の家族が買い物の途中で立ち寄る。",
+      "openingHours": "6:00〜18:00（日曜午前のみ）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "粉袋を積んだ棚の前に木の台がある。",
+        "service": "持ち帰る日数を聞き、厚いパンを勧める。",
+        "signature": "麦の厚焼きローフ、羊肉と芋のパイ、レモンバン",
+        "localFlavor": "農家の家族が買い物の途中で立ち寄る。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-victorian-2-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "麦の厚焼きローフ",
+              "price": 4,
+              "kind": "food",
+              "description": "麦を使った厚いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白パン 一斤",
+              "price": 4,
+              "kind": "food",
+              "description": "白い小麦の大きなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "全粒粉パン 一斤",
+              "price": 3,
+              "kind": "food",
+              "description": "ふすま入りの食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "丸ロール 二個",
+              "price": 2,
+              "kind": "food",
+              "description": "小さな丸いパン二個。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "コテージローフ",
+              "price": 4,
+              "kind": "food",
+              "description": "上下を重ねた形のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "オートケーキ",
+              "price": 2,
+              "kind": "food",
+              "description": "燕麦を使う薄いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "パンの切り売り",
+              "price": 1,
+              "kind": "food",
+              "description": "食事用に一切れ切る。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-victorian-2-section-2",
+          "title": "具入り・焼きもの",
+          "items": [
+            {
+              "name": "羊肉と芋のパイ",
+              "price": 6,
+              "kind": "food",
+              "description": "羊肉と芋の焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉の小パイ",
+              "price": 6,
+              "kind": "food",
+              "description": "牛肉を生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "豚肉のパイ",
+              "price": 5,
+              "kind": "food",
+              "description": "豚肉入りの焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズの焼きパン",
+              "price": 3,
+              "kind": "food",
+              "description": "チーズを載せて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉ねぎのパイ",
+              "price": 3,
+              "kind": "food",
+              "description": "玉ねぎを詰めて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バター付きロール",
+              "price": 3,
+              "kind": "food",
+              "description": "丸パンにバターを添える。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "卵入りの小パイ",
+              "price": 4,
+              "kind": "food",
+              "description": "卵を詰めた小パイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-victorian-2-section-3",
+          "title": "甘いパン・菓子",
+          "items": [
+            {
+              "name": "レモンバン",
+              "price": 3,
+              "kind": "food",
+              "description": "柑橘の香りのパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "チェルシーバン",
+              "price": 3,
+              "kind": "food",
+              "description": "干し果実入りの渦巻きパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 2,
+              "kind": "food",
+              "description": "小粒の干しぶどう入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バースバン",
+              "price": 3,
+              "kind": "food",
+              "description": "砂糖を飾る菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "種入りケーキ",
+              "price": 4,
+              "kind": "food",
+              "description": "香りのある種を混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜パン",
+              "price": 2,
+              "kind": "food",
+              "description": "糖蜜を使って焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 3,
+              "kind": "food",
+              "description": "ジャムを詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-victorian-3",
+      "name": "ベーカリー・レッドロビン",
+      "category": "bakery",
+      "era": "victorian",
+      "currency": "GBP-predecimal",
+      "setting": {
+        "year": 1890,
+        "place": "イギリス・ヨークの架空街区"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "ヴィクトリア朝イギリス",
+        "1890年",
+        "駅へ届けるパンの店"
+      ],
+      "description": "1890年のイギリス・ヨークの架空街区を舞台にした駅へ届けるパンの店。朝は駅で働く人、午後は旅人が訪れる。",
+      "openingHours": "6:00〜18:00（日曜午前のみ）",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓に籠を並べ、奥に配達用の箱を置く。",
+        "service": "汽車に乗る客には食べやすい包みにする。",
+        "signature": "牛乳仕込みの丸パン、ハム入りの包みパン、干し杏のタルト",
+        "localFlavor": "朝は駅で働く人、午後は旅人が訪れる。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-victorian-3-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "牛乳仕込みの丸パン",
+              "price": 3,
+              "kind": "food",
+              "description": "牛乳で柔らかく焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白パン 一斤",
+              "price": 4,
+              "kind": "food",
+              "description": "白い小麦の大きなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "全粒粉パン 一斤",
+              "price": 3,
+              "kind": "food",
+              "description": "ふすま入りの食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "丸ロール 二個",
+              "price": 2,
+              "kind": "food",
+              "description": "小さな丸いパン二個。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "コテージローフ",
+              "price": 4,
+              "kind": "food",
+              "description": "上下を重ねた形のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "オートケーキ",
+              "price": 2,
+              "kind": "food",
+              "description": "燕麦を使う薄いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "パンの切り売り",
+              "price": 1,
+              "kind": "food",
+              "description": "食事用に一切れ切る。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-victorian-3-section-2",
+          "title": "具入り・焼きもの",
+          "items": [
+            {
+              "name": "ハム入りの包みパン",
+              "price": 6,
+              "kind": "food",
+              "description": "ハムを生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉の小パイ",
+              "price": 6,
+              "kind": "food",
+              "description": "牛肉を生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "豚肉のパイ",
+              "price": 5,
+              "kind": "food",
+              "description": "豚肉入りの焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズの焼きパン",
+              "price": 3,
+              "kind": "food",
+              "description": "チーズを載せて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉ねぎのパイ",
+              "price": 3,
+              "kind": "food",
+              "description": "玉ねぎを詰めて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バター付きロール",
+              "price": 3,
+              "kind": "food",
+              "description": "丸パンにバターを添える。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "卵入りの小パイ",
+              "price": 4,
+              "kind": "food",
+              "description": "卵を詰めた小パイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-victorian-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-victorian-3-section-3",
+          "title": "甘いパン・菓子",
+          "items": [
+            {
+              "name": "干し杏のタルト",
+              "price": 5,
+              "kind": "food",
+              "description": "干した杏を詰める。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "チェルシーバン",
+              "price": 3,
+              "kind": "food",
+              "description": "干し果実入りの渦巻きパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 2,
+              "kind": "food",
+              "description": "小粒の干しぶどう入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バースバン",
+              "price": 3,
+              "kind": "food",
+              "description": "砂糖を飾る菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "種入りケーキ",
+              "price": 4,
+              "kind": "food",
+              "description": "香りのある種を混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜パン",
+              "price": 2,
+              "kind": "food",
+              "description": "糖蜜を使って焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 3,
+              "kind": "food",
+              "description": "ジャムを詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-victorian-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-america-1920s-1",
+      "name": "ベーカリー・モーニングピン",
+      "category": "bakery",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "station",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "朝の駅前のパン屋"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした朝の駅前のパン屋。通勤客がパンの小袋を買って駅へ向かう。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "窓にパンの籠を並べ、奥から窯の熱が届く。",
+        "service": "列車に乗る時間を聞いて早く包む。",
+        "signature": "シナモンの朝ロール、七面鳥の小パイ、レモンクリームの小タルト",
+        "localFlavor": "通勤客がパンの小袋を買って駅へ向かう。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-america-1920s-1-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "シナモンの朝ロール",
+              "price": 10,
+              "kind": "food",
+              "description": "シナモンを巻いたパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白パン 一斤",
+              "price": 10,
+              "kind": "food",
+              "description": "白い小麦の大きなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "全粒粉パン 一斤",
+              "price": 8,
+              "kind": "food",
+              "description": "ふすま入りの食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "丸ロール 二個",
+              "price": 5,
+              "kind": "food",
+              "description": "小さな丸いパン二個。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "コテージローフ",
+              "price": 10,
+              "kind": "food",
+              "description": "上下を重ねた形のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "オートケーキ",
+              "price": 5,
+              "kind": "food",
+              "description": "燕麦を使う薄いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "パンの切り売り",
+              "price": 3,
+              "kind": "food",
+              "description": "食事用に一切れ切る。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-america-1920s-1-section-2",
+          "title": "具入り・焼きもの",
+          "items": [
+            {
+              "name": "七面鳥の小パイ",
+              "price": 25,
+              "kind": "food",
+              "description": "鳥肉を詰めたパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉の小パイ",
+              "price": 20,
+              "kind": "food",
+              "description": "牛肉を生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "豚肉のパイ",
+              "price": 18,
+              "kind": "food",
+              "description": "豚肉入りの焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズの焼きパン",
+              "price": 10,
+              "kind": "food",
+              "description": "チーズを載せて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉ねぎのパイ",
+              "price": 10,
+              "kind": "food",
+              "description": "玉ねぎを詰めて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バター付きロール",
+              "price": 8,
+              "kind": "food",
+              "description": "丸パンにバターを添える。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "卵入りの小パイ",
+              "price": 12,
+              "kind": "food",
+              "description": "卵を詰めた小パイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-america-1920s-1-section-3",
+          "title": "甘いパン・菓子",
+          "items": [
+            {
+              "name": "レモンクリームの小タルト",
+              "price": 15,
+              "kind": "food",
+              "description": "柑橘のクリーム入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "チェルシーバン",
+              "price": 10,
+              "kind": "food",
+              "description": "干し果実入りの渦巻きパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 5,
+              "kind": "food",
+              "description": "小粒の干しぶどう入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バースバン",
+              "price": 8,
+              "kind": "food",
+              "description": "砂糖を飾る菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "種入りケーキ",
+              "price": 10,
+              "kind": "food",
+              "description": "香りのある種を混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜パン",
+              "price": 5,
+              "kind": "food",
+              "description": "糖蜜を使って焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 10,
+              "kind": "food",
+              "description": "ジャムを詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-america-1920s-2",
+      "name": "ベーカリー・コーンフィールド",
+      "category": "bakery",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・中西部の架空町"
+      },
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "町と農家をつなぐパン屋"
+      ],
+      "description": "1926年のアメリカ・中西部の架空町を舞台にした町と農家をつなぐパン屋。農家の買い物客が一週間のパンを選ぶ。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "大きなパンを置く木の台と粉袋がある。",
+        "service": "家族の人数を聞いてローフを切り分ける。",
+        "signature": "コーンブレッド、ハムと芋の包み焼き、ピーカンの菓子パン",
+        "localFlavor": "農家の買い物客が一週間のパンを選ぶ。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-america-1920s-2-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "コーンブレッド",
+              "price": 10,
+              "kind": "food",
+              "description": "とうもろこし粉のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白パン 一斤",
+              "price": 10,
+              "kind": "food",
+              "description": "白い小麦の大きなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "全粒粉パン 一斤",
+              "price": 8,
+              "kind": "food",
+              "description": "ふすま入りの食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "丸ロール 二個",
+              "price": 5,
+              "kind": "food",
+              "description": "小さな丸いパン二個。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "コテージローフ",
+              "price": 10,
+              "kind": "food",
+              "description": "上下を重ねた形のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "オートケーキ",
+              "price": 5,
+              "kind": "food",
+              "description": "燕麦を使う薄いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "パンの切り売り",
+              "price": 3,
+              "kind": "food",
+              "description": "食事用に一切れ切る。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-america-1920s-2-section-2",
+          "title": "具入り・焼きもの",
+          "items": [
+            {
+              "name": "ハムと芋の包み焼き",
+              "price": 20,
+              "kind": "food",
+              "description": "ハムと芋を包んで焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉の小パイ",
+              "price": 20,
+              "kind": "food",
+              "description": "牛肉を生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "豚肉のパイ",
+              "price": 18,
+              "kind": "food",
+              "description": "豚肉入りの焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズの焼きパン",
+              "price": 10,
+              "kind": "food",
+              "description": "チーズを載せて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉ねぎのパイ",
+              "price": 10,
+              "kind": "food",
+              "description": "玉ねぎを詰めて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バター付きロール",
+              "price": 8,
+              "kind": "food",
+              "description": "丸パンにバターを添える。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "卵入りの小パイ",
+              "price": 12,
+              "kind": "food",
+              "description": "卵を詰めた小パイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-america-1920s-2-section-3",
+          "title": "甘いパン・菓子",
+          "items": [
+            {
+              "name": "ピーカンの菓子パン",
+              "price": 15,
+              "kind": "food",
+              "description": "ナッツを飾ったパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "チェルシーバン",
+              "price": 10,
+              "kind": "food",
+              "description": "干し果実入りの渦巻きパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 5,
+              "kind": "food",
+              "description": "小粒の干しぶどう入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バースバン",
+              "price": 8,
+              "kind": "food",
+              "description": "砂糖を飾る菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "種入りケーキ",
+              "price": 10,
+              "kind": "food",
+              "description": "香りのある種を混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜パン",
+              "price": 5,
+              "kind": "food",
+              "description": "糖蜜を使って焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 10,
+              "kind": "food",
+              "description": "ジャムを詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bakery-america-1920s-3",
+      "name": "ベーカリー・チェリーブリック",
+      "category": "bakery",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ボストンの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "菓子パンも焼く町の店"
+      ],
+      "description": "1926年のアメリカ・ボストンの架空街区を舞台にした菓子パンも焼く町の店。午後は子ども連れが甘いパンを選びに来る。",
+      "openingHours": "9:00〜19:00（日曜は短縮営業）",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "赤い煉瓦の窯と冷ますための網棚がある。",
+        "service": "焼き上がりを知らせ、小さな袋に詰める。",
+        "signature": "ライ麦の小ローフ、卵とチーズのパイ、チェリーの丸い菓子パン",
+        "localFlavor": "午後は子ども連れが甘いパンを選びに来る。"
+      },
+      "menuSections": [
+        {
+          "id": "bakery-america-1920s-3-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "name": "ライ麦の小ローフ",
+              "price": 12,
+              "kind": "food",
+              "description": "ライ麦の食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "白パン 一斤",
+              "price": 10,
+              "kind": "food",
+              "description": "白い小麦の大きなパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "全粒粉パン 一斤",
+              "price": 8,
+              "kind": "food",
+              "description": "ふすま入りの食事パン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "丸ロール 二個",
+              "price": 5,
+              "kind": "food",
+              "description": "小さな丸いパン二個。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "コテージローフ",
+              "price": 10,
+              "kind": "food",
+              "description": "上下を重ねた形のパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "オートケーキ",
+              "price": 5,
+              "kind": "food",
+              "description": "燕麦を使う薄いパン。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "パンの切り売り",
+              "price": 3,
+              "kind": "food",
+              "description": "食事用に一切れ切る。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-america-1920s-3-section-2",
+          "title": "具入り・焼きもの",
+          "items": [
+            {
+              "name": "卵とチーズのパイ",
+              "price": 20,
+              "kind": "food",
+              "description": "卵とチーズを詰める。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "牛肉の小パイ",
+              "price": 20,
+              "kind": "food",
+              "description": "牛肉を生地で包む。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "豚肉のパイ",
+              "price": 18,
+              "kind": "food",
+              "description": "豚肉入りの焼きパイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "チーズの焼きパン",
+              "price": 10,
+              "kind": "food",
+              "description": "チーズを載せて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "玉ねぎのパイ",
+              "price": 10,
+              "kind": "food",
+              "description": "玉ねぎを詰めて焼く。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "バター付きロール",
+              "price": 8,
+              "kind": "food",
+              "description": "丸パンにバターを添える。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "卵入りの小パイ",
+              "price": 12,
+              "kind": "food",
+              "description": "卵を詰めた小パイ。",
+              "recommendationGroup": "main",
+              "id": "bakery-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bakery-america-1920s-3-section-3",
+          "title": "甘いパン・菓子",
+          "items": [
+            {
+              "name": "チェリーの丸い菓子パン",
+              "price": 12,
+              "kind": "food",
+              "description": "さくらんぼを包む。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "チェルシーバン",
+              "price": 10,
+              "kind": "food",
+              "description": "干し果実入りの渦巻きパン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "カラントバン",
+              "price": 5,
+              "kind": "food",
+              "description": "小粒の干しぶどう入り。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "バースバン",
+              "price": 8,
+              "kind": "food",
+              "description": "砂糖を飾る菓子パン。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "種入りケーキ",
+              "price": 10,
+              "kind": "food",
+              "description": "香りのある種を混ぜる。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "糖蜜パン",
+              "price": 5,
+              "kind": "food",
+              "description": "糖蜜を使って焼く。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "ジャムタルト",
+              "price": 10,
+              "kind": "food",
+              "description": "ジャムを詰めた菓子。",
+              "recommendationGroup": "dessert",
+              "id": "bakery-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }

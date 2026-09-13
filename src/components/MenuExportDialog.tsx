@@ -46,7 +46,7 @@ export default function MenuExportDialog({shop, selectedIds, open, onOpenChange,
       <label className="checkbox-label"><Checkbox checked={descriptions} onCheckedChange={value => setDescriptions(Boolean(value))}/>商品説明を付ける</label>
       <label>文字サイズ：{fontSize}px<input type="range" min="14" max="28" value={fontSize} onChange={e => setFontSize(Number(e.target.value))}/></label>
       <label>紙面の向き<select value={layout} onChange={e => setLayout(e.target.value as 'portrait' | 'landscape')}><option value="portrait">縦</option><option value="landscape">横</option></select></label>
-      <p className="export-count">{count}品・各1点の合計 <b>{money(menuTotal(menu))}</b><small>時間・人数・追加料金は店舗の価格補足をご確認ください。</small></p>
+      <p className="export-count">{count}品・各1点の合計 <b>{money(menuTotal(menu),menu.currency)}</b><small>時間・人数・追加料金は店舗の価格補足をご確認ください。</small></p>
       <button className="button" disabled={!count || busy} onClick={() => {try {printMenuHtml(html);} catch {setError('印刷を開けませんでした。HTMLを保存してブラウザから印刷してください。');}}}><Printer size={16}/>印刷 / PDF保存</button>
       <label>ファイル形式<select value={format} onChange={e => setFormat(e.target.value as Format)}><option value="html">HTML — 単体で開く・印刷する</option><option value="png">PNG — 画像として貼り付ける</option><option value="svg">SVG — 拡大できる画像</option><option value="csv">CSV — 表計算へ持ち出す</option><option value="json">JSON — データとして持ち出す</option></select></label>
       <button className="button primary" disabled={!count || busy} onClick={download}><Download size={16}/>{busy ? '作成しています…' : `${format.toUpperCase()}を保存`}</button>

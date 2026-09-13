@@ -708,6 +708,717 @@
         "signature": "黒糖きなこポップコーン 小とシトラスジンジャーソーダ",
         "localFlavor": "昼は近隣の映画好き、夕方は学校帰りの友人同士が訪れる。上映後に感想を話す声が残る。"
       }
+    },
+    {
+      "id": "cinema-america-1920s-1",
+      "name": "リバティ・ピクチャーハウス売店",
+      "category": "cinema",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ニューヨークの架空街区"
+      },
+      "locationType": "city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "無声映画館のロビー売店"
+      ],
+      "description": "1926年のアメリカ・ニューヨークの架空街区を舞台にした無声映画館のロビー売店。伴奏楽団の音が客席から聞こえる映画館。",
+      "openingHours": "13:00〜最終上映開始まで",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "ロビーに紙のプログラムと菓子の小箱が並ぶ。",
+        "service": "上映前は手早く包み、飲料はロビーで渡す。",
+        "signature": "小箱のチョコボンボン、冷たいアップルドリンク、楽団演目の小冊子",
+        "localFlavor": "伴奏楽団の音が客席から聞こえる映画館。"
+      },
+      "menuSections": [
+        {
+          "id": "cinema-america-1920s-1-section-1",
+          "title": "ロビーの菓子",
+          "items": [
+            {
+              "name": "小箱のチョコボンボン",
+              "price": 15,
+              "kind": "goods",
+              "description": "一口チョコを箱に。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "板チョコレート",
+              "price": 10,
+              "kind": "goods",
+              "description": "ロビーで売る小さな板。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴",
+              "price": 5,
+              "kind": "goods",
+              "description": "小袋入りのミント飴。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-2",
+              "recommended": false
+            },
+            {
+              "name": "キャラメル",
+              "price": 5,
+              "kind": "goods",
+              "description": "柔らかな甘い菓子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-3",
+              "recommended": false
+            },
+            {
+              "name": "果実ドロップ",
+              "price": 5,
+              "kind": "goods",
+              "description": "果実風味の飴玉。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ピーナツの小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "殻をむいたナッツ。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-5",
+              "recommended": false
+            },
+            {
+              "name": "バタークッキー",
+              "price": 10,
+              "kind": "goods",
+              "description": "小袋の焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-america-1920s-1-section-2",
+          "title": "飲みもの",
+          "items": [
+            {
+              "name": "冷たいアップルドリンク",
+              "price": 10,
+              "kind": "drink",
+              "description": "りんご風味の飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "瓶ソーダ",
+              "price": 5,
+              "kind": "drink",
+              "description": "瓶に入った炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-item-7",
+              "recommended": false
+            },
+            {
+              "name": "レモネード",
+              "price": 10,
+              "kind": "drink",
+              "description": "甘いレモンの飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-item-9",
+              "recommended": false
+            },
+            {
+              "name": "温かい珈琲",
+              "price": 10,
+              "kind": "drink",
+              "description": "ロビーで飲む珈琲。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ホットココア",
+              "price": 10,
+              "kind": "drink",
+              "description": "温かいココア。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-item-11",
+              "recommended": false
+            },
+            {
+              "name": "オレンジ飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "果実風味の飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-1-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-america-1920s-1-section-3",
+          "title": "紙もの・小物",
+          "items": [
+            {
+              "name": "楽団演目の小冊子",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空の伴奏曲の案内。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "上映プログラム",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空作品の解説冊子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-13",
+              "recommended": false
+            },
+            {
+              "name": "俳優の写真カード",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空俳優の印刷写真。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-14",
+              "recommended": false
+            },
+            {
+              "name": "映画場面の絵葉書",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空場面の絵葉書。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-15",
+              "recommended": false
+            },
+            {
+              "name": "記念しおり",
+              "price": 5,
+              "kind": "goods",
+              "description": "映画館の紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙の扇子",
+              "price": 10,
+              "kind": "goods",
+              "description": "折り畳める紙の扇子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-17",
+              "recommended": false
+            },
+            {
+              "name": "映画館名入り鉛筆",
+              "price": 5,
+              "kind": "goods",
+              "description": "館名を入れた鉛筆。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-1-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema-america-1920s-2",
+      "name": "スターレーン・キネマ売店",
+      "category": "cinema",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・シカゴの架空街区"
+      },
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "町の喜劇映画館の売店"
+      ],
+      "description": "1926年のアメリカ・シカゴの架空街区を舞台にした町の喜劇映画館の売店。休日は家族が無声喜劇の上映前に集まる。",
+      "openingHours": "13:00〜最終上映開始まで",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "小さな窓口の横に架空作品のポスターを貼る。",
+        "service": "親子客には菓子を分けて小袋で渡す。",
+        "signature": "蜂蜜ローストナッツ、チェリーソーダ、喜劇スターのカード組",
+        "localFlavor": "休日は家族が無声喜劇の上映前に集まる。"
+      },
+      "menuSections": [
+        {
+          "id": "cinema-america-1920s-2-section-1",
+          "title": "ロビーの菓子",
+          "items": [
+            {
+              "name": "蜂蜜ローストナッツ",
+              "price": 10,
+              "kind": "goods",
+              "description": "ナッツを甘く焼く。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "板チョコレート",
+              "price": 10,
+              "kind": "goods",
+              "description": "ロビーで売る小さな板。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴",
+              "price": 5,
+              "kind": "goods",
+              "description": "小袋入りのミント飴。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-2",
+              "recommended": false
+            },
+            {
+              "name": "キャラメル",
+              "price": 5,
+              "kind": "goods",
+              "description": "柔らかな甘い菓子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-3",
+              "recommended": false
+            },
+            {
+              "name": "果実ドロップ",
+              "price": 5,
+              "kind": "goods",
+              "description": "果実風味の飴玉。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ピーナツの小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "殻をむいたナッツ。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-5",
+              "recommended": false
+            },
+            {
+              "name": "バタークッキー",
+              "price": 10,
+              "kind": "goods",
+              "description": "小袋の焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-america-1920s-2-section-2",
+          "title": "飲みもの",
+          "items": [
+            {
+              "name": "チェリーソーダ",
+              "price": 10,
+              "kind": "drink",
+              "description": "果実風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "瓶ソーダ",
+              "price": 5,
+              "kind": "drink",
+              "description": "瓶に入った炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-item-7",
+              "recommended": false
+            },
+            {
+              "name": "レモネード",
+              "price": 10,
+              "kind": "drink",
+              "description": "甘いレモンの飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-item-9",
+              "recommended": false
+            },
+            {
+              "name": "温かい珈琲",
+              "price": 10,
+              "kind": "drink",
+              "description": "ロビーで飲む珈琲。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ホットココア",
+              "price": 10,
+              "kind": "drink",
+              "description": "温かいココア。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-item-11",
+              "recommended": false
+            },
+            {
+              "name": "オレンジ飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "果実風味の飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-2-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-america-1920s-2-section-3",
+          "title": "紙もの・小物",
+          "items": [
+            {
+              "name": "喜劇スターのカード組",
+              "price": 15,
+              "kind": "goods",
+              "description": "架空の喜劇俳優のカード。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "上映プログラム",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空作品の解説冊子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-13",
+              "recommended": false
+            },
+            {
+              "name": "俳優の写真カード",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空俳優の印刷写真。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-14",
+              "recommended": false
+            },
+            {
+              "name": "映画場面の絵葉書",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空場面の絵葉書。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-15",
+              "recommended": false
+            },
+            {
+              "name": "記念しおり",
+              "price": 5,
+              "kind": "goods",
+              "description": "映画館の紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙の扇子",
+              "price": 10,
+              "kind": "goods",
+              "description": "折り畳める紙の扇子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-17",
+              "recommended": false
+            },
+            {
+              "name": "映画館名入り鉛筆",
+              "price": 5,
+              "kind": "goods",
+              "description": "館名を入れた鉛筆。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-2-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema-america-1920s-3",
+      "name": "パレス・フィルムホール売店",
+      "category": "cinema",
+      "era": "america-1920s",
+      "currency": "USD",
+      "setting": {
+        "year": 1926,
+        "place": "アメリカ・ボストンの架空街区"
+      },
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "scale": "independent",
+      "tags": [
+        "1920年代のアメリカ",
+        "1926年",
+        "装飾のある映画館売店"
+      ],
+      "description": "1926年のアメリカ・ボストンの架空街区を舞台にした装飾のある映画館売店。夕方には仕事帰りの客が連れを待っている。",
+      "openingHours": "13:00〜最終上映開始まで",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "scene": {
+        "interior": "柱に囲まれたロビーにガラスの売店棚がある。",
+        "service": "プログラムを広げて上映順を説明する。",
+        "signature": "オレンジピールチョコ、温かいミルク、夜の上映番組カード",
+        "localFlavor": "夕方には仕事帰りの客が連れを待っている。"
+      },
+      "menuSections": [
+        {
+          "id": "cinema-america-1920s-3-section-1",
+          "title": "ロビーの菓子",
+          "items": [
+            {
+              "name": "オレンジピールチョコ",
+              "price": 15,
+              "kind": "goods",
+              "description": "皮をチョコで包む。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-signature-1",
+              "recommended": true
+            },
+            {
+              "name": "板チョコレート",
+              "price": 10,
+              "kind": "goods",
+              "description": "ロビーで売る小さな板。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-1",
+              "recommended": false
+            },
+            {
+              "name": "ペパーミント飴",
+              "price": 5,
+              "kind": "goods",
+              "description": "小袋入りのミント飴。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-2",
+              "recommended": false
+            },
+            {
+              "name": "キャラメル",
+              "price": 5,
+              "kind": "goods",
+              "description": "柔らかな甘い菓子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-3",
+              "recommended": false
+            },
+            {
+              "name": "果実ドロップ",
+              "price": 5,
+              "kind": "goods",
+              "description": "果実風味の飴玉。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-4",
+              "recommended": false
+            },
+            {
+              "name": "ピーナツの小袋",
+              "price": 5,
+              "kind": "goods",
+              "description": "殻をむいたナッツ。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-5",
+              "recommended": false
+            },
+            {
+              "name": "バタークッキー",
+              "price": 10,
+              "kind": "goods",
+              "description": "小袋の焼き菓子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-6",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-america-1920s-3-section-2",
+          "title": "飲みもの",
+          "items": [
+            {
+              "name": "温かいミルク",
+              "price": 10,
+              "kind": "drink",
+              "description": "牛乳を温めて出す。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-signature-2",
+              "recommended": true
+            },
+            {
+              "name": "瓶ソーダ",
+              "price": 5,
+              "kind": "drink",
+              "description": "瓶に入った炭酸飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-item-7",
+              "recommended": false
+            },
+            {
+              "name": "レモネード",
+              "price": 10,
+              "kind": "drink",
+              "description": "甘いレモンの飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-item-8",
+              "recommended": false
+            },
+            {
+              "name": "ジンジャーエール",
+              "price": 10,
+              "kind": "drink",
+              "description": "生姜風味の炭酸。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-item-9",
+              "recommended": false
+            },
+            {
+              "name": "温かい珈琲",
+              "price": 10,
+              "kind": "drink",
+              "description": "ロビーで飲む珈琲。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-item-10",
+              "recommended": false
+            },
+            {
+              "name": "ホットココア",
+              "price": 10,
+              "kind": "drink",
+              "description": "温かいココア。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-item-11",
+              "recommended": false
+            },
+            {
+              "name": "オレンジ飲料",
+              "price": 10,
+              "kind": "drink",
+              "description": "果実風味の飲料。",
+              "recommendationGroup": "drink",
+              "id": "cinema-america-1920s-3-item-12",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "cinema-america-1920s-3-section-3",
+          "title": "紙もの・小物",
+          "items": [
+            {
+              "name": "夜の上映番組カード",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空の上映予定の紙。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-signature-3",
+              "recommended": true
+            },
+            {
+              "name": "上映プログラム",
+              "price": 10,
+              "kind": "goods",
+              "description": "架空作品の解説冊子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-13",
+              "recommended": false
+            },
+            {
+              "name": "俳優の写真カード",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空俳優の印刷写真。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-14",
+              "recommended": false
+            },
+            {
+              "name": "映画場面の絵葉書",
+              "price": 5,
+              "kind": "goods",
+              "description": "架空場面の絵葉書。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-15",
+              "recommended": false
+            },
+            {
+              "name": "記念しおり",
+              "price": 5,
+              "kind": "goods",
+              "description": "映画館の紙のしおり。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-16",
+              "recommended": false
+            },
+            {
+              "name": "紙の扇子",
+              "price": 10,
+              "kind": "goods",
+              "description": "折り畳める紙の扇子。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-17",
+              "recommended": false
+            },
+            {
+              "name": "映画館名入り鉛筆",
+              "price": 5,
+              "kind": "goods",
+              "description": "館名を入れた鉛筆。",
+              "recommendationGroup": "goods",
+              "id": "cinema-america-1920s-3-item-18",
+              "recommended": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
