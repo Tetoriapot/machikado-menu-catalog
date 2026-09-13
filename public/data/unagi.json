@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "unagi",
+    "label": "うなぎ屋",
+    "group": "飲食店",
+    "icon": "fish"
+  },
+  "shops": [
+    {
+      "id": "unagi-1",
+      "name": "鰻処 川灯",
+      "category": "unagi",
+      "description": "川沿いに暖簾を出す昔ながらの鰻店。小上がりで川面を見ながら焼き上がりを待てる。",
+      "openingHours": "11:00〜14:00／17:00〜20:00（火曜休）",
+      "locationType": "local-city",
+      "priceLevel": "expensive",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "川沿い",
+        "小上がり",
+        "家族の会食"
+      ],
+      "scene": {
+        "interior": "小上がりの窓から橋を行き交う人が見える。入口に小さな待合の長椅子がある。",
+        "service": "注文後に焼くため待ち時間を伝える。重の蓋を開ける前に汁物を静かに置く。",
+        "signature": "川灯の二段うな重と鰻の茶碗蒸し",
+        "localFlavor": "節目の食事に近隣の家族が来る。川の行事がある日は昼の予約が増える。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "unagi-1-section-1",
+          "title": "重・丼・御膳",
+          "items": [
+            {
+              "name": "川灯の二段うな重",
+              "price": 4580,
+              "description": "ご飯の間にも蒲焼きを重ねた重。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "鰻と焼きねぎのまぶし飯",
+              "price": 3280,
+              "description": "刻んだ鰻と焼きねぎをご飯に混ぜる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "小うな重と季節の煮物膳",
+              "price": 2780,
+              "description": "少量の重に野菜の煮物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "うな重 並",
+              "price": 2980,
+              "description": "蒲焼きをご飯に載せた基本の重。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "うな丼",
+              "price": 2480,
+              "description": "蒲焼きを少量から楽しめる丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "白焼き御膳",
+              "price": 3280,
+              "description": "白焼きにご飯と汁物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小うな丼と蕎麦膳",
+              "price": 2180,
+              "description": "小さな丼と温かい蕎麦の組み合わせ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "unagi-1-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "name": "鰻の茶碗蒸し",
+              "price": 880,
+              "description": "蒲焼きを少し載せただしの茶碗蒸し。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "川海老の唐揚げ",
+              "price": 580,
+              "description": "小さな川海老を殻ごと揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "胡瓜と茗荷の浅漬け",
+              "price": 380,
+              "description": "胡瓜に刻み茗荷を合わせた漬物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "う巻き 小皿",
+              "price": 780,
+              "description": "蒲焼きを芯にした柔らかい卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "うざく",
+              "price": 680,
+              "description": "胡瓜と蒲焼きを酢で和えた一皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "肝焼き 二串",
+              "price": 720,
+              "description": "肝を小さな串で香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "骨せんべい",
+              "price": 380,
+              "description": "骨をカリッと揚げた箸休め。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "unagi-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "川灯の冷酒 一合",
+              "price": 780,
+              "description": "架空の地酒を冷たい徳利で。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "黒糖くず餅",
+              "price": 420,
+              "description": "くず餅に黒糖の蜜をかける。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "unagi-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "梅香る焙じ茶",
+              "price": 320,
+              "description": "梅の風味を添えたほうじ茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "煎茶の急須",
+              "price": 300,
+              "description": "二杯ほど楽しめる温かい煎茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "冷やし緑茶",
+              "price": 280,
+              "description": "すっきりした風味の冷たい緑茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "柚子シャーベット",
+              "price": 380,
+              "description": "口直し向けの小さな氷菓。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "unagi-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "小瓶ビール",
+              "price": 580,
+              "description": "食事に添える小さな瓶のビール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unagi-2",
+      "name": "うなぎ炭焼 いさり木",
+      "category": "unagi",
+      "description": "街道筋の小さな炭焼き鰻店。香ばしい焼き目と、持ち帰りも選べる丼が特徴。",
+      "openingHours": "11:00〜14:30／17:00〜20:30（水曜休）",
+      "locationType": "suburb",
+      "priceLevel": "expensive",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "街道沿い",
+        "炭焼き",
+        "持ち帰り"
+      ],
+      "scene": {
+        "interior": "店先の排気口から炭の香りが漂う。厨房に向いたカウンターと四人卓が二つある。",
+        "service": "焼き加減の特徴を先に伝える。持ち帰りの客には受け取り予定時刻の札を渡す。",
+        "signature": "炭香る長焼き御膳と焼き肝と青ねぎの小鉢",
+        "localFlavor": "車で来る常連と街道を移動する客が立ち寄る。夕方は家族分の持ち帰りが多い。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "unagi-2-section-1",
+          "title": "重・丼・御膳",
+          "items": [
+            {
+              "name": "炭香る長焼き御膳",
+              "price": 3680,
+              "description": "長い蒲焼きを別皿で出す定食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "焦がしだれの鰻とろ丼",
+              "price": 3180,
+              "description": "香ばしい鰻にとろろを合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "いさり木の白蒲二色重",
+              "price": 4280,
+              "description": "白焼きと蒲焼きを一つの重に盛る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "うな重 並",
+              "price": 2980,
+              "description": "蒲焼きをご飯に載せた基本の重。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "うな丼",
+              "price": 2480,
+              "description": "蒲焼きを少量から楽しめる丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "白焼き御膳",
+              "price": 3280,
+              "description": "白焼きにご飯と汁物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小うな丼と蕎麦膳",
+              "price": 2180,
+              "description": "小さな丼と温かい蕎麦の組み合わせ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "unagi-2-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "name": "焼き肝と青ねぎの小鉢",
+              "price": 820,
+              "description": "香ばしい肝を青ねぎと和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "鰻入りじゃがいも饅頭",
+              "price": 880,
+              "description": "鰻を包んだ芋の団子にだしあん。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "焼き長芋の山椒添え",
+              "price": 480,
+              "description": "焼いた長芋に山椒を少量振る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "う巻き 小皿",
+              "price": 780,
+              "description": "蒲焼きを芯にした柔らかい卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "うざく",
+              "price": 680,
+              "description": "胡瓜と蒲焼きを酢で和えた一皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "肝焼き 二串",
+              "price": 720,
+              "description": "肝を小さな串で香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "骨せんべい",
+              "price": 380,
+              "description": "骨をカリッと揚げた箸休め。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "unagi-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "炭焼店の麦焼酎水割り",
+              "price": 580,
+              "description": "麦焼酎を水で割った一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "塩ミルクの小アイス",
+              "price": 380,
+              "description": "塩の風味を加えたミルクアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "unagi-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "青梅の炭酸割り",
+              "price": 420,
+              "description": "青梅シロップを炭酸で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "煎茶の急須",
+              "price": 300,
+              "description": "二杯ほど楽しめる温かい煎茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "冷やし緑茶",
+              "price": 280,
+              "description": "すっきりした風味の冷たい緑茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "柚子シャーベット",
+              "price": 380,
+              "description": "口直し向けの小さな氷菓。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "unagi-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "小瓶ビール",
+              "price": 580,
+              "description": "食事に添える小さな瓶のビール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unagi-3",
+      "name": "鰻と小鉢 月待ち",
+      "category": "unagi",
+      "description": "駅裏にある少量の鰻料理を楽しむ店。一人の昼食から小さな会食まで使いやすい。",
+      "openingHours": "11:30〜14:30／17:30〜21:00（日曜休）",
+      "locationType": "station",
+      "priceLevel": "expensive",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "駅裏",
+        "少量の御膳",
+        "一人客"
+      ],
+      "scene": {
+        "interior": "短いカウンターと二人卓が並び、棚には小鉢用の器が色別に重ねられている。",
+        "service": "鰻の量と小鉢の組み合わせを案内する。一人客にはカウンターの端から席を勧める。",
+        "signature": "月待ちの小鉢三彩うな膳と鰻と湯葉の小鍋",
+        "localFlavor": "電車を待つ客と近くで働く人が静かに食事をする。夜は帰宅前の寄り道に使われる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "unagi-3-section-1",
+          "title": "重・丼・御膳",
+          "items": [
+            {
+              "name": "月待ちの小鉢三彩うな膳",
+              "price": 2680,
+              "description": "小さな鰻丼に野菜の小鉢三品。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "鰻と玉子の蒸し寿司膳",
+              "price": 2580,
+              "description": "刻んだ鰻と卵の酢飯を温める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "白焼きとお茶漬けの二皿膳",
+              "price": 3480,
+              "description": "白焼きと小さなお茶漬けを順に出す。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "うな重 並",
+              "price": 2980,
+              "description": "蒲焼きをご飯に載せた基本の重。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "うな丼",
+              "price": 2480,
+              "description": "蒲焼きを少量から楽しめる丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "白焼き御膳",
+              "price": 3280,
+              "description": "白焼きにご飯と汁物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小うな丼と蕎麦膳",
+              "price": 2180,
+              "description": "小さな丼と温かい蕎麦の組み合わせ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "unagi-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "unagi-3-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "name": "鰻と湯葉の小鍋",
+              "price": 1180,
+              "description": "鰻と湯葉をだしで軽く温める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "胡麻豆腐の山葵あん",
+              "price": 480,
+              "description": "胡麻豆腐に山葵風味のあんを添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "鰻の山椒煮小皿",
+              "price": 980,
+              "description": "小さく切った鰻を山椒と煮る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "う巻き 小皿",
+              "price": 780,
+              "description": "蒲焼きを芯にした柔らかい卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "うざく",
+              "price": 680,
+              "description": "胡瓜と蒲焼きを酢で和えた一皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "肝焼き 二串",
+              "price": 720,
+              "description": "肝を小さな串で香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "骨せんべい",
+              "price": 380,
+              "description": "骨をカリッと揚げた箸休め。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "unagi-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "unagi-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "月待ちの豆乳白玉",
+              "price": 480,
+              "description": "豆乳の甘い汁に白玉を浮かべる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "unagi-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "温かい柚子蜜茶",
+              "price": 380,
+              "description": "柚子の蜜を湯で溶いた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶の水出し瓶",
+              "price": 320,
+              "description": "水出ししたほうじ茶を小瓶で。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "煎茶の急須",
+              "price": 300,
+              "description": "二杯ほど楽しめる温かい煎茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "冷やし緑茶",
+              "price": 280,
+              "description": "すっきりした風味の冷たい緑茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "柚子シャーベット",
+              "price": 380,
+              "description": "口直し向けの小さな氷菓。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "unagi-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "小瓶ビール",
+              "price": 580,
+              "description": "食事に添える小さな瓶のビール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "unagi-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

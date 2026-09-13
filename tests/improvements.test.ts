@@ -9,8 +9,10 @@ import { menuPlainText, menuTotal, renderMenuCsv, renderMenuJson, renderMenuSvg 
 import { gmText } from '../src/lib/catalog.ts';
 const summaries=JSON.parse(readFileSync('src/data/generated-index.json','utf8')).shops as ShopSummary[];
 const shop=JSON.parse(readFileSync('src/data/shops/kissaten.json','utf8')).shops[0] as Shop;
+const originalCategories=new Set((JSON.parse(readFileSync('scripts/third-shop-drafts.json','utf8')) as {category:string}[]).map(d=>d.category));
+const legacySummaries=summaries.filter(s=>originalCategories.has(s.category));
 test('先行増補した100店舗の2,104品と情景、480品の追加内容を保持する', () => {
- const originals=summaries.filter(s=>/-[12]$/.test(s.id));
+ const originals=legacySummaries.filter(s=>/-[12]$/.test(s.id));
  assert.equal(originals.length,100);assert.equal(originals.reduce((n,s)=>n+s.itemCount,0),2104);
  let additions=0;
  for(const summary of originals){
@@ -23,9 +25,10 @@ test('先行増補した100店舗の2,104品と情景、480品の追加内容を
  assert.equal(additions,480);
 });
 
-test('全50カテゴリに第三店舗があり、各店21品のうち9品は従来の二店と異なる',()=>{
- const categories=new Set(summaries.map(s=>s.category));assert.equal(categories.size,50);
- const newShops=summaries.filter(s=>s.id.endsWith('-3'));assert.equal(newShops.length,50);
+test('従来の50カテゴリに第三店舗があり、各店21品のうち9品は従来の二店と異なる',()=>{
+ assert.equal(legacySummaries.length,150);assert.equal(legacySummaries.reduce((n,s)=>n+s.itemCount,0),3154);
+ const categories=new Set(legacySummaries.map(s=>s.category));assert.equal(categories.size,50);
+ const newShops=legacySummaries.filter(s=>s.id.endsWith('-3'));assert.equal(newShops.length,50);
  for(const category of categories){
   const siblings=summaries.filter(s=>s.category===category);assert.equal(siblings.length,3,category);
   const fresh=siblings.find(s=>s.id===`${category}-3`)!;assert.ok(fresh);assert.equal(fresh.itemCount,21);
@@ -39,8 +42,40 @@ test('全50カテゴリに第三店舗があり、各店21品のうち9品は従
   }
  }
  // Keep the original first and second editions ahead of new additions.
- assert.ok(summaries.slice(0,100).every(s=>/-[12]$/.test(s.id)));
- assert.ok(summaries.slice(100).every(s=>s.id.endsWith('-3')));
+ assert.ok(legacySummaries.slice(0,100).every(s=>/-[12]$/.test(s.id)));
+ assert.ok(legacySummaries.slice(100).every(s=>s.id.endsWith('-3')));
+});
+
+test('新規15カテゴリ45店舗は店ごとの9品と情景を持ち、カテゴリ検索で三店すべてに到達する',()=>{
+ const expected=['tempura','unagi','korean','thai','indian','onigiri','takoyaki','tea-store','liquor-store','electronics','outdoor','music-store','museum','zoo','bathhouse'];
+ const fresh=summaries.filter(s=>!originalCategories.has(s.category));assert.equal(fresh.length,45);assert.equal(fresh.reduce((n,s)=>n+s.itemCount,0),945);
+ assert.deepEqual([...new Set(fresh.map(s=>s.category))].sort(),[...expected].sort());
+ for(const category of expected){
+  const data=JSON.parse(readFileSync(`src/data/shops/${category}.json`,'utf8')) as {category:{label:string};shops:Shop[]};
+  assert.deepEqual(parseRoute(`#/categories/${category}`),{kind:'catalog',category});
+  const selected=summaries.filter(s=>matchesFilters(s,{...defaultFilters,category}));assert.equal(selected.length,3);
+  for(const s of selected){
+   assert.equal(s.itemCount,21);assert.ok(matchesFilters(s,{...defaultFilters,query:data.category.label}));
+   const unique=s.menuIndex.filter(i=>i.id.includes('-original-'));assert.equal(unique.length,9);
+   for(const sibling of selected.filter(x=>x.id!==s.id)){
+    const names=new Set(sibling.menuIndex.map(i=>i.name));assert.ok(unique.every(i=>!names.has(i.name)),s.id);
+    assert.equal(s.menuIndex.filter(i=>names.has(i.name)).length,12);assert.notEqual(s.name,sibling.name);assert.notDeepEqual(s.scene,sibling.scene);
+   }
+   for(const field of ['interior','service','signature','localFlavor'] as const)assert.ok((s.scene?.[field].length??0)>0,`${s.id}:${field}`);
+   assert.ok(matchingItems(s,unique[0].name).some(i=>i.id===unique[0].id));
+  }
+ }
+});
+
+test('全195店舗の保存を復元でき、銭湯の利用料は商品おすすめへ混ぜず配布物には残す',()=>{
+ const validIds=summaries.map(s=>s.id);
+ const backup:LibraryBackup={format:'machikado-session-library',version:1,favorites:validIds,recent:[],library:{activeId:'all-shops',folders:[{id:'all-shops',name:'全店舗資料',entries:validIds.map(shopId=>({shopId,alias:'',notes:''})),usedIds:validIds}]}};
+ assert.deepEqual(parseBackup(JSON.stringify(backup),validIds),backup);
+ const bath=JSON.parse(readFileSync('src/data/shops/bathhouse.json','utf8')).shops[0] as Shop;
+ const items=bath.menuSections.flatMap(s=>s.items);assert.ok(items.some(i=>i.kind==='fee'));
+ assert.ok(recommendItems(items).every(i=>!['fee','service','addon'].includes(i.kind)));
+ const player=renderMenuHtml(toMenuDocument(bath));assert.ok(player.includes('大人入浴 一回'));assert.ok(player.includes(bath.priceNote!));
+ for(const value of Object.values(bath.scene!))assert.ok(!player.includes(value));
 });
 
 test('新店舗の商品検索・直接URL・卓の保存・PL出力が同じIDで連携する',()=>{

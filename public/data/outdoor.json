@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "outdoor",
+    "label": "アウトドア用品店",
+    "group": "小売店",
+    "icon": "basket"
+  },
+  "shops": [
+    {
+      "id": "outdoor-1",
+      "name": "山道具 小径の先",
+      "category": "outdoor",
+      "description": "山へ向かう駅にある日帰り登山用品店。軽い装備と休憩用の小物が中心。",
+      "openingHours": "7:00〜18:00（火曜休）",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "日帰り登山",
+        "駅前",
+        "軽量装備"
+      ],
+      "scene": {
+        "interior": "入口に山の架空地図とベンチがある。壁には大きさの違う鞄が下がる。",
+        "service": "荷物の量と歩く予定を聞いて品を案内する。鞄は重りを入れて背負える。",
+        "signature": "日帰り用トレッキングポール 二本と目盛り付き軽量ボトル",
+        "localFlavor": "朝は山へ向かう客が多い。帰りの客が使った道具の感想を話していく。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "outdoor-1-section-1",
+          "title": "装備・ウェア",
+          "items": [
+            {
+              "name": "日帰り用トレッキングポール 二本",
+              "price": 5980,
+              "description": "長さを変えられる歩行用の棒。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "薄手の山歩き手袋",
+              "price": 1980,
+              "description": "指先を動かしやすい手袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "背面メッシュの小型ザック",
+              "price": 6980,
+              "description": "背中に通気部分のある鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ座布団",
+              "price": 880,
+              "description": "休憩に使う軽い座布団。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "軽量レインポンチョ",
+              "price": 1980,
+              "description": "小さく畳める雨よけの衣類。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "日よけハット",
+              "price": 2480,
+              "description": "つばの広い布の帽子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小型デイパック 十五リットル",
+              "price": 4980,
+              "description": "日帰りの荷物を入れる鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "outdoor-1-section-2",
+          "title": "食器・調理道具",
+          "items": [
+            {
+              "name": "目盛り付き軽量ボトル",
+              "price": 1480,
+              "description": "水の量が分かる携帯容器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "小径の先の湯のみマグ",
+              "price": 1320,
+              "description": "店の図案を入れた軽いマグ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "収納袋付きカトラリー",
+              "price": 990,
+              "description": "匙とフォークを小袋に収める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "ステンレスマグ",
+              "price": 990,
+              "description": "丈夫な金属の小さなカップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみスプーン",
+              "price": 660,
+              "description": "柄を畳める携帯用の匙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "ふた付き保存容器",
+              "price": 770,
+              "description": "食べ物を入れる小さな容器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "小型保冷バッグ",
+              "price": 1480,
+              "description": "飲料などを入れる保冷袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "outdoor-1-section-3",
+          "title": "小物・補給食",
+          "items": [
+            {
+              "name": "塩あずきのひと口羊羹",
+              "price": 220,
+              "description": "少量ずつ食べる包装の菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "山道の刺繍ワッペン",
+              "price": 550,
+              "description": "架空の山道を描いた布の印。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "地図用透明ケース",
+              "price": 880,
+              "description": "紙の地図を入れる透明袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "行動食ナッツ 小袋",
+              "price": 280,
+              "description": "歩く途中にも食べやすいナッツ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "乾燥果実ミックス",
+              "price": 380,
+              "description": "数種類のドライフルーツ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "携帯ごみ袋 十枚",
+              "price": 220,
+              "description": "外出先のごみを持ち帰る袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "防水メモ帳",
+              "price": 660,
+              "description": "濡れにくい紙の小さな帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-2",
+      "name": "キャンプ道具 星待ち倉庫",
+      "category": "outdoor",
+      "description": "郊外の倉庫を使ったキャンプ用品店。設営した見本を見ながら道具を選べる。",
+      "openingHours": "10:00〜19:00（水曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "キャンプ",
+        "倉庫",
+        "家族連れ"
+      ],
+      "scene": {
+        "interior": "高い天井の下にテントの見本を張る。棚には箱入りの食器と折りたたみ家具が並ぶ。",
+        "service": "収納時の大きさと使う人数を確かめる。椅子は実際に座って選べる。",
+        "signature": "二人用ドームテントと二人分の重ね食器セット",
+        "localFlavor": "週末は車で来る家族が多い。出発前に買い足す客が開店直後に訪れる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "outdoor-2-section-1",
+          "title": "装備・ウェア",
+          "items": [
+            {
+              "name": "二人用ドームテント",
+              "price": 19800,
+              "description": "二人分の就寝スペースのテント。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "収納袋付きキャンプチェア",
+              "price": 4980,
+              "description": "畳んで袋に入れられる椅子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "電池式の吊り下げランタン",
+              "price": 2980,
+              "description": "持ち手で吊るせる照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ座布団",
+              "price": 880,
+              "description": "休憩に使う軽い座布団。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "軽量レインポンチョ",
+              "price": 1980,
+              "description": "小さく畳める雨よけの衣類。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "日よけハット",
+              "price": 2480,
+              "description": "つばの広い布の帽子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小型デイパック 十五リットル",
+              "price": 4980,
+              "description": "日帰りの荷物を入れる鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "outdoor-2-section-2",
+          "title": "食器・調理道具",
+          "items": [
+            {
+              "name": "二人分の重ね食器セット",
+              "price": 2980,
+              "description": "皿とカップを重ねて収納。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "小型折りたたみ調理台",
+              "price": 5980,
+              "description": "屋外で使う低い作業台。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "ふた付き飯ごう風クッカー",
+              "price": 2480,
+              "description": "ご飯や料理に使う金属容器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "ステンレスマグ",
+              "price": 990,
+              "description": "丈夫な金属の小さなカップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみスプーン",
+              "price": 660,
+              "description": "柄を畳める携帯用の匙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "ふた付き保存容器",
+              "price": 770,
+              "description": "食べ物を入れる小さな容器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "小型保冷バッグ",
+              "price": 1480,
+              "description": "飲料などを入れる保冷袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "outdoor-2-section-3",
+          "title": "小物・補給食",
+          "items": [
+            {
+              "name": "星待ちのフリーズドライスープ",
+              "price": 380,
+              "description": "湯を注いで作る一食分。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "テント目印の反射タグ",
+              "price": 550,
+              "description": "張り綱などに付ける目印。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "大判の道具包みクロス",
+              "price": 1320,
+              "description": "道具をまとめて包める布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "行動食ナッツ 小袋",
+              "price": 280,
+              "description": "歩く途中にも食べやすいナッツ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "乾燥果実ミックス",
+              "price": 380,
+              "description": "数種類のドライフルーツ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "携帯ごみ袋 十枚",
+              "price": 220,
+              "description": "外出先のごみを持ち帰る袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "防水メモ帳",
+              "price": 660,
+              "description": "濡れにくい紙の小さな帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outdoor-3",
+      "name": "旅と散歩 風紡ぎ",
+      "category": "outdoor",
+      "description": "街歩きや小旅行の道具を集めた店。普段の服に合わせやすい鞄や携帯小物を扱う。",
+      "openingHours": "11:00〜20:00（月曜休）",
+      "locationType": "city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "街歩き",
+        "小旅行",
+        "携帯小物"
+      ],
+      "scene": {
+        "interior": "低い棚に畳んだ衣類と小さな道具が並ぶ。窓辺に鞄の試着用の鏡がある。",
+        "service": "持ち歩く物と普段の服を聞いて案内する。小物は鞄に収まるか確かめられる。",
+        "signature": "巻いてしまえる散歩バッグと口の広い保温ボトル",
+        "localFlavor": "休日の散歩客と旅行前の人が来る。近くの公園へ向かう途中に寄る常連もいる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "outdoor-3-section-1",
+          "title": "装備・ウェア",
+          "items": [
+            {
+              "name": "巻いてしまえる散歩バッグ",
+              "price": 3980,
+              "description": "使わない時に小さく巻ける鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "薄手の防風ジャケット",
+              "price": 5980,
+              "description": "風を遮る軽い上着。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ晴雨兼用傘",
+              "price": 3280,
+              "description": "日差しと雨に使う携帯傘。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ座布団",
+              "price": 880,
+              "description": "休憩に使う軽い座布団。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "軽量レインポンチョ",
+              "price": 1980,
+              "description": "小さく畳める雨よけの衣類。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "日よけハット",
+              "price": 2480,
+              "description": "つばの広い布の帽子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小型デイパック 十五リットル",
+              "price": 4980,
+              "description": "日帰りの荷物を入れる鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "outdoor-3-section-2",
+          "title": "食器・調理道具",
+          "items": [
+            {
+              "name": "口の広い保温ボトル",
+              "price": 2980,
+              "description": "飲料を入れやすい保温容器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "布巻きのピクニック食器",
+              "price": 1980,
+              "description": "布で包む一人分の食器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみコーヒードリッパー",
+              "price": 1480,
+              "description": "持ち歩き用の抽出器具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "ステンレスマグ",
+              "price": 990,
+              "description": "丈夫な金属の小さなカップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみスプーン",
+              "price": 660,
+              "description": "柄を畳める携帯用の匙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "ふた付き保存容器",
+              "price": 770,
+              "description": "食べ物を入れる小さな容器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "小型保冷バッグ",
+              "price": 1480,
+              "description": "飲料などを入れる保冷袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "outdoor-3-section-3",
+          "title": "小物・補給食",
+          "items": [
+            {
+              "name": "柑橘ピールの旅菓子",
+              "price": 420,
+              "description": "柑橘の皮を甘くした小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "旅程を書ける布タグ",
+              "price": 660,
+              "description": "予定を入れられる鞄用の札。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "小さな方位磁石キーホルダー",
+              "price": 990,
+              "description": "方角の目安を見る小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "行動食ナッツ 小袋",
+              "price": 280,
+              "description": "歩く途中にも食べやすいナッツ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "乾燥果実ミックス",
+              "price": 380,
+              "description": "数種類のドライフルーツ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "携帯ごみ袋 十枚",
+              "price": 220,
+              "description": "外出先のごみを持ち帰る袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "防水メモ帳",
+              "price": 660,
+              "description": "濡れにくい紙の小さな帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "outdoor-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

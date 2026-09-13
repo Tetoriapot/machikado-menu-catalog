@@ -5,8 +5,9 @@ import { defaultFilters,matchesFilters,sample,readIds,remember,menuText,gmText,p
 import type { Category,Shop,ShopSummary } from '../src/data/types.ts';
 const index=JSON.parse(readFileSync('src/data/generated-index.json','utf8')) as {categories:Category[];shops:ShopSummary[];itemCount:number};
 const allShops:Shop[]=readdirSync('src/data/shops').filter(f=>f.endsWith('.json')).flatMap(file=>JSON.parse(readFileSync(`src/data/shops/${file}`,'utf8')).shops);
-test('50カテゴリ・150店舗・3,154商品が揃い、全店に21品以上ある',()=>{
- assert.equal(index.categories.length,50);assert.equal(allShops.length,150);assert.equal(index.itemCount,3154);
+test('65カテゴリ・195店舗・4,099商品が揃い、全店に21品以上ある',()=>{
+ assert.equal(index.categories.length,65);assert.equal(allShops.length,195);assert.equal(index.itemCount,4099);
+ for(const category of index.categories)assert.equal(allShops.filter(s=>s.category===category.id).length,3,category.id);
  for(const shop of allShops)assert.ok(shop.menuSections.flatMap(section=>section.items).length>=21,shop.id);
  assert.equal(allShops.length,index.shops.length);
 });

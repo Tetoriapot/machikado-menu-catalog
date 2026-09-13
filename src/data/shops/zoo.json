@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "zoo",
+    "label": "動物園売店",
+    "group": "施設・娯楽",
+    "icon": "gift"
+  },
+  "shops": [
+    {
+      "id": "zoo-1",
+      "name": "こもれび動物園 森の売店",
+      "category": "zoo",
+      "description": "木々の多い動物園の入口にある売店。動物のぬいぐるみと見学用のノートを扱う。",
+      "openingHours": "9:00〜17:00（月曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "動物園",
+        "木陰",
+        "家族連れ"
+      ],
+      "scene": {
+        "interior": "木陰の建物にぬいぐるみが並ぶ。入口の外に親子で座れる長椅子がある。",
+        "service": "見たい動物を聞いて図案の品を案内する。小さな子には棚の下の品を見せる。",
+        "signature": "こもれびレッサーパンダぬいぐるみと森の動物さがしカード",
+        "localFlavor": "開園直後は見学用品、夕方はお土産の客が増える。遠足の列が店先を通る。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "zoo-1-section-1",
+          "title": "ぬいぐるみ・雑貨",
+          "items": [
+            {
+              "name": "こもれびレッサーパンダぬいぐるみ",
+              "price": 2420,
+              "description": "赤茶の毛色をした布の玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "ふくろうの布ブローチ",
+              "price": 880,
+              "description": "翼を畳んだ鳥の布製飾り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "木の実とりすのマグカップ",
+              "price": 1320,
+              "description": "りすと木の実の図案の器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "きりんのぬいぐるみ",
+              "price": 1980,
+              "description": "首の長い動物の布製玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "しまうまキーホルダー",
+              "price": 660,
+              "description": "しま模様の小さな飾り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "動物足跡ハンカチ",
+              "price": 770,
+              "description": "足跡の模様を描いた布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "園名入りトートバッグ",
+              "price": 1650,
+              "description": "架空の園名を入れた袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "zoo-1-section-2",
+          "title": "観察・紙もの",
+          "items": [
+            {
+              "name": "森の動物さがしカード",
+              "price": 550,
+              "description": "園内で観察する題材のカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "ふくろうの一筆箋",
+              "price": 440,
+              "description": "鳥の図案を添えた短い便箋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "こもれび観察色鉛筆 六色",
+              "price": 660,
+              "description": "見た色を記録する小さな組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "動物観察ノート",
+              "price": 440,
+              "description": "見つけた動物を記録する帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "園内マップのポストカード",
+              "price": 330,
+              "description": "架空の園内地図を描くカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "動物シール 十二枚",
+              "price": 330,
+              "description": "動物の姿を描いたシール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "足跡模様の鉛筆 二本",
+              "price": 220,
+              "description": "軸に足跡を描いた鉛筆。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "zoo-1-section-3",
+          "title": "軽食・飲みもの",
+          "items": [
+            {
+              "name": "りすの胡桃パン",
+              "price": 420,
+              "description": "胡桃を混ぜて丸く焼いたパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "zoo-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "森のりんごミルク",
+              "price": 380,
+              "description": "りんご風味の冷たいミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "ふくろう顔のミニケーキ",
+              "price": 480,
+              "description": "鳥の顔を描いた小さな菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "zoo-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "ホットドッグ",
+              "price": 580,
+              "description": "ソーセージをパンに挟む軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "zoo-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ポテトカップ",
+              "price": 380,
+              "description": "食べ歩き用のポテトフライ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "zoo-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 320,
+              "description": "冷たい果実飲料をカップで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "麦茶ペットボトル",
+              "price": 180,
+              "description": "見学中に持ち歩けるお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zoo-2",
+      "name": "草原サファリパーク 風のショップ",
+      "category": "zoo",
+      "description": "広い草原風の園内にある売店。ドライブ見学の前後に買える土産と軽食を揃える。",
+      "openingHours": "9:30〜17:30（園の営業日に準ずる）",
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "サファリパーク",
+        "ドライブ",
+        "観光"
+      ],
+      "scene": {
+        "interior": "高い天井の売り場に動物の大きな看板がある。窓から園内バスの停留所が見える。",
+        "service": "車内で使う物と土産を分けて包む。ぬいぐるみの大きさを手に取って比べられる。",
+        "signature": "草原ライオンのたてがみクッションと草原の動物図鑑ミニ版",
+        "localFlavor": "見学を終えた家族が立ち寄る。バスの発車時刻が近づくと会計の列が動く。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "zoo-2-section-1",
+          "title": "ぬいぐるみ・雑貨",
+          "items": [
+            {
+              "name": "草原ライオンのたてがみクッション",
+              "price": 2980,
+              "description": "ライオンの顔を模したクッション。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "象の鼻形ボトルホルダー",
+              "price": 1100,
+              "description": "持ち歩く瓶に付ける布の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "サファリ車のミニ玩具",
+              "price": 990,
+              "description": "架空の園内車を模した玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "きりんのぬいぐるみ",
+              "price": 1980,
+              "description": "首の長い動物の布製玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "しまうまキーホルダー",
+              "price": 660,
+              "description": "しま模様の小さな飾り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "動物足跡ハンカチ",
+              "price": 770,
+              "description": "足跡の模様を描いた布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "園名入りトートバッグ",
+              "price": 1650,
+              "description": "架空の園名を入れた袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "zoo-2-section-2",
+          "title": "観察・紙もの",
+          "items": [
+            {
+              "name": "草原の動物図鑑ミニ版",
+              "price": 1320,
+              "description": "架空の園の観察向け小冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "サファリドライブ記録帳",
+              "price": 660,
+              "description": "見学した順番を記す帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "蹄と肉球のスタンプセット",
+              "price": 880,
+              "description": "足跡を押せる小さなスタンプ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "動物観察ノート",
+              "price": 440,
+              "description": "見つけた動物を記録する帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "園内マップのポストカード",
+              "price": 330,
+              "description": "架空の園内地図を描くカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "動物シール 十二枚",
+              "price": 330,
+              "description": "動物の姿を描いたシール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "足跡模様の鉛筆 二本",
+              "price": 220,
+              "description": "軸に足跡を描いた鉛筆。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "zoo-2-section-3",
+          "title": "軽食・飲みもの",
+          "items": [
+            {
+              "name": "草原チキンのピタサンド",
+              "price": 780,
+              "description": "焼いた鶏と野菜をパンに詰める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "zoo-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "夕焼けマンゴーソーダ",
+              "price": 450,
+              "description": "マンゴー風味の冷たい炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "しましまチョコチュロス",
+              "price": 420,
+              "description": "チョコでしま模様を描く菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "zoo-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "ホットドッグ",
+              "price": 580,
+              "description": "ソーセージをパンに挟む軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "zoo-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ポテトカップ",
+              "price": 380,
+              "description": "食べ歩き用のポテトフライ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "zoo-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 320,
+              "description": "冷たい果実飲料をカップで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "麦茶ペットボトル",
+              "price": 180,
+              "description": "見学中に持ち歩けるお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zoo-3",
+      "name": "水辺どうぶつ園 まるい足あと",
+      "category": "zoo",
+      "description": "池のまわりを歩く小さな動物園の売店。水辺の動物を題材にした品と休憩の飲料が中心。",
+      "openingHours": "9:00〜16:30（火曜休）",
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "池のほとり",
+        "小さな動物園",
+        "散歩"
+      ],
+      "scene": {
+        "interior": "池を望む窓に低い棚が続く。外の休憩席にカラフルな日よけが立っている。",
+        "service": "散歩の途中か帰り際かを聞いて包む。冷たい品は受け取りやすいトレーに載せる。",
+        "signature": "まるいカピバラぬいぐるみと池の生き物ぬりえ帳",
+        "localFlavor": "地元の親子が繰り返し訪れる。午後は池を眺めて休む年配の客も多い。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "zoo-3-section-1",
+          "title": "ぬいぐるみ・雑貨",
+          "items": [
+            {
+              "name": "まるいカピバラぬいぐるみ",
+              "price": 2200,
+              "description": "丸い姿のカピバラの布玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "カワウソの小さなポーチ",
+              "price": 1320,
+              "description": "動物の顔を付けた小物入れ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "水鳥の羽柄タオル",
+              "price": 880,
+              "description": "羽の図案を入れた小さなタオル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "きりんのぬいぐるみ",
+              "price": 1980,
+              "description": "首の長い動物の布製玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "しまうまキーホルダー",
+              "price": 660,
+              "description": "しま模様の小さな飾り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "動物足跡ハンカチ",
+              "price": 770,
+              "description": "足跡の模様を描いた布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "園名入りトートバッグ",
+              "price": 1650,
+              "description": "架空の園名を入れた袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "zoo-3-section-2",
+          "title": "観察・紙もの",
+          "items": [
+            {
+              "name": "池の生き物ぬりえ帳",
+              "price": 550,
+              "description": "水辺を題材にしたぬりえ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "カワウソ便箋と封筒",
+              "price": 660,
+              "description": "水遊びする姿を描いた便箋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "まるい足あとメモカード",
+              "price": 440,
+              "description": "動物の足跡形のメモ用紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "動物観察ノート",
+              "price": 440,
+              "description": "見つけた動物を記録する帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "園内マップのポストカード",
+              "price": 330,
+              "description": "架空の園内地図を描くカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "動物シール 十二枚",
+              "price": 330,
+              "description": "動物の姿を描いたシール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "足跡模様の鉛筆 二本",
+              "price": 220,
+              "description": "軸に足跡を描いた鉛筆。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "zoo-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "zoo-3-section-3",
+          "title": "軽食・飲みもの",
+          "items": [
+            {
+              "name": "カピバラ顔のあんぱん",
+              "price": 380,
+              "description": "動物の顔を描いた餡入りパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "zoo-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "水辺の青りんごフロート",
+              "price": 480,
+              "description": "青りんごソーダにアイスを載せる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "小さな水鳥バニラワッフル",
+              "price": 420,
+              "description": "鳥の形で焼いたワッフル。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "zoo-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "ホットドッグ",
+              "price": 580,
+              "description": "ソーセージをパンに挟む軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "zoo-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ポテトカップ",
+              "price": 380,
+              "description": "食べ歩き用のポテトフライ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "zoo-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "オレンジジュース",
+              "price": 320,
+              "description": "冷たい果実飲料をカップで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "麦茶ペットボトル",
+              "price": 180,
+              "description": "見学中に持ち歩けるお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "zoo-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

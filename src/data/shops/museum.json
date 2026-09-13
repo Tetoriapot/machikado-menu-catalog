@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "museum",
+    "label": "博物館売店",
+    "group": "施設・娯楽",
+    "icon": "building"
+  },
+  "shops": [
+    {
+      "id": "museum-1",
+      "name": "白波郷土館 ミュージアムショップ",
+      "category": "museum",
+      "description": "架空の港町の歴史を伝える郷土館の売店。古地図や町の暮らしを題材にした品を揃える。",
+      "openingHours": "9:30〜17:00（月曜休）",
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "郷土史",
+        "古地図",
+        "港町"
+      ],
+      "scene": {
+        "interior": "展示室出口の低い棚に紙ものが並ぶ。窓の外に昔の倉庫を移した広場が見える。",
+        "service": "展示で気になった題材を聞いて図録を案内する。紙ものは折れないよう厚紙を添える。",
+        "signature": "復刻風地図『白波港の百年』と帆掛け船の紙模型",
+        "localFlavor": "町の学校の見学客と旅の人が訪れる。地域の昔話を知る住民が店員に声をかける。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "museum-1-section-1",
+          "title": "図録・紙もの",
+          "items": [
+            {
+              "name": "復刻風地図『白波港の百年』",
+              "price": 1100,
+              "description": "架空の港の変遷を描く地図。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "聞き書き集『町の仕事と一日』",
+              "price": 1540,
+              "description": "架空の町の職業を綴る冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "昔の商店看板カード",
+              "price": 660,
+              "description": "架空商店の看板を描いたカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "常設展示の小図録",
+              "price": 1320,
+              "description": "架空の常設展示をまとめた冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "展示ポストカード 五枚",
+              "price": 550,
+              "description": "展示物の図案を刷ったカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "観察ノート",
+              "price": 440,
+              "description": "見た物を描ける無地の帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "展示室マップしおり",
+              "price": 330,
+              "description": "架空の館内地図を描いたしおり。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "museum-1-section-2",
+          "title": "標本風グッズ・工作",
+          "items": [
+            {
+              "name": "帆掛け船の紙模型",
+              "price": 990,
+              "description": "小さな帆船を組む工作セット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "旧駅舎の木製マグネット",
+              "price": 770,
+              "description": "架空の旧駅舎をかたどる小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "港の石畳柄ハンカチ",
+              "price": 880,
+              "description": "石畳の図案を刷った布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "鉱石風アクリルキーホルダー",
+              "price": 660,
+              "description": "鉱石の形を模した透明小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "土器模様のマグネット",
+              "price": 550,
+              "description": "土器の模様を入れた磁石。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "紙の建物工作セット",
+              "price": 880,
+              "description": "架空の建物を組み立てる紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "館名入りトートバッグ",
+              "price": 1650,
+              "description": "架空の館名を刷った布袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "museum-1-section-3",
+          "title": "菓子・飲みもの",
+          "items": [
+            {
+              "name": "白波の塩キャラメル包み",
+              "price": 580,
+              "description": "塩味を添えた個包装の菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "港町の柑橘サイダー",
+              "price": 380,
+              "description": "柑橘風味の瓶入り炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "倉庫の形の焼き菓子",
+              "price": 780,
+              "description": "小さな倉庫形の箱入り菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "展示モチーフクッキー",
+              "price": 880,
+              "description": "展示をかたどった箱入り菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "小袋チョコレート",
+              "price": 380,
+              "description": "持ち帰りやすい小さな菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "ミネラルウォーター 小瓶",
+              "price": 180,
+              "description": "見学の休憩に飲む小瓶の水。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "休憩室の珈琲",
+              "price": 380,
+              "description": "カップで提供する温かい珈琲。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "museum-2",
+      "name": "星草自然史館 ショップ",
+      "category": "museum",
+      "description": "鉱物や古い生き物を扱う架空の自然史館の売店。観察と工作につながる品が並ぶ。",
+      "openingHours": "9:00〜17:00（火曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "自然史",
+        "鉱物",
+        "観察"
+      ],
+      "scene": {
+        "interior": "透明なケースに模型を入れ、低い棚に工作箱を積む。天井から紙の恐竜が下がる。",
+        "service": "本物の標本と模型の違いを案内する。工作品は難しさと対象年齢を表示する。",
+        "signature": "図録『星草の地層をたどる』とアンモナイトの複製模型",
+        "localFlavor": "遠足の子どもが小さな品を選ぶ。休日は展示を見た家族が工作箱を囲む。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "museum-2-section-1",
+          "title": "図録・紙もの",
+          "items": [
+            {
+              "name": "図録『星草の地層をたどる』",
+              "price": 1980,
+              "description": "架空地域の地層を扱う図録。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "古生物スケッチカード",
+              "price": 660,
+              "description": "古い生き物を描く観察カード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "鉱物の色見本ノート",
+              "price": 770,
+              "description": "鉱物の色を図案にした帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "常設展示の小図録",
+              "price": 1320,
+              "description": "架空の常設展示をまとめた冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "展示ポストカード 五枚",
+              "price": 550,
+              "description": "展示物の図案を刷ったカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "観察ノート",
+              "price": 440,
+              "description": "見た物を描ける無地の帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "展示室マップしおり",
+              "price": 330,
+              "description": "架空の館内地図を描いたしおり。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "museum-2-section-2",
+          "title": "標本風グッズ・工作",
+          "items": [
+            {
+              "name": "アンモナイトの複製模型",
+              "price": 1320,
+              "description": "化石の形を模した模型。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "結晶形の紙工作キット",
+              "price": 880,
+              "description": "結晶の形を組み立てる紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "葉脈観察用ルーペ",
+              "price": 990,
+              "description": "葉の細部を見る小さな拡大鏡。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "鉱石風アクリルキーホルダー",
+              "price": 660,
+              "description": "鉱石の形を模した透明小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "土器模様のマグネット",
+              "price": 550,
+              "description": "土器の模様を入れた磁石。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "紙の建物工作セット",
+              "price": 880,
+              "description": "架空の建物を組み立てる紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "館名入りトートバッグ",
+              "price": 1650,
+              "description": "架空の館名を刷った布袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "museum-2-section-3",
+          "title": "菓子・飲みもの",
+          "items": [
+            {
+              "name": "地層しましまバウム 小箱",
+              "price": 980,
+              "description": "層の模様を楽しむ焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "琥珀色のりんごソーダ",
+              "price": 380,
+              "description": "りんご風味の金色の炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "化石形のココアビスケット",
+              "price": 580,
+              "description": "化石の形に焼いた菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "展示モチーフクッキー",
+              "price": 880,
+              "description": "展示をかたどった箱入り菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "小袋チョコレート",
+              "price": 380,
+              "description": "持ち帰りやすい小さな菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "ミネラルウォーター 小瓶",
+              "price": 180,
+              "description": "見学の休憩に飲む小瓶の水。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "休憩室の珈琲",
+              "price": 380,
+              "description": "カップで提供する温かい珈琲。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "museum-3",
+      "name": "時計と道具の博物館 針の売店",
+      "category": "museum",
+      "description": "時計や暮らしの道具を展示する小さな博物館の売店。仕組みを楽しむ模型や紙ものを扱う。",
+      "openingHours": "10:00〜17:30（水曜休）",
+      "locationType": "tourist",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "時計",
+        "道具",
+        "工作"
+      ],
+      "scene": {
+        "interior": "歯車の飾りの下に商品棚が並ぶ。カウンターの奥で古い時計が時を刻む。",
+        "service": "動く模型は手を添えて試せる。組み立て品には説明書の見本を用意する。",
+        "signature": "図録『暮らしを動かす小さな機械』と手回し歯車の木製模型",
+        "localFlavor": "古い道具に興味のある人が訪れる。見学後の親子が仕組みを話しながら品を選ぶ。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "museum-3-section-1",
+          "title": "図録・紙もの",
+          "items": [
+            {
+              "name": "図録『暮らしを動かす小さな機械』",
+              "price": 1760,
+              "description": "架空展示の道具を紹介する冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "時計文字盤の便箋",
+              "price": 550,
+              "description": "時計の数字を図案にした紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "歯車の仕組み解説カード",
+              "price": 880,
+              "description": "動きの仕組みを描いたカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "常設展示の小図録",
+              "price": 1320,
+              "description": "架空の常設展示をまとめた冊子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "展示ポストカード 五枚",
+              "price": 550,
+              "description": "展示物の図案を刷ったカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "観察ノート",
+              "price": 440,
+              "description": "見た物を描ける無地の帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "展示室マップしおり",
+              "price": 330,
+              "description": "架空の館内地図を描いたしおり。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "museum-3-section-2",
+          "title": "標本風グッズ・工作",
+          "items": [
+            {
+              "name": "手回し歯車の木製模型",
+              "price": 2420,
+              "description": "手で回して動きを見る模型。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "振り子時計の紙工作",
+              "price": 1100,
+              "description": "形を組み立てる紙の工作。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "小さなねじ型キーホルダー",
+              "price": 660,
+              "description": "ねじの形の金属製小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "鉱石風アクリルキーホルダー",
+              "price": 660,
+              "description": "鉱石の形を模した透明小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "土器模様のマグネット",
+              "price": 550,
+              "description": "土器の模様を入れた磁石。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "紙の建物工作セット",
+              "price": 880,
+              "description": "架空の建物を組み立てる紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "館名入りトートバッグ",
+              "price": 1650,
+              "description": "架空の館名を刷った布袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "museum-3-section-3",
+          "title": "菓子・飲みもの",
+          "items": [
+            {
+              "name": "歯車ショコラの小箱",
+              "price": 880,
+              "description": "歯車をかたどったチョコ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "時計台のホットココア",
+              "price": 450,
+              "description": "休憩室で提供する温かいココア。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "針の売店の紅茶缶",
+              "price": 990,
+              "description": "時計の絵の缶に入れた茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "展示モチーフクッキー",
+              "price": 880,
+              "description": "展示をかたどった箱入り菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "小袋チョコレート",
+              "price": 380,
+              "description": "持ち帰りやすい小さな菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "museum-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "ミネラルウォーター 小瓶",
+              "price": 180,
+              "description": "見学の休憩に飲む小瓶の水。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "休憩室の珈琲",
+              "price": 380,
+              "description": "カップで提供する温かい珈琲。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "museum-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

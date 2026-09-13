@@ -1,0 +1,704 @@
+{
+  "category": {
+    "id": "music-store",
+    "label": "楽器店",
+    "group": "小売店",
+    "icon": "mic"
+  },
+  "shops": [
+    {
+      "id": "music-store-1",
+      "name": "弦楽器店 六本の糸",
+      "category": "music-store",
+      "description": "ライブハウス近くのギター中心の楽器店。交換弦と演奏前の小物を一つずつ揃えられる。",
+      "openingHours": "12:00〜21:00（火曜休）",
+      "locationType": "city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "ギター",
+        "ライブ前",
+        "弦楽器"
+      ],
+      "scene": {
+        "interior": "壁にギターが並び、試奏用の椅子と小さなアンプを置く。奥には調整用の作業台。",
+        "service": "弾く音楽と予算を聞いて案内する。試奏前に音量と使う席を確認する。",
+        "signature": "小ぶりなフォークギターと革端のギターストラップ",
+        "localFlavor": "演奏前のバンド客と初心者が交じる。夜は弦が切れて駆け込む客もいる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "music-store-1-section-1",
+          "title": "楽器",
+          "items": [
+            {
+              "name": "小ぶりなフォークギター",
+              "price": 24800,
+              "description": "抱えやすい胴の入門ギター。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "ショートスケールベース",
+              "price": 32800,
+              "description": "弦の長さが短めのベース。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "金属製カズー",
+              "price": 880,
+              "description": "声を響かせて鳴らす小楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "入門用ソプラノウクレレ",
+              "price": 8800,
+              "description": "練習を始める方向けの楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "小型鍵盤ハーモニカ",
+              "price": 4980,
+              "description": "息を吹き込んで弾く小型鍵盤。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "木製タンバリン",
+              "price": 1480,
+              "description": "手で振ったり打ったりする楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小さなシェイカー 二本",
+              "price": 660,
+              "description": "振って音を鳴らす打楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-1-section-2",
+          "title": "消耗品・周辺用品",
+          "items": [
+            {
+              "name": "革端のギターストラップ",
+              "price": 2480,
+              "description": "肩に掛けて楽器を支える帯。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "三メートル楽器シールド",
+              "price": 1980,
+              "description": "楽器とアンプをつなぐ線。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "ばね式カポタスト",
+              "price": 1480,
+              "description": "弦を押さえる位置を変える小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "ギターピック 三枚",
+              "price": 330,
+              "description": "厚みの違うピックの組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "アコースティック弦 一組",
+              "price": 990,
+              "description": "六本組の交換用ギター弦。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "クリップチューナー",
+              "price": 1980,
+              "description": "楽器に挟んで調弦する機器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ譜面台",
+              "price": 1980,
+              "description": "高さを変えられる譜面台。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-1-section-3",
+          "title": "楽譜・小物・サービス",
+          "items": [
+            {
+              "name": "架空曲集『路地の六弦』",
+              "price": 1650,
+              "description": "架空の練習曲を収めた楽譜。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "ギター弦交換工賃 一台",
+              "price": 1100,
+              "description": "ギター一台の弦交換。弦代別。",
+              "kind": "service",
+              "id": "music-store-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "六本の糸ピックケース",
+              "price": 550,
+              "description": "小さなピックを入れるケース。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "五線ノート",
+              "price": 330,
+              "description": "音符を書き込めるノート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "楽器用クロス",
+              "price": 660,
+              "description": "楽器を拭く柔らかな布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "譜面クリップ 二個",
+              "price": 440,
+              "description": "譜面の端を留める小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "音符柄の筆箱",
+              "price": 880,
+              "description": "文具を入れる布の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-store-2",
+      "name": "音楽用品 奏で棚",
+      "category": "music-store",
+      "description": "学校の近くで授業や部活動の楽器を扱う店。小さな楽器と譜面用品が見やすく並ぶ。",
+      "openingHours": "10:00〜19:00（日曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "学校近く",
+        "部活動",
+        "練習用品"
+      ],
+      "scene": {
+        "interior": "入口に打楽器の見本、奥に譜面棚がある。カウンターに学校別の注文箱が置かれる。",
+        "service": "使う授業や楽器の型を確認する。消耗品は対応表を見せて案内する。",
+        "signature": "樹脂製アルトリコーダーと管楽器用スワブ",
+        "localFlavor": "放課後には学生が数人で来る。新学期は家族と一緒に楽器を選ぶ客が増える。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "music-store-2-section-1",
+          "title": "楽器",
+          "items": [
+            {
+              "name": "樹脂製アルトリコーダー",
+              "price": 2980,
+              "description": "学校や合奏で使う縦笛。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "卓上木琴 十二音",
+              "price": 5980,
+              "description": "机に置く小さな木琴。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "練習用メロディベル 八音",
+              "price": 3980,
+              "description": "八つの音を鳴らすベルの組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "入門用ソプラノウクレレ",
+              "price": 8800,
+              "description": "練習を始める方向けの楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "小型鍵盤ハーモニカ",
+              "price": 4980,
+              "description": "息を吹き込んで弾く小型鍵盤。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "木製タンバリン",
+              "price": 1480,
+              "description": "手で振ったり打ったりする楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小さなシェイカー 二本",
+              "price": 660,
+              "description": "振って音を鳴らす打楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-2-section-2",
+          "title": "消耗品・周辺用品",
+          "items": [
+            {
+              "name": "管楽器用スワブ",
+              "price": 990,
+              "description": "対応する管の内側を拭く布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "ドラム練習スティック 一組",
+              "price": 1320,
+              "description": "練習に使う木のスティック。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "リード保管ケース",
+              "price": 1650,
+              "description": "対応サイズのリードをしまう箱。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "ギターピック 三枚",
+              "price": 330,
+              "description": "厚みの違うピックの組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "アコースティック弦 一組",
+              "price": 990,
+              "description": "六本組の交換用ギター弦。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "クリップチューナー",
+              "price": 1980,
+              "description": "楽器に挟んで調弦する機器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ譜面台",
+              "price": 1980,
+              "description": "高さを変えられる譜面台。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-2-section-3",
+          "title": "楽譜・小物・サービス",
+          "items": [
+            {
+              "name": "架空合奏曲集『放課後の窓』",
+              "price": 1320,
+              "description": "架空の小編成合奏の楽譜。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "名前札付き楽譜バッグ",
+              "price": 1980,
+              "description": "譜面を持ち歩く平たい鞄。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "鍵盤ハーモニカ用交換ホース",
+              "price": 770,
+              "description": "対応機種に付ける交換部品。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "五線ノート",
+              "price": 330,
+              "description": "音符を書き込めるノート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "楽器用クロス",
+              "price": 660,
+              "description": "楽器を拭く柔らかな布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "譜面クリップ 二個",
+              "price": 440,
+              "description": "譜面の端を留める小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "音符柄の筆箱",
+              "price": 880,
+              "description": "文具を入れる布の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music-store-3",
+      "name": "音の古道具 リズム箱",
+      "category": "music-store",
+      "description": "町の裏通りにある中古楽器と小物の店。年季の入った楽器を状態の説明とともに扱う。",
+      "openingHours": "13:00〜20:00（水曜休）",
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "中古楽器",
+        "裏通り",
+        "打楽器"
+      ],
+      "scene": {
+        "interior": "棚に中古の楽器と札が並ぶ。古い演奏会の架空ポスターが壁に重なっている。",
+        "service": "傷や付属品の有無を最初に示す。音を試すときは店員が楽器を取り出す。",
+        "signature": "中古ミニアコーディオンと太鼓用交換ストラップ",
+        "localFlavor": "町の音楽好きが掘り出し物を探す。使わなくなった楽器を相談に持つ人も来る。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "music-store-3-section-1",
+          "title": "楽器",
+          "items": [
+            {
+              "name": "中古ミニアコーディオン",
+              "price": 16800,
+              "description": "外装に擦れのある小型楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "中古ボンゴ 二連",
+              "price": 8800,
+              "description": "二つの太鼓を組み合わせた楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "木製カリンバ 十七音",
+              "price": 4980,
+              "description": "金属の板を指で弾く楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "入門用ソプラノウクレレ",
+              "price": 8800,
+              "description": "練習を始める方向けの楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "小型鍵盤ハーモニカ",
+              "price": 4980,
+              "description": "息を吹き込んで弾く小型鍵盤。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "木製タンバリン",
+              "price": 1480,
+              "description": "手で振ったり打ったりする楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小さなシェイカー 二本",
+              "price": 660,
+              "description": "振って音を鳴らす打楽器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-3-section-2",
+          "title": "消耗品・周辺用品",
+          "items": [
+            {
+              "name": "太鼓用交換ストラップ",
+              "price": 1480,
+              "description": "対応する太鼓を支える帯。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "古色仕上げのスライドバー",
+              "price": 1320,
+              "description": "ギターの弦を滑らせる道具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "小型パーカッション収納袋",
+              "price": 1980,
+              "description": "小さな打楽器をまとめる袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "ギターピック 三枚",
+              "price": 330,
+              "description": "厚みの違うピックの組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "アコースティック弦 一組",
+              "price": 990,
+              "description": "六本組の交換用ギター弦。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "クリップチューナー",
+              "price": 1980,
+              "description": "楽器に挟んで調弦する機器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "折りたたみ譜面台",
+              "price": 1980,
+              "description": "高さを変えられる譜面台。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "music-store-3-section-3",
+          "title": "楽譜・小物・サービス",
+          "items": [
+            {
+              "name": "架空古楽譜『港のワルツ』",
+              "price": 880,
+              "description": "架空曲の中古風の紙の楽譜。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "中古楽器の店頭調整見積もり",
+              "price": 550,
+              "description": "状態を見て作業内容を見積もる。",
+              "kind": "service",
+              "id": "music-store-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "鍵盤柄の布しおり",
+              "price": 330,
+              "description": "楽譜に挟める細い布のしおり。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "五線ノート",
+              "price": 330,
+              "description": "音符を書き込めるノート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "楽器用クロス",
+              "price": 660,
+              "description": "楽器を拭く柔らかな布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "譜面クリップ 二個",
+              "price": 440,
+              "description": "譜面の端を留める小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "音符柄の筆箱",
+              "price": 880,
+              "description": "文具を入れる布の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "music-store-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "takoyaki",
+    "label": "たこ焼き屋",
+    "group": "テイクアウト",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "takoyaki-1",
+      "name": "たこ焼き まるだまり",
+      "category": "takoyaki",
+      "description": "商店街の八百屋の隣にあるたこ焼き店。子どもが小遣いで買える小さな包みもある。",
+      "openingHours": "11:00〜19:00（木曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "cheap",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "商店街",
+        "おやつ",
+        "小さな包み"
+      ],
+      "scene": {
+        "interior": "鉄板の前に赤い暖簾が下がる。店先の長椅子に買い物袋を抱えた人が座る。",
+        "service": "焼き上がりまでの時間を伝える。子どもの包みには冷ますための小皿を添える。",
+        "signature": "まるだまりの甘口四個包みと小玉お好み焼き",
+        "localFlavor": "放課後と夕方の買い物時に賑わう。隣の店の呼び声が鉄板の音に交じる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "takoyaki-1-section-1",
+          "title": "たこ焼き",
+          "items": [
+            {
+              "name": "まるだまりの甘口四個包み",
+              "price": 320,
+              "description": "甘口ソースを使った少量の包み。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "青海苔バター醤油 六個",
+              "price": 580,
+              "description": "青海苔とバター醤油の六個入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "桜海老ねぎたこ 六個",
+              "price": 620,
+              "description": "桜海老とねぎを表面に散らす。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "ソースたこ焼き 六個",
+              "price": 480,
+              "description": "甘辛いソースの基本のたこ焼き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "だし醤油たこ焼き 六個",
+              "price": 480,
+              "description": "だし醤油で仕上げた六個入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "ねぎ塩たこ焼き 六個",
+              "price": 550,
+              "description": "ねぎと塩だれを載せた一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "おろしポン酢たこ焼き 六個",
+              "price": 550,
+              "description": "大根おろしとポン酢を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "takoyaki-1-section-2",
+          "title": "鉄板おやつ・小皿",
+          "items": [
+            {
+              "name": "小玉お好み焼き",
+              "price": 420,
+              "description": "野菜入りの小さなお好み焼き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "焼きとうもろこし半本",
+              "price": 280,
+              "description": "とうもろこしを甘辛く焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "じゃがいもの鉄板もち",
+              "price": 320,
+              "description": "つぶした芋の餅を鉄板で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "いか焼き 一枚",
+              "price": 380,
+              "description": "いか入りの薄い生地を焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ソース焼きそば 小",
+              "price": 480,
+              "description": "ソース味の麺を少量で提供。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "串フランク",
+              "price": 280,
+              "description": "太めのソーセージを串で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "えびせんサンド",
+              "price": 280,
+              "description": "えびせんでたこ焼きを挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "takoyaki-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "みかん氷の小カップ",
+              "price": 280,
+              "description": "みかん風味のかき氷を少量で。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "takoyaki-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "こども苺ミルク",
+              "price": 240,
+              "description": "小さなカップの甘い苺ミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "冷たい梅ソーダ",
+              "price": 280,
+              "description": "梅風味のシロップを炭酸で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "瓶ラムネ",
+              "price": 220,
+              "description": "玉入り瓶の冷たいラムネ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ウーロン茶カップ",
+              "price": 180,
+              "description": "冷たいお茶をカップで提供。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "オレンジソーダ",
+              "price": 250,
+              "description": "オレンジ風味の炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ミニバニラカップ",
+              "price": 240,
+              "description": "持ち帰り用の小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "takoyaki-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "takoyaki-2",
+      "name": "鉄板たこ焼き 夜舟丸",
+      "category": "takoyaki",
+      "description": "駅から繁華街へ向かう角にある店。帰宅前の小腹を満たす夜のたこ焼きが中心。",
+      "openingHours": "16:00〜翌1:00（日曜休）",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "夜食",
+        "駅前",
+        "鉄板"
+      ],
+      "scene": {
+        "interior": "店先に立って食べられる細い台がある。窓の横に番号札を掛ける板が置かれる。",
+        "service": "包みか店先で食べるかを聞く。混む時間は番号順に大きな声で呼ぶ。",
+        "signature": "夜舟の辛味ねぎたこ 八個と豚キムチの小焼きそば",
+        "localFlavor": "仕事帰りの客が短く立ち寄る。終電近くには飲食店の帰り客が並ぶ。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "takoyaki-2-section-1",
+          "title": "たこ焼き",
+          "items": [
+            {
+              "name": "夜舟の辛味ねぎたこ 八個",
+              "price": 780,
+              "description": "辛いねぎだれをかけた八個入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "燻製塩とレモン 六個",
+              "price": 620,
+              "description": "燻製風味の塩にレモンを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "明太とろろたこ 六個",
+              "price": 680,
+              "description": "明太風味のとろろを載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "ソースたこ焼き 六個",
+              "price": 480,
+              "description": "甘辛いソースの基本のたこ焼き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "だし醤油たこ焼き 六個",
+              "price": 480,
+              "description": "だし醤油で仕上げた六個入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "ねぎ塩たこ焼き 六個",
+              "price": 550,
+              "description": "ねぎと塩だれを載せた一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "おろしポン酢たこ焼き 六個",
+              "price": 550,
+              "description": "大根おろしとポン酢を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "takoyaki-2-section-2",
+          "title": "鉄板おやつ・小皿",
+          "items": [
+            {
+              "name": "豚キムチの小焼きそば",
+              "price": 620,
+              "description": "豚とキムチの麺を小皿で。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "たこぶつのバター鉄板",
+              "price": 580,
+              "description": "たこのぶつ切りをバターで焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "ねぎ玉のだし巻き焼き",
+              "price": 480,
+              "description": "ねぎ入りの卵を鉄板で巻く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "いか焼き 一枚",
+              "price": 380,
+              "description": "いか入りの薄い生地を焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ソース焼きそば 小",
+              "price": 480,
+              "description": "ソース味の麺を少量で提供。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "串フランク",
+              "price": 280,
+              "description": "太めのソーセージを串で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "えびせんサンド",
+              "price": 280,
+              "description": "えびせんでたこ焼きを挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "takoyaki-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "夜舟レモンハイ",
+              "price": 450,
+              "description": "レモン風味の焼酎炭酸割り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "冷やしジンジャー麦茶",
+              "price": 280,
+              "description": "麦茶に生姜の香りを添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "黒胡麻の小さなアイス",
+              "price": 280,
+              "description": "黒胡麻風味の食べ切りアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "takoyaki-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "瓶ラムネ",
+              "price": 220,
+              "description": "玉入り瓶の冷たいラムネ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ウーロン茶カップ",
+              "price": 180,
+              "description": "冷たいお茶をカップで提供。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "オレンジソーダ",
+              "price": 250,
+              "description": "オレンジ風味の炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ミニバニラカップ",
+              "price": 240,
+              "description": "持ち帰り用の小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "takoyaki-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "takoyaki-3",
+      "name": "たこ焼き 風のひろば",
+      "category": "takoyaki",
+      "description": "公園の入口にある持ち帰り店。散歩の途中に分けられる盛り合わせを用意する。",
+      "openingHours": "10:00〜18:00（火曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "公園前",
+        "家族連れ",
+        "盛り合わせ"
+      ],
+      "scene": {
+        "interior": "緑色の庇の下に受け渡し窓がある。公園側に紙ナプキンとごみ箱を置く。",
+        "service": "人数を聞いて楊枝と小皿を添える。散歩中の客には持ちやすい箱にする。",
+        "signature": "三つの味のピクニック箱 十二個と野菜たっぷりミニモダン焼き",
+        "localFlavor": "休日は親子連れと散歩の人が集まる。雨の日は焼く数を少なめに調整する。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "takoyaki-3-section-1",
+          "title": "たこ焼き",
+          "items": [
+            {
+              "name": "三つの味のピクニック箱 十二個",
+              "price": 1080,
+              "description": "ソースと塩と醤油を四個ずつ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "コーンチーズたこ 六個",
+              "price": 620,
+              "description": "コーンとチーズを載せて焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "柚子味噌たこ 六個",
+              "price": 580,
+              "description": "柚子の香る味噌だれで仕上げる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "ソースたこ焼き 六個",
+              "price": 480,
+              "description": "甘辛いソースの基本のたこ焼き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "だし醤油たこ焼き 六個",
+              "price": 480,
+              "description": "だし醤油で仕上げた六個入り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "ねぎ塩たこ焼き 六個",
+              "price": 550,
+              "description": "ねぎと塩だれを載せた一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "おろしポン酢たこ焼き 六個",
+              "price": 550,
+              "description": "大根おろしとポン酢を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "takoyaki-3-section-2",
+          "title": "鉄板おやつ・小皿",
+          "items": [
+            {
+              "name": "野菜たっぷりミニモダン焼き",
+              "price": 580,
+              "description": "野菜と麺を小さく焼き上げる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "おいも塩バター串",
+              "price": 320,
+              "description": "芋を串にして塩バターを添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "小海老の鉄板せんべい",
+              "price": 350,
+              "description": "小海老の生地を薄く焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "いか焼き 一枚",
+              "price": 380,
+              "description": "いか入りの薄い生地を焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ソース焼きそば 小",
+              "price": 480,
+              "description": "ソース味の麺を少量で提供。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "串フランク",
+              "price": 280,
+              "description": "太めのソーセージを串で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "takoyaki-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "えびせんサンド",
+              "price": 280,
+              "description": "えびせんでたこ焼きを挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "takoyaki-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "takoyaki-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "公園の白桃ソーダ",
+              "price": 320,
+              "description": "白桃風味の冷たい炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "りんごゼリーの小カップ",
+              "price": 280,
+              "description": "りんごの果肉入りゼリー。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "takoyaki-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "蜂蜜レモンの冷茶",
+              "price": 300,
+              "description": "蜂蜜レモンを加えた紅茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "瓶ラムネ",
+              "price": 220,
+              "description": "玉入り瓶の冷たいラムネ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ウーロン茶カップ",
+              "price": 180,
+              "description": "冷たいお茶をカップで提供。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "オレンジソーダ",
+              "price": 250,
+              "description": "オレンジ風味の炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "takoyaki-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ミニバニラカップ",
+              "price": 240,
+              "description": "持ち帰り用の小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "takoyaki-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

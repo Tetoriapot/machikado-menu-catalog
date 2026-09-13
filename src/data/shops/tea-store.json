@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "tea-store",
+    "label": "茶葉専門店",
+    "group": "小売店",
+    "icon": "coffee"
+  },
+  "shops": [
+    {
+      "id": "tea-store-1",
+      "name": "茶舗 葉ずれ",
+      "category": "tea-store",
+      "description": "商店街で普段のお茶を扱う店。茶葉の香りを比べながら、少量から買える。",
+      "openingHours": "9:30〜18:30（水曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "日本茶",
+        "量り売り",
+        "商店街"
+      ],
+      "scene": {
+        "interior": "壁一面の茶箱と古い秤が目に入る。入口には湯気の上がる小さな試飲台。",
+        "service": "飲む時間と好みを聞いて茶葉を案内する。量り売りは袋の重さを引いて量る。",
+        "signature": "葉ずれの深蒸し煎茶 五十グラムと葉模様の横手急須",
+        "localFlavor": "近所の住民が茶葉を補充しに来る。商店主同士が新しい茶の香りを話題にする。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "tea-store-1-section-1",
+          "title": "茶葉",
+          "items": [
+            {
+              "name": "葉ずれの深蒸し煎茶 五十グラム",
+              "price": 880,
+              "description": "濃い味わいの煎茶の小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "茎ほうじ茶 四十グラム",
+              "price": 580,
+              "description": "茎の部分を香ばしく焙じる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "柚子皮入り番茶 四十グラム",
+              "price": 680,
+              "description": "番茶に乾かした柚子皮を混ぜる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "煎茶 五十グラム",
+              "price": 680,
+              "description": "毎日飲みやすい煎茶の小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 五十グラム",
+              "price": 540,
+              "description": "香ばしく焙じた茶葉の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "和紅茶 三十グラム",
+              "price": 680,
+              "description": "穏やかな味の紅茶を小袋で。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "玄米茶 五十グラム",
+              "price": 480,
+              "description": "炒った米を合わせた茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-store-1-section-2",
+          "title": "茶器・道具",
+          "items": [
+            {
+              "name": "葉模様の横手急須",
+              "price": 2860,
+              "description": "横に持ち手のある小ぶりな急須。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "茶箱柄の布コースター",
+              "price": 550,
+              "description": "茶箱の図案を入れた布敷き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "深緑の二重蓋茶缶",
+              "price": 1100,
+              "description": "内蓋のある緑色の茶缶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "白磁の湯のみ",
+              "price": 880,
+              "description": "手に持ちやすい白い湯のみ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ステンレス茶こし",
+              "price": 550,
+              "description": "急須やカップに使う茶こし。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "小さな茶さじ",
+              "price": 440,
+              "description": "茶葉をすくう木製のさじ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "無地の茶缶 小",
+              "price": 770,
+              "description": "茶葉の保管に使う小さな缶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-store-1-section-3",
+          "title": "菓子・試飲メニュー",
+          "items": [
+            {
+              "name": "ほうじ茶豆の小袋",
+              "price": 420,
+              "description": "豆菓子にほうじ茶の風味。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "二種煎茶の飲み比べ",
+              "price": 580,
+              "description": "小さな杯で二種を味わう。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "葉ずれの抹茶羊羹",
+              "price": 660,
+              "description": "抹茶を練り込んだ小さな羊羹。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "煎茶クッキー 小袋",
+              "price": 380,
+              "description": "茶葉を混ぜた焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "黒糖かりんとう",
+              "price": 320,
+              "description": "黒糖を絡めた小袋の菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "本日の煎茶 一杯",
+              "price": 300,
+              "description": "店内で淹れる今日の煎茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 一杯",
+              "price": 300,
+              "description": "香ばしいお茶を温かく淹れる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-store-2",
+      "name": "紅茶室 旅する葉",
+      "category": "tea-store",
+      "description": "駅近くの紅茶専門店。産地や香りの違う茶葉と、旅を思わせる小物が並ぶ。",
+      "openingHours": "11:00〜19:00（月曜休）",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "紅茶",
+        "贈り物",
+        "駅近く"
+      ],
+      "scene": {
+        "interior": "引き出し付きの棚に茶葉の缶が並ぶ。窓際に二席だけの試飲カウンターがある。",
+        "service": "香り見本の蓋を開けて違いを説明する。贈り物には淹れ方の短いカードを添える。",
+        "signature": "旅の朝ブレンド 四十グラムと切符柄のティーカップ",
+        "localFlavor": "旅行前の手土産を探す客が来る。夕方には通勤帰りに一杯飲む常連が座る。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "tea-store-2-section-1",
+          "title": "茶葉",
+          "items": [
+            {
+              "name": "旅の朝ブレンド 四十グラム",
+              "price": 980,
+              "description": "ミルクにも合う濃い紅茶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "夜汽車ベルガモット 三十グラム",
+              "price": 1080,
+              "description": "柑橘の香りを加えた紅茶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "桃と花の軽い紅茶 三十グラム",
+              "price": 980,
+              "description": "桃と花の香りの茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "煎茶 五十グラム",
+              "price": 680,
+              "description": "毎日飲みやすい煎茶の小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 五十グラム",
+              "price": 540,
+              "description": "香ばしく焙じた茶葉の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "和紅茶 三十グラム",
+              "price": 680,
+              "description": "穏やかな味の紅茶を小袋で。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "玄米茶 五十グラム",
+              "price": 480,
+              "description": "炒った米を合わせた茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-store-2-section-2",
+          "title": "茶器・道具",
+          "items": [
+            {
+              "name": "切符柄のティーカップ",
+              "price": 1980,
+              "description": "架空の切符図案を入れた器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "小旅行用ティーフィルター",
+              "price": 660,
+              "description": "持ち歩ける茶葉用のフィルター。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "砂時計 三分用",
+              "price": 1320,
+              "description": "抽出時間を見る小さな砂時計。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "白磁の湯のみ",
+              "price": 880,
+              "description": "手に持ちやすい白い湯のみ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ステンレス茶こし",
+              "price": 550,
+              "description": "急須やカップに使う茶こし。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "小さな茶さじ",
+              "price": 440,
+              "description": "茶葉をすくう木製のさじ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "無地の茶缶 小",
+              "price": 770,
+              "description": "茶葉の保管に使う小さな缶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-store-2-section-3",
+          "title": "菓子・試飲メニュー",
+          "items": [
+            {
+              "name": "紅茶と生姜のビスケット",
+              "price": 480,
+              "description": "紅茶葉と生姜を混ぜて焼く。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "旅の朝ミルクティー",
+              "price": 550,
+              "description": "朝ブレンドをミルクで淹れる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "レモンピールの砂糖菓子",
+              "price": 440,
+              "description": "柑橘の皮を甘く仕上げる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "煎茶クッキー 小袋",
+              "price": 380,
+              "description": "茶葉を混ぜた焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "黒糖かりんとう",
+              "price": 320,
+              "description": "黒糖を絡めた小袋の菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "本日の煎茶 一杯",
+              "price": 300,
+              "description": "店内で淹れる今日の煎茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 一杯",
+              "price": 300,
+              "description": "香ばしいお茶を温かく淹れる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-store-3",
+      "name": "山のお茶屋 霧葉堂",
+      "category": "tea-store",
+      "description": "山あいの道沿いにある茶葉店。焙じたお茶と旅の休憩用の一杯を扱う。",
+      "openingHours": "10:00〜17:00（木曜休）",
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "山あい",
+        "焙じ茶",
+        "旅の休憩"
+      ],
+      "scene": {
+        "interior": "木の棚に紙包みの茶葉が並ぶ。軒下の長椅子から山の斜面を眺められる。",
+        "service": "お湯の量と淹れる時間を短く伝える。持ち歩く茶は蓋付きのカップにする。",
+        "signature": "霧葉の炭火風ほうじ茶 五十グラムと土色の茶碗 二個組",
+        "localFlavor": "山道の途中で休む人と地元の客が交じる。霧の朝は店内でゆっくり香りを試せる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "tea-store-3-section-1",
+          "title": "茶葉",
+          "items": [
+            {
+              "name": "霧葉の炭火風ほうじ茶 五十グラム",
+              "price": 780,
+              "description": "深く焙じた香りの茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "山の釜炒り茶 四十グラム",
+              "price": 880,
+              "description": "釜で炒った香ばしいお茶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "生姜入り焙じ玄米茶 五十グラム",
+              "price": 680,
+              "description": "玄米と生姜を合わせた茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "煎茶 五十グラム",
+              "price": 680,
+              "description": "毎日飲みやすい煎茶の小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 五十グラム",
+              "price": 540,
+              "description": "香ばしく焙じた茶葉の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "和紅茶 三十グラム",
+              "price": 680,
+              "description": "穏やかな味の紅茶を小袋で。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "玄米茶 五十グラム",
+              "price": 480,
+              "description": "炒った米を合わせた茶葉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-store-3-section-2",
+          "title": "茶器・道具",
+          "items": [
+            {
+              "name": "土色の茶碗 二個組",
+              "price": 1760,
+              "description": "落ち着いた土色の小さな器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "竹編みの小茶托",
+              "price": 660,
+              "description": "湯のみの下に敷く竹の茶托。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "山並み柄の茶葉保存袋 三枚",
+              "price": 330,
+              "description": "口を閉じられる茶葉の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "白磁の湯のみ",
+              "price": 880,
+              "description": "手に持ちやすい白い湯のみ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ステンレス茶こし",
+              "price": 550,
+              "description": "急須やカップに使う茶こし。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "小さな茶さじ",
+              "price": 440,
+              "description": "茶葉をすくう木製のさじ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "無地の茶缶 小",
+              "price": 770,
+              "description": "茶葉の保管に使う小さな缶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tea-store-3-section-3",
+          "title": "菓子・試飲メニュー",
+          "items": [
+            {
+              "name": "くるみの茶糖がけ",
+              "price": 480,
+              "description": "くるみに茶風味の糖衣。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "霧葉の温かい茶ラテ",
+              "price": 480,
+              "description": "焙じたお茶をミルクで割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "山栗の茶菓子二個包み",
+              "price": 580,
+              "description": "栗風味の小さな焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "煎茶クッキー 小袋",
+              "price": 380,
+              "description": "茶葉を混ぜた焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "黒糖かりんとう",
+              "price": 320,
+              "description": "黒糖を絡めた小袋の菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "tea-store-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "本日の煎茶 一杯",
+              "price": 300,
+              "description": "店内で淹れる今日の煎茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ほうじ茶 一杯",
+              "price": 300,
+              "description": "香ばしいお茶を温かく淹れる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tea-store-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

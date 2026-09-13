@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "tempura",
+    "label": "天ぷら屋",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "tempura-1",
+      "name": "天ぷら さくの葉",
+      "category": "tempura",
+      "description": "市場の裏にある昼営業の天ぷら店。揚げたてを待つ職人や買い物客が、短いカウンターに肩を並べる。",
+      "openingHours": "11:00〜15:00（月曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "市場裏",
+        "揚げたて",
+        "昼食"
+      ],
+      "scene": {
+        "interior": "白木のカウンターの向こうに揚げ鍋が見える。壁には今日の魚の小さな札が掛かる。",
+        "service": "定食の天ぷらを揚がった順に一品ずつ出す。ご飯の量は注文時に確かめる。",
+        "signature": "市場の白身二種天丼と帆立の磯辺天",
+        "localFlavor": "市場の仕事を終えた人が遅い昼食に来る。暖簾の外には買い物かごを置く台がある。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "tempura-1-section-1",
+          "title": "天丼・御膳",
+          "items": [
+            {
+              "name": "市場の白身二種天丼",
+              "price": 1480,
+              "description": "白身魚二種と青菜の天ぷらを盛る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "春菊かき揚げの小天丼膳",
+              "price": 1180,
+              "description": "春菊の香る小丼に卵焼きを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "さくの葉の揚げたて八品膳",
+              "price": 1980,
+              "description": "魚と野菜八品を順に出す定食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "天丼",
+              "price": 980,
+              "description": "海老と野菜の天ぷらを盛った丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "野菜天丼",
+              "price": 880,
+              "description": "季節の野菜を揚げてご飯に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "天ぷら定食",
+              "price": 1280,
+              "description": "天ぷらにご飯と汁物を添えた一膳。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小海老かき揚げ丼",
+              "price": 1080,
+              "description": "小海老のかき揚げを甘辛い丼に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tempura-1-section-2",
+          "title": "天ぷら・小皿",
+          "items": [
+            {
+              "name": "帆立の磯辺天",
+              "price": 480,
+              "description": "海苔を巻いた帆立を揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "長ねぎの甘み天",
+              "price": 260,
+              "description": "太いねぎを火を通して甘くする。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "大根の柚子浅漬け",
+              "price": 240,
+              "description": "薄切り大根に柚子の香りを添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "海老天 一本",
+              "price": 280,
+              "description": "大きめの海老を薄衣で揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "茄子天 二切れ",
+              "price": 180,
+              "description": "柔らかな茄子を食べやすく切る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "蓮根天 二切れ",
+              "price": 220,
+              "description": "歯ごたえを残した蓮根の天ぷら。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "だし巻き小皿",
+              "price": 380,
+              "description": "だしを含ませた卵焼きを少量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tempura-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "市場の梅番茶",
+              "price": 280,
+              "description": "梅の風味を加えた温かい番茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "白胡麻ミルクプリン",
+              "price": 420,
+              "description": "白胡麻を混ぜた小さなプリン。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "tempura-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "すだち蜂蜜水",
+              "price": 340,
+              "description": "すだちと蜂蜜を冷水で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "温かい煎茶",
+              "price": 180,
+              "description": "食後にも飲みやすい温かいお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "冷たい麦茶",
+              "price": 180,
+              "description": "香ばしい麦茶を冷やして提供。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "柚子ソーダ",
+              "price": 380,
+              "description": "柚子風味を加えた炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "黒蜜寒天",
+              "price": 320,
+              "description": "角切り寒天に黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "tempura-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tempura-2",
+      "name": "天麩羅 夕しずく",
+      "category": "tempura",
+      "description": "都心の路地で夕方から開く天ぷら店。少人数の会食で、一品ずつゆっくり味わえる。",
+      "openingHours": "17:00〜22:00（日曜休）",
+      "locationType": "city",
+      "priceLevel": "expensive",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "路地裏",
+        "会食",
+        "カウンター"
+      ],
+      "scene": {
+        "interior": "石の壁と低い照明に囲まれた八席。卓上には塩の小皿と小さな一輪挿しが置かれる。",
+        "service": "食べる速さに合わせて次の品を揚げる。苦手な食材は最初に聞き取る。",
+        "signature": "夕しずくの十品御膳と雲丹海苔の包み天",
+        "localFlavor": "近隣の事務所から少人数で来る客が多い。雨の日は路地の石が看板の灯りを映す。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "tempura-2-section-1",
+          "title": "天丼・御膳",
+          "items": [
+            {
+              "name": "夕しずくの十品御膳",
+              "price": 3800,
+              "description": "魚介と野菜十品に小さな締めの丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "穴子一本の天茶膳",
+              "price": 2480,
+              "description": "長い穴子天をご飯とだしで楽しむ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "帆立と三つ葉のかき揚げ膳",
+              "price": 2280,
+              "description": "帆立と三つ葉の香りを組み合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "天丼",
+              "price": 980,
+              "description": "海老と野菜の天ぷらを盛った丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "野菜天丼",
+              "price": 880,
+              "description": "季節の野菜を揚げてご飯に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "天ぷら定食",
+              "price": 1280,
+              "description": "天ぷらにご飯と汁物を添えた一膳。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小海老かき揚げ丼",
+              "price": 1080,
+              "description": "小海老のかき揚げを甘辛い丼に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tempura-2-section-2",
+          "title": "天ぷら・小皿",
+          "items": [
+            {
+              "name": "雲丹海苔の包み天",
+              "price": 880,
+              "description": "海苔に包んだ雲丹を短く揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "生椎茸の海老詰め天",
+              "price": 620,
+              "description": "椎茸に海老のすり身を詰める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "焼き茄子の冷たい小鉢",
+              "price": 480,
+              "description": "皮をむいた焼き茄子をだしで冷やす。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "海老天 一本",
+              "price": 280,
+              "description": "大きめの海老を薄衣で揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "茄子天 二切れ",
+              "price": 180,
+              "description": "柔らかな茄子を食べやすく切る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "蓮根天 二切れ",
+              "price": 220,
+              "description": "歯ごたえを残した蓮根の天ぷら。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "だし巻き小皿",
+              "price": 380,
+              "description": "だしを含ませた卵焼きを少量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tempura-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "焙じ茶の香りアイス",
+              "price": 480,
+              "description": "ほうじ茶風味のアイスを少量で。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "tempura-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "白ぶどうの食前ソーダ",
+              "price": 580,
+              "description": "白ぶどうの風味を添えた炭酸水。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "吟醸酒 夕凪 一合",
+              "price": 980,
+              "description": "架空銘柄の日本酒を小さな徳利で。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "温かい煎茶",
+              "price": 180,
+              "description": "食後にも飲みやすい温かいお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "冷たい麦茶",
+              "price": 180,
+              "description": "香ばしい麦茶を冷やして提供。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "柚子ソーダ",
+              "price": 380,
+              "description": "柚子風味を加えた炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "黒蜜寒天",
+              "price": 320,
+              "description": "角切り寒天に黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "tempura-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tempura-3",
+      "name": "里の天ぷら 穂のかご",
+      "category": "tempura",
+      "description": "田畑のそばの民家を使った天ぷら店。家族で取り分ける野菜の盛り合わせが看板。",
+      "openingHours": "11:00〜14:30／17:00〜20:00（木曜休）",
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "田園",
+        "家族連れ",
+        "地場野菜"
+      ],
+      "scene": {
+        "interior": "畳の小上がりと大きな食卓があり、窓から畑が見える。入口に野菜のかごを置く。",
+        "service": "人数に合わせて大皿を提案する。子どもの分は先に小皿へ取り分けて出す。",
+        "signature": "畑の七彩天ぷら膳ととうもろこしの丸かき揚げ",
+        "localFlavor": "農作業を終えた家族が集まる。季節の収穫で盛り合わせの彩りが変わる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "tempura-3-section-1",
+          "title": "天丼・御膳",
+          "items": [
+            {
+              "name": "畑の七彩天ぷら膳",
+              "price": 1380,
+              "description": "色の違う野菜七品をご飯と一緒に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "里いもと鶏天の親子丼",
+              "price": 1180,
+              "description": "里いもと鶏天を卵で軽くまとめる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "二人の畑天ぷら御膳",
+              "price": 2980,
+              "description": "野菜の大皿に二人分のご飯と汁物。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "天丼",
+              "price": 980,
+              "description": "海老と野菜の天ぷらを盛った丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "野菜天丼",
+              "price": 880,
+              "description": "季節の野菜を揚げてご飯に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "天ぷら定食",
+              "price": 1280,
+              "description": "天ぷらにご飯と汁物を添えた一膳。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "小海老かき揚げ丼",
+              "price": 1080,
+              "description": "小海老のかき揚げを甘辛い丼に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "tempura-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tempura-3-section-2",
+          "title": "天ぷら・小皿",
+          "items": [
+            {
+              "name": "とうもろこしの丸かき揚げ",
+              "price": 380,
+              "description": "粒とうもろこしを丸く揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "甘長とうがらし天",
+              "price": 280,
+              "description": "穏やかな味の長いとうがらしを揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "さつまいもの厚切り天",
+              "price": 320,
+              "description": "厚めの芋をじっくり揚げて甘くする。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "海老天 一本",
+              "price": 280,
+              "description": "大きめの海老を薄衣で揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "茄子天 二切れ",
+              "price": 180,
+              "description": "柔らかな茄子を食べやすく切る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "蓮根天 二切れ",
+              "price": 220,
+              "description": "歯ごたえを残した蓮根の天ぷら。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "だし巻き小皿",
+              "price": 380,
+              "description": "だしを含ませた卵焼きを少量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "tempura-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "tempura-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "煮りんごの小鉢甘味",
+              "price": 360,
+              "description": "柔らかく煮たりんごを冷やして出す。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "tempura-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "里の赤しそドリンク",
+              "price": 300,
+              "description": "赤しそのシロップを水で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "玄米茶の温かいラテ",
+              "price": 380,
+              "description": "玄米茶にミルクを合わせた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "温かい煎茶",
+              "price": 180,
+              "description": "食後にも飲みやすい温かいお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "冷たい麦茶",
+              "price": 180,
+              "description": "香ばしい麦茶を冷やして提供。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "柚子ソーダ",
+              "price": 380,
+              "description": "柚子風味を加えた炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "tempura-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "黒蜜寒天",
+              "price": 320,
+              "description": "角切り寒天に黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "tempura-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

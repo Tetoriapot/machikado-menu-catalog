@@ -1,0 +1,703 @@
+{
+  "category": {
+    "id": "electronics",
+    "label": "電器店",
+    "group": "小売店",
+    "icon": "monitor"
+  },
+  "shops": [
+    {
+      "id": "electronics-1",
+      "name": "町の電器 ひかり橋",
+      "category": "electronics",
+      "description": "商店街で小型家電と消耗品を扱う電器店。寸法や端子を確かめながら選べる。",
+      "openingHours": "9:30〜18:30（日曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "町の電器店",
+        "生活家電",
+        "買い替え"
+      ],
+      "scene": {
+        "interior": "棚に見本の家電と箱が並ぶ。奥の机には修理待ちの札を付けた機器が置かれる。",
+        "service": "型番や使う場所を聞いて案内する。修理相談は状態を確認してから見積もりを伝える。",
+        "signature": "手元スイッチ付き読書灯と丸形LED電球 電球色",
+        "localFlavor": "近所の人が電池や電球を買いに来る。古い機器の買い替え相談で長話になることもある。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "electronics-1-section-1",
+          "title": "小型家電",
+          "items": [
+            {
+              "name": "手元スイッチ付き読書灯",
+              "price": 3280,
+              "description": "手元で点灯できる読書用照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "大きなボタンの置き時計",
+              "price": 2280,
+              "description": "ボタンを押しやすい時計。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "小容量の電気ケトル",
+              "price": 3980,
+              "description": "少量のお湯を沸かす器具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "卓上LEDライト",
+              "price": 2480,
+              "description": "角度を変えられる小さな照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "小型卓上ファン",
+              "price": 1980,
+              "description": "机で使う小さな扇風機。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "シンプル電卓",
+              "price": 880,
+              "description": "基本の計算に使う電卓。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "置き時計 デジタル",
+              "price": 1480,
+              "description": "大きな数字の置き時計。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "electronics-1-section-2",
+          "title": "ケーブル・部品",
+          "items": [
+            {
+              "name": "丸形LED電球 電球色",
+              "price": 980,
+              "description": "口金サイズを確認して使う電球。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "差込口回転タップ 三口",
+              "price": 1480,
+              "description": "差込部を回せる電源タップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "テレビ用アンテナ線 二メートル",
+              "price": 880,
+              "description": "対応端子をつなぐアンテナ線。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "USB-Cケーブル 一メートル",
+              "price": 780,
+              "description": "対応機器の充電用ケーブル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "延長コード 二メートル",
+              "price": 980,
+              "description": "室内で使う延長コード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "単三電池 四本",
+              "price": 380,
+              "description": "日用品に使う乾電池の組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "有線イヤホン",
+              "price": 1280,
+              "description": "対応端子に接続するイヤホン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "electronics-1-section-3",
+          "title": "生活小物・サービス",
+          "items": [
+            {
+              "name": "リモコン用保護袋 三枚",
+              "price": 330,
+              "description": "リモコンを入れる透明な袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "家電の基本設定案内 一台",
+              "price": 1100,
+              "description": "店頭で初期設定を案内する。",
+              "kind": "service",
+              "id": "electronics-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "電池チェッカー 小型",
+              "price": 880,
+              "description": "乾電池の残量目安を調べる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "画面用クロス",
+              "price": 330,
+              "description": "画面を拭く柔らかな布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ケーブル結束バンド 六本",
+              "price": 280,
+              "description": "コードを束ねる面ファスナー。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "配線ラベルシール",
+              "price": 220,
+              "description": "コードの用途を書けるシール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "小物収納ケース",
+              "price": 550,
+              "description": "部品やケーブルを入れる箱。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electronics-2",
+      "name": "電子部品店 ねじと回路",
+      "category": "electronics",
+      "description": "駅裏にある電子工作用品の店。部品を一袋から買い、道具の相談もできる。",
+      "openingHours": "11:00〜19:00（火曜休）",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "電子工作",
+        "部品",
+        "駅裏"
+      ],
+      "scene": {
+        "interior": "小さな引き出しに部品が分類される。カウンターに組み立て見本と作業マットがある。",
+        "service": "部品の規格と必要数を確かめる。初めての客には表示の読み方を案内する。",
+        "signature": "温度調節式はんだごてとLED工作用 五色セット",
+        "localFlavor": "学生と工作好きの常連が来る。週末には作った物を持って相談する客がいる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "electronics-2-section-1",
+          "title": "小型家電",
+          "items": [
+            {
+              "name": "温度調節式はんだごて",
+              "price": 4980,
+              "description": "工作用の温度を調節できる道具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "デジタルテスター 小型",
+              "price": 2980,
+              "description": "電圧などを測る工作用機器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "USB給電の工作ライト",
+              "price": 1680,
+              "description": "机上の作業を照らす照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "卓上LEDライト",
+              "price": 2480,
+              "description": "角度を変えられる小さな照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "小型卓上ファン",
+              "price": 1980,
+              "description": "机で使う小さな扇風機。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "シンプル電卓",
+              "price": 880,
+              "description": "基本の計算に使う電卓。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "置き時計 デジタル",
+              "price": 1480,
+              "description": "大きな数字の置き時計。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "electronics-2-section-2",
+          "title": "ケーブル・部品",
+          "items": [
+            {
+              "name": "LED工作用 五色セット",
+              "price": 550,
+              "description": "工作に使う発光部品の組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "抵抗器の入門詰め合わせ",
+              "price": 660,
+              "description": "抵抗値の違う部品をまとめる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "ブレッドボードと接続線",
+              "price": 990,
+              "description": "試作回路を組む板と線。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "USB-Cケーブル 一メートル",
+              "price": 780,
+              "description": "対応機器の充電用ケーブル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "延長コード 二メートル",
+              "price": 980,
+              "description": "室内で使う延長コード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "単三電池 四本",
+              "price": 380,
+              "description": "日用品に使う乾電池の組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "有線イヤホン",
+              "price": 1280,
+              "description": "対応端子に接続するイヤホン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "electronics-2-section-3",
+          "title": "生活小物・サービス",
+          "items": [
+            {
+              "name": "静電気対策作業マット",
+              "price": 1980,
+              "description": "電子工作の机に敷くマット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "部品仕分けピンセット",
+              "price": 770,
+              "description": "細かい部品をつまむ道具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "工作基板の拡大確認 十分",
+              "price": 550,
+              "description": "店頭の拡大鏡で基板を確認する。",
+              "kind": "service",
+              "id": "electronics-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "画面用クロス",
+              "price": 330,
+              "description": "画面を拭く柔らかな布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ケーブル結束バンド 六本",
+              "price": 280,
+              "description": "コードを束ねる面ファスナー。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "配線ラベルシール",
+              "price": 220,
+              "description": "コードの用途を書けるシール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "小物収納ケース",
+              "price": 550,
+              "description": "部品やケーブルを入れる箱。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electronics-3",
+      "name": "モバイル雑貨 ポケット灯",
+      "category": "electronics",
+      "description": "オフィス街の小さな電器店。外出時の充電用品と机まわりの小物を扱う。",
+      "openingHours": "10:00〜21:00",
+      "locationType": "city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "充電用品",
+        "外出",
+        "仕事帰り"
+      ],
+      "scene": {
+        "interior": "壁に端子別のケーブルが下がる。カウンターに機器を置いて確かめる空間がある。",
+        "service": "機器側の端子と必要な用途を確認する。箱の表示を見せて対応範囲を案内する。",
+        "signature": "薄型モバイルバッテリーと短いUSB-Cケーブル 二十センチ",
+        "localFlavor": "出張客や仕事帰りの人が忘れ物を買い足す。夕方は充電用品の客が多い。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "electronics-3-section-1",
+          "title": "小型家電",
+          "items": [
+            {
+              "name": "薄型モバイルバッテリー",
+              "price": 2980,
+              "description": "持ち歩き用の充電池。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "折りたたみスマホ用ライト",
+              "price": 1980,
+              "description": "机に置ける小さな補助照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "携帯ラジオ イヤホン付き",
+              "price": 3480,
+              "description": "電池で使える小さなラジオ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "卓上LEDライト",
+              "price": 2480,
+              "description": "角度を変えられる小さな照明。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "小型卓上ファン",
+              "price": 1980,
+              "description": "机で使う小さな扇風機。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "シンプル電卓",
+              "price": 880,
+              "description": "基本の計算に使う電卓。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "置き時計 デジタル",
+              "price": 1480,
+              "description": "大きな数字の置き時計。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "electronics-3-section-2",
+          "title": "ケーブル・部品",
+          "items": [
+            {
+              "name": "短いUSB-Cケーブル 二十センチ",
+              "price": 580,
+              "description": "鞄の中で使いやすい短い線。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "二口USB充電アダプター",
+              "price": 1980,
+              "description": "対応機器を二台つなげる充電器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "音声用変換アダプター",
+              "price": 1280,
+              "description": "対応端子の音声接続を変換する。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "USB-Cケーブル 一メートル",
+              "price": 780,
+              "description": "対応機器の充電用ケーブル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "延長コード 二メートル",
+              "price": 980,
+              "description": "室内で使う延長コード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "単三電池 四本",
+              "price": 380,
+              "description": "日用品に使う乾電池の組。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "有線イヤホン",
+              "price": 1280,
+              "description": "対応端子に接続するイヤホン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "electronics-3-section-3",
+          "title": "生活小物・サービス",
+          "items": [
+            {
+              "name": "折りたたみスマホスタンド",
+              "price": 880,
+              "description": "角度を調節できる小さな台。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "ポケット灯の充電用品ポーチ",
+              "price": 990,
+              "description": "充電器と線をまとめる袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "画面保護フィルム貼付 一枚",
+              "price": 880,
+              "description": "持ち込み対応フィルムを店頭で貼る。",
+              "kind": "service",
+              "id": "electronics-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "画面用クロス",
+              "price": 330,
+              "description": "画面を拭く柔らかな布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ケーブル結束バンド 六本",
+              "price": 280,
+              "description": "コードを束ねる面ファスナー。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "配線ラベルシール",
+              "price": 220,
+              "description": "コードの用途を書けるシール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "小物収納ケース",
+              "price": 550,
+              "description": "部品やケーブルを入れる箱。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "electronics-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

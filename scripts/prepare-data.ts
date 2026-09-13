@@ -20,7 +20,7 @@ for(const shop of shops){
  if(ids.has(shop.id))throw new Error(`Duplicate shop ${shop.id}`);ids.add(shop.id);
  if(!categories.some(c=>c.id===shop.category))throw new Error(`Unknown category ${shop.id}`);
  const items=shop.menuSections.flatMap(s=>s.items);
- if(items.length<15)throw new Error(`Too few items ${shop.id}`);
+ if(items.length<21)throw new Error(`Too few items ${shop.id}`);
  for(const item of items){if(!item.name||!item.description||!Number.isInteger(item.price)||item.price<0)throw new Error(`Invalid item ${item.id}`);if(!['food','drink','goods','addon','fee','service'].includes(item.kind))throw new Error(`Invalid item kind ${item.id}`);if(ids.has(item.id))throw new Error(`Duplicate ID ${item.id}`);ids.add(item.id);}
 }
 const index=shops.map(({menuSections,...shop})=>{

@@ -1,0 +1,685 @@
+{
+  "category": {
+    "id": "bathhouse",
+    "label": "銭湯・入浴施設",
+    "group": "施設・娯楽",
+    "icon": "building"
+  },
+  "shops": [
+    {
+      "id": "bathhouse-1",
+      "name": "銭湯 あさひ湯",
+      "category": "bathhouse",
+      "description": "商店街の裏にある昔ながらの銭湯。仕事帰りの住民が温まって帰る町の立ち寄り先。",
+      "openingHours": "15:00〜23:00（木曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "cheap",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "町の銭湯",
+        "仕事帰り",
+        "昔ながら"
+      ],
+      "scene": {
+        "interior": "脱衣所に木のロッカーが並び、休憩室に古い長椅子がある。壁に架空の山の絵が描かれる。",
+        "service": "番台で入浴券を受け取り、初めての客に浴室への動線を案内する。",
+        "signature": "あさひ湯の手ぶら入浴セットと湯上がり梅ソーダ",
+        "localFlavor": "近所の商店主が閉店後に集まる。休憩室で地域の出来事を話す声が聞こえる。"
+      },
+      "priceNote": "税込の設定料金です。入浴料は1人1回。セット料金と含まれる単品料金は重ねて加算しません。販売品は持ち帰り、貸出品は退館時に返却してください。",
+      "menuSections": [
+        {
+          "id": "bathhouse-1-section-1",
+          "title": "入浴・設備利用",
+          "items": [
+            {
+              "name": "あさひ湯の手ぶら入浴セット",
+              "price": 900,
+              "description": "大人入浴と貸タオル、洗髪料付き。",
+              "kind": "fee",
+              "id": "bathhouse-1-original-1",
+              "recommended": false
+            },
+            {
+              "name": "親子入浴セット 大人一人と小学生一人",
+              "price": 750,
+              "description": "大人と小学生一人ずつの入浴。",
+              "kind": "fee",
+              "id": "bathhouse-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "サウナ付き手ぶらセット",
+              "price": 1200,
+              "description": "手ぶらセットとサウナの利用。",
+              "kind": "fee",
+              "id": "bathhouse-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "大人入浴 一回",
+              "price": 550,
+              "description": "一人一回の基本の入浴料。",
+              "kind": "fee",
+              "id": "bathhouse-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "子ども入浴 一回",
+              "price": 250,
+              "description": "小学生一人一回の入浴料。",
+              "kind": "fee",
+              "id": "bathhouse-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "サウナ追加 一回",
+              "price": 300,
+              "description": "入浴料に加える設備利用料。",
+              "kind": "fee",
+              "id": "bathhouse-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "タオルセット貸出",
+              "price": 250,
+              "description": "大小のタオルを一組借りる。",
+              "kind": "service",
+              "id": "bathhouse-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bathhouse-1-section-2",
+          "title": "風呂上がりの飲食",
+          "items": [
+            {
+              "name": "湯上がり梅ソーダ",
+              "price": 250,
+              "description": "梅シロップを炭酸で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "あさひ湯の冷やし番茶",
+              "price": 180,
+              "description": "休憩室で飲む冷たい番茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "黒蜜きなこアイス",
+              "price": 280,
+              "description": "バニラアイスに黒蜜ときなこ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "bathhouse-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "瓶牛乳",
+              "price": 180,
+              "description": "風呂上がりに飲む冷たい牛乳。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "珈琲牛乳",
+              "price": 200,
+              "description": "珈琲風味の甘い瓶入り飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "フルーツミルク",
+              "price": 200,
+              "description": "果実風味の冷たいミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "アイスキャンディー",
+              "price": 150,
+              "description": "棒付きの小さな氷菓。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "bathhouse-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bathhouse-1-section-3",
+          "title": "身支度・小物",
+          "items": [
+            {
+              "name": "朝日模様の手ぬぐい",
+              "price": 660,
+              "description": "朝日の図案を刷った布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "銭湯の小さな洗面袋",
+              "price": 550,
+              "description": "洗面道具をまとめる袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "木札風ロッカーキーホルダー",
+              "price": 440,
+              "description": "番台の札を模した小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "小さな固形石けん",
+              "price": 180,
+              "description": "持ち帰り用の小型石けん。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "歯ブラシセット",
+              "price": 220,
+              "description": "歯ブラシと小さな歯磨き粉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "使い切りシャンプー",
+              "price": 120,
+              "description": "一回分を小袋にした洗髪料。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "無地のフェイスタオル",
+              "price": 330,
+              "description": "薄手で乾かしやすいタオル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bathhouse-2",
+      "name": "まちなか湯処 灯の輪",
+      "category": "bathhouse",
+      "description": "駅近くのビルに入る入浴施設。帰宅前や旅行の途中に立ち寄れる明るい店。",
+      "openingHours": "10:00〜翌0:00",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "駅近く",
+        "手ぶら利用",
+        "休憩"
+      ],
+      "scene": {
+        "interior": "明るい受付の奥に脱衣所があり、休憩席には小さなテーブルが付く。入口に荷物置き場がある。",
+        "service": "滞在予定と荷物の大きさを確認する。貸出品は受付のかごでまとめて渡す。",
+        "signature": "平日昼の手ぶら入浴セットと灯の輪のレモンミルク",
+        "localFlavor": "仕事帰りの人と旅行中の客が交じる。駅の混雑が落ち着くまで休む人もいる。"
+      },
+      "priceNote": "税込の設定料金です。入浴料は1人1回。時間条件のあるセットは各項目をご確認ください。セット内の入浴料・貸出料は重複加算しません。",
+      "menuSections": [
+        {
+          "id": "bathhouse-2-section-1",
+          "title": "入浴・設備利用",
+          "items": [
+            {
+              "name": "平日昼の手ぶら入浴セット",
+              "price": 800,
+              "description": "平日10〜15時入館。大人入浴と貸タオル。",
+              "kind": "fee",
+              "id": "bathhouse-2-original-1",
+              "recommended": false
+            },
+            {
+              "name": "入浴とサウナと館内着セット",
+              "price": 1300,
+              "description": "大人入浴、サウナ、貸タオルと館内着。",
+              "kind": "fee",
+              "id": "bathhouse-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "館内着追加貸出 一着",
+              "price": 300,
+              "description": "滞在中の館内着を一着借りる。",
+              "kind": "service",
+              "id": "bathhouse-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "大人入浴 一回",
+              "price": 550,
+              "description": "一人一回の基本の入浴料。",
+              "kind": "fee",
+              "id": "bathhouse-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "子ども入浴 一回",
+              "price": 250,
+              "description": "小学生一人一回の入浴料。",
+              "kind": "fee",
+              "id": "bathhouse-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "サウナ追加 一回",
+              "price": 300,
+              "description": "入浴料に加える設備利用料。",
+              "kind": "fee",
+              "id": "bathhouse-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "タオルセット貸出",
+              "price": 250,
+              "description": "大小のタオルを一組借りる。",
+              "kind": "service",
+              "id": "bathhouse-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bathhouse-2-section-2",
+          "title": "風呂上がりの飲食",
+          "items": [
+            {
+              "name": "灯の輪のレモンミルク",
+              "price": 280,
+              "description": "レモン風味を添えた冷たいミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "小さな鶏だしおにぎり",
+              "price": 250,
+              "description": "鶏だしご飯を小さく握る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "bathhouse-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "ヨーグルトと桃の冷菓",
+              "price": 380,
+              "description": "ヨーグルトに桃を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "bathhouse-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "瓶牛乳",
+              "price": 180,
+              "description": "風呂上がりに飲む冷たい牛乳。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "珈琲牛乳",
+              "price": 200,
+              "description": "珈琲風味の甘い瓶入り飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "フルーツミルク",
+              "price": 200,
+              "description": "果実風味の冷たいミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "アイスキャンディー",
+              "price": 150,
+              "description": "棒付きの小さな氷菓。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "bathhouse-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bathhouse-2-section-3",
+          "title": "身支度・小物",
+          "items": [
+            {
+              "name": "旅行用ミニブラシ",
+              "price": 330,
+              "description": "持ち歩き用の小さな髪ブラシ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "灯の輪のメッシュポーチ",
+              "price": 880,
+              "description": "乾かしやすい網目の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "衣類用圧縮袋 二枚",
+              "price": 440,
+              "description": "着替えをまとめる携帯袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "小さな固形石けん",
+              "price": 180,
+              "description": "持ち帰り用の小型石けん。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "歯ブラシセット",
+              "price": 220,
+              "description": "歯ブラシと小さな歯磨き粉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "使い切りシャンプー",
+              "price": 120,
+              "description": "一回分を小袋にした洗髪料。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "無地のフェイスタオル",
+              "price": 330,
+              "description": "薄手で乾かしやすいタオル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bathhouse-3",
+      "name": "山あいの湯 こなら館",
+      "category": "bathhouse",
+      "description": "山里の集落にある日帰り入浴施設。散歩や作業のあとに、窓辺でゆっくり休める。",
+      "openingHours": "10:00〜21:00（火曜休）",
+      "locationType": "rural",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "山里",
+        "日帰り入浴",
+        "休憩室"
+      ],
+      "scene": {
+        "interior": "木の床の休憩室から山の斜面が見える。入口に濡れた傘や靴を置く棚がある。",
+        "service": "初めての客に浴室と休憩室を案内する。休憩室の予約は時間を確かめて札を渡す。",
+        "signature": "こなら館の入浴休憩セットと山里のりんご牛乳",
+        "localFlavor": "農作業を終えた人と日帰りの旅行客が来る。夕方は帰り道の天気の話題が多い。"
+      },
+      "priceNote": "税込の設定料金です。入浴料は1人1回。休憩室や貸出品の料金は記載条件に従います。セットに含まれる料金は重複加算しません。",
+      "menuSections": [
+        {
+          "id": "bathhouse-3-section-1",
+          "title": "入浴・設備利用",
+          "items": [
+            {
+              "name": "こなら館の入浴休憩セット",
+              "price": 1100,
+              "description": "大人入浴と貸タオル、共用休憩席二時間。",
+              "kind": "fee",
+              "id": "bathhouse-3-original-1",
+              "recommended": false
+            },
+            {
+              "name": "小休憩室 一室六十分",
+              "price": 1200,
+              "description": "四人まで使える一室。入浴料は別。",
+              "kind": "service",
+              "id": "bathhouse-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "山歩き帰りのタオル追加",
+              "price": 150,
+              "description": "小タオルを一枚追加で借りる。",
+              "kind": "service",
+              "id": "bathhouse-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "大人入浴 一回",
+              "price": 550,
+              "description": "一人一回の基本の入浴料。",
+              "kind": "fee",
+              "id": "bathhouse-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "子ども入浴 一回",
+              "price": 250,
+              "description": "小学生一人一回の入浴料。",
+              "kind": "fee",
+              "id": "bathhouse-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "サウナ追加 一回",
+              "price": 300,
+              "description": "入浴料に加える設備利用料。",
+              "kind": "fee",
+              "id": "bathhouse-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "タオルセット貸出",
+              "price": 250,
+              "description": "大小のタオルを一組借りる。",
+              "kind": "service",
+              "id": "bathhouse-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bathhouse-3-section-2",
+          "title": "風呂上がりの飲食",
+          "items": [
+            {
+              "name": "山里のりんご牛乳",
+              "price": 280,
+              "description": "りんご風味を加えた冷たい牛乳。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "焼き味噌のおにぎり二個",
+              "price": 420,
+              "description": "味噌を塗って焼いたおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "bathhouse-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "栗の小さなジェラート",
+              "price": 380,
+              "description": "栗風味の冷たいミルク菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "bathhouse-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "瓶牛乳",
+              "price": 180,
+              "description": "風呂上がりに飲む冷たい牛乳。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "珈琲牛乳",
+              "price": 200,
+              "description": "珈琲風味の甘い瓶入り飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "フルーツミルク",
+              "price": 200,
+              "description": "果実風味の冷たいミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "bathhouse-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "アイスキャンディー",
+              "price": 150,
+              "description": "棒付きの小さな氷菓。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "bathhouse-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "bathhouse-3-section-3",
+          "title": "身支度・小物",
+          "items": [
+            {
+              "name": "こなら葉模様の湯かご",
+              "price": 1320,
+              "description": "洗面道具を入れる小さなかご。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "山里の木製くし",
+              "price": 990,
+              "description": "持ち歩きやすい木のくし。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "温泉風景の絵葉書三枚",
+              "price": 330,
+              "description": "架空の入浴施設を描いたカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "小さな固形石けん",
+              "price": 180,
+              "description": "持ち帰り用の小型石けん。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "歯ブラシセット",
+              "price": 220,
+              "description": "歯ブラシと小さな歯磨き粉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "使い切りシャンプー",
+              "price": 120,
+              "description": "一回分を小袋にした洗髪料。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "無地のフェイスタオル",
+              "price": 330,
+              "description": "薄手で乾かしやすいタオル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "bathhouse-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

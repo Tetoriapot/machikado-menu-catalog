@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "thai",
+    "label": "タイ料理店",
+    "group": "飲食店",
+    "icon": "soup"
+  },
+  "shops": [
+    {
+      "id": "thai-1",
+      "name": "タイ食堂 風のバジル",
+      "category": "thai",
+      "description": "オフィス街で昼食を出す小さなタイ料理店。香草の香りと手早い炒め物が特徴。",
+      "openingHours": "11:00〜15:00／17:30〜21:00（日曜休）",
+      "locationType": "city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "香草",
+        "昼食",
+        "オフィス街"
+      ],
+      "scene": {
+        "interior": "窓際のカウンターに香草の鉢が並ぶ。厨房から鍋を振る音が聞こえる。",
+        "service": "辛さと香草の好みを注文時に聞く。昼は番号札で料理を渡す。",
+        "signature": "豚ひき肉と長豆のバジルご飯と香草鶏つくねの串焼き",
+        "localFlavor": "事務所の昼休みに客が集まる。午後の遅い時間は一人客がゆっくり食べる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "thai-1-section-1",
+          "title": "ご飯・麺・カレー",
+          "items": [
+            {
+              "name": "豚ひき肉と長豆のバジルご飯",
+              "price": 1080,
+              "description": "豚ひき肉と長豆を香草で炒める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "海老と卵の黄色いカレー",
+              "price": 1380,
+              "description": "海老と卵をまろやかなカレーに。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "牛肉のライム風味炒め麺",
+              "price": 1280,
+              "description": "牛肉入り米麺にライムを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "鶏のガパオライス",
+              "price": 1080,
+              "description": "鶏肉の香草炒めに卵とご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "海老のパッタイ",
+              "price": 1180,
+              "description": "海老と米麺を甘酸っぱく炒める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "鶏のグリーンカレー",
+              "price": 1180,
+              "description": "ココナツ風味のカレーにご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "蒸し鶏のカオマンガイ",
+              "price": 1080,
+              "description": "蒸し鶏とだしで炊いたご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "thai-1-section-2",
+          "title": "小皿・スープ",
+          "items": [
+            {
+              "name": "香草鶏つくねの串焼き",
+              "price": 680,
+              "description": "香草入りの鶏つくねを焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "焼き茄子のライムサラダ",
+              "price": 620,
+              "description": "焼き茄子に酸味のあるたれ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "鶏とレモングラスの澄まし汁",
+              "price": 580,
+              "description": "鶏のだしに香草の香りを移す。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "生春巻き 二本",
+              "price": 580,
+              "description": "野菜と海老を米の皮で包む。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "青パパイヤのサラダ",
+              "price": 780,
+              "description": "細切りの実を甘酸っぱく和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "トムヤムスープ 小",
+              "price": 680,
+              "description": "海老と香草の酸味のあるスープ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "海老せんべい",
+              "price": 280,
+              "description": "海老風味の軽い揚げ菓子。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "thai-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "バジル香るライムソーダ",
+              "price": 480,
+              "description": "ライムの炭酸に香草を添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "温かいココナツ白玉",
+              "price": 520,
+              "description": "白玉を甘いココナツ汁で。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "パインと紅茶のアイスドリンク",
+              "price": 450,
+              "description": "パインの風味を紅茶に合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "タイ風ミルクティー",
+              "price": 480,
+              "description": "濃い紅茶に甘いミルクを加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ライチジュース",
+              "price": 380,
+              "description": "ライチ風味の冷たい果実飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "ココナツアイス",
+              "price": 420,
+              "description": "ココナツ風味の小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "マンゴープリン",
+              "price": 480,
+              "description": "マンゴーを使った柔らかな甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-2",
+      "name": "タイ屋台 月の象",
+      "category": "thai",
+      "description": "駅裏の路地で夕方から開くタイ料理店。串焼きと取り分け料理で賑わう。",
+      "openingHours": "17:00〜翌0:00（火曜休）",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "屋台風",
+        "串焼き",
+        "駅裏"
+      ],
+      "scene": {
+        "interior": "色の違う丸椅子と小卓が並ぶ。入口の黒板に二人向け料理が書かれる。",
+        "service": "量の目安を伝えて取り皿を渡す。串焼きは焼き上がった順に運ぶ。",
+        "signature": "焼き豚と香り米の屋台皿と豚串の甘辛焼き 三本",
+        "localFlavor": "帰宅途中の仲間が小皿を囲む。終電前は短い食事の客で入れ替わる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "thai-2-section-1",
+          "title": "ご飯・麺・カレー",
+          "items": [
+            {
+              "name": "焼き豚と香り米の屋台皿",
+              "price": 1280,
+              "description": "香ばしい焼き豚に香り米を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "魚介と春雨の土鍋蒸し",
+              "price": 1580,
+              "description": "魚介の汁を春雨に含ませる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "月の象の牛すじカレー",
+              "price": 1480,
+              "description": "牛すじを柔らかく煮たカレー。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "鶏のガパオライス",
+              "price": 1080,
+              "description": "鶏肉の香草炒めに卵とご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "海老のパッタイ",
+              "price": 1180,
+              "description": "海老と米麺を甘酸っぱく炒める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "鶏のグリーンカレー",
+              "price": 1180,
+              "description": "ココナツ風味のカレーにご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "蒸し鶏のカオマンガイ",
+              "price": 1080,
+              "description": "蒸し鶏とだしで炊いたご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "thai-2-section-2",
+          "title": "小皿・スープ",
+          "items": [
+            {
+              "name": "豚串の甘辛焼き 三本",
+              "price": 720,
+              "description": "豚肉を甘辛いたれで焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "いかと香草の辛味和え",
+              "price": 780,
+              "description": "いかを香草と辛いだれで和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "揚げ卵のタマリンドだれ",
+              "price": 580,
+              "description": "揚げた卵に甘酸っぱいたれ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "生春巻き 二本",
+              "price": 580,
+              "description": "野菜と海老を米の皮で包む。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "青パパイヤのサラダ",
+              "price": 780,
+              "description": "細切りの実を甘酸っぱく和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "トムヤムスープ 小",
+              "price": 680,
+              "description": "海老と香草の酸味のあるスープ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "海老せんべい",
+              "price": 280,
+              "description": "海老風味の軽い揚げ菓子。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "thai-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "ライムビール",
+              "price": 620,
+              "description": "ビールにライムを添えた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "焼きバナナのココナツがけ",
+              "price": 580,
+              "description": "焼いたバナナに甘いソース。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "生姜とライチの炭酸水",
+              "price": 450,
+              "description": "ライチに生姜の香りを加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "タイ風ミルクティー",
+              "price": 480,
+              "description": "濃い紅茶に甘いミルクを加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ライチジュース",
+              "price": 380,
+              "description": "ライチ風味の冷たい果実飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "ココナツアイス",
+              "price": 420,
+              "description": "ココナツ風味の小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "マンゴープリン",
+              "price": 480,
+              "description": "マンゴーを使った柔らかな甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-3",
+      "name": "タイごはん 水蓮の庭",
+      "category": "thai",
+      "description": "住宅街の庭に面したタイ料理店。野菜を使った料理と甘味をゆっくり楽しめる。",
+      "openingHours": "11:30〜20:00（水曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "庭",
+        "野菜料理",
+        "家族連れ"
+      ],
+      "scene": {
+        "interior": "庭を向いたテーブルに小さな花瓶を置く。入口にベビーカー用の空間がある。",
+        "service": "香草を別皿にする相談に応じる。子どもの料理は辛味を確認して作る。",
+        "signature": "野菜と厚揚げの赤カレーとかぼちゃのスパイス揚げ",
+        "localFlavor": "休日の家族や近所の友人同士が集まる。庭の木漏れ日が午後の卓に落ちる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "thai-3-section-1",
+          "title": "ご飯・麺・カレー",
+          "items": [
+            {
+              "name": "野菜と厚揚げの赤カレー",
+              "price": 1180,
+              "description": "野菜と厚揚げを赤いカレーに。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "白身魚の香草蒸しご飯膳",
+              "price": 1480,
+              "description": "香草で蒸した白身魚にご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "きのこのココナツ汁麺",
+              "price": 1180,
+              "description": "きのこ入りの白いスープの米麺。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "鶏のガパオライス",
+              "price": 1080,
+              "description": "鶏肉の香草炒めに卵とご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "海老のパッタイ",
+              "price": 1180,
+              "description": "海老と米麺を甘酸っぱく炒める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "鶏のグリーンカレー",
+              "price": 1180,
+              "description": "ココナツ風味のカレーにご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "蒸し鶏のカオマンガイ",
+              "price": 1080,
+              "description": "蒸し鶏とだしで炊いたご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "thai-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "thai-3-section-2",
+          "title": "小皿・スープ",
+          "items": [
+            {
+              "name": "かぼちゃのスパイス揚げ",
+              "price": 580,
+              "description": "かぼちゃを軽い香辛料で揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "海老と胡瓜の涼味サラダ",
+              "price": 780,
+              "description": "海老と胡瓜をさっぱり和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "野菜の小さな揚げ春巻き",
+              "price": 580,
+              "description": "刻んだ野菜を皮で包んで揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "生春巻き 二本",
+              "price": 580,
+              "description": "野菜と海老を米の皮で包む。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "青パパイヤのサラダ",
+              "price": 780,
+              "description": "細切りの実を甘酸っぱく和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "トムヤムスープ 小",
+              "price": 680,
+              "description": "海老と香草の酸味のあるスープ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "海老せんべい",
+              "price": 280,
+              "description": "海老風味の軽い揚げ菓子。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "thai-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "thai-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "マンゴーともち米の甘味皿",
+              "price": 680,
+              "description": "もち米とマンゴーに甘いソース。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "ジャスミンと桃の冷茶",
+              "price": 420,
+              "description": "桃風味を添えたジャスミン茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "ココナツかぼちゃプリン",
+              "price": 520,
+              "description": "かぼちゃとココナツのプリン。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "タイ風ミルクティー",
+              "price": 480,
+              "description": "濃い紅茶に甘いミルクを加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ライチジュース",
+              "price": 380,
+              "description": "ライチ風味の冷たい果実飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "thai-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "ココナツアイス",
+              "price": 420,
+              "description": "ココナツ風味の小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "マンゴープリン",
+              "price": 480,
+              "description": "マンゴーを使った柔らかな甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "thai-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

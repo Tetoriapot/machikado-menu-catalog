@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "korean",
+    "label": "韓国料理店",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "korean-1",
+      "name": "韓国台所 ポムの食卓",
+      "category": "korean",
+      "description": "住宅街の家庭的な韓国料理店。野菜の小皿と温かい鍋を囲む夕食が中心。",
+      "openingHours": "11:30〜14:00／17:00〜21:00（火曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "家庭料理",
+        "小皿",
+        "住宅街"
+      ],
+      "scene": {
+        "interior": "木の食卓に小さな皿が並び、壁には料理の写真が手書きの説明と一緒に貼られる。",
+        "service": "辛さの目安を伝え、小皿を先に出す。鍋の取り分け用には人数分の器を用意する。",
+        "signature": "牛すじと大根の温かいスープ膳と青ねぎと海老のふっくらチヂミ",
+        "localFlavor": "家族連れと近所の常連が多い。週末は顔見知り同士で料理を取り分ける。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "korean-1-section-1",
+          "title": "ご飯・鍋・麺",
+          "items": [
+            {
+              "name": "牛すじと大根の温かいスープ膳",
+              "price": 1280,
+              "description": "柔らかな牛すじと大根のスープ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "ポムの鶏そぼろビビンバ",
+              "price": 1080,
+              "description": "鶏そぼろと野菜の和え物を混ぜる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "豚と豆腐の家族鍋 二人分",
+              "price": 2680,
+              "description": "豚肉と豆腐を二人で取り分ける鍋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "石焼ビビンバ",
+              "price": 1080,
+              "description": "野菜と肉をご飯に載せた熱い石鍋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "豆腐の辛味スープ定食",
+              "price": 1180,
+              "description": "豆腐入りの赤いスープにご飯を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "牛肉入り冷麺",
+              "price": 1080,
+              "description": "冷たいスープに牛肉と野菜を載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "豚肉の甘辛丼",
+              "price": 980,
+              "description": "甘辛く炒めた豚肉をご飯に盛る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "korean-1-section-2",
+          "title": "小皿・取り分け",
+          "items": [
+            {
+              "name": "青ねぎと海老のふっくらチヂミ",
+              "price": 880,
+              "description": "青ねぎと海老を厚めに焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "じゃがいもの甘辛煮",
+              "price": 380,
+              "description": "小ぶりのじゃがいもを甘辛く煮る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "蒸し鶏の胡麻だれ小皿",
+              "price": 580,
+              "description": "裂いた蒸し鶏に胡麻だれをかける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "白菜キムチ",
+              "price": 380,
+              "description": "白菜を辛味だれで漬けた小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ナムル三種",
+              "price": 480,
+              "description": "野菜の和え物を三種盛り合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "にらチヂミ",
+              "price": 680,
+              "description": "にらを混ぜた生地を薄く焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "春雨炒め",
+              "price": 720,
+              "description": "春雨と野菜を甘辛く炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "korean-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "きなこの小さな餅皿",
+              "price": 480,
+              "description": "柔らかな餅にきなこをまぶす。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "生姜と蜂蜜の温かい茶",
+              "price": 380,
+              "description": "生姜と蜂蜜の風味を合わせたお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "白桃ヨーグルトドリンク",
+              "price": 450,
+              "description": "白桃風味の飲むヨーグルト。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "とうもろこし茶",
+              "price": 280,
+              "description": "香ばしいとうもろこしのお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "柚子茶",
+              "price": 380,
+              "description": "柚子の甘いシロップを湯で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "梨ジュース",
+              "price": 380,
+              "description": "梨の風味がする冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "黒胡麻アイス",
+              "price": 380,
+              "description": "黒胡麻を練り込んだ小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korean-2",
+      "name": "ソウル路地 サム食堂",
+      "category": "korean",
+      "description": "駅前の細い路地にある賑やかな韓国料理店。仕事帰りの仲間が鉄板料理と小皿を囲む。",
+      "openingHours": "17:00〜翌1:00（月曜休）",
+      "locationType": "station",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "路地",
+        "鉄板料理",
+        "夜の食事"
+      ],
+      "scene": {
+        "interior": "銀色の丸卓と低い椅子が並ぶ。壁の黒板には取り分け料理の人数目安が書かれる。",
+        "service": "鉄板を運ぶ前に卓上を空けるよう声をかける。料理の量と辛さを短く案内する。",
+        "signature": "サムの豚ばら鉄板 二人前と砂肝とにんにくの炒め皿",
+        "localFlavor": "駅前で働く人が閉店後に集まる。終電前には短い食事の客が入れ替わる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "korean-2-section-1",
+          "title": "ご飯・鍋・麺",
+          "items": [
+            {
+              "name": "サムの豚ばら鉄板 二人前",
+              "price": 2880,
+              "description": "豚ばらと野菜を焼く二人分の鉄板。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "旨辛鶏とチーズの鍋",
+              "price": 1680,
+              "description": "辛味の鶏に溶けたチーズを合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "干し鱈のスープご飯",
+              "price": 1080,
+              "description": "干し鱈のだしのスープにご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "石焼ビビンバ",
+              "price": 1080,
+              "description": "野菜と肉をご飯に載せた熱い石鍋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "豆腐の辛味スープ定食",
+              "price": 1180,
+              "description": "豆腐入りの赤いスープにご飯を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "牛肉入り冷麺",
+              "price": 1080,
+              "description": "冷たいスープに牛肉と野菜を載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "豚肉の甘辛丼",
+              "price": 980,
+              "description": "甘辛く炒めた豚肉をご飯に盛る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "korean-2-section-2",
+          "title": "小皿・取り分け",
+          "items": [
+            {
+              "name": "砂肝とにんにくの炒め皿",
+              "price": 680,
+              "description": "砂肝をにんにくと香ばしく炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "甘辛手羽の盛り合わせ",
+              "price": 880,
+              "description": "揚げた手羽に甘辛いだれを絡める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "胡瓜の辛味和え",
+              "price": 380,
+              "description": "胡瓜を赤い辛味だれで和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "白菜キムチ",
+              "price": 380,
+              "description": "白菜を辛味だれで漬けた小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ナムル三種",
+              "price": 480,
+              "description": "野菜の和え物を三種盛り合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "にらチヂミ",
+              "price": 680,
+              "description": "にらを混ぜた生地を薄く焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "春雨炒め",
+              "price": 720,
+              "description": "春雨と野菜を甘辛く炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "korean-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "梨のマッコリカクテル",
+              "price": 580,
+              "description": "マッコリに梨の風味を合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "青りんごソーダ",
+              "price": 380,
+              "description": "青りんごの香りの炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "小さな蜂蜜ホットク",
+              "price": 520,
+              "description": "蜂蜜風味の餡を包んだ焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "とうもろこし茶",
+              "price": 280,
+              "description": "香ばしいとうもろこしのお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "柚子茶",
+              "price": 380,
+              "description": "柚子の甘いシロップを湯で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "梨ジュース",
+              "price": 380,
+              "description": "梨の風味がする冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "黒胡麻アイス",
+              "price": 380,
+              "description": "黒胡麻を練り込んだ小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korean-3",
+      "name": "韓ごはん ハヌル窓",
+      "category": "korean",
+      "description": "オフィス街の二階にある明るい韓国料理店。昼は軽めのご飯と具だくさんのスープを組み合わせられる。",
+      "openingHours": "11:00〜20:00（日祝休）",
+      "locationType": "city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "二階の店",
+        "スープ",
+        "昼食"
+      ],
+      "scene": {
+        "interior": "大きな窓に沿ってカウンターがあり、白い壁に空色の小さな額が掛かる。",
+        "service": "ご飯の量とスープを確認する。昼の混雑時は先に会計を済ませて席へ案内する。",
+        "signature": "きのこと鶏の澄まし鍋膳と豆腐の香味ねぎだれ",
+        "localFlavor": "近くの事務所で働く人が昼休みに来る。午後は書類を読む一人客が静かに過ごす。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "korean-3-section-1",
+          "title": "ご飯・鍋・麺",
+          "items": [
+            {
+              "name": "きのこと鶏の澄まし鍋膳",
+              "price": 1280,
+              "description": "鶏ときのこを澄んだスープで煮る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "蒸し野菜の雑穀ビビンバ",
+              "price": 1180,
+              "description": "蒸し野菜を雑穀ご飯に盛り付ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "海老と卵のクッパ",
+              "price": 1080,
+              "description": "海老と卵のスープにご飯を入れる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "石焼ビビンバ",
+              "price": 1080,
+              "description": "野菜と肉をご飯に載せた熱い石鍋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "豆腐の辛味スープ定食",
+              "price": 1180,
+              "description": "豆腐入りの赤いスープにご飯を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "牛肉入り冷麺",
+              "price": 1080,
+              "description": "冷たいスープに牛肉と野菜を載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "豚肉の甘辛丼",
+              "price": 980,
+              "description": "甘辛く炒めた豚肉をご飯に盛る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "korean-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "korean-3-section-2",
+          "title": "小皿・取り分け",
+          "items": [
+            {
+              "name": "豆腐の香味ねぎだれ",
+              "price": 480,
+              "description": "温かい豆腐にねぎだれをかける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "蓮根と胡桃の甘煮",
+              "price": 420,
+              "description": "蓮根と胡桃をつやよく煮る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "海苔巻きの小盛り六切れ",
+              "price": 580,
+              "description": "野菜入りの海苔巻きを小さく切る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "白菜キムチ",
+              "price": 380,
+              "description": "白菜を辛味だれで漬けた小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "ナムル三種",
+              "price": 480,
+              "description": "野菜の和え物を三種盛り合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "にらチヂミ",
+              "price": 680,
+              "description": "にらを混ぜた生地を薄く焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "春雨炒め",
+              "price": 720,
+              "description": "春雨と野菜を甘辛く炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "korean-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "korean-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "五味子風味のソーダ",
+              "price": 450,
+              "description": "甘酸っぱい風味を添えた炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "小豆とミルクのミニ氷",
+              "price": 580,
+              "description": "小さなかき氷に小豆を載せる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "柚子と豆乳のプリン",
+              "price": 420,
+              "description": "豆乳プリンに柚子の蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "とうもろこし茶",
+              "price": 280,
+              "description": "香ばしいとうもろこしのお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "柚子茶",
+              "price": 380,
+              "description": "柚子の甘いシロップを湯で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "梨ジュース",
+              "price": 380,
+              "description": "梨の風味がする冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "korean-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "黒胡麻アイス",
+              "price": 380,
+              "description": "黒胡麻を練り込んだ小さなアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "korean-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "liquor-store",
+    "label": "酒店",
+    "group": "小売店",
+    "icon": "wine"
+  },
+  "shops": [
+    {
+      "id": "liquor-store-1",
+      "name": "酒舗 宵の蔵",
+      "category": "liquor-store",
+      "description": "旧街道にある日本酒中心の酒店。架空の銘柄を飲み口ごとに選べる。",
+      "openingHours": "10:00〜19:00（日曜休）",
+      "locationType": "local-city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "日本酒",
+        "旧街道",
+        "贈り物"
+      ],
+      "scene": {
+        "interior": "土間に木箱が並び、奥の冷蔵棚に瓶が収まる。札には甘口や辛口の目安が書かれる。",
+        "service": "飲む場面と予算を聞いて瓶を選ぶ。贈答用の箱はサイズを確認して包む。",
+        "signature": "純米吟醸 宵しずく 七百二十ミリと酒粕風味の焼き煎餅",
+        "localFlavor": "近くの料理店が仕入れに来る。行事の前には贈り物を選ぶ住民が増える。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "liquor-store-1-section-1",
+          "title": "瓶のお酒",
+          "items": [
+            {
+              "name": "純米吟醸 宵しずく 七百二十ミリ",
+              "price": 2420,
+              "description": "架空銘柄の香りを楽しむ日本酒。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "にごり酒 白い橋 五百ミリ",
+              "price": 1650,
+              "description": "架空銘柄の白く濁った酒。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "本醸造 蔵の灯 一升",
+              "price": 2200,
+              "description": "架空銘柄の大きな日本酒瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "純米酒 川の月 七百二十ミリ",
+              "price": 1540,
+              "description": "架空銘柄の日本酒の小瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "麦焼酎 野の声 七百二十ミリ",
+              "price": 1320,
+              "description": "架空銘柄の麦焼酎の瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "白ワイン 丘の便り 七百五十ミリ",
+              "price": 1760,
+              "description": "架空銘柄の白ワイン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "缶ビール 三百五十ミリ",
+              "price": 280,
+              "description": "持ち帰り用の缶ビール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "liquor-store-1-section-2",
+          "title": "おつまみ",
+          "items": [
+            {
+              "name": "酒粕風味の焼き煎餅",
+              "price": 480,
+              "description": "酒粕の香りを付けた菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "味噌漬け豆腐の小箱",
+              "price": 680,
+              "description": "味噌風味に仕上げた豆腐。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "山椒香る小魚の袋",
+              "price": 580,
+              "description": "小魚に山椒の香りを添える。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "燻製ミックスナッツ",
+              "price": 480,
+              "description": "燻製風味のナッツの小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "焼きいかの小袋",
+              "price": 380,
+              "description": "食べやすく切った乾き物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "チーズの小箱",
+              "price": 580,
+              "description": "個包装のチーズを詰める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "塩味クラッカー",
+              "price": 280,
+              "description": "軽い塩味の薄焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "liquor-store-1-section-3",
+          "title": "器・ノンアルコール",
+          "items": [
+            {
+              "name": "宵の蔵の片口酒器",
+              "price": 1980,
+              "description": "注ぎ口付きの陶器の器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "酒米柄の包み布",
+              "price": 1100,
+              "description": "稲の図案を刷った布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "麹の甘酒 ノンアルコール瓶",
+              "price": 540,
+              "description": "米麹を使った甘い飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "炭酸水 五百ミリ",
+              "price": 140,
+              "description": "そのままでも割り材にも使える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうジュース 小瓶",
+              "price": 380,
+              "description": "持ち帰り用の果実飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "小さな利き猪口",
+              "price": 440,
+              "description": "内側に模様を描いた酒器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "瓶用ギフト袋",
+              "price": 220,
+              "description": "一本を持ち運べる丈夫な袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liquor-store-2",
+      "name": "ワインと瓶もの 葡萄窓",
+      "category": "liquor-store",
+      "description": "住宅街の小さなワイン店。夕食に合わせる一本と小さなおつまみを扱う。",
+      "openingHours": "12:00〜20:00（火曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "ワイン",
+        "住宅街",
+        "夕食"
+      ],
+      "scene": {
+        "interior": "壁のワイン棚と低い冷蔵ケースがある。窓辺に食卓の組み合わせ例を並べる。",
+        "service": "料理と飲み口の好みを聞いて案内する。瓶の持ち帰りには仕切り付きの袋を使う。",
+        "signature": "赤ワイン 路地の実 七百五十ミリとオリーブとハーブの小瓶",
+        "localFlavor": "近所の人が夕食の買い物に立ち寄る。休日は友人宅への手土産を探す客も多い。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "liquor-store-2-section-1",
+          "title": "瓶のお酒",
+          "items": [
+            {
+              "name": "赤ワイン 路地の実 七百五十ミリ",
+              "price": 2200,
+              "description": "架空銘柄の赤ワインの瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "ロゼ 夕映え庭 七百五十ミリ",
+              "price": 2420,
+              "description": "架空銘柄の淡い色のワイン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "泡ワイン 小さな祝日 三百七十五ミリ",
+              "price": 1650,
+              "description": "架空銘柄の小容量発泡ワイン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "純米酒 川の月 七百二十ミリ",
+              "price": 1540,
+              "description": "架空銘柄の日本酒の小瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "麦焼酎 野の声 七百二十ミリ",
+              "price": 1320,
+              "description": "架空銘柄の麦焼酎の瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "白ワイン 丘の便り 七百五十ミリ",
+              "price": 1760,
+              "description": "架空銘柄の白ワイン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "缶ビール 三百五十ミリ",
+              "price": 280,
+              "description": "持ち帰り用の缶ビール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "liquor-store-2-section-2",
+          "title": "おつまみ",
+          "items": [
+            {
+              "name": "オリーブとハーブの小瓶",
+              "price": 680,
+              "description": "香草を合わせたオリーブ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "白いんげんのディップ瓶",
+              "price": 580,
+              "description": "豆をなめらかにつぶした瓶詰め。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "ドライいちじくの小袋",
+              "price": 660,
+              "description": "少しずつ食べられる乾燥果実。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "燻製ミックスナッツ",
+              "price": 480,
+              "description": "燻製風味のナッツの小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "焼きいかの小袋",
+              "price": 380,
+              "description": "食べやすく切った乾き物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "チーズの小箱",
+              "price": 580,
+              "description": "個包装のチーズを詰める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "塩味クラッカー",
+              "price": 280,
+              "description": "軽い塩味の薄焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "liquor-store-2-section-3",
+          "title": "器・ノンアルコール",
+          "items": [
+            {
+              "name": "脚なしワイングラス 二個",
+              "price": 1760,
+              "description": "普段使いしやすい低いグラス。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "葡萄模様のボトルストッパー",
+              "price": 880,
+              "description": "開けた瓶に付ける栓。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "白ぶどうの発泡果汁",
+              "price": 780,
+              "description": "アルコールを含まない果汁飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "炭酸水 五百ミリ",
+              "price": 140,
+              "description": "そのままでも割り材にも使える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうジュース 小瓶",
+              "price": 380,
+              "description": "持ち帰り用の果実飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "小さな利き猪口",
+              "price": 440,
+              "description": "内側に模様を描いた酒器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "瓶用ギフト袋",
+              "price": 220,
+              "description": "一本を持ち運べる丈夫な袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liquor-store-3",
+      "name": "町の酒店 麦の帆",
+      "category": "liquor-store",
+      "description": "港近くで瓶飲料やビールを扱う酒店。普段の買い足しから集まり用の箱まで揃う。",
+      "openingHours": "9:00〜20:00（水曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "港町",
+        "ビール",
+        "瓶飲料"
+      ],
+      "scene": {
+        "interior": "店先に瓶のケースを重ね、冷蔵庫に缶が整然と並ぶ。レジの横に配達用の台車がある。",
+        "service": "本数を確認して丈夫な箱に詰める。贈り物には飲み比べ用の組み合わせを提案する。",
+        "signature": "麦の帆 ペールエール 瓶と粗挽きソーセージ 小袋",
+        "localFlavor": "港で働く人が仕事帰りに寄る。地域の集まりが近い日はまとめ買いが増える。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "liquor-store-3-section-1",
+          "title": "瓶のお酒",
+          "items": [
+            {
+              "name": "麦の帆 ペールエール 瓶",
+              "price": 680,
+              "description": "架空銘柄の香りのあるビール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "黒ビール 夜の船 瓶",
+              "price": 720,
+              "description": "架空銘柄の濃い色のビール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "りんご酒 港の実 瓶",
+              "price": 780,
+              "description": "架空銘柄のりんごの酒。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "純米酒 川の月 七百二十ミリ",
+              "price": 1540,
+              "description": "架空銘柄の日本酒の小瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "麦焼酎 野の声 七百二十ミリ",
+              "price": 1320,
+              "description": "架空銘柄の麦焼酎の瓶。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "白ワイン 丘の便り 七百五十ミリ",
+              "price": 1760,
+              "description": "架空銘柄の白ワイン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "缶ビール 三百五十ミリ",
+              "price": 280,
+              "description": "持ち帰り用の缶ビール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "liquor-store-3-section-2",
+          "title": "おつまみ",
+          "items": [
+            {
+              "name": "粗挽きソーセージ 小袋",
+              "price": 680,
+              "description": "焼いて食べる小さな袋入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "海苔塩そら豆",
+              "price": 380,
+              "description": "そら豆に海苔と塩の風味。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "胡椒の効いた焼き帆立",
+              "price": 580,
+              "description": "焼き帆立を胡椒味にする。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "燻製ミックスナッツ",
+              "price": 480,
+              "description": "燻製風味のナッツの小袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "焼きいかの小袋",
+              "price": 380,
+              "description": "食べやすく切った乾き物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "チーズの小箱",
+              "price": 580,
+              "description": "個包装のチーズを詰める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "塩味クラッカー",
+              "price": 280,
+              "description": "軽い塩味の薄焼き菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "liquor-store-3-section-3",
+          "title": "器・ノンアルコール",
+          "items": [
+            {
+              "name": "帆船柄の栓抜き",
+              "price": 660,
+              "description": "帆船を図案にした栓抜き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "麦の帆のジョッキ",
+              "price": 1320,
+              "description": "店名を入れた厚手のグラス。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "港の生姜エール",
+              "price": 380,
+              "description": "生姜の風味が強めの炭酸飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "炭酸水 五百ミリ",
+              "price": 140,
+              "description": "そのままでも割り材にも使える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ぶどうジュース 小瓶",
+              "price": 380,
+              "description": "持ち帰り用の果実飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "liquor-store-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "小さな利き猪口",
+              "price": 440,
+              "description": "内側に模様を描いた酒器。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "瓶用ギフト袋",
+              "price": 220,
+              "description": "一本を持ち運べる丈夫な袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "id": "liquor-store-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

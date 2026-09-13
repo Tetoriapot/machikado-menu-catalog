@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "indian",
+    "label": "インド料理店",
+    "group": "飲食店",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "indian-1",
+      "name": "インド食堂 スパイス便り",
+      "category": "indian",
+      "description": "商店街の角にあるインド料理店。昼はカレーと小皿を組み合わせた定食が中心。",
+      "openingHours": "11:00〜15:00／17:00〜21:30（月曜休）",
+      "locationType": "shopping-street",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "定食",
+        "商店街",
+        "スパイス"
+      ],
+      "scene": {
+        "interior": "壁の棚に香辛料の瓶が並ぶ。テーブルにセットの内容を描いた小さな札がある。",
+        "service": "辛さと主食を確認する。初めての客には小皿の食べ方を短く説明する。",
+        "signature": "三種豆のスパイス定食と玉ねぎの小さなパコラ",
+        "localFlavor": "商店街で働く人が昼食に来る。夕方は買い物帰りの家族が料理を囲む。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "indian-1-section-1",
+          "title": "カレー・ご飯・セット",
+          "items": [
+            {
+              "name": "三種豆のスパイス定食",
+              "price": 1180,
+              "description": "三種類の豆カレーとご飯の皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "鶏と茄子のトマトカレー膳",
+              "price": 1280,
+              "description": "鶏と茄子にトマトの酸味。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "スパイス便りの二色ランチ",
+              "price": 1480,
+              "description": "肉と野菜のカレーを一皿に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "バターチキンとナン",
+              "price": 1280,
+              "description": "まろやかな鶏カレーとナン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草チーズカレーセット",
+              "price": 1380,
+              "description": "ほうれん草とチーズのカレー。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "ひよこ豆カレーとライス",
+              "price": 1080,
+              "description": "豆のカレーに香り米を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "チキンビリヤニ",
+              "price": 1380,
+              "description": "香辛料と鶏を合わせた炊き込み米。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "indian-1-section-2",
+          "title": "窯焼き・小皿",
+          "items": [
+            {
+              "name": "玉ねぎの小さなパコラ",
+              "price": 480,
+              "description": "玉ねぎを豆粉の衣で揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "じゃがいものクミン炒め",
+              "price": 520,
+              "description": "芋をクミンの香りで炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "胡麻とねぎの窯焼きパン",
+              "price": 480,
+              "description": "胡麻とねぎを載せて窯で焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "タンドリーチキン 二切れ",
+              "price": 780,
+              "description": "香辛料に漬けた鶏の窯焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "サモサ 二個",
+              "price": 580,
+              "description": "芋の具を皮で包んだ揚げ物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "プレーンナン",
+              "price": 350,
+              "description": "窯で焼く平たい柔らかなパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "野菜のヨーグルト和え",
+              "price": 380,
+              "description": "刻み野菜をヨーグルトで和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "indian-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "生姜強めのミルクチャイ",
+              "price": 420,
+              "description": "生姜の香りを強めにした紅茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "カルダモンの小プリン",
+              "price": 480,
+              "description": "カルダモンを香らせたプリン。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "indian-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "塩レモンラッシー",
+              "price": 450,
+              "description": "塩とレモンを添えたラッシー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "プレーンラッシー",
+              "price": 380,
+              "description": "ヨーグルトを使う冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ホットチャイ",
+              "price": 380,
+              "description": "香辛料を加えたミルクティー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "マンゴーラッシー",
+              "price": 480,
+              "description": "マンゴー風味のヨーグルト飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ミルクライスプディング",
+              "price": 420,
+              "description": "米をミルクで甘く煮た小鉢。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "indian-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indian-2",
+      "name": "ビリヤニの店 青い壺",
+      "category": "indian",
+      "description": "大学近くのインド料理店。香り米の料理を中心に、肉や野菜の組み合わせを選べる。",
+      "openingHours": "11:30〜20:30（木曜休）",
+      "locationType": "suburb",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "香り米",
+        "大学近く",
+        "ビリヤニ"
+      ],
+      "scene": {
+        "interior": "青い壺を飾った小さな棚と長机がある。厨房から米と香辛料の香りが届く。",
+        "service": "米料理の量と付け合わせを説明する。二人で分ける場合には器を添える。",
+        "signature": "羊肉の壺焼きビリヤニと鶏ひき肉のシーク串",
+        "localFlavor": "学生と大学で働く人が多い。授業のない午後には本を読む客もいる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "indian-2-section-1",
+          "title": "カレー・ご飯・セット",
+          "items": [
+            {
+              "name": "羊肉の壺焼きビリヤニ",
+              "price": 1680,
+              "description": "羊肉と香り米を壺で温める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "海老とミントの香り米",
+              "price": 1580,
+              "description": "海老の炊き込み米にミント。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "焼き野菜のビリヤニプレート",
+              "price": 1380,
+              "description": "焼いた野菜と香り米の皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "バターチキンとナン",
+              "price": 1280,
+              "description": "まろやかな鶏カレーとナン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草チーズカレーセット",
+              "price": 1380,
+              "description": "ほうれん草とチーズのカレー。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "ひよこ豆カレーとライス",
+              "price": 1080,
+              "description": "豆のカレーに香り米を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "チキンビリヤニ",
+              "price": 1380,
+              "description": "香辛料と鶏を合わせた炊き込み米。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "indian-2-section-2",
+          "title": "窯焼き・小皿",
+          "items": [
+            {
+              "name": "鶏ひき肉のシーク串",
+              "price": 680,
+              "description": "香辛料入り鶏ひき肉の串焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "いんげんとココナツの炒め物",
+              "price": 520,
+              "description": "いんげんをココナツと炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "赤玉ねぎのレモン漬け",
+              "price": 320,
+              "description": "薄い赤玉ねぎをレモンで漬ける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "タンドリーチキン 二切れ",
+              "price": 780,
+              "description": "香辛料に漬けた鶏の窯焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "サモサ 二個",
+              "price": 580,
+              "description": "芋の具を皮で包んだ揚げ物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "プレーンナン",
+              "price": 350,
+              "description": "窯で焼く平たい柔らかなパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "野菜のヨーグルト和え",
+              "price": 380,
+              "description": "刻み野菜をヨーグルトで和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "indian-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "ミントライムのラッシー",
+              "price": 480,
+              "description": "ミントとライムの冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "青い壺のナッツアイス",
+              "price": 520,
+              "description": "刻みナッツを混ぜたアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "indian-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "タマリンドの冷たいソーダ",
+              "price": 450,
+              "description": "甘酸っぱい風味の炭酸水。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "プレーンラッシー",
+              "price": 380,
+              "description": "ヨーグルトを使う冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ホットチャイ",
+              "price": 380,
+              "description": "香辛料を加えたミルクティー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "マンゴーラッシー",
+              "price": 480,
+              "description": "マンゴー風味のヨーグルト飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ミルクライスプディング",
+              "price": 420,
+              "description": "米をミルクで甘く煮た小鉢。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "indian-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indian-3",
+      "name": "窯とカレー アンバー",
+      "category": "indian",
+      "description": "繁華街のビルにあるインド料理店。窯焼き料理と濃厚なカレーをゆっくり楽しむ夜の店。",
+      "openingHours": "17:00〜23:00（日曜休）",
+      "locationType": "city",
+      "priceLevel": "expensive",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "窯焼き",
+        "夜の会食",
+        "取り分け"
+      ],
+      "scene": {
+        "interior": "暖色の照明が長いテーブルを照らす。ガラス越しに窯の口と焼き場が見える。",
+        "service": "肉料理の量と焼き上がりを案内する。複数のカレーには取り分け匙を添える。",
+        "signature": "羊肉と黒胡椒の煮込みカレーと魚の香辛料包み焼き",
+        "localFlavor": "仕事仲間の会食が多い。夜遅くには近隣の店を終えた二人客が訪れる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "indian-3-section-1",
+          "title": "カレー・ご飯・セット",
+          "items": [
+            {
+              "name": "羊肉と黒胡椒の煮込みカレー",
+              "price": 1680,
+              "description": "羊肉を黒胡椒の香りで煮込む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "海老とカシューナッツの白カレー",
+              "price": 1780,
+              "description": "海老にナッツの濃厚なソース。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "アンバーの窯焼き晩餐セット",
+              "price": 2980,
+              "description": "窯焼き三種とカレー一種のセット。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "バターチキンとナン",
+              "price": 1280,
+              "description": "まろやかな鶏カレーとナン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "ほうれん草チーズカレーセット",
+              "price": 1380,
+              "description": "ほうれん草とチーズのカレー。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "ひよこ豆カレーとライス",
+              "price": 1080,
+              "description": "豆のカレーに香り米を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "チキンビリヤニ",
+              "price": 1380,
+              "description": "香辛料と鶏を合わせた炊き込み米。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "indian-3-section-2",
+          "title": "窯焼き・小皿",
+          "items": [
+            {
+              "name": "魚の香辛料包み焼き",
+              "price": 1180,
+              "description": "白身魚を香辛料に漬けて焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "チーズとパプリカの窯串",
+              "price": 880,
+              "description": "チーズと野菜を串で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "にんにくバターの重ねパン",
+              "price": 580,
+              "description": "薄いパンを重ねて香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "タンドリーチキン 二切れ",
+              "price": 780,
+              "description": "香辛料に漬けた鶏の窯焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "サモサ 二個",
+              "price": 580,
+              "description": "芋の具を皮で包んだ揚げ物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "プレーンナン",
+              "price": 350,
+              "description": "窯で焼く平たい柔らかなパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "indian-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "野菜のヨーグルト和え",
+              "price": 380,
+              "description": "刻み野菜をヨーグルトで和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "indian-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "indian-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "シナモンラムチャイ",
+              "price": 680,
+              "description": "チャイにラムとシナモンを加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "蜂蜜ピスタチオのミルク菓子",
+              "price": 620,
+              "description": "ミルク菓子に蜂蜜とナッツ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "indian-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "ざくろのスパイスソーダ",
+              "price": 580,
+              "description": "ざくろ風味に香辛料の香り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "プレーンラッシー",
+              "price": 380,
+              "description": "ヨーグルトを使う冷たい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "ホットチャイ",
+              "price": 380,
+              "description": "香辛料を加えたミルクティー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "マンゴーラッシー",
+              "price": 480,
+              "description": "マンゴー風味のヨーグルト飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "indian-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "ミルクライスプディング",
+              "price": 420,
+              "description": "米をミルクで甘く煮た小鉢。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "indian-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

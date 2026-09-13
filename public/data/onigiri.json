@@ -1,0 +1,706 @@
+{
+  "category": {
+    "id": "onigiri",
+    "label": "おにぎり専門店",
+    "group": "テイクアウト",
+    "icon": "utensils"
+  },
+  "shops": [
+    {
+      "id": "onigiri-1",
+      "name": "むすび屋 朝の粒",
+      "category": "onigiri",
+      "description": "駅に向かう通りで朝早く開くおにぎり店。注文を受けてからご飯を握る。",
+      "openingHours": "6:30〜14:00（日曜休）",
+      "locationType": "station",
+      "priceLevel": "cheap",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "朝食",
+        "握りたて",
+        "駅前"
+      ],
+      "scene": {
+        "interior": "ガラス棚に具の見本が並ぶ。奥の大きな炊飯器から湯気が上がっている。",
+        "service": "持ち歩く時間を聞き、温かい物を分けて包む。朝は会計の列を短く整える。",
+        "signature": "鮭と枝豆の朝むすびと朝の小さな根菜汁",
+        "localFlavor": "通勤客が二個ずつ買っていく。電車の合間には近所の店主が朝食に寄る。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "onigiri-1-section-1",
+          "title": "おにぎり",
+          "items": [
+            {
+              "name": "鮭と枝豆の朝むすび",
+              "price": 280,
+              "description": "ほぐし鮭と枝豆を混ぜて握る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-original-1",
+              "recommended": true
+            },
+            {
+              "name": "鶏そぼろ生姜むすび",
+              "price": 270,
+              "description": "生姜入りの鶏そぼろを包む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-original-2",
+              "recommended": false
+            },
+            {
+              "name": "焼きたらこと大葉むすび",
+              "price": 290,
+              "description": "焼いたたらこに大葉を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-original-3",
+              "recommended": false
+            },
+            {
+              "name": "塩むすび",
+              "price": 150,
+              "description": "塩だけで握った素朴なおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "焼き鮭むすび",
+              "price": 240,
+              "description": "焼き鮭をほぐして包んだ一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "梅むすび",
+              "price": 200,
+              "description": "梅の果肉を包んだおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "昆布むすび",
+              "price": 200,
+              "description": "甘辛い昆布を具にした一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-1-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "onigiri-1-section-2",
+          "title": "汁物・おかず",
+          "items": [
+            {
+              "name": "朝の小さな根菜汁",
+              "price": 260,
+              "description": "角切り根菜の温かい汁物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-original-4",
+              "recommended": true
+            },
+            {
+              "name": "青ねぎ入り卵焼き",
+              "price": 260,
+              "description": "刻みねぎを混ぜた厚い卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-original-5",
+              "recommended": false
+            },
+            {
+              "name": "蓮根きんぴらの小袋",
+              "price": 180,
+              "description": "蓮根を細く切った甘辛いおかず。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-original-6",
+              "recommended": false
+            },
+            {
+              "name": "具だくさん豚汁",
+              "price": 320,
+              "description": "豚肉と根菜を入れた汁物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "小さなだし巻き",
+              "price": 220,
+              "description": "お弁当に添える小さな卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "唐揚げ 二個",
+              "price": 280,
+              "description": "鶏の唐揚げを食べやすい量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "浅漬けの小カップ",
+              "price": 150,
+              "description": "野菜の浅漬けを少量ずつ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-1-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "onigiri-1-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "朝の梅昆布茶",
+              "price": 200,
+              "description": "梅と昆布風味の温かい一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-1-original-7",
+              "recommended": true
+            },
+            {
+              "name": "黒糖きなこもち 二個",
+              "price": 260,
+              "description": "小さな餅に黒糖ときなこ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "onigiri-1-original-8",
+              "recommended": false
+            },
+            {
+              "name": "冷たい玄米ミルク茶",
+              "price": 280,
+              "description": "玄米茶をミルクで割った飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-1-original-9",
+              "recommended": false
+            },
+            {
+              "name": "麦茶ボトル",
+              "price": 180,
+              "description": "冷たい麦茶の持ち帰りボトル。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-1-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "温かいほうじ茶",
+              "price": 180,
+              "description": "香ばしいお茶を紙カップで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-1-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "抹茶の小団子",
+              "price": 240,
+              "description": "抹茶風味の団子を小さな串で。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "onigiri-1-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "豆乳飲料",
+              "price": 200,
+              "description": "飲み切りサイズの豆乳飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-1-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onigiri-2",
+      "name": "米包み 田の音",
+      "category": "onigiri",
+      "description": "田園の直売所の隣にあるおにぎり店。炊き込みご飯と野菜のおかずが揃う。",
+      "openingHours": "9:00〜16:00（水曜休）",
+      "locationType": "rural",
+      "priceLevel": "cheap",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "田園",
+        "炊き込み",
+        "野菜"
+      ],
+      "scene": {
+        "interior": "木の台に包みが並び、窓の外に水田が見える。入口には野菜の小さな棚がある。",
+        "service": "具材の札を見せて注文を聞く。大きな包みには取り分け用の紙を添える。",
+        "signature": "舞茸おこわむすびと田の音のきのこ汁",
+        "localFlavor": "直売所の買い物客と農作業の人が訪れる。昼は外のベンチで包みを開く人がいる。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "onigiri-2-section-1",
+          "title": "おにぎり",
+          "items": [
+            {
+              "name": "舞茸おこわむすび",
+              "price": 280,
+              "description": "舞茸の香りのもち米を握る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-original-1",
+              "recommended": true
+            },
+            {
+              "name": "青菜と胡麻の玄米むすび",
+              "price": 240,
+              "description": "玄米に青菜と胡麻を混ぜる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-original-2",
+              "recommended": false
+            },
+            {
+              "name": "生姜と油揚げの炊き込みむすび",
+              "price": 260,
+              "description": "生姜と油揚げを炊き込む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-original-3",
+              "recommended": false
+            },
+            {
+              "name": "塩むすび",
+              "price": 150,
+              "description": "塩だけで握った素朴なおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "焼き鮭むすび",
+              "price": 240,
+              "description": "焼き鮭をほぐして包んだ一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "梅むすび",
+              "price": 200,
+              "description": "梅の果肉を包んだおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "昆布むすび",
+              "price": 200,
+              "description": "甘辛い昆布を具にした一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-2-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "onigiri-2-section-2",
+          "title": "汁物・おかず",
+          "items": [
+            {
+              "name": "田の音のきのこ汁",
+              "price": 300,
+              "description": "数種のきのこを温かい汁に。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-original-4",
+              "recommended": true
+            },
+            {
+              "name": "里いもの胡麻味噌和え",
+              "price": 220,
+              "description": "里いもを胡麻味噌で和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-original-5",
+              "recommended": false
+            },
+            {
+              "name": "かぼちゃの甘煮カップ",
+              "price": 200,
+              "description": "柔らかなかぼちゃを小鉢に。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-original-6",
+              "recommended": false
+            },
+            {
+              "name": "具だくさん豚汁",
+              "price": 320,
+              "description": "豚肉と根菜を入れた汁物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "小さなだし巻き",
+              "price": 220,
+              "description": "お弁当に添える小さな卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "唐揚げ 二個",
+              "price": 280,
+              "description": "鶏の唐揚げを食べやすい量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "浅漬けの小カップ",
+              "price": 150,
+              "description": "野菜の浅漬けを少量ずつ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-2-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "onigiri-2-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "りんご煮のもちカップ",
+              "price": 320,
+              "description": "もちと煮りんごを重ねた甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "onigiri-2-original-7",
+              "recommended": true
+            },
+            {
+              "name": "田園の赤しそ茶",
+              "price": 220,
+              "description": "赤しその風味を加えた冷茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-2-original-8",
+              "recommended": false
+            },
+            {
+              "name": "温かい黒豆のお茶",
+              "price": 200,
+              "description": "黒豆の香りがする温かいお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-2-original-9",
+              "recommended": false
+            },
+            {
+              "name": "麦茶ボトル",
+              "price": 180,
+              "description": "冷たい麦茶の持ち帰りボトル。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-2-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "温かいほうじ茶",
+              "price": 180,
+              "description": "香ばしいお茶を紙カップで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-2-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "抹茶の小団子",
+              "price": 240,
+              "description": "抹茶風味の団子を小さな串で。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "onigiri-2-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "豆乳飲料",
+              "price": 200,
+              "description": "飲み切りサイズの豆乳飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-2-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onigiri-3",
+      "name": "夜むすび 灯の縁",
+      "category": "onigiri",
+      "description": "飲食街の端で夕方から開くおにぎり店。仕事終わりに温かい汁物も買える。",
+      "openingHours": "17:00〜翌2:00（月曜休）",
+      "locationType": "city",
+      "priceLevel": "normal",
+      "era": "modern",
+      "scale": "independent",
+      "tags": [
+        "夜食",
+        "飲食街",
+        "持ち帰り"
+      ],
+      "scene": {
+        "interior": "小さな受け渡し窓に暖色の灯りがともる。店内に待つための丸椅子が三つある。",
+        "service": "夜食か持ち帰りかを聞いて包む。汁物の蓋を閉めて別袋に入れる。",
+        "signature": "炙り味噌チーズむすびと夜更けの鶏だし汁",
+        "localFlavor": "飲食店を終えた人が静かに並ぶ。遅い帰宅の客が二個と汁物を買っていく。"
+      },
+      "priceNote": "表示価格はすべて税込です。",
+      "menuSections": [
+        {
+          "id": "onigiri-3-section-1",
+          "title": "おにぎり",
+          "items": [
+            {
+              "name": "炙り味噌チーズむすび",
+              "price": 320,
+              "description": "味噌とチーズを載せて炙る。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-original-1",
+              "recommended": true
+            },
+            {
+              "name": "牛しぐれと山椒むすび",
+              "price": 380,
+              "description": "牛肉のしぐれ煮に山椒の香り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-original-2",
+              "recommended": false
+            },
+            {
+              "name": "海老天と青海苔むすび",
+              "price": 360,
+              "description": "小さな海老天を青海苔ご飯で包む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-original-3",
+              "recommended": false
+            },
+            {
+              "name": "塩むすび",
+              "price": 150,
+              "description": "塩だけで握った素朴なおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-staple-1",
+              "recommended": false
+            },
+            {
+              "name": "焼き鮭むすび",
+              "price": 240,
+              "description": "焼き鮭をほぐして包んだ一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-staple-2",
+              "recommended": false
+            },
+            {
+              "name": "梅むすび",
+              "price": 200,
+              "description": "梅の果肉を包んだおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-staple-3",
+              "recommended": false
+            },
+            {
+              "name": "昆布むすび",
+              "price": 200,
+              "description": "甘辛い昆布を具にした一個。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "id": "onigiri-3-staple-4",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "onigiri-3-section-2",
+          "title": "汁物・おかず",
+          "items": [
+            {
+              "name": "夜更けの鶏だし汁",
+              "price": 340,
+              "description": "鶏とねぎの温かい澄まし汁。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-original-4",
+              "recommended": true
+            },
+            {
+              "name": "味染みおでん三品カップ",
+              "price": 480,
+              "description": "大根と卵と練り物を少量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-original-5",
+              "recommended": false
+            },
+            {
+              "name": "炙り厚揚げの味噌だれ",
+              "price": 320,
+              "description": "厚揚げを炙って味噌をかける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-original-6",
+              "recommended": false
+            },
+            {
+              "name": "具だくさん豚汁",
+              "price": 320,
+              "description": "豚肉と根菜を入れた汁物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-staple-5",
+              "recommended": false
+            },
+            {
+              "name": "小さなだし巻き",
+              "price": 220,
+              "description": "お弁当に添える小さな卵焼き。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-staple-6",
+              "recommended": false
+            },
+            {
+              "name": "唐揚げ 二個",
+              "price": 280,
+              "description": "鶏の唐揚げを食べやすい量で。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-staple-7",
+              "recommended": false
+            },
+            {
+              "name": "浅漬けの小カップ",
+              "price": 150,
+              "description": "野菜の浅漬けを少量ずつ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "id": "onigiri-3-staple-8",
+              "recommended": false
+            }
+          ]
+        },
+        {
+          "id": "onigiri-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "name": "ほっと柚子生姜",
+              "price": 280,
+              "description": "柚子と生姜風味の温かい飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-3-original-7",
+              "recommended": true
+            },
+            {
+              "name": "夜の黒蜜豆乳寒天",
+              "price": 320,
+              "description": "豆乳寒天に黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "onigiri-3-original-8",
+              "recommended": false
+            },
+            {
+              "name": "無糖レモン麦茶",
+              "price": 220,
+              "description": "麦茶に薄いレモンを添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-3-original-9",
+              "recommended": false
+            },
+            {
+              "name": "麦茶ボトル",
+              "price": 180,
+              "description": "冷たい麦茶の持ち帰りボトル。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-3-staple-9",
+              "recommended": false
+            },
+            {
+              "name": "温かいほうじ茶",
+              "price": 180,
+              "description": "香ばしいお茶を紙カップで。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-3-staple-10",
+              "recommended": false
+            },
+            {
+              "name": "抹茶の小団子",
+              "price": 240,
+              "description": "抹茶風味の団子を小さな串で。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "id": "onigiri-3-staple-11",
+              "recommended": false
+            },
+            {
+              "name": "豆乳飲料",
+              "price": 200,
+              "description": "飲み切りサイズの豆乳飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "id": "onigiri-3-staple-12",
+              "recommended": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
