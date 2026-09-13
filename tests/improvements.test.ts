@@ -9,17 +9,48 @@ import { menuPlainText, menuTotal, renderMenuCsv, renderMenuJson, renderMenuSvg 
 import { gmText } from '../src/lib/catalog.ts';
 const summaries=JSON.parse(readFileSync('src/data/generated-index.json','utf8')).shops as ShopSummary[];
 const shop=JSON.parse(readFileSync('src/data/shops/kissaten.json','utf8')).shops[0] as Shop;
-test('増補後は全100店舗に21品以上と情景があり、480品の追加内容が重複しない', () => {
- assert.equal(summaries.length,100);assert.equal(summaries.reduce((n,s)=>n+s.itemCount,0),2104);
+test('先行増補した100店舗の2,104品と情景、480品の追加内容を保持する', () => {
+ const originals=summaries.filter(s=>/-[12]$/.test(s.id));
+ assert.equal(originals.length,100);assert.equal(originals.reduce((n,s)=>n+s.itemCount,0),2104);
  let additions=0;
- for(const summary of summaries){
+ for(const summary of originals){
   assert.ok(summary.itemCount>=21,summary.id);
   for(const field of ['interior','service','signature','localFlavor'] as const)assert.ok((summary.scene?.[field].length??0)>0,`${summary.id}: ${field}`);
   const items=summary.menuIndex.filter(i=>i.id.includes('-editorial-'));assert.ok(items.length===3||items.length===6);additions+=items.length;
-  const sibling=summaries.find(s=>s.category===summary.category&&s.id!==summary.id)!;
+  const sibling=originals.find(s=>s.category===summary.category&&s.id!==summary.id)!;
   assert.ok(items.every(i=>!sibling.menuIndex.some(other=>other.name===i.name)),summary.id);
  }
  assert.equal(additions,480);
+});
+
+test('全50カテゴリに第三店舗があり、各店21品のうち9品は従来の二店と異なる',()=>{
+ const categories=new Set(summaries.map(s=>s.category));assert.equal(categories.size,50);
+ const newShops=summaries.filter(s=>s.id.endsWith('-3'));assert.equal(newShops.length,50);
+ for(const category of categories){
+  const siblings=summaries.filter(s=>s.category===category);assert.equal(siblings.length,3,category);
+  const fresh=siblings.find(s=>s.id===`${category}-3`)!;assert.ok(fresh);assert.equal(fresh.itemCount,21);
+  for(const field of ['interior','service','signature','localFlavor'] as const)assert.ok((fresh.scene?.[field].length??0)>0,`${category}: ${field}`);
+  const newItems=fresh.menuIndex.filter(i=>i.id.includes('-original-'));assert.equal(newItems.length,9);
+  for(const sibling of siblings.filter(s=>s.id!==fresh.id)){
+   const oldNames=new Set(sibling.menuIndex.map(i=>i.name));
+   assert.ok(newItems.every(i=>!oldNames.has(i.name)),category);
+   assert.ok(fresh.menuIndex.filter(i=>oldNames.has(i.name)).length<=12,category);
+   assert.notEqual(fresh.name,sibling.name);assert.notDeepEqual(fresh.scene,sibling.scene);
+  }
+ }
+ // Keep the original first and second editions ahead of new additions.
+ assert.ok(summaries.slice(0,100).every(s=>/-[12]$/.test(s.id)));
+ assert.ok(summaries.slice(100).every(s=>s.id.endsWith('-3')));
+});
+
+test('新店舗の商品検索・直接URL・卓の保存・PL出力が同じIDで連携する',()=>{
+ const fresh=JSON.parse(readFileSync('src/data/shops/bookstore.json','utf8')).shops.find((s:Shop)=>s.id==='bookstore-3') as Shop;
+ const item=fresh.menuSections[0].items[0],summary=summaries.find(s=>s.id===fresh.id)!;
+ assert.ok(matchesFilters(summary,{...defaultFilters,query:item.name}));assert.equal(matchingItems(summary,item.name)[0].id,item.id);
+ assert.deepEqual(parseRoute(`#/shop/${fresh.id}?item=${item.id}`),{kind:'shop',id:fresh.id,pl:false,item:item.id});
+ const backup:LibraryBackup={format:'machikado-session-library',version:1,favorites:['kissaten-1',fresh.id],recent:[fresh.id],library:{activeId:'session-new',folders:[{id:'session-new',name:'港の卓',entries:[{shopId:fresh.id,alias:'町の書店',notes:'GM用の秘密'}],usedIds:[fresh.id]}]}};
+ assert.deepEqual(parseBackup(JSON.stringify(backup),summaries.map(s=>s.id)),backup);
+ const player=renderMenuHtml(toMenuDocument(fresh));assert.ok(player.includes(item.name));assert.ok(gmText(fresh).includes(fresh.scene!.interior));assert.ok(!player.includes(fresh.scene!.interior));
 });
 test('新しい情景をGMテキストに含め、PL配布物へは持ち出さない', () => {
  const book=JSON.parse(readFileSync('src/data/shops/bookstore.json','utf8')).shops[0] as Shop;

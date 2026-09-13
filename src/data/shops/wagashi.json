@@ -477,6 +477,237 @@
         "signature": "橋のたもとの胡麻だれ団子と焼き栗入りどら焼き",
         "localFlavor": "川沿いの散歩客が休憩に寄る。橋を渡る子どもたちは、季節ごとに変わる菓子の札を見ていく。"
       }
+    },
+    {
+      "id": "wagashi-3",
+      "name": "門前菓子舗 こよみ庵",
+      "category": "wagashi",
+      "tags": [
+        "門前町",
+        "季節の菓子",
+        "贈答"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "小さな寺の参道にある和菓子屋。参拝帰りに買える日々の菓子と、季節の意匠を楽しむ生菓子を揃える。",
+      "openingHours": "8:30〜17:30（月曜休）",
+      "menuSections": [
+        {
+          "id": "wagashi-3-section-1",
+          "title": "日々のお菓子",
+          "items": [
+            {
+              "id": "wagashi-3-original-1",
+              "name": "門前のくるみ味噌饅頭",
+              "price": 240,
+              "description": "くるみ入りの味噌餡を蒸した皮で包む。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "wagashi-3-original-2",
+              "name": "黒豆きなこの小さな大福",
+              "price": 260,
+              "description": "黒豆と餡を包んだ餅にきなこを薄く掛ける。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-3-original-3",
+              "name": "焼き胡麻の一口最中 三個",
+              "price": 580,
+              "description": "胡麻風味の餡を小さな最中皮に詰める。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-3-staple-1",
+              "name": "豆大福",
+              "price": 190,
+              "description": "赤えんどうの塩気と粒あん。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "wagashi-3-staple-2",
+              "name": "栗まんじゅう",
+              "price": 260,
+              "description": "栗入りの白餡を焼き皮で。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "wagashi-3-staple-3",
+              "name": "どら焼き",
+              "price": 220,
+              "description": "ふっくらした皮に粒あんを挟んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "wagashi-3-staple-4",
+              "name": "草餅",
+              "price": 200,
+              "description": "よもぎが香る餅で餡を包んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "wagashi-3-section-2",
+          "title": "季節・生菓子",
+          "items": [
+            {
+              "id": "wagashi-3-original-4",
+              "name": "上生菓子『夕鐘』",
+              "price": 440,
+              "description": "夕空を思わせる色の練り切りを鐘形に仕立てる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "wagashi-3-original-5",
+              "name": "柿餡の秋こよみ包み",
+              "price": 380,
+              "description": "柿の餡を柔らかな皮で包んだ季節風の甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-3-original-6",
+              "name": "寒天菓子『朝の石畳』",
+              "price": 360,
+              "description": "二色の寒天を石畳のように並べた一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-3-staple-5",
+              "name": "練り切り",
+              "price": 350,
+              "description": "季節の形をかたどった上生菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "wagashi-3-staple-6",
+              "name": "栗きんとん",
+              "price": 360,
+              "description": "栗の風味を生かした小さなお菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "wagashi-3-staple-7",
+              "name": "水ようかん",
+              "price": 280,
+              "description": "みずみずしい口当たりの小豆菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "wagashi-3-staple-8",
+              "name": "わらび餅",
+              "price": 420,
+              "description": "きな粉と黒蜜を添えた小箱。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "wagashi-3-section-3",
+          "title": "贈答・お茶",
+          "items": [
+            {
+              "id": "wagashi-3-original-7",
+              "name": "こよみ庵の小菓子八個箱",
+              "price": 1980,
+              "description": "饅頭と最中などを八個、贈答用の箱へ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "wagashi-3-original-8",
+              "name": "門前の香ばしい玄米茶 50g",
+              "price": 660,
+              "description": "家で淹れる茶葉の小袋。紙の帯付き。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-3-original-9",
+              "name": "参道休みの番茶 一杯",
+              "price": 220,
+              "description": "温かい番茶を小さな湯呑みで出す。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "wagashi-3-staple-9",
+              "name": "羊羹 小棹",
+              "price": 680,
+              "description": "切り分けやすい小さな羊羹。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "wagashi-3-staple-10",
+              "name": "ほうじ茶 茶葉50g",
+              "price": 530,
+              "description": "香ばしく焙じた茶葉。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "wagashi-3-staple-11",
+              "name": "最中 五個箱",
+              "price": 1100,
+              "description": "香ばしい皮と粒あんの詰め合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "wagashi-3-staple-12",
+              "name": "煎茶 茶葉50g",
+              "price": 720,
+              "description": "菓子に合わせる日常のお茶。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "木枠のケースと古い暦が掛かる壁。店先には腰掛けがあり、参道の石畳が見える。",
+        "service": "菓子の形の意味をひとこと添える。箱詰めは食べる人数に合わせて相談する。",
+        "signature": "門前のくるみ味噌饅頭と上生菓子『夕鐘』",
+        "localFlavor": "参拝客と門前町の住民が立ち寄る。祭りの日は朝から予約の箱が棚を埋める。"
+      }
     }
   ]
 }

@@ -477,6 +477,237 @@
         "signature": "焼き鯖押し寿司 三切と炙り帆立の焦がし醤油 二貫",
         "localFlavor": "近隣の家族と移動中の客が混ざる。夕食時には入口の番号札を手に車で待つ人もいる。"
       }
+    },
+    {
+      "id": "kaiten-sushi-3",
+      "name": "回転寿司 みさきテーブル",
+      "category": "kaiten-sushi",
+      "tags": [
+        "買い物帰り",
+        "家族向け",
+        "ボックス席"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "郊外の買い物施設にある回転寿司店。買い物の合間にも選びやすい小皿と、家族向けの盛りを揃える。",
+      "openingHours": "11:00〜22:00",
+      "menuSections": [
+        {
+          "id": "kaiten-sushi-3-section-1",
+          "title": "握り 二貫",
+          "items": [
+            {
+              "id": "kaiten-sushi-3-original-1",
+              "name": "炙り海老の柚子味噌握り 二貫",
+              "price": 330,
+              "description": "海老を炙り、柚子の香る味噌を少し載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-3-original-2",
+              "name": "漬け白身の青しそ握り 二貫",
+              "price": 330,
+              "description": "漬けにした白身魚に大葉を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-3-original-3",
+              "name": "焼き牛肉のねぎ塩握り 二貫",
+              "price": 390,
+              "description": "焼いた薄切り牛肉にねぎの塩だれ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-3-staple-1",
+              "name": "まぐろ",
+              "price": 160,
+              "description": "赤身の旨みを楽しむ基本の二貫。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-2",
+              "name": "玉子",
+              "price": 140,
+              "description": "甘い玉子焼きの握り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-3",
+              "name": "サーモン",
+              "price": 180,
+              "description": "脂ののったサーモンの握り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-4",
+              "name": "いか",
+              "price": 150,
+              "description": "やわらかな身にわさびを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "kaiten-sushi-3-section-2",
+          "title": "軍艦・巻物",
+          "items": [
+            {
+              "id": "kaiten-sushi-3-original-4",
+              "name": "海老と枝豆のサラダ軍艦 二貫",
+              "price": 280,
+              "description": "海老と枝豆のサラダを海苔で囲む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-3-original-5",
+              "name": "梅と大葉のいか細巻き 六切",
+              "price": 300,
+              "description": "いかと梅肉、大葉を細く巻く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-3-original-6",
+              "name": "炙り穴子の手巻き 一本",
+              "price": 420,
+              "description": "炙った穴子と胡瓜を海苔で包む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-3-staple-5",
+              "name": "ねぎとろ軍艦",
+              "price": 180,
+              "description": "刻みねぎをのせたまぐろの軍艦。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-6",
+              "name": "納豆巻",
+              "price": 170,
+              "description": "刻み納豆の細巻き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-7",
+              "name": "いくら軍艦",
+              "price": 320,
+              "description": "いくらを盛った二貫。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-8",
+              "name": "かっぱ巻",
+              "price": 150,
+              "description": "きゅうりの細巻き一皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "kaiten-sushi-3-section-3",
+          "title": "サイド・甘味",
+          "items": [
+            {
+              "id": "kaiten-sushi-3-original-7",
+              "name": "みさきの小さな海鮮茶碗蒸し",
+              "price": 380,
+              "description": "海老と魚の身を入れた茶碗蒸し。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "kaiten-sushi-3-original-8",
+              "name": "焼き芋とミルクのアイス皿",
+              "price": 340,
+              "description": "焼き芋のペーストに小さなミルクアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-3-original-9",
+              "name": "あおさと卵の魚だし椀",
+              "price": 280,
+              "description": "魚の出汁にあおさと溶き卵を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "kaiten-sushi-3-staple-9",
+              "name": "茶碗蒸し",
+              "price": 280,
+              "description": "出汁が香る卵の蒸し物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-10",
+              "name": "練乳いちごアイス",
+              "price": 310,
+              "description": "いちごソースをかけたアイス。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-11",
+              "name": "あおさ味噌汁",
+              "price": 220,
+              "description": "磯の香りの温かい汁物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kaiten-sushi-3-staple-12",
+              "name": "プリン",
+              "price": 240,
+              "description": "小ぶりのなめらかなプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "明るいレーンを囲むカウンターと広い家族席。入口の壁に待ち番号が大きく表示される。",
+        "service": "皿の価格を色で案内し、注文品は席を確認して渡す。子ども用の小皿を先に用意する。",
+        "signature": "炙り海老の柚子味噌握り 二貫と海老と枝豆のサラダ軍艦 二貫",
+        "localFlavor": "施設の買い物客が昼と夕方に集まる。平日は近所の人が少ない皿数で食事を済ませる。"
+      }
     }
   ]
 }

@@ -473,6 +473,233 @@
         "signature": "塩はちみつナッツクレープと桃とヨーグルトクリームのクレープ",
         "localFlavor": "散歩や遊具帰りの親子が多い。近くで小さな催しがある日は、朝から仕込みの音がする。"
       }
+    },
+    {
+      "id": "crepe-3",
+      "name": "クレープスタンド 風の輪",
+      "category": "crepe",
+      "tags": [
+        "学生街",
+        "包み焼き",
+        "持ち歩き"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "大学通りにある小さなクレープ店。甘い品だけでなく、昼食になる温かい包み焼きが学生に親しまれる。",
+      "openingHours": "11:00〜21:00（木曜休）",
+      "menuSections": [
+        {
+          "id": "crepe-3-section-1",
+          "title": "SWEET",
+          "items": [
+            {
+              "id": "crepe-3-original-1",
+              "name": "蜂蜜ナッツのチーズクリームクレープ",
+              "price": 680,
+              "description": "チーズ風味のクリームに蜂蜜とナッツを重ねる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "crepe-3-original-2",
+              "name": "焼き柿とほうじ茶クリーム",
+              "price": 720,
+              "description": "温めた柿と茶のクリームを巻いた甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "crepe-3-original-3",
+              "name": "黒糖バナナのもちもちクレープ",
+              "price": 620,
+              "description": "バナナと黒糖ソースを弾力のある生地で包む。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "crepe-3-staple-1",
+              "name": "チョコバナナ",
+              "price": 520,
+              "description": "生クリームとバナナにチョコソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "crepe-3-staple-2",
+              "name": "抹茶あずき",
+              "price": 640,
+              "description": "抹茶クリームと粒あん。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "crepe-3-staple-3",
+              "name": "いちごホイップ",
+              "price": 620,
+              "description": "いちごと軽いホイップクリーム。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "crepe-3-staple-4",
+              "name": "シュガーバター",
+              "price": 420,
+              "description": "焼きたて生地に砂糖とバター。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "crepe-3-section-2",
+          "title": "SAVORY",
+          "items": [
+            {
+              "id": "crepe-3-original-4",
+              "name": "鶏そぼろと温玉のクレープ包み",
+              "price": 720,
+              "description": "甘辛い鶏そぼろと卵を食事用の生地に包む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "crepe-3-original-5",
+              "name": "焼き茸と豆のトマトクレープ",
+              "price": 680,
+              "description": "きのこと豆のトマト煮を温かく巻く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "crepe-3-original-6",
+              "name": "ツナじゃがチーズの折りクレープ",
+              "price": 650,
+              "description": "ツナとじゃがいも、チーズを四つ折りにする。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "crepe-3-staple-5",
+              "name": "ツナサラダ",
+              "price": 520,
+              "description": "野菜とツナの軽食クレープ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "crepe-3-staple-6",
+              "name": "きのこチーズ",
+              "price": 640,
+              "description": "炒めきのことチーズを包んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "crepe-3-staple-7",
+              "name": "ハムチーズ",
+              "price": 500,
+              "description": "とろけるチーズをハムと一緒に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "crepe-3-staple-8",
+              "name": "卵サラダ",
+              "price": 530,
+              "description": "たっぷり卵の食事系。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "crepe-3-section-3",
+          "title": "DRINK & EXTRA",
+          "items": [
+            {
+              "id": "crepe-3-original-7",
+              "name": "風の輪の蜂蜜ジンジャーミルク",
+              "price": 380,
+              "description": "温かいミルクに蜂蜜と生姜を合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "crepe-3-original-8",
+              "name": "追加のローストナッツ",
+              "price": 100,
+              "description": "甘いクレープに合わせる刻みナッツの小分け。",
+              "kind": "addon",
+              "recommended": false
+            },
+            {
+              "id": "crepe-3-original-9",
+              "name": "追加の焼きチーズ",
+              "price": 150,
+              "description": "食事クレープへ載せて温めるチーズ。",
+              "kind": "addon",
+              "recommended": false
+            },
+            {
+              "id": "crepe-3-staple-9",
+              "name": "バニラアイス追加",
+              "price": 120,
+              "description": "好きなクレープに一玉。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "crepe-3-staple-10",
+              "name": "レモンソーダ",
+              "price": 390,
+              "description": "爽やかな柑橘の炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "crepe-3-staple-11",
+              "name": "ホイップ増量",
+              "price": 80,
+              "description": "クリームを多めに。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "crepe-3-staple-12",
+              "name": "ミルクティー",
+              "price": 350,
+              "description": "甘さ控えめの紅茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "大学通りへ開いた注文窓と、赤い回転椅子が三脚。鉄板の前に具材の小さな容器が並ぶ。",
+        "service": "巻き方と持ち帰りの時間を確認する。熱い品は紙を二枚重ねて渡す。",
+        "signature": "蜂蜜ナッツのチーズクリームクレープと鶏そぼろと温玉のクレープ包み",
+        "localFlavor": "講義の合間の学生が短い列を作る。夜は近くの自習室から軽食を買いに来る人がいる。"
+      }
     }
   ]
 }

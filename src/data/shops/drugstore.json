@@ -477,6 +477,237 @@
         "signature": "携帯衛生セットと身だしなみ用品",
         "localFlavor": "出張客や通勤客が忘れ物を買い足す。"
       }
+    },
+    {
+      "id": "drugstore-3",
+      "name": "ドラッグストア こもれび通り",
+      "category": "drugstore",
+      "tags": [
+        "バス停前",
+        "衛生用品",
+        "生活雑貨"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "住宅街のバス停そばにあるドラッグストア。衛生用品と洗濯用品、飲料や食品を買い足せる。掲載品は日常の雑貨が中心。",
+      "openingHours": "9:00〜22:00",
+      "menuSections": [
+        {
+          "id": "drugstore-3-section-1",
+          "title": "衛生用品",
+          "items": [
+            {
+              "id": "drugstore-3-original-1",
+              "name": "個包装ポケットティッシュ 六個",
+              "price": 128,
+              "description": "外出時に分けて持てる小さなティッシュ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-3-original-2",
+              "name": "携帯用泡ハンドソープ 容器入り",
+              "price": 348,
+              "description": "持ち歩ける小型ポンプ入りの手洗い用石けん。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-3-original-3",
+              "name": "やわらかガーゼハンカチ 二枚",
+              "price": 398,
+              "description": "日常の汗拭きなどに使う薄手の布。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-3-staple-1",
+              "name": "不織布マスク 三十枚",
+              "price": 598,
+              "description": "箱入りの使い捨てマスク。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-3-staple-2",
+              "name": "ポケット綿棒 二十本",
+              "price": 148,
+              "description": "小型ケース入りの衛生小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-3-staple-3",
+              "name": "絆創膏 二十枚",
+              "price": 248,
+              "description": "持ち歩きにも便利な救急小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-3-staple-4",
+              "name": "使い捨て手袋 百枚",
+              "price": 770,
+              "description": "掃除や作業で使える手袋。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "drugstore-3-section-2",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "drugstore-3-original-4",
+              "name": "無香料の衣類用洗剤 詰め替え",
+              "price": 398,
+              "description": "対応する容器へ移して使う衣類用洗剤。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-3-original-5",
+              "name": "洗濯ネット 角型二枚組",
+              "price": 298,
+              "description": "衣類を分けて洗える大きさ違いのネット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-3-original-6",
+              "name": "台所用手袋 薄手一双",
+              "price": 198,
+              "description": "台所仕事に使う薄手の家庭用手袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-3-staple-5",
+              "name": "歯ブラシ",
+              "price": 178,
+              "description": "ふつうの硬さの歯ブラシ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-3-staple-6",
+              "name": "折り畳みヘアブラシ",
+              "price": 328,
+              "description": "鏡付きの小さなブラシ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-3-staple-7",
+              "name": "歯磨き粉",
+              "price": 298,
+              "description": "毎日の歯磨き用ペースト。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "drugstore-3-staple-8",
+              "name": "ハンドソープ",
+              "price": 330,
+              "description": "泡で出るポンプ式の洗浄料。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "drugstore-3-section-3",
+          "title": "食品・飲料",
+          "items": [
+            {
+              "id": "drugstore-3-original-7",
+              "name": "常温保存豆乳 三本パック",
+              "price": 258,
+              "description": "持ち帰りやすい小さな紙パック三本入り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "drugstore-3-original-8",
+              "name": "全粒粉クラッカー 小箱",
+              "price": 188,
+              "description": "食べ切り袋に分かれた素朴なクラッカー。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-3-original-9",
+              "name": "野菜入り即席スープ 五袋",
+              "price": 328,
+              "description": "湯を注いで作る小分けの粉末スープ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "drugstore-3-staple-9",
+              "name": "スポーツドリンク 500ml",
+              "price": 108,
+              "description": "運動時にも飲みやすい飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "drugstore-3-staple-10",
+              "name": "全粒粉クラッカー",
+              "price": 188,
+              "description": "軽食にもなる小袋菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "drugstore-3-staple-11",
+              "name": "栄養補助ゼリー",
+              "price": 178,
+              "description": "携帯しやすいパウチ型の食品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "drugstore-3-staple-12",
+              "name": "ミネラルウォーター 500ml",
+              "price": 90,
+              "description": "日常の水分補給用の水。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口に買い物かごを重ね、明るい通路に用途別の案内板が下がっている。",
+        "service": "探している品の売り場を案内する。詰め替え品は容器の種類を確かめて渡す。",
+        "signature": "個包装ポケットティッシュ 六個と無香料の衣類用洗剤 詰め替え",
+        "localFlavor": "バスを待つ間に買い足す住民が多い。夕方は洗剤や飲料の大きな袋を持つ客が増える。"
+      }
     }
   ]
 }

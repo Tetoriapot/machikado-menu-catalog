@@ -477,6 +477,237 @@
         "signature": "紙工作の色厚紙 十枚と半透明の小物仕切り 二個",
         "localFlavor": "帰宅前に小物を補充する人や、近隣の学生が来る。雨の日は傘袋や防水小物がよく動く。"
       }
+    },
+    {
+      "id": "hundred-yen-3",
+      "name": "百円小町 まるいろ",
+      "category": "hundred-yen",
+      "tags": [
+        "均一価格",
+        "団地",
+        "日用品"
+      ],
+      "priceLevel": "very-cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "団地の商業棟にある税込110円の小さな均一店。学校用品、台所の消耗品、散歩に使う小物が見やすく並ぶ。",
+      "openingHours": "9:30〜20:00",
+      "menuSections": [
+        {
+          "id": "hundred-yen-3-section-1",
+          "title": "文具",
+          "items": [
+            {
+              "id": "hundred-yen-3-original-1",
+              "name": "方眼メモ帳 三冊組",
+              "price": 110,
+              "description": "携帯しやすい小さな方眼メモの組み合わせ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hundred-yen-3-original-2",
+              "name": "パステル色の見出し付箋",
+              "price": 110,
+              "description": "ページの端に貼れる細い付箋五色入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-3-original-3",
+              "name": "丸い名札クリップ 二個",
+              "price": 110,
+              "description": "服に穴を開けず留められる名札用クリップ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-3-staple-1",
+              "name": "罫線ノート",
+              "price": 110,
+              "description": "B5判、三十枚の学習用ノート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-2",
+              "name": "メモ帳",
+              "price": 110,
+              "description": "持ち歩きやすい小さなメモ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-3",
+              "name": "黒ボールペン 三本",
+              "price": 110,
+              "description": "まとめ買いに便利な油性ペン。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-4",
+              "name": "クリアファイル 五枚",
+              "price": 110,
+              "description": "A4書類をまとめる透明ファイル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hundred-yen-3-section-2",
+          "title": "台所・収納",
+          "items": [
+            {
+              "id": "hundred-yen-3-original-4",
+              "name": "自立する水切り袋 十五枚",
+              "price": 110,
+              "description": "台所で使う底付きの小さな水切り袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hundred-yen-3-original-5",
+              "name": "重ね置きできる小物トレー",
+              "price": 110,
+              "description": "引き出しの中でも使える浅い樹脂トレー。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-3-original-6",
+              "name": "シリコン瓶ふたオープナー",
+              "price": 110,
+              "description": "瓶のふたを握る際に使う柔らかなシート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-3-staple-5",
+              "name": "保存容器",
+              "price": 110,
+              "description": "ふた付きの小型容器。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-6",
+              "name": "マグカップ",
+              "price": 220,
+              "description": "無地の陶器製カップ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-7",
+              "name": "スポンジ 五個",
+              "price": 110,
+              "description": "台所掃除に便利なセット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-8",
+              "name": "収納かご",
+              "price": 220,
+              "description": "机まわりを片付ける樹脂かご。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hundred-yen-3-section-3",
+          "title": "外出・趣味",
+          "items": [
+            {
+              "id": "hundred-yen-3-original-7",
+              "name": "折りたたみ座布団 四つ折り",
+              "price": 110,
+              "description": "散歩の休憩に持ち歩ける薄い座布団。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hundred-yen-3-original-8",
+              "name": "反射糸入り靴ひも 一足分",
+              "price": 110,
+              "description": "光を反射する糸を織り込んだ靴ひも。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-3-original-9",
+              "name": "携帯ごみ袋 ケース付き",
+              "price": 110,
+              "description": "外出用の小さな袋をケースに収める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hundred-yen-3-staple-9",
+              "name": "レインポンチョ",
+              "price": 110,
+              "description": "急な雨の簡易雨具。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-10",
+              "name": "折り紙 百枚",
+              "price": 110,
+              "description": "色を揃えた工作用紙。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-11",
+              "name": "携帯スリッパ",
+              "price": 220,
+              "description": "折り畳める室内履き。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hundred-yen-3-staple-12",
+              "name": "六面ダイス 六個",
+              "price": 110,
+              "description": "小さなゲーム用サイコロ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "明るい短い通路に低い棚が並び、棚札の丸い色印で用途を分けている。",
+        "service": "探し物を聞くと棚の番号を伝える。レジでは割れ物だけ小さな紙で包む。",
+        "signature": "方眼メモ帳 三冊組と自立する水切り袋 十五枚",
+        "localFlavor": "夕飯の買い出しと一緒に寄る住民が多い。新学期には名札やノートの棚が賑わう。"
+      }
     }
   ]
 }

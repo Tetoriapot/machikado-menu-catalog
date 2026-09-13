@@ -230,7 +230,9 @@ const edits:Edit[]=[
 ];
 for(const edit of edits){
  const path=`src/data/shops/${edit.id}.json`;const data=JSON.parse(readFileSync(path,'utf8')) as {shops:Shop[]};
- for(const [variant,shop] of data.shops.entries()){
+ for(const variant of [0,1]){
+  const shop=data.shops.find(shop=>shop.id===`${edit.id}-${variant+1}`);
+  if(!shop)throw new Error(`Missing original shop: ${edit.id}-${variant+1}`);
   if(shop.menuSections.some(s=>s.items.some(i=>i.id.includes('-curated-'))))continue;
   const [interior,service,signature,localFlavor]=edit.scenes[variant].split('|');shop.scene={interior,service,signature,localFlavor};if(edit.hours)shop.openingHours=edit.hours[variant];
   const counters=[0,0,0];const rows=(variant?edit.variant:edit.extra).trim().split('\n');

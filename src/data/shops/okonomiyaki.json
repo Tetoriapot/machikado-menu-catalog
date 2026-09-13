@@ -477,6 +477,237 @@
         "signature": "牛すじこんにゃくの薄焼きと海鮮たっぷり塩だれ焼き",
         "localFlavor": "商店街の店を閉めた人が夕食に寄る。雨の日は軒下で注文を待つ客が立ち話をする。"
       }
+    },
+    {
+      "id": "okonomiyaki-3",
+      "name": "鉄板食堂 丸灯",
+      "category": "okonomiyaki",
+      "tags": [
+        "下町",
+        "店主が焼く",
+        "鉄板料理"
+      ],
+      "priceLevel": "normal",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "下町の小さな鉄板食堂。店主が大きな鉄板で焼き、客席の熱い皿へ切り分けて運ぶ。",
+      "openingHours": "11:30〜14:00／17:00〜22:00（火曜休）",
+      "menuSections": [
+        {
+          "id": "okonomiyaki-3-section-1",
+          "title": "お好み焼き",
+          "items": [
+            {
+              "id": "okonomiyaki-3-original-1",
+              "name": "牛すじ蓮根のお好み焼き",
+              "price": 1180,
+              "description": "甘辛い牛すじと刻み蓮根を混ぜた一枚。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "okonomiyaki-3-original-2",
+              "name": "海老と枝豆の塩お好み焼き",
+              "price": 1280,
+              "description": "海老と枝豆の生地を、ねぎ入り塩だれで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-3-original-3",
+              "name": "焼きチーズのきのこ玉",
+              "price": 1080,
+              "description": "きのこ入りの一枚にチーズを焼き付ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-3-staple-1",
+              "name": "豚玉",
+              "price": 850,
+              "description": "豚肉とキャベツの定番お好み焼き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "okonomiyaki-3-staple-2",
+              "name": "モダン焼き",
+              "price": 1190,
+              "description": "焼きそばを重ねてボリュームたっぷり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "okonomiyaki-3-staple-3",
+              "name": "いか玉",
+              "price": 900,
+              "description": "いかの歯ごたえを楽しむ一枚。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "okonomiyaki-3-staple-4",
+              "name": "ミックス玉",
+              "price": 1300,
+              "description": "豚、いか、海老が入る一枚。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "okonomiyaki-3-section-2",
+          "title": "鉄板一品",
+          "items": [
+            {
+              "id": "okonomiyaki-3-original-4",
+              "name": "豚ばらと豆もやしの鉄板炒め",
+              "price": 680,
+              "description": "豚肉と豆もやしを香ばしく炒める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "okonomiyaki-3-original-5",
+              "name": "長芋と卵のふわ鉄板",
+              "price": 580,
+              "description": "すりおろし長芋と卵を小さな皿で焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-3-original-6",
+              "name": "丸灯の半熟卵そばロール",
+              "price": 880,
+              "description": "焼きそばを薄い卵で包み、半熟卵を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-3-staple-5",
+              "name": "ソース焼きそば",
+              "price": 780,
+              "description": "太めの麺を鉄板で香ばしく。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "okonomiyaki-3-staple-6",
+              "name": "もちチーズ焼き",
+              "price": 530,
+              "description": "柔らかな餅とチーズの鉄板焼き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "okonomiyaki-3-staple-7",
+              "name": "とん平焼き",
+              "price": 580,
+              "description": "豚肉を薄焼き卵で包んだ一品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "okonomiyaki-3-staple-8",
+              "name": "コーンバター",
+              "price": 420,
+              "description": "甘いコーンをバターで炒めて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "okonomiyaki-3-section-3",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "okonomiyaki-3-original-7",
+              "name": "柚子胡椒レモンサワー",
+              "price": 520,
+              "description": "レモンサワーに柚子胡椒の香りを少し。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "okonomiyaki-3-original-8",
+              "name": "赤しその冷たい番茶",
+              "price": 320,
+              "description": "冷たい番茶に赤しそのシロップを加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-3-original-9",
+              "name": "黒糖ジンジャーの炭酸水",
+              "price": 380,
+              "description": "黒糖と生姜を合わせたノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "okonomiyaki-3-staple-9",
+              "name": "生ビール",
+              "price": 550,
+              "description": "よく冷えたジョッキ。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "okonomiyaki-3-staple-10",
+              "name": "ラムネ",
+              "price": 310,
+              "description": "懐かしい瓶入りの炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "okonomiyaki-3-staple-11",
+              "name": "ハイボール",
+              "price": 450,
+              "description": "軽快な炭酸の一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "okonomiyaki-3-staple-12",
+              "name": "ウーロン茶",
+              "price": 280,
+              "description": "食事に合わせる無糖茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口の大きな鉄板を囲む短いカウンター。奥に四人卓と、年季の入ったソースの棚。",
+        "service": "注文の人数を聞いて切り分ける。焼き上がりが重なる品は順番を先に伝える。",
+        "signature": "牛すじ蓮根のお好み焼きと豚ばらと豆もやしの鉄板炒め",
+        "localFlavor": "近所の商店主や家族が夕食を取りに来る。店の外まで届くソースの香りが路地の目印。"
+      }
     }
   ]
 }

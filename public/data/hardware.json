@@ -477,6 +477,237 @@
         "signature": "木工用の小型クランプ 二個と工作用の角材 三本束",
         "localFlavor": "近所の住宅の修繕や学校の工作に使われる。入口には地域の催しの掲示板がある。"
       }
+    },
+    {
+      "id": "hardware-3",
+      "name": "金物と園芸 つちの手",
+      "category": "hardware",
+      "tags": [
+        "町の金物店",
+        "園芸",
+        "修繕道具"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街の端にある金物店。簡単な修繕道具と小さな庭の手入れ用品を扱い、必要な物を一つずつ買える。",
+      "openingHours": "8:00〜18:00（日曜休）",
+      "menuSections": [
+        {
+          "id": "hardware-3-section-1",
+          "title": "工具",
+          "items": [
+            {
+              "id": "hardware-3-original-1",
+              "name": "短軸ラチェットドライバー",
+              "price": 1480,
+              "description": "狭い場所でも回しやすい短い柄の工具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hardware-3-original-2",
+              "name": "滑り止め付き小型ペンチ",
+              "price": 1280,
+              "description": "持ち手に滑り止めを備えた小さめのペンチ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-3-original-3",
+              "name": "木工用クランプ 二個組",
+              "price": 980,
+              "description": "接着中の木材を挟んで固定する道具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-3-staple-1",
+              "name": "ドライバーセット",
+              "price": 980,
+              "description": "家庭の簡単なねじ締め用。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-2",
+              "name": "布テープ",
+              "price": 270,
+              "description": "梱包や固定に使うテープ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-3",
+              "name": "メジャー 3m",
+              "price": 580,
+              "description": "寸法を測る巻尺。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-4",
+              "name": "金づち",
+              "price": 970,
+              "description": "家庭の工作に使う小型工具。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hardware-3-section-2",
+          "title": "園芸",
+          "items": [
+            {
+              "id": "hardware-3-original-4",
+              "name": "目盛り付き移植ごて",
+              "price": 580,
+              "description": "植え穴の深さを見られる目盛り入りのこて。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hardware-3-original-5",
+              "name": "培養土 小袋二リットル",
+              "price": 380,
+              "description": "鉢の植え替え用に持ち帰りやすい小袋の土。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-3-original-6",
+              "name": "剪定ばさみ用収納ケース",
+              "price": 780,
+              "description": "腰に下げられる丈夫な布のケース。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-3-staple-5",
+              "name": "培養土 14L",
+              "price": 598,
+              "description": "草花の鉢植え用の土。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-6",
+              "name": "花苗",
+              "price": 220,
+              "description": "季節の草花一株。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-7",
+              "name": "植木鉢",
+              "price": 398,
+              "description": "受け皿付きの樹脂鉢。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-8",
+              "name": "園芸スコップ",
+              "price": 440,
+              "description": "鉢植えの土いじりに使う小型。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hardware-3-section-3",
+          "title": "生活用品",
+          "items": [
+            {
+              "id": "hardware-3-original-7",
+              "name": "ステンレス戸当たり 小型",
+              "price": 680,
+              "description": "扉の開き過ぎを防ぐための取り付け金具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hardware-3-original-8",
+              "name": "綿ロープ 五メートル巻",
+              "price": 480,
+              "description": "荷物の仮留めなどに使う柔らかな綿ロープ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-3-original-9",
+              "name": "木柄の隙間掃除ブラシ",
+              "price": 420,
+              "description": "窓の溝などを掃く細い毛のブラシ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hardware-3-staple-9",
+              "name": "LED電球",
+              "price": 698,
+              "description": "家庭用の口金E26タイプ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-10",
+              "name": "養生シート",
+              "price": 970,
+              "description": "作業時に床などを覆うシート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-11",
+              "name": "延長コード 2m",
+              "price": 980,
+              "description": "室内用の三口コード。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hardware-3-staple-12",
+              "name": "雑巾 五枚",
+              "price": 330,
+              "description": "掃除向けの布セット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "壁の有孔ボードに工具が掛かり、入口の外には土の袋とじょうろが積んである。",
+        "service": "使う場所と寸法を確認して棚を案内する。品物の取り寄せ日は手帳に書いて渡す。",
+        "signature": "短軸ラチェットドライバーと目盛り付き移植ごて",
+        "localFlavor": "朝は近所の職人、午後は庭仕事の住民が訪れる。古い家の修繕相談が日常の話題になる。"
+      }
     }
   ]
 }

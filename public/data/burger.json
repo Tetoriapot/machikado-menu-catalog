@@ -477,6 +477,237 @@
         "signature": "炭焼き風てりたまバーガーと海老カツのレモンタルタルバーガー",
         "localFlavor": "駅からの帰り道に持ち帰る客が多い。祭りの日には商店街を歩く人向けに小さなセットを出す。"
       }
+    },
+    {
+      "id": "burger-3",
+      "name": "SMOKE YARD バーガー",
+      "category": "burger",
+      "tags": [
+        "燻製",
+        "倉庫街",
+        "肉料理"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "倉庫街の角にあるバーガー店。燻製風味の肉と香ばしい野菜を重ねた、食べ応えのある品が看板。",
+      "openingHours": "11:00〜22:00（火曜休）",
+      "menuSections": [
+        {
+          "id": "burger-3-section-1",
+          "title": "BURGER",
+          "items": [
+            {
+              "id": "burger-3-original-1",
+              "name": "燻製ベーコンと黒胡椒のバーガー",
+              "price": 1580,
+              "description": "厚いベーコンと牛肉に黒胡椒のソース。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "burger-3-original-2",
+              "name": "焼き蓮根の味噌チキンバーガー",
+              "price": 1280,
+              "description": "鶏肉と蓮根に甘めの味噌だれを合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "burger-3-original-3",
+              "name": "茸と白いチーズのグリルバーガー",
+              "price": 1380,
+              "description": "きのことチーズを焼き、肉のパティに重ねる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "burger-3-staple-1",
+              "name": "クラシックバーガー",
+              "price": 880,
+              "description": "牛肉パティとレタス、トマトの基本形。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "burger-3-staple-2",
+              "name": "アボカドバーガー",
+              "price": 1300,
+              "description": "厚切りアボカドで満足感をプラス。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "burger-3-staple-3",
+              "name": "チーズバーガー",
+              "price": 980,
+              "description": "とろけるチェダーチーズを重ねて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "burger-3-staple-4",
+              "name": "フィッシュバーガー",
+              "price": 940,
+              "description": "白身魚フライとタルタルソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "burger-3-section-2",
+          "title": "SIDES",
+          "items": [
+            {
+              "id": "burger-3-original-4",
+              "name": "燻製パプリカの厚切りポテト",
+              "price": 520,
+              "description": "厚切りポテトに香りのある粉末パプリカ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "burger-3-original-5",
+              "name": "紫玉ねぎのピクルスカップ",
+              "price": 360,
+              "description": "甘酸っぱい紫玉ねぎを小さなカップに。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "burger-3-original-6",
+              "name": "スモークヤードのコーンスープ",
+              "price": 480,
+              "description": "粒コーン入りの温かいスープ。小カップで。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "burger-3-staple-5",
+              "name": "フライドポテト",
+              "price": 380,
+              "description": "皮付きじゃがいもをほくほくに。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "burger-3-staple-6",
+              "name": "ピクルス",
+              "price": 280,
+              "description": "きゅうりの爽やかな酢漬け。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "burger-3-staple-7",
+              "name": "オニオンリング",
+              "price": 420,
+              "description": "甘い玉ねぎにさっくりした衣。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "burger-3-staple-8",
+              "name": "コールスロー",
+              "price": 330,
+              "description": "キャベツを甘酸っぱく和えたサラダ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "burger-3-section-3",
+          "title": "DRINK",
+          "items": [
+            {
+              "id": "burger-3-original-7",
+              "name": "ローストナッツのミルクシェイク",
+              "price": 680,
+              "description": "ナッツの香りを加えた濃いミルクシェイク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "burger-3-original-8",
+              "name": "炭酸レモンのスパイスティー",
+              "price": 580,
+              "description": "スパイス入り紅茶にレモンと炭酸を合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "burger-3-original-9",
+              "name": "黒糖チェリーコーラ",
+              "price": 550,
+              "description": "コーラにチェリーと少量の黒糖の風味。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "burger-3-staple-9",
+              "name": "コーラ",
+              "price": 300,
+              "description": "氷をたっぷり入れた一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "burger-3-staple-10",
+              "name": "レモンスカッシュ",
+              "price": 420,
+              "description": "レモンの酸味をきかせた炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "burger-3-staple-11",
+              "name": "ジンジャーエール",
+              "price": 320,
+              "description": "生姜の香りが爽やかな炭酸飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "burger-3-staple-12",
+              "name": "アイスティー",
+              "price": 330,
+              "description": "無糖で提供する紅茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "赤い煉瓦の壁と金属脚のテーブル。半分開いた厨房から肉を焼く香りが流れる。",
+        "service": "紙包みの使い方を案内し、ソースの多い品には追加の紙を添える。",
+        "signature": "燻製ベーコンと黒胡椒のバーガーと燻製パプリカの厚切りポテト",
+        "localFlavor": "周辺の工房で働く人が昼に集まる。夜は近くの催し帰りの客が遅い食事を取る。"
+      }
     }
   ]
 }

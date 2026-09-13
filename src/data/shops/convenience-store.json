@@ -486,6 +486,237 @@
         "signature": "朝のパンと出張客向け小物",
         "localFlavor": "駅前のホテルとオフィスへ向かう客が多い。"
       }
+    },
+    {
+      "id": "convenience-store-3",
+      "name": "まちのコンビニ 灯の駅前店",
+      "category": "convenience-store",
+      "tags": [
+        "駅前",
+        "通勤",
+        "夜の買い物"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "小さな私鉄駅の改札近くにあるコンビニ。朝の軽食と帰宅時の買い足しに使われ、夜も看板が明るい。",
+      "openingHours": "6:00〜翌1:00",
+      "menuSections": [
+        {
+          "id": "convenience-store-3-section-1",
+          "title": "お弁当・軽食",
+          "items": [
+            {
+              "id": "convenience-store-3-original-1",
+              "name": "鮭ほぐしと野沢菜のおにぎり",
+              "price": 198,
+              "description": "鮭と刻んだ野沢菜を合わせたおにぎり。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-3-original-2",
+              "name": "照り焼きチキンと玉子のロール",
+              "price": 348,
+              "description": "鶏肉と卵を柔らかなパンで巻いた軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-3-original-3",
+              "name": "生姜焼きと根菜の小弁当",
+              "price": 548,
+              "description": "生姜焼きと煮物を少量ずつ詰めた弁当。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-3-staple-1",
+              "name": "鮭おにぎり",
+              "price": 168,
+              "description": "塩鮭のほぐし身を包んだ定番おにぎり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-3-staple-2",
+              "name": "高菜明太おにぎり",
+              "price": 198,
+              "description": "高菜と明太風の具材を包んだ一個。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-3-staple-3",
+              "name": "ツナマヨおにぎり",
+              "price": 158,
+              "description": "ツナとマヨネーズのまろやかな具。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-3-staple-4",
+              "name": "レジ横チキン",
+              "price": 250,
+              "description": "胡椒をきかせた衣の骨なしフライドチキン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-3-section-2",
+          "title": "飲料・お菓子",
+          "items": [
+            {
+              "id": "convenience-store-3-original-4",
+              "name": "焦がしキャラメルのミルク飲料",
+              "price": 228,
+              "description": "キャラメル風味の冷たい紙パック飲料。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-3-original-5",
+              "name": "焼き塩アーモンドの小袋",
+              "price": 178,
+              "description": "塩を軽く振ったアーモンドの食べ切り袋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-3-original-6",
+              "name": "柚子皮入りグミ",
+              "price": 158,
+              "description": "柚子の皮の風味を加えた小粒のグミ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-3-staple-5",
+              "name": "天然水 500ml",
+              "price": 108,
+              "description": "持ち歩きやすいペットボトル入りの水。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "convenience-store-3-staple-6",
+              "name": "小袋アーモンド",
+              "price": 248,
+              "description": "小腹を満たす素焼きナッツ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "convenience-store-3-staple-7",
+              "name": "緑茶 600ml",
+              "price": 138,
+              "description": "食事にも合う、無糖の緑茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "convenience-store-3-staple-8",
+              "name": "ポテトチップス",
+              "price": 180,
+              "description": "じゃがいもの風味が生きるうす塩味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "convenience-store-3-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "convenience-store-3-original-7",
+              "name": "携帯用靴磨きシート 五枚",
+              "price": 198,
+              "description": "外出先で靴の表面を拭く個包装のシート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "convenience-store-3-original-8",
+              "name": "無地の封筒と便箋セット",
+              "price": 248,
+              "description": "急ぎの手紙に使える少量の紙セット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-3-original-9",
+              "name": "折りたたみ買い物袋 小型",
+              "price": 398,
+              "description": "手のひら程度に畳める薄手の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "convenience-store-3-staple-9",
+              "name": "歯ブラシセット",
+              "price": 328,
+              "description": "小さな歯磨き粉付きの携帯セット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "convenience-store-3-staple-10",
+              "name": "薄型メモパッド",
+              "price": 198,
+              "description": "ポケットに入る小さな文具。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "convenience-store-3-staple-11",
+              "name": "ポケットティッシュ 六個",
+              "price": 138,
+              "description": "外出先で便利な六個入りパック。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "convenience-store-3-staple-12",
+              "name": "衣類用しみ取りシート",
+              "price": 298,
+              "description": "外出先で使う使い切りシート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口からおにぎりの棚が見え、窓側に二席の小さな飲食カウンターがある。",
+        "service": "温める品と冷たい品を分けて渡す。列車の時間が近いとレジの応援を呼ぶ。",
+        "signature": "鮭ほぐしと野沢菜のおにぎりと焦がしキャラメルのミルク飲料",
+        "localFlavor": "朝は通勤客、終電前は帰宅客で賑わう。駅前の待ち合わせで飲み物だけ買う人も多い。"
+      }
     }
   ]
 }

@@ -477,6 +477,237 @@
         "signature": "小魚の南蛮漬けと胡麻さば風の一皿",
         "localFlavor": "商店街の鮮魚店と付き合いが深く、仕事終わりの常連が多い。"
       }
+    },
+    {
+      "id": "izakaya-3",
+      "name": "おばんざい酒場 宵つむぎ",
+      "category": "izakaya",
+      "tags": [
+        "おばんざい",
+        "市場裏",
+        "一人客歓迎"
+      ],
+      "priceLevel": "normal",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古い市場の裏にある小さな酒場。大皿の煮物と焼き魚を選び、少量ずつ酒と合わせられる。",
+      "openingHours": "16:00〜23:00（木曜休）",
+      "menuSections": [
+        {
+          "id": "izakaya-3-section-1",
+          "title": "とりあえず",
+          "items": [
+            {
+              "id": "izakaya-3-original-1",
+              "name": "おばんざい三鉢の小さな盆",
+              "price": 880,
+              "description": "根菜の煮物と野菜の小鉢を少しずつ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-3-original-2",
+              "name": "焼き茄子としらすの冷やし鉢",
+              "price": 480,
+              "description": "焼き茄子に出汁としらす、大葉を添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-3-original-3",
+              "name": "里いもと鶏そぼろの煮ころがし",
+              "price": 520,
+              "description": "柔らかい里いもに鶏そぼろのあん。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-3-staple-1",
+              "name": "枝豆",
+              "price": 320,
+              "description": "ほどよい塩気の茹でたて枝豆。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "izakaya-3-staple-2",
+              "name": "海苔としらすの冷奴",
+              "price": 420,
+              "description": "絹豆腐に海苔としらすをたっぷり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "izakaya-3-staple-3",
+              "name": "冷奴",
+              "price": 320,
+              "description": "薬味をたっぷりのせた絹ごし豆腐。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "izakaya-3-staple-4",
+              "name": "漬物盛り合わせ",
+              "price": 420,
+              "description": "大根、きゅうり、白菜の三種盛り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "izakaya-3-section-2",
+          "title": "酒の肴",
+          "items": [
+            {
+              "id": "izakaya-3-original-4",
+              "name": "赤魚の香味味噌焼き",
+              "price": 780,
+              "description": "味噌だれを塗った魚を焼き、酢の物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-3-original-5",
+              "name": "豚ばらと焼き豆腐の小鍋",
+              "price": 820,
+              "description": "豚肉と豆腐を甘めの出汁で温めた小鍋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-3-original-6",
+              "name": "宵つむぎの梅だし茶漬け",
+              "price": 520,
+              "description": "梅と海苔の小ご飯に温かい出汁を注ぐ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-3-staple-5",
+              "name": "鶏の唐揚げ",
+              "price": 580,
+              "description": "生姜醤油に漬けた鶏もも肉をからりと。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "izakaya-3-staple-6",
+              "name": "じゃこ入り厚焼き卵",
+              "price": 520,
+              "description": "細かいじゃこを混ぜ込んだ卵焼き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "izakaya-3-staple-7",
+              "name": "もつ煮込み",
+              "price": 520,
+              "description": "大根とこんにゃくを味噌でことこと煮込んだ名物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "izakaya-3-staple-8",
+              "name": "ほっけの開き",
+              "price": 860,
+              "description": "ふっくら焼いた大きめの干物。大根おろし付き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "izakaya-3-section-3",
+          "title": "お飲みもの",
+          "items": [
+            {
+              "id": "izakaya-3-original-7",
+              "name": "金柑と生姜のサワー",
+              "price": 580,
+              "description": "金柑風味と生姜を合わせた焼酎の炭酸割り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "izakaya-3-original-8",
+              "name": "温かい焙じ茶割り",
+              "price": 550,
+              "description": "焼酎を焙じ茶で割った香ばしい一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-3-original-9",
+              "name": "赤しそレモンソーダ",
+              "price": 420,
+              "description": "赤しそのシロップとレモンのノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "izakaya-3-staple-9",
+              "name": "生ビール",
+              "price": 480,
+              "description": "よく冷えた中ジョッキ。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "izakaya-3-staple-10",
+              "name": "柚子蜜ソーダ",
+              "price": 350,
+              "description": "柚子蜜と炭酸のノンアルコール。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "izakaya-3-staple-11",
+              "name": "角氷ハイボール",
+              "price": 420,
+              "description": "大きな氷と強めの炭酸で爽やかに。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "izakaya-3-staple-12",
+              "name": "ウーロン茶",
+              "price": 310,
+              "description": "氷入りのグラスで提供するソフトドリンク。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "カウンターに季節の惣菜の大皿が並ぶ。奥の四人席からは市場の裏口が見える。",
+        "service": "まず食べたい量を聞き、小鉢は半量でも盛る。黒板の魚は焼き上がりまでの時間を伝える。",
+        "signature": "おばんざい三鉢の小さな盆と赤魚の香味味噌焼き",
+        "localFlavor": "市場の片付けを終えた人たちが早い時間から集まる。夜更けは近所の常連がゆっくり過ごす。"
+      }
     }
   ]
 }

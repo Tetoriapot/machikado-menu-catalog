@@ -475,6 +475,235 @@
         "signature": "旅の二色カレー皿とほうれん草と白いチーズのカレー",
         "localFlavor": "一人客が写真の場所を尋ねることがある。店主と旅行の話をするために通う常連もいる。"
       }
+    },
+    {
+      "id": "curry-3",
+      "name": "カレーと豆 雨粒台所",
+      "category": "curry",
+      "tags": [
+        "豆料理",
+        "団地",
+        "日替わり"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "団地の商店棟にある小さなカレー屋。豆や野菜を使う穏やかな皿と、日替わりの肉カレーを出す。",
+      "openingHours": "11:00〜20:00（木曜休）",
+      "menuSections": [
+        {
+          "id": "curry-3-section-1",
+          "title": "カレー",
+          "items": [
+            {
+              "id": "curry-3-original-1",
+              "name": "雨粒の三種豆カレー",
+              "price": 920,
+              "description": "三種類の豆をトマトとスパイスで煮た一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "curry-3-original-2",
+              "name": "焼き大根と豚肉の和風カレー",
+              "price": 1080,
+              "description": "焼き目を付けた大根と豚肉を出汁で煮込む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "curry-3-original-3",
+              "name": "ほうれん草と卵のまろやかカレー",
+              "price": 980,
+              "description": "青菜のカレーにゆで卵を添えた穏やかな味。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "curry-3-staple-1",
+              "name": "チキンカレー",
+              "price": 980,
+              "description": "玉ねぎとスパイスで煮込んだ鶏カレー。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "curry-3-staple-2",
+              "name": "あいがけカレー",
+              "price": 1410,
+              "description": "二種類のカレーを一皿で。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "curry-3-staple-3",
+              "name": "キーマカレー",
+              "price": 950,
+              "description": "挽肉の旨みと香辛料の香り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "curry-3-staple-4",
+              "name": "野菜カレー",
+              "price": 1080,
+              "description": "彩り野菜をたっぷり添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "curry-3-section-2",
+          "title": "追加・副菜",
+          "items": [
+            {
+              "id": "curry-3-original-4",
+              "name": "ひよこ豆の小さな揚げ団子 三個",
+              "price": 380,
+              "description": "潰した豆を香草と丸めて揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "curry-3-original-5",
+              "name": "カリフラワーの甘酢スパイス漬け",
+              "price": 220,
+              "description": "小房に分けた野菜を甘酢とスパイスに漬ける。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "curry-3-original-6",
+              "name": "追加の焼き野菜 小皿",
+              "price": 280,
+              "description": "カレーに載せるじゃがいもと人参の焼き野菜。",
+              "kind": "addon",
+              "recommended": false
+            },
+            {
+              "id": "curry-3-staple-5",
+              "name": "ゆで卵",
+              "price": 100,
+              "description": "カレーに添える追加の卵。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "curry-3-staple-6",
+              "name": "ライス大盛り",
+              "price": 130,
+              "description": "ご飯を増量するオプション。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "curry-3-staple-7",
+              "name": "チーズ",
+              "price": 180,
+              "description": "まろやかさを加えるトッピング。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "curry-3-staple-8",
+              "name": "にんじんのアチャール",
+              "price": 240,
+              "description": "スパイスと酢で和えた副菜。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "curry-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "id": "curry-3-original-7",
+              "name": "黒胡麻ラッシー",
+              "price": 420,
+              "description": "ヨーグルトの飲み物に黒胡麻を混ぜる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "curry-3-original-8",
+              "name": "生姜りんごのホットチャイ",
+              "price": 480,
+              "description": "生姜とりんごの香りを加えたミルクティー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "curry-3-original-9",
+              "name": "豆乳と黒糖の小さなプディング",
+              "price": 360,
+              "description": "豆乳の甘味に黒糖のソースを添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "curry-3-staple-9",
+              "name": "ラッシー",
+              "price": 380,
+              "description": "ヨーグルトのさわやかな飲みもの。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "curry-3-staple-10",
+              "name": "カルダモンプリン",
+              "price": 460,
+              "description": "香辛料をほんのりきかせたプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "curry-3-staple-11",
+              "name": "マンゴーラッシー",
+              "price": 450,
+              "description": "マンゴーの甘みを加えた一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "curry-3-staple-12",
+              "name": "アイスコーヒー",
+              "price": 390,
+              "description": "食後に合う苦味のある珈琲。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口に傘立てと黒板があり、店内には四人卓が三つ。厨房の棚に豆の瓶が並ぶ。",
+        "service": "辛味は別添えにし、初めての客には豆の種類を説明する。持ち帰りはご飯と分けて詰める。",
+        "signature": "雨粒の三種豆カレーとひよこ豆の小さな揚げ団子 三個",
+        "localFlavor": "団地の住民が買い物のついでに寄る。雨の日は店名の話をする客が少し増える。"
+      }
     }
   ]
 }

@@ -477,6 +477,237 @@
         "signature": "積み木の小さな家セットとカードゲーム『おやつの順番』",
         "localFlavor": "住宅街の集まりや家族の休日に使う玩具を買う客が多い。雨の日は室内遊びの棚が賑わう。"
       }
+    },
+    {
+      "id": "toy-store-3",
+      "name": "おもちゃ屋 ねじまき広場",
+      "category": "toy-store",
+      "tags": [
+        "公園前",
+        "ボードゲーム",
+        "工作"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "公園の向かいにある昔ながらの玩具店。短時間で遊べるゲームと、親子で作れる工作の材料を揃える。",
+      "openingHours": "10:00〜19:00（水曜休）",
+      "menuSections": [
+        {
+          "id": "toy-store-3-section-1",
+          "title": "ゲーム",
+          "items": [
+            {
+              "id": "toy-store-3-original-1",
+              "name": "カードゲーム『駅前おつかい便』",
+              "price": 1540,
+              "description": "品物を集めて届ける架空の二〜四人用ゲーム。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "toy-store-3-original-2",
+              "name": "木製バランスゲーム『小鳥の枝』",
+              "price": 2420,
+              "description": "枝型の台に木の小鳥を載せる架空のゲーム。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-3-original-3",
+              "name": "盤ゲーム『路地ねこ散歩』",
+              "price": 2860,
+              "description": "町の路地を進む架空の小さな盤ゲーム。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-3-staple-1",
+              "name": "トランプ",
+              "price": 550,
+              "description": "ケース付きの標準カード。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-2",
+              "name": "カードゲーム『猫の昼休み』",
+              "price": 1820,
+              "description": "架空の手軽なカードゲーム。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-3",
+              "name": "六面ダイス 十個",
+              "price": 660,
+              "description": "テーブルゲーム用の色違いセット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-4",
+              "name": "ボードゲーム『星の配達便』",
+              "price": 3630,
+              "description": "架空の協力型配達ゲーム。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "toy-store-3-section-2",
+          "title": "玩具",
+          "items": [
+            {
+              "id": "toy-store-3-original-4",
+              "name": "ねじ巻き配達ロボット",
+              "price": 880,
+              "description": "荷箱を背負って進む小さなねじ巻き玩具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "toy-store-3-original-5",
+              "name": "布の野菜ままごとセット",
+              "price": 1980,
+              "description": "野菜の形をした布の玩具を袋に詰める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-3-original-6",
+              "name": "透明カレイドスコープ",
+              "price": 1100,
+              "description": "色の変化を眺める透明筒の万華鏡。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-3-staple-5",
+              "name": "木の積み木",
+              "price": 2200,
+              "description": "色付きの木製ブロック。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-6",
+              "name": "こま",
+              "price": 480,
+              "description": "ひもを巻いて回す昔遊び。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-7",
+              "name": "ミニカー",
+              "price": 550,
+              "description": "小さな架空車種の模型。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-8",
+              "name": "シャボン玉",
+              "price": 240,
+              "description": "屋外遊び用の容器と吹き具。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "toy-store-3-section-3",
+          "title": "工作・小物",
+          "items": [
+            {
+              "id": "toy-store-3-original-7",
+              "name": "紙の町並み工作キット",
+              "price": 770,
+              "description": "切って組み立てる架空の商店街の模型。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "toy-store-3-original-8",
+              "name": "木製こま色塗りセット",
+              "price": 660,
+              "description": "無地のこまと色付け用の小さな絵具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-3-original-9",
+              "name": "蓄光星シール 四十片",
+              "price": 330,
+              "description": "光を当てた後に淡く光る星形シール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "toy-store-3-staple-9",
+              "name": "折り紙セット",
+              "price": 330,
+              "description": "色紙と簡単な折り方の冊子。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-10",
+              "name": "ゲーム用コイン",
+              "price": 360,
+              "description": "点数管理に使う樹脂コイン。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-11",
+              "name": "工作用粘土",
+              "price": 385,
+              "description": "色を混ぜて遊べる粘土。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "toy-store-3-staple-12",
+              "name": "スケッチブック",
+              "price": 480,
+              "description": "絵や工作に使う厚紙の冊子。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口に小さな試遊台があり、壁いっぱいに箱入りの玩具が並ぶ。レジ横でねじ巻き玩具が動く。",
+        "service": "遊ぶ人数と年齢の目安を聞いて案内する。小さな部品がある品は箱の表示を示す。",
+        "signature": "カードゲーム『駅前おつかい便』とねじ巻き配達ロボット",
+        "localFlavor": "休日は公園帰りの家族が集まる。放課後には子どもが小遣いで買える棚をのぞく。"
+      }
     }
   ]
 }

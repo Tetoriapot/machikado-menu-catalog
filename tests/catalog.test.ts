@@ -5,9 +5,9 @@ import { defaultFilters,matchesFilters,sample,readIds,remember,menuText,gmText,p
 import type { Category,Shop,ShopSummary } from '../src/data/types.ts';
 const index=JSON.parse(readFileSync('src/data/generated-index.json','utf8')) as {categories:Category[];shops:ShopSummary[];itemCount:number};
 const allShops:Shop[]=readdirSync('src/data/shops').filter(f=>f.endsWith('.json')).flatMap(file=>JSON.parse(readFileSync(`src/data/shops/${file}`,'utf8')).shops);
-test('50カテゴリ・100店舗・1,500商品が揃い、必須5店種が各15品以上ある',()=>{
- assert.ok(index.categories.length>=50);assert.ok(allShops.length>=100);assert.ok(index.itemCount>=1500);
- for(const category of ['kissaten','family-restaurant','izakaya','ramen','convenience-store'])assert.ok(allShops.some(s=>s.category===category&&s.menuSections.flatMap(section=>section.items).length>=15));
+test('50カテゴリ・150店舗・3,154商品が揃い、全店に21品以上ある',()=>{
+ assert.equal(index.categories.length,50);assert.equal(allShops.length,150);assert.equal(index.itemCount,3154);
+ for(const shop of allShops)assert.ok(shop.menuSections.flatMap(section=>section.items).length>=21,shop.id);
  assert.equal(allShops.length,index.shops.length);
 });
 test('全データのID・分類・価格・説明と静的出力の整合性',()=>{

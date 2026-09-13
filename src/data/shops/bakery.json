@@ -477,6 +477,237 @@
         "signature": "小さな豆乳ちぎりパンと枝豆とコーンの平焼きパン",
         "localFlavor": "登校する子どもと出勤前の保護者が行き交う。午後には近所の人が、翌朝のパンを買いに来る。"
       }
+    },
+    {
+      "id": "bakery-3",
+      "name": "石窯パン 舟の穂",
+      "category": "bakery",
+      "tags": [
+        "石窯",
+        "川辺",
+        "焼きたて"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "川の渡し場跡に建つパン屋。硬めの食事パンと具だくさんの焼き込みパンが並び、散策客が立ち寄る。",
+      "openingHours": "7:30〜17:00（月・火曜休）",
+      "menuSections": [
+        {
+          "id": "bakery-3-section-1",
+          "title": "食事パン",
+          "items": [
+            {
+              "id": "bakery-3-original-1",
+              "name": "舟の穂の石窯ライ麦パン",
+              "price": 620,
+              "description": "ライ麦入りの大きな丸パン。半分に切って持ち帰れる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bakery-3-original-2",
+              "name": "胡麻とじゃがいもの食事パン",
+              "price": 380,
+              "description": "じゃがいもを練り込んだ生地に胡麻を散らす。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-3-original-3",
+              "name": "塩オリーブの平焼きパン",
+              "price": 360,
+              "description": "刻みオリーブを載せて平たく焼いた一枚。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-3-staple-1",
+              "name": "山型食パン 一斤",
+              "price": 340,
+              "description": "毎朝のトーストに合う食パン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "bakery-3-staple-2",
+              "name": "全粒粉ロール",
+              "price": 200,
+              "description": "小麦の風味を楽しむ丸パン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "bakery-3-staple-3",
+              "name": "バゲット",
+              "price": 300,
+              "description": "皮を香ばしく焼いた長いパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "bakery-3-staple-4",
+              "name": "クロワッサン",
+              "price": 240,
+              "description": "何層にも重ねたバター生地。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "bakery-3-section-2",
+          "title": "惣菜パン",
+          "items": [
+            {
+              "id": "bakery-3-original-4",
+              "name": "燻製鶏と人参の石窯サンド",
+              "price": 680,
+              "description": "鶏肉と人参のマリネを香ばしいパンに挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bakery-3-original-5",
+              "name": "焼き茸の味噌チーズパン",
+              "price": 390,
+              "description": "炒めきのこと味噌、チーズを載せて焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-3-original-6",
+              "name": "白いんげんのカレーパン",
+              "price": 340,
+              "description": "豆入りの穏やかなカレーを包んだ焼きパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bakery-3-staple-5",
+              "name": "カレーパン",
+              "price": 240,
+              "description": "自家製カレーを包んで揚げたパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bakery-3-staple-6",
+              "name": "枝豆チーズパン",
+              "price": 250,
+              "description": "枝豆とチーズの塩気。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bakery-3-staple-7",
+              "name": "ソーセージロール",
+              "price": 260,
+              "description": "粗挽きソーセージを生地で巻いて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bakery-3-staple-8",
+              "name": "ツナコーンパン",
+              "price": 240,
+              "description": "ツナとコーンを焼き込んだパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "bakery-3-section-3",
+          "title": "甘いパン",
+          "items": [
+            {
+              "id": "bakery-3-original-7",
+              "name": "黒糖林檎の渦巻きパン",
+              "price": 320,
+              "description": "りんごと黒糖を巻き込んだ小さなパン。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "bakery-3-original-8",
+              "name": "栗と珈琲のブリオッシュ",
+              "price": 420,
+              "description": "栗の甘露煮と珈琲クリームを入れた一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bakery-3-original-9",
+              "name": "舟形の蜂蜜フィナンシェ",
+              "price": 280,
+              "description": "小舟の型で焼いた蜂蜜風味の焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "bakery-3-staple-9",
+              "name": "あんぱん",
+              "price": 180,
+              "description": "粒あん入りのふんわり生地。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bakery-3-staple-10",
+              "name": "りんごデニッシュ",
+              "price": 310,
+              "description": "甘く煮たりんごの層状パン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bakery-3-staple-11",
+              "name": "クリームパン",
+              "price": 200,
+              "description": "カスタードをたっぷり包んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bakery-3-staple-12",
+              "name": "シナモンロール",
+              "price": 290,
+              "description": "シナモンと砂糖を巻き込んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "石の床と大きな窯口。窓辺の棚から川が見え、長い木の台に焼けたパンを冷ましている。",
+        "service": "食事パンは食べる時刻を聞いて切り分ける。温かいパンを蒸らさないよう紙袋で渡す。",
+        "signature": "舟の穂の石窯ライ麦パンと燻製鶏と人参の石窯サンド",
+        "localFlavor": "朝は近所の住民、昼は川沿いを歩く客が訪れる。橋の修繕の話が常連の会話に上る。"
+      }
     }
   ]
 }

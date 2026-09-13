@@ -459,6 +459,227 @@
         "localFlavor": "大学とオフィスの間で、昼の作業利用が多い。"
       },
       "priceNote": "税込価格。利用料は1人あたり。延長・設備利用は選択したプランと別料金です。"
+    },
+    {
+      "id": "net-cafe-3",
+      "name": "ネットラウンジ 栞の森",
+      "category": "net-cafe",
+      "tags": [
+        "読書",
+        "作業ブース",
+        "深夜営業"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "幹線道路沿いにある静かなネットカフェ。読書席と個別の作業ブースがあり、食事を挟んで長く過ごせる。",
+      "openingHours": "24時間営業",
+      "menuSections": [
+        {
+          "id": "net-cafe-3-section-1",
+          "title": "利用料金 一人",
+          "items": [
+            {
+              "id": "net-cafe-3-original-1",
+              "name": "平日読書席 二時間パック",
+              "price": 780,
+              "description": "平日9〜17時入店の一人分。ドリンクバー付き。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-original-2",
+              "name": "作業ブース 四時間パック",
+              "price": 1580,
+              "description": "全日6〜18時入店の一人分。ドリンクバー付き。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-original-3",
+              "name": "夜の読書席 六時間パック",
+              "price": 1680,
+              "description": "全日20〜翌2時入店の一人分。ドリンクバー付き。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-staple-1",
+              "name": "基本三十分",
+              "price": 280,
+              "description": "ブース一席の利用料金。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "net-cafe-3-staple-2",
+              "name": "個室席 一時間",
+              "price": 680,
+              "description": "パソコン付き個室の短時間利用。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "net-cafe-3-staple-3",
+              "name": "延長十分",
+              "price": 100,
+              "description": "基本料金への追加分。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "net-cafe-3-staple-4",
+              "name": "ナイト八時間",
+              "price": 2420,
+              "description": "20〜翌4時入店限定の八時間利用。",
+              "recommended": false,
+              "kind": "fee"
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-3-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "id": "net-cafe-3-original-4",
+              "name": "鶏ときのこのクリームご飯",
+              "price": 680,
+              "description": "鶏肉ときのこのクリーム煮をご飯にかける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "net-cafe-3-original-5",
+              "name": "野菜と豆のドライカレー",
+              "price": 620,
+              "description": "刻み野菜と豆を炒めた穏やかな辛さのカレー。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-original-6",
+              "name": "半熟卵の照り焼きつくね丼",
+              "price": 650,
+              "description": "照り焼きのつくねと半熟卵をご飯に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-staple-5",
+              "name": "ビーフカレー",
+              "price": 580,
+              "description": "温かいご飯に定番のカレー。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "net-cafe-3-staple-6",
+              "name": "具だくさんミネストローネ",
+              "price": 420,
+              "description": "パン一個を添えたスープ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "net-cafe-3-staple-7",
+              "name": "唐揚げ丼",
+              "price": 650,
+              "description": "唐揚げと甘辛だれの丼。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "net-cafe-3-staple-8",
+              "name": "ホットドッグ",
+              "price": 420,
+              "description": "ソーセージを挟んだ温かいパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "net-cafe-3-section-3",
+          "title": "追加サービス",
+          "items": [
+            {
+              "id": "net-cafe-3-original-7",
+              "name": "手荷物ロッカー 利用一回",
+              "price": 200,
+              "description": "滞在中に一つのロッカーを使える追加料金。",
+              "kind": "service",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-original-8",
+              "name": "充電ケーブル販売 一本",
+              "price": 660,
+              "description": "端子の種類を選べる持ち帰り用ケーブル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-original-9",
+              "name": "厚手ブランケット貸出 一枚",
+              "price": 100,
+              "description": "滞在中に一枚を借り、退店時に返却する。",
+              "kind": "service",
+              "recommended": false
+            },
+            {
+              "id": "net-cafe-3-staple-9",
+              "name": "シャワー 三十分",
+              "price": 330,
+              "description": "タオルは別売りの設備利用。",
+              "recommended": false,
+              "kind": "service"
+            },
+            {
+              "id": "net-cafe-3-staple-10",
+              "name": "筆記具セット",
+              "price": 220,
+              "description": "黒ペンと小さなメモ帳。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "net-cafe-3-staple-11",
+              "name": "タオル販売",
+              "price": 220,
+              "description": "シャワー向けの小さなタオル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "net-cafe-3-staple-12",
+              "name": "カラー印刷 一枚",
+              "price": 70,
+              "description": "A4片面一枚の料金。",
+              "recommended": false,
+              "kind": "service"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "背の高い本棚で区切られた読書席と、奥に続く作業ブース。入口の案内板に空席が表示される。",
+        "service": "受付で席種と料金を説明する。食事の受け取りは端末に通知し、静かな館内で大声を出さない。",
+        "signature": "平日読書席 二時間パックと鶏ときのこのクリームご飯",
+        "localFlavor": "昼は作業中の人、夜は長距離移動の休憩客が来る。明け方には窓際の読書席が明るくなる。"
+      },
+      "priceNote": "税込価格。利用料は1人あたりで、パックは一つを選択。延長・設備利用は別料金です。各パックの入店条件をご確認ください。"
     }
   ]
 }

@@ -485,6 +485,237 @@
         "signature": "焼きチーズカレーと野菜たっぷりの軽食",
         "localFlavor": "駅前の仕事帰りや学生の打ち合わせに使われる。"
       }
+    },
+    {
+      "id": "family-restaurant-3",
+      "name": "ファミリーキッチン 灯る丘",
+      "category": "family-restaurant",
+      "tags": [
+        "家族向け",
+        "朝食",
+        "駐車場あり"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "郊外の坂道にあるファミリーレストラン。朝の食事から夕食まで、家族で分けやすい洋食が揃う。",
+      "openingHours": "7:00〜23:00",
+      "menuSections": [
+        {
+          "id": "family-restaurant-3-section-1",
+          "title": "MAIN DISH",
+          "items": [
+            {
+              "id": "family-restaurant-3-original-1",
+              "name": "灯る丘の煮込みチーズハンバーグ",
+              "price": 1280,
+              "description": "トマトソースで煮た主菜にチーズ。ライスは別。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "family-restaurant-3-original-2",
+              "name": "白身魚と海老のクリームグラタン",
+              "price": 1380,
+              "description": "魚介とマカロニを白いソースで焼いた一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-3-original-3",
+              "name": "朝の焼き野菜と卵のプレート",
+              "price": 820,
+              "description": "卵と野菜、トースト。午前11時までの朝食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-3-staple-1",
+              "name": "鉄板ハンバーグ",
+              "price": 980,
+              "description": "熱々の鉄板にデミグラスソースをかけて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "family-restaurant-3-staple-2",
+              "name": "白身魚のレモンバター焼き",
+              "price": 1280,
+              "description": "白身魚のソテーに酸味のあるバターソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "family-restaurant-3-staple-3",
+              "name": "チキンステーキ",
+              "price": 920,
+              "description": "皮を香ばしく焼き、和風おろしソースを添えた一皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "family-restaurant-3-staple-4",
+              "name": "ポークカツ定食",
+              "price": 1190,
+              "description": "厚切り豚カツにご飯、味噌汁、小鉢付き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-3-section-2",
+          "title": "LIGHT MEAL",
+          "items": [
+            {
+              "id": "family-restaurant-3-original-4",
+              "name": "鶏むね肉のレモンサラダラップ",
+              "price": 780,
+              "description": "鶏肉と葉野菜を薄い生地に巻いた軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "family-restaurant-3-original-5",
+              "name": "家族で分けるポテトと豆のサラダ",
+              "price": 680,
+              "description": "じゃがいもと豆、卵を大きめの器へ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-3-original-6",
+              "name": "きのことハムのホットドッグ",
+              "price": 720,
+              "description": "炒めたきのことハムを温かいパンに挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-3-staple-5",
+              "name": "きのこ和風パスタ",
+              "price": 820,
+              "description": "三種のきのこを醤油バターで仕上げたパスタ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "family-restaurant-3-staple-6",
+              "name": "本日のスープとパン",
+              "price": 680,
+              "description": "日替わりポタージュと焼きたての小パン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "family-restaurant-3-staple-7",
+              "name": "マルゲリータ",
+              "price": 880,
+              "description": "トマトとチーズの薄焼きピザ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "family-restaurant-3-staple-8",
+              "name": "お子さまプレート",
+              "price": 680,
+              "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "family-restaurant-3-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "id": "family-restaurant-3-original-7",
+              "name": "丘の果樹園風ミニパフェ",
+              "price": 620,
+              "description": "りんごと桃の果肉にヨーグルトとアイス。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "family-restaurant-3-original-8",
+              "name": "お子さま焼きプリンプレート",
+              "price": 380,
+              "description": "小さなプリンにバナナとクッキーを添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-3-original-9",
+              "name": "蜂蜜りんごのアイスティー",
+              "price": 480,
+              "description": "りんごの香りと少量のはちみつを合わせた紅茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "family-restaurant-3-staple-9",
+              "name": "カスタードプリン",
+              "price": 420,
+              "description": "卵の風味を生かしたなめらかなプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "family-restaurant-3-staple-10",
+              "name": "ベリーとヨーグルトのパフェ",
+              "price": 680,
+              "description": "酸味のあるベリーを重ねた軽いパフェ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "family-restaurant-3-staple-11",
+              "name": "チョコブラウニー",
+              "price": 480,
+              "description": "濃厚なブラウニーにバニラアイスを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "family-restaurant-3-staple-12",
+              "name": "紅茶のシフォンケーキ",
+              "price": 550,
+              "description": "ふんわり生地にホイップを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "丘の住宅街を望む広い窓と六人用のボックス席。入口脇に子どもの絵本を置く棚。",
+        "service": "子ども用の椅子と取り皿を最初に確認する。料理は家族で分ける順に並べる。",
+        "signature": "灯る丘の煮込みチーズハンバーグと鶏むね肉のレモンサラダラップ",
+        "localFlavor": "送迎前の朝食や週末の親族の集まりに使われる。夜は近くの施設で働く人が立ち寄る。"
+      }
     }
   ]
 }

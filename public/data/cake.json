@@ -477,6 +477,237 @@
         "signature": "月形のバニラムースとピスタチオとチェリーのタルト",
         "localFlavor": "仕事帰りの一人客と、贈答の菓子を選ぶ常連が多い。近くの花屋と同じ時間に店じまいをする。"
       }
+    },
+    {
+      "id": "cake-3",
+      "name": "焼菓子とケーキ 日々の灯",
+      "category": "cake",
+      "tags": [
+        "焼き菓子",
+        "小さな贈り物",
+        "坂道"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "坂道の小さな洋菓子店。大きな飾りよりも素材の香りを大切にした、一人分のケーキと焼き菓子を並べる。",
+      "openingHours": "10:00〜19:00（月曜休）",
+      "menuSections": [
+        {
+          "id": "cake-3-section-1",
+          "title": "ケーキ 一切",
+          "items": [
+            {
+              "id": "cake-3-original-1",
+              "name": "日々の灯の蜂蜜ショート",
+              "price": 620,
+              "description": "蜂蜜風味のスポンジにクリームと季節の果物。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cake-3-original-2",
+              "name": "焦がし杏のチーズタルト",
+              "price": 650,
+              "description": "杏を軽く焼き、チーズ生地に重ねた一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-3-original-3",
+              "name": "黒胡麻と白チョコのケーキ",
+              "price": 680,
+              "description": "黒胡麻の生地と白いチョコのクリームを重ねる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-3-staple-1",
+              "name": "いちごショート",
+              "price": 580,
+              "description": "生クリームといちごの定番ケーキ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cake-3-staple-2",
+              "name": "フルーツタルト",
+              "price": 720,
+              "description": "季節の果実を彩りよく。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "cake-3-staple-3",
+              "name": "チョコレートケーキ",
+              "price": 560,
+              "description": "なめらかなガナッシュを重ねて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "cake-3-staple-4",
+              "name": "ベイクドチーズケーキ",
+              "price": 570,
+              "description": "しっとり焼いたチーズのケーキ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        },
+        {
+          "id": "cake-3-section-2",
+          "title": "カップ・シュー",
+          "items": [
+            {
+              "id": "cake-3-original-4",
+              "name": "バニラと林檎の小瓶ムース",
+              "price": 480,
+              "description": "りんご煮とバニラムースを小さな瓶に。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cake-3-original-5",
+              "name": "塩メープルのシュークリーム",
+              "price": 380,
+              "description": "メープル風味のクリームに少量の塩を加える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-3-original-6",
+              "name": "焙じ茶カラメルのカッププリン",
+              "price": 420,
+              "description": "茶の香りとほろ苦いカラメルを合わせる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-3-staple-5",
+              "name": "カスタードプリン",
+              "price": 320,
+              "description": "卵の風味を生かした瓶入りプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "cake-3-staple-6",
+              "name": "レアチーズカップ",
+              "price": 460,
+              "description": "小さなカップに入れたチーズムース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cake-3-staple-7",
+              "name": "シュークリーム",
+              "price": 280,
+              "description": "香ばしい皮にたっぷりクリーム。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cake-3-staple-8",
+              "name": "パンナコッタ",
+              "price": 420,
+              "description": "生クリームのやさしいミルクデザート。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "cake-3-section-3",
+          "title": "焼き菓子",
+          "items": [
+            {
+              "id": "cake-3-original-7",
+              "name": "胡桃と柑橘のケーク 一切",
+              "price": 340,
+              "description": "くるみと柑橘ピールを混ぜたしっとりした焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cake-3-original-8",
+              "name": "日々の灯のバターサブレ 六枚",
+              "price": 680,
+              "description": "厚めの丸いサブレを六枚、紙箱に詰める。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-3-original-9",
+              "name": "焦がし麦の小さなマドレーヌ 四個",
+              "price": 580,
+              "description": "香ばしい麦の風味を加えた一口サイズ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cake-3-staple-9",
+              "name": "フィナンシェ",
+              "price": 220,
+              "description": "焦がしバターとアーモンドの焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cake-3-staple-10",
+              "name": "焼き菓子詰め合わせ",
+              "price": 1820,
+              "description": "贈り物に使える六個入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "cake-3-staple-11",
+              "name": "マドレーヌ",
+              "price": 200,
+              "description": "貝殻型のしっとりしたお菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cake-3-staple-12",
+              "name": "パウンドケーキ 一切",
+              "price": 310,
+              "description": "ドライフルーツを混ぜた焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "白木の棚に焼き菓子の袋、低いケースに一人分のケーキ。窓辺に季節の枝を一つ飾る。",
+        "service": "食べる時刻と持ち歩く時間を聞く。小さな贈り物にも紙の帯と手提げを丁寧に付ける。",
+        "signature": "日々の灯の蜂蜜ショートとバニラと林檎の小瓶ムース",
+        "localFlavor": "近所の人が週末のおやつを買いに来る。坂の上の家へ向かう手土産を選ぶ客もいる。"
+      }
     }
   ]
 }

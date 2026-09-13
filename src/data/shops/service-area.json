@@ -486,6 +486,237 @@
         "signature": "きのこご飯と地場野菜の天ぷら",
         "localFlavor": "休日の行楽客が、農産品を買って帰る。"
       }
+    },
+    {
+      "id": "service-area-3",
+      "name": "海風サービスエリア 下り線",
+      "category": "service-area",
+      "tags": [
+        "海沿い",
+        "長距離ドライブ",
+        "休憩"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "海沿いの道にある休憩施設。魚の定食や焼き物の軽食、車内でも分けやすい土産を揃える。",
+      "openingHours": "フードコート7:00〜22:00／売店24時間／軽食9:00〜18:00",
+      "menuSections": [
+        {
+          "id": "service-area-3-section-1",
+          "title": "フードコート",
+          "items": [
+            {
+              "id": "service-area-3-original-1",
+              "name": "鯵のなめろう風茶漬け膳",
+              "price": 1080,
+              "description": "刻んだ鯵の味噌和えをご飯に載せ、だしを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "service-area-3-original-2",
+              "name": "海苔と小海老の塩ラーメン",
+              "price": 980,
+              "description": "塩味のスープに海苔と小海老を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "service-area-3-original-3",
+              "name": "豚とキャベツの鉄板焼き定食",
+              "price": 1180,
+              "description": "豚肉とキャベツを熱い鉄板で出す定食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "service-area-3-staple-1",
+              "name": "峠の豚汁定食",
+              "price": 980,
+              "description": "根菜たっぷりの汁とおにぎり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "service-area-3-staple-2",
+              "name": "地元風ポークの生姜焼き膳",
+              "price": 1380,
+              "description": "厚めの豚肉と地場野菜を添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "service-area-3-staple-3",
+              "name": "醤油ラーメン",
+              "price": 850,
+              "description": "休憩中に食べやすい定番の麺。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "service-area-3-staple-4",
+              "name": "焼肉丼",
+              "price": 1190,
+              "description": "香ばしい豚肉とたっぷりご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "service-area-3-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "service-area-3-original-4",
+              "name": "いかと青ねぎの丸焼き串",
+              "price": 480,
+              "description": "いか入りの練り物を丸く焼いた串。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "service-area-3-original-5",
+              "name": "塩バターの小さな揚げパン",
+              "price": 320,
+              "description": "塩バターを染み込ませた揚げパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "service-area-3-original-6",
+              "name": "焼き海苔チーズのおにぎり",
+              "price": 280,
+              "description": "チーズ入りのご飯を海苔で包んで焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "service-area-3-staple-5",
+              "name": "肉まん",
+              "price": 320,
+              "description": "温かい大ぶりの肉まん。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-3-staple-6",
+              "name": "野菜おやき 二個",
+              "price": 520,
+              "description": "野菜の餡を包んだ焼きまんじゅう。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-3-staple-7",
+              "name": "フランクフルト",
+              "price": 350,
+              "description": "串付きの焼きソーセージ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-3-staple-8",
+              "name": "たこ焼き 六個",
+              "price": 610,
+              "description": "ソースと鰹節の定番軽食。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "service-area-3-section-3",
+          "title": "売店",
+          "items": [
+            {
+              "id": "service-area-3-original-7",
+              "name": "海風の塩ミルククッキー",
+              "price": 880,
+              "description": "塩とミルクの風味を合わせた個包装の菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "service-area-3-original-8",
+              "name": "旅の小分け海苔ふりかけ",
+              "price": 540,
+              "description": "食卓で使える小袋の海苔ふりかけ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "service-area-3-original-9",
+              "name": "海辺の柑橘マーマレード",
+              "price": 720,
+              "description": "柑橘の皮を残した小瓶のジャム。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "service-area-3-staple-9",
+              "name": "地元風ミルク饅頭 六個",
+              "price": 980,
+              "description": "架空の地域土産を想定した箱菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-3-staple-10",
+              "name": "野菜せんべい",
+              "price": 480,
+              "description": "野菜を練り込んだ薄焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "service-area-3-staple-11",
+              "name": "瓶入りりんごジュース",
+              "price": 320,
+              "description": "休憩にうれしい果汁飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "service-area-3-staple-12",
+              "name": "麦茶 2L",
+              "price": 220,
+              "description": "長距離の車内で分けやすい大型ボトル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "大きな窓の食堂から海が見え、入口の売店には小箱の菓子が積まれている。",
+        "service": "食券を買うと番号表示で呼び出す。食器の返却口は出口に向かう通路にある。",
+        "signature": "鯵のなめろう風茶漬け膳といかと青ねぎの丸焼き串",
+        "localFlavor": "朝は仕事の車、昼は旅行の家族が立ち寄る。風の強い日は展望テラスの椅子を片付ける。"
+      }
     }
   ]
 }

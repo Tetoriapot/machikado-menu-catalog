@@ -477,6 +477,237 @@
         "signature": "煮穴子と祝いちらし",
         "localFlavor": "川沿いの地域行事や親族の集まりに使われる。"
       }
+    },
+    {
+      "id": "sushi-3",
+      "name": "寿司 小春波",
+      "category": "sushi",
+      "tags": [
+        "落ち着いた店",
+        "昼の寿司",
+        "少人数"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街の小さな寿司店。昼は握りや丼、夜は魚の小皿と酒をゆっくり楽しめる。",
+      "openingHours": "11:30〜14:00／17:00〜21:30（木曜休）",
+      "menuSections": [
+        {
+          "id": "sushi-3-section-1",
+          "title": "握り・丼",
+          "items": [
+            {
+              "id": "sushi-3-original-1",
+              "name": "小春波の白身と海老の八貫",
+              "price": 2280,
+              "description": "白身魚と海老を中心に八貫。汁物を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "sushi-3-original-2",
+              "name": "炙り鯛と胡麻だれの小丼",
+              "price": 1780,
+              "description": "軽く炙った鯛に胡麻だれを合わせた丼。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "sushi-3-original-3",
+              "name": "煮穴子と胡瓜のちらし",
+              "price": 1880,
+              "description": "穴子と胡瓜、卵を酢飯へ散らした一皿。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "sushi-3-staple-1",
+              "name": "握り八貫",
+              "price": 2200,
+              "description": "白身、まぐろ、海老などの盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "sushi-3-staple-2",
+              "name": "子どもの握り膳",
+              "price": 1380,
+              "description": "玉子、海老、まぐろのわさび抜き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "sushi-3-staple-3",
+              "name": "上握り十貫",
+              "price": 3400,
+              "description": "中とろや穴子も入る贅沢な盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "sushi-3-staple-4",
+              "name": "穴子重",
+              "price": 2640,
+              "description": "ふっくら煮た穴子に甘だれ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "sushi-3-section-2",
+          "title": "巻物・一品",
+          "items": [
+            {
+              "id": "sushi-3-original-4",
+              "name": "海老と三つ葉の細巻き",
+              "price": 680,
+              "description": "茹で海老と三つ葉を巻き、六切れにする。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "sushi-3-original-5",
+              "name": "帆立と焼きねぎの小鉢",
+              "price": 880,
+              "description": "帆立とねぎを焼き、出汁を少し添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "sushi-3-original-6",
+              "name": "鯛の出汁を含ませた卵焼き",
+              "price": 680,
+              "description": "魚の出汁を加えた厚焼き卵の一皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "sushi-3-staple-5",
+              "name": "鉄火巻",
+              "price": 680,
+              "description": "まぐろの赤身を細巻きに。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "sushi-3-staple-6",
+              "name": "あさりの酒蒸し",
+              "price": 850,
+              "description": "あさりを酒と少量の出汁で蒸して。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "sushi-3-staple-7",
+              "name": "かっぱ巻",
+              "price": 380,
+              "description": "きゅうりの歯ごたえを楽しむ細巻き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "sushi-3-staple-8",
+              "name": "あら汁",
+              "price": 530,
+              "description": "魚のあらから旨みを引き出した汁物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "sushi-3-section-3",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "sushi-3-original-7",
+              "name": "小春の柚子梅酒ソーダ",
+              "price": 680,
+              "description": "梅酒に柚子を加えた炭酸割り。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "sushi-3-original-8",
+              "name": "冷たい抹茶入り玄米茶",
+              "price": 380,
+              "description": "玄米茶に抹茶を合わせた冷たい一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "sushi-3-original-9",
+              "name": "温かい生姜番茶",
+              "price": 320,
+              "description": "番茶に生姜の香りを少し加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "sushi-3-staple-9",
+              "name": "生ビール",
+              "price": 680,
+              "description": "冷えた薄手のグラスで。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "sushi-3-staple-10",
+              "name": "煎茶 冷茶",
+              "price": 350,
+              "description": "ゆっくり抽出した冷たい煎茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "sushi-3-staple-11",
+              "name": "日本酒 一合",
+              "price": 850,
+              "description": "魚に合う辛口の純米酒。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "sushi-3-staple-12",
+              "name": "柚子ソーダ",
+              "price": 420,
+              "description": "柚子蜜を炭酸で割った一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "白木のカウンター六席と、仕切りのある四人席。窓の障子に通りの木の影が揺れる。",
+        "service": "好みと量を聞いて握る。生ものが苦手な客には火を通した品の札を示す。",
+        "signature": "小春波の白身と海老の八貫と海老と三つ葉の細巻き",
+        "localFlavor": "近所の記念日の食事に使われる。平日の昼は一人で丼を食べに来る常連が多い。"
+      }
     }
   ]
 }

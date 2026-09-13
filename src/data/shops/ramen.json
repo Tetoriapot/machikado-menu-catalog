@@ -469,6 +469,232 @@
         "signature": "焦がしねぎと炙り焼豚の濃い一杯",
         "localFlavor": "住宅街から大通りへ出る角で、夜遅い仕事帰りにも寄れる。"
       }
+    },
+    {
+      "id": "ramen-3",
+      "name": "塩そば 硝子雲",
+      "category": "ramen",
+      "tags": [
+        "塩ラーメン",
+        "川沿い",
+        "カウンター"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "川沿いの新しい住宅地に開いた塩ラーメン店。透明なスープと香味野菜を合わせた軽い一杯が看板。",
+      "openingHours": "11:00〜15:00／17:30〜21:00（月曜休）",
+      "menuSections": [
+        {
+          "id": "ramen-3-section-1",
+          "title": "麺",
+          "items": [
+            {
+              "id": "ramen-3-original-1",
+              "name": "硝子雲の貝だし塩そば",
+              "price": 1080,
+              "description": "貝のうまみを合わせた澄んだスープと細麺。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "ramen-3-original-2",
+              "name": "柚子鶏塩そば",
+              "price": 1050,
+              "description": "鶏の塩スープに柚子皮と蒸し鶏を載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-original-3",
+              "name": "冷やしすだち塩そば",
+              "price": 1150,
+              "description": "冷たい出汁に薄切りすだちと香味野菜。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-staple-1",
+              "name": "醤油ラーメン",
+              "price": 780,
+              "description": "鶏ガラの澄んだスープと細縮れ麺。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ramen-3-staple-2",
+              "name": "炙り焼豚つけ麺",
+              "price": 1180,
+              "description": "濃い魚介だれに太麺をつけて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ramen-3-staple-3",
+              "name": "塩ラーメン",
+              "price": 800,
+              "description": "昆布の旨みを重ねた、あっさり塩味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ramen-3-staple-4",
+              "name": "ねぎそば",
+              "price": 990,
+              "description": "白髪ねぎの香りと自家製ラー油の辛み。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "ramen-3-section-2",
+          "title": "ご飯・一品",
+          "items": [
+            {
+              "id": "ramen-3-original-4",
+              "name": "炙り鶏と昆布の小ご飯",
+              "price": 420,
+              "description": "焼いた鶏肉と刻み昆布を載せた小さな茶碗。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "ramen-3-original-5",
+              "name": "海老すり身の焼き餃子 四個",
+              "price": 480,
+              "description": "海老の入った餡を包み、底を香ばしく焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-original-6",
+              "name": "蒸し鶏と水菜の梅和え",
+              "price": 380,
+              "description": "ほぐした鶏肉と水菜を梅肉で和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-staple-5",
+              "name": "焼餃子 五個",
+              "price": 380,
+              "description": "薄い皮で包んだ、野菜多めの焼餃子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ramen-3-staple-6",
+              "name": "チーズ追い飯",
+              "price": 250,
+              "description": "残った濃厚スープに合わせる小ご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ramen-3-staple-7",
+              "name": "半チャーハン",
+              "price": 380,
+              "description": "ラーメンのお供にちょうどよい小盛り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ramen-3-staple-8",
+              "name": "メンマ盛り",
+              "price": 310,
+              "description": "やさしい甘辛味に煮た太切りメンマ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "ramen-3-section-3",
+          "title": "追加・お飲みもの",
+          "items": [
+            {
+              "id": "ramen-3-original-7",
+              "name": "白髪ねぎと柚子皮の追加皿",
+              "price": 150,
+              "description": "麺へ載せる香味野菜を小皿で。",
+              "kind": "addon",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-original-8",
+              "name": "貝だしの追いスープ",
+              "price": 180,
+              "description": "味を調整するための熱い出汁を小さな器で。",
+              "kind": "addon",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-original-9",
+              "name": "香ばしい冷やし玄米茶",
+              "price": 280,
+              "description": "玄米の香りが立つ冷たいお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "ramen-3-staple-9",
+              "name": "味付け卵",
+              "price": 120,
+              "description": "黄身をとろりと仕上げた醤油漬け卵。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "ramen-3-staple-10",
+              "name": "味玉 二個",
+              "price": 240,
+              "description": "黄身を半熟に仕上げた卵を二個。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "ramen-3-staple-11",
+              "name": "麺大盛り",
+              "price": 150,
+              "description": "麺を半玉分追加。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "ramen-3-staple-12",
+              "name": "ラムネ",
+              "price": 250,
+              "description": "昔ながらのビー玉入り瓶ラムネ。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "白いカウンターが九席。窓越しに川沿いの並木が見え、厨房には小さなスープ鍋が並ぶ。",
+        "service": "初来店には塩そばを短く紹介する。香味油は途中で加えられるよう別添えにもする。",
+        "signature": "硝子雲の貝だし塩そばと炙り鶏と昆布の小ご飯",
+        "localFlavor": "近くの住宅の住民が昼食に通う。週末には川沿いを歩いた人が暖簾をくぐる。"
+      }
     }
   ]
 }

@@ -12,8 +12,11 @@ for (const addition of additions) {
   categories.add(addition.category);
   const path = `src/data/shops/${addition.category}.json`;
   const data = JSON.parse(readFileSync(path, 'utf8')) as {shops: Shop[]};
-  if (data.shops.length !== 2 || addition.menus.length !== 2) throw new Error(`Expected a pair: ${addition.category}`);
-  for (const [index, shop] of data.shops.entries()) {
+  if (addition.menus.length !== 2) throw new Error(`Expected a pair: ${addition.category}`);
+  // This historical migration applies only to the original two shops.
+  for (const index of [0, 1]) {
+    const shop = data.shops.find(shop => shop.id === `${addition.category}-${index + 1}`);
+    if (!shop) throw new Error(`Missing original shop: ${addition.category}-${index + 1}`);
     const sectionId = `${shop.id}-section-editorial`;
     if (shop.menuSections.some(section => section.id === sectionId)) continue;
     const names = new Set(shop.menuSections.flatMap(s => s.items).map(i => i.name));

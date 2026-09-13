@@ -477,6 +477,237 @@
         "localFlavor": "音楽帰りの客がゆっくり過ごす雑居ビルの一角。"
       },
       "priceNote": "税込価格。席料は別途、1人550円です。"
+    },
+    {
+      "id": "bar-3",
+      "name": "Bar PAPER MOON",
+      "category": "bar",
+      "tags": [
+        "映画",
+        "静かな夜",
+        "カクテル"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古い映画館の裏にある小さなバー。映画に着想を得た架空の一杯と、静かに食べられる小皿が揃う。",
+      "openingHours": "18:00〜翌2:00（日曜休）",
+      "menuSections": [
+        {
+          "id": "bar-3-section-1",
+          "title": "COCKTAIL",
+          "items": [
+            {
+              "id": "bar-3-original-1",
+              "name": "紙の月の白ぶどうカクテル",
+              "price": 1180,
+              "description": "白ぶどう風味とジンを合わせた透明な一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "bar-3-original-2",
+              "name": "夜汽車の珈琲マンハッタン風",
+              "price": 1280,
+              "description": "ウイスキーに珈琲の香りを加えた濃いカクテル。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bar-3-original-3",
+              "name": "銀幕の柚子モクテル",
+              "price": 880,
+              "description": "柚子とハーブを合わせたノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bar-3-staple-1",
+              "name": "ジントニック",
+              "price": 850,
+              "description": "ジンとトニックにライムを添えて。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-3-staple-2",
+              "name": "焙じ茶ラムカクテル",
+              "price": 1150,
+              "description": "茶の香りを移したラムで作る一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-3-staple-3",
+              "name": "モスコミュール",
+              "price": 900,
+              "description": "ウォッカに生姜の風味をきかせて。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-3-staple-4",
+              "name": "ノンアルコールモヒート",
+              "price": 830,
+              "description": "ミントとライムを炭酸で爽やかに。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "bar-3-section-2",
+          "title": "SPIRITS",
+          "items": [
+            {
+              "id": "bar-3-original-4",
+              "name": "樽香るブレンデッドの小グラス",
+              "price": 980,
+              "description": "樽の香りを楽しむウイスキーを少量で。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "bar-3-original-5",
+              "name": "オレンジ香るダークラムの一杯",
+              "price": 980,
+              "description": "ラムに柑橘の皮を添え、ゆっくり香りを出す。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bar-3-original-6",
+              "name": "熟成ブランデーの温かい湯割り",
+              "price": 1080,
+              "description": "ブランデーを温めた湯で軽く割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bar-3-staple-5",
+              "name": "ブレンデッドウイスキー",
+              "price": 900,
+              "description": "ロック、水割り、ハイボールから。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-3-staple-6",
+              "name": "ドライシードル",
+              "price": 980,
+              "description": "りんごの香りが爽やかな発泡酒。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-3-staple-7",
+              "name": "シングルモルト",
+              "price": 1400,
+              "description": "樽の香りを楽しむ一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bar-3-staple-8",
+              "name": "クラフトビール",
+              "price": 1080,
+              "description": "瓶で提供する香り豊かなビール。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "bar-3-section-3",
+          "title": "SMALL PLATES",
+          "items": [
+            {
+              "id": "bar-3-original-7",
+              "name": "青いチーズと洋梨の小皿",
+              "price": 880,
+              "description": "チーズと薄切り洋梨を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "bar-3-original-8",
+              "name": "燻製鴨と胡桃のサラダ",
+              "price": 980,
+              "description": "燻製風味の鴨とくるみ、葉野菜を少量ずつ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bar-3-original-9",
+              "name": "月形クラッカーのディップ皿",
+              "price": 680,
+              "description": "月形の焼き菓子に豆のディップを添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bar-3-staple-9",
+              "name": "ミックスナッツ",
+              "price": 450,
+              "description": "軽くローストしたナッツ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bar-3-staple-10",
+              "name": "ドライフルーツ三種",
+              "price": 680,
+              "description": "甘みを凝縮した果実の盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bar-3-staple-11",
+              "name": "生チョコレート",
+              "price": 650,
+              "description": "お酒と合わせる口溶けのよい甘味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bar-3-staple-12",
+              "name": "席料 一人",
+              "price": 550,
+              "description": "お席の利用料。小さなお通し付き。",
+              "recommended": false,
+              "kind": "fee"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "壁に架空映画の小さなポスター。低い照明のカウンターと、月形の紙の飾りがある。",
+        "service": "好みの味と酒の強さを確認してから作る。会話を望まない客には静かに一杯を置く。",
+        "signature": "紙の月の白ぶどうカクテルと樽香るブレンデッドの小グラス",
+        "localFlavor": "映画を見終えた客が感想を話しに来る。閉店後の近隣の店員も短い休憩に立ち寄る。"
+      },
+      "priceNote": "税込価格。席料は別途、1人500円です。"
     }
   ]
 }

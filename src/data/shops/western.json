@@ -477,6 +477,237 @@
         "signature": "合い盛りフライの洋食膳と鶏もも肉の茸クリーム煮",
         "localFlavor": "近くで働く人が日替わりを食べに来る。夜は家族連れが同じ席を予約することがある。"
       }
+    },
+    {
+      "id": "western-3",
+      "name": "洋食 レンガ時計",
+      "category": "western",
+      "tags": [
+        "昔ながら",
+        "洋食ランチ",
+        "市役所裏"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "古い市役所の裏にある洋食店。昼の定食と小さなコース風の夕食を、木のテーブルで楽しめる。",
+      "openingHours": "11:00〜15:00／17:00〜21:00（日曜休）",
+      "menuSections": [
+        {
+          "id": "western-3-section-1",
+          "title": "洋食",
+          "items": [
+            {
+              "id": "western-3-original-1",
+              "name": "煮込み牛すじのハヤシオムライス",
+              "price": 1480,
+              "description": "卵で包んだご飯に牛すじ入りのハヤシソース。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "western-3-original-2",
+              "name": "鶏胸肉のチーズカツレツ",
+              "price": 1380,
+              "description": "鶏肉にチーズを挟んで揚げ、トマトソースで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "western-3-original-3",
+              "name": "海老と帆立の小さなドリア",
+              "price": 1580,
+              "description": "魚介と白いソースを重ねた焼きご飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "western-3-staple-1",
+              "name": "デミグラスハンバーグ",
+              "price": 1250,
+              "description": "肉汁を閉じ込めた手ごねハンバーグ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "western-3-staple-2",
+              "name": "カニクリームコロッケ",
+              "price": 1410,
+              "description": "なめらかなベシャメルの揚げたてコロッケ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "western-3-staple-3",
+              "name": "ふわとろオムライス",
+              "price": 1100,
+              "description": "柔らかな卵とケチャップライス。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "western-3-staple-4",
+              "name": "ビーフシチュー",
+              "price": 2070,
+              "description": "赤ワインで牛肉を柔らかく煮込んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "western-3-section-2",
+          "title": "サイド",
+          "items": [
+            {
+              "id": "western-3-original-4",
+              "name": "レンガ時計の人参ポタージュ",
+              "price": 480,
+              "description": "人参の甘みを生かした温かいスープ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "western-3-original-5",
+              "name": "じゃがいもとハムの温かいサラダ",
+              "price": 520,
+              "description": "温めたじゃがいもにハムと粒マスタード。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "western-3-original-6",
+              "name": "白身魚の小さなエスカベッシュ",
+              "price": 620,
+              "description": "揚げた魚を野菜入りの甘酢に漬けた前菜。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "western-3-staple-5",
+              "name": "コーンスープ",
+              "price": 420,
+              "description": "とうもろこしの甘みが広がるポタージュ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "western-3-staple-6",
+              "name": "ポテトグラタン",
+              "price": 750,
+              "description": "薄切りじゃがいものクリーム焼き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "western-3-staple-7",
+              "name": "グリーンサラダ",
+              "price": 480,
+              "description": "季節の葉野菜を自家製ドレッシングで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "western-3-staple-8",
+              "name": "バゲット",
+              "price": 310,
+              "description": "スープをぬぐうのにもぴったり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "western-3-section-3",
+          "title": "デザート・飲料",
+          "items": [
+            {
+              "id": "western-3-original-7",
+              "name": "カラメル林檎のカスタードパイ",
+              "price": 620,
+              "description": "煮りんごとカスタードを重ねた一切れ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "western-3-original-8",
+              "name": "レモンヨーグルトのムース",
+              "price": 520,
+              "description": "ヨーグルトにレモンの酸味を合わせた甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "western-3-original-9",
+              "name": "窓辺のオレンジティー",
+              "price": 480,
+              "description": "温かい紅茶にオレンジの薄切りを浮かべる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "western-3-staple-9",
+              "name": "焼きプリン",
+              "price": 450,
+              "description": "卵をしっかり感じる懐かしい味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "western-3-staple-10",
+              "name": "グラスワイン",
+              "price": 640,
+              "description": "赤または白のハウスワイン。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "western-3-staple-11",
+              "name": "バニラアイス",
+              "price": 350,
+              "description": "小さな銀の器で提供。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "western-3-staple-12",
+              "name": "紅茶",
+              "price": 420,
+              "description": "レモンかミルクを選べる一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "煉瓦色の壁に時計が三つ掛かり、木のテーブルには白い紙の敷物。厨房に大きなソース鍋。",
+        "service": "昼は料理の所要時間を先に伝える。夜は客の食べる速さに合わせて皿を運ぶ。",
+        "signature": "煮込み牛すじのハヤシオムライスとレンガ時計の人参ポタージュ",
+        "localFlavor": "市役所や近所の事務所の人が通う。退職した常連も同じ曜日に昼食を取りに来る。"
+      }
     }
   ]
 }

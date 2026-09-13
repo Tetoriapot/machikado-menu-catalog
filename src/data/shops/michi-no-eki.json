@@ -477,6 +477,237 @@
         "signature": "川辺の青菜おやき 二個と鶏だし蓮根つみれ汁膳",
         "localFlavor": "川沿いを歩く人やサイクリング客が休憩する。夕方には農家が空の籠を引き取りに来る。"
       }
+    },
+    {
+      "id": "michi-no-eki-3",
+      "name": "道の駅 かさね山の里",
+      "category": "michi-no-eki",
+      "tags": [
+        "山あい",
+        "直売所",
+        "地元食材"
+      ],
+      "priceLevel": "normal",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "山あいの集落にある道の駅。朝採れ野菜と、蕎麦や山の食材を使う食事、持ち帰りの加工品が並ぶ。",
+      "openingHours": "直売所8:30〜17:00／食堂10:30〜15:30",
+      "menuSections": [
+        {
+          "id": "michi-no-eki-3-section-1",
+          "title": "農産品",
+          "items": [
+            {
+              "id": "michi-no-eki-3-original-1",
+              "name": "山里の原木しいたけ 小袋",
+              "price": 380,
+              "description": "肉厚のしいたけを料理一回分ほど詰める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "michi-no-eki-3-original-2",
+              "name": "赤かぶ 三個束",
+              "price": 280,
+              "description": "皮の赤いかぶを葉付きで束ねる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-3-original-3",
+              "name": "小粒の里いも 五百グラム",
+              "price": 350,
+              "description": "煮物に使いやすい小ぶりの里いもの袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-3-staple-1",
+              "name": "季節野菜 三種袋",
+              "price": 380,
+              "description": "その日に届いた野菜の詰め合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "michi-no-eki-3-staple-2",
+              "name": "小松菜 一束",
+              "price": 180,
+              "description": "料理に使いやすい青菜。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "michi-no-eki-3-staple-3",
+              "name": "地場米 2kg",
+              "price": 1380,
+              "description": "架空地域で育った精米という設定。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "michi-no-eki-3-staple-4",
+              "name": "生しいたけ 一袋",
+              "price": 310,
+              "description": "香りのよい肉厚のきのこ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "michi-no-eki-3-section-2",
+          "title": "お食事",
+          "items": [
+            {
+              "id": "michi-no-eki-3-original-4",
+              "name": "くるみだれの田舎そば",
+              "price": 980,
+              "description": "くるみを合わせたつけだれで食べる蕎麦。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "michi-no-eki-3-original-5",
+              "name": "山里きのこの炊き込み定食",
+              "price": 880,
+              "description": "きのこのご飯に汁物と季節の小鉢を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-3-original-6",
+              "name": "豚肉と根菜の味噌鍋ご膳",
+              "price": 1180,
+              "description": "小鍋で煮た豚肉と根菜にご飯を付ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-3-staple-5",
+              "name": "山菜うどん",
+              "price": 750,
+              "description": "山菜をたっぷりのせた麺。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "michi-no-eki-3-staple-6",
+              "name": "ミルクソフト",
+              "price": 420,
+              "description": "地元風牛乳の甘みを楽しむソフト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "michi-no-eki-3-staple-7",
+              "name": "田舎そば",
+              "price": 850,
+              "description": "歯ごたえのある太めの蕎麦。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "michi-no-eki-3-staple-8",
+              "name": "炊き込みおにぎり",
+              "price": 280,
+              "description": "根菜ときのこの混ぜご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "michi-no-eki-3-section-3",
+          "title": "お土産",
+          "items": [
+            {
+              "id": "michi-no-eki-3-original-7",
+              "name": "かさね山の蕎麦みそ 小瓶",
+              "price": 540,
+              "description": "炒った蕎麦の実を加えた甘辛い味噌。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "michi-no-eki-3-original-8",
+              "name": "山椒香る焼きせんべい 袋入り",
+              "price": 480,
+              "description": "山椒の風味を少し利かせた薄焼きせんべい。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-3-original-9",
+              "name": "栗と豆の蒸し羊羹 小箱",
+              "price": 880,
+              "description": "栗と豆を合わせた切り分け済みの菓子。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "michi-no-eki-3-staple-9",
+              "name": "手作りジャム",
+              "price": 580,
+              "description": "果実を煮た小瓶入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "michi-no-eki-3-staple-10",
+              "name": "絵葉書",
+              "price": 180,
+              "description": "架空の里山風景のイラスト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "michi-no-eki-3-staple-11",
+              "name": "はちみつ 150g",
+              "price": 980,
+              "description": "食卓用の小さな瓶。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "michi-no-eki-3-staple-12",
+              "name": "木の箸",
+              "price": 730,
+              "description": "土産にもなる素朴な箸。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "丸太を使った軒下に野菜のかごが並び、奥の食堂には山を望む長い窓がある。",
+        "service": "野菜の札を見ながら量を確認する。食堂は食券の番号を呼び、出来上がった順に渡す。",
+        "signature": "山里の原木しいたけ 小袋とくるみだれの田舎そば",
+        "localFlavor": "朝は近所の買い物客、昼はドライブの人が増える。雨上がりには山の道の話題が出る。"
+      }
     }
   ]
 }

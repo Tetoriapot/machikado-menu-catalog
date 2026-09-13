@@ -477,6 +477,237 @@
         "signature": "焼ききのこのつけせいろと小海老かき揚げのかけ蕎麦",
         "localFlavor": "昼下がりには一人でゆっくり過ごす常連が多い。近隣の店を巡った客が休憩に使う。"
       }
+    },
+    {
+      "id": "soba-3",
+      "name": "山里そば 霧の庵",
+      "category": "soba",
+      "tags": [
+        "山里",
+        "座敷",
+        "天ぷら"
+      ],
+      "priceLevel": "normal",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "山へ向かう県道沿いの蕎麦屋。土間から座敷へ上がり、野菜の天ぷらと香りのよい蕎麦を食べる。",
+      "openingHours": "10:30〜16:00（火曜休）",
+      "menuSections": [
+        {
+          "id": "soba-3-section-1",
+          "title": "冷たい蕎麦",
+          "items": [
+            {
+              "id": "soba-3-original-1",
+              "name": "霧の庵の山菜おろしせいろ",
+              "price": 1280,
+              "description": "冷たい蕎麦に山菜と大根おろしを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "soba-3-original-2",
+              "name": "焼き胡桃だれの田舎蕎麦",
+              "price": 1380,
+              "description": "太めの蕎麦を香ばしいくるみだれで食べる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-3-original-3",
+              "name": "揚げごぼうの冷かけ蕎麦",
+              "price": 1180,
+              "description": "冷たい出汁に細いごぼうの天ぷらを載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-3-staple-1",
+              "name": "もりそば",
+              "price": 780,
+              "description": "蕎麦の香りを楽しむ基本の一枚。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "soba-3-staple-2",
+              "name": "鴨せいろ",
+              "price": 1740,
+              "description": "鴨の脂が溶けた温かいつけ汁。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "soba-3-staple-3",
+              "name": "ざるそば",
+              "price": 850,
+              "description": "刻み海苔をのせた冷たい蕎麦。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "soba-3-staple-4",
+              "name": "とろろそば",
+              "price": 1190,
+              "description": "すりおろした長芋と一緒に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "soba-3-section-2",
+          "title": "温かい蕎麦",
+          "items": [
+            {
+              "id": "soba-3-original-4",
+              "name": "茸と鶏団子のあんかけ蕎麦",
+              "price": 1380,
+              "description": "きのこと鶏団子のとろみ出汁を掛ける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "soba-3-original-5",
+              "name": "焼き油揚げとねぎの温蕎麦",
+              "price": 1080,
+              "description": "香ばしい油揚げを載せた温かい一杯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-3-original-6",
+              "name": "山芋の月見かけ蕎麦",
+              "price": 1280,
+              "description": "温かい出汁にとろろと卵を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-3-staple-5",
+              "name": "かけそば",
+              "price": 780,
+              "description": "出汁の香りが立つ温かい一杯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "soba-3-staple-6",
+              "name": "にしんそば",
+              "price": 1410,
+              "description": "甘辛く炊いたにしんを一尾。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "soba-3-staple-7",
+              "name": "たぬきそば",
+              "price": 850,
+              "description": "揚げ玉のコクを楽しむ蕎麦。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "soba-3-staple-8",
+              "name": "山菜そば",
+              "price": 1080,
+              "description": "山菜とわかめをのせて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "soba-3-section-3",
+          "title": "一品・飲みもの",
+          "items": [
+            {
+              "id": "soba-3-original-7",
+              "name": "山の根菜かき揚げ 小皿",
+              "price": 580,
+              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "soba-3-original-8",
+              "name": "蕎麦味噌の焼きおむすび 二個",
+              "price": 420,
+              "description": "蕎麦味噌を塗った小さな焼きおむすび。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "soba-3-original-9",
+              "name": "霧の庵の黒糖蕎麦茶",
+              "price": 320,
+              "description": "温かい蕎麦茶に別添えの小さな黒糖。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "soba-3-staple-9",
+              "name": "板わさ",
+              "price": 480,
+              "description": "かまぼこをわさび醤油で。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "soba-3-staple-10",
+              "name": "そば茶プリン",
+              "price": 420,
+              "description": "焙煎そば茶の香りを生かした甘味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "soba-3-staple-11",
+              "name": "そば味噌",
+              "price": 350,
+              "description": "炒った蕎麦の実を混ぜた味噌。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "soba-3-staple-12",
+              "name": "日本酒 一合",
+              "price": 720,
+              "description": "蕎麦に合うすっきりした一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "土間に丸太の腰掛けがあり、座敷の窓から畑が見える。梁に古い農具が飾られる。",
+        "service": "靴を脱ぐ場所を案内し、蕎麦は茹でた順に運ぶ。帰りにそば湯のおかわりを尋ねる。",
+        "signature": "霧の庵の山菜おろしせいろと茸と鶏団子のあんかけ蕎麦",
+        "localFlavor": "山へ行く途中の客と近所の住民が同席する。昼すぎには農作業を終えた人が遅い食事に来る。"
+      }
     }
   ]
 }

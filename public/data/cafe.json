@@ -477,6 +477,237 @@
         "signature": "魚介サンドと柑橘のタルト",
         "localFlavor": "海辺の散歩客と近隣の小さな宿の宿泊客が立ち寄る。"
       }
+    },
+    {
+      "id": "cafe-3",
+      "name": "温室カフェ 緑の頁",
+      "category": "cafe",
+      "tags": [
+        "植物",
+        "自然光",
+        "軽食"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "園芸店の温室を改装したカフェ。植物の影が落ちるテーブルで、野菜の軽食と焼き菓子を選べる。",
+      "openingHours": "9:30〜18:00（水曜休）",
+      "menuSections": [
+        {
+          "id": "cafe-3-section-1",
+          "title": "DRINK",
+          "items": [
+            {
+              "id": "cafe-3-original-1",
+              "name": "庭摘み風ハーブレモンソーダ",
+              "price": 650,
+              "description": "レモンと数種のハーブの香りを合わせた炭酸。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "cafe-3-original-2",
+              "name": "メープルオーツラテ",
+              "price": 720,
+              "description": "珈琲にオーツ飲料と少量のメープル風シロップ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "cafe-3-original-3",
+              "name": "青りんごの水出し茶",
+              "price": 620,
+              "description": "青りんごの香りを添えた冷たい紅茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "cafe-3-staple-1",
+              "name": "ハンドドリップコーヒー",
+              "price": 580,
+              "description": "注文ごとに豆を挽き、丁寧に抽出。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cafe-3-staple-2",
+              "name": "自家製柑橘ソーダ",
+              "price": 650,
+              "description": "数種の柑橘を漬けたシロップの炭酸割り。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cafe-3-staple-3",
+              "name": "カフェラテ",
+              "price": 620,
+              "description": "細やかな泡のミルクを重ねた一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cafe-3-staple-4",
+              "name": "アールグレイ",
+              "price": 620,
+              "description": "柑橘の香りを楽しむポットティー。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "cafe-3-section-2",
+          "title": "LUNCH",
+          "items": [
+            {
+              "id": "cafe-3-original-4",
+              "name": "焼きかぼちゃと豆のキッシュ",
+              "price": 980,
+              "description": "かぼちゃと豆を焼き込んだ一切れ。小サラダ付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "cafe-3-original-5",
+              "name": "温室野菜のグリルサンド",
+              "price": 1080,
+              "description": "焼き野菜とチーズを厚めのパンで挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "cafe-3-original-6",
+              "name": "レモンクリームの茸リゾット",
+              "price": 1180,
+              "description": "きのこ入りのご飯料理をレモンの香りで仕上げる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "cafe-3-staple-5",
+              "name": "キッシュプレート",
+              "price": 1180,
+              "description": "ほうれん草のキッシュにサラダを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-3-staple-6",
+              "name": "海老と豆のレモンサラダ",
+              "price": 980,
+              "description": "小海老と豆をレモンドレッシングで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-3-staple-7",
+              "name": "アボカドサンド",
+              "price": 980,
+              "description": "全粒粉パンにアボカドと蒸し鶏。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-3-staple-8",
+              "name": "キャロットサラダ",
+              "price": 530,
+              "description": "にんじんを柑橘ドレッシングで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "cafe-3-section-3",
+          "title": "SWEETS",
+          "items": [
+            {
+              "id": "cafe-3-original-7",
+              "name": "ローズマリーのレモンパウンド",
+              "price": 580,
+              "description": "ハーブとレモン皮の香るしっとりした焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "cafe-3-original-8",
+              "name": "苺とバジルの小さなタルト",
+              "price": 680,
+              "description": "苺の果肉にバジルの香りを少し添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cafe-3-original-9",
+              "name": "緑の頁の抹茶ミルク寒天",
+              "price": 520,
+              "description": "抹茶とミルクの層を重ねた小さな甘味。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "cafe-3-staple-9",
+              "name": "固焼きプリン",
+              "price": 580,
+              "description": "卵の風味が広がるカスタード。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "cafe-3-staple-10",
+              "name": "レモンのバターサンド",
+              "price": 480,
+              "description": "レモンクリームをクッキーで挟んだ一個。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cafe-3-staple-11",
+              "name": "りんごのタルト",
+              "price": 650,
+              "description": "薄切りりんごを重ねて焼いたタルト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "cafe-3-staple-12",
+              "name": "塩バタークッキー",
+              "price": 310,
+              "description": "珈琲に合う小袋入り焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "高いガラス天井に蔓が伸び、鉢植えの間に小さな丸卓。窓を開けると土の匂いがする。",
+        "service": "料理を運ぶ際に植物の葉を避けて盆を置く。日差しが強ければ席の移動を案内する。",
+        "signature": "庭摘み風ハーブレモンソーダと焼きかぼちゃと豆のキッシュ",
+        "localFlavor": "隣の園芸店で買い物をした人が休む場所。近所の住民は雨の日の温室の音を楽しみに来る。"
+      }
     }
   ]
 }

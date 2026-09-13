@@ -477,6 +477,237 @@
         "signature": "小倉トーストとネルドリップ珈琲",
         "localFlavor": "通勤の待ち時間に寄る人と、近くの出版社の客が多い。"
       }
+    },
+    {
+      "id": "kissaten-3",
+      "name": "喫茶 音盤小路",
+      "category": "kissaten",
+      "tags": [
+        "音楽",
+        "静かな店",
+        "一人客歓迎"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街の古いレコード店に併設された喫茶室。小さな音量のジャズと、焼いたパンの香りが流れる。",
+      "openingHours": "10:00〜21:00（火曜休）",
+      "menuSections": [
+        {
+          "id": "kissaten-3-section-1",
+          "title": "COFFEE & DRINK",
+          "items": [
+            {
+              "id": "kissaten-3-original-1",
+              "name": "音盤ブレンド珈琲",
+              "price": 650,
+              "description": "深煎り豆をゆっくり抽出した、苦みと甘い香りの一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-3-original-2",
+              "name": "黒糖ミルク珈琲",
+              "price": 720,
+              "description": "温かいミルクと珈琲に、少量の黒糖を溶かす。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-3-original-3",
+              "name": "柚子ジンジャーティー",
+              "price": 680,
+              "description": "紅茶に生姜と柚子皮を合わせた温かい飲み物。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-3-staple-1",
+              "name": "ブレンドコーヒー",
+              "price": 500,
+              "description": "酸味を抑えた、香ばしい深煎りブレンド。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "kissaten-3-staple-2",
+              "name": "柚子と蜂蜜の紅茶",
+              "price": 620,
+              "description": "刻んだ柚子皮と蜂蜜を別添えで。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "kissaten-3-staple-3",
+              "name": "アメリカン",
+              "price": 500,
+              "description": "軽やかな口当たりに仕上げた一杯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "kissaten-3-staple-4",
+              "name": "クリームソーダ",
+              "price": 720,
+              "description": "メロンソーダにバニラアイスと赤いチェリー。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "kissaten-3-section-2",
+          "title": "FOOD",
+          "items": [
+            {
+              "id": "kissaten-3-original-4",
+              "name": "厚切りベーコンのクロックムッシュ",
+              "price": 980,
+              "description": "ベーコンとチーズ、白いソースをパンに重ねて焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-3-original-5",
+              "name": "焼きねぎときのこのスパゲティ",
+              "price": 1100,
+              "description": "炒めたきのこと長ねぎをバター醤油で合わせる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-3-original-6",
+              "name": "音盤小路の卵と豆のサラダ皿",
+              "price": 780,
+              "description": "卵、豆、葉野菜に小さなトーストを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-3-staple-5",
+              "name": "ナポリタン",
+              "price": 780,
+              "description": "太めの麺をケチャップで炒めた懐かしい味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kissaten-3-staple-6",
+              "name": "ツナと玉ねぎのホットサンド",
+              "price": 780,
+              "description": "耳まで香ばしく焼いた温かいサンド。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kissaten-3-staple-7",
+              "name": "ミックスサンド",
+              "price": 720,
+              "description": "卵、ハム、きゅうりをふんわりパンで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "kissaten-3-staple-8",
+              "name": "ピザトースト",
+              "price": 680,
+              "description": "ピーマンとハムに、とろけるチーズをたっぷり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "kissaten-3-section-3",
+          "title": "DESSERT",
+          "items": [
+            {
+              "id": "kissaten-3-original-7",
+              "name": "レコード模様のチョコタルト",
+              "price": 650,
+              "description": "表面に円を描いた濃いチョコタルト。一切れで提供。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "kissaten-3-original-8",
+              "name": "黒糖くるみの焼きプリン",
+              "price": 580,
+              "description": "黒糖のカラメルと刻みくるみを載せた固めのプリン。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-3-original-9",
+              "name": "珈琲香る小さなマドレーヌ 三個",
+              "price": 480,
+              "description": "珈琲の香りを加えた一口サイズの焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "kissaten-3-staple-9",
+              "name": "自家製プリン",
+              "price": 550,
+              "description": "ほろ苦いカラメルをまとった、固めのプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "kissaten-3-staple-10",
+              "name": "キャラメルナッツのタルト",
+              "price": 650,
+              "description": "ほろ苦いキャラメルにくるみを重ねて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "kissaten-3-staple-11",
+              "name": "ホットケーキ",
+              "price": 680,
+              "description": "二枚重ね。バターとメープル風シロップ付き。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "kissaten-3-staple-12",
+              "name": "レモンケーキ",
+              "price": 530,
+              "description": "レモンの皮を混ぜ込んだ、しっとり焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "壁一面にレコードの背が並び、窓際には二人席が三卓。カウンターの奥で古いプレーヤーが回る。",
+        "service": "曲の合間に静かに注文を聞く。読書中の客には伝票を伏せて置き、水をそっと足す。",
+        "signature": "音盤ブレンド珈琲と厚切りベーコンのクロックムッシュ",
+        "localFlavor": "近所の音楽好きが新しく入った盤の話をしに来る。夕方には学校帰りの楽器ケースが椅子の横に並ぶ。"
+      }
     }
   ]
 }

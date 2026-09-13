@@ -477,6 +477,237 @@
         "signature": "着替え用品と使いやすい生活道具",
         "localFlavor": "長く入院する人の家族が補充品を買いに来る。"
       }
+    },
+    {
+      "id": "hospital-3",
+      "name": "病院売店 ひより棚",
+      "category": "hospital",
+      "tags": [
+        "病院内",
+        "付き添い",
+        "日用品"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "郊外の病院の一階にある売店。付き添いの人の軽食と、滞在中に必要な日用品を少量ずつ揃える。",
+      "openingHours": "平日8:00〜18:00／土日祝9:00〜16:00",
+      "menuSections": [
+        {
+          "id": "hospital-3-section-1",
+          "title": "食品・飲料",
+          "items": [
+            {
+              "id": "hospital-3-original-1",
+              "name": "かぼちゃと玉子の小サンド",
+              "price": 340,
+              "description": "かぼちゃと卵を柔らかなパンに挟む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "hospital-3-original-2",
+              "name": "白桃ゼリーの小カップ",
+              "price": 210,
+              "description": "白桃の果肉を少し入れた食べ切りゼリー。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "hospital-3-original-3",
+              "name": "ほうじ茶 紙パック二百ミリ",
+              "price": 120,
+              "description": "ストロー付きの小さなほうじ茶パック。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "hospital-3-staple-1",
+              "name": "卵サンド",
+              "price": 320,
+              "description": "食べやすいサイズのサンドイッチ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "hospital-3-staple-2",
+              "name": "小分けビスケット",
+              "price": 180,
+              "description": "個包装の素朴な焼き菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "hospital-3-staple-3",
+              "name": "鮭おにぎり",
+              "price": 180,
+              "description": "個包装の定番おむすび。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "hospital-3-staple-4",
+              "name": "麦茶 600ml",
+              "price": 170,
+              "description": "無糖のお茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "hospital-3-section-2",
+          "title": "入院小物",
+          "items": [
+            {
+              "id": "hospital-3-original-4",
+              "name": "名前欄付き洗濯袋",
+              "price": 550,
+              "description": "持ち物の名前を書ける欄が付いた布袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hospital-3-original-5",
+              "name": "取っ手付き樹脂マグ",
+              "price": 480,
+              "description": "広めの取っ手を付けた軽い樹脂製マグ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hospital-3-original-6",
+              "name": "小分け衣類ポーチ 三枚",
+              "price": 660,
+              "description": "着替えを分けて入れられる薄いポーチ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hospital-3-staple-5",
+              "name": "タオル",
+              "price": 440,
+              "description": "日常使いのフェイスタオル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-3-staple-6",
+              "name": "ふた付きコップ",
+              "price": 440,
+              "description": "こぼれにくいふたを備えた樹脂コップ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-3-staple-7",
+              "name": "前開き肌着",
+              "price": 1320,
+              "description": "着替えやすい前開きタイプ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-3-staple-8",
+              "name": "樹脂コップ",
+              "price": 310,
+              "description": "割れにくい取っ手付きコップ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "hospital-3-section-3",
+          "title": "日用品",
+          "items": [
+            {
+              "id": "hospital-3-original-7",
+              "name": "卓上ミニカレンダー",
+              "price": 330,
+              "description": "枕元などに置ける小さな紙のカレンダー。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hospital-3-original-8",
+              "name": "長柄の靴べら 携帯型",
+              "price": 440,
+              "description": "折り畳んで持ち運べる軽い靴べら。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hospital-3-original-9",
+              "name": "クリップ付き伝言メモ",
+              "price": 280,
+              "description": "短い用件を書き留めて挟めるメモ用紙。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hospital-3-staple-9",
+              "name": "箱ティッシュ",
+              "price": 150,
+              "description": "小さめの箱入りティッシュ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-3-staple-10",
+              "name": "小さな置き時計",
+              "price": 1280,
+              "description": "時刻が読みやすい数字表示。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-3-staple-11",
+              "name": "ウェットティッシュ",
+              "price": 220,
+              "description": "ノンアルコールの拭き取りシート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hospital-3-staple-12",
+              "name": "新聞",
+              "price": 200,
+              "description": "当日分の一般紙という設定。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "待合ホールの端に低い棚が並び、窓側に会計を待つための広いスペースがある。",
+        "service": "必要な物の棚を短く案内する。大きな荷物を持つ客には袋を持ちやすくまとめる。",
+        "signature": "かぼちゃと玉子の小サンドと名前欄付き洗濯袋",
+        "localFlavor": "朝は職員の飲み物、昼は付き添いの軽食がよく売れる。面会時間の前後に来店が増える。"
+      }
     }
   ]
 }

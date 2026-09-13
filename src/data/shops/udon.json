@@ -477,6 +477,237 @@
         "signature": "胡麻だれ温玉ぶっかけときのこあんかけ生姜うどん",
         "localFlavor": "学生と近所の住民が気軽に食べに来る。混む時間を過ぎると店主が客席へ天ぷらを補充しに歩く。"
       }
+    },
+    {
+      "id": "udon-3",
+      "name": "うどん工房 朝凪",
+      "category": "udon",
+      "tags": [
+        "早朝営業",
+        "旅の途中",
+        "セルフ"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "バスターミナルの近くにあるうどん店。早朝から釜を温め、出発前の客に手早い一杯を出す。",
+      "openingHours": "6:00〜15:00（金曜休）",
+      "menuSections": [
+        {
+          "id": "udon-3-section-1",
+          "title": "うどん",
+          "items": [
+            {
+              "id": "udon-3-original-1",
+              "name": "朝凪の卵とろみうどん",
+              "price": 580,
+              "description": "出汁に溶き卵を流した、温かい朝の一杯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "udon-3-original-2",
+              "name": "焼き鶏とねぎ塩ぶっかけ",
+              "price": 880,
+              "description": "締めた麺に焼き鶏とねぎの塩だれ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-3-original-3",
+              "name": "梅しらすの冷やしうどん",
+              "price": 820,
+              "description": "冷たい麺に梅としらす、刻み大葉を載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-3-staple-1",
+              "name": "かけうどん",
+              "price": 420,
+              "description": "いりこの旨みを感じる基本の出汁。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "udon-3-staple-2",
+              "name": "肉うどん",
+              "price": 830,
+              "description": "甘辛く煮た牛肉をのせた一杯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "udon-3-staple-3",
+              "name": "ぶっかけうどん",
+              "price": 480,
+              "description": "冷たい麺に濃いつゆをかけて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "udon-3-staple-4",
+              "name": "きつねうどん",
+              "price": 640,
+              "description": "甘く炊いた大きなお揚げ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "udon-3-section-2",
+          "title": "天ぷら",
+          "items": [
+            {
+              "id": "udon-3-original-4",
+              "name": "ごぼうの細切りかき揚げ",
+              "price": 180,
+              "description": "細いごぼうをまとめて揚げた一枚。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "udon-3-original-5",
+              "name": "鶏むねの胡麻衣天 二個",
+              "price": 280,
+              "description": "胡麻を混ぜた衣で鶏肉を揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "udon-3-original-6",
+              "name": "長ねぎの一本天ぷら",
+              "price": 160,
+              "description": "短く切った長ねぎを一つずつ揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "udon-3-staple-5",
+              "name": "海老天",
+              "price": 220,
+              "description": "尾付き海老をさっくり揚げて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "udon-3-staple-6",
+              "name": "野菜かき揚げ",
+              "price": 210,
+              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "udon-3-staple-7",
+              "name": "ちくわ天",
+              "price": 150,
+              "description": "青海苔が香る定番の天ぷら。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "udon-3-staple-8",
+              "name": "かぼちゃ天",
+              "price": 140,
+              "description": "甘みのある厚切りかぼちゃ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "udon-3-section-3",
+          "title": "ご飯・飲みもの",
+          "items": [
+            {
+              "id": "udon-3-original-7",
+              "name": "朝凪の鮭胡麻おむすび",
+              "price": 180,
+              "description": "焼き鮭と胡麻を混ぜた小さなおむすび。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "udon-3-original-8",
+              "name": "鶏と油揚げの混ぜご飯 小",
+              "price": 280,
+              "description": "鶏と油揚げを混ぜたご飯を小椀に。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "udon-3-original-9",
+              "name": "ゆず香る冷たい番茶",
+              "price": 180,
+              "description": "番茶に柚子皮の香りを添えた飲み物。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "udon-3-staple-9",
+              "name": "いなり 二個",
+              "price": 220,
+              "description": "甘酢飯を詰めたお揚げ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "udon-3-staple-10",
+              "name": "温泉卵",
+              "price": 120,
+              "description": "うどんに追加できるとろりとした卵。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "udon-3-staple-11",
+              "name": "おにぎり",
+              "price": 150,
+              "description": "梅か昆布を選べるおむすび。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "udon-3-staple-12",
+              "name": "瓶ラムネ",
+              "price": 240,
+              "description": "食後にも爽やかな炭酸飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "大きな時計と時刻表のある壁。釜の横から注文、受け取り、会計へ一列に進む。",
+        "service": "出発時刻の迫った客には茹で上がっている麺を案内する。天ぷらは自分で選ぶ形式。",
+        "signature": "朝凪の卵とろみうどんとごぼうの細切りかき揚げ",
+        "localFlavor": "始発を待つ客と運転手が朝に集まる。昼は近隣の店で働く人が短時間で食事を取る。"
+      }
     }
   ]
 }

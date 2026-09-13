@@ -477,6 +477,237 @@
         "signature": "地場野菜と小分けのおかず",
         "localFlavor": "徒歩圏の住民が毎日の献立を考えに来る。"
       }
+    },
+    {
+      "id": "supermarket-3",
+      "name": "食品市場 みのり坂",
+      "category": "supermarket",
+      "tags": [
+        "地域スーパー",
+        "少量パック",
+        "夕方の惣菜"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "坂の上の住宅街にある地域のスーパー。少人数用の生鮮パックと、夕方に揃う惣菜が使いやすい。",
+      "openingHours": "9:00〜21:00",
+      "menuSections": [
+        {
+          "id": "supermarket-3-section-1",
+          "title": "生鮮・日配",
+          "items": [
+            {
+              "id": "supermarket-3-original-1",
+              "name": "小かぶ 三個袋",
+              "price": 198,
+              "description": "葉付きの小さなかぶを三個まとめた袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "supermarket-3-original-2",
+              "name": "豚こま肉 少量百五十グラム",
+              "price": 298,
+              "description": "一〜二人の料理に使いやすい小分け肉。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-3-original-3",
+              "name": "絹豆腐の食べ切り三連",
+              "price": 138,
+              "description": "小さな容器三個をまとめた豆腐。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-3-staple-1",
+              "name": "卵 十個",
+              "price": 258,
+              "description": "普段の料理に使いやすいパック卵。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "supermarket-3-staple-2",
+              "name": "地場トマト 二個",
+              "price": 248,
+              "description": "完熟を選んだ小袋。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "supermarket-3-staple-3",
+              "name": "牛乳 1L",
+              "price": 228,
+              "description": "冷蔵棚の定番の牛乳。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "supermarket-3-staple-4",
+              "name": "塩鮭 二切",
+              "price": 440,
+              "description": "朝食やお弁当に使いやすい切り身。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "supermarket-3-section-2",
+          "title": "惣菜・食品",
+          "items": [
+            {
+              "id": "supermarket-3-original-4",
+              "name": "鯖と野菜の南蛮漬け 小パック",
+              "price": 358,
+              "description": "揚げた鯖と野菜を甘酢に漬けた惣菜。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "supermarket-3-original-5",
+              "name": "五目ひじきの混ぜご飯 二個組",
+              "price": 278,
+              "description": "ひじきと野菜のご飯を俵型にした軽食。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-3-original-6",
+              "name": "みのり坂の野菜天ぷら盛り",
+              "price": 398,
+              "description": "数種類の野菜を揚げた持ち帰り用の盛り合わせ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-3-staple-5",
+              "name": "鶏の唐揚げ 200g",
+              "price": 398,
+              "description": "惣菜コーナーで揚げた醤油味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-3-staple-6",
+              "name": "手作りおはぎ 二個",
+              "price": 298,
+              "description": "店で仕込む粒あんのおはぎ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-3-staple-7",
+              "name": "ポテトサラダ 150g",
+              "price": 228,
+              "description": "きゅうりとにんじん入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-3-staple-8",
+              "name": "食パン 六枚",
+              "price": 150,
+              "description": "朝食向けの角型食パン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "supermarket-3-section-3",
+          "title": "飲料・日用品",
+          "items": [
+            {
+              "id": "supermarket-3-original-7",
+              "name": "りんごと人参のジュース 小瓶",
+              "price": 168,
+              "description": "りんごと人参を合わせた飲み切りサイズ。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "supermarket-3-original-8",
+              "name": "詰め替え用台所スポンジ 三個",
+              "price": 198,
+              "description": "用途を分けやすい三色のスポンジ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-3-original-9",
+              "name": "麦茶ティーバッグ 二十包",
+              "price": 228,
+              "description": "家庭で煮出しや水出しに使う麦茶の袋。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "supermarket-3-staple-9",
+              "name": "緑茶 2L",
+              "price": 148,
+              "description": "家族で飲める大きなボトル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "supermarket-3-staple-10",
+              "name": "小袋の焙じ茶",
+              "price": 328,
+              "description": "毎日飲みやすい茶葉。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "supermarket-3-staple-11",
+              "name": "ミネラルウォーター 2L",
+              "price": 88,
+              "description": "備蓄にも使える飲料水。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "supermarket-3-staple-12",
+              "name": "保冷用氷 1kg",
+              "price": 160,
+              "description": "飲み物や持ち運びの保冷に。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口に季節の野菜を置き、奥の魚売り場から惣菜の棚へ通路がつながる。",
+        "service": "魚の調理の希望を受け付け、用意できる時間を伝える。レジには袋詰めの台が並ぶ。",
+        "signature": "小かぶ 三個袋と鯖と野菜の南蛮漬け 小パック",
+        "localFlavor": "夕方は仕事帰りの住民で混み合う。坂を上る前に休めるベンチが店先にある。"
+      }
     }
   ]
 }

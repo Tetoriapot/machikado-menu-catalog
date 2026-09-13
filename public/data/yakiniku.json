@@ -477,6 +477,237 @@
         "signature": "厚切りハラミと塩ホルモン",
         "localFlavor": "路地裏で仕事帰りに一人焼肉を楽しむ客が多い。"
       }
+    },
+    {
+      "id": "yakiniku-3",
+      "name": "焼肉 煙の停留所",
+      "category": "yakiniku",
+      "tags": [
+        "家族向け",
+        "仕事帰り",
+        "盛り合わせ"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "旧バス車庫の近くにある焼肉店。家族で取り分ける肉皿と、仕事帰りに食べる小さな盛り合わせを用意する。",
+      "openingHours": "17:00〜23:30（月曜休）",
+      "menuSections": [
+        {
+          "id": "yakiniku-3-section-1",
+          "title": "お肉",
+          "items": [
+            {
+              "id": "yakiniku-3-original-1",
+              "name": "停留所の牛肩ロース厚切り",
+              "price": 1480,
+              "description": "厚めの牛肉を軽く塩で。たれは別皿に添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-3-original-2",
+              "name": "塩麹仕立ての豚トロ盛り",
+              "price": 980,
+              "description": "豚トロに塩麹の風味を付けた焼き物。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-3-original-3",
+              "name": "青ねぎ包みの鶏もも焼き",
+              "price": 880,
+              "description": "鶏肉と青ねぎを一皿に。焼いて合わせて食べる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-3-staple-1",
+              "name": "牛カルビ",
+              "price": 980,
+              "description": "甘い脂が広がる定番部位。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "yakiniku-3-staple-2",
+              "name": "にんにく味噌ハツ",
+              "price": 680,
+              "description": "歯ごたえのよいハツを味噌だれで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "yakiniku-3-staple-3",
+              "name": "牛ロース",
+              "price": 1080,
+              "description": "赤身の旨みを楽しむ薄切り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "yakiniku-3-staple-4",
+              "name": "鶏もも味噌だれ",
+              "price": 640,
+              "description": "味噌だれに漬け込んだ鶏肉。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-3-section-2",
+          "title": "野菜・ご飯",
+          "items": [
+            {
+              "id": "yakiniku-3-original-4",
+              "name": "焦がしバターのとうもろこし皿",
+              "price": 480,
+              "description": "焼き台で温めるとうもろこしとバター。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-3-original-5",
+              "name": "焼肉だれの小さな牛すじ丼",
+              "price": 680,
+              "description": "甘辛い牛すじを小さなご飯に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-3-original-6",
+              "name": "豆もやしと三色野菜のナムル",
+              "price": 520,
+              "description": "豆もやし、人参、青菜を別々に和えた盛り。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-3-staple-5",
+              "name": "焼き野菜盛り",
+              "price": 580,
+              "description": "玉ねぎ、かぼちゃ、ピーマンの盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "yakiniku-3-staple-6",
+              "name": "一人前の白菜浅漬け",
+              "price": 280,
+              "description": "箸休めにちょうどよい小皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "yakiniku-3-staple-7",
+              "name": "白菜キムチ",
+              "price": 380,
+              "description": "ほどよい辛さの発酵白菜。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "yakiniku-3-staple-8",
+              "name": "冷麺",
+              "price": 940,
+              "description": "歯ごたえのある麺と冷たいスープ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "yakiniku-3-section-3",
+          "title": "飲みもの・甘味",
+          "items": [
+            {
+              "id": "yakiniku-3-original-7",
+              "name": "柚子と黒蜜の小さなゼリー",
+              "price": 380,
+              "description": "柚子のゼリーに黒蜜を少し掛ける。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "yakiniku-3-original-8",
+              "name": "レモン烏龍ハイ",
+              "price": 520,
+              "description": "烏龍茶割りの焼酎にレモンを添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-3-original-9",
+              "name": "黒ぶどうのノンアルコールサワー",
+              "price": 380,
+              "description": "ぶどう飲料と炭酸を合わせた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "yakiniku-3-staple-9",
+              "name": "生ビール",
+              "price": 580,
+              "description": "焼肉に合わせる中ジョッキ。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "yakiniku-3-staple-10",
+              "name": "冷たいとうもろこし茶",
+              "price": 300,
+              "description": "炒ったとうもろこしの無糖茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "yakiniku-3-staple-11",
+              "name": "レモンサワー",
+              "price": 480,
+              "description": "すっきりしたレモンの炭酸割り。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "yakiniku-3-staple-12",
+              "name": "柚子シャーベット",
+              "price": 330,
+              "description": "柚子皮の香りが残るさっぱり味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "古い路線図を飾った壁と、排煙筒の下がるボックス席。入口に大きな待ち合わせ時計。",
+        "service": "人数を聞いて肉の量を案内する。味付けの違う肉は皿を分け、焼く順番を短く説明する。",
+        "signature": "停留所の牛肩ロース厚切りと焦がしバターのとうもろこし皿",
+        "localFlavor": "近所の家族と運転の仕事を終えた人が集まる。週末には昔の車庫の話をする常連もいる。"
+      }
     }
   ]
 }

@@ -475,6 +475,235 @@
         "signature": "環の柑橘トニックと梅と生姜のソーダ割り",
         "localFlavor": "近所の音楽好きが顔を合わせる場所。昼間はリハーサルの楽器を運ぶ人が出入りする。"
       }
+    },
+    {
+      "id": "live-house-3",
+      "name": "ライブハウス 路地灯",
+      "category": "live-house",
+      "tags": [
+        "地下",
+        "小さなステージ",
+        "音楽"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "路地の地下にある小さなライブハウス。弾き語りやバンドの公演を開き、カウンターで飲み物と軽食を出す。",
+      "openingHours": "公演日は開場時刻〜終演後30分（公演ごとに掲示）",
+      "menuSections": [
+        {
+          "id": "live-house-3-section-1",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "live-house-3-original-1",
+              "name": "路地灯の梅ジンジャー",
+              "price": 600,
+              "description": "梅風味のシロップと生姜の炭酸を合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "live-house-3-original-2",
+              "name": "ライム香るトマトソーダ",
+              "price": 550,
+              "description": "トマト飲料を炭酸で割りライムを添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "live-house-3-original-3",
+              "name": "黒蜜ミルクの冷たい一杯",
+              "price": 500,
+              "description": "黒蜜を合わせたノンアルコールのミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "live-house-3-staple-1",
+              "name": "生ビール",
+              "price": 600,
+              "description": "公演中に持ちやすいカップで。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "live-house-3-staple-2",
+              "name": "ウーロン茶",
+              "price": 440,
+              "description": "無糖のソフトドリンク。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "live-house-3-staple-3",
+              "name": "ハイボール",
+              "price": 600,
+              "description": "ウイスキーの炭酸割り。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "live-house-3-staple-4",
+              "name": "カシスソーダ",
+              "price": 660,
+              "description": "果実の甘い炭酸カクテル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "live-house-3-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "live-house-3-original-4",
+              "name": "チリビーンズの小さなトルティーヤ",
+              "price": 650,
+              "description": "豆とひき肉の煮込みを薄い生地で包む。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "live-house-3-original-5",
+              "name": "燻製チーズとクラッカーの紙皿",
+              "price": 550,
+              "description": "燻製チーズをクラッカーと少量ずつ盛る。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "live-house-3-original-6",
+              "name": "焼きソーセージのひと口串",
+              "price": 600,
+              "description": "焼いたソーセージを食べやすく串にする。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "live-house-3-staple-5",
+              "name": "コーラ",
+              "price": 400,
+              "description": "氷入りカップの炭酸飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "live-house-3-staple-6",
+              "name": "チョコバー",
+              "price": 280,
+              "description": "個包装の甘い軽食。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "live-house-3-staple-7",
+              "name": "ミックスナッツ",
+              "price": 400,
+              "description": "つまみやすい小袋入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "live-house-3-staple-8",
+              "name": "ホットドッグ",
+              "price": 660,
+              "description": "ソーセージを挟んだパン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "live-house-3-section-3",
+          "title": "会場サービス",
+          "items": [
+            {
+              "id": "live-house-3-original-7",
+              "name": "路地灯の公演記録ノート",
+              "price": 660,
+              "description": "日付と出演者を書き残せる小さなノート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "live-house-3-original-8",
+              "name": "会場ロゴのラバーバンド",
+              "price": 550,
+              "description": "架空の会場名を入れた柔らかな腕輪。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "live-house-3-original-9",
+              "name": "手荷物追加クローク 二袋目",
+              "price": 300,
+              "description": "同じ来場者が二袋目を預ける追加料金。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "live-house-3-staple-9",
+              "name": "入場時ドリンク券",
+              "price": 600,
+              "description": "入場料とは別途。一杯分の券。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "live-house-3-staple-10",
+              "name": "会場トートバッグ",
+              "price": 1820,
+              "description": "架空会場の名前入り布バッグ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "live-house-3-staple-11",
+              "name": "クローク 袋一個",
+              "price": 500,
+              "description": "手荷物を終演まで預ける料金。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "live-house-3-staple-12",
+              "name": "会場ステッカー",
+              "price": 360,
+              "description": "架空会場の文字入りステッカー。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "階段を下りると低い天井の客席と小さな舞台がある。奥のカウンターを豆電球が照らす。",
+        "service": "入場時に券とドリンク代を確認する。演奏中は短い声かけで注文を受け、手早く渡す。",
+        "signature": "路地灯の梅ジンジャーとチリビーンズの小さなトルティーヤ",
+        "localFlavor": "仕事帰りの客と出演者の知人が集まる。終演後は路地の出口で次の公演の話が続く。"
+      },
+      "priceNote": "税込価格。入場料は公演ごとに別途設定。入場時ドリンク券は1人1枚必要で、600円以下の飲料一杯と引き換えられます。"
     }
   ]
 }

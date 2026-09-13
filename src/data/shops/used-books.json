@@ -477,6 +477,237 @@
         "signature": "写真集『窓から見た三つの港』と展覧会図録『青い椅子の部屋』",
         "localFlavor": "坂道を散歩する人が看板を見つけて上がってくる。近隣の作り手が資料を探しに通う。"
       }
+    },
+    {
+      "id": "used-books-3",
+      "name": "古書 灯台箱",
+      "category": "used-books",
+      "tags": [
+        "古書",
+        "旅の資料",
+        "長屋"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "港町の古い長屋に入る古書店。文庫と地図、旅の資料が並び、紙の匂いのする棚をゆっくり眺められる。掲載書名は架空。",
+      "openingHours": "12:00〜19:00（火・水曜休）",
+      "menuSections": [
+        {
+          "id": "used-books-3-section-1",
+          "title": "古本文芸",
+          "items": [
+            {
+              "id": "used-books-3-original-1",
+              "name": "古本文庫『潮待ち郵便局』",
+              "price": 380,
+              "description": "港の郵便局を描く架空の文庫。背に軽い焼け。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "used-books-3-original-2",
+              "name": "古本随筆『線路脇の夕ごはん』",
+              "price": 620,
+              "description": "旅先の食事を綴る架空の随筆。書き込みなし。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-3-original-3",
+              "name": "古本短編『灯台番の休日』",
+              "price": 450,
+              "description": "灯台の暮らしを題材にした架空の短編集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-3-staple-1",
+              "name": "中古文庫『風の坂道』",
+              "price": 220,
+              "description": "架空小説の古本。書き込みなし。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-2",
+              "name": "随筆『机の隅から』",
+              "price": 480,
+              "description": "架空の暮らしのエッセイ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-3",
+              "name": "中古文庫『灯りの地図』",
+              "price": 330,
+              "description": "架空の連作短編集。カバーに擦れあり。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-4",
+              "name": "古い詩集『水音』",
+              "price": 730,
+              "description": "架空の詩集。経年の変色あり。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "used-books-3-section-2",
+          "title": "趣味・資料",
+          "items": [
+            {
+              "id": "used-books-3-original-4",
+              "name": "架空地域地図『旧白波町案内』",
+              "price": 1500,
+              "description": "架空の町の商店や港を記した復刻地図。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "used-books-3-original-5",
+              "name": "古写真集『駅前の十年』",
+              "price": 1200,
+              "description": "架空の駅前風景の変遷をまとめた写真集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-3-original-6",
+              "name": "古本『木造船の小さな図譜』",
+              "price": 1800,
+              "description": "木造船の形を扱う架空の図入り資料集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-3-staple-5",
+              "name": "古地図複製『汀市案内』",
+              "price": 880,
+              "description": "架空都市の観光地図の復刻紙面。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-6",
+              "name": "古雑誌『月刊まち窓』",
+              "price": 240,
+              "description": "架空雑誌のバックナンバー一冊。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-7",
+              "name": "中古料理本『小鍋の献立』",
+              "price": 330,
+              "description": "架空の家庭料理の本。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-8",
+              "name": "中古手芸本『糸のたより』",
+              "price": 480,
+              "description": "架空の編み物入門書。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "used-books-3-section-3",
+          "title": "紙もの",
+          "items": [
+            {
+              "id": "used-books-3-original-7",
+              "name": "架空旅館の荷札五枚組",
+              "price": 350,
+              "description": "物語の小道具向けに作られた復刻風の荷札。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "used-books-3-original-8",
+              "name": "港町の絵葉書束",
+              "price": 600,
+              "description": "架空の港町を描いた中古風の絵葉書セット。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-3-original-9",
+              "name": "古地図柄の紙封筒",
+              "price": 280,
+              "description": "架空地図の図案を刷った封筒三枚入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "used-books-3-staple-9",
+              "name": "絵葉書 五枚",
+              "price": 330,
+              "description": "風景イラストの古い絵葉書。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-10",
+              "name": "紙袋",
+              "price": 30,
+              "description": "本の持ち帰り用の袋。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-11",
+              "name": "紙製しおり",
+              "price": 110,
+              "description": "店の印を押した厚紙のしおり。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "used-books-3-staple-12",
+              "name": "古い便箋",
+              "price": 240,
+              "description": "未使用の便箋十枚入り。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "細長い通路に天井近くまで本棚が続く。地図の引き出しには手書きの地域札が付く。",
+        "service": "傷みのある箇所を会計時に示す。資料の年代が不明な場合はそのまま説明する。",
+        "signature": "古本文庫『潮待ち郵便局』と架空地域地図『旧白波町案内』",
+        "localFlavor": "港に来た旅行者と地元の収集家が交じる。雨の日は入口の傘立ての横に紙袋を置く。"
+      }
     }
   ]
 }

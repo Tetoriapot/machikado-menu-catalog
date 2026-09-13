@@ -475,6 +475,236 @@
         "signature": "潮風ミルクと塩キャラメルとパイナップルとココナッツのカップ",
         "localFlavor": "海岸の帰りに立ち寄る客が多い。夕方は潮の匂いとともに、地元の子どもがベンチへ集まる。"
       }
+    },
+    {
+      "id": "ice-cream-3",
+      "name": "山のジェラート 木の匙",
+      "category": "ice-cream",
+      "tags": [
+        "果樹園",
+        "木陰",
+        "ジェラート"
+      ],
+      "priceLevel": "normal",
+      "locationType": "rural",
+      "era": "modern",
+      "scale": "independent",
+      "description": "山裾の果樹園通りにあるアイス店。果物とナッツの香りを生かした小さなカップを、木陰で楽しめる。",
+      "openingHours": "10:00〜17:00（水曜休）",
+      "menuSections": [
+        {
+          "id": "ice-cream-3-section-1",
+          "title": "シングル",
+          "items": [
+            {
+              "id": "ice-cream-3-original-1",
+              "name": "焼き胡桃ミルク シングル",
+              "price": 480,
+              "description": "香ばしいくるみを混ぜたミルクの一人分。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-3-original-2",
+              "name": "黒糖生姜 シングル",
+              "price": 460,
+              "description": "黒糖の甘みに生姜の香りを加えた一人分。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-3-original-3",
+              "name": "杏とヨーグルト シングル",
+              "price": 480,
+              "description": "杏の果肉とヨーグルトの酸味を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-3-staple-1",
+              "name": "ミルク シングル",
+              "price": 380,
+              "description": "牛乳の甘みを楽しむ基本の味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ice-cream-3-staple-2",
+              "name": "レモンソルベ",
+              "price": 440,
+              "description": "果汁の酸味が爽やかな氷菓。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ice-cream-3-staple-3",
+              "name": "チョコ シングル",
+              "price": 420,
+              "description": "カカオの香りが濃厚な一玉。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "ice-cream-3-staple-4",
+              "name": "抹茶 シングル",
+              "price": 460,
+              "description": "抹茶の渋みを感じる一玉。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "ice-cream-3-section-2",
+          "title": "サンデー",
+          "items": [
+            {
+              "id": "ice-cream-3-original-4",
+              "name": "焼き栗とバニラの森サンデー",
+              "price": 780,
+              "description": "バニラに栗と薄い焼き菓子を重ねた一品。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-3-original-5",
+              "name": "林檎と胡桃の木陰パフェ",
+              "price": 820,
+              "description": "りんご煮とくるみ、アイスを深いカップに。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-3-original-6",
+              "name": "白桃ソルベの果実サンデー",
+              "price": 780,
+              "description": "桃のソルベに季節の果物を少し添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-3-staple-5",
+              "name": "チョコサンデー",
+              "price": 650,
+              "description": "チョコソースとクッキーを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ice-cream-3-staple-6",
+              "name": "アフォガート",
+              "price": 640,
+              "description": "ミルクアイスに熱い珈琲。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ice-cream-3-staple-7",
+              "name": "ベリーサンデー",
+              "price": 680,
+              "description": "甘酸っぱいベリーソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ice-cream-3-staple-8",
+              "name": "バナナスプリット",
+              "price": 970,
+              "description": "バナナに三種類のアイス。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "ice-cream-3-section-3",
+          "title": "セット・飲料",
+          "items": [
+            {
+              "id": "ice-cream-3-original-7",
+              "name": "木の匙の持ち帰り四味箱",
+              "price": 1880,
+              "description": "小カップ四個を箱に。対象の味から選べる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "ice-cream-3-original-8",
+              "name": "果樹園りんごの炭酸割り",
+              "price": 380,
+              "description": "りんご飲料と炭酸を合わせたすっきりした一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-3-original-9",
+              "name": "焙じ茶とミルクの温ドリンク",
+              "price": 420,
+              "description": "焙じ茶を温かいミルクで割った飲み物。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "ice-cream-3-staple-9",
+              "name": "ダブルカップ",
+              "price": 650,
+              "description": "二つの味を選べるカップ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "ice-cream-3-staple-10",
+              "name": "オレンジジュース",
+              "price": 330,
+              "description": "飲みやすい果汁飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "ice-cream-3-staple-11",
+              "name": "ワッフルコーン変更",
+              "price": 80,
+              "description": "香ばしいコーンへの変更。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "ice-cream-3-staple-12",
+              "name": "アイスコーヒー",
+              "price": 390,
+              "description": "甘味に合わせる無糖の一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "木のカウンターの先に果樹園が見える。店先には丸太のベンチと、日差しを遮る大きな木。",
+        "service": "まず味を決めてからカップへ盛る。持ち帰りには溶けやすさと所要時間を確認する。",
+        "signature": "焼き胡桃ミルク シングルと焼き栗とバニラの森サンデー",
+        "localFlavor": "果樹園への来訪者と近所の家族が立ち寄る。収穫の時期には農家の人が差し入れを買いに来る。"
+      }
     }
   ]
 }

@@ -476,6 +476,237 @@
         "signature": "煮魚と野菜の小鉢",
         "localFlavor": "駅裏の住宅街で、外食でも家庭料理を食べたい客が多い。"
       }
+    },
+    {
+      "id": "teishoku-3",
+      "name": "食堂 まちの台所",
+      "category": "teishoku",
+      "tags": [
+        "朝ごはん",
+        "家庭料理",
+        "働く人の昼食"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "工業団地の入口にある定食屋。昼は手早い食事、夜は少しずつ選べる家庭のおかずで迎える。",
+      "openingHours": "6:30〜14:00／17:00〜21:00（日曜休）",
+      "menuSections": [
+        {
+          "id": "teishoku-3-section-1",
+          "title": "定食",
+          "items": [
+            {
+              "id": "teishoku-3-original-1",
+              "name": "焼きほっけと納豆の朝定食",
+              "price": 780,
+              "description": "焼き魚、納豆、ご飯と味噌汁。午前10時まで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-3-original-2",
+              "name": "鶏と厚揚げの生姜あん定食",
+              "price": 920,
+              "description": "鶏肉と厚揚げに生姜あん。小鉢一つ付き。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-3-original-3",
+              "name": "豚こまと彩り野菜の味噌炒め定食",
+              "price": 880,
+              "description": "豚肉と数種の野菜を甘辛い味噌で炒める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-3-staple-1",
+              "name": "豚の生姜焼き定食",
+              "price": 850,
+              "description": "生姜だれの豚肉に千切りキャベツ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "teishoku-3-staple-2",
+              "name": "厚揚げと茄子の味噌炒め定食",
+              "price": 850,
+              "description": "肉を使わない食べごたえのある一皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "teishoku-3-staple-3",
+              "name": "鶏の唐揚げ定食",
+              "price": 820,
+              "description": "大きな唐揚げ五個とご飯、味噌汁。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "teishoku-3-staple-4",
+              "name": "煮込みハンバーグ定食",
+              "price": 1010,
+              "description": "玉ねぎソースでじっくり煮込んだ洋風定食。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "teishoku-3-section-2",
+          "title": "小鉢・追加",
+          "items": [
+            {
+              "id": "teishoku-3-original-4",
+              "name": "ごぼうと人参の卵とじ小鉢",
+              "price": 220,
+              "description": "柔らかな根菜を卵でまとめた小鉢。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-3-original-5",
+              "name": "白菜と油揚げの出汁煮",
+              "price": 180,
+              "description": "白菜と油揚げを出汁で煮た一人分。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-3-original-6",
+              "name": "黒酢だれの小さな肉団子 三個",
+              "price": 280,
+              "description": "揚げた肉団子に黒酢のあんを絡める。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-3-staple-5",
+              "name": "ひじき煮",
+              "price": 180,
+              "description": "大豆とにんじん入りの家庭的な小鉢。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "teishoku-3-staple-6",
+              "name": "茶碗蒸し小鉢",
+              "price": 220,
+              "description": "具を控えめにした卵の蒸し物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "teishoku-3-staple-7",
+              "name": "冷奴",
+              "price": 180,
+              "description": "ねぎと生姜をのせた豆腐。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "teishoku-3-staple-8",
+              "name": "味噌汁単品",
+              "price": 170,
+              "description": "豆腐とわかめの味噌汁。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "teishoku-3-section-3",
+          "title": "お飲みもの・甘味",
+          "items": [
+            {
+              "id": "teishoku-3-original-7",
+              "name": "まちの台所のきなこミルク寒天",
+              "price": 260,
+              "description": "ミルク寒天にきなこと黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "teishoku-3-original-8",
+              "name": "温かい麦茶ポット 一人分",
+              "price": 180,
+              "description": "小さなポットで出す香ばしい麦茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-3-original-9",
+              "name": "みかんとヨーグルトの小鉢",
+              "price": 280,
+              "description": "みかん果肉とヨーグルトを合わせた食後の一品。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "teishoku-3-staple-9",
+              "name": "瓶ビール",
+              "price": 550,
+              "description": "食事に添える中瓶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "teishoku-3-staple-10",
+              "name": "梅の炭酸水",
+              "price": 280,
+              "description": "梅シロップを少量加えた炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "teishoku-3-staple-11",
+              "name": "ウーロン茶",
+              "price": 220,
+              "description": "冷たい無糖のお茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "teishoku-3-staple-12",
+              "name": "黒糖寒天",
+              "price": 310,
+              "description": "黒糖蜜をかけたさっぱり甘味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "長い相席テーブルと壁一面の献立札。入口から見える棚に、出来たての小鉢が並ぶ。",
+        "service": "朝は先に味噌汁を出す。ご飯の量を聞き、昼の混雑時も一盆ずつ確認して運ぶ。",
+        "signature": "焼きほっけと納豆の朝定食とごぼうと人参の卵とじ小鉢",
+        "localFlavor": "早番の作業員から近所の高齢者まで通う。夕方には弁当箱を持っておかずを買いに来る人もいる。"
+      }
     }
   ]
 }

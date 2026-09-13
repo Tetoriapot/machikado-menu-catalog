@@ -477,6 +477,237 @@
         "signature": "生姜の効いた湯麺と包み蒸し",
         "localFlavor": "近隣の工場の勤務時間に合わせ、夕方の開店が早い。"
       }
+    },
+    {
+      "id": "chinese-3",
+      "name": "中華食堂 青瓦軒",
+      "category": "chinese",
+      "tags": [
+        "港町",
+        "朝営業",
+        "ボリューム"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "港の荷捌き場から歩ける町中華。汁麺と炒め物を中心に、朝から腹持ちのよい料理を出す。",
+      "openingHours": "7:00〜20:00（水曜休）",
+      "menuSections": [
+        {
+          "id": "chinese-3-section-1",
+          "title": "麺・飯",
+          "items": [
+            {
+              "id": "chinese-3-original-1",
+              "name": "海老と青梗菜の塩湯麺",
+              "price": 980,
+              "description": "海老と青梗菜を載せた、塩味の温かい汁麺。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "chinese-3-original-2",
+              "name": "黒胡椒牛肉の焼き飯",
+              "price": 1080,
+              "description": "牛肉と玉ねぎを黒胡椒で炒めた炒飯。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "chinese-3-original-3",
+              "name": "朝の鶏粥と揚げパン",
+              "price": 720,
+              "description": "鶏の粥に小さな揚げパン。午前10時まで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "chinese-3-staple-1",
+              "name": "五目チャーハン",
+              "price": 750,
+              "description": "焼豚、卵、ねぎの香ばしい炒めご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "chinese-3-staple-2",
+              "name": "海老入り卵あんかけ飯",
+              "price": 980,
+              "description": "半熟卵の餡と海老をかけたご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "chinese-3-staple-3",
+              "name": "中華丼",
+              "price": 800,
+              "description": "野菜たっぷりのとろみ餡をご飯に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "chinese-3-staple-4",
+              "name": "あんかけ焼きそば",
+              "price": 940,
+              "description": "焼き目のついた麺に五目餡。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "chinese-3-section-2",
+          "title": "一品料理",
+          "items": [
+            {
+              "id": "chinese-3-original-4",
+              "name": "いかとセロリの生姜炒め",
+              "price": 880,
+              "description": "いかとセロリを生姜の香りでさっと炒める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "chinese-3-original-5",
+              "name": "揚げ茄子と挽肉の豆味噌炒め",
+              "price": 820,
+              "description": "茄子と挽肉に豆味噌の濃い味付け。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "chinese-3-original-6",
+              "name": "青瓦軒の酢鶏",
+              "price": 880,
+              "description": "揚げた鶏肉と野菜を甘酢あんでまとめる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "chinese-3-staple-5",
+              "name": "麻婆豆腐",
+              "price": 780,
+              "description": "豆板醤と山椒をきかせた一皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-3-staple-6",
+              "name": "茄子の豆鼓炒め",
+              "price": 850,
+              "description": "発酵豆の旨みをきかせた炒め物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-3-staple-7",
+              "name": "酢豚",
+              "price": 980,
+              "description": "豚肉と彩り野菜の甘酢炒め。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-3-staple-8",
+              "name": "海老チリ",
+              "price": 1190,
+              "description": "ぷりっとした海老のピリ辛ソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "chinese-3-section-3",
+          "title": "点心・飲みもの",
+          "items": [
+            {
+              "id": "chinese-3-original-7",
+              "name": "青菜入りもち米焼売 四個",
+              "price": 520,
+              "description": "青菜と肉の餡をもち米で包んだ蒸し物。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "chinese-3-original-8",
+              "name": "黒胡麻と豆乳の杏仁風カップ",
+              "price": 380,
+              "description": "豆乳の甘味に黒胡麻のソースを添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "chinese-3-original-9",
+              "name": "梅蜜入り冷やし烏龍茶",
+              "price": 320,
+              "description": "烏龍茶に少量の梅シロップを加えた一杯。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "chinese-3-staple-9",
+              "name": "焼餃子 六個",
+              "price": 420,
+              "description": "肉と野菜を包んだ手作り餃子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-3-staple-10",
+              "name": "烏龍ミルクプリン",
+              "price": 350,
+              "description": "茶葉を煮出したミルクプリン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "chinese-3-staple-11",
+              "name": "春巻き 二本",
+              "price": 380,
+              "description": "筍入りの餡をぱりっと揚げて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "chinese-3-staple-12",
+              "name": "ジャスミン茶",
+              "price": 280,
+              "description": "花の香りがさわやかな中国茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "青いタイルの壁と回転椅子のカウンター。入口近くに水差し、奥に大きな中華鍋が掛かる。",
+        "service": "昼は皿を素早く揃え、初めての客には量を伝える。麺と炒め物の提供順を確認する。",
+        "signature": "海老と青梗菜の塩湯麺といかとセロリの生姜炒め",
+        "localFlavor": "港で働く人が早朝から訪れる。夕方には近隣の住民が持ち帰りの炒飯を頼む。"
+      }
     }
   ]
 }

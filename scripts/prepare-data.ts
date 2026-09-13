@@ -13,7 +13,8 @@ const first=['kissaten','cafe','family-restaurant','izakaya','ramen','bakery','t
 const fallbackRank=new Map(categories.map((c,i)=>[c.id,100+i]));
 const rank=(id:string)=>first.includes(id)?first.indexOf(id):fallbackRank.get(id)!;
 categories.sort((a,b)=>rank(a.id)-rank(b.id));
-shops.sort((a,b)=>Number(a.id.endsWith('-2'))-Number(b.id.endsWith('-2'))||rank(a.category)-rank(b.category));
+const edition=(id:string)=>Number(id.match(/-(\d+)$/)?.[1]??1);
+shops.sort((a,b)=>edition(a.id)-edition(b.id)||rank(a.category)-rank(b.category));
 const ids=new Set<string>();
 for(const shop of shops){
  if(ids.has(shop.id))throw new Error(`Duplicate shop ${shop.id}`);ids.add(shop.id);

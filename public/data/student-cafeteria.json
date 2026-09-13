@@ -476,6 +476,237 @@
         "signature": "野菜の小鉢と少なめご飯の昼食",
         "localFlavor": "研究室の学生が遅い昼食にも使う。"
       }
+    },
+    {
+      "id": "student-cafeteria-3",
+      "name": "学生食堂 けやきテーブル",
+      "category": "student-cafeteria",
+      "tags": [
+        "学生食堂",
+        "中庭",
+        "遅い昼食"
+      ],
+      "priceLevel": "very-cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "芸術系の架空の学校にある中庭の食堂。制作の合間に食べられる丼と小鉢があり、遅めの昼食にも対応する。",
+      "openingHours": "平日10:30〜19:00（土日祝休）",
+      "menuSections": [
+        {
+          "id": "student-cafeteria-3-section-1",
+          "title": "ご飯・定食",
+          "items": [
+            {
+              "id": "student-cafeteria-3-original-1",
+              "name": "鶏そぼろと温玉の二色丼",
+              "price": 480,
+              "description": "鶏そぼろと炒り卵のご飯に温泉卵を添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-3-original-2",
+              "name": "白身魚の甘酢あん定食",
+              "price": 560,
+              "description": "魚の揚げ物に野菜の甘酢あんをかける。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-3-original-3",
+              "name": "厚揚げと豚肉の味噌炒め定食",
+              "price": 540,
+              "description": "厚揚げと豚肉を炒めた主菜にご飯と汁物。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-3-staple-1",
+              "name": "日替わり定食",
+              "price": 480,
+              "description": "主菜と小鉢、ご飯、味噌汁。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "student-cafeteria-3-staple-2",
+              "name": "小さな焼き魚丼",
+              "price": 520,
+              "description": "ほぐした魚と薬味を少なめご飯に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "student-cafeteria-3-staple-3",
+              "name": "唐揚げ定食",
+              "price": 520,
+              "description": "鶏唐揚げとたっぷりキャベツ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "student-cafeteria-3-staple-4",
+              "name": "親子丼",
+              "price": 500,
+              "description": "鶏肉と卵のやさしい丼。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-3-section-2",
+          "title": "麺・小鉢",
+          "items": [
+            {
+              "id": "student-cafeteria-3-original-4",
+              "name": "けやきの胡麻だれ冷やし麺",
+              "price": 450,
+              "description": "胡麻だれの麺に胡瓜と蒸し鶏を少量載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-3-original-5",
+              "name": "青菜と油揚げの小鉢",
+              "price": 100,
+              "description": "青菜と油揚げをだしで和えた食べ切り小鉢。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-3-original-6",
+              "name": "じゃがいもと豆のカレーサラダ",
+              "price": 120,
+              "description": "じゃがいもと豆を軽いカレー味に和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-3-staple-5",
+              "name": "かけうどん",
+              "price": 280,
+              "description": "温かい出汁のうどん。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "student-cafeteria-3-staple-6",
+              "name": "春雨の中華サラダ",
+              "price": 150,
+              "description": "ごま油が香る小鉢。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "student-cafeteria-3-staple-7",
+              "name": "醤油ラーメン",
+              "price": 380,
+              "description": "チャーシュー一枚入りの定番麺。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "student-cafeteria-3-staple-8",
+              "name": "野菜サラダ",
+              "price": 170,
+              "description": "ドレッシング付きの小皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "student-cafeteria-3-section-3",
+          "title": "甘味・飲みもの",
+          "items": [
+            {
+              "id": "student-cafeteria-3-original-7",
+              "name": "黒蜜豆乳プリン",
+              "price": 180,
+              "description": "豆乳で作る小さなプリンに黒蜜を添える。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "student-cafeteria-3-original-8",
+              "name": "りんごほうじ茶ソーダ",
+              "price": 180,
+              "description": "りんご風味の炭酸にほうじ茶を少し加える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-3-original-9",
+              "name": "ミニ抹茶ミルク",
+              "price": 160,
+              "description": "小さなカップで提供する甘い抹茶ミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "student-cafeteria-3-staple-9",
+              "name": "プリン",
+              "price": 130,
+              "description": "トレーにのる小さなカップ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "student-cafeteria-3-staple-10",
+              "name": "豆乳カフェラテ",
+              "price": 230,
+              "description": "豆乳の甘みを生かした飲みもの。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "student-cafeteria-3-staple-11",
+              "name": "ヨーグルト",
+              "price": 100,
+              "description": "個食サイズの乳製品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "student-cafeteria-3-staple-12",
+              "name": "牛乳",
+              "price": 120,
+              "description": "200mlの紙パック。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "中庭に向いた大きな窓と長机があり、壁には学生が描いた架空の催しポスターが貼られる。",
+        "service": "トレーを取って注文口へ進み、料理を受け取る。食後は食器を返却棚へ分けて戻す。",
+        "signature": "鶏そぼろと温玉の二色丼とけやきの胡麻だれ冷やし麺",
+        "localFlavor": "昼休みの混雑が過ぎても制作帰りの学生が来る。窓際ではノートを広げる姿が見える。"
+      }
     }
   ]
 }

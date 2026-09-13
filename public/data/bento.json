@@ -475,6 +475,235 @@
         "signature": "鯖の香味焼きのり弁と豚と蓮根の甘酢弁当",
         "localFlavor": "家へ帰る途中の客が一人分を買い、工事のある日は作業員の注文が朝から入る。"
       }
+    },
+    {
+      "id": "bento-3",
+      "name": "お弁当 ひだまり包み",
+      "category": "bento",
+      "tags": [
+        "朝の弁当",
+        "住宅街",
+        "手作り"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "住宅街の小さな持ち帰り弁当店。通勤前に受け取れる朝のお弁当と、季節の野菜を添えたおかずが並ぶ。",
+      "openingHours": "7:00〜14:00／16:00〜19:00（日曜休）",
+      "menuSections": [
+        {
+          "id": "bento-3-section-1",
+          "title": "お弁当",
+          "items": [
+            {
+              "id": "bento-3-original-1",
+              "name": "鶏の柚子味噌焼き弁当",
+              "price": 720,
+              "description": "柚子味噌で焼いた鶏と根菜の煮物を詰める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "bento-3-original-2",
+              "name": "鮭と枝豆の混ぜご飯弁当",
+              "price": 680,
+              "description": "ほぐした鮭と枝豆のご飯に卵焼きを添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-original-3",
+              "name": "茄子と豚肉の生姜あん弁当",
+              "price": 750,
+              "description": "茄子と薄切り豚肉に生姜のあんを絡める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-staple-1",
+              "name": "のり弁当",
+              "price": 450,
+              "description": "白身フライとちくわ天の定番。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "bento-3-staple-2",
+              "name": "幕の内弁当",
+              "price": 860,
+              "description": "焼き物、揚げ物、煮物を少しずつ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "bento-3-staple-3",
+              "name": "唐揚げ弁当",
+              "price": 590,
+              "description": "醤油味の唐揚げ四個入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "bento-3-staple-4",
+              "name": "焼き鮭弁当",
+              "price": 750,
+              "description": "焼き鮭と小さな煮物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "bento-3-section-2",
+          "title": "おかず単品",
+          "items": [
+            {
+              "id": "bento-3-original-4",
+              "name": "里芋とひき肉の照り煮",
+              "price": 280,
+              "description": "里芋とひき肉を甘辛く煮た小さなカップ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "bento-3-original-5",
+              "name": "にんじんと胡桃の白和え",
+              "price": 240,
+              "description": "にんじんの細切りを豆腐とくるみで和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-original-6",
+              "name": "小海老と枝豆のかき揚げ",
+              "price": 220,
+              "description": "小海老と枝豆を小ぶりにまとめて揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-staple-5",
+              "name": "唐揚げ 三個",
+              "price": 280,
+              "description": "おかずを追加したい時に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bento-3-staple-6",
+              "name": "コロッケ 二個",
+              "price": 240,
+              "description": "じゃがいもと挽肉のコロッケ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bento-3-staple-7",
+              "name": "ポテトサラダ",
+              "price": 180,
+              "description": "小さなカップ入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bento-3-staple-8",
+              "name": "玉子焼き",
+              "price": 220,
+              "description": "甘めに焼いた三切れ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "bento-3-section-3",
+          "title": "追加・飲料",
+          "items": [
+            {
+              "id": "bento-3-original-7",
+              "name": "しらす青菜ご飯への変更",
+              "price": 120,
+              "description": "弁当の白飯をしらすと青菜のご飯に替える。",
+              "kind": "addon",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-original-8",
+              "name": "梅昆布の温かいお茶",
+              "price": 180,
+              "description": "梅と昆布の風味を加えた持ち帰りのお茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-original-9",
+              "name": "焙じ玄米茶ボトル",
+              "price": 160,
+              "description": "香ばしい玄米入りのお茶を小瓶で渡す。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "bento-3-staple-9",
+              "name": "ご飯大盛り",
+              "price": 80,
+              "description": "弁当のご飯を増量。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "bento-3-staple-10",
+              "name": "麦茶 500ml",
+              "price": 140,
+              "description": "香ばしい無糖のお茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "bento-3-staple-11",
+              "name": "白ご飯 単品",
+              "price": 180,
+              "description": "容器一杯の炊きたてご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "bento-3-staple-12",
+              "name": "緑茶 500ml",
+              "price": 150,
+              "description": "お弁当に合うペットボトル茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口のガラス棚に見本のお弁当が並ぶ。奥の調理場から炊きたてのご飯の湯気が上がる。",
+        "service": "注文を受けてからご飯を詰め、持ち歩く時間を聞いて袋を分ける。",
+        "signature": "鶏の柚子味噌焼き弁当と里芋とひき肉の照り煮",
+        "localFlavor": "朝は通勤客、夕方は近所の住民が集まる。雨の日には店先の軒下で受け取りを待つ。"
+      }
     }
   ]
 }

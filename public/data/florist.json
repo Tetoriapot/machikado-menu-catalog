@@ -476,6 +476,237 @@
         "signature": "つゆ草色の一輪挿しセットと香りを楽しむハーブ鉢",
         "localFlavor": "車窓から店を見つけて降りる人もいる。近所の喫茶店が、週に一度テーブルの花を選びに来る。"
       }
+    },
+    {
+      "id": "florist-3",
+      "name": "花屋 水音の枝",
+      "category": "florist",
+      "tags": [
+        "季節の花",
+        "水路沿い",
+        "小さな贈り物"
+      ],
+      "priceLevel": "normal",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "水路沿いの小さな花屋。一本から買える季節の花と、食卓に置きやすい小ぶりな花束が中心。",
+      "openingHours": "10:00〜18:30（木曜休）",
+      "menuSections": [
+        {
+          "id": "florist-3-section-1",
+          "title": "切り花 一本",
+          "items": [
+            {
+              "id": "florist-3-original-1",
+              "name": "季節のスカビオサ 一本",
+              "price": 330,
+              "description": "細い茎に丸い花が付く季節の切り花。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "florist-3-original-2",
+              "name": "枝もの ユーカリ 一本",
+              "price": 440,
+              "description": "落ち着いた銀緑色の葉を楽しむ枝もの。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-3-original-3",
+              "name": "季節のアルストロメリア 一本",
+              "price": 380,
+              "description": "数輪の花が付いた飾りやすい切り花。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-3-staple-1",
+              "name": "ガーベラ",
+              "price": 220,
+              "description": "明るい色の花を一本から。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-2",
+              "name": "ユーカリ",
+              "price": 420,
+              "description": "香りのよい枝もの。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-3",
+              "name": "バラ",
+              "price": 440,
+              "description": "贈り物にも使える切り花。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-4",
+              "name": "かすみ草",
+              "price": 360,
+              "description": "花束を柔らかくまとめる小花。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "florist-3-section-2",
+          "title": "花束・アレンジ",
+          "items": [
+            {
+              "id": "florist-3-original-4",
+              "name": "水音の野花風ブーケ",
+              "price": 2200,
+              "description": "小花と葉ものを自然な形に束ねた花束。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "florist-3-original-5",
+              "name": "白と緑の食卓アレンジ",
+              "price": 3300,
+              "description": "低い器に白い花と葉ものを生ける。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-3-original-6",
+              "name": "一輪挿しと季節の花セット",
+              "price": 1650,
+              "description": "小さなガラスの器と切り花を合わせる。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-3-staple-5",
+              "name": "ミニブーケ",
+              "price": 1100,
+              "description": "小さな花瓶に合う花束。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-6",
+              "name": "ドライフラワー束",
+              "price": 1820,
+              "description": "乾燥花を束ねた飾り。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-7",
+              "name": "季節の花束",
+              "price": 3300,
+              "description": "その日の花をまとめる標準サイズ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-8",
+              "name": "一輪ラッピング",
+              "price": 180,
+              "description": "一本の花を包む簡易包装。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "florist-3-section-3",
+          "title": "鉢物・小物",
+          "items": [
+            {
+              "id": "florist-3-original-7",
+              "name": "丸葉の観葉鉢 三号",
+              "price": 1320,
+              "description": "丸い葉を楽しむ室内向けの小鉢。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "florist-3-original-8",
+              "name": "素焼きの鉢カバー 小",
+              "price": 880,
+              "description": "三号鉢を入れられる素朴な鉢カバー。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-3-original-9",
+              "name": "枝模様のメッセージカード",
+              "price": 220,
+              "description": "花束に添えやすい小さな二つ折りカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "florist-3-staple-9",
+              "name": "ミニ観葉植物",
+              "price": 880,
+              "description": "机に置ける小さな鉢物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-10",
+              "name": "メッセージ札",
+              "price": 120,
+              "description": "贈り物に添える小さなカード。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-11",
+              "name": "ハーブ苗",
+              "price": 330,
+              "description": "料理や香りを楽しむ苗。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "florist-3-staple-12",
+              "name": "切り花延命剤",
+              "price": 180,
+              "description": "花瓶の水に加える小袋。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "店先のバケツに切り花が並び、奥の作業台には麻ひもと色の違う包装紙が置かれる。",
+        "service": "贈る相手と置く場所を聞いて組み合わせる。持ち歩く時間に合わせて切り口を包む。",
+        "signature": "季節のスカビオサ 一本と水音の野花風ブーケ",
+        "localFlavor": "夕方には帰り道に一本だけ買う常連が訪れる。近くの飲食店が卓上の花を受け取りに来る。"
+      }
     }
   ]
 }

@@ -477,6 +477,237 @@
         "signature": "出発前の軽食と実用的な旅行小物",
         "localFlavor": "駅前のビジネス客が朝早く出発する。"
       }
+    },
+    {
+      "id": "hotel-3",
+      "name": "ホテル 朝凪テラス ロビーショップ",
+      "category": "hotel",
+      "tags": [
+        "海辺のホテル",
+        "旅行用品",
+        "ロビー"
+      ],
+      "priceLevel": "expensive",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "海辺の小さなホテルにあるロビー売店。出発前の軽食と、浜辺の散歩に持って行ける旅行小物を扱う。",
+      "openingHours": "7:00〜22:00",
+      "menuSections": [
+        {
+          "id": "hotel-3-section-1",
+          "title": "軽食・甘味",
+          "items": [
+            {
+              "id": "hotel-3-original-1",
+              "name": "朝凪の塩バターサンド",
+              "price": 580,
+              "description": "塩バターとハムを挟んだ朝食向けの小さなパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "hotel-3-original-2",
+              "name": "レモンカードの焼きタルト",
+              "price": 620,
+              "description": "レモン風味のクリームを詰めた焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "hotel-3-original-3",
+              "name": "海辺の蜂蜜ヨーグルト",
+              "price": 480,
+              "description": "蜂蜜を添えたカップ入りのヨーグルト。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "hotel-3-staple-1",
+              "name": "クラブサンド",
+              "price": 850,
+              "description": "チキンと卵を挟んだ冷蔵サンド。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "hotel-3-staple-2",
+              "name": "野菜と豆のカップスープ",
+              "price": 480,
+              "description": "温めて渡す小さなスープ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "hotel-3-staple-3",
+              "name": "カップ麺",
+              "price": 280,
+              "description": "夜食向けの醤油味の即席麺。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "hotel-3-staple-4",
+              "name": "焼き菓子三個",
+              "price": 750,
+              "description": "フィナンシェなどの小箱。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        },
+        {
+          "id": "hotel-3-section-2",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "hotel-3-original-4",
+              "name": "温州みかんのストレートジュース",
+              "price": 550,
+              "description": "みかんの風味を楽しむ小瓶のジュース。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "hotel-3-original-5",
+              "name": "朝凪ブレンドのドリップ珈琲",
+              "price": 580,
+              "description": "ロビーで受け取る温かいブレンド珈琲。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "hotel-3-original-6",
+              "name": "ローズヒップの冷たいハーブティー",
+              "price": 500,
+              "description": "果実のような酸味のある冷たいハーブ茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "hotel-3-staple-5",
+              "name": "ミネラルウォーター",
+              "price": 180,
+              "description": "客室に持ち込める500mlボトル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "hotel-3-staple-6",
+              "name": "レモン炭酸水",
+              "price": 200,
+              "description": "爽やかな香りの無糖炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "hotel-3-staple-7",
+              "name": "緑茶",
+              "price": 200,
+              "description": "無糖のペットボトル茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "hotel-3-staple-8",
+              "name": "りんごジュース",
+              "price": 280,
+              "description": "小瓶入りの果汁飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "hotel-3-section-3",
+          "title": "旅行用品",
+          "items": [
+            {
+              "id": "hotel-3-original-7",
+              "name": "砂よけ巾着付きビーチサンダル",
+              "price": 1320,
+              "description": "持ち運び用の巾着を付けたサンダル。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "hotel-3-original-8",
+              "name": "波模様の薄手ストール",
+              "price": 2200,
+              "description": "海辺の散歩にも使える軽い布のストール。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hotel-3-original-9",
+              "name": "旅の小物用メッシュポーチ",
+              "price": 880,
+              "description": "中身を見つけやすい網目の収納ポーチ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "hotel-3-staple-9",
+              "name": "歯ブラシセット",
+              "price": 350,
+              "description": "旅行用の歯磨きセット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hotel-3-staple-10",
+              "name": "圧縮衣類袋 二枚",
+              "price": 550,
+              "description": "旅行の荷物をまとめる袋。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hotel-3-staple-11",
+              "name": "洗顔セット",
+              "price": 580,
+              "description": "小さな洗顔料とタオル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "hotel-3-staple-12",
+              "name": "折り畳み傘",
+              "price": 1850,
+              "description": "携帯用の軽い傘。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "ロビーの窓から朝の海が見え、低い棚に菓子と旅行小物が少しずつ並んでいる。",
+        "service": "出発の時刻を聞いて軽食を包む。散歩用の買い物には近くの道を簡単に案内する。",
+        "signature": "朝凪の塩バターサンドと温州みかんのストレートジュース",
+        "localFlavor": "朝は早出の旅行客、夜は散歩から戻った宿泊客が立ち寄る。ロビーに波の音がかすかに届く。"
+      }
     }
   ]
 }

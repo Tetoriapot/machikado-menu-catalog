@@ -477,6 +477,237 @@
         "signature": "しらすと大葉の薄焼きピザと焼き蓮根と照り焼き鶏のピザ",
         "localFlavor": "住宅街の家族や一人客が通う。庭で採れた野菜の話をする近所の住民もいる。"
       }
+    },
+    {
+      "id": "pizza-3",
+      "name": "ピッツェリア 夕映え窯",
+      "category": "pizza",
+      "tags": [
+        "窯焼き",
+        "坂の上",
+        "持ち帰り"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "坂の上の小さなピザ店。夕方になると窯に火が入り、地域の客が持ち帰りの箱を受け取りに来る。",
+      "openingHours": "11:30〜14:30／17:00〜22:00（水曜休）",
+      "menuSections": [
+        {
+          "id": "pizza-3-section-1",
+          "title": "PIZZA",
+          "items": [
+            {
+              "id": "pizza-3-original-1",
+              "name": "焦がし玉ねぎとソーセージのピッツァ",
+              "price": 1480,
+              "description": "甘い玉ねぎと粗挽きソーセージを載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "pizza-3-original-2",
+              "name": "焼き梨と青いチーズのピッツァ",
+              "price": 1680,
+              "description": "梨の甘みとチーズの塩気を合わせた一枚。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "pizza-3-original-3",
+              "name": "あさりと青ねぎの白いピッツァ",
+              "price": 1580,
+              "description": "あさりと青ねぎを白いソースで焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "pizza-3-staple-1",
+              "name": "マルゲリータ",
+              "price": 1280,
+              "description": "トマト、モッツァレラ、バジルの定番。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "pizza-3-staple-2",
+              "name": "照り焼きチキンピザ",
+              "price": 1600,
+              "description": "甘辛チキンと海苔の和風ピザ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "pizza-3-staple-3",
+              "name": "四種のチーズ",
+              "price": 1580,
+              "description": "蜂蜜を添えたチーズのピザ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "pizza-3-staple-4",
+              "name": "シーフードピザ",
+              "price": 1850,
+              "description": "海老といかをのせた一枚。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "pizza-3-section-2",
+          "title": "ANTIPASTO",
+          "items": [
+            {
+              "id": "pizza-3-original-4",
+              "name": "窯焼きズッキーニのレモンマリネ",
+              "price": 580,
+              "description": "焼いた野菜をレモンで軽く和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "pizza-3-original-5",
+              "name": "豆と牛すじのトマト煮込み",
+              "price": 780,
+              "description": "豆と牛すじを煮た温かい小皿。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "pizza-3-original-6",
+              "name": "生ハムと焼きいちじくの前菜",
+              "price": 880,
+              "description": "軽く焼いた果実に生ハムを添える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "pizza-3-staple-5",
+              "name": "グリーンサラダ",
+              "price": 580,
+              "description": "シェアできる葉野菜のサラダ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "pizza-3-staple-6",
+              "name": "ピクルス",
+              "price": 420,
+              "description": "野菜をさっぱりした酢漬けに。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "pizza-3-staple-7",
+              "name": "ミネストローネ",
+              "price": 450,
+              "description": "野菜を煮込んだトマトスープ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "pizza-3-staple-8",
+              "name": "生ハム盛り",
+              "price": 860,
+              "description": "薄く切った生ハムを一皿に。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "pizza-3-section-3",
+          "title": "DESSERT & DRINK",
+          "items": [
+            {
+              "id": "pizza-3-original-7",
+              "name": "夕映え窯のバニラ焼きパンナコッタ",
+              "price": 580,
+              "description": "なめらかな甘味の表面を軽く焦がす。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "pizza-3-original-8",
+              "name": "赤ぶどうと柑橘のソーダ",
+              "price": 480,
+              "description": "ぶどう飲料と柑橘を合わせたノンアルコール。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "pizza-3-original-9",
+              "name": "チョコと胡桃の窯焼き小包",
+              "price": 620,
+              "description": "小さな生地でチョコとくるみを包んで焼く。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "pizza-3-staple-9",
+              "name": "ティラミス",
+              "price": 580,
+              "description": "珈琲を含ませた大人のデザート。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "pizza-3-staple-10",
+              "name": "エスプレッソ",
+              "price": 390,
+              "description": "小さなカップに凝縮した香り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "pizza-3-staple-11",
+              "name": "ジェラート",
+              "price": 380,
+              "description": "ミルクの風味を楽しむ一玉。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "pizza-3-staple-12",
+              "name": "ブラッドオレンジソーダ",
+              "price": 530,
+              "description": "赤いオレンジの爽やかな炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "入口から赤い窯口が見える。西向きの窓にはブラインドがあり、夕日が木の床を照らす。",
+        "service": "食べる人数に合わせて切り分ける。持ち帰り客には箱を水平に持つようひとこと添える。",
+        "signature": "焦がし玉ねぎとソーセージのピッツァと窯焼きズッキーニのレモンマリネ",
+        "localFlavor": "夕方の散歩帰りや仕事帰りの住民が寄る。週末は近所の家の集まり用に予約が入る。"
+      }
     }
   ]
 }

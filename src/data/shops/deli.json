@@ -477,6 +477,237 @@
         "signature": "海苔塩ささみ揚げ 三本と大根と豚ばらの柔らか煮 180g",
         "localFlavor": "商店街の他店を回った最後に寄る人が多い。店主は常連の好みを覚えている。"
       }
+    },
+    {
+      "id": "deli-3",
+      "name": "おかず屋 土間の木",
+      "category": "deli",
+      "tags": [
+        "量り売り",
+        "夕飯のおかず",
+        "商店街"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "商店街の元八百屋を使った惣菜店。買い物帰りに一品足せる揚げ物と、野菜を使う量り売りの小鉢が得意。",
+      "openingHours": "10:00〜19:00（水曜休）",
+      "menuSections": [
+        {
+          "id": "deli-3-section-1",
+          "title": "揚げ物",
+          "items": [
+            {
+              "id": "deli-3-original-1",
+              "name": "蓮根と枝豆のはさみ揚げ",
+              "price": 190,
+              "description": "蓮根に枝豆入りのすり身を挟んで揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "deli-3-original-2",
+              "name": "ごぼう入り鶏メンチ",
+              "price": 220,
+              "description": "刻みごぼうと鶏ひき肉の丸いメンチカツ。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "deli-3-original-3",
+              "name": "かぼちゃとチーズの小判揚げ",
+              "price": 180,
+              "description": "かぼちゃとチーズを平たい形で揚げる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "deli-3-staple-1",
+              "name": "肉じゃがコロッケ",
+              "price": 120,
+              "description": "じゃがいもと牛肉の甘辛い具。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "deli-3-staple-2",
+              "name": "いかフライ",
+              "price": 180,
+              "description": "やわらかないかのフライ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "deli-3-staple-3",
+              "name": "メンチカツ",
+              "price": 180,
+              "description": "肉汁のある挽肉カツ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "deli-3-staple-4",
+              "name": "鯵フライ",
+              "price": 200,
+              "description": "衣をさっくり揚げた鯵。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "deli-3-section-2",
+          "title": "小鉢 100g",
+          "items": [
+            {
+              "id": "deli-3-original-4",
+              "name": "切干大根とツナの胡麻和え 100g",
+              "price": 230,
+              "description": "切干大根とツナを胡麻風味に和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "deli-3-original-5",
+              "name": "ひよこ豆と彩り野菜の煮込み 100g",
+              "price": 260,
+              "description": "豆と角切り野菜をトマトで軽く煮込む。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "deli-3-original-6",
+              "name": "小松菜と厚揚げの含め煮 100g",
+              "price": 210,
+              "description": "小松菜と厚揚げにだしを含ませる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "deli-3-staple-5",
+              "name": "ひじき煮",
+              "price": 180,
+              "description": "大豆入りの定番小鉢。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "deli-3-staple-6",
+              "name": "ほうれん草胡麻和え",
+              "price": 260,
+              "description": "すり胡麻の香ばしい和え物。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "deli-3-staple-7",
+              "name": "切干大根",
+              "price": 180,
+              "description": "油揚げと一緒に煮含めた一品。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "deli-3-staple-8",
+              "name": "ポテトサラダ",
+              "price": 210,
+              "description": "粗つぶしじゃがいものサラダ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "deli-3-section-3",
+          "title": "ご飯・セット",
+          "items": [
+            {
+              "id": "deli-3-original-7",
+              "name": "土間の三菜ご飯セット",
+              "price": 650,
+              "description": "日替わりの小鉢三品と小盛りご飯の組み合わせ。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "deli-3-original-8",
+              "name": "生姜おこわの小パック",
+              "price": 320,
+              "description": "刻み生姜を混ぜたもち米ご飯の小さな包み。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "deli-3-original-9",
+              "name": "二人分の夕餉おかず箱",
+              "price": 1280,
+              "description": "揚げ物と煮物を二人で分けやすく詰める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "deli-3-staple-9",
+              "name": "炊き込みご飯",
+              "price": 320,
+              "description": "鶏とごぼうの小パック。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "deli-3-staple-10",
+              "name": "煮物弁当",
+              "price": 720,
+              "description": "季節の煮物とご飯のセット。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "deli-3-staple-11",
+              "name": "おにぎり 二個",
+              "price": 280,
+              "description": "梅と鮭のおむすびセット。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "deli-3-staple-12",
+              "name": "豚汁",
+              "price": 310,
+              "description": "根菜と豚肉の具だくさん汁。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "昔の土間を残した売り場にホーローの大皿が並ぶ。揚げ物の札は毎朝手書きで入れ替わる。",
+        "service": "量り売りの品は容器を載せて重さを確かめる。揚げたての時間を短い声で知らせる。",
+        "signature": "蓮根と枝豆のはさみ揚げと切干大根とツナの胡麻和え 100g",
+        "localFlavor": "夕方になると近所の人が夕飯の相談をしながら買う。隣の青果店から季節の野菜が届く。"
+      }
     }
   ]
 }

@@ -473,6 +473,230 @@
         "localFlavor": "休日に車で集まる家族やグループが中心。"
       },
       "priceNote": "税込価格。室料は1人あたり。ドリンク・料理は別料金です。パックの時間条件は各項目をご確認ください。"
+    },
+    {
+      "id": "karaoke-3",
+      "name": "カラオケ ステラノート",
+      "category": "karaoke",
+      "tags": [
+        "少人数",
+        "歌の練習",
+        "商店街"
+      ],
+      "priceLevel": "normal",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "small-chain",
+      "description": "商店街のビルにある小さなカラオケ店。歌の練習や仕事帰りの集まりに使える個室と、取り分けやすい料理がある。",
+      "openingHours": "11:00〜翌3:00",
+      "menuSections": [
+        {
+          "id": "karaoke-3-section-1",
+          "title": "ルーム料金 一人",
+          "items": [
+            {
+              "id": "karaoke-3-original-1",
+              "name": "平日午後 三時間パック",
+              "price": 1100,
+              "description": "平日11〜16時入店の一人分室料。飲料は別。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-original-2",
+              "name": "全日朝練 一時間パック",
+              "price": 480,
+              "description": "全日11〜12時入店の一人分室料。飲料は別。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-original-3",
+              "name": "日曜夜 二時間パック",
+              "price": 1280,
+              "description": "日曜18〜22時入店の一人分室料。飲料は別。",
+              "kind": "fee",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-staple-1",
+              "name": "平日昼 三十分",
+              "price": 180,
+              "description": "11〜18時の一人分の室料。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "karaoke-3-staple-2",
+              "name": "小学生 平日昼 一時間",
+              "price": 280,
+              "description": "大人同伴時の一人分室料。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "karaoke-3-staple-3",
+              "name": "平日夜 三十分",
+              "price": 380,
+              "description": "18時以降の一人分の室料。",
+              "recommended": false,
+              "kind": "fee"
+            },
+            {
+              "id": "karaoke-3-staple-4",
+              "name": "平日昼フリータイム",
+              "price": 1080,
+              "description": "11〜18時内の利用。満室時は三時間制。",
+              "recommended": false,
+              "kind": "fee"
+            }
+          ]
+        },
+        {
+          "id": "karaoke-3-section-2",
+          "title": "フード",
+          "items": [
+            {
+              "id": "karaoke-3-original-4",
+              "name": "チーズと黒胡椒のポテト皿",
+              "price": 580,
+              "description": "揚げたポテトにチーズと黒胡椒を合わせる。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-3-original-5",
+              "name": "照り焼きつくねの串盛り",
+              "price": 780,
+              "description": "小さなつくねを串で取り分ける五本盛り。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-original-6",
+              "name": "星形パンのピザトースト",
+              "price": 720,
+              "description": "星形のパンに具とチーズを載せて焼く。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-staple-5",
+              "name": "フライドポテト",
+              "price": 480,
+              "description": "みんなで分ける定番スナック。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "karaoke-3-staple-6",
+              "name": "ホットサンド三種盛り",
+              "price": 980,
+              "description": "ハム、卵、チーズを一口サイズで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "karaoke-3-staple-7",
+              "name": "鶏の唐揚げ",
+              "price": 680,
+              "description": "レモン付きの一皿。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "karaoke-3-staple-8",
+              "name": "チョコスナック盛り",
+              "price": 530,
+              "description": "ひと口菓子の盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "karaoke-3-section-3",
+          "title": "ドリンク・甘味",
+          "items": [
+            {
+              "id": "karaoke-3-original-7",
+              "name": "ステラのぶどうフロート",
+              "price": 580,
+              "description": "ぶどうソーダにバニラアイスを浮かべる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "karaoke-3-original-8",
+              "name": "蜂蜜柚子のホットドリンク",
+              "price": 420,
+              "description": "蜂蜜と柚子風味のシロップを湯で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-original-9",
+              "name": "二色チョコのミニサンデー",
+              "price": 520,
+              "description": "二種類のチョコを添えた小さなアイスの盛り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "karaoke-3-staple-9",
+              "name": "ドリンクバー",
+              "price": 380,
+              "description": "室料と別途、一人分。",
+              "recommended": false,
+              "kind": "service"
+            },
+            {
+              "id": "karaoke-3-staple-10",
+              "name": "ホットレモン",
+              "price": 320,
+              "description": "温かいレモンの甘い飲みもの。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "karaoke-3-staple-11",
+              "name": "生ビール",
+              "price": 620,
+              "description": "中ジョッキのビール。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "karaoke-3-staple-12",
+              "name": "みんなのアイス四種",
+              "price": 880,
+              "description": "小さな四玉を盛り合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "星の図案を描いた受付の奥に、二〜六人用の部屋が並ぶ。廊下に貸出用の小物棚がある。",
+        "service": "利用人数と終了予定を確認し、料金を案内する。料理は室内端末から頼める。",
+        "signature": "平日午後 三時間パックとチーズと黒胡椒のポテト皿",
+        "localFlavor": "昼は歌の練習をする一人客、夜は近所で働く友人同士が来る。受付に商店街の催し札が並ぶ。"
+      },
+      "priceNote": "税込価格。室料は1人あたりで、時間制またはパックから一つを選択。料理・飲料は別料金。パック終了後は該当時間帯の30分料金で延長します。"
     }
   ]
 }

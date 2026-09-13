@@ -477,6 +477,237 @@
         "signature": "豆乳プレーンの輪とりんごとシナモンの焼き輪",
         "localFlavor": "散歩中の親子や自転車の客が多い。近所の住民には、甘さ控えめの定番が親しまれる。"
       }
+    },
+    {
+      "id": "donut-3",
+      "name": "ドーナツ工房 雨あとリング",
+      "category": "donut",
+      "tags": [
+        "高架下",
+        "朝のおやつ",
+        "箱詰め"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "高架下の小さなドーナツ店。通勤客向けの小さな品と、持ち帰って分ける箱詰めを用意する。",
+      "openingHours": "8:00〜19:30（火曜休）",
+      "menuSections": [
+        {
+          "id": "donut-3-section-1",
+          "title": "定番ドーナツ",
+          "items": [
+            {
+              "id": "donut-3-original-1",
+              "name": "雨あとの塩バターリング",
+              "price": 260,
+              "description": "塩バターの香りを付けたふんわりした一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "donut-3-original-2",
+              "name": "炒り胡麻と黒糖の輪",
+              "price": 280,
+              "description": "胡麻を混ぜた生地に黒糖の薄い糖衣。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-3-original-3",
+              "name": "焦がしきなこのオールドリング",
+              "price": 280,
+              "description": "表面がさっくりした生地にきなこをまぶす。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-3-staple-1",
+              "name": "シュガーリング",
+              "price": 170,
+              "description": "ふわっとした生地に砂糖をまぶして。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "donut-3-staple-2",
+              "name": "きな粉ドーナツ",
+              "price": 210,
+              "description": "香ばしいきな粉をたっぷり。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "donut-3-staple-3",
+              "name": "チョコリング",
+              "price": 210,
+              "description": "チョコで表面をコーティング。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "donut-3-staple-4",
+              "name": "シナモンシュガー",
+              "price": 210,
+              "description": "シナモンの香りをまとわせて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "donut-3-section-2",
+          "title": "クリーム・季節",
+          "items": [
+            {
+              "id": "donut-3-original-4",
+              "name": "白桃クリームの丸ドーナツ",
+              "price": 360,
+              "description": "白桃の果肉入りクリームを丸い生地へ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "donut-3-original-5",
+              "name": "ほろ苦い抹茶チョコリング",
+              "price": 340,
+              "description": "抹茶チョコを半分掛けた、甘さ控えめの品。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-3-original-6",
+              "name": "ラム林檎の焼きドーナツ",
+              "price": 350,
+              "description": "ラムの香るりんごを混ぜて焼いた一個。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-3-staple-5",
+              "name": "カスタードドーナツ",
+              "price": 260,
+              "description": "中にカスタードクリームを詰めて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "donut-3-staple-6",
+              "name": "あんバタードーナツ",
+              "price": 330,
+              "description": "粒あんとバターを挟んだ一個。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "donut-3-staple-7",
+              "name": "ホイップドーナツ",
+              "price": 260,
+              "description": "軽やかなクリーム入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "donut-3-staple-8",
+              "name": "レモンケーキドーナツ",
+              "price": 280,
+              "description": "レモンの皮が香る生地。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            }
+          ]
+        },
+        {
+          "id": "donut-3-section-3",
+          "title": "セット・飲料",
+          "items": [
+            {
+              "id": "donut-3-original-7",
+              "name": "高架下の朝ドーナツセット",
+              "price": 580,
+              "description": "塩バターリングと小さな珈琲。午前11時まで。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "donut-3-original-8",
+              "name": "雨あとリングの食べ比べ六個箱",
+              "price": 1680,
+              "description": "定番とクリーム入りを取り混ぜた六個入り。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "donut-3-original-9",
+              "name": "シナモン香るミルクココア",
+              "price": 420,
+              "description": "温かいココアにシナモンを少し添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "donut-3-staple-9",
+              "name": "小粒ドーナツ 六個",
+              "price": 330,
+              "description": "つまみやすい小さな丸型。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "donut-3-staple-10",
+              "name": "牛乳",
+              "price": 280,
+              "description": "冷たいミルクをカップで。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "donut-3-staple-11",
+              "name": "おまかせ六個箱",
+              "price": 1180,
+              "description": "定番から六個を詰め合わせ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "donut-3-staple-12",
+              "name": "カフェオレ",
+              "price": 390,
+              "description": "ミルクたっぷりの一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "高架の柱の間に明るい看板。雨音と電車の音が重なり、ケースには小さな輪が整列する。",
+        "service": "急ぐ客には袋へ手早く詰める。箱詰めは味が分かる小さな紙を上へ載せる。",
+        "signature": "雨あとの塩バターリングと白桃クリームの丸ドーナツ",
+        "localFlavor": "出勤前に一つだけ買う客が多い。夕方には家族へ持ち帰る箱を選ぶ人が増える。"
+      }
     }
   ]
 }

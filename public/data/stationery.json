@@ -477,6 +477,237 @@
         "signature": "灯墨堂の雨色インク 20mlと透かし入り便箋 十枚",
         "localFlavor": "手紙を書く常連や、作品の紙を選ぶ人がゆっくり過ごす。近くの古本屋と客が行き来する。"
       }
+    },
+    {
+      "id": "stationery-3",
+      "name": "文具室 線と点",
+      "category": "stationery",
+      "tags": [
+        "試し書き",
+        "紙もの",
+        "駅前"
+      ],
+      "priceLevel": "normal",
+      "locationType": "station",
+      "era": "modern",
+      "scale": "independent",
+      "description": "駅前の二階にある文具店。試し書きの机と色見本を備え、普段のノートから小さな贈り物まで選べる。",
+      "openingHours": "10:30〜20:00（日曜は18:00まで）",
+      "menuSections": [
+        {
+          "id": "stationery-3-section-1",
+          "title": "筆記具",
+          "items": [
+            {
+              "id": "stationery-3-original-1",
+              "name": "真鍮軸の細字ボールペン",
+              "price": 2420,
+              "description": "重みのある真鍮軸に細字の黒芯を入れたペン。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "stationery-3-original-2",
+              "name": "水彩色鉛筆 六色の小箱",
+              "price": 990,
+              "description": "落ち着いた六色を小さな紙箱に収める。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-3-original-3",
+              "name": "夜色インクの万年筆カートリッジ",
+              "price": 550,
+              "description": "青黒い色のインクを詰めた交換用六本入り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-3-staple-1",
+              "name": "油性ボールペン",
+              "price": 165,
+              "description": "0.7mmの黒インク。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-2",
+              "name": "蛍光ペン",
+              "price": 150,
+              "description": "淡い黄色で文字を目立たせるペン。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-3",
+              "name": "ゲルインクペン",
+              "price": 220,
+              "description": "滑らかな書き心地の黒ペン。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-4",
+              "name": "鉛筆 六本",
+              "price": 290,
+              "description": "学習やスケッチに使えるHB。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "stationery-3-section-2",
+          "title": "紙製品",
+          "items": [
+            {
+              "id": "stationery-3-original-4",
+              "name": "糸綴じ方眼ノート A5",
+              "price": 770,
+              "description": "開きやすい糸綴じの五ミリ方眼ノート。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "stationery-3-original-5",
+              "name": "街角スケッチカード 二十枚",
+              "price": 660,
+              "description": "小さな絵を描ける厚手の無地カード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-3-original-6",
+              "name": "透ける一筆箋 雲模様",
+              "price": 440,
+              "description": "薄い雲の図案が入った一筆箋二十枚綴り。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-3-staple-5",
+              "name": "大学ノート",
+              "price": 198,
+              "description": "B5判、横罫のノート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-6",
+              "name": "メッセージカード",
+              "price": 300,
+              "description": "二つ折りの無地カード。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-7",
+              "name": "方眼ノート",
+              "price": 242,
+              "description": "図や間取りにも使える5mm方眼。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-8",
+              "name": "レターセット",
+              "price": 480,
+              "description": "便箋と封筒を揃えたセット。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "stationery-3-section-3",
+          "title": "事務小物",
+          "items": [
+            {
+              "id": "stationery-3-original-7",
+              "name": "木台付きテープカッター 小型",
+              "price": 1980,
+              "description": "机の端に置きやすい木の台のカッター。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "stationery-3-original-8",
+              "name": "二穴書類クリップ 十個組",
+              "price": 330,
+              "description": "穴を開けた紙を簡単に綴じる小さな留め具。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-3-original-9",
+              "name": "折りたたみ定規 三十センチ",
+              "price": 550,
+              "description": "半分に折って筆箱にしまえる透明定規。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "stationery-3-staple-9",
+              "name": "消しゴム",
+              "price": 110,
+              "description": "鉛筆の文字を消す白い消しゴム。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-10",
+              "name": "クリップ 一箱",
+              "price": 180,
+              "description": "書類をまとめる金属クリップ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-11",
+              "name": "定規 15cm",
+              "price": 165,
+              "description": "透明な樹脂製定規。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "stationery-3-staple-12",
+              "name": "スティックのり",
+              "price": 220,
+              "description": "紙を貼る繰り出し式のり。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "窓際の長机に試し書き用紙が置かれ、壁には紙の色見本が整然と吊るされる。",
+        "service": "用途と持ち歩く大きさを聞いて案内する。筆記具は試し書きしてから色を選べる。",
+        "signature": "真鍮軸の細字ボールペンと糸綴じ方眼ノート A5",
+        "localFlavor": "放課後の学生と帰宅途中の会社員が訪れる。階段の踊り場には手書きの催し案内がある。"
+      }
     }
   ]
 }

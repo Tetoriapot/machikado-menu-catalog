@@ -477,6 +477,237 @@
         "signature": "シェアスナックと限定風ドリンク",
         "localFlavor": "休日の家族や友人同士で賑わう。"
       }
+    },
+    {
+      "id": "cinema-3",
+      "name": "キネマ星降り 売店",
+      "category": "cinema",
+      "tags": [
+        "小さな映画館",
+        "文化会館",
+        "上映待ち"
+      ],
+      "priceLevel": "normal",
+      "locationType": "local-city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "町の文化会館に併設された小さな映画館の売店。上映を待つ間に選べる軽食と、映画館の印が入った小物を用意する。",
+      "openingHours": "初回上映の30分前〜最終上映開始まで",
+      "menuSections": [
+        {
+          "id": "cinema-3-section-1",
+          "title": "スナック",
+          "items": [
+            {
+              "id": "cinema-3-original-1",
+              "name": "黒糖きなこポップコーン 小",
+              "price": 520,
+              "description": "黒糖ときなこの風味をまとわせた小袋。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "cinema-3-original-2",
+              "name": "カレー塩ポップコーン 中",
+              "price": 580,
+              "description": "穏やかなカレー風味の塩で味付けする。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "cinema-3-original-3",
+              "name": "チーズ包み焼きプレッツェル",
+              "price": 620,
+              "description": "チーズを入れて焼いた柔らかいプレッツェル。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "cinema-3-staple-1",
+              "name": "塩ポップコーン M",
+              "price": 480,
+              "description": "定番の軽い塩味。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cinema-3-staple-2",
+              "name": "一口チキンボックス",
+              "price": 650,
+              "description": "つまみやすい小さな唐揚げ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cinema-3-staple-3",
+              "name": "キャラメルポップコーン M",
+              "price": 580,
+              "description": "甘いコーティングのポップコーン。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "cinema-3-staple-4",
+              "name": "チュロス",
+              "price": 420,
+              "description": "シナモンシュガーの揚げ菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "cinema-3-section-2",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "cinema-3-original-4",
+              "name": "シトラスジンジャーソーダ",
+              "price": 480,
+              "description": "柑橘と生姜のシロップを炭酸で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "cinema-3-original-5",
+              "name": "星降りミルクココア",
+              "price": 500,
+              "description": "小さな星形マシュマロを載せた温かいココア。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "cinema-3-original-6",
+              "name": "いちご香るアイスミルクティー",
+              "price": 480,
+              "description": "いちごの香りを添えた冷たいミルクティー。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "cinema-3-staple-5",
+              "name": "コーラ M",
+              "price": 350,
+              "description": "ふたとストロー付きのカップ。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cinema-3-staple-6",
+              "name": "キッズアップル 小",
+              "price": 250,
+              "description": "小さなカップのりんご飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cinema-3-staple-7",
+              "name": "ジンジャーエール M",
+              "price": 350,
+              "description": "爽やかな炭酸飲料。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "cinema-3-staple-8",
+              "name": "オレンジジュース M",
+              "price": 390,
+              "description": "果実の甘みが広がる一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        },
+        {
+          "id": "cinema-3-section-3",
+          "title": "セット・グッズ",
+          "items": [
+            {
+              "id": "cinema-3-original-7",
+              "name": "星降りペアスナックセット",
+              "price": 1480,
+              "description": "小ポップコーン二袋とソーダ二杯のセット。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "cinema-3-original-8",
+              "name": "キネマの切符柄メモ帳",
+              "price": 550,
+              "description": "架空の映画館の切符を模したメモ帳。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "cinema-3-original-9",
+              "name": "星形フィルムキーホルダー",
+              "price": 660,
+              "description": "フィルムの枠を星に見立てたアクリル小物。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "cinema-3-staple-9",
+              "name": "ポップコーンセット",
+              "price": 750,
+              "description": "塩MとソフトドリンクM。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cinema-3-staple-10",
+              "name": "チケット保管ファイル",
+              "price": 660,
+              "description": "鑑賞券を保管できる小型ファイル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "cinema-3-staple-11",
+              "name": "ペアセット",
+              "price": 1280,
+              "description": "ポップコーンLとドリンク二杯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "cinema-3-staple-12",
+              "name": "クリアファイル",
+              "price": 480,
+              "description": "架空作品の絵柄入りA4ファイル。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "切符窓口の隣に木枠の売店があり、壁には架空映画の上映予定が貼られている。",
+        "service": "上映開始の時刻を確認しながら手早く渡す。飲み物の蓋を確かめてトレーを添える。",
+        "signature": "黒糖きなこポップコーン 小とシトラスジンジャーソーダ",
+        "localFlavor": "昼は近隣の映画好き、夕方は学校帰りの友人同士が訪れる。上映後に感想を話す声が残る。"
+      }
     }
   ]
 }

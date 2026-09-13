@@ -477,6 +477,237 @@
         "signature": "白あん柚子のたい焼きとあずきチーズたい焼き",
         "localFlavor": "近所の高齢の常連が茶飲み話に寄る。休日は家族へ持ち帰る箱の注文が増える。"
       }
+    },
+    {
+      "id": "taiyaki-3",
+      "name": "たい焼き 夕市の鯛",
+      "category": "taiyaki",
+      "tags": [
+        "夕市",
+        "食べ歩き",
+        "焼きたて"
+      ],
+      "priceLevel": "cheap",
+      "locationType": "shopping-street",
+      "era": "modern",
+      "scale": "independent",
+      "description": "夕方から賑わう市場通りのたい焼き屋。食べ歩き向けの小ぶりな鯛と、惣菜入りの品を焼いている。",
+      "openingHours": "12:00〜21:00（火曜休）",
+      "menuSections": [
+        {
+          "id": "taiyaki-3-section-1",
+          "title": "たい焼き",
+          "items": [
+            {
+              "id": "taiyaki-3-original-1",
+              "name": "黒糖胡桃あんの小鯛",
+              "price": 280,
+              "description": "黒糖の餡に刻みくるみを混ぜた小ぶりな一匹。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "taiyaki-3-original-2",
+              "name": "焼き林檎チーズの鯛",
+              "price": 320,
+              "description": "りんご煮とチーズを生地で包んで焼く。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-3-original-3",
+              "name": "ねぎ味噌じゃがの惣菜鯛",
+              "price": 300,
+              "description": "じゃがいもとねぎ味噌を詰めた食事向けの品。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-3-staple-1",
+              "name": "粒あんたい焼き",
+              "price": 200,
+              "description": "小豆の粒を残した定番の餡。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "taiyaki-3-staple-2",
+              "name": "白あんたい焼き",
+              "price": 230,
+              "description": "白いんげんのまろやかな餡。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "taiyaki-3-staple-3",
+              "name": "こしあんたい焼き",
+              "price": 200,
+              "description": "なめらかな餡を尻尾まで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "taiyaki-3-staple-4",
+              "name": "チョコたい焼き",
+              "price": 250,
+              "description": "温かいチョコクリームを包んで。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "taiyaki-3-section-2",
+          "title": "甘味",
+          "items": [
+            {
+              "id": "taiyaki-3-original-4",
+              "name": "夕市の白玉黒蜜カップ",
+              "price": 380,
+              "description": "白玉と小豆に黒蜜を合わせた小さなカップ。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": true
+            },
+            {
+              "id": "taiyaki-3-original-5",
+              "name": "焼き餅の胡麻しるこ",
+              "price": 420,
+              "description": "胡麻風味の汁粉に小さな焼き餅を浮かべる。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-3-original-6",
+              "name": "蜜柑と寒天の涼み鉢",
+              "price": 360,
+              "description": "みかん果肉と寒天を軽いシロップで。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-3-staple-5",
+              "name": "焼き団子",
+              "price": 150,
+              "description": "香ばしい醤油の串団子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "dessert"
+            },
+            {
+              "id": "taiyaki-3-staple-6",
+              "name": "小豆ソフト",
+              "price": 420,
+              "description": "ソフトクリームに粒あんを添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "taiyaki-3-staple-7",
+              "name": "ぜんざい",
+              "price": 450,
+              "description": "温かい小豆に焼き餅を添えて。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "taiyaki-3-staple-8",
+              "name": "わらび餅カップ",
+              "price": 390,
+              "description": "きな粉をまぶした食べ歩き用。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "taiyaki-3-section-3",
+          "title": "飲みもの・セット",
+          "items": [
+            {
+              "id": "taiyaki-3-original-7",
+              "name": "焙じ茶と小鯛のひと休みセット",
+              "price": 480,
+              "description": "温かい焙じ茶と黒糖胡桃あんの小鯛一匹。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "taiyaki-3-original-8",
+              "name": "夕市の食べ歩き小鯛 六匹箱",
+              "price": 1680,
+              "description": "甘い品と惣菜鯛を混ぜた六匹の箱詰め。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-3-original-9",
+              "name": "黒糖生姜の温かいお茶",
+              "price": 280,
+              "description": "番茶に生姜と少量の黒糖を合わせる。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "taiyaki-3-staple-9",
+              "name": "煎茶",
+              "price": 180,
+              "description": "温かい日本茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "taiyaki-3-staple-10",
+              "name": "保冷袋",
+              "price": 110,
+              "description": "冷たい甘味の持ち帰り用。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "taiyaki-3-staple-11",
+              "name": "ほうじ茶",
+              "price": 180,
+              "description": "香ばしい焙じ茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "taiyaki-3-staple-12",
+              "name": "たい焼き五個箱",
+              "price": 1160,
+              "description": "粒あんたい焼きの箱入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "小さな屋根の下に焼き台と受け渡し窓。店先にその日の餡を書いた板が立つ。",
+        "service": "焼き上がりの順に番号で渡す。惣菜入りは熱いので紙袋を厚くして案内する。",
+        "signature": "黒糖胡桃あんの小鯛と夕市の白玉黒蜜カップ",
+        "localFlavor": "市場の買い物客が帰り道に一匹買う。夜は店を閉めた商店主が差し入れを持ち帰る。"
+      }
     }
   ]
 }

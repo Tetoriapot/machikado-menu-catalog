@@ -477,6 +477,237 @@
         "signature": "旅の随筆『海まで六つの乗り換え』と写真集『朝の台所、十二の窓』",
         "localFlavor": "住宅街の読書会が月ごとの本を選びに来る。近所の喫茶店には、店員が選んだ一冊が置かれている。"
       }
+    },
+    {
+      "id": "bookstore-3",
+      "name": "本と余白 みちくさ書房",
+      "category": "bookstore",
+      "tags": [
+        "独立書店",
+        "散歩道",
+        "選書"
+      ],
+      "priceLevel": "normal",
+      "locationType": "suburb",
+      "era": "modern",
+      "scale": "independent",
+      "description": "川沿いの散歩道にある独立書店。旅や暮らしの本を中心に、店主が短い紹介文を添えている。書名はすべて架空。",
+      "openingHours": "11:00〜20:00（月曜休）",
+      "menuSections": [
+        {
+          "id": "bookstore-3-section-1",
+          "title": "文芸",
+          "items": [
+            {
+              "id": "bookstore-3-original-1",
+              "name": "小説『坂道に灯る手紙』",
+              "price": 1760,
+              "description": "坂の町で手紙を配る人々を描いた架空の小説。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-3-original-2",
+              "name": "短編集『火曜日の小さな駅』",
+              "price": 1540,
+              "description": "地方駅を舞台にした架空の連作短編集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-3-original-3",
+              "name": "詩集『川面に余白を』",
+              "price": 1320,
+              "description": "水辺の風景を集めた架空の薄い詩集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-3-staple-1",
+              "name": "文庫小説『雨の向こうの停留所』",
+              "price": 780,
+              "description": "架空の町を舞台にした短編連作。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-2",
+              "name": "文庫ミステリー『七番街の鍵』",
+              "price": 940,
+              "description": "小さな謎を追う架空の推理小説。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-3",
+              "name": "単行本『夜明けの書架』",
+              "price": 1780,
+              "description": "古い書店をめぐる架空の長編小説。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-4",
+              "name": "詩集『木曜日の空白』",
+              "price": 1450,
+              "description": "季節の風景を集めた架空の詩集。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "bookstore-3-section-2",
+          "title": "実用・趣味",
+          "items": [
+            {
+              "id": "bookstore-3-original-4",
+              "name": "『はじめての路地スケッチ』",
+              "price": 1980,
+              "description": "身近な路地の描き方を紹介する架空の技法書。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-3-original-5",
+              "name": "『小さな台所の季節便り』",
+              "price": 1650,
+              "description": "少量の料理と暮らしを扱う架空の実用書。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-3-original-6",
+              "name": "『各駅停車で見つけた椅子』",
+              "price": 2200,
+              "description": "駅と休憩場所を巡る架空の旅の写真集。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-3-staple-5",
+              "name": "料理本『一汁の台所』",
+              "price": 1430,
+              "description": "日々の食事を扱う架空の実用書。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-6",
+              "name": "TRPG入門『物語を囲む夜』",
+              "price": 2180,
+              "description": "対話型ゲームを紹介する架空の解説書。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-7",
+              "name": "旅行本『各駅停車の休日』",
+              "price": 1650,
+              "description": "鉄道旅を紹介する架空の紀行。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-8",
+              "name": "図鑑『身近な葉っぱ』",
+              "price": 2420,
+              "description": "身近な植物を学ぶ架空の図鑑。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "bookstore-3-section-3",
+          "title": "雑誌・小物",
+          "items": [
+            {
+              "id": "bookstore-3-original-7",
+              "name": "季刊誌『余白の散歩』",
+              "price": 990,
+              "description": "散歩と町の店を紹介する架空の季刊雑誌。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "bookstore-3-original-8",
+              "name": "川模様の読書記録カード",
+              "price": 440,
+              "description": "読んだ本の感想を書ける十二枚入りカード。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-3-original-9",
+              "name": "みちくさ活版しおりセット",
+              "price": 550,
+              "description": "草の図案を活版で刷った三枚のしおり。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "bookstore-3-staple-9",
+              "name": "月刊誌『街あるき通信』",
+              "price": 780,
+              "description": "地域散策を特集する架空の雑誌。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-10",
+              "name": "読書ノート",
+              "price": 480,
+              "description": "読んだ本の感想を残すノート。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-11",
+              "name": "季刊誌『紙と喫茶』",
+              "price": 1100,
+              "description": "読書と喫茶を扱う架空の季刊誌。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "bookstore-3-staple-12",
+              "name": "しおり 三枚",
+              "price": 360,
+              "description": "厚紙のイラストしおり。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "低い木の本棚が窓に向かって並び、入口に今月の小さな選書台がある。",
+        "service": "本の探し物は用途や気分を聞いて棚を案内する。贈り物には落ち着いた色の紙で包む。",
+        "signature": "小説『坂道に灯る手紙』と『はじめての路地スケッチ』",
+        "localFlavor": "川沿いの散歩の途中に立ち寄る客が多い。月末の閉店前には短い読書会の椅子が並ぶ。"
+      }
     }
   ]
 }

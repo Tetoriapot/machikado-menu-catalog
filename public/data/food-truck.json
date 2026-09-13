@@ -473,6 +473,235 @@
         "signature": "旅ねこの煮込みチキンご飯と炙り豚と温玉のライスボウル",
         "localFlavor": "公園の催しや週末の市を回る。常連は次の出店日を黒板で確認していく。"
       }
+    },
+    {
+      "id": "food-truck-3",
+      "name": "旅する台所 風見ワゴン",
+      "category": "food-truck",
+      "tags": [
+        "川沿い",
+        "イベント出店",
+        "屋外ランチ"
+      ],
+      "priceLevel": "normal",
+      "locationType": "city",
+      "era": "modern",
+      "scale": "independent",
+      "description": "川沿いの広場や週末市を巡る緑色のキッチンカー。焼き野菜と香草を添えたご飯ものを提供する。",
+      "openingHours": "平日11:00〜14:00／土日10:00〜16:00（出店日は店頭掲示）",
+      "menuSections": [
+        {
+          "id": "food-truck-3-section-1",
+          "title": "ランチボックス",
+          "items": [
+            {
+              "id": "food-truck-3-original-1",
+              "name": "香草チキンと焼き人参のライス箱",
+              "price": 980,
+              "description": "香草風味の鶏と焼き人参を雑穀ご飯に載せる。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-3-original-2",
+              "name": "豚肩肉と白豆のトマト煮ボックス",
+              "price": 1080,
+              "description": "豚肩肉と白豆の煮込みを紙の箱に詰める。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-3-original-3",
+              "name": "焼ききのことレモンライス",
+              "price": 920,
+              "description": "数種のきのこを焼き、レモン風味のご飯に添える。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-3-staple-1",
+              "name": "タコライス",
+              "price": 850,
+              "description": "挽肉、野菜、チーズを彩りよく。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "food-truck-3-staple-2",
+              "name": "野菜デリボックス",
+              "price": 940,
+              "description": "豆と季節野菜を盛ったご飯。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "food-truck-3-staple-3",
+              "name": "チキンオーバーライス",
+              "price": 900,
+              "description": "スパイスチキンとヨーグルトソース。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "food-truck-3-staple-4",
+              "name": "ローストポーク丼",
+              "price": 1080,
+              "description": "薄切り豚肉に香味だれ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "main"
+            }
+          ]
+        },
+        {
+          "id": "food-truck-3-section-2",
+          "title": "サイド",
+          "items": [
+            {
+              "id": "food-truck-3-original-4",
+              "name": "クミン香るじゃがいもの包み",
+              "price": 380,
+              "description": "小さなじゃがいもにクミンをまぶして焼く。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-3-original-5",
+              "name": "紫キャベツとりんごのコールスロー",
+              "price": 320,
+              "description": "紫キャベツとりんごをさっぱりした味に和える。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-3-original-6",
+              "name": "ひよこ豆の小さな揚げ団子",
+              "price": 420,
+              "description": "つぶした豆と香草の団子を三個ずつ包む。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-3-staple-5",
+              "name": "スパイスポテト",
+              "price": 350,
+              "description": "香辛料をきかせたポテト。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "food-truck-3-staple-6",
+              "name": "ライス大盛り",
+              "price": 110,
+              "description": "お腹が空いた時の増量。",
+              "recommended": false,
+              "kind": "addon"
+            },
+            {
+              "id": "food-truck-3-staple-7",
+              "name": "コールスロー",
+              "price": 250,
+              "description": "さっぱりしたキャベツのサラダ。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "food-truck-3-staple-8",
+              "name": "目玉焼き追加",
+              "price": 110,
+              "description": "ご飯に卵を追加するオプション。",
+              "recommended": false,
+              "kind": "addon"
+            }
+          ]
+        },
+        {
+          "id": "food-truck-3-section-3",
+          "title": "ドリンク",
+          "items": [
+            {
+              "id": "food-truck-3-original-7",
+              "name": "風見ハーブレモネード",
+              "price": 450,
+              "description": "レモンと香草のシロップを炭酸で割る。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "food-truck-3-original-8",
+              "name": "桃とジャスミンのアイスティー",
+              "price": 420,
+              "description": "桃の香りを加えた冷たいジャスミン茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-3-original-9",
+              "name": "ほうじ茶ミルクの温かいカップ",
+              "price": 450,
+              "description": "濃いほうじ茶をミルクでまろやかにする。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "food-truck-3-staple-9",
+              "name": "自家製レモネード",
+              "price": 380,
+              "description": "レモンの甘酸っぱさを生かした一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "food-truck-3-staple-10",
+              "name": "ミネラルウォーター",
+              "price": 170,
+              "description": "持ち歩き用のボトル。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "food-truck-3-staple-11",
+              "name": "アイスコーヒー",
+              "price": 300,
+              "description": "香りのよい冷たい珈琲。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "food-truck-3-staple-12",
+              "name": "ウーロン茶",
+              "price": 220,
+              "description": "さっぱりした無糖茶。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "緑色の車体に小さな黒板を吊るす。受け取り窓の横に折りたたみ椅子と出店場所の地図。",
+        "service": "番号札を渡し、出来上がると窓から番号を呼ぶ。持ち歩き用には蓋を留めて渡す。",
+        "signature": "香草チキンと焼き人参のライス箱とクミン香るじゃがいもの包み",
+        "localFlavor": "平日は会社員、週末は広場の市の来場者が並ぶ。雨の強い日は早めに片付けることがある。"
+      }
     }
   ]
 }

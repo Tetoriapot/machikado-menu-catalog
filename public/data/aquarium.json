@@ -477,6 +477,237 @@
         "signature": "ペンギン親子の指人形と海の仲間の絵合わせカード",
         "localFlavor": "海辺の宿の宿泊客が土産を買い、週末の午後は展示を見終えた家族で賑わう。"
       }
+    },
+    {
+      "id": "aquarium-3",
+      "name": "汐音水族館 売店 しおの窓",
+      "category": "aquarium",
+      "tags": [
+        "海辺",
+        "水族館",
+        "家族旅行"
+      ],
+      "priceLevel": "normal",
+      "locationType": "tourist",
+      "era": "modern",
+      "scale": "independent",
+      "description": "小さな湾の水族館にある売店。磯の生き物を題材にした土産と、海を眺めながら食べられる軽食を扱う。",
+      "openingHours": "9:30〜17:00（水族館の休館日に準ずる）",
+      "menuSections": [
+        {
+          "id": "aquarium-3-section-1",
+          "title": "おみやげ",
+          "items": [
+            {
+              "id": "aquarium-3-original-1",
+              "name": "潮だまり生きものハンカチ",
+              "price": 770,
+              "description": "小さな磯の生き物を描いた布のハンカチ。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": true
+            },
+            {
+              "id": "aquarium-3-original-2",
+              "name": "ラッコの貝がら小皿",
+              "price": 1320,
+              "description": "貝を抱くラッコの図案を入れた小皿。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-3-original-3",
+              "name": "汐音観察スケッチ帳",
+              "price": 660,
+              "description": "館内で見た生き物を描ける無地の帳面。",
+              "kind": "goods",
+              "recommendationGroup": "goods",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-3-staple-1",
+              "name": "ペンギンぬいぐるみ",
+              "price": 1980,
+              "description": "抱えやすい小ぶりのぬいぐるみ。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "aquarium-3-staple-2",
+              "name": "ポストカード五枚",
+              "price": 610,
+              "description": "展示生物を描いたイラストカード。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "aquarium-3-staple-3",
+              "name": "くらげキーホルダー",
+              "price": 660,
+              "description": "透明素材の涼しげな小物。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "aquarium-3-staple-4",
+              "name": "おさかなクッキー",
+              "price": 970,
+              "description": "魚型の焼き菓子を詰めた箱。",
+              "recommended": false,
+              "kind": "goods",
+              "recommendationGroup": "goods"
+            }
+          ]
+        },
+        {
+          "id": "aquarium-3-section-2",
+          "title": "軽食",
+          "items": [
+            {
+              "id": "aquarium-3-original-4",
+              "name": "海老カツの潮風サンド",
+              "price": 780,
+              "description": "海老カツと千切りキャベツを挟んだパン。",
+              "kind": "food",
+              "recommendationGroup": "main",
+              "recommended": true
+            },
+            {
+              "id": "aquarium-3-original-5",
+              "name": "磯のり塩のころころポテト",
+              "price": 450,
+              "description": "丸いポテトに海苔塩をまぶした軽食。",
+              "kind": "food",
+              "recommendationGroup": "side",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-3-original-6",
+              "name": "貝がらマドレーヌ 二個",
+              "price": 420,
+              "description": "貝の形で焼いたしっとりした焼き菓子。",
+              "kind": "food",
+              "recommendationGroup": "dessert",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-3-staple-5",
+              "name": "フィッシュバーガー",
+              "price": 680,
+              "description": "白身魚フライとタルタル。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "aquarium-3-staple-6",
+              "name": "チュロス",
+              "price": 390,
+              "description": "砂糖をまぶした細長い揚げ菓子。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "aquarium-3-staple-7",
+              "name": "ポテトフライ",
+              "price": 380,
+              "description": "小さな紙カップ入り。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            },
+            {
+              "id": "aquarium-3-staple-8",
+              "name": "ミルクソフト",
+              "price": 440,
+              "description": "甘いミルクのソフトクリーム。",
+              "recommended": false,
+              "kind": "food",
+              "recommendationGroup": "side"
+            }
+          ]
+        },
+        {
+          "id": "aquarium-3-section-3",
+          "title": "飲みもの",
+          "items": [
+            {
+              "id": "aquarium-3-original-7",
+              "name": "波しぶきライムソーダ",
+              "price": 480,
+              "description": "ライム風味の炭酸に青いシロップを添える。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": true
+            },
+            {
+              "id": "aquarium-3-original-8",
+              "name": "塩キャラメルの温かいミルク",
+              "price": 480,
+              "description": "塩キャラメルを溶かした甘いホットミルク。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-3-original-9",
+              "name": "白桃と紅茶の夕なぎドリンク",
+              "price": 450,
+              "description": "白桃の香りを加えた冷たい紅茶。",
+              "kind": "drink",
+              "recommendationGroup": "drink",
+              "recommended": false
+            },
+            {
+              "id": "aquarium-3-staple-9",
+              "name": "ブルーソーダ",
+              "price": 450,
+              "description": "海を思わせる青い炭酸。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "aquarium-3-staple-10",
+              "name": "ホットココア",
+              "price": 420,
+              "description": "温かいミルクの甘い飲みもの。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "aquarium-3-staple-11",
+              "name": "オレンジジュース",
+              "price": 320,
+              "description": "子ども向けにも飲みやすい一杯。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            },
+            {
+              "id": "aquarium-3-staple-12",
+              "name": "ミネラルウォーター",
+              "price": 200,
+              "description": "持ち歩き用の500ml。",
+              "recommended": false,
+              "kind": "drink",
+              "recommendationGroup": "drink"
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "interior": "大きな窓の向こうに湾が広がり、棚には館内の生き物を描いた品が並ぶ。",
+        "service": "展示の感想に耳を傾けながら土産を包む。飲食物は窓際の休憩席で受け取れる。",
+        "signature": "潮だまり生きものハンカチと海老カツの潮風サンド",
+        "localFlavor": "遠足の子どもと観光客が交じる。閉館前にはバスの出発を待つ家族が最後の買い物をする。"
+      }
     }
   ]
 }
