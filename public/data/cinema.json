@@ -385,7 +385,7 @@
               "id": "cinema-2-item-11",
               "name": "ポップコーンセット",
               "price": 830,
-              "description": "塩MとソフトドリンクM。",
+              "description": "チーズポップコーンMと、コーラMまたはアイスティーM一杯。",
               "recommended": true,
               "kind": "food",
               "recommendationGroup": "side"
@@ -394,7 +394,7 @@
               "id": "cinema-2-curated-7",
               "name": "友だちスナックセット",
               "price": 1680,
-              "description": "ナチョス、ポップコーンM、ドリンク二杯。",
+              "description": "ナチョス、チーズポップコーンM、コーラM二杯。二人向けのセット。",
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"

@@ -38,7 +38,7 @@ test('歴史店舗120店は舞台年・通貨・固有の名物と情景を持�
  for(const shop of historical){
   assert.equal(shop.setting?.year,settings[shop.era as keyof typeof settings]);assert.ok(shop.setting?.place);
   assert.equal(shop.currency,eraCurrencies[shop.era]);
-  const items=shop.menuSections.flatMap(s=>s.items);assert.equal(items.length,21);count+=items.length;
+  const items=shop.menuSections.flatMap(s=>s.items);assert.equal(items.filter(i=>!i.id.includes('-review-')).length,21);count+=items.length;
   assert.ok(items.every(i=>Number.isSafeInteger(i.price)&&i.price>=0));
   const signatures=items.filter(i=>i.id.includes('-signature-'));assert.equal(signatures.length,3);
   for(const sibling of historical.filter(s=>s.era===shop.era&&s.category===shop.category&&s.id!==shop.id)){
@@ -49,7 +49,7 @@ test('歴史店舗120店は舞台年・通貨・固有の名物と情景を持�
   assert.doesNotMatch(JSON.stringify(shop),/スマートフォン|スマホ|QRコード|Wi-?Fi|USB|キャッシュレス|電子マネー|タッチパネル|オンライン注文/i,shop.id);
   assert.ok(shop.priceNote?.includes('架空価格'));
  }
- assert.equal(count,2520);
+ assert.equal(count,2535);
 });
 
 test('舞台・店名・名物から該当店舗へ到達し、歴史店舗の共有URLを解釈できる',()=>{

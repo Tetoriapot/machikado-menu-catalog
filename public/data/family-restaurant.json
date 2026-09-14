@@ -829,19 +829,19 @@
             },
             {
               "name": "きのこ和風パスタ",
-              "price": 320,
+              "price": 620,
               "kind": "food",
               "description": "三種のきのこを醤油バターで仕上げたパスタ。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-1-item-7",
               "recommended": false
             },
             {
               "name": "マルゲリータ",
-              "price": 280,
+              "price": 680,
               "kind": "food",
-              "description": "トマトとチーズの薄焼きピザ。",
-              "recommendationGroup": "side",
+              "description": "一人用の約20cmピザ。トマト、チーズ、バジルをのせて焼く。",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-1-item-8",
               "recommended": false
             },
@@ -856,7 +856,7 @@
             },
             {
               "name": "フライドポテト",
-              "price": 480,
+              "price": 250,
               "kind": "food",
               "description": "みんなでつまめる細切りポテト。",
               "recommendationGroup": "side",
@@ -865,18 +865,18 @@
             },
             {
               "name": "お子さまプレート",
-              "price": 220,
+              "price": 480,
               "kind": "food",
               "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-1-item-11",
               "recommended": false
             },
             {
               "name": "家族で分ける前菜プレート",
-              "price": 250,
+              "price": 680,
               "kind": "food",
-              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "description": "二〜三人で分ける盛り合わせ。小さな揚げ物、ハム、温野菜を一皿に。",
               "recommendationGroup": "side",
               "id": "family-restaurant-heisei-1-item-12",
               "recommended": false
@@ -910,7 +910,7 @@
               "price": 280,
               "kind": "food",
               "description": "濃厚なブラウニーにバニラアイスを添えて。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "dessert",
               "id": "family-restaurant-heisei-1-item-14",
               "recommended": false
             },
@@ -1065,19 +1065,19 @@
             },
             {
               "name": "きのこ和風パスタ",
-              "price": 320,
+              "price": 620,
               "kind": "food",
               "description": "三種のきのこを醤油バターで仕上げたパスタ。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-2-item-7",
               "recommended": false
             },
             {
               "name": "マルゲリータ",
-              "price": 280,
+              "price": 680,
               "kind": "food",
-              "description": "トマトとチーズの薄焼きピザ。",
-              "recommendationGroup": "side",
+              "description": "一人用の約20cmピザ。トマト、チーズ、バジルをのせて焼く。",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-2-item-8",
               "recommended": false
             },
@@ -1092,7 +1092,7 @@
             },
             {
               "name": "フライドポテト",
-              "price": 480,
+              "price": 250,
               "kind": "food",
               "description": "みんなでつまめる細切りポテト。",
               "recommendationGroup": "side",
@@ -1101,18 +1101,18 @@
             },
             {
               "name": "お子さまプレート",
-              "price": 220,
+              "price": 480,
               "kind": "food",
               "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-2-item-11",
               "recommended": false
             },
             {
               "name": "家族で分ける前菜プレート",
-              "price": 250,
+              "price": 680,
               "kind": "food",
-              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "description": "二〜三人で分ける盛り合わせ。小さな揚げ物、ハム、温野菜を一皿に。",
               "recommendationGroup": "side",
               "id": "family-restaurant-heisei-2-item-12",
               "recommended": false
@@ -1146,7 +1146,7 @@
               "price": 280,
               "kind": "food",
               "description": "濃厚なブラウニーにバニラアイスを添えて。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "dessert",
               "id": "family-restaurant-heisei-2-item-14",
               "recommended": false
             },
@@ -1301,19 +1301,19 @@
             },
             {
               "name": "きのこ和風パスタ",
-              "price": 320,
+              "price": 620,
               "kind": "food",
               "description": "三種のきのこを醤油バターで仕上げたパスタ。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-3-item-7",
               "recommended": false
             },
             {
               "name": "マルゲリータ",
-              "price": 280,
+              "price": 680,
               "kind": "food",
-              "description": "トマトとチーズの薄焼きピザ。",
-              "recommendationGroup": "side",
+              "description": "一人用の約20cmピザ。トマト、チーズ、バジルをのせて焼く。",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-3-item-8",
               "recommended": false
             },
@@ -1328,7 +1328,7 @@
             },
             {
               "name": "フライドポテト",
-              "price": 480,
+              "price": 250,
               "kind": "food",
               "description": "みんなでつまめる細切りポテト。",
               "recommendationGroup": "side",
@@ -1337,18 +1337,18 @@
             },
             {
               "name": "お子さまプレート",
-              "price": 220,
+              "price": 480,
               "kind": "food",
               "description": "小さなハンバーグとオムレツ、ゼリーのセット。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "family-restaurant-heisei-3-item-11",
               "recommended": false
             },
             {
               "name": "家族で分ける前菜プレート",
-              "price": 250,
+              "price": 680,
               "kind": "food",
-              "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。",
+              "description": "二〜三人で分ける盛り合わせ。小さな揚げ物、ハム、温野菜を一皿に。",
               "recommendationGroup": "side",
               "id": "family-restaurant-heisei-3-item-12",
               "recommended": false
@@ -1382,7 +1382,7 @@
               "price": 280,
               "kind": "food",
               "description": "濃厚なブラウニーにバニラアイスを添えて。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "dessert",
               "id": "family-restaurant-heisei-3-item-14",
               "recommended": false
             },

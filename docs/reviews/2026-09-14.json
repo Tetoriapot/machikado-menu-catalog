@@ -1,0 +1,3191 @@
+{
+  "date": "2026-09-14",
+  "baselineCommit": "080bccf3148301fa0e6c516f3c3d15fb21623b02",
+  "before": {
+    "shops": 315,
+    "items": 6619
+  },
+  "after": {
+    "shops": 315,
+    "items": 6637
+  },
+  "baselineItemIdsSha256": "0038b82d5164bb009b2ee3d9fb4b39d0d907e097bfe5a25506fbc10f28c0f04b",
+  "baselineShopIdsSha256": "54343faff3deb2d1f92d18bb0871357e3be41216dac2fe4113e3e012e3c3939e",
+  "summary": {
+    "editedItems": 214,
+    "priceChanges": 168,
+    "addedItems": 18,
+    "editedShops": 63
+  },
+  "byEra": {
+    "modern": {
+      "shops": 195,
+      "items": 4102
+    },
+    "showa": {
+      "shops": 30,
+      "items": 633
+    },
+    "victorian": {
+      "shops": 30,
+      "items": 633
+    },
+    "america-1920s": {
+      "shops": 30,
+      "items": 633
+    },
+    "heisei": {
+      "shops": 30,
+      "items": 636
+    }
+  },
+  "sourceRegister": "docs/catalog-review.md",
+  "scope": "全315店舗の構造を走査。修正対象は価格の明確な内部矛盾・数量・分類・営業時間と一部資料の照合。全商品を市場価格や歴史史料で確認済みとはしない。",
+  "changes": [
+    {
+      "shopId": "bakery-victorian-1",
+      "itemId": "bakery-victorian-1-item-1",
+      "before": {
+        "name": "白パン 一斤",
+        "description": "白い小麦の大きなパン。"
+      },
+      "after": {
+        "name": "白パン 二ポンド",
+        "description": "白い小麦の大きなパン。 一個の重さは二ポンド（約907g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": [
+        "bread-hansard"
+      ]
+    },
+    {
+      "shopId": "bakery-victorian-1",
+      "itemId": "bakery-victorian-1-item-2",
+      "before": {
+        "name": "全粒粉パン 一斤",
+        "description": "ふすま入りの食事パン。"
+      },
+      "after": {
+        "name": "全粒粉パン 二ポンド",
+        "description": "ふすま入りの食事パン。 一個の重さは二ポンド（約907g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": [
+        "bread-hansard"
+      ]
+    },
+    {
+      "shopId": "bakery-victorian-2",
+      "itemId": "bakery-victorian-2-item-1",
+      "before": {
+        "name": "白パン 一斤",
+        "description": "白い小麦の大きなパン。"
+      },
+      "after": {
+        "name": "白パン 二ポンド",
+        "description": "白い小麦の大きなパン。 一個の重さは二ポンド（約907g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": [
+        "bread-hansard"
+      ]
+    },
+    {
+      "shopId": "bakery-victorian-2",
+      "itemId": "bakery-victorian-2-item-2",
+      "before": {
+        "name": "全粒粉パン 一斤",
+        "description": "ふすま入りの食事パン。"
+      },
+      "after": {
+        "name": "全粒粉パン 二ポンド",
+        "description": "ふすま入りの食事パン。 一個の重さは二ポンド（約907g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": [
+        "bread-hansard"
+      ]
+    },
+    {
+      "shopId": "bakery-victorian-3",
+      "itemId": "bakery-victorian-3-item-1",
+      "before": {
+        "name": "白パン 一斤",
+        "description": "白い小麦の大きなパン。"
+      },
+      "after": {
+        "name": "白パン 二ポンド",
+        "description": "白い小麦の大きなパン。 一個の重さは二ポンド（約907g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": [
+        "bread-hansard"
+      ]
+    },
+    {
+      "shopId": "bakery-victorian-3",
+      "itemId": "bakery-victorian-3-item-2",
+      "before": {
+        "name": "全粒粉パン 一斤",
+        "description": "ふすま入りの食事パン。"
+      },
+      "after": {
+        "name": "全粒粉パン 二ポンド",
+        "description": "ふすま入りの食事パン。 一個の重さは二ポンド（約907g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": [
+        "bread-hansard"
+      ]
+    },
+    {
+      "shopId": "bakery-america-1920s-1",
+      "itemId": "bakery-america-1920s-1-item-1",
+      "before": {
+        "name": "白パン 一斤",
+        "description": "白い小麦の大きなパン。"
+      },
+      "after": {
+        "name": "白パン 一ポンド",
+        "description": "白い小麦の大きなパン。 一個の重さは一ポンド（約454g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": []
+    },
+    {
+      "shopId": "bakery-america-1920s-1",
+      "itemId": "bakery-america-1920s-1-item-2",
+      "before": {
+        "name": "全粒粉パン 一斤",
+        "description": "ふすま入りの食事パン。"
+      },
+      "after": {
+        "name": "全粒粉パン 一ポンド",
+        "description": "ふすま入りの食事パン。 一個の重さは一ポンド（約454g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": []
+    },
+    {
+      "shopId": "bakery-america-1920s-2",
+      "itemId": "bakery-america-1920s-2-item-1",
+      "before": {
+        "name": "白パン 一斤",
+        "description": "白い小麦の大きなパン。"
+      },
+      "after": {
+        "name": "白パン 一ポンド",
+        "description": "白い小麦の大きなパン。 一個の重さは一ポンド（約454g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": []
+    },
+    {
+      "shopId": "bakery-america-1920s-2",
+      "itemId": "bakery-america-1920s-2-item-2",
+      "before": {
+        "name": "全粒粉パン 一斤",
+        "description": "ふすま入りの食事パン。"
+      },
+      "after": {
+        "name": "全粒粉パン 一ポンド",
+        "description": "ふすま入りの食事パン。 一個の重さは一ポンド（約454g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": []
+    },
+    {
+      "shopId": "bakery-america-1920s-3",
+      "itemId": "bakery-america-1920s-3-item-1",
+      "before": {
+        "name": "白パン 一斤",
+        "description": "白い小麦の大きなパン。"
+      },
+      "after": {
+        "name": "白パン 一ポンド",
+        "description": "白い小麦の大きなパン。 一個の重さは一ポンド（約454g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": []
+    },
+    {
+      "shopId": "bakery-america-1920s-3",
+      "itemId": "bakery-america-1920s-3-item-2",
+      "before": {
+        "name": "全粒粉パン 一斤",
+        "description": "ふすま入りの食事パン。"
+      },
+      "after": {
+        "name": "全粒粉パン 一ポンド",
+        "description": "ふすま入りの食事パン。 一個の重さは一ポンド（約454g）。"
+      },
+      "reason": "日本のパンの「斤」と混同する表記を現地の重量へ変更。量は創作上の設定で、近接年の資料は英国パンの販売単位の参考に限定。",
+      "sources": []
+    },
+    {
+      "shopId": "bathhouse-1",
+      "itemId": "bathhouse-1-staple-1",
+      "before": {
+        "price": 550,
+        "description": "一人一回の基本の入浴料。"
+      },
+      "after": {
+        "price": 600,
+        "description": "12歳以上一人一回の基本入浴料。"
+      },
+      "reason": "2026年8月改定の東京銭湯の料金を参考にした架空銭湯の設定。全国共通の料金としては扱わない。",
+      "sources": [
+        "tokyo-bath-2026"
+      ]
+    },
+    {
+      "shopId": "bathhouse-1",
+      "itemId": "bathhouse-1-staple-2",
+      "before": {
+        "price": 250,
+        "description": "小学生一人一回の入浴料。"
+      },
+      "after": {
+        "price": 200,
+        "description": "6歳以上12歳未満一人一回の入浴料。"
+      },
+      "reason": "子どもの年齢区分を明記。あさひ湯のみ東京銭湯の料金を参考に修正。",
+      "sources": [
+        "tokyo-bath-2026"
+      ]
+    },
+    {
+      "shopId": "bathhouse-2",
+      "itemId": "bathhouse-2-staple-1",
+      "before": {
+        "description": "一人一回の基本の入浴料。"
+      },
+      "after": {
+        "description": "12歳以上一人一回の基本入浴料。"
+      },
+      "reason": "当施設独自の架空料金を維持し、対象年齢を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "bathhouse-2",
+      "itemId": "bathhouse-2-staple-2",
+      "before": {
+        "description": "小学生一人一回の入浴料。"
+      },
+      "after": {
+        "description": "6歳以上12歳未満一人一回の入浴料。"
+      },
+      "reason": "子どもの年齢区分を明記。あさひ湯のみ東京銭湯の料金を参考に修正。",
+      "sources": []
+    },
+    {
+      "shopId": "bathhouse-3",
+      "itemId": "bathhouse-3-staple-1",
+      "before": {
+        "description": "一人一回の基本の入浴料。"
+      },
+      "after": {
+        "description": "12歳以上一人一回の基本入浴料。"
+      },
+      "reason": "当施設独自の架空料金を維持し、対象年齢を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "bathhouse-3",
+      "itemId": "bathhouse-3-staple-2",
+      "before": {
+        "description": "小学生一人一回の入浴料。"
+      },
+      "after": {
+        "description": "6歳以上12歳未満一人一回の入浴料。"
+      },
+      "reason": "子どもの年齢区分を明記。あさひ湯のみ東京銭湯の料金を参考に修正。",
+      "sources": []
+    },
+    {
+      "shopId": "bento-heisei-2",
+      "itemId": "bento-heisei-2-signature-3",
+      "before": {
+        "price": 230,
+        "description": "弁当のご飯を小盛りに替える。"
+      },
+      "after": {
+        "price": 0,
+        "description": "弁当の白飯を小盛りに変更。追加料金なし、弁当本体の値引きはありません。"
+      },
+      "reason": "減量変更の条件を明記し、根拠のない追加230円を廃止。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-1",
+      "itemId": "bookstore-heisei-1-item-2",
+      "before": {
+        "price": 580
+      },
+      "after": {
+        "price": 1500
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-1",
+      "itemId": "bookstore-heisei-1-item-3",
+      "before": {
+        "price": 620,
+        "description": "日常の出会いを綴る創作文芸。"
+      },
+      "after": {
+        "price": 1200,
+        "description": "手紙をめぐる架空の短編集。四六判の単行本。"
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-1",
+      "itemId": "bookstore-heisei-1-item-5",
+      "before": {
+        "price": 1500
+      },
+      "after": {
+        "price": 580
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-1",
+      "itemId": "bookstore-heisei-1-item-6",
+      "before": {
+        "price": 1700
+      },
+      "after": {
+        "price": 620
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-2",
+      "itemId": "bookstore-heisei-2-item-2",
+      "before": {
+        "price": 580
+      },
+      "after": {
+        "price": 1500
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-2",
+      "itemId": "bookstore-heisei-2-item-3",
+      "before": {
+        "price": 620,
+        "description": "日常の出会いを綴る創作文芸。"
+      },
+      "after": {
+        "price": 1200,
+        "description": "手紙をめぐる架空の短編集。四六判の単行本。"
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-2",
+      "itemId": "bookstore-heisei-2-item-5",
+      "before": {
+        "price": 1500
+      },
+      "after": {
+        "price": 580
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-2",
+      "itemId": "bookstore-heisei-2-item-6",
+      "before": {
+        "price": 1700
+      },
+      "after": {
+        "price": 620
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-3",
+      "itemId": "bookstore-heisei-3-item-2",
+      "before": {
+        "price": 580
+      },
+      "after": {
+        "price": 1500
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-3",
+      "itemId": "bookstore-heisei-3-item-3",
+      "before": {
+        "price": 620,
+        "description": "日常の出会いを綴る創作文芸。"
+      },
+      "after": {
+        "price": 1200,
+        "description": "手紙をめぐる架空の短編集。四六判の単行本。"
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-3",
+      "itemId": "bookstore-heisei-3-item-5",
+      "before": {
+        "price": 1500
+      },
+      "after": {
+        "price": 580
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "bookstore-heisei-3",
+      "itemId": "bookstore-heisei-3-item-6",
+      "before": {
+        "price": 1700
+      },
+      "after": {
+        "price": 620
+      },
+      "reason": "通常の文庫と単行本の価格帯の取り違えを編集上の推定で修正。限定版・大型本という設定はない。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-1",
+      "itemId": "chinese-showa-1-item-12",
+      "before": {
+        "price": 200
+      },
+      "after": {
+        "price": 80
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-1",
+      "itemId": "chinese-showa-1-item-15",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "dessert"
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-1",
+      "itemId": "chinese-showa-1-item-16",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "chinese-showa-1",
+      "itemId": "chinese-showa-1-item-17",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-2",
+      "itemId": "chinese-showa-2-item-12",
+      "before": {
+        "price": 200
+      },
+      "after": {
+        "price": 80
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-2",
+      "itemId": "chinese-showa-2-item-15",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "dessert"
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-2",
+      "itemId": "chinese-showa-2-item-16",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "chinese-showa-2",
+      "itemId": "chinese-showa-2-item-17",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-3",
+      "itemId": "chinese-showa-3-item-12",
+      "before": {
+        "price": 200
+      },
+      "after": {
+        "price": 80
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-3",
+      "itemId": "chinese-showa-3-signature-3",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-3",
+      "itemId": "chinese-showa-3-item-15",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "dessert"
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "chinese-showa-3",
+      "itemId": "chinese-showa-3-item-16",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "chinese-showa-3",
+      "itemId": "chinese-showa-3-item-17",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "小皿・茶・小椀の価格を同店の主菜との関係から修正し、杏仁豆腐を甘味へ分類。",
+      "sources": []
+    },
+    {
+      "shopId": "cinema-2",
+      "itemId": "cinema-2-item-11",
+      "before": {
+        "description": "塩MとソフトドリンクM。"
+      },
+      "after": {
+        "description": "チーズポップコーンMと、コーラMまたはアイスティーM一杯。"
+      },
+      "reason": "単品にない塩味を指定していたセットを、その店で販売する品に合わせる。",
+      "sources": []
+    },
+    {
+      "shopId": "cinema-2",
+      "itemId": "cinema-2-curated-7",
+      "before": {
+        "description": "ナチョス、ポップコーンM、ドリンク二杯。"
+      },
+      "after": {
+        "description": "ナチョス、チーズポップコーンM、コーラM二杯。二人向けのセット。"
+      },
+      "reason": "セットの味・サイズ・人数を明示。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-1",
+      "itemId": "convenience-store-heisei-1-item-3",
+      "before": {
+        "price": 180
+      },
+      "after": {
+        "price": 350
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-1",
+      "itemId": "convenience-store-heisei-1-item-5",
+      "before": {
+        "price": 350
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-1",
+      "itemId": "convenience-store-heisei-1-item-6",
+      "before": {
+        "price": 450
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-1",
+      "itemId": "convenience-store-heisei-1-item-12",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-2",
+      "itemId": "convenience-store-heisei-2-item-3",
+      "before": {
+        "price": 180
+      },
+      "after": {
+        "price": 350
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-2",
+      "itemId": "convenience-store-heisei-2-item-5",
+      "before": {
+        "price": 350
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-2",
+      "itemId": "convenience-store-heisei-2-item-6",
+      "before": {
+        "price": 450
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-2",
+      "itemId": "convenience-store-heisei-2-item-12",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-3",
+      "itemId": "convenience-store-heisei-3-signature-1",
+      "before": {
+        "price": 380
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-3",
+      "itemId": "convenience-store-heisei-3-item-3",
+      "before": {
+        "price": 180
+      },
+      "after": {
+        "price": 350
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-3",
+      "itemId": "convenience-store-heisei-3-item-5",
+      "before": {
+        "price": 350
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-3",
+      "itemId": "convenience-store-heisei-3-item-6",
+      "before": {
+        "price": 450
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-3",
+      "itemId": "convenience-store-heisei-3-signature-2",
+      "before": {
+        "price": 280,
+        "description": "飲み切りサイズの果実飲料。"
+      },
+      "after": {
+        "price": 100,
+        "description": "200ml入りの紙パック。冷たいりんごの果汁飲料。"
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "convenience-store-heisei-3",
+      "itemId": "convenience-store-heisei-3-item-12",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "同店の100〜120円のおにぎりと単品量を基準に、昆布450円・弁当180円等の逆転を是正。1998年の特定店の実売価格ではなく編集上の推定。",
+      "sources": []
+    },
+    {
+      "shopId": "delicatessen-america-1920s-1",
+      "itemId": "delicatessen-america-1920s-1-item-12",
+      "before": {
+        "name": "ライ麦パン 半斤",
+        "description": "食事用のパンを包む。"
+      },
+      "after": {
+        "name": "ライ麦パン 半ポンド",
+        "description": "食事用のパンを包む。 半ポンド（約227g）分を包む。"
+      },
+      "reason": "日本の斤と混同しないよう持ち帰りパンの重量を米国の単位で明記。価格は据え置き。",
+      "sources": []
+    },
+    {
+      "shopId": "delicatessen-america-1920s-2",
+      "itemId": "delicatessen-america-1920s-2-item-12",
+      "before": {
+        "name": "ライ麦パン 半斤",
+        "description": "食事用のパンを包む。"
+      },
+      "after": {
+        "name": "ライ麦パン 半ポンド",
+        "description": "食事用のパンを包む。 半ポンド（約227g）分を包む。"
+      },
+      "reason": "日本の斤と混同しないよう持ち帰りパンの重量を米国の単位で明記。価格は据え置き。",
+      "sources": []
+    },
+    {
+      "shopId": "delicatessen-america-1920s-3",
+      "itemId": "delicatessen-america-1920s-3-item-12",
+      "before": {
+        "name": "ライ麦パン 半斤",
+        "description": "食事用のパンを包む。"
+      },
+      "after": {
+        "name": "ライ麦パン 半ポンド",
+        "description": "食事用のパンを包む。 半ポンド（約227g）分を包む。"
+      },
+      "reason": "日本の斤と混同しないよう持ち帰りパンの重量を米国の単位で明記。価格は据え置き。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-1",
+      "itemId": "family-restaurant-heisei-1-item-7",
+      "before": {
+        "price": 320,
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 620,
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-1",
+      "itemId": "family-restaurant-heisei-1-item-8",
+      "before": {
+        "price": 280,
+        "description": "トマトとチーズの薄焼きピザ。",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 680,
+        "description": "一人用の約20cmピザ。トマト、チーズ、バジルをのせて焼く。",
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-1",
+      "itemId": "family-restaurant-heisei-1-item-10",
+      "before": {
+        "price": 480
+      },
+      "after": {
+        "price": 250
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-1",
+      "itemId": "family-restaurant-heisei-1-item-11",
+      "before": {
+        "price": 220,
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 480,
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-1",
+      "itemId": "family-restaurant-heisei-1-item-12",
+      "before": {
+        "price": 250,
+        "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。"
+      },
+      "after": {
+        "price": 680,
+        "description": "二〜三人で分ける盛り合わせ。小さな揚げ物、ハム、温野菜を一皿に。"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-1",
+      "itemId": "family-restaurant-heisei-1-item-14",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "dessert"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-2",
+      "itemId": "family-restaurant-heisei-2-item-7",
+      "before": {
+        "price": 320,
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 620,
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-2",
+      "itemId": "family-restaurant-heisei-2-item-8",
+      "before": {
+        "price": 280,
+        "description": "トマトとチーズの薄焼きピザ。",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 680,
+        "description": "一人用の約20cmピザ。トマト、チーズ、バジルをのせて焼く。",
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-2",
+      "itemId": "family-restaurant-heisei-2-item-10",
+      "before": {
+        "price": 480
+      },
+      "after": {
+        "price": 250
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-2",
+      "itemId": "family-restaurant-heisei-2-item-11",
+      "before": {
+        "price": 220,
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 480,
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-2",
+      "itemId": "family-restaurant-heisei-2-item-12",
+      "before": {
+        "price": 250,
+        "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。"
+      },
+      "after": {
+        "price": 680,
+        "description": "二〜三人で分ける盛り合わせ。小さな揚げ物、ハム、温野菜を一皿に。"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-2",
+      "itemId": "family-restaurant-heisei-2-item-14",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "dessert"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-3",
+      "itemId": "family-restaurant-heisei-3-item-7",
+      "before": {
+        "price": 320,
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 620,
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-3",
+      "itemId": "family-restaurant-heisei-3-item-8",
+      "before": {
+        "price": 280,
+        "description": "トマトとチーズの薄焼きピザ。",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 680,
+        "description": "一人用の約20cmピザ。トマト、チーズ、バジルをのせて焼く。",
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-3",
+      "itemId": "family-restaurant-heisei-3-item-10",
+      "before": {
+        "price": 480
+      },
+      "after": {
+        "price": 250
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-3",
+      "itemId": "family-restaurant-heisei-3-item-11",
+      "before": {
+        "price": 220,
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "price": 480,
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-3",
+      "itemId": "family-restaurant-heisei-3-item-12",
+      "before": {
+        "price": 250,
+        "description": "唐揚げ、ポテト、サラダを少しずつ盛り合わせ。"
+      },
+      "after": {
+        "price": 680,
+        "description": "二〜三人で分ける盛り合わせ。小さな揚げ物、ハム、温野菜を一皿に。"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "family-restaurant-heisei-3",
+      "itemId": "family-restaurant-heisei-3-item-14",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "dessert"
+      },
+      "reason": "一人前の主食や家族用の盛り合わせがポテト単品より安い無説明の逆転を修正。分量とおすすめ分類を明示した架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-1",
+      "itemId": "kissaten-1-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-3",
+      "itemId": "kissaten-3-staple-3",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-heisei-1",
+      "itemId": "kissaten-heisei-1-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-heisei-1",
+      "itemId": "kissaten-heisei-1-item-10",
+      "before": {
+        "price": 650
+      },
+      "after": {
+        "price": 300
+      },
+      "reason": "単品トースト650円が飲み物付き480円のモーニングより高い設定を修正。単品量に基づく架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-heisei-2",
+      "itemId": "kissaten-heisei-2-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-heisei-2",
+      "itemId": "kissaten-heisei-2-item-10",
+      "before": {
+        "price": 650
+      },
+      "after": {
+        "price": 300
+      },
+      "reason": "単品トースト650円が飲み物付き480円のモーニングより高い設定を修正。単品量に基づく架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-heisei-3",
+      "itemId": "kissaten-heisei-3-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-heisei-3",
+      "itemId": "kissaten-heisei-3-item-10",
+      "before": {
+        "price": 650
+      },
+      "after": {
+        "price": 300
+      },
+      "reason": "単品トースト650円が飲み物付き480円のモーニングより高い設定を修正。単品量に基づく架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-1",
+      "itemId": "kissaten-showa-1-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-1",
+      "itemId": "kissaten-showa-1-item-10",
+      "before": {
+        "price": 220
+      },
+      "after": {
+        "price": 60
+      },
+      "reason": "軽食と甘味の分量に対して突出した価格を同店の価格関係から調整。1968年の架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-1",
+      "itemId": "kissaten-showa-1-item-16",
+      "before": {
+        "price": 150
+      },
+      "after": {
+        "price": 80
+      },
+      "reason": "軽食と甘味の分量に対して突出した価格を同店の価格関係から調整。1968年の架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-2",
+      "itemId": "kissaten-showa-2-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-2",
+      "itemId": "kissaten-showa-2-item-10",
+      "before": {
+        "price": 220
+      },
+      "after": {
+        "price": 60
+      },
+      "reason": "軽食と甘味の分量に対して突出した価格を同店の価格関係から調整。1968年の架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-2",
+      "itemId": "kissaten-showa-2-item-16",
+      "before": {
+        "price": 150
+      },
+      "after": {
+        "price": 80
+      },
+      "reason": "軽食と甘味の分量に対して突出した価格を同店の価格関係から調整。1968年の架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-3",
+      "itemId": "kissaten-showa-3-item-2",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "main"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "珈琲を料理として推薦していた分類を修正。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-3",
+      "itemId": "kissaten-showa-3-item-10",
+      "before": {
+        "price": 220
+      },
+      "after": {
+        "price": 60
+      },
+      "reason": "軽食と甘味の分量に対して突出した価格を同店の価格関係から調整。1968年の架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "kissaten-showa-3",
+      "itemId": "kissaten-showa-3-item-16",
+      "before": {
+        "price": 150
+      },
+      "after": {
+        "price": 80
+      },
+      "reason": "軽食と甘味の分量に対して突出した価格を同店の価格関係から調整。1968年の架空価格。",
+      "sources": []
+    },
+    {
+      "shopId": "michi-no-eki-1",
+      "itemId": "michi-no-eki-1-item-14",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "reason": "食べられない販売雑貨を料理から物販へ修正。",
+      "sources": []
+    },
+    {
+      "shopId": "michi-no-eki-1",
+      "itemId": "michi-no-eki-1-item-15",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "reason": "食べられない販売雑貨を料理から物販へ修正。",
+      "sources": []
+    },
+    {
+      "shopId": "michi-no-eki-2",
+      "itemId": "michi-no-eki-2-item-14",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "reason": "食べられない販売雑貨を料理から物販へ修正。",
+      "sources": []
+    },
+    {
+      "shopId": "michi-no-eki-2",
+      "itemId": "michi-no-eki-2-item-15",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "reason": "食べられない販売雑貨を料理から物販へ修正。",
+      "sources": []
+    },
+    {
+      "shopId": "michi-no-eki-3",
+      "itemId": "michi-no-eki-3-staple-10",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "reason": "食べられない販売雑貨を料理から物販へ修正。",
+      "sources": []
+    },
+    {
+      "shopId": "michi-no-eki-3",
+      "itemId": "michi-no-eki-3-staple-12",
+      "before": {
+        "kind": "food",
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "reason": "食べられない販売雑貨を料理から物販へ修正。",
+      "sources": []
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-signature-1",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 19800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-1",
+      "before": {
+        "price": 6800
+      },
+      "after": {
+        "price": 19800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-2",
+      "before": {
+        "price": 3980
+      },
+      "after": {
+        "price": 29800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-4",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 6800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-5",
+      "before": {
+        "price": 19800
+      },
+      "after": {
+        "price": 3980
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-6",
+      "before": {
+        "price": 29800
+      },
+      "after": {
+        "price": 1200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-7",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 1800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-10",
+      "before": {
+        "price": 1500
+      },
+      "after": {
+        "price": 300
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-13",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 1200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-16",
+      "before": {
+        "price": 680
+      },
+      "after": {
+        "price": 200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "itemId": "music-store-heisei-1-item-17",
+      "before": {
+        "price": 1200
+      },
+      "after": {
+        "price": 500
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-signature-1",
+      "before": {
+        "price": 550
+      },
+      "after": {
+        "price": 12800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-1",
+      "before": {
+        "price": 6800
+      },
+      "after": {
+        "price": 19800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-2",
+      "before": {
+        "price": 3980
+      },
+      "after": {
+        "price": 29800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-4",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 6800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-5",
+      "before": {
+        "price": 19800
+      },
+      "after": {
+        "price": 3980
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-6",
+      "before": {
+        "price": 29800
+      },
+      "after": {
+        "price": 1200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-7",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 1800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-10",
+      "before": {
+        "price": 1500
+      },
+      "after": {
+        "price": 300
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-13",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 1200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-16",
+      "before": {
+        "price": 680
+      },
+      "after": {
+        "price": 200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "itemId": "music-store-heisei-2-item-17",
+      "before": {
+        "price": 1200
+      },
+      "after": {
+        "price": 500
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-signature-1",
+      "before": {
+        "price": 600
+      },
+      "after": {
+        "price": 6800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-1",
+      "before": {
+        "price": 6800
+      },
+      "after": {
+        "price": 19800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-2",
+      "before": {
+        "price": 3980
+      },
+      "after": {
+        "price": 29800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-4",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 6800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-5",
+      "before": {
+        "price": 19800
+      },
+      "after": {
+        "price": 3980
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-6",
+      "before": {
+        "price": 29800
+      },
+      "after": {
+        "price": 1200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-7",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 1800
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-10",
+      "before": {
+        "price": 1500
+      },
+      "after": {
+        "price": 300
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-13",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 1200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-16",
+      "before": {
+        "price": 680
+      },
+      "after": {
+        "price": 200
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "itemId": "music-store-heisei-3-item-17",
+      "before": {
+        "price": 1200
+      },
+      "after": {
+        "price": 500
+      },
+      "reason": "入門楽器が500円台、タンバリンが29,800円という品種間の逆転を修正。同時期のメーカー資料を桁の参考とし、無銘の架空入門品・中古品として推定。実在モデルの価格を転記していない。",
+      "sources": [
+        "yamaha-1998"
+      ]
+    },
+    {
+      "shopId": "net-cafe-heisei-1",
+      "itemId": "net-cafe-heisei-1-signature-1",
+      "before": {
+        "price": 2000,
+        "description": "一台を二人で交代して使う。"
+      },
+      "after": {
+        "price": 800,
+        "description": "端末一台を二人が交代で使う合計九十分の料金。二人分を含み、同時利用はできません。入店時に選択。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-1",
+      "itemId": "net-cafe-heisei-1-signature-3",
+      "before": {
+        "price": 20,
+        "description": "文書や画像を一枚印刷する。"
+      },
+      "after": {
+        "price": 100,
+        "description": "A4片面一枚。文書や画像をカラー印刷。端末利用料は別。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-1",
+      "itemId": "net-cafe-heisei-1-item-13",
+      "before": {
+        "description": "作った文書を一枚印刷。"
+      },
+      "after": {
+        "description": "A4片面一枚の白黒印刷。端末利用料は別。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-2",
+      "itemId": "net-cafe-heisei-2-signature-1",
+      "before": {
+        "price": 2050,
+        "description": "一人で文書用端末を使う。"
+      },
+      "after": {
+        "price": 900,
+        "description": "一人・端末一台の文書作成二時間パック。入店時に選択。通常一時間500円の二回分より100円引き。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-2",
+      "itemId": "net-cafe-heisei-2-item-13",
+      "before": {
+        "description": "作った文書を一枚印刷。"
+      },
+      "after": {
+        "description": "A4片面一枚の白黒印刷。端末利用料は別。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-3",
+      "itemId": "net-cafe-heisei-3-signature-1",
+      "before": {
+        "price": 2100,
+        "description": "一人で通信端末を使う。"
+      },
+      "after": {
+        "price": 1000,
+        "description": "一人・端末一台の通信利用二時間パック。入店時に選択。通常一時間550円の二回分より100円引き。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-3",
+      "itemId": "net-cafe-heisei-3-item-13",
+      "before": {
+        "description": "作った文書を一枚印刷。"
+      },
+      "after": {
+        "description": "A4片面一枚の白黒印刷。端末利用料は別。"
+      },
+      "reason": "同じ設備の長時間パックが通常の積算より大幅に高い矛盾を修正。人数・時間・印刷サイズ・別料金を明記。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-1",
+      "itemId": "ramen-heisei-1-item-8",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 250
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-1",
+      "itemId": "ramen-heisei-1-item-10",
+      "before": {
+        "price": 300
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-1",
+      "itemId": "ramen-heisei-1-signature-3",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-1",
+      "itemId": "ramen-heisei-1-item-15",
+      "before": {
+        "price": 200
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-1",
+      "itemId": "ramen-heisei-1-item-16",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 450
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-2",
+      "itemId": "ramen-heisei-2-item-8",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 250
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-2",
+      "itemId": "ramen-heisei-2-item-10",
+      "before": {
+        "price": 300
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-2",
+      "itemId": "ramen-heisei-2-signature-3",
+      "before": {
+        "price": 300
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-2",
+      "itemId": "ramen-heisei-2-item-15",
+      "before": {
+        "price": 200
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-2",
+      "itemId": "ramen-heisei-2-item-16",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 450
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-3",
+      "itemId": "ramen-heisei-3-item-8",
+      "before": {
+        "price": 500
+      },
+      "after": {
+        "price": 250
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-3",
+      "itemId": "ramen-heisei-3-item-10",
+      "before": {
+        "price": 300
+      },
+      "after": {
+        "price": 150
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-3",
+      "itemId": "ramen-heisei-3-signature-3",
+      "before": {
+        "price": 350
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-3",
+      "itemId": "ramen-heisei-3-item-15",
+      "before": {
+        "price": 200
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-heisei-3",
+      "itemId": "ramen-heisei-3-item-16",
+      "before": {
+        "price": 250
+      },
+      "after": {
+        "price": 450
+      },
+      "reason": "半量ご飯・具材追加・飲み物の分量と同店の麺価格の整合を修正。瓶ビールは店内提供の中瓶として推定。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-1",
+      "itemId": "ramen-showa-1-item-8",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-1",
+      "itemId": "ramen-showa-1-item-10",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-1",
+      "itemId": "ramen-showa-1-signature-3",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 10
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-1",
+      "itemId": "ramen-showa-1-item-15",
+      "before": {
+        "price": 40
+      },
+      "after": {
+        "price": 10
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-1",
+      "itemId": "ramen-showa-1-item-16",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "ramen-showa-2",
+      "itemId": "ramen-showa-2-item-8",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-2",
+      "itemId": "ramen-showa-2-item-10",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-2",
+      "itemId": "ramen-showa-2-signature-3",
+      "before": {
+        "price": 60
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-2",
+      "itemId": "ramen-showa-2-item-15",
+      "before": {
+        "price": 40
+      },
+      "after": {
+        "price": 10
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-2",
+      "itemId": "ramen-showa-2-item-16",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "ramen-showa-3",
+      "itemId": "ramen-showa-3-item-8",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-3",
+      "itemId": "ramen-showa-3-item-10",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-3",
+      "itemId": "ramen-showa-3-signature-3",
+      "before": {
+        "price": 70
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-3",
+      "itemId": "ramen-showa-3-item-15",
+      "before": {
+        "price": 40
+      },
+      "after": {
+        "price": 10
+      },
+      "reason": "麺や半量焼き飯に対して具材・飲料が突出する不整合を編集上の推定で修正。",
+      "sources": []
+    },
+    {
+      "shopId": "ramen-showa-3",
+      "itemId": "ramen-showa-3-item-16",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "supermarket-1",
+      "itemId": "supermarket-1-item-12",
+      "before": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "飲料水の分類を飲み物に統一。",
+      "sources": []
+    },
+    {
+      "shopId": "supermarket-3",
+      "itemId": "supermarket-3-staple-11",
+      "before": {
+        "kind": "goods",
+        "recommendationGroup": "goods"
+      },
+      "after": {
+        "kind": "drink",
+        "recommendationGroup": "drink"
+      },
+      "reason": "飲料水の分類を飲み物に統一。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-7",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-8",
+      "before": {
+        "price": 90
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-9",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-10",
+      "before": {
+        "price": 60
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-11",
+      "before": {
+        "price": 120
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-12",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-signature-3",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-13",
+      "before": {
+        "price": 40
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-14",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "itemId": "teishoku-showa-1-item-16",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-7",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-8",
+      "before": {
+        "price": 90
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-9",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-10",
+      "before": {
+        "price": 60
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-11",
+      "before": {
+        "price": 120
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-12",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-13",
+      "before": {
+        "price": 40
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-14",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "itemId": "teishoku-showa-2-item-16",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-7",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-8",
+      "before": {
+        "price": 90
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-9",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-10",
+      "before": {
+        "price": 60
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-11",
+      "before": {
+        "price": 120
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-12",
+      "before": {
+        "price": 100
+      },
+      "after": {
+        "price": 40
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-13",
+      "before": {
+        "price": 40
+      },
+      "after": {
+        "price": 180
+      },
+      "reason": "1968年の大瓶小売126円という統計の二次集計を補助線に、店内中瓶40〜80円の設定を見直した推定値。一次統計の原表・地域別の店内提供価格は未照合。",
+      "sources": [
+        "beer-1968"
+      ]
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-14",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 20
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "itemId": "teishoku-showa-3-item-16",
+      "before": {
+        "price": 80
+      },
+      "after": {
+        "price": 50
+      },
+      "reason": "150〜250円の定食に対して小鉢・汁単品が過大になる関係を修正。分量と食後条件に基づく1968年の架空料金。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-1",
+      "itemId": "unagi-showa-1-item-3",
+      "before": {
+        "price": 700,
+        "description": "少量の重に野菜の煮物を添える。"
+      },
+      "after": {
+        "price": 500,
+        "description": "小さなうな重に煮物、吸い物、漬物を添えた一人前の膳。"
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-1",
+      "itemId": "unagi-showa-1-item-5",
+      "before": {
+        "price": 900,
+        "description": "蒲焼きを少量から楽しめる丼。"
+      },
+      "after": {
+        "price": 350,
+        "description": "並のうな重より鰻を少なめにした一人前の丼。吸い物は別。"
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-1",
+      "itemId": "unagi-showa-1-item-13",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-2",
+      "itemId": "unagi-showa-2-item-3",
+      "before": {
+        "price": 700,
+        "description": "少量の重に野菜の煮物を添える。"
+      },
+      "after": {
+        "price": 500,
+        "description": "小さなうな重に煮物、吸い物、漬物を添えた一人前の膳。"
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-2",
+      "itemId": "unagi-showa-2-item-5",
+      "before": {
+        "price": 900,
+        "description": "蒲焼きを少量から楽しめる丼。"
+      },
+      "after": {
+        "price": 350,
+        "description": "並のうな重より鰻を少なめにした一人前の丼。吸い物は別。"
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-2",
+      "itemId": "unagi-showa-2-signature-3",
+      "before": {
+        "price": 130
+      },
+      "after": {
+        "price": 30
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-2",
+      "itemId": "unagi-showa-2-item-13",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-3",
+      "itemId": "unagi-showa-3-item-3",
+      "before": {
+        "price": 700,
+        "description": "少量の重に野菜の煮物を添える。"
+      },
+      "after": {
+        "price": 500,
+        "description": "小さなうな重に煮物、吸い物、漬物を添えた一人前の膳。"
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-3",
+      "itemId": "unagi-showa-3-item-5",
+      "before": {
+        "price": 900,
+        "description": "蒲焼きを少量から楽しめる丼。"
+      },
+      "after": {
+        "price": 350,
+        "description": "並のうな重より鰻を少なめにした一人前の丼。吸い物は別。"
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    },
+    {
+      "shopId": "unagi-showa-3",
+      "itemId": "unagi-showa-3-item-13",
+      "before": {
+        "price": 50
+      },
+      "after": {
+        "price": 100
+      },
+      "reason": "少量のうな丼900円が並うな重450円を上回る矛盾を修正。セットの範囲と飲み物の価格を整理した架空設定。",
+      "sources": []
+    }
+  ],
+  "shopChanges": [
+    {
+      "shopId": "bathhouse-1",
+      "before": {
+        "priceNote": "税込の設定料金です。入浴料は1人1回。セット料金と含まれる単品料金は重ねて加算しません。販売品は持ち帰り、貸出品は退館時に返却してください。"
+      },
+      "after": {
+        "priceNote": "税込の設定料金です。入浴料は1人1回。セット料金と含まれる単品料金は重ねて加算しません。販売品は持ち帰り、貸出品は退館時に返却してください。 基本入浴料は2026年8月の東京銭湯の料金を参考にした架空設定。セット・貸出・販売品は当店の設定料金です。"
+      },
+      "reason": "地域・施設ごとの設定を区別。",
+      "sources": []
+    },
+    {
+      "shopId": "bathhouse-2",
+      "before": {
+        "priceNote": "税込の設定料金です。入浴料は1人1回。時間条件のあるセットは各項目をご確認ください。セット内の入浴料・貸出料は重複加算しません。"
+      },
+      "after": {
+        "priceNote": "税込の設定料金です。入浴料は1人1回。時間条件のあるセットは各項目をご確認ください。セット内の入浴料・貸出料は重複加算しません。 基本入浴料も当施設独自の架空設定です。"
+      },
+      "reason": "地域・施設ごとの設定を区別。",
+      "sources": []
+    },
+    {
+      "shopId": "bathhouse-3",
+      "before": {
+        "priceNote": "税込の設定料金です。入浴料は1人1回。休憩室や貸出品の料金は記載条件に従います。セットに含まれる料金は重複加算しません。"
+      },
+      "after": {
+        "priceNote": "税込の設定料金です。入浴料は1人1回。休憩室や貸出品の料金は記載条件に従います。セットに含まれる料金は重複加算しません。 基本入浴料も当施設独自の架空設定です。"
+      },
+      "reason": "地域・施設ごとの設定を区別。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-1",
+      "before": {
+        "description": "1998年の日本の架空都市・若葉市を舞台にした時間制のインターネット喫茶。駅前で終電後の休憩に使われる。",
+        "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+        "scene": {
+          "interior": "机にブラウン管モニターが並び、壁に接続手順が貼られる。レジ横に公衆電話と時刻表がある。",
+          "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+          "signature": "二人の交代利用 九十分、ハムトースト、カラー印刷 一枚",
+          "localFlavor": "駅前で終電後の休憩に使われる。"
+        }
+      },
+      "after": {
+        "description": "1998年の日本の架空都市・若葉市を舞台にした時間制のインターネット喫茶。駅前で電車待ちの人が利用する。",
+        "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。 利用パックは入店時に選び、含まれる通常利用料は重ねて加算しません。超過は十五分ごとの延長料金。印刷・物販・操作案内は別料金です。",
+        "scene": {
+          "interior": "机にブラウン管モニターが並び、壁に接続手順が貼られる。レジ横に公衆電話と時刻表がある。",
+          "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+          "signature": "二人の交代利用 九十分、ハムトースト、カラー印刷 一枚",
+          "localFlavor": "駅前で電車待ちの人がメールの確認や休憩に使う。夜は閉店前に使用時間を確かめる。"
+        }
+      },
+      "reason": "22時閉店と矛盾する終電後・明け方の描写を修正し、パック料金の加算方法を明示。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-2",
+      "before": {
+        "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。 利用パックは入店時に選び、含まれる通常利用料は重ねて加算しません。超過は十五分ごとの延長料金。印刷・物販・操作案内は別料金です。"
+      },
+      "reason": "22時閉店と矛盾する終電後・明け方の描写を修正し、パック料金の加算方法を明示。",
+      "sources": []
+    },
+    {
+      "shopId": "net-cafe-heisei-3",
+      "before": {
+        "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。",
+        "scene": {
+          "interior": "パソコンの横にフロッピーディスクのケースが並ぶ。カウンターに手書きの予約帳が置かれている。",
+          "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+          "signature": "調べもの端末 二時間、チーズホットサンド、スキャナー利用 一枚",
+          "localFlavor": "昼は作業中の人、夜は長距離移動の休憩客が来る。明け方には窓際の読書席が明るくなる。"
+        }
+      },
+      "after": {
+        "priceNote": "1998年を想定した円の架空価格。表示額で会計する卓用設定です。 利用パックは入店時に選び、含まれる通常利用料は重ねて加算しません。超過は十五分ごとの延長料金。印刷・物販・操作案内は別料金です。",
+        "scene": {
+          "interior": "パソコンの横にフロッピーディスクのケースが並ぶ。カウンターに手書きの予約帳が置かれている。",
+          "service": "受付で使用時間を記入し、席のパソコンの操作方法を説明する。",
+          "signature": "調べもの端末 二時間、チーズホットサンド、スキャナー利用 一枚",
+          "localFlavor": "昼は文書作業の人、夜は長距離移動の休憩客が来る。閉店時刻の22時までに作業を終えるよう案内する。"
+        }
+      },
+      "reason": "22時閉店と矛盾する終電後・明け方の描写を修正し、パック料金の加算方法を明示。",
+      "sources": []
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "before": {
+        "openingHours": "11:00〜21:00"
+      },
+      "after": {
+        "openingHours": "7:00〜19:00（朝定食は7:00〜10:00）"
+      },
+      "reason": "早番の朝食という店の設定と11時開店の矛盾を修正。",
+      "sources": []
+    }
+  ],
+  "additions": [
+    {
+      "shopId": "bathhouse-1",
+      "sectionId": "bathhouse-1-section-1",
+      "item": {
+        "id": "bathhouse-1-review-20260914-1",
+        "name": "未就学児入浴 一回",
+        "price": 100,
+        "kind": "fee",
+        "description": "6歳未満一人一回。付き添いの大人の入浴料は別。"
+      },
+      "reason": "未就学児の会計を追加。あさひ湯は東京の年齢区分と料金を参考、他二施設は独自の架空料金。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "bathhouse-2",
+      "sectionId": "bathhouse-2-section-1",
+      "item": {
+        "id": "bathhouse-2-review-20260914-1",
+        "name": "未就学児入浴 一回",
+        "price": 100,
+        "kind": "fee",
+        "description": "6歳未満一人一回。付き添いの大人の入浴料は別。"
+      },
+      "reason": "未就学児の会計を追加。あさひ湯は東京の年齢区分と料金を参考、他二施設は独自の架空料金。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "bathhouse-3",
+      "sectionId": "bathhouse-3-section-1",
+      "item": {
+        "id": "bathhouse-3-review-20260914-1",
+        "name": "未就学児入浴 一回",
+        "price": 100,
+        "kind": "fee",
+        "description": "6歳未満一人一回。付き添いの大人の入浴料は別。"
+      },
+      "reason": "未就学児の会計を追加。あさひ湯は東京の年齢区分と料金を参考、他二施設は独自の架空料金。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "music-store-heisei-1",
+      "sectionId": "music-store-heisei-1-section-3",
+      "item": {
+        "id": "music-store-heisei-1-review-20260914-1",
+        "name": "六弦の調弦と手入れ案内 二十分",
+        "price": 500,
+        "kind": "service",
+        "description": "ギター一台を店員と調弦し、拭き方を教わる。弦交換・修理は別。"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "music-store-heisei-2",
+      "sectionId": "music-store-heisei-2-section-2",
+      "item": {
+        "id": "music-store-heisei-2-review-20260914-1",
+        "name": "ヘッドホン変換プラグ 一個",
+        "price": 500,
+        "kind": "goods",
+        "description": "ミニ端子を標準端子に変える。手持ちの機器との接続を店頭で確認する。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "music-store-heisei-3",
+      "sectionId": "music-store-heisei-3-section-3",
+      "item": {
+        "id": "music-store-heisei-3-review-20260914-1",
+        "name": "中古楽器の状態票付き試奏 三十分",
+        "price": 0,
+        "kind": "service",
+        "description": "購入検討時、一台の傷・音の出方・付属品を店員と確かめる。試奏は無料、修理は含まない。"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "net-cafe-heisei-1",
+      "sectionId": "net-cafe-heisei-1-section-3",
+      "item": {
+        "id": "net-cafe-heisei-1-review-20260914-1",
+        "name": "印刷物の中綴じ 十枚まで",
+        "price": 100,
+        "kind": "service",
+        "description": "A4用紙を二つ折りにし二か所で綴じる。印刷代と端末利用料は別。"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "net-cafe-heisei-2",
+      "sectionId": "net-cafe-heisei-2-section-3",
+      "item": {
+        "id": "net-cafe-heisei-2-review-20260914-1",
+        "name": "和文入力の操作案内 十五分",
+        "price": 300,
+        "kind": "service",
+        "description": "文書用端末で文字入力と保存の手順を教わる。通常の席料金は別。"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "net-cafe-heisei-3",
+      "sectionId": "net-cafe-heisei-3-section-3",
+      "item": {
+        "id": "net-cafe-heisei-3-review-20260914-1",
+        "name": "名刺原稿の白黒印刷 十面一枚",
+        "price": 150,
+        "kind": "service",
+        "description": "作成済みの名刺原稿を厚紙一枚へ印刷。紙代込み、裁断と原稿作成は含まない。"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "teishoku-showa-1",
+      "sectionId": "teishoku-showa-1-section-1",
+      "item": {
+        "id": "teishoku-showa-1-review-20260914-1",
+        "name": "梅粥と卵焼きの小さな膳",
+        "price": 100,
+        "kind": "food",
+        "description": "茶碗一杯の白粥に梅干し、卵焼き二切れを添える。追加のご飯と汁は別。",
+        "recommendationGroup": "main"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "teishoku-showa-2",
+      "sectionId": "teishoku-showa-2-section-2",
+      "item": {
+        "id": "teishoku-showa-2-review-20260914-1",
+        "name": "持ち帰り煮豆 一折",
+        "price": 50,
+        "kind": "food",
+        "description": "甘辛い煮豆を約100g、紙の折へ詰める。容器代込みで、箸を一膳添える。",
+        "recommendationGroup": "main"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "teishoku-showa-3",
+      "sectionId": "teishoku-showa-3-section-1",
+      "item": {
+        "id": "teishoku-showa-3-review-20260914-1",
+        "name": "早番の味噌汁と卵ご飯",
+        "price": 80,
+        "kind": "food",
+        "description": "7〜10時限定。ご飯、生卵一個、豆腐の味噌汁、漬物を一盆で出す。",
+        "recommendationGroup": "main"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "sectionId": "grocer-victorian-1-section-2",
+      "item": {
+        "id": "grocer-victorian-1-review-20260914-1",
+        "name": "粗糖 半ポンド",
+        "price": 2,
+        "kind": "goods",
+        "description": "茶や菓子作りに使う茶色い砂糖。半ポンド（約227g）を量って紙袋へ。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "sectionId": "grocer-victorian-2-section-3",
+      "item": {
+        "id": "grocer-victorian-2-review-20260914-1",
+        "name": "朝の牛乳 一英パイント",
+        "price": 2,
+        "kind": "drink",
+        "description": "当日届いた牛乳を約568ml量る。持参した清潔な容器に注ぎ、容器代は含まない。",
+        "recommendationGroup": "drink"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "sectionId": "grocer-victorian-3-section-2",
+      "item": {
+        "id": "grocer-victorian-3-review-20260914-1",
+        "name": "有塩バター 四分の一ポンド",
+        "price": 4,
+        "kind": "goods",
+        "description": "約113gを量り、油を通しにくい紙で包む。食料を積み込む客にも少量で売る。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "diner-america-1920s-1",
+      "sectionId": "diner-america-1920s-1-section-1",
+      "item": {
+        "id": "diner-america-1920s-1-review-20260914-1",
+        "name": "りんご入りオートミール 一椀",
+        "price": 15,
+        "kind": "food",
+        "description": "燕麦を煮た粥に刻んだりんごと牛乳を添える。飲み物は別。",
+        "recommendationGroup": "main"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "diner-america-1920s-2",
+      "sectionId": "diner-america-1920s-2-section-1",
+      "item": {
+        "id": "diner-america-1920s-2-review-20260914-1",
+        "name": "バターミルク・パンケーキ 三枚",
+        "price": 20,
+        "kind": "food",
+        "description": "鉄板で焼く小ぶりな三枚。バターと糖蜜シロップ付き、飲み物は別。",
+        "recommendationGroup": "main"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "diner-america-1920s-3",
+      "sectionId": "diner-america-1920s-3-section-1",
+      "item": {
+        "id": "diner-america-1920s-3-review-20260914-1",
+        "name": "鱈とじゃがいもの焼き団子 二個",
+        "price": 25,
+        "kind": "food",
+        "description": "ほぐした塩鱈と芋をまとめて鉄板で焼く。トースト一枚付き。",
+        "recommendationGroup": "main"
+      },
+      "reason": "既存の品揃えに不足する少量食・朝食・量り売り・機器周辺品・作業サービスを追加。価格・分量は店舗内の関係を踏まえた創作上の推定。",
+      "basis": "editorial-estimate"
+    }
+  ]
+}

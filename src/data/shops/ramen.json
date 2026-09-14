@@ -817,7 +817,7 @@
             },
             {
               "name": "半チャーハン",
-              "price": 500,
+              "price": 250,
               "kind": "food",
               "description": "ラーメンのお供にちょうどよい小盛り。",
               "recommendationGroup": "side",
@@ -835,7 +835,7 @@
             },
             {
               "name": "ライス",
-              "price": 300,
+              "price": 150,
               "kind": "food",
               "description": "茶碗一杯の白ご飯。",
               "recommendationGroup": "side",
@@ -868,7 +868,7 @@
           "items": [
             {
               "name": "なると追加 三枚",
-              "price": 250,
+              "price": 50,
               "kind": "addon",
               "description": "薄切りなるとを追加する。",
               "id": "ramen-heisei-1-signature-3",
@@ -892,7 +892,7 @@
             },
             {
               "name": "海苔 三枚",
-              "price": 200,
+              "price": 50,
               "kind": "addon",
               "description": "磯の香りを添える焼海苔。",
               "id": "ramen-heisei-1-item-15",
@@ -900,7 +900,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 250,
+              "price": 450,
               "kind": "drink",
               "description": "中瓶。小さなグラスを添えて。",
               "recommendationGroup": "drink",
@@ -1049,7 +1049,7 @@
             },
             {
               "name": "半チャーハン",
-              "price": 500,
+              "price": 250,
               "kind": "food",
               "description": "ラーメンのお供にちょうどよい小盛り。",
               "recommendationGroup": "side",
@@ -1067,7 +1067,7 @@
             },
             {
               "name": "ライス",
-              "price": 300,
+              "price": 150,
               "kind": "food",
               "description": "茶碗一杯の白ご飯。",
               "recommendationGroup": "side",
@@ -1100,7 +1100,7 @@
           "items": [
             {
               "name": "ゆで卵 一個",
-              "price": 300,
+              "price": 100,
               "kind": "addon",
               "description": "ゆで卵を一個追加する。",
               "id": "ramen-heisei-2-signature-3",
@@ -1124,7 +1124,7 @@
             },
             {
               "name": "海苔 三枚",
-              "price": 200,
+              "price": 50,
               "kind": "addon",
               "description": "磯の香りを添える焼海苔。",
               "id": "ramen-heisei-2-item-15",
@@ -1132,7 +1132,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 250,
+              "price": 450,
               "kind": "drink",
               "description": "中瓶。小さなグラスを添えて。",
               "recommendationGroup": "drink",
@@ -1281,7 +1281,7 @@
             },
             {
               "name": "半チャーハン",
-              "price": 500,
+              "price": 250,
               "kind": "food",
               "description": "ラーメンのお供にちょうどよい小盛り。",
               "recommendationGroup": "side",
@@ -1299,7 +1299,7 @@
             },
             {
               "name": "ライス",
-              "price": 300,
+              "price": 150,
               "kind": "food",
               "description": "茶碗一杯の白ご飯。",
               "recommendationGroup": "side",
@@ -1332,7 +1332,7 @@
           "items": [
             {
               "name": "冷たい麦茶",
-              "price": 350,
+              "price": 100,
               "kind": "drink",
               "description": "冷やした麦茶を出す。",
               "recommendationGroup": "drink",
@@ -1357,7 +1357,7 @@
             },
             {
               "name": "海苔 三枚",
-              "price": 200,
+              "price": 50,
               "kind": "addon",
               "description": "磯の香りを添える焼海苔。",
               "id": "ramen-heisei-3-item-15",
@@ -1365,7 +1365,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 250,
+              "price": 450,
               "kind": "drink",
               "description": "中瓶。小さなグラスを添えて。",
               "recommendationGroup": "drink",
@@ -1514,7 +1514,7 @@
             },
             {
               "name": "半チャーハン",
-              "price": 100,
+              "price": 50,
               "kind": "food",
               "description": "ラーメンのお供にちょうどよい小盛り。",
               "recommendationGroup": "side",
@@ -1532,7 +1532,7 @@
             },
             {
               "name": "ライス",
-              "price": 50,
+              "price": 30,
               "kind": "food",
               "description": "茶碗一杯の白ご飯。",
               "recommendationGroup": "side",
@@ -1565,7 +1565,7 @@
           "items": [
             {
               "name": "なると追加 三枚",
-              "price": 50,
+              "price": 10,
               "kind": "addon",
               "description": "薄切りなるとを追加する。",
               "id": "ramen-showa-1-signature-3",
@@ -1589,7 +1589,7 @@
             },
             {
               "name": "海苔 三枚",
-              "price": 40,
+              "price": 10,
               "kind": "addon",
               "description": "磯の香りを添える焼海苔。",
               "id": "ramen-showa-1-item-15",
@@ -1597,7 +1597,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 50,
+              "price": 180,
               "kind": "drink",
               "description": "中瓶。小さなグラスを添えて。",
               "recommendationGroup": "drink",
@@ -1746,7 +1746,7 @@
             },
             {
               "name": "半チャーハン",
-              "price": 100,
+              "price": 50,
               "kind": "food",
               "description": "ラーメンのお供にちょうどよい小盛り。",
               "recommendationGroup": "side",
@@ -1764,7 +1764,7 @@
             },
             {
               "name": "ライス",
-              "price": 50,
+              "price": 30,
               "kind": "food",
               "description": "茶碗一杯の白ご飯。",
               "recommendationGroup": "side",
@@ -1797,7 +1797,7 @@
           "items": [
             {
               "name": "ゆで卵 一個",
-              "price": 60,
+              "price": 20,
               "kind": "addon",
               "description": "ゆで卵を一個追加する。",
               "id": "ramen-showa-2-signature-3",
@@ -1821,7 +1821,7 @@
             },
             {
               "name": "海苔 三枚",
-              "price": 40,
+              "price": 10,
               "kind": "addon",
               "description": "磯の香りを添える焼海苔。",
               "id": "ramen-showa-2-item-15",
@@ -1829,7 +1829,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 50,
+              "price": 180,
               "kind": "drink",
               "description": "中瓶。小さなグラスを添えて。",
               "recommendationGroup": "drink",
@@ -1978,7 +1978,7 @@
             },
             {
               "name": "半チャーハン",
-              "price": 100,
+              "price": 50,
               "kind": "food",
               "description": "ラーメンのお供にちょうどよい小盛り。",
               "recommendationGroup": "side",
@@ -1996,7 +1996,7 @@
             },
             {
               "name": "ライス",
-              "price": 50,
+              "price": 30,
               "kind": "food",
               "description": "茶碗一杯の白ご飯。",
               "recommendationGroup": "side",
@@ -2029,7 +2029,7 @@
           "items": [
             {
               "name": "冷たい麦茶",
-              "price": 70,
+              "price": 20,
               "kind": "drink",
               "description": "冷やした麦茶を出す。",
               "recommendationGroup": "drink",
@@ -2054,7 +2054,7 @@
             },
             {
               "name": "海苔 三枚",
-              "price": 40,
+              "price": 10,
               "kind": "addon",
               "description": "磯の香りを添える焼海苔。",
               "id": "ramen-showa-3-item-15",
@@ -2062,7 +2062,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 50,
+              "price": 180,
               "kind": "drink",
               "description": "中瓶。小さなグラスを添えて。",
               "recommendationGroup": "drink",

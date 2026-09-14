@@ -866,7 +866,7 @@
             },
             {
               "name": "青菜のにんにく炒め",
-              "price": 200,
+              "price": 80,
               "kind": "food",
               "description": "青菜を強火で手早く炒めた一皿。",
               "recommendationGroup": "side",
@@ -911,13 +911,13 @@
               "price": 60,
               "kind": "food",
               "description": "なめらかな口当たりの食後の甘味。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "dessert",
               "id": "chinese-showa-1-item-15",
               "recommended": false
             },
             {
               "name": "瓶ビール",
-              "price": 80,
+              "price": 180,
               "kind": "drink",
               "description": "中瓶。冷えたグラスと一緒に。",
               "recommendationGroup": "drink",
@@ -926,7 +926,7 @@
             },
             {
               "name": "ジャスミン茶",
-              "price": 100,
+              "price": 30,
               "kind": "drink",
               "description": "花の香りがさわやかな中国茶。",
               "recommendationGroup": "drink",
@@ -1103,7 +1103,7 @@
             },
             {
               "name": "青菜のにんにく炒め",
-              "price": 200,
+              "price": 80,
               "kind": "food",
               "description": "青菜を強火で手早く炒めた一皿。",
               "recommendationGroup": "side",
@@ -1148,13 +1148,13 @@
               "price": 60,
               "kind": "food",
               "description": "なめらかな口当たりの食後の甘味。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "dessert",
               "id": "chinese-showa-2-item-15",
               "recommended": false
             },
             {
               "name": "瓶ビール",
-              "price": 80,
+              "price": 180,
               "kind": "drink",
               "description": "中瓶。冷えたグラスと一緒に。",
               "recommendationGroup": "drink",
@@ -1163,7 +1163,7 @@
             },
             {
               "name": "ジャスミン茶",
-              "price": 100,
+              "price": 30,
               "kind": "drink",
               "description": "花の香りがさわやかな中国茶。",
               "recommendationGroup": "drink",
@@ -1340,7 +1340,7 @@
             },
             {
               "name": "青菜のにんにく炒め",
-              "price": 200,
+              "price": 80,
               "kind": "food",
               "description": "青菜を強火で手早く炒めた一皿。",
               "recommendationGroup": "side",
@@ -1355,7 +1355,7 @@
           "items": [
             {
               "name": "小さな卵スープ",
-              "price": 100,
+              "price": 40,
               "kind": "food",
               "description": "だしを卵でとじた汁物。",
               "recommendationGroup": "side",
@@ -1385,13 +1385,13 @@
               "price": 60,
               "kind": "food",
               "description": "なめらかな口当たりの食後の甘味。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "dessert",
               "id": "chinese-showa-3-item-15",
               "recommended": false
             },
             {
               "name": "瓶ビール",
-              "price": 80,
+              "price": 180,
               "kind": "drink",
               "description": "中瓶。冷えたグラスと一緒に。",
               "recommendationGroup": "drink",
@@ -1400,7 +1400,7 @@
             },
             {
               "name": "ジャスミン茶",
-              "price": 100,
+              "price": 30,
               "kind": "drink",
               "description": "花の香りがさわやかな中国茶。",
               "recommendationGroup": "drink",

@@ -1112,9 +1112,9 @@
           "items": [
             {
               "name": "小盛り白飯への変更",
-              "price": 230,
+              "price": 0,
               "kind": "addon",
-              "description": "弁当のご飯を小盛りに替える。",
+              "description": "弁当の白飯を小盛りに変更。追加料金なし、弁当本体の値引きはありません。",
               "id": "bento-heisei-2-signature-3",
               "recommended": false
             },

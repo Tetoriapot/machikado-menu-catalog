@@ -48,18 +48,18 @@ test('従来の50カテゴリに第三店舗があり、各店21品のうち9品
 
 test('新規15カテゴリ45店舗は店ごとの9品と情景を持ち、カテゴリ検索で三店すべてに到達する',()=>{
  const expected=['tempura','unagi','korean','thai','indian','onigiri','takoyaki','tea-store','liquor-store','electronics','outdoor','music-store','museum','zoo','bathhouse'];
- const fresh=summaries.filter(s=>!originalCategories.has(s.category));assert.equal(fresh.length,45);assert.equal(fresh.reduce((n,s)=>n+s.itemCount,0),945);
+ const fresh=summaries.filter(s=>!originalCategories.has(s.category));assert.equal(fresh.length,45);assert.equal(fresh.reduce((n,s)=>n+s.itemCount,0),948);
  assert.deepEqual([...new Set(fresh.map(s=>s.category))].sort(),[...expected].sort());
  for(const category of expected){
   const data=JSON.parse(readFileSync(`src/data/shops/${category}.json`,'utf8')) as {category:{label:string};shops:Shop[]};
   assert.deepEqual(parseRoute(`#/categories/${category}`),{kind:'catalog',category});
   const selected=summaries.filter(s=>matchesFilters(s,{...defaultFilters,category}));assert.equal(selected.length,3);
   for(const s of selected){
-   assert.equal(s.itemCount,21);assert.ok(matchesFilters(s,{...defaultFilters,query:data.category.label}));
+   assert.equal(s.menuIndex.filter(i=>!i.id.includes('-review-')).length,21);assert.ok(matchesFilters(s,{...defaultFilters,query:data.category.label}));
    const unique=s.menuIndex.filter(i=>i.id.includes('-original-'));assert.equal(unique.length,9);
    for(const sibling of selected.filter(x=>x.id!==s.id)){
     const names=new Set(sibling.menuIndex.map(i=>i.name));assert.ok(unique.every(i=>!names.has(i.name)),s.id);
-    assert.equal(s.menuIndex.filter(i=>names.has(i.name)).length,12);assert.notEqual(s.name,sibling.name);assert.notDeepEqual(s.scene,sibling.scene);
+    assert.equal(s.menuIndex.filter(i=>!i.id.includes('-review-')&&names.has(i.name)).length,12);assert.notEqual(s.name,sibling.name);assert.notDeepEqual(s.scene,sibling.scene);
    }
    for(const field of ['interior','service','signature','localFlavor'] as const)assert.ok((s.scene?.[field].length??0)>0,`${s.id}:${field}`);
    assert.ok(matchingItems(s,unique[0].name).some(i=>i.id===unique[0].id));

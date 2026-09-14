@@ -761,7 +761,7 @@
             },
             {
               "name": "単行本『夜明けの書架』",
-              "price": 580,
+              "price": 1500,
               "kind": "goods",
               "description": "古い書店をめぐる架空の長編小説。",
               "recommendationGroup": "goods",
@@ -770,9 +770,9 @@
             },
             {
               "name": "短編集『窓辺の手紙』",
-              "price": 620,
+              "price": 1200,
               "kind": "goods",
-              "description": "日常の出会いを綴る創作文芸。",
+              "description": "手紙をめぐる架空の短編集。四六判の単行本。",
               "recommendationGroup": "goods",
               "id": "bookstore-heisei-1-item-3",
               "recommended": false
@@ -788,7 +788,7 @@
             },
             {
               "name": "文庫ミステリー『七番街の鍵』",
-              "price": 1500,
+              "price": 580,
               "kind": "goods",
               "description": "小さな謎を追う架空の推理小説。",
               "recommendationGroup": "goods",
@@ -797,7 +797,7 @@
             },
             {
               "name": "文庫小説『街灯の帰り道』",
-              "price": 1700,
+              "price": 620,
               "kind": "goods",
               "description": "夜の町を描く架空の連作短編。",
               "recommendationGroup": "goods",
@@ -998,7 +998,7 @@
             },
             {
               "name": "単行本『夜明けの書架』",
-              "price": 580,
+              "price": 1500,
               "kind": "goods",
               "description": "古い書店をめぐる架空の長編小説。",
               "recommendationGroup": "goods",
@@ -1007,9 +1007,9 @@
             },
             {
               "name": "短編集『窓辺の手紙』",
-              "price": 620,
+              "price": 1200,
               "kind": "goods",
-              "description": "日常の出会いを綴る創作文芸。",
+              "description": "手紙をめぐる架空の短編集。四六判の単行本。",
               "recommendationGroup": "goods",
               "id": "bookstore-heisei-2-item-3",
               "recommended": false
@@ -1025,7 +1025,7 @@
             },
             {
               "name": "文庫ミステリー『七番街の鍵』",
-              "price": 1500,
+              "price": 580,
               "kind": "goods",
               "description": "小さな謎を追う架空の推理小説。",
               "recommendationGroup": "goods",
@@ -1034,7 +1034,7 @@
             },
             {
               "name": "文庫小説『街灯の帰り道』",
-              "price": 1700,
+              "price": 620,
               "kind": "goods",
               "description": "夜の町を描く架空の連作短編。",
               "recommendationGroup": "goods",
@@ -1235,7 +1235,7 @@
             },
             {
               "name": "単行本『夜明けの書架』",
-              "price": 580,
+              "price": 1500,
               "kind": "goods",
               "description": "古い書店をめぐる架空の長編小説。",
               "recommendationGroup": "goods",
@@ -1244,9 +1244,9 @@
             },
             {
               "name": "短編集『窓辺の手紙』",
-              "price": 620,
+              "price": 1200,
               "kind": "goods",
-              "description": "日常の出会いを綴る創作文芸。",
+              "description": "手紙をめぐる架空の短編集。四六判の単行本。",
               "recommendationGroup": "goods",
               "id": "bookstore-heisei-3-item-3",
               "recommended": false
@@ -1262,7 +1262,7 @@
             },
             {
               "name": "文庫ミステリー『七番街の鍵』",
-              "price": 1500,
+              "price": 580,
               "kind": "goods",
               "description": "小さな謎を追う架空の推理小説。",
               "recommendationGroup": "goods",
@@ -1271,7 +1271,7 @@
             },
             {
               "name": "文庫小説『街灯の帰り道』",
-              "price": 1700,
+              "price": 620,
               "kind": "goods",
               "description": "夜の町を描く架空の連作短編。",
               "recommendationGroup": "goods",

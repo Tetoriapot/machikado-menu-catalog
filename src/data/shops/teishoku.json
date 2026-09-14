@@ -802,6 +802,14 @@
               "recommendationGroup": "main",
               "id": "teishoku-showa-1-item-6",
               "recommended": false
+            },
+            {
+              "id": "teishoku-showa-1-review-20260914-1",
+              "name": "梅粥と卵焼きの小さな膳",
+              "price": 100,
+              "kind": "food",
+              "description": "茶碗一杯の白粥に梅干し、卵焼き二切れを添える。追加のご飯と汁は別。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -820,7 +828,7 @@
             },
             {
               "name": "ひじき煮",
-              "price": 80,
+              "price": 30,
               "kind": "food",
               "description": "大豆とにんじん入りの家庭的な小鉢。",
               "recommendationGroup": "side",
@@ -829,7 +837,7 @@
             },
             {
               "name": "冷奴",
-              "price": 90,
+              "price": 40,
               "kind": "food",
               "description": "ねぎと生姜をのせた豆腐。",
               "recommendationGroup": "side",
@@ -838,7 +846,7 @@
             },
             {
               "name": "納豆",
-              "price": 100,
+              "price": 30,
               "kind": "food",
               "description": "小さな器で提供。刻みねぎ付き。",
               "recommendationGroup": "side",
@@ -847,7 +855,7 @@
             },
             {
               "name": "ご飯大盛り",
-              "price": 60,
+              "price": 20,
               "kind": "addon",
               "description": "定食のご飯を増量。",
               "id": "teishoku-showa-1-item-10",
@@ -855,7 +863,7 @@
             },
             {
               "name": "味噌汁単品",
-              "price": 120,
+              "price": 20,
               "kind": "food",
               "description": "豆腐とわかめの味噌汁。",
               "recommendationGroup": "side",
@@ -864,7 +872,7 @@
             },
             {
               "name": "ほうれん草のおひたし",
-              "price": 100,
+              "price": 40,
               "kind": "food",
               "description": "かつお出汁を含ませた青菜。",
               "recommendationGroup": "side",
@@ -879,7 +887,7 @@
           "items": [
             {
               "name": "瓶入り牛乳",
-              "price": 80,
+              "price": 30,
               "kind": "drink",
               "description": "冷たい瓶の牛乳を出す。",
               "recommendationGroup": "drink",
@@ -888,7 +896,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 40,
+              "price": 180,
               "kind": "drink",
               "description": "食事に添える中瓶。",
               "recommendationGroup": "drink",
@@ -897,7 +905,7 @@
             },
             {
               "name": "麦茶",
-              "price": 50,
+              "price": 20,
               "kind": "drink",
               "description": "香ばしい麦茶を冷やして出す。",
               "recommendationGroup": "drink",
@@ -915,7 +923,7 @@
             },
             {
               "name": "食後のコーヒー",
-              "price": 80,
+              "price": 50,
               "kind": "drink",
               "description": "食事注文時の小さな一杯。",
               "recommendationGroup": "drink",
@@ -1056,7 +1064,7 @@
             },
             {
               "name": "ひじき煮",
-              "price": 80,
+              "price": 30,
               "kind": "food",
               "description": "大豆とにんじん入りの家庭的な小鉢。",
               "recommendationGroup": "side",
@@ -1065,7 +1073,7 @@
             },
             {
               "name": "冷奴",
-              "price": 90,
+              "price": 40,
               "kind": "food",
               "description": "ねぎと生姜をのせた豆腐。",
               "recommendationGroup": "side",
@@ -1074,7 +1082,7 @@
             },
             {
               "name": "納豆",
-              "price": 100,
+              "price": 30,
               "kind": "food",
               "description": "小さな器で提供。刻みねぎ付き。",
               "recommendationGroup": "side",
@@ -1083,7 +1091,7 @@
             },
             {
               "name": "ご飯大盛り",
-              "price": 60,
+              "price": 20,
               "kind": "addon",
               "description": "定食のご飯を増量。",
               "id": "teishoku-showa-2-item-10",
@@ -1091,7 +1099,7 @@
             },
             {
               "name": "味噌汁単品",
-              "price": 120,
+              "price": 20,
               "kind": "food",
               "description": "豆腐とわかめの味噌汁。",
               "recommendationGroup": "side",
@@ -1100,12 +1108,20 @@
             },
             {
               "name": "ほうれん草のおひたし",
-              "price": 100,
+              "price": 40,
               "kind": "food",
               "description": "かつお出汁を含ませた青菜。",
               "recommendationGroup": "side",
               "id": "teishoku-showa-2-item-12",
               "recommended": false
+            },
+            {
+              "id": "teishoku-showa-2-review-20260914-1",
+              "name": "持ち帰り煮豆 一折",
+              "price": 50,
+              "kind": "food",
+              "description": "甘辛い煮豆を約100g、紙の折へ詰める。容器代込みで、箸を一膳添える。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -1124,7 +1140,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 40,
+              "price": 180,
               "kind": "drink",
               "description": "食事に添える中瓶。",
               "recommendationGroup": "drink",
@@ -1133,7 +1149,7 @@
             },
             {
               "name": "麦茶",
-              "price": 50,
+              "price": 20,
               "kind": "drink",
               "description": "香ばしい麦茶を冷やして出す。",
               "recommendationGroup": "drink",
@@ -1151,7 +1167,7 @@
             },
             {
               "name": "食後のコーヒー",
-              "price": 80,
+              "price": 50,
               "kind": "drink",
               "description": "食事注文時の小さな一杯。",
               "recommendationGroup": "drink",
@@ -1199,7 +1215,7 @@
         "朝ごはんの定食屋"
       ],
       "description": "1968年の日本の架空都市・東町を舞台にした朝ごはんの定食屋。早番の作業員から近所の高齢者まで通う。夕方には弁当箱を持っておかずを買いに来る人もいる。",
-      "openingHours": "11:00〜21:00",
+      "openingHours": "7:00〜19:00（朝定食は7:00〜10:00）",
       "priceNote": "1968年を想定した円の架空価格。表示額で会計する卓用設定です。",
       "scene": {
         "interior": "長い相席テーブルと壁一面の献立札。入口から見える棚に、出来たての小鉢が並ぶ。レジの横に黒電話と伝票の束を置く。",
@@ -1274,6 +1290,14 @@
               "recommendationGroup": "main",
               "id": "teishoku-showa-3-item-6",
               "recommended": false
+            },
+            {
+              "id": "teishoku-showa-3-review-20260914-1",
+              "name": "早番の味噌汁と卵ご飯",
+              "price": 80,
+              "kind": "food",
+              "description": "7〜10時限定。ご飯、生卵一個、豆腐の味噌汁、漬物を一盆で出す。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -1292,7 +1316,7 @@
             },
             {
               "name": "ひじき煮",
-              "price": 80,
+              "price": 30,
               "kind": "food",
               "description": "大豆とにんじん入りの家庭的な小鉢。",
               "recommendationGroup": "side",
@@ -1301,7 +1325,7 @@
             },
             {
               "name": "冷奴",
-              "price": 90,
+              "price": 40,
               "kind": "food",
               "description": "ねぎと生姜をのせた豆腐。",
               "recommendationGroup": "side",
@@ -1310,7 +1334,7 @@
             },
             {
               "name": "納豆",
-              "price": 100,
+              "price": 30,
               "kind": "food",
               "description": "小さな器で提供。刻みねぎ付き。",
               "recommendationGroup": "side",
@@ -1319,7 +1343,7 @@
             },
             {
               "name": "ご飯大盛り",
-              "price": 60,
+              "price": 20,
               "kind": "addon",
               "description": "定食のご飯を増量。",
               "id": "teishoku-showa-3-item-10",
@@ -1327,7 +1351,7 @@
             },
             {
               "name": "味噌汁単品",
-              "price": 120,
+              "price": 20,
               "kind": "food",
               "description": "豆腐とわかめの味噌汁。",
               "recommendationGroup": "side",
@@ -1336,7 +1360,7 @@
             },
             {
               "name": "ほうれん草のおひたし",
-              "price": 100,
+              "price": 40,
               "kind": "food",
               "description": "かつお出汁を含ませた青菜。",
               "recommendationGroup": "side",
@@ -1360,7 +1384,7 @@
             },
             {
               "name": "瓶ビール",
-              "price": 40,
+              "price": 180,
               "kind": "drink",
               "description": "食事に添える中瓶。",
               "recommendationGroup": "drink",
@@ -1369,7 +1393,7 @@
             },
             {
               "name": "麦茶",
-              "price": 50,
+              "price": 20,
               "kind": "drink",
               "description": "香ばしい麦茶を冷やして出す。",
               "recommendationGroup": "drink",
@@ -1387,7 +1411,7 @@
             },
             {
               "name": "食後のコーヒー",
-              "price": 80,
+              "price": 50,
               "kind": "drink",
               "description": "食事注文時の小さな一杯。",
               "recommendationGroup": "drink",

@@ -169,6 +169,14 @@
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-12",
               "recommended": false
+            },
+            {
+              "id": "grocer-victorian-1-review-20260914-1",
+              "name": "粗糖 半ポンド",
+              "price": 2,
+              "kind": "goods",
+              "description": "茶や菓子作りに使う茶色い砂糖。半ポンド（約227g）を量って紙袋へ。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -475,6 +483,14 @@
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-18",
               "recommended": false
+            },
+            {
+              "id": "grocer-victorian-2-review-20260914-1",
+              "name": "朝の牛乳 一英パイント",
+              "price": 2,
+              "kind": "drink",
+              "description": "当日届いた牛乳を約568ml量る。持参した清潔な容器に注ぎ、容器代は含まない。",
+              "recommendationGroup": "drink"
             }
           ]
         }
@@ -643,6 +659,14 @@
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-12",
               "recommended": false
+            },
+            {
+              "id": "grocer-victorian-3-review-20260914-1",
+              "name": "有塩バター 四分の一ポンド",
+              "price": 4,
+              "kind": "goods",
+              "description": "約113gを量り、油を通しにくい紙で包む。食料を積み込む客にも少量で売る。",
+              "recommendationGroup": "goods"
             }
           ]
         },

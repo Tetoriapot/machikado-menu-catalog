@@ -13,7 +13,8 @@
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "check:pages": "node scripts/verify-pages.mjs",
     "lint": "oxlint",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "audit:catalog": "node --experimental-strip-types scripts/audit-catalog.ts"
   },
   "dependencies": {
     "react": "19.2.6",

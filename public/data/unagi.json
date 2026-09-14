@@ -763,9 +763,9 @@
             },
             {
               "name": "小うな重と季節の煮物膳",
-              "price": 700,
+              "price": 500,
               "kind": "food",
-              "description": "少量の重に野菜の煮物を添える。",
+              "description": "小さなうな重に煮物、吸い物、漬物を添えた一人前の膳。",
               "recommendationGroup": "main",
               "id": "unagi-showa-1-item-3",
               "recommended": false
@@ -781,9 +781,9 @@
             },
             {
               "name": "うな丼",
-              "price": 900,
+              "price": 350,
               "kind": "food",
-              "description": "蒲焼きを少量から楽しめる丼。",
+              "description": "並のうな重より鰻を少なめにした一人前の丼。吸い物は別。",
               "recommendationGroup": "main",
               "id": "unagi-showa-1-item-5",
               "recommended": false
@@ -883,7 +883,7 @@
             },
             {
               "name": "冷酒 一合",
-              "price": 50,
+              "price": 100,
               "kind": "drink",
               "description": "日本酒を小さな徳利で出す。",
               "recommendationGroup": "drink",
@@ -1000,9 +1000,9 @@
             },
             {
               "name": "小うな重と季節の煮物膳",
-              "price": 700,
+              "price": 500,
               "kind": "food",
-              "description": "少量の重に野菜の煮物を添える。",
+              "description": "小さなうな重に煮物、吸い物、漬物を添えた一人前の膳。",
               "recommendationGroup": "main",
               "id": "unagi-showa-2-item-3",
               "recommended": false
@@ -1018,9 +1018,9 @@
             },
             {
               "name": "うな丼",
-              "price": 900,
+              "price": 350,
               "kind": "food",
-              "description": "蒲焼きを少量から楽しめる丼。",
+              "description": "並のうな重より鰻を少なめにした一人前の丼。吸い物は別。",
               "recommendationGroup": "main",
               "id": "unagi-showa-2-item-5",
               "recommended": false
@@ -1111,7 +1111,7 @@
           "items": [
             {
               "name": "温かい麦茶",
-              "price": 130,
+              "price": 30,
               "kind": "drink",
               "description": "麦茶を温かく淹れる。",
               "recommendationGroup": "drink",
@@ -1120,7 +1120,7 @@
             },
             {
               "name": "冷酒 一合",
-              "price": 50,
+              "price": 100,
               "kind": "drink",
               "description": "日本酒を小さな徳利で出す。",
               "recommendationGroup": "drink",
@@ -1237,9 +1237,9 @@
             },
             {
               "name": "小うな重と季節の煮物膳",
-              "price": 700,
+              "price": 500,
               "kind": "food",
-              "description": "少量の重に野菜の煮物を添える。",
+              "description": "小さなうな重に煮物、吸い物、漬物を添えた一人前の膳。",
               "recommendationGroup": "main",
               "id": "unagi-showa-3-item-3",
               "recommended": false
@@ -1255,9 +1255,9 @@
             },
             {
               "name": "うな丼",
-              "price": 900,
+              "price": 350,
               "kind": "food",
-              "description": "蒲焼きを少量から楽しめる丼。",
+              "description": "並のうな重より鰻を少なめにした一人前の丼。吸い物は別。",
               "recommendationGroup": "main",
               "id": "unagi-showa-3-item-5",
               "recommended": false
@@ -1357,7 +1357,7 @@
             },
             {
               "name": "冷酒 一合",
-              "price": 50,
+              "price": 100,
               "kind": "drink",
               "description": "日本酒を小さな徳利で出す。",
               "recommendationGroup": "drink",

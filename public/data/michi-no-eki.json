@@ -160,8 +160,8 @@
               "price": 660,
               "description": "土産にもなる素朴な箸。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "side"
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "michi-no-eki-1-item-15",
@@ -169,8 +169,8 @@
               "price": 165,
               "description": "架空の里山風景のイラスト。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "side"
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -396,8 +396,8 @@
               "price": 730,
               "description": "土産にもなる素朴な箸。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "side"
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "michi-no-eki-2-item-15",
@@ -405,8 +405,8 @@
               "price": 180,
               "description": "架空の里山風景のイラスト。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "side"
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -678,8 +678,8 @@
               "price": 180,
               "description": "架空の里山風景のイラスト。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "side"
+              "kind": "goods",
+              "recommendationGroup": "goods"
             },
             {
               "id": "michi-no-eki-3-staple-11",
@@ -696,8 +696,8 @@
               "price": 730,
               "description": "土産にもなる素朴な箸。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "side"
+              "kind": "goods",
+              "recommendationGroup": "goods"
             }
           ]
         }

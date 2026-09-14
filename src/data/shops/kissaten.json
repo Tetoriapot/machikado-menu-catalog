@@ -40,8 +40,8 @@
               "price": 500,
               "description": "軽やかな口当たりに仕上げた一杯。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "main"
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "kissaten-1-item-3",
@@ -549,8 +549,8 @@
               "price": 500,
               "description": "軽やかな口当たりに仕上げた一杯。",
               "recommended": false,
-              "kind": "food",
-              "recommendationGroup": "main"
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "kissaten-3-staple-4",
@@ -762,9 +762,9 @@
             {
               "name": "アメリカン",
               "price": 400,
-              "kind": "food",
+              "kind": "drink",
               "description": "軽やかな口当たりに仕上げた一杯。",
-              "recommendationGroup": "main",
+              "recommendationGroup": "drink",
               "id": "kissaten-heisei-1-item-2",
               "recommended": false
             },
@@ -848,7 +848,7 @@
             },
             {
               "name": "厚切りバタートースト",
-              "price": 650,
+              "price": 300,
               "kind": "food",
               "description": "外はさっくり、中はふんわりの厚切り。",
               "recommendationGroup": "side",
@@ -999,9 +999,9 @@
             {
               "name": "アメリカン",
               "price": 400,
-              "kind": "food",
+              "kind": "drink",
               "description": "軽やかな口当たりに仕上げた一杯。",
-              "recommendationGroup": "main",
+              "recommendationGroup": "drink",
               "id": "kissaten-heisei-2-item-2",
               "recommended": false
             },
@@ -1085,7 +1085,7 @@
             },
             {
               "name": "厚切りバタートースト",
-              "price": 650,
+              "price": 300,
               "kind": "food",
               "description": "外はさっくり、中はふんわりの厚切り。",
               "recommendationGroup": "side",
@@ -1236,9 +1236,9 @@
             {
               "name": "アメリカン",
               "price": 400,
-              "kind": "food",
+              "kind": "drink",
               "description": "軽やかな口当たりに仕上げた一杯。",
-              "recommendationGroup": "main",
+              "recommendationGroup": "drink",
               "id": "kissaten-heisei-3-item-2",
               "recommended": false
             },
@@ -1322,7 +1322,7 @@
             },
             {
               "name": "厚切りバタートースト",
-              "price": 650,
+              "price": 300,
               "kind": "food",
               "description": "外はさっくり、中はふんわりの厚切り。",
               "recommendationGroup": "side",
@@ -1473,9 +1473,9 @@
             {
               "name": "アメリカン",
               "price": 90,
-              "kind": "food",
+              "kind": "drink",
               "description": "軽やかな口当たりに仕上げた一杯。",
-              "recommendationGroup": "main",
+              "recommendationGroup": "drink",
               "id": "kissaten-showa-1-item-2",
               "recommended": false
             },
@@ -1559,7 +1559,7 @@
             },
             {
               "name": "厚切りバタートースト",
-              "price": 220,
+              "price": 60,
               "kind": "food",
               "description": "外はさっくり、中はふんわりの厚切り。",
               "recommendationGroup": "side",
@@ -1628,7 +1628,7 @@
             },
             {
               "name": "珈琲ゼリー",
-              "price": 150,
+              "price": 80,
               "kind": "food",
               "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
               "recommendationGroup": "dessert",
@@ -1710,9 +1710,9 @@
             {
               "name": "アメリカン",
               "price": 90,
-              "kind": "food",
+              "kind": "drink",
               "description": "軽やかな口当たりに仕上げた一杯。",
-              "recommendationGroup": "main",
+              "recommendationGroup": "drink",
               "id": "kissaten-showa-2-item-2",
               "recommended": false
             },
@@ -1796,7 +1796,7 @@
             },
             {
               "name": "厚切りバタートースト",
-              "price": 220,
+              "price": 60,
               "kind": "food",
               "description": "外はさっくり、中はふんわりの厚切り。",
               "recommendationGroup": "side",
@@ -1865,7 +1865,7 @@
             },
             {
               "name": "珈琲ゼリー",
-              "price": 150,
+              "price": 80,
               "kind": "food",
               "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
               "recommendationGroup": "dessert",
@@ -1947,9 +1947,9 @@
             {
               "name": "アメリカン",
               "price": 90,
-              "kind": "food",
+              "kind": "drink",
               "description": "軽やかな口当たりに仕上げた一杯。",
-              "recommendationGroup": "main",
+              "recommendationGroup": "drink",
               "id": "kissaten-showa-3-item-2",
               "recommended": false
             },
@@ -2033,7 +2033,7 @@
             },
             {
               "name": "厚切りバタートースト",
-              "price": 220,
+              "price": 60,
               "kind": "food",
               "description": "外はさっくり、中はふんわりの厚切り。",
               "recommendationGroup": "side",
@@ -2102,7 +2102,7 @@
             },
             {
               "name": "珈琲ゼリー",
-              "price": 150,
+              "price": 80,
               "kind": "food",
               "description": "深煎りの香りを閉じ込めたゼリー。クリーム添え。",
               "recommendationGroup": "dessert",

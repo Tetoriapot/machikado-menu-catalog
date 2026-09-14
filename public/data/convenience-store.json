@@ -779,7 +779,7 @@
             },
             {
               "name": "のり弁当",
-              "price": 180,
+              "price": 350,
               "kind": "food",
               "description": "白身魚フライとちくわ天をのせたお弁当。",
               "recommendationGroup": "main",
@@ -797,7 +797,7 @@
             },
             {
               "name": "レジ横チキン",
-              "price": 350,
+              "price": 150,
               "kind": "food",
               "description": "胡椒をきかせた衣の骨なしフライドチキン。",
               "recommendationGroup": "main",
@@ -806,7 +806,7 @@
             },
             {
               "name": "昆布おにぎり",
-              "price": 450,
+              "price": 100,
               "kind": "food",
               "description": "甘辛い昆布を包んだ手軽な一個。",
               "recommendationGroup": "main",
@@ -875,7 +875,7 @@
             },
             {
               "name": "小さな牛乳 200ml",
-              "price": 250,
+              "price": 100,
               "kind": "drink",
               "description": "朝食に合わせやすい紙パック。",
               "recommendationGroup": "drink",
@@ -1016,7 +1016,7 @@
             },
             {
               "name": "のり弁当",
-              "price": 180,
+              "price": 350,
               "kind": "food",
               "description": "白身魚フライとちくわ天をのせたお弁当。",
               "recommendationGroup": "main",
@@ -1034,7 +1034,7 @@
             },
             {
               "name": "レジ横チキン",
-              "price": 350,
+              "price": 150,
               "kind": "food",
               "description": "胡椒をきかせた衣の骨なしフライドチキン。",
               "recommendationGroup": "main",
@@ -1043,7 +1043,7 @@
             },
             {
               "name": "昆布おにぎり",
-              "price": 450,
+              "price": 100,
               "kind": "food",
               "description": "甘辛い昆布を包んだ手軽な一個。",
               "recommendationGroup": "main",
@@ -1112,7 +1112,7 @@
             },
             {
               "name": "小さな牛乳 200ml",
-              "price": 250,
+              "price": 100,
               "kind": "drink",
               "description": "朝食に合わせやすい紙パック。",
               "recommendationGroup": "drink",
@@ -1226,7 +1226,7 @@
           "items": [
             {
               "name": "ポテトコロッケパン",
-              "price": 380,
+              "price": 150,
               "kind": "food",
               "description": "コロッケをパンに挟む。",
               "recommendationGroup": "main",
@@ -1253,7 +1253,7 @@
             },
             {
               "name": "のり弁当",
-              "price": 180,
+              "price": 350,
               "kind": "food",
               "description": "白身魚フライとちくわ天をのせたお弁当。",
               "recommendationGroup": "main",
@@ -1271,7 +1271,7 @@
             },
             {
               "name": "レジ横チキン",
-              "price": 350,
+              "price": 150,
               "kind": "food",
               "description": "胡椒をきかせた衣の骨なしフライドチキン。",
               "recommendationGroup": "main",
@@ -1280,7 +1280,7 @@
             },
             {
               "name": "昆布おにぎり",
-              "price": 450,
+              "price": 100,
               "kind": "food",
               "description": "甘辛い昆布を包んだ手軽な一個。",
               "recommendationGroup": "main",
@@ -1295,9 +1295,9 @@
           "items": [
             {
               "name": "紙パックりんご飲料",
-              "price": 280,
+              "price": 100,
               "kind": "drink",
-              "description": "飲み切りサイズの果実飲料。",
+              "description": "200ml入りの紙パック。冷たいりんごの果汁飲料。",
               "recommendationGroup": "drink",
               "id": "convenience-store-heisei-3-signature-2",
               "recommended": true
@@ -1349,7 +1349,7 @@
             },
             {
               "name": "小さな牛乳 200ml",
-              "price": 250,
+              "price": 100,
               "kind": "drink",
               "description": "朝食に合わせやすい紙パック。",
               "recommendationGroup": "drink",

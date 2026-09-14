@@ -1462,19 +1462,19 @@
               "recommended": true
             },
             {
-              "name": "白パン 一斤",
+              "name": "白パン 二ポンド",
               "price": 4,
               "kind": "food",
-              "description": "白い小麦の大きなパン。",
+              "description": "白い小麦の大きなパン。 一個の重さは二ポンド（約907g）。",
               "recommendationGroup": "main",
               "id": "bakery-victorian-1-item-1",
               "recommended": false
             },
             {
-              "name": "全粒粉パン 一斤",
+              "name": "全粒粉パン 二ポンド",
               "price": 3,
               "kind": "food",
-              "description": "ふすま入りの食事パン。",
+              "description": "ふすま入りの食事パン。 一個の重さは二ポンド（約907g）。",
               "recommendationGroup": "main",
               "id": "bakery-victorian-1-item-2",
               "recommended": false
@@ -1699,19 +1699,19 @@
               "recommended": true
             },
             {
-              "name": "白パン 一斤",
+              "name": "白パン 二ポンド",
               "price": 4,
               "kind": "food",
-              "description": "白い小麦の大きなパン。",
+              "description": "白い小麦の大きなパン。 一個の重さは二ポンド（約907g）。",
               "recommendationGroup": "main",
               "id": "bakery-victorian-2-item-1",
               "recommended": false
             },
             {
-              "name": "全粒粉パン 一斤",
+              "name": "全粒粉パン 二ポンド",
               "price": 3,
               "kind": "food",
-              "description": "ふすま入りの食事パン。",
+              "description": "ふすま入りの食事パン。 一個の重さは二ポンド（約907g）。",
               "recommendationGroup": "main",
               "id": "bakery-victorian-2-item-2",
               "recommended": false
@@ -1936,19 +1936,19 @@
               "recommended": true
             },
             {
-              "name": "白パン 一斤",
+              "name": "白パン 二ポンド",
               "price": 4,
               "kind": "food",
-              "description": "白い小麦の大きなパン。",
+              "description": "白い小麦の大きなパン。 一個の重さは二ポンド（約907g）。",
               "recommendationGroup": "main",
               "id": "bakery-victorian-3-item-1",
               "recommended": false
             },
             {
-              "name": "全粒粉パン 一斤",
+              "name": "全粒粉パン 二ポンド",
               "price": 3,
               "kind": "food",
-              "description": "ふすま入りの食事パン。",
+              "description": "ふすま入りの食事パン。 一個の重さは二ポンド（約907g）。",
               "recommendationGroup": "main",
               "id": "bakery-victorian-3-item-2",
               "recommended": false
@@ -2173,19 +2173,19 @@
               "recommended": true
             },
             {
-              "name": "白パン 一斤",
+              "name": "白パン 一ポンド",
               "price": 10,
               "kind": "food",
-              "description": "白い小麦の大きなパン。",
+              "description": "白い小麦の大きなパン。 一個の重さは一ポンド（約454g）。",
               "recommendationGroup": "main",
               "id": "bakery-america-1920s-1-item-1",
               "recommended": false
             },
             {
-              "name": "全粒粉パン 一斤",
+              "name": "全粒粉パン 一ポンド",
               "price": 8,
               "kind": "food",
-              "description": "ふすま入りの食事パン。",
+              "description": "ふすま入りの食事パン。 一個の重さは一ポンド（約454g）。",
               "recommendationGroup": "main",
               "id": "bakery-america-1920s-1-item-2",
               "recommended": false
@@ -2410,19 +2410,19 @@
               "recommended": true
             },
             {
-              "name": "白パン 一斤",
+              "name": "白パン 一ポンド",
               "price": 10,
               "kind": "food",
-              "description": "白い小麦の大きなパン。",
+              "description": "白い小麦の大きなパン。 一個の重さは一ポンド（約454g）。",
               "recommendationGroup": "main",
               "id": "bakery-america-1920s-2-item-1",
               "recommended": false
             },
             {
-              "name": "全粒粉パン 一斤",
+              "name": "全粒粉パン 一ポンド",
               "price": 8,
               "kind": "food",
-              "description": "ふすま入りの食事パン。",
+              "description": "ふすま入りの食事パン。 一個の重さは一ポンド（約454g）。",
               "recommendationGroup": "main",
               "id": "bakery-america-1920s-2-item-2",
               "recommended": false
@@ -2647,19 +2647,19 @@
               "recommended": true
             },
             {
-              "name": "白パン 一斤",
+              "name": "白パン 一ポンド",
               "price": 10,
               "kind": "food",
-              "description": "白い小麦の大きなパン。",
+              "description": "白い小麦の大きなパン。 一個の重さは一ポンド（約454g）。",
               "recommendationGroup": "main",
               "id": "bakery-america-1920s-3-item-1",
               "recommended": false
             },
             {
-              "name": "全粒粉パン 一斤",
+              "name": "全粒粉パン 一ポンド",
               "price": 8,
               "kind": "food",
-              "description": "ふすま入りの食事パン。",
+              "description": "ふすま入りの食事パン。 一個の重さは一ポンド（約454g）。",
               "recommendationGroup": "main",
               "id": "bakery-america-1920s-3-item-2",
               "recommended": false

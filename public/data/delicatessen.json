@@ -162,10 +162,10 @@
               "recommended": false
             },
             {
-              "name": "ライ麦パン 半斤",
+              "name": "ライ麦パン 半ポンド",
               "price": 10,
               "kind": "goods",
-              "description": "食事用のパンを包む。",
+              "description": "食事用のパンを包む。 半ポンド（約227g）分を包む。",
               "recommendationGroup": "goods",
               "id": "delicatessen-america-1920s-1-item-12",
               "recommended": false
@@ -399,10 +399,10 @@
               "recommended": false
             },
             {
-              "name": "ライ麦パン 半斤",
+              "name": "ライ麦パン 半ポンド",
               "price": 10,
               "kind": "goods",
-              "description": "食事用のパンを包む。",
+              "description": "食事用のパンを包む。 半ポンド（約227g）分を包む。",
               "recommendationGroup": "goods",
               "id": "delicatessen-america-1920s-2-item-12",
               "recommended": false
@@ -636,10 +636,10 @@
               "recommended": false
             },
             {
-              "name": "ライ麦パン 半斤",
+              "name": "ライ麦パン 半ポンド",
               "price": 10,
               "kind": "goods",
-              "description": "食事用のパンを包む。",
+              "description": "食事用のパンを包む。 半ポンド（約227g）分を包む。",
               "recommendationGroup": "goods",
               "id": "delicatessen-america-1920s-3-item-12",
               "recommended": false

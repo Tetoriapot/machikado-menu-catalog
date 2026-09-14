@@ -27,7 +27,7 @@
         "signature": "あさひ湯の手ぶら入浴セットと湯上がり梅ソーダ",
         "localFlavor": "近所の商店主が閉店後に集まる。休憩室で地域の出来事を話す声が聞こえる。"
       },
-      "priceNote": "税込の設定料金です。入浴料は1人1回。セット料金と含まれる単品料金は重ねて加算しません。販売品は持ち帰り、貸出品は退館時に返却してください。",
+      "priceNote": "税込の設定料金です。入浴料は1人1回。セット料金と含まれる単品料金は重ねて加算しません。販売品は持ち帰り、貸出品は退館時に返却してください。 基本入浴料は2026年8月の東京銭湯の料金を参考にした架空設定。セット・貸出・販売品は当店の設定料金です。",
       "menuSections": [
         {
           "id": "bathhouse-1-section-1",
@@ -59,16 +59,16 @@
             },
             {
               "name": "大人入浴 一回",
-              "price": 550,
-              "description": "一人一回の基本の入浴料。",
+              "price": 600,
+              "description": "12歳以上一人一回の基本入浴料。",
               "kind": "fee",
               "id": "bathhouse-1-staple-1",
               "recommended": false
             },
             {
               "name": "子ども入浴 一回",
-              "price": 250,
-              "description": "小学生一人一回の入浴料。",
+              "price": 200,
+              "description": "6歳以上12歳未満一人一回の入浴料。",
               "kind": "fee",
               "id": "bathhouse-1-staple-2",
               "recommended": false
@@ -88,6 +88,13 @@
               "kind": "service",
               "id": "bathhouse-1-staple-4",
               "recommended": false
+            },
+            {
+              "id": "bathhouse-1-review-20260914-1",
+              "name": "未就学児入浴 一回",
+              "price": 100,
+              "kind": "fee",
+              "description": "6歳未満一人一回。付き添いの大人の入浴料は別。"
             }
           ]
         },
@@ -252,7 +259,7 @@
         "signature": "平日昼の手ぶら入浴セットと灯の輪のレモンミルク",
         "localFlavor": "仕事帰りの人と旅行中の客が交じる。駅の混雑が落ち着くまで休む人もいる。"
       },
-      "priceNote": "税込の設定料金です。入浴料は1人1回。時間条件のあるセットは各項目をご確認ください。セット内の入浴料・貸出料は重複加算しません。",
+      "priceNote": "税込の設定料金です。入浴料は1人1回。時間条件のあるセットは各項目をご確認ください。セット内の入浴料・貸出料は重複加算しません。 基本入浴料も当施設独自の架空設定です。",
       "menuSections": [
         {
           "id": "bathhouse-2-section-1",
@@ -285,7 +292,7 @@
             {
               "name": "大人入浴 一回",
               "price": 550,
-              "description": "一人一回の基本の入浴料。",
+              "description": "12歳以上一人一回の基本入浴料。",
               "kind": "fee",
               "id": "bathhouse-2-staple-1",
               "recommended": false
@@ -293,7 +300,7 @@
             {
               "name": "子ども入浴 一回",
               "price": 250,
-              "description": "小学生一人一回の入浴料。",
+              "description": "6歳以上12歳未満一人一回の入浴料。",
               "kind": "fee",
               "id": "bathhouse-2-staple-2",
               "recommended": false
@@ -313,6 +320,13 @@
               "kind": "service",
               "id": "bathhouse-2-staple-4",
               "recommended": false
+            },
+            {
+              "id": "bathhouse-2-review-20260914-1",
+              "name": "未就学児入浴 一回",
+              "price": 100,
+              "kind": "fee",
+              "description": "6歳未満一人一回。付き添いの大人の入浴料は別。"
             }
           ]
         },
@@ -477,7 +491,7 @@
         "signature": "こなら館の入浴休憩セットと山里のりんご牛乳",
         "localFlavor": "農作業を終えた人と日帰りの旅行客が来る。夕方は帰り道の天気の話題が多い。"
       },
-      "priceNote": "税込の設定料金です。入浴料は1人1回。休憩室や貸出品の料金は記載条件に従います。セットに含まれる料金は重複加算しません。",
+      "priceNote": "税込の設定料金です。入浴料は1人1回。休憩室や貸出品の料金は記載条件に従います。セットに含まれる料金は重複加算しません。 基本入浴料も当施設独自の架空設定です。",
       "menuSections": [
         {
           "id": "bathhouse-3-section-1",
@@ -510,7 +524,7 @@
             {
               "name": "大人入浴 一回",
               "price": 550,
-              "description": "一人一回の基本の入浴料。",
+              "description": "12歳以上一人一回の基本入浴料。",
               "kind": "fee",
               "id": "bathhouse-3-staple-1",
               "recommended": false
@@ -518,7 +532,7 @@
             {
               "name": "子ども入浴 一回",
               "price": 250,
-              "description": "小学生一人一回の入浴料。",
+              "description": "6歳以上12歳未満一人一回の入浴料。",
               "kind": "fee",
               "id": "bathhouse-3-staple-2",
               "recommended": false
@@ -538,6 +552,13 @@
               "kind": "service",
               "id": "bathhouse-3-staple-4",
               "recommended": false
+            },
+            {
+              "id": "bathhouse-3-review-20260914-1",
+              "name": "未就学児入浴 一回",
+              "price": 100,
+              "kind": "fee",
+              "description": "6歳未満一人一回。付き添いの大人の入浴料は別。"
             }
           ]
         },

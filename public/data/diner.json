@@ -100,6 +100,14 @@
               "recommendationGroup": "main",
               "id": "diner-america-1920s-1-item-6",
               "recommended": false
+            },
+            {
+              "id": "diner-america-1920s-1-review-20260914-1",
+              "name": "りんご入りオートミール 一椀",
+              "price": 15,
+              "kind": "food",
+              "description": "燕麦を煮た粥に刻んだりんごと牛乳を添える。飲み物は別。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -337,6 +345,14 @@
               "recommendationGroup": "main",
               "id": "diner-america-1920s-2-item-6",
               "recommended": false
+            },
+            {
+              "id": "diner-america-1920s-2-review-20260914-1",
+              "name": "バターミルク・パンケーキ 三枚",
+              "price": 20,
+              "kind": "food",
+              "description": "鉄板で焼く小ぶりな三枚。バターと糖蜜シロップ付き、飲み物は別。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -574,6 +590,14 @@
               "recommendationGroup": "main",
               "id": "diner-america-1920s-3-item-6",
               "recommended": false
+            },
+            {
+              "id": "diner-america-1920s-3-review-20260914-1",
+              "name": "鱈とじゃがいもの焼き団子 二個",
+              "price": 25,
+              "kind": "food",
+              "description": "ほぐした塩鱈と芋をまとめて鉄板で焼く。トースト一枚付き。",
+              "recommendationGroup": "main"
             }
           ]
         },

@@ -160,8 +160,8 @@
               "price": 88,
               "description": "備蓄にも使える飲料水。",
               "recommended": false,
-              "kind": "goods",
-              "recommendationGroup": "goods"
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "supermarket-1-item-13",
@@ -687,8 +687,8 @@
               "price": 88,
               "description": "備蓄にも使える飲料水。",
               "recommended": false,
-              "kind": "goods",
-              "recommendationGroup": "goods"
+              "kind": "drink",
+              "recommendationGroup": "drink"
             },
             {
               "id": "supermarket-3-staple-12",
