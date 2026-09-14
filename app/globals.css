@@ -51,3 +51,147 @@
 
 .filter-select.era-select{min-width:240px;flex:0 1 260px;max-width:100%}
 .era-select-options{min-width:260px;max-width:calc(100vw - 24px)}
+
+/* Display preferences and the two reference dialogs. */
+:root { color-scheme: light; --primary-foreground: #fff; }
+@theme inline { --color-primary-foreground: var(--primary-foreground); }
+:root.dark {
+  color-scheme: dark;
+  --background: #151c19;
+  --foreground: #e3e9e1;
+  --card: #202a25;
+  --primary: #add4b6;
+  --primary-foreground: #14291e;
+  --muted: #27332c;
+  --muted-foreground: #a6b4a7;
+  --accent: #314438;
+  --border: #3d4d42;
+  --sidebar: #19231f;
+}
+.primary, .toast, .skip-link { color: var(--primary-foreground); }
+.toast > button { color: inherit; }
+.topbar-actions { display: flex; align-items: center; gap: 18px; flex-shrink: 0; }
+.topbar-actions .session-manage { margin-left: 0; }
+.session-manage > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.breadcrumb { min-width: 0; }
+.breadcrumb > strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.theme-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 44px; min-height: 44px; padding: 0 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--card); color: var(--primary); font-size: 12px; white-space: nowrap; flex-shrink: 0; }
+.theme-toggle:hover { background: var(--accent); }
+.theme-save-notice { position: fixed; z-index: 1100; bottom: 20px; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100vw - 32px); padding: 12px 18px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 4px 20px #0003; font-size: 14px; }
+.theme-save-notice .text-button { margin-left: 12px; }
+.catalog-sidebar [data-slot=sidebar-footer] { gap: 2px; }
+.help-link { min-height: 40px; border-radius: 5px; }
+.help-link:hover { background: var(--accent); }
+.guide-dialog { display: flex !important; flex-direction: column; gap: 0 !important; width: calc(100vw - 32px) !important; max-width: 700px !important; max-height: min(850px, 90dvh); padding: 0 !important; overflow: hidden; background: var(--card); }
+.guide-header { position: relative; padding: 28px 64px 22px 28px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.guide-eyebrow { display: flex; align-items: center; gap: 8px; color: var(--primary); font: 11px Arial, sans-serif; letter-spacing: 2px; margin-bottom: 12px; }
+.guide-title { font: 600 25px/1.5 'Yu Mincho', serif; letter-spacing: 1px; margin-bottom: 8px; }
+.guide-header [data-slot=dialog-description] { line-height: 1.8; }
+.guide-close { position: absolute; top: 18px; right: 18px; width: 40px; height: 40px; color: var(--muted-foreground); border-radius: 5px; }
+.guide-close:hover { background: var(--accent); }
+.guide-content { padding: 24px 28px; overflow-y: auto; min-height: 0; overscroll-behavior: contain; scrollbar-gutter: stable; }
+.guide-content:focus-visible { outline: 2px solid var(--primary); outline-offset: -3px; }
+.guide-start { background: var(--muted); padding: 20px; border-radius: 8px; }
+.guide-start h2 { font-size: 15px; font-weight: 700; margin-bottom: 18px; }
+.guide-steps { display: grid; gap: 20px; margin: 0; padding: 0; list-style: none; }
+.guide-steps > li { display: flex; gap: 12px; align-items: flex-start; }
+.guide-steps svg { color: var(--primary); margin-top: 3px; }
+.guide-steps b { font-size: 14px; color: var(--primary); }
+.guide-steps p { font-size: 13px; line-height: 1.9; margin-top: 4px; color: var(--muted-foreground); }
+.guide-topics { margin-top: 24px; }
+.guide-topics details { border-bottom: 1px solid var(--border); }
+.guide-topics summary { position: relative; cursor: pointer; padding: 18px 28px 18px 0; list-style: none; font-size: 14px; line-height: 1.8; font-weight: 600; }
+.guide-topics summary::-webkit-details-marker { display: none; }
+.guide-topics summary::after { content: '+'; position: absolute; right: 3px; font-weight: 400; color: var(--primary); }
+.guide-topics details[open] summary::after { content: '−'; }
+.guide-topics details > div { padding: 0 0 20px; font-size: 14px; line-height: 1.95; color: var(--muted-foreground); }
+.guide-topics p + p { margin-top: 12px; }
+.guide-content kbd, .guide-footer kbd { display: inline-block; padding: 0 5px; background: var(--muted); border: 1px solid var(--border); border-radius: 3px; font-size: 11px; }
+.guide-theme-setting { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 14px; font-size: 13px; }
+.guide-theme-setting .button { font-size: 12px; padding: 9px 12px; }
+.guide-about { font-size: 12px; line-height: 2; color: var(--muted-foreground); margin-top: 24px; }
+.guide-footer { flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 28px; border-top: 1px solid var(--border); }
+.guide-footer > span { font-size: 12px; color: var(--muted-foreground); }
+.guide-footer .button { padding: 9px 24px; }
+.changelog-list { list-style: none; margin: 0; padding: 0 0 0 16px; border-left: 1px solid var(--border); }
+.changelog-list > li { position: relative; padding: 0 0 30px 10px; }
+.changelog-list > li:last-child { padding-bottom: 4px; }
+.changelog-list > li::before { content: ''; position: absolute; top: 7px; left: -21px; width: 9px; height: 9px; border-radius: 50%; background: var(--muted-foreground); box-shadow: 0 0 0 4px var(--card); }
+.changelog-list > li:first-child::before { background: var(--primary); }
+.release-date { display: flex; gap: 12px; align-items: center; font: 13px Georgia, serif; color: var(--muted-foreground); }
+.release-date > span { font: 11px var(--font-sans); padding: 3px 8px; border-radius: 4px; color: var(--primary); background: var(--accent); }
+.changelog-list h2 { font-size: 18px; font-weight: 600; line-height: 1.6; margin: 12px 0; }
+.changelog-list ul { list-style: disc; padding-left: 18px; font-size: 14px; line-height: 1.95; color: var(--muted-foreground); }
+.changelog-list ul li + li { margin-top: 8px; }
+
+/* Paper exports keep their own light palette; only the surrounding controls change. */
+.menu-paper { color: #34422e; color-scheme: light; }
+.player-toolbar .theme-toggle span { display: none; }
+@media screen {
+  .dark .topbar, .dark .player-toolbar { background: var(--sidebar); border-color: var(--border); }
+  .dark .brand small, .dark .side-label, .dark .side-group, .dark .side-foot,
+  .dark .side-foot span, .dark .nav-link, .dark .breadcrumb, .dark .eyebrow,
+  .dark .page-heading p:not(.eyebrow), .dark .suggestions, .dark .catalog-totals,
+  .dark .results-heading small, .dark .results-heading > span, .dark .shop-meta,
+  .dark .shop-meta i, .dark .shop-description, .dark .tags > span,
+  .dark .menu-preview, .dark .card-bottom > span, .dark .page-footer,
+  .dark .page-footer p span, .dark .back-link, .dark .detail-kicker,
+  .dark .detail-kicker > span:last-child, .dark .detail-description,
+  .dark .detail-facts, .dark .menu-topline, .dark .detail-menu > section h2 > span,
+  .dark .menu-item p, .dark .fiction-note, .dark .shop-scene,
+  .dark .search-matches > p, .dark .budget-input,
+  .dark .filters-row > span:first-child { color: var(--muted-foreground); }
+  .dark .breadcrumb strong, .dark .menu-preview b { color: var(--foreground); }
+  .dark .icon-button, .dark .card-bottom > a, .dark .menu-item > b,
+  .dark .recommend-heading h2, .dark .recommend-grid b { color: var(--primary); }
+  .dark .nav-link.active, .dark .category-pill, .dark .menu-item h3 > span { background: var(--accent); color: var(--primary); }
+  .dark .search-area, .dark .recommendations, .dark .menu-selection-toolbar { background: var(--muted); border-color: var(--border); }
+  .dark .search-input, .dark .search-input kbd, .dark .suggestions button,
+  .dark .tags > span, .dark .menu-preview, .dark .card-bottom, .dark .menu-item,
+  .dark .detail-menu > section h2, .dark .brand-icon { border-color: var(--border); }
+  .dark .search-input, .dark .search-input kbd { color: var(--muted-foreground); }
+  .dark .suggestions button, .dark .filter-button { background: var(--card); color: var(--primary); }
+  .dark .shop-card:hover { border-color: var(--primary); }
+  .dark .shop-icon { background: #364333; color: #c0d4a6; }
+  .dark .color-1 .shop-icon { background: #483e2d; color: #e2c18c; }
+  .dark .color-2 .shop-icon { background: #304536; color: #b0d6ab; }
+  .dark .color-3 .shop-icon { background: #493a2e; color: #e5bb95; }
+  .dark .color-4 .shop-icon { background: #3d364c; color: #cbbbe8; }
+  .dark .gm-panel pre, .dark .copy-dialog textarea { background: var(--muted); }
+  .dark .pick-number { color: #9bae95; }
+  .dark .menu-item.selected-item, .dark .menu-item.matched-item { background: #2a3d2e; }
+  .dark .menu-item.matched-item { outline-color: var(--primary); }
+  .dark .export-settings select { background: var(--card); }
+  .dark .storage-warning { background: #493e22; color: #f0dda8; border-color: #79683e; }
+  .dark .form-error { color: #f5a9a0; }
+  .dark .player-view { background: var(--background); }
+  .dark [data-slot=dialog-overlay] { background: #0008; }
+  .dark .catalog-scroll-content { scrollbar-color: #758b79 #253329; }
+  .dark .catalog-scroll-content::-webkit-scrollbar-track { background: #253329; }
+  .dark .catalog-scroll-content::-webkit-scrollbar-thumb { background: #758b79; border-color: #253329; }
+  .dark .catalog-scroll-content::-webkit-scrollbar-thumb:hover { background: #a6bea7; }
+}
+@media (max-width: 1000px) {
+  .theme-toggle > span { display: none; }
+  .topbar-actions { gap: 10px; }
+}
+@media (max-width: 767px) {
+  .topbar { gap: 8px; padding: 0 14px; }
+  .topbar-actions { gap: 6px; }
+  .topbar-actions .session-manage { max-width: 108px; }
+  .breadcrumb { flex: 1; gap: 5px; }
+  .breadcrumb > strong, .breadcrumb > svg { display: none; }
+  .breadcrumb > button:not(.mobile-toggle) { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .guide-header { padding: 22px 54px 18px 20px; }
+  .guide-title { font-size: 22px; }
+  .guide-close { top: 12px; right: 10px; }
+  .guide-content { padding: 20px; }
+  .guide-start { padding: 16px; }
+  .guide-footer { padding: 12px 20px; }
+  .guide-footer > span { font-size: 11px; }
+  .player-toolbar { padding: 0 12px; gap: 5px; }
+  .player-toolbar > div { gap: 3px; }
+  .player-toolbar .text-button { font-size: 12px; gap: 4px; }
+  .player-toolbar .theme-toggle { min-width: 36px; padding: 0 8px; }
+}
+@media print { .theme-save-notice { display: none !important; } }
