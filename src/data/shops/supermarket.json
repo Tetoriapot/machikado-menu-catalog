@@ -29,7 +29,7 @@
               "id": "supermarket-1-item-1",
               "name": "卵 十個",
               "price": 258,
-              "description": "普段の料理に使いやすいパック卵。",
+              "description": "サイズ混合の通常飼育卵、十個入り一パック。特別な銘柄や平飼い卵の設定ではない。",
               "recommended": true,
               "kind": "food",
               "recommendationGroup": "main"
@@ -37,8 +37,8 @@
             {
               "id": "supermarket-1-item-2",
               "name": "牛乳 1L",
-              "price": 228,
-              "description": "冷蔵棚の定番の牛乳。",
+              "price": 258,
+              "description": "生乳100%の成分無調整牛乳。1L紙パック一個の販売価格。",
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
@@ -138,6 +138,14 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-1-review-20261001-1",
+              "name": "家計用ブレンド米 5kg",
+              "price": 2880,
+              "kind": "goods",
+              "description": "国産うるち米を混ぜた精米5kg一袋。銘柄指定のない普段炊き用。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -227,7 +235,7 @@
               "id": "supermarket-1-editorial-3",
               "name": "朝食用ヨーグルト 四個組",
               "price": 238,
-              "description": "小さなカップのプレーンヨーグルトを四個。",
+              "description": "プレーンヨーグルト75gのカップ四個。四個で一組の販売価格。",
               "kind": "food",
               "recommendationGroup": "main",
               "recommended": false
@@ -240,7 +248,8 @@
         "service": "夕方に惣菜を補充し、大きな袋へ手早く会計する。",
         "signature": "家族向けの大容量品と揚げたて惣菜",
         "localFlavor": "車でまとめ買いする郊外の世帯が中心。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "supermarket-2",
@@ -314,6 +323,14 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
+            },
+            {
+              "id": "supermarket-2-review-20261001-1",
+              "name": "まる葉の近郊うるち米 2kg",
+              "price": 1480,
+              "kind": "goods",
+              "description": "近郊の架空産地から仕入れる精米2kg一袋。品種は入荷ごとに札で知らせる。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -430,7 +447,7 @@
               "id": "supermarket-2-curated-9",
               "name": "小袋の焙じ茶",
               "price": 328,
-              "description": "毎日飲みやすい茶葉。",
+              "description": "普段飲みの焙じ茶葉50g入り一袋。抽出した飲み物ではなく茶葉の販売。",
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
@@ -476,7 +493,8 @@
         "service": "少量パックの相談に応じ、常連には入荷日を伝える。",
         "signature": "地場野菜と小分けのおかず",
         "localFlavor": "徒歩圏の住民が毎日の献立を考えに来る。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "supermarket-3",
@@ -529,7 +547,7 @@
               "id": "supermarket-3-staple-1",
               "name": "卵 十個",
               "price": 258,
-              "description": "普段の料理に使いやすいパック卵。",
+              "description": "サイズ混合の通常飼育卵、十個入り一パック。特別な銘柄や平飼い卵の設定ではない。",
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
@@ -546,8 +564,8 @@
             {
               "id": "supermarket-3-staple-3",
               "name": "牛乳 1L",
-              "price": 228,
-              "description": "冷蔵棚の定番の牛乳。",
+              "price": 258,
+              "description": "生乳100%の成分無調整牛乳。1L紙パック一個の販売価格。",
               "recommended": false,
               "kind": "drink",
               "recommendationGroup": "drink"
@@ -629,6 +647,14 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            },
+            {
+              "id": "supermarket-3-review-20261001-1",
+              "name": "一人暮らしの無洗米 1kg",
+              "price": 780,
+              "kind": "goods",
+              "description": "洗わず炊ける加工済みの米1kg一袋。小分けで使い切りやすい。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -676,7 +702,7 @@
               "id": "supermarket-3-staple-10",
               "name": "小袋の焙じ茶",
               "price": 328,
-              "description": "毎日飲みやすい茶葉。",
+              "description": "普段飲みの焙じ茶葉50g入り一袋。抽出した飲み物ではなく茶葉の販売。",
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
@@ -707,7 +733,8 @@
         "service": "魚の調理の希望を受け付け、用意できる時間を伝える。レジには袋詰めの台が並ぶ。",
         "signature": "小かぶ 三個袋と鯖と野菜の南蛮漬け 小パック",
         "localFlavor": "夕方は仕事帰りの住民で混み合う。坂を上る前に休めるベンチが店先にある。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     }
   ]
 }

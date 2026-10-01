@@ -743,18 +743,18 @@
           "items": [
             {
               "name": "丸いミルクパン",
-              "price": 50,
+              "price": 15,
               "kind": "food",
-              "description": "ミルクを混ぜた丸いパン。",
+              "description": "牛乳を生地に混ぜた約50gの丸パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-1-signature-1",
               "recommended": true
             },
             {
               "name": "山型食パン 一斤",
-              "price": 30,
+              "price": 60,
               "kind": "food",
-              "description": "毎朝のトーストに合う食パン。",
+              "description": "一斤を約400gとする当店の設定。毎朝焼く山型食パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-1-item-1",
               "recommended": false
@@ -763,16 +763,16 @@
               "name": "バゲット",
               "price": 35,
               "kind": "food",
-              "description": "皮を香ばしく焼いた長いパン。",
+              "description": "約250gの細長いパン一本。皮を香ばしく焼く。",
               "recommendationGroup": "main",
               "id": "bakery-showa-1-item-2",
               "recommended": false
             },
             {
               "name": "バターロール",
-              "price": 40,
+              "price": 15,
               "kind": "food",
-              "description": "バターを折り込んだ小さなパン。",
+              "description": "約40gの小さな丸パン一個。バターを練り込んだ生地。",
               "recommendationGroup": "main",
               "id": "bakery-showa-1-item-3",
               "recommended": false
@@ -788,21 +788,29 @@
             },
             {
               "name": "コッペパン",
-              "price": 60,
+              "price": 20,
               "kind": "food",
-              "description": "切れ目を入れた柔らかなパン。",
+              "description": "約80gの柔らかなパン一個。具や塗り物は付かない。",
               "recommendationGroup": "main",
               "id": "bakery-showa-1-item-5",
               "recommended": false
             },
             {
               "name": "ぶどうパン",
-              "price": 70,
+              "price": 30,
               "kind": "food",
-              "description": "干しぶどうを混ぜて焼いたパン。",
+              "description": "干しぶどう入りの約100gの丸パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-1-item-6",
               "recommended": false
+            },
+            {
+              "id": "bakery-showa-1-review-20261001-1",
+              "name": "朝の小さな丸パン 四個袋",
+              "price": 40,
+              "kind": "food",
+              "description": "一個約30gの丸パンを四個。具や塗り物は入れない。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -917,9 +925,9 @@
             },
             {
               "name": "砂糖ねじりパン",
-              "price": 40,
+              "price": 20,
               "kind": "food",
-              "description": "ねじったパンに砂糖をまぶす。",
+              "description": "約60gのねじったパン一個に砂糖をまぶす。",
               "recommendationGroup": "side",
               "id": "bakery-showa-1-item-16",
               "recommended": false
@@ -935,9 +943,9 @@
             },
             {
               "name": "ジャムパン",
-              "price": 60,
+              "price": 25,
               "kind": "food",
-              "description": "いちごジャムを包んで焼く。",
+              "description": "いちごジャムを包んだ約80gのパン一個。",
               "recommendationGroup": "dessert",
               "id": "bakery-showa-1-item-18",
               "recommended": false
@@ -989,9 +997,9 @@
             },
             {
               "name": "山型食パン 一斤",
-              "price": 30,
+              "price": 60,
               "kind": "food",
-              "description": "毎朝のトーストに合う食パン。",
+              "description": "一斤を約400gとする当店の設定。毎朝焼く山型食パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-2-item-1",
               "recommended": false
@@ -1000,16 +1008,16 @@
               "name": "バゲット",
               "price": 35,
               "kind": "food",
-              "description": "皮を香ばしく焼いた長いパン。",
+              "description": "約250gの細長いパン一本。皮を香ばしく焼く。",
               "recommendationGroup": "main",
               "id": "bakery-showa-2-item-2",
               "recommended": false
             },
             {
               "name": "バターロール",
-              "price": 40,
+              "price": 15,
               "kind": "food",
-              "description": "バターを折り込んだ小さなパン。",
+              "description": "約40gの小さな丸パン一個。バターを練り込んだ生地。",
               "recommendationGroup": "main",
               "id": "bakery-showa-2-item-3",
               "recommended": false
@@ -1025,18 +1033,18 @@
             },
             {
               "name": "コッペパン",
-              "price": 60,
+              "price": 20,
               "kind": "food",
-              "description": "切れ目を入れた柔らかなパン。",
+              "description": "約80gの柔らかなパン一個。具や塗り物は付かない。",
               "recommendationGroup": "main",
               "id": "bakery-showa-2-item-5",
               "recommended": false
             },
             {
               "name": "ぶどうパン",
-              "price": 70,
+              "price": 30,
               "kind": "food",
-              "description": "干しぶどうを混ぜて焼いたパン。",
+              "description": "干しぶどう入りの約100gの丸パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-2-item-6",
               "recommended": false
@@ -1109,6 +1117,14 @@
               "recommendationGroup": "main",
               "id": "bakery-showa-2-item-12",
               "recommended": false
+            },
+            {
+              "id": "bakery-showa-2-review-20261001-1",
+              "name": "胡瓜と卵の半分サンド",
+              "price": 25,
+              "kind": "food",
+              "description": "薄切りパン二枚で作った小型サンドを二切れに。半人前ほどの量。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -1118,9 +1134,9 @@
           "items": [
             {
               "name": "白あんの丸パン",
-              "price": 50,
+              "price": 25,
               "kind": "food",
-              "description": "白い餡を包んで焼く。",
+              "description": "白あんを包んだ約80gのパン一個。",
               "recommendationGroup": "dessert",
               "id": "bakery-showa-2-signature-3",
               "recommended": true
@@ -1154,9 +1170,9 @@
             },
             {
               "name": "砂糖ねじりパン",
-              "price": 40,
+              "price": 20,
               "kind": "food",
-              "description": "ねじったパンに砂糖をまぶす。",
+              "description": "約60gのねじったパン一個に砂糖をまぶす。",
               "recommendationGroup": "side",
               "id": "bakery-showa-2-item-16",
               "recommended": false
@@ -1172,9 +1188,9 @@
             },
             {
               "name": "ジャムパン",
-              "price": 60,
+              "price": 25,
               "kind": "food",
-              "description": "いちごジャムを包んで焼く。",
+              "description": "いちごジャムを包んだ約80gのパン一個。",
               "recommendationGroup": "dessert",
               "id": "bakery-showa-2-item-18",
               "recommended": false
@@ -1219,16 +1235,16 @@
               "name": "胚芽入り角食パン",
               "price": 70,
               "kind": "food",
-              "description": "胚芽を混ぜた四角い食パン。",
+              "description": "胚芽を混ぜた角食パン一斤。約400gの一個で販売する。",
               "recommendationGroup": "main",
               "id": "bakery-showa-3-signature-1",
               "recommended": true
             },
             {
               "name": "山型食パン 一斤",
-              "price": 30,
+              "price": 60,
               "kind": "food",
-              "description": "毎朝のトーストに合う食パン。",
+              "description": "一斤を約400gとする当店の設定。毎朝焼く山型食パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-3-item-1",
               "recommended": false
@@ -1237,16 +1253,16 @@
               "name": "バゲット",
               "price": 35,
               "kind": "food",
-              "description": "皮を香ばしく焼いた長いパン。",
+              "description": "約250gの細長いパン一本。皮を香ばしく焼く。",
               "recommendationGroup": "main",
               "id": "bakery-showa-3-item-2",
               "recommended": false
             },
             {
               "name": "バターロール",
-              "price": 40,
+              "price": 15,
               "kind": "food",
-              "description": "バターを折り込んだ小さなパン。",
+              "description": "約40gの小さな丸パン一個。バターを練り込んだ生地。",
               "recommendationGroup": "main",
               "id": "bakery-showa-3-item-3",
               "recommended": false
@@ -1262,18 +1278,18 @@
             },
             {
               "name": "コッペパン",
-              "price": 60,
+              "price": 20,
               "kind": "food",
-              "description": "切れ目を入れた柔らかなパン。",
+              "description": "約80gの柔らかなパン一個。具や塗り物は付かない。",
               "recommendationGroup": "main",
               "id": "bakery-showa-3-item-5",
               "recommended": false
             },
             {
               "name": "ぶどうパン",
-              "price": 70,
+              "price": 30,
               "kind": "food",
-              "description": "干しぶどうを混ぜて焼いたパン。",
+              "description": "干しぶどう入りの約100gの丸パン一個。",
               "recommendationGroup": "main",
               "id": "bakery-showa-3-item-6",
               "recommended": false
@@ -1355,9 +1371,9 @@
           "items": [
             {
               "name": "砂糖揚げパン",
-              "price": 60,
+              "price": 25,
               "kind": "food",
-              "description": "揚げたパンに砂糖をまぶす。",
+              "description": "約80gのコッペパン一個を揚げ、砂糖をまぶす。",
               "recommendationGroup": "dessert",
               "id": "bakery-showa-3-signature-3",
               "recommended": true
@@ -1391,9 +1407,9 @@
             },
             {
               "name": "砂糖ねじりパン",
-              "price": 40,
+              "price": 20,
               "kind": "food",
-              "description": "ねじったパンに砂糖をまぶす。",
+              "description": "約60gのねじったパン一個に砂糖をまぶす。",
               "recommendationGroup": "side",
               "id": "bakery-showa-3-item-16",
               "recommended": false
@@ -1409,12 +1425,20 @@
             },
             {
               "name": "ジャムパン",
-              "price": 60,
+              "price": 25,
               "kind": "food",
-              "description": "いちごジャムを包んで焼く。",
+              "description": "いちごジャムを包んだ約80gのパン一個。",
               "recommendationGroup": "dessert",
               "id": "bakery-showa-3-item-18",
               "recommended": false
+            },
+            {
+              "id": "bakery-showa-3-review-20261001-1",
+              "name": "黒糖ねじりの小さなパン",
+              "price": 20,
+              "kind": "food",
+              "description": "約50gのねじったパン一個に黒糖をまぶす。",
+              "recommendationGroup": "main"
             }
           ]
         }

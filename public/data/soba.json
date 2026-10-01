@@ -824,7 +824,7 @@
               "price": 60,
               "kind": "food",
               "description": "出汁の香りが立つ温かい一杯。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-1-item-7",
               "recommended": false
             },
@@ -833,7 +833,7 @@
               "price": 80,
               "kind": "food",
               "description": "揚げ玉のコクを楽しむ蕎麦。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-1-item-8",
               "recommended": false
             },
@@ -842,7 +842,7 @@
               "price": 100,
               "kind": "food",
               "description": "卵を落としたやさしい味。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-1-item-9",
               "recommended": false
             },
@@ -851,7 +851,7 @@
               "price": 120,
               "kind": "food",
               "description": "山菜とわかめをのせて。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-1-item-10",
               "recommended": false
             },
@@ -860,7 +860,7 @@
               "price": 150,
               "kind": "food",
               "description": "甘辛く炊いたにしんを一尾。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-1-item-11",
               "recommended": false
             },
@@ -935,9 +935,9 @@
             },
             {
               "name": "山の根菜かき揚げ 小皿",
-              "price": 120,
+              "price": 40,
               "kind": "food",
-              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "description": "ごぼうと人参の小さなかき揚げ二枚。蕎麦は付かない。",
               "recommendationGroup": "side",
               "id": "soba-showa-1-item-18",
               "recommended": false
@@ -1061,7 +1061,7 @@
               "price": 60,
               "kind": "food",
               "description": "出汁の香りが立つ温かい一杯。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-2-item-7",
               "recommended": false
             },
@@ -1070,7 +1070,7 @@
               "price": 80,
               "kind": "food",
               "description": "揚げ玉のコクを楽しむ蕎麦。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-2-item-8",
               "recommended": false
             },
@@ -1079,7 +1079,7 @@
               "price": 100,
               "kind": "food",
               "description": "卵を落としたやさしい味。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-2-item-9",
               "recommended": false
             },
@@ -1088,7 +1088,7 @@
               "price": 120,
               "kind": "food",
               "description": "山菜とわかめをのせて。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-2-item-10",
               "recommended": false
             },
@@ -1097,7 +1097,7 @@
               "price": 150,
               "kind": "food",
               "description": "甘辛く炊いたにしんを一尾。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-2-item-11",
               "recommended": false
             },
@@ -1172,9 +1172,9 @@
             },
             {
               "name": "山の根菜かき揚げ 小皿",
-              "price": 120,
+              "price": 40,
               "kind": "food",
-              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "description": "ごぼうと人参の小さなかき揚げ二枚。蕎麦は付かない。",
               "recommendationGroup": "side",
               "id": "soba-showa-2-item-18",
               "recommended": false
@@ -1298,7 +1298,7 @@
               "price": 60,
               "kind": "food",
               "description": "出汁の香りが立つ温かい一杯。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-3-item-7",
               "recommended": false
             },
@@ -1307,7 +1307,7 @@
               "price": 80,
               "kind": "food",
               "description": "揚げ玉のコクを楽しむ蕎麦。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-3-item-8",
               "recommended": false
             },
@@ -1316,7 +1316,7 @@
               "price": 100,
               "kind": "food",
               "description": "卵を落としたやさしい味。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-3-item-9",
               "recommended": false
             },
@@ -1325,7 +1325,7 @@
               "price": 120,
               "kind": "food",
               "description": "山菜とわかめをのせて。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-3-item-10",
               "recommended": false
             },
@@ -1334,7 +1334,7 @@
               "price": 150,
               "kind": "food",
               "description": "甘辛く炊いたにしんを一尾。",
-              "recommendationGroup": "side",
+              "recommendationGroup": "main",
               "id": "soba-showa-3-item-11",
               "recommended": false
             },
@@ -1355,9 +1355,9 @@
           "items": [
             {
               "name": "蕎麦茶の急須",
-              "price": 100,
+              "price": 30,
               "kind": "drink",
-              "description": "温かい蕎麦茶を淹れる。",
+              "description": "約300mlの急須一つと湯のみ二個。二人で分けられる。",
               "recommendationGroup": "drink",
               "id": "soba-showa-3-signature-3",
               "recommended": true
@@ -1409,9 +1409,9 @@
             },
             {
               "name": "山の根菜かき揚げ 小皿",
-              "price": 120,
+              "price": 40,
               "kind": "food",
-              "description": "ごぼうと人参などを小さく揚げた一皿。",
+              "description": "ごぼうと人参の小さなかき揚げ二枚。蕎麦は付かない。",
               "recommendationGroup": "side",
               "id": "soba-showa-3-item-18",
               "recommended": false

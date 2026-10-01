@@ -26,7 +26,7 @@
       ],
       "description": "1890年のイギリス・ロンドンの架空街区を舞台にした量り売りの食料品店。家の使いの人が買い物のメモを持って来る。",
       "openingHours": "8:00〜19:00（日曜休）",
-      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。 小袋・瓶詰めは説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、英パイントは容量です。",
       "scene": {
         "interior": "粉の袋と豆の樽がカウンター奥に並ぶ。",
         "service": "注文を聞いて品を量り、紙袋に移す。",
@@ -87,7 +87,7 @@
               "name": "干しぶどう 小袋",
               "price": 3,
               "kind": "goods",
-              "description": "焼き菓子用の干し果実。",
+              "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-5",
               "recommended": false
@@ -96,7 +96,7 @@
               "name": "乾燥りんご 小袋",
               "price": 3,
               "kind": "goods",
-              "description": "乾かしたりんごの袋。",
+              "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-6",
               "recommended": false
@@ -111,7 +111,7 @@
               "name": "玉ねぎの酢漬け瓶",
               "price": 5,
               "kind": "goods",
-              "description": "小玉ねぎの保存食。",
+              "description": "小玉ねぎの保存食。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-signature-2",
               "recommended": true
@@ -120,7 +120,7 @@
               "name": "苺ジャム 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "苺を煮詰めた瓶詰め。",
+              "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-7",
               "recommended": false
@@ -129,7 +129,7 @@
               "name": "マーマレード 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "柑橘の皮入りのジャム。",
+              "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-8",
               "recommended": false
@@ -138,7 +138,7 @@
               "name": "からし粉 小缶",
               "price": 4,
               "kind": "goods",
-              "description": "水で練るからしの粉。",
+              "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-9",
               "recommended": false
@@ -147,7 +147,7 @@
               "name": "食卓塩 小袋",
               "price": 1,
               "kind": "goods",
-              "description": "料理に使う塩の袋。",
+              "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-10",
               "recommended": false
@@ -156,7 +156,7 @@
               "name": "糖蜜 小壺",
               "price": 4,
               "kind": "goods",
-              "description": "甘い糖蜜を壺に。",
+              "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-11",
               "recommended": false
@@ -165,7 +165,7 @@
               "name": "酢 小瓶",
               "price": 3,
               "kind": "goods",
-              "description": "料理に使う酢の瓶。",
+              "description": "料理に使う酢の瓶。 半英パイント（約284ml）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-12",
               "recommended": false
@@ -176,6 +176,14 @@
               "price": 2,
               "kind": "goods",
               "description": "茶や菓子作りに使う茶色い砂糖。半ポンド（約227g）を量って紙袋へ。",
+              "recommendationGroup": "goods"
+            },
+            {
+              "id": "grocer-victorian-1-review-20261001-1",
+              "name": "白砂糖 一ポンド",
+              "price": 3,
+              "kind": "goods",
+              "description": "茶や菓子作り用の白砂糖。約454gを量り、紙袋に入れる。",
               "recommendationGroup": "goods"
             }
           ]
@@ -188,7 +196,7 @@
               "name": "濃い焙煎の珈琲袋",
               "price": 9,
               "kind": "goods",
-              "description": "深煎りの珈琲豆。",
+              "description": "深煎りの珈琲豆。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-signature-3",
               "recommended": true
@@ -197,7 +205,7 @@
               "name": "紅茶 茶葉小袋",
               "price": 6,
               "kind": "goods",
-              "description": "普段飲みの紅茶葉。",
+              "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-13",
               "recommended": false
@@ -206,7 +214,7 @@
               "name": "珈琲豆 小袋",
               "price": 8,
               "kind": "goods",
-              "description": "焙じた珈琲豆の袋。",
+              "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-14",
               "recommended": false
@@ -215,7 +223,7 @@
               "name": "ココア 小缶",
               "price": 8,
               "kind": "goods",
-              "description": "飲料用のココア粉。",
+              "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-1-item-15",
               "recommended": false
@@ -271,7 +279,7 @@
       ],
       "description": "1890年のイギリス・田園の架空集落を舞台にした村の保存食と日用品の店。農家の人が近況を話しながら品を補充する。",
       "openingHours": "8:00〜19:00（日曜休）",
-      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。 小袋・瓶詰めは説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、英パイントは容量です。",
       "scene": {
         "interior": "瓶詰めの棚の下に野菜の籠がある。",
         "service": "必要な日数を聞き、少量から量って渡す。",
@@ -287,7 +295,7 @@
               "name": "干し杏 小袋",
               "price": 4,
               "kind": "goods",
-              "description": "乾かした杏の袋。",
+              "description": "乾かした杏の袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-signature-1",
               "recommended": true
@@ -332,7 +340,7 @@
               "name": "干しぶどう 小袋",
               "price": 3,
               "kind": "goods",
-              "description": "焼き菓子用の干し果実。",
+              "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-5",
               "recommended": false
@@ -341,10 +349,18 @@
               "name": "乾燥りんご 小袋",
               "price": 3,
               "kind": "goods",
-              "description": "乾かしたりんごの袋。",
+              "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-6",
               "recommended": false
+            },
+            {
+              "id": "grocer-victorian-2-review-20261001-1",
+              "name": "玉ねぎ 一ポンド",
+              "price": 1,
+              "kind": "goods",
+              "description": "皮付きの玉ねぎを合わせて約454g。煮込み用に大きさの違うものを混ぜる。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -356,7 +372,7 @@
               "name": "黒すぐりジャム",
               "price": 7,
               "kind": "goods",
-              "description": "果実を甘く煮る。",
+              "description": "果実を甘く煮る。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-signature-2",
               "recommended": true
@@ -365,7 +381,7 @@
               "name": "苺ジャム 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "苺を煮詰めた瓶詰め。",
+              "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-7",
               "recommended": false
@@ -374,7 +390,7 @@
               "name": "マーマレード 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "柑橘の皮入りのジャム。",
+              "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-8",
               "recommended": false
@@ -383,7 +399,7 @@
               "name": "からし粉 小缶",
               "price": 4,
               "kind": "goods",
-              "description": "水で練るからしの粉。",
+              "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-9",
               "recommended": false
@@ -392,7 +408,7 @@
               "name": "食卓塩 小袋",
               "price": 1,
               "kind": "goods",
-              "description": "料理に使う塩の袋。",
+              "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-10",
               "recommended": false
@@ -401,7 +417,7 @@
               "name": "糖蜜 小壺",
               "price": 4,
               "kind": "goods",
-              "description": "甘い糖蜜を壺に。",
+              "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-11",
               "recommended": false
@@ -410,7 +426,7 @@
               "name": "酢 小瓶",
               "price": 3,
               "kind": "goods",
-              "description": "料理に使う酢の瓶。",
+              "description": "料理に使う酢の瓶。 半英パイント（約284ml）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-12",
               "recommended": false
@@ -434,7 +450,7 @@
               "name": "紅茶 茶葉小袋",
               "price": 6,
               "kind": "goods",
-              "description": "普段飲みの紅茶葉。",
+              "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-13",
               "recommended": false
@@ -443,7 +459,7 @@
               "name": "珈琲豆 小袋",
               "price": 8,
               "kind": "goods",
-              "description": "焙じた珈琲豆の袋。",
+              "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-14",
               "recommended": false
@@ -452,7 +468,7 @@
               "name": "ココア 小缶",
               "price": 8,
               "kind": "goods",
-              "description": "飲料用のココア粉。",
+              "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-2-item-15",
               "recommended": false
@@ -516,7 +532,7 @@
       ],
       "description": "1890年のイギリス・港の架空街区を舞台にした船乗りと住民の雑貨店。船への荷物を揃える人と近所の客が交じる。",
       "openingHours": "8:00〜19:00（日曜休）",
-      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。",
+      "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。 小袋・瓶詰めは説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、英パイントは容量です。",
       "scene": {
         "interior": "入口に蝋燭と縄の束、奥に食料の樽がある。",
         "service": "持ち歩けるように袋を二重にして包む。",
@@ -577,7 +593,7 @@
               "name": "干しぶどう 小袋",
               "price": 3,
               "kind": "goods",
-              "description": "焼き菓子用の干し果実。",
+              "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-5",
               "recommended": false
@@ -586,10 +602,18 @@
               "name": "乾燥りんご 小袋",
               "price": 3,
               "kind": "goods",
-              "description": "乾かしたりんごの袋。",
+              "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-6",
               "recommended": false
+            },
+            {
+              "id": "grocer-victorian-3-review-20261001-1",
+              "name": "乾燥レンズ豆 一ポンド",
+              "price": 3,
+              "kind": "goods",
+              "description": "約454gの乾燥豆を紙袋へ。旅先でも鍋で煮られる食料。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -601,7 +625,7 @@
               "name": "にしんの塩漬け",
               "price": 5,
               "kind": "goods",
-              "description": "塩で保存した魚。",
+              "description": "塩で保存した魚。 小ぶりなにしん二尾で一組。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-signature-2",
               "recommended": true
@@ -610,7 +634,7 @@
               "name": "苺ジャム 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "苺を煮詰めた瓶詰め。",
+              "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-7",
               "recommended": false
@@ -619,7 +643,7 @@
               "name": "マーマレード 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "柑橘の皮入りのジャム。",
+              "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-8",
               "recommended": false
@@ -628,7 +652,7 @@
               "name": "からし粉 小缶",
               "price": 4,
               "kind": "goods",
-              "description": "水で練るからしの粉。",
+              "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-9",
               "recommended": false
@@ -637,7 +661,7 @@
               "name": "食卓塩 小袋",
               "price": 1,
               "kind": "goods",
-              "description": "料理に使う塩の袋。",
+              "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-10",
               "recommended": false
@@ -646,7 +670,7 @@
               "name": "糖蜜 小壺",
               "price": 4,
               "kind": "goods",
-              "description": "甘い糖蜜を壺に。",
+              "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-11",
               "recommended": false
@@ -655,7 +679,7 @@
               "name": "酢 小瓶",
               "price": 3,
               "kind": "goods",
-              "description": "料理に使う酢の瓶。",
+              "description": "料理に使う酢の瓶。 半英パイント（約284ml）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-12",
               "recommended": false
@@ -687,7 +711,7 @@
               "name": "紅茶 茶葉小袋",
               "price": 6,
               "kind": "goods",
-              "description": "普段飲みの紅茶葉。",
+              "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-13",
               "recommended": false
@@ -696,7 +720,7 @@
               "name": "珈琲豆 小袋",
               "price": 8,
               "kind": "goods",
-              "description": "焙じた珈琲豆の袋。",
+              "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-14",
               "recommended": false
@@ -705,7 +729,7 @@
               "name": "ココア 小缶",
               "price": 8,
               "kind": "goods",
-              "description": "飲料用のココア粉。",
+              "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "grocer-victorian-3-item-15",
               "recommended": false

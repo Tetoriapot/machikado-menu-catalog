@@ -23,6 +23,14 @@ test('月次変更台帳は既存の全IDを保持し、記録された変更・
     for (const a of r.additions) expected.set(a.item.id, { ...a.item });
     for (const c of r.changes) { assert.ok(c.reason); expected.set(c.itemId, { ...expected.get(c.itemId), ...c.after }); }
   }
+  const expectedShops = new Map<string, Record<string, unknown>>();
+  for (const r of records) for (const c of r.shopChanges) {
+    assert.ok(c.reason); expectedShops.set(c.shopId, { ...expectedShops.get(c.shopId), ...c.after });
+  }
+  for (const [id, fields] of expectedShops) {
+    const actual = shops.find(s => s.id === id)!; assert.ok(actual);
+    for (const [key, value] of Object.entries(fields)) assert.deepEqual(actual[key as keyof Shop], value, id);
+  }
   const summaries = JSON.parse(readFileSync('src/data/generated-index.json', 'utf8')).shops;
   for (const [id, fields] of expected) {
     const shop = shops.find(s => items(s).some(i => i.id === id))!;
@@ -67,5 +75,24 @@ test('時間パックは通常利用より割高にならず、無料の変更�
     assert.equal(menuTotal(doc), chosen.reduce((n, i) => n + i.price, 0));
     for (const i of chosen) assert.ok(menuPlainText(doc).includes(i.name));
     assert.ok(recommendItems(items(shop)).every(i => !['fee', 'service', 'addon'].includes(i.kind)));
+  }
+});
+
+
+test('昭和の並酒は量に応じた料金になり、英国食料品店は包装の内容量を説明する', () => {
+  const tavern = shops.find(s => s.id === 'izakaya-showa-2')!;
+  const one = items(tavern).find(i => i.name === '日本酒 一合')!;
+  const two = items(tavern).find(i => i.name === '燗酒 二合')!;
+  assert.equal(two.price, one.price * 2);
+  assert.match(one.description, /180ml/); assert.match(two.description, /360ml/);
+  const grocers = shops.filter(s => s.era === 'victorian' && s.category === 'grocer');
+  assert.equal(grocers.length, 3);
+  assert.equal(auditCatalog(grocers).candidates.filter(c => c.code === 'unspecified-quantity').length, 0);
+  for (const shop of grocers) {
+    const bottle = items(shop).find(i => i.name === '酢 小瓶')!;
+    assert.match(bottle.description, /半英パイント.*284ml/);
+    const doc = menuPlainText(toMenuDocument(shop, { itemIds: [bottle.id] }));
+    assert.ok(doc.includes(bottle.description));
+    assert.ok(doc.includes('容器代を含みます'));
   }
 });

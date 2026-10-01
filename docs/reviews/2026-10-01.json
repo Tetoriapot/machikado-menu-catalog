@@ -1,0 +1,3026 @@
+{
+  "date": "2026-10-01",
+  "baselineCommit": "ee27047c41e6d7ea9889bd28bbd92502fbff9564",
+  "before": {
+    "shops": 315,
+    "items": 6637
+  },
+  "after": {
+    "shops": 315,
+    "items": 6652
+  },
+  "baselineItemIdsSha256": "e5f564c14933fe5be98efc560f35c0221365fa69612b68110e66890b62e5cffd",
+  "baselineShopIdsSha256": "54343faff3deb2d1f92d18bb0871357e3be41216dac2fe4113e3e012e3c3939e",
+  "summary": {
+    "editedItems": 146,
+    "priceChanges": 80,
+    "addedItems": 15,
+    "editedShops": 24
+  },
+  "byEra": {
+    "modern": {
+      "shops": 195,
+      "items": 4111
+    },
+    "showa": {
+      "shops": 30,
+      "items": 636
+    },
+    "victorian": {
+      "shops": 30,
+      "items": 636
+    },
+    "america-1920s": {
+      "shops": 30,
+      "items": 633
+    },
+    "heisei": {
+      "shops": 30,
+      "items": 636
+    }
+  },
+  "sources": [
+    {
+      "id": "maff-rice-20260925",
+      "title": "農林水産省 KSP-POS全国週次米価格",
+      "url": "https://www.maff.go.jp/j/nousan/kokumotu/ksppos.pdf",
+      "accessed": "2026-10-01",
+      "published": "2026-09-25",
+      "period": "2026-09-14/2026-09-20",
+      "pages": [
+        1,
+        2
+      ],
+      "sha256": "3ee82013079cece9e44c7d0088762689a66b71fe29aa4fb610e500faa51a44fa",
+      "type": "primary-statistics",
+      "observed": "全国約1,000スーパー、税込5kg換算。全体2,934円、銘柄米2,966円、ブレンド米等2,783円。両ページを画像で確認。",
+      "limits": "資料URLは更新される。直売所や少量袋の実売価格ではない。"
+    },
+    {
+      "id": "topvalu-milk-20261001",
+      "title": "TOPVALU 成分無調整牛乳",
+      "url": "https://www.topvalu.net/items/detail/4549414708639/",
+      "accessed": "2026-10-01",
+      "type": "official-product-page",
+      "observed": "1000ml・本体238円・税込257.04円の標準小売価格。",
+      "limits": "適用開始日はページで確認できない。実売価格は店舗により異なる。"
+    },
+    {
+      "id": "lawson-riceball-20260929",
+      "title": "ローソン おにぎりの価格改定でお米の消費拡大",
+      "url": "https://www.lawson.co.jp/company/news/detail/1531424_2504.html",
+      "accessed": "2026-10-01",
+      "published": "2026-08-24",
+      "effective": "2026-09-29",
+      "type": "official-price-announcement",
+      "observed": "改定後税込ツナマヨ171円、昆布184円、紅鮭211円。旧価格が残る個別商品ページより適用日付き告知を優先。",
+      "limits": "架空の独立店と同一仕様・同一コストではない。"
+    },
+    {
+      "id": "tottori-bread-1968",
+      "title": "鳥取県 昭和43年統計年鑑 第18章物価 表135",
+      "url": "https://www.pref.tottori.lg.jp/secure/634607/b1968s43_18_butu.pdf",
+      "accessed": "2026-10-01",
+      "period": "1968",
+      "pages": [
+        3,
+        4
+      ],
+      "printedPages": [
+        186,
+        187
+      ],
+      "sha256": "33bc3cd2b1e2737c95920ad51607afc67b45ededb8ff011977cfa3fb508a5577",
+      "type": "primary-statistics",
+      "observed": "普通品の食パン、1kg、昭和43年平均134.00円。表の単位と脚注を画像で確認。",
+      "limits": "地方の小売統計であり全国や飲食店の料金表ではない。400g=53.6円は比例計算。菓子パン・麺店・居酒屋の個別価格は確認できない。ビール価格はこの7ページには未収録。"
+    }
+  ],
+  "checks": [
+    {
+      "shopId": "michi-no-eki-1",
+      "itemIds": [
+        "michi-no-eki-1-item-2"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "scope": "米2kgのみ。全メニューの価格照合ではない。"
+    },
+    {
+      "shopId": "michi-no-eki-2",
+      "itemIds": [
+        "michi-no-eki-2-item-2"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "scope": "米2kgのみ。全メニューの価格照合ではない。"
+    },
+    {
+      "shopId": "michi-no-eki-3",
+      "itemIds": [
+        "michi-no-eki-3-staple-3"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "scope": "米2kgのみ。全メニューの価格照合ではない。"
+    },
+    {
+      "shopId": "convenience-store-1",
+      "itemIds": [
+        "convenience-store-1-item-1",
+        "convenience-store-1-item-2",
+        "convenience-store-1-curated-1"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "lawson-riceball-20260929"
+      ],
+      "reason": "改定後171〜211円の公式価格例を確認。架空店の148〜168円は安価な自店商品として据え置き、一律にチェーン価格へ合わせない。"
+    },
+    {
+      "shopId": "convenience-store-3",
+      "itemIds": [
+        "convenience-store-3-staple-1",
+        "convenience-store-3-staple-3"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "lawson-riceball-20260929"
+      ],
+      "reason": "改定後171〜211円の公式価格例を確認。架空店の148〜168円は安価な自店商品として据え置き、一律にチェーン価格へ合わせない。"
+    }
+  ],
+  "sourceRegister": "docs/catalog-review.md",
+  "scope": "全件構造走査。現代の米・牛乳・一部おにぎりと1968年普通食パンを資料照合。昭和の分量修正と英国の量り売り仕様は編集上の設定であり、全価格を考証済みとはしない。",
+  "remainingCandidates": [
+    {
+      "shopId": "cinema-america-1920s-1",
+      "itemId": "cinema-america-1920s-1-item-5",
+      "code": "unspecified-quantity",
+      "detail": "ピーナツの小袋"
+    },
+    {
+      "shopId": "cinema-america-1920s-2",
+      "itemId": "cinema-america-1920s-2-item-5",
+      "code": "unspecified-quantity",
+      "detail": "ピーナツの小袋"
+    },
+    {
+      "shopId": "cinema-america-1920s-3",
+      "itemId": "cinema-america-1920s-3-item-5",
+      "code": "unspecified-quantity",
+      "detail": "ピーナツの小袋"
+    },
+    {
+      "shopId": "confectionery-victorian-1",
+      "itemId": "confectionery-victorian-1-item-1",
+      "code": "unspecified-quantity",
+      "detail": "レモンドロップ 小袋"
+    },
+    {
+      "shopId": "confectionery-victorian-1",
+      "itemId": "confectionery-victorian-1-item-2",
+      "code": "unspecified-quantity",
+      "detail": "ペパーミント飴 小袋"
+    },
+    {
+      "shopId": "confectionery-victorian-2",
+      "itemId": "confectionery-victorian-2-item-1",
+      "code": "unspecified-quantity",
+      "detail": "レモンドロップ 小袋"
+    },
+    {
+      "shopId": "confectionery-victorian-2",
+      "itemId": "confectionery-victorian-2-item-2",
+      "code": "unspecified-quantity",
+      "detail": "ペパーミント飴 小袋"
+    },
+    {
+      "shopId": "confectionery-victorian-3",
+      "itemId": "confectionery-victorian-3-item-1",
+      "code": "unspecified-quantity",
+      "detail": "レモンドロップ 小袋"
+    },
+    {
+      "shopId": "confectionery-victorian-3",
+      "itemId": "confectionery-victorian-3-item-2",
+      "code": "unspecified-quantity",
+      "detail": "ペパーミント飴 小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-1",
+      "itemId": "confectionery-america-1920s-1-item-1",
+      "code": "unspecified-quantity",
+      "detail": "レモンドロップ 小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-1",
+      "itemId": "confectionery-america-1920s-1-item-2",
+      "code": "unspecified-quantity",
+      "detail": "ペパーミント飴 小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-2",
+      "itemId": "confectionery-america-1920s-2-item-1",
+      "code": "unspecified-quantity",
+      "detail": "レモンドロップ 小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-2",
+      "itemId": "confectionery-america-1920s-2-item-2",
+      "code": "unspecified-quantity",
+      "detail": "ペパーミント飴 小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-2",
+      "itemId": "confectionery-america-1920s-2-signature-2",
+      "code": "unspecified-quantity",
+      "detail": "マシュマロの小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-3",
+      "itemId": "confectionery-america-1920s-3-item-1",
+      "code": "unspecified-quantity",
+      "detail": "レモンドロップ 小袋"
+    },
+    {
+      "shopId": "confectionery-america-1920s-3",
+      "itemId": "confectionery-america-1920s-3-item-2",
+      "code": "unspecified-quantity",
+      "detail": "ペパーミント飴 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-5",
+      "code": "unspecified-quantity",
+      "detail": "干しぶどう 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-6",
+      "code": "unspecified-quantity",
+      "detail": "乾燥りんご 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-signature-2",
+      "code": "unspecified-quantity",
+      "detail": "ピーナツバター 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-7",
+      "code": "unspecified-quantity",
+      "detail": "苺ジャム 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-8",
+      "code": "unspecified-quantity",
+      "detail": "マーマレード 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-9",
+      "code": "unspecified-quantity",
+      "detail": "からし粉 小缶"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-10",
+      "code": "unspecified-quantity",
+      "detail": "食卓塩 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-11",
+      "code": "unspecified-quantity",
+      "detail": "糖蜜 小壺"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-12",
+      "code": "unspecified-quantity",
+      "detail": "酢 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-13",
+      "code": "unspecified-quantity",
+      "detail": "紅茶 茶葉小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-14",
+      "code": "unspecified-quantity",
+      "detail": "珈琲豆 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-15",
+      "code": "unspecified-quantity",
+      "detail": "ココア 小缶"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-5",
+      "code": "unspecified-quantity",
+      "detail": "干しぶどう 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-6",
+      "code": "unspecified-quantity",
+      "detail": "乾燥りんご 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-7",
+      "code": "unspecified-quantity",
+      "detail": "苺ジャム 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-8",
+      "code": "unspecified-quantity",
+      "detail": "マーマレード 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-9",
+      "code": "unspecified-quantity",
+      "detail": "からし粉 小缶"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-10",
+      "code": "unspecified-quantity",
+      "detail": "食卓塩 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-11",
+      "code": "unspecified-quantity",
+      "detail": "糖蜜 小壺"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-12",
+      "code": "unspecified-quantity",
+      "detail": "酢 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-13",
+      "code": "unspecified-quantity",
+      "detail": "紅茶 茶葉小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-14",
+      "code": "unspecified-quantity",
+      "detail": "珈琲豆 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-15",
+      "code": "unspecified-quantity",
+      "detail": "ココア 小缶"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-signature-1",
+      "code": "unspecified-quantity",
+      "detail": "乾燥プルーン 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-5",
+      "code": "unspecified-quantity",
+      "detail": "干しぶどう 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-6",
+      "code": "unspecified-quantity",
+      "detail": "乾燥りんご 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-7",
+      "code": "unspecified-quantity",
+      "detail": "苺ジャム 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-8",
+      "code": "unspecified-quantity",
+      "detail": "マーマレード 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-9",
+      "code": "unspecified-quantity",
+      "detail": "からし粉 小缶"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-10",
+      "code": "unspecified-quantity",
+      "detail": "食卓塩 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-11",
+      "code": "unspecified-quantity",
+      "detail": "糖蜜 小壺"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-12",
+      "code": "unspecified-quantity",
+      "detail": "酢 小瓶"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-13",
+      "code": "unspecified-quantity",
+      "detail": "紅茶 茶葉小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-14",
+      "code": "unspecified-quantity",
+      "detail": "珈琲豆 小袋"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-15",
+      "code": "unspecified-quantity",
+      "detail": "ココア 小缶"
+    },
+    {
+      "shopId": "stationery-victorian-1",
+      "itemId": "stationery-victorian-1-item-3",
+      "code": "unspecified-quantity",
+      "detail": "黒インク 小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-1",
+      "itemId": "stationery-victorian-1-item-6",
+      "code": "unspecified-quantity",
+      "detail": "赤インク 小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-1",
+      "itemId": "stationery-victorian-1-item-17",
+      "code": "unspecified-quantity",
+      "detail": "糊の小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-2",
+      "itemId": "stationery-victorian-2-item-3",
+      "code": "unspecified-quantity",
+      "detail": "黒インク 小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-2",
+      "itemId": "stationery-victorian-2-item-6",
+      "code": "unspecified-quantity",
+      "detail": "赤インク 小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-2",
+      "itemId": "stationery-victorian-2-item-17",
+      "code": "unspecified-quantity",
+      "detail": "糊の小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-3",
+      "itemId": "stationery-victorian-3-item-3",
+      "code": "unspecified-quantity",
+      "detail": "黒インク 小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-3",
+      "itemId": "stationery-victorian-3-item-6",
+      "code": "unspecified-quantity",
+      "detail": "赤インク 小瓶"
+    },
+    {
+      "shopId": "stationery-victorian-3",
+      "itemId": "stationery-victorian-3-item-17",
+      "code": "unspecified-quantity",
+      "detail": "糊の小瓶"
+    }
+  ],
+  "changes": [
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-signature-1",
+      "before": {
+        "price": 50,
+        "description": "ミルクを混ぜた丸いパン。"
+      },
+      "after": {
+        "price": 15,
+        "description": "牛乳を生地に混ぜた約50gの丸パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-1",
+      "before": {
+        "price": 30,
+        "description": "毎朝のトーストに合う食パン。"
+      },
+      "after": {
+        "price": 60,
+        "description": "一斤を約400gとする当店の設定。毎朝焼く山型食パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-2",
+      "before": {
+        "description": "皮を香ばしく焼いた長いパン。"
+      },
+      "after": {
+        "description": "約250gの細長いパン一本。皮を香ばしく焼く。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-3",
+      "before": {
+        "price": 40,
+        "description": "バターを折り込んだ小さなパン。"
+      },
+      "after": {
+        "price": 15,
+        "description": "約40gの小さな丸パン一個。バターを練り込んだ生地。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-5",
+      "before": {
+        "price": 60,
+        "description": "切れ目を入れた柔らかなパン。"
+      },
+      "after": {
+        "price": 20,
+        "description": "約80gの柔らかなパン一個。具や塗り物は付かない。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-6",
+      "before": {
+        "price": 70,
+        "description": "干しぶどうを混ぜて焼いたパン。"
+      },
+      "after": {
+        "price": 30,
+        "description": "干しぶどう入りの約100gの丸パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-16",
+      "before": {
+        "price": 40,
+        "description": "ねじったパンに砂糖をまぶす。"
+      },
+      "after": {
+        "price": 20,
+        "description": "約60gのねじったパン一個に砂糖をまぶす。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "itemId": "bakery-showa-1-item-18",
+      "before": {
+        "price": 60,
+        "description": "いちごジャムを包んで焼く。"
+      },
+      "after": {
+        "price": 25,
+        "description": "いちごジャムを包んだ約80gのパン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-1",
+      "before": {
+        "price": 30,
+        "description": "毎朝のトーストに合う食パン。"
+      },
+      "after": {
+        "price": 60,
+        "description": "一斤を約400gとする当店の設定。毎朝焼く山型食パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-2",
+      "before": {
+        "description": "皮を香ばしく焼いた長いパン。"
+      },
+      "after": {
+        "description": "約250gの細長いパン一本。皮を香ばしく焼く。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-3",
+      "before": {
+        "price": 40,
+        "description": "バターを折り込んだ小さなパン。"
+      },
+      "after": {
+        "price": 15,
+        "description": "約40gの小さな丸パン一個。バターを練り込んだ生地。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-5",
+      "before": {
+        "price": 60,
+        "description": "切れ目を入れた柔らかなパン。"
+      },
+      "after": {
+        "price": 20,
+        "description": "約80gの柔らかなパン一個。具や塗り物は付かない。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-6",
+      "before": {
+        "price": 70,
+        "description": "干しぶどうを混ぜて焼いたパン。"
+      },
+      "after": {
+        "price": 30,
+        "description": "干しぶどう入りの約100gの丸パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-signature-3",
+      "before": {
+        "price": 50,
+        "description": "白い餡を包んで焼く。"
+      },
+      "after": {
+        "price": 25,
+        "description": "白あんを包んだ約80gのパン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-16",
+      "before": {
+        "price": 40,
+        "description": "ねじったパンに砂糖をまぶす。"
+      },
+      "after": {
+        "price": 20,
+        "description": "約60gのねじったパン一個に砂糖をまぶす。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "itemId": "bakery-showa-2-item-18",
+      "before": {
+        "price": 60,
+        "description": "いちごジャムを包んで焼く。"
+      },
+      "after": {
+        "price": 25,
+        "description": "いちごジャムを包んだ約80gのパン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-signature-1",
+      "before": {
+        "description": "胚芽を混ぜた四角い食パン。"
+      },
+      "after": {
+        "description": "胚芽を混ぜた角食パン一斤。約400gの一個で販売する。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-1",
+      "before": {
+        "price": 30,
+        "description": "毎朝のトーストに合う食パン。"
+      },
+      "after": {
+        "price": 60,
+        "description": "一斤を約400gとする当店の設定。毎朝焼く山型食パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-2",
+      "before": {
+        "description": "皮を香ばしく焼いた長いパン。"
+      },
+      "after": {
+        "description": "約250gの細長いパン一本。皮を香ばしく焼く。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-3",
+      "before": {
+        "price": 40,
+        "description": "バターを折り込んだ小さなパン。"
+      },
+      "after": {
+        "price": 15,
+        "description": "約40gの小さな丸パン一個。バターを練り込んだ生地。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-5",
+      "before": {
+        "price": 60,
+        "description": "切れ目を入れた柔らかなパン。"
+      },
+      "after": {
+        "price": 20,
+        "description": "約80gの柔らかなパン一個。具や塗り物は付かない。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-6",
+      "before": {
+        "price": 70,
+        "description": "干しぶどうを混ぜて焼いたパン。"
+      },
+      "after": {
+        "price": 30,
+        "description": "干しぶどう入りの約100gの丸パン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-signature-3",
+      "before": {
+        "price": 60,
+        "description": "揚げたパンに砂糖をまぶす。"
+      },
+      "after": {
+        "price": 25,
+        "description": "約80gのコッペパン一個を揚げ、砂糖をまぶす。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-16",
+      "before": {
+        "price": 40,
+        "description": "ねじったパンに砂糖をまぶす。"
+      },
+      "after": {
+        "price": 20,
+        "description": "約60gのねじったパン一個に砂糖をまぶす。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "itemId": "bakery-showa-3-item-18",
+      "before": {
+        "price": 60,
+        "description": "いちごジャムを包んで焼く。"
+      },
+      "after": {
+        "price": 25,
+        "description": "いちごジャムを包んだ約80gのパン一個。"
+      },
+      "reason": "昭和43年の鳥取県統計年鑑・表135に普通品食パン134円/kg（年平均）。400gなら53.6円という参考計算と商品間の量の関係から再設定。各菓子パン価格は資料記載値ではなく推定。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-5",
+      "before": {
+        "description": "焼き菓子用の干し果実。"
+      },
+      "after": {
+        "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-6",
+      "before": {
+        "description": "乾かしたりんごの袋。"
+      },
+      "after": {
+        "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-signature-2",
+      "before": {
+        "description": "小玉ねぎの保存食。"
+      },
+      "after": {
+        "description": "小玉ねぎの保存食。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-7",
+      "before": {
+        "description": "苺を煮詰めた瓶詰め。"
+      },
+      "after": {
+        "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-8",
+      "before": {
+        "description": "柑橘の皮入りのジャム。"
+      },
+      "after": {
+        "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-9",
+      "before": {
+        "description": "水で練るからしの粉。"
+      },
+      "after": {
+        "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-10",
+      "before": {
+        "description": "料理に使う塩の袋。"
+      },
+      "after": {
+        "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-11",
+      "before": {
+        "description": "甘い糖蜜を壺に。"
+      },
+      "after": {
+        "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-12",
+      "before": {
+        "description": "料理に使う酢の瓶。"
+      },
+      "after": {
+        "description": "料理に使う酢の瓶。 半英パイント（約284ml）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-signature-3",
+      "before": {
+        "description": "深煎りの珈琲豆。"
+      },
+      "after": {
+        "description": "深煎りの珈琲豆。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-13",
+      "before": {
+        "description": "普段飲みの紅茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-14",
+      "before": {
+        "description": "焙じた珈琲豆の袋。"
+      },
+      "after": {
+        "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "itemId": "grocer-victorian-1-item-15",
+      "before": {
+        "description": "飲料用のココア粉。"
+      },
+      "after": {
+        "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-signature-1",
+      "before": {
+        "description": "乾かした杏の袋。"
+      },
+      "after": {
+        "description": "乾かした杏の袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-5",
+      "before": {
+        "description": "焼き菓子用の干し果実。"
+      },
+      "after": {
+        "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-6",
+      "before": {
+        "description": "乾かしたりんごの袋。"
+      },
+      "after": {
+        "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-signature-2",
+      "before": {
+        "description": "果実を甘く煮る。"
+      },
+      "after": {
+        "description": "果実を甘く煮る。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-7",
+      "before": {
+        "description": "苺を煮詰めた瓶詰め。"
+      },
+      "after": {
+        "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-8",
+      "before": {
+        "description": "柑橘の皮入りのジャム。"
+      },
+      "after": {
+        "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-9",
+      "before": {
+        "description": "水で練るからしの粉。"
+      },
+      "after": {
+        "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-10",
+      "before": {
+        "description": "料理に使う塩の袋。"
+      },
+      "after": {
+        "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-11",
+      "before": {
+        "description": "甘い糖蜜を壺に。"
+      },
+      "after": {
+        "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-12",
+      "before": {
+        "description": "料理に使う酢の瓶。"
+      },
+      "after": {
+        "description": "料理に使う酢の瓶。 半英パイント（約284ml）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-13",
+      "before": {
+        "description": "普段飲みの紅茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-14",
+      "before": {
+        "description": "焙じた珈琲豆の袋。"
+      },
+      "after": {
+        "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "itemId": "grocer-victorian-2-item-15",
+      "before": {
+        "description": "飲料用のココア粉。"
+      },
+      "after": {
+        "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-5",
+      "before": {
+        "description": "焼き菓子用の干し果実。"
+      },
+      "after": {
+        "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-6",
+      "before": {
+        "description": "乾かしたりんごの袋。"
+      },
+      "after": {
+        "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-signature-2",
+      "before": {
+        "description": "塩で保存した魚。"
+      },
+      "after": {
+        "description": "塩で保存した魚。 小ぶりなにしん二尾で一組。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-7",
+      "before": {
+        "description": "苺を煮詰めた瓶詰め。"
+      },
+      "after": {
+        "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-8",
+      "before": {
+        "description": "柑橘の皮入りのジャム。"
+      },
+      "after": {
+        "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-9",
+      "before": {
+        "description": "水で練るからしの粉。"
+      },
+      "after": {
+        "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-10",
+      "before": {
+        "description": "料理に使う塩の袋。"
+      },
+      "after": {
+        "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-11",
+      "before": {
+        "description": "甘い糖蜜を壺に。"
+      },
+      "after": {
+        "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-12",
+      "before": {
+        "description": "料理に使う酢の瓶。"
+      },
+      "after": {
+        "description": "料理に使う酢の瓶。 半英パイント（約284ml）の瓶一本。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-13",
+      "before": {
+        "description": "普段飲みの紅茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-14",
+      "before": {
+        "description": "焙じた珈琲豆の袋。"
+      },
+      "after": {
+        "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "itemId": "grocer-victorian-3-item-15",
+      "before": {
+        "description": "飲料用のココア粉。"
+      },
+      "after": {
+        "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。"
+      },
+      "reason": "小袋・小瓶などの分量を卓用の商品仕様として定義。1890年の実包装規格を史料で確認したものではなく、価格は据え置き。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-2",
+      "before": {
+        "price": 80,
+        "description": "薬味をたっぷりのせた絹ごし豆腐。"
+      },
+      "after": {
+        "price": 40,
+        "description": "豆腐約100gに葱と生姜を添える小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-3",
+      "before": {
+        "price": 100,
+        "description": "ごま油と塩だれで和えた歯切れのよい一品。"
+      },
+      "after": {
+        "price": 40,
+        "description": "きゅうり半本を塩とごま油で和える小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-4",
+      "before": {
+        "price": 120,
+        "description": "粗くつぶしたじゃがいもに半熟卵をのせて。"
+      },
+      "after": {
+        "price": 50,
+        "description": "じゃがいも約100gの小鉢。ゆで卵を刻んで混ぜる。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-5",
+      "before": {
+        "price": 150,
+        "description": "大根、きゅうり、白菜の三種盛り。"
+      },
+      "after": {
+        "price": 50,
+        "description": "大根、きゅうり、白菜を合わせて約80g盛る。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-6",
+      "before": {
+        "price": 180,
+        "description": "切り干し大根を甘辛く煮る。"
+      },
+      "after": {
+        "price": 40,
+        "description": "甘辛く煮た切り干し大根約60gの小鉢。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-7",
+      "before": {
+        "price": 50,
+        "description": "生姜醤油に漬けた鶏もも肉をからりと。"
+      },
+      "after": {
+        "price": 100,
+        "description": "生姜醤油に漬けた鶏もも肉の唐揚げ四個。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-16",
+      "before": {
+        "price": 150,
+        "description": "店主が選んだ辛口の食中酒。燗にも対応。"
+      },
+      "after": {
+        "price": 80,
+        "description": "店の並酒を一合（約180ml）。冷や・燗を同じ料金で選べる。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-1",
+      "itemId": "izakaya-showa-1-item-17",
+      "before": {
+        "price": 60,
+        "description": "温かい番茶を湯のみで出す。"
+      },
+      "after": {
+        "price": 20,
+        "description": "温かい番茶を湯のみ一杯で出す。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-signature-1",
+      "before": {
+        "price": 130,
+        "description": "白菜を軽く漬けた小皿。"
+      },
+      "after": {
+        "price": 40,
+        "description": "軽く漬けた白菜約60gの小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-2",
+      "before": {
+        "price": 80,
+        "description": "薬味をたっぷりのせた絹ごし豆腐。"
+      },
+      "after": {
+        "price": 40,
+        "description": "豆腐約100gに葱と生姜を添える小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-3",
+      "before": {
+        "price": 100,
+        "description": "ごま油と塩だれで和えた歯切れのよい一品。"
+      },
+      "after": {
+        "price": 40,
+        "description": "きゅうり半本を塩とごま油で和える小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-4",
+      "before": {
+        "price": 120,
+        "description": "粗くつぶしたじゃがいもに半熟卵をのせて。"
+      },
+      "after": {
+        "price": 50,
+        "description": "じゃがいも約100gの小鉢。ゆで卵を刻んで混ぜる。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-5",
+      "before": {
+        "price": 150,
+        "description": "大根、きゅうり、白菜の三種盛り。"
+      },
+      "after": {
+        "price": 50,
+        "description": "大根、きゅうり、白菜を合わせて約80g盛る。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-6",
+      "before": {
+        "price": 180,
+        "description": "切り干し大根を甘辛く煮る。"
+      },
+      "after": {
+        "price": 40,
+        "description": "甘辛く煮た切り干し大根約60gの小鉢。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-7",
+      "before": {
+        "price": 50,
+        "description": "生姜醤油に漬けた鶏もも肉をからりと。"
+      },
+      "after": {
+        "price": 100,
+        "description": "生姜醤油に漬けた鶏もも肉の唐揚げ四個。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-signature-3",
+      "before": {
+        "description": "温めた酒を徳利で。"
+      },
+      "after": {
+        "description": "一合80円と同じ並酒を二合（約360ml）、徳利で温めて出す。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-16",
+      "before": {
+        "price": 150,
+        "description": "店主が選んだ辛口の食中酒。燗にも対応。"
+      },
+      "after": {
+        "price": 80,
+        "description": "店の並酒を一合（約180ml）。冷や・燗を同じ料金で選べる。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-2",
+      "itemId": "izakaya-showa-2-item-17",
+      "before": {
+        "price": 60,
+        "description": "温かい番茶を湯のみで出す。"
+      },
+      "after": {
+        "price": 20,
+        "description": "温かい番茶を湯のみ一杯で出す。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-signature-1",
+      "before": {
+        "price": 140,
+        "description": "切った胡瓜に味噌を添える。"
+      },
+      "after": {
+        "price": 40,
+        "description": "きゅうり半本に少量の味噌を添える。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-2",
+      "before": {
+        "price": 80,
+        "description": "薬味をたっぷりのせた絹ごし豆腐。"
+      },
+      "after": {
+        "price": 40,
+        "description": "豆腐約100gに葱と生姜を添える小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-3",
+      "before": {
+        "price": 100,
+        "description": "ごま油と塩だれで和えた歯切れのよい一品。"
+      },
+      "after": {
+        "price": 40,
+        "description": "きゅうり半本を塩とごま油で和える小皿。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-4",
+      "before": {
+        "price": 120,
+        "description": "粗くつぶしたじゃがいもに半熟卵をのせて。"
+      },
+      "after": {
+        "price": 50,
+        "description": "じゃがいも約100gの小鉢。ゆで卵を刻んで混ぜる。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-5",
+      "before": {
+        "price": 150,
+        "description": "大根、きゅうり、白菜の三種盛り。"
+      },
+      "after": {
+        "price": 50,
+        "description": "大根、きゅうり、白菜を合わせて約80g盛る。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-6",
+      "before": {
+        "price": 180,
+        "description": "切り干し大根を甘辛く煮る。"
+      },
+      "after": {
+        "price": 40,
+        "description": "甘辛く煮た切り干し大根約60gの小鉢。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-7",
+      "before": {
+        "price": 50,
+        "description": "生姜醤油に漬けた鶏もも肉をからりと。"
+      },
+      "after": {
+        "price": 100,
+        "description": "生姜醤油に漬けた鶏もも肉の唐揚げ四個。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-signature-3",
+      "before": {
+        "price": 170,
+        "description": "生姜風味の炭酸飲料。"
+      },
+      "after": {
+        "price": 40,
+        "description": "生姜風味の瓶サイダー約200mlを一本。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-16",
+      "before": {
+        "price": 150,
+        "description": "店主が選んだ辛口の食中酒。燗にも対応。"
+      },
+      "after": {
+        "price": 80,
+        "description": "店の並酒を一合（約180ml）。冷や・燗を同じ料金で選べる。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "izakaya-showa-3",
+      "itemId": "izakaya-showa-3-item-17",
+      "before": {
+        "price": 60,
+        "description": "温かい番茶を湯のみで出す。"
+      },
+      "after": {
+        "price": 20,
+        "description": "温かい番茶を湯のみ一杯で出す。"
+      },
+      "reason": "並酒一合150円・二合160円の無説明の料金差と、肉料理より高い少量小鉢の設定を整理。量を明記した架空価格で、店内価格の史料照合済みではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-1",
+      "itemId": "michi-no-eki-1-item-2",
+      "before": {
+        "description": "架空地域で育った精米という設定。"
+      },
+      "after": {
+        "description": "架空の地元産うるち米を精米した2kg袋。小口で仕入れる地域銘柄という設定。"
+      },
+      "reason": "9月14〜20日の全国スーパー平均2,934円/5kg、銘柄米平均2,966円/5kgを確認。2kg直売の地域銘柄とは条件が違うため、既存1,380〜1,520円を維持。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "reference-checked-unchanged-price"
+    },
+    {
+      "shopId": "michi-no-eki-2",
+      "itemId": "michi-no-eki-2-item-2",
+      "before": {
+        "description": "架空地域で育った精米という設定。"
+      },
+      "after": {
+        "description": "架空の地元産うるち米を精米した2kg袋。小口で仕入れる地域銘柄という設定。"
+      },
+      "reason": "9月14〜20日の全国スーパー平均2,934円/5kg、銘柄米平均2,966円/5kgを確認。2kg直売の地域銘柄とは条件が違うため、既存1,380〜1,520円を維持。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "reference-checked-unchanged-price"
+    },
+    {
+      "shopId": "michi-no-eki-3",
+      "itemId": "michi-no-eki-3-staple-3",
+      "before": {
+        "description": "架空地域で育った精米という設定。"
+      },
+      "after": {
+        "description": "架空の地元産うるち米を精米した2kg袋。小口で仕入れる地域銘柄という設定。"
+      },
+      "reason": "9月14〜20日の全国スーパー平均2,934円/5kg、銘柄米平均2,966円/5kgを確認。2kg直売の地域銘柄とは条件が違うため、既存1,380〜1,520円を維持。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "reference-checked-unchanged-price"
+    },
+    {
+      "shopId": "soba-showa-1",
+      "itemId": "soba-showa-1-item-7",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-1",
+      "itemId": "soba-showa-1-item-8",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-1",
+      "itemId": "soba-showa-1-item-9",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-1",
+      "itemId": "soba-showa-1-item-10",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-1",
+      "itemId": "soba-showa-1-item-11",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-1",
+      "itemId": "soba-showa-1-item-18",
+      "before": {
+        "price": 120,
+        "description": "ごぼうと人参などを小さく揚げた一皿。"
+      },
+      "after": {
+        "price": 40,
+        "description": "ごぼうと人参の小さなかき揚げ二枚。蕎麦は付かない。"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-2",
+      "itemId": "soba-showa-2-item-7",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-2",
+      "itemId": "soba-showa-2-item-8",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-2",
+      "itemId": "soba-showa-2-item-9",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-2",
+      "itemId": "soba-showa-2-item-10",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-2",
+      "itemId": "soba-showa-2-item-11",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-2",
+      "itemId": "soba-showa-2-item-18",
+      "before": {
+        "price": 120,
+        "description": "ごぼうと人参などを小さく揚げた一皿。"
+      },
+      "after": {
+        "price": 40,
+        "description": "ごぼうと人参の小さなかき揚げ二枚。蕎麦は付かない。"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-item-7",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-item-8",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-item-9",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-item-10",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-item-11",
+      "before": {
+        "recommendationGroup": "side"
+      },
+      "after": {
+        "recommendationGroup": "main"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-signature-3",
+      "before": {
+        "price": 100,
+        "description": "温かい蕎麦茶を淹れる。"
+      },
+      "after": {
+        "price": 30,
+        "description": "約300mlの急須一つと湯のみ二個。二人で分けられる。"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "soba-showa-3",
+      "itemId": "soba-showa-3-item-18",
+      "before": {
+        "price": 120,
+        "description": "ごぼうと人参などを小さく揚げた一皿。"
+      },
+      "after": {
+        "price": 40,
+        "description": "ごぼうと人参の小さなかき揚げ二枚。蕎麦は付かない。"
+      },
+      "reason": "海老入り天ぷら盛り50円に対して根菜小皿120円という逆転を修正。温かい一人前の蕎麦を主食として分類。価格は店内関係からの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "supermarket-1",
+      "itemId": "supermarket-1-item-1",
+      "before": {
+        "description": "普段の料理に使いやすいパック卵。"
+      },
+      "after": {
+        "description": "サイズ混合の通常飼育卵、十個入り一パック。特別な銘柄や平飼い卵の設定ではない。"
+      },
+      "reason": "高付加価値の平飼い卵との誤比較を避けるため仕様を明確化。通常卵の同条件資料は未確認で258円を据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "supermarket-1",
+      "itemId": "supermarket-1-item-2",
+      "before": {
+        "price": 228,
+        "description": "冷蔵棚の定番の牛乳。"
+      },
+      "after": {
+        "price": 258,
+        "description": "生乳100%の成分無調整牛乳。1L紙パック一個の販売価格。"
+      },
+      "reason": "公式PBの1L成分無調整牛乳257.04円を価格水準の参考に、税込258円の架空料金へ見直した。実在品の再現や全国平均ではない。",
+      "sources": [
+        "topvalu-milk-20261001"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "supermarket-1",
+      "itemId": "supermarket-1-editorial-3",
+      "before": {
+        "description": "小さなカップのプレーンヨーグルトを四個。"
+      },
+      "after": {
+        "description": "プレーンヨーグルト75gのカップ四個。四個で一組の販売価格。"
+      },
+      "reason": "比較や会計に必要な一組・一袋の内容量を創作上の仕様として明示。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "supermarket-2",
+      "itemId": "supermarket-2-curated-9",
+      "before": {
+        "description": "毎日飲みやすい茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの焙じ茶葉50g入り一袋。抽出した飲み物ではなく茶葉の販売。"
+      },
+      "reason": "比較や会計に必要な一組・一袋の内容量を創作上の仕様として明示。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "supermarket-3",
+      "itemId": "supermarket-3-staple-1",
+      "before": {
+        "description": "普段の料理に使いやすいパック卵。"
+      },
+      "after": {
+        "description": "サイズ混合の通常飼育卵、十個入り一パック。特別な銘柄や平飼い卵の設定ではない。"
+      },
+      "reason": "高付加価値の平飼い卵との誤比較を避けるため仕様を明確化。通常卵の同条件資料は未確認で258円を据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "supermarket-3",
+      "itemId": "supermarket-3-staple-3",
+      "before": {
+        "price": 228,
+        "description": "冷蔵棚の定番の牛乳。"
+      },
+      "after": {
+        "price": 258,
+        "description": "生乳100%の成分無調整牛乳。1L紙パック一個の販売価格。"
+      },
+      "reason": "公式PBの1L成分無調整牛乳257.04円を価格水準の参考に、税込258円の架空料金へ見直した。実在品の再現や全国平均ではない。",
+      "sources": [
+        "topvalu-milk-20261001"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "supermarket-3",
+      "itemId": "supermarket-3-staple-10",
+      "before": {
+        "description": "毎日飲みやすい茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの焙じ茶葉50g入り一袋。抽出した飲み物ではなく茶葉の販売。"
+      },
+      "reason": "比較や会計に必要な一組・一袋の内容量を創作上の仕様として明示。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-signature-2",
+      "before": {
+        "price": 70,
+        "description": "玉ねぎをまとめて揚げる。"
+      },
+      "after": {
+        "price": 20,
+        "description": "玉ねぎの約7cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-8",
+      "before": {
+        "price": 50,
+        "description": "青海苔が香る定番の天ぷら。"
+      },
+      "after": {
+        "price": 20,
+        "description": "ちくわ半本分を青海苔入りの衣で揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-9",
+      "before": {
+        "price": 60,
+        "description": "輪切りの芋を衣で揚げる。"
+      },
+      "after": {
+        "price": 15,
+        "description": "輪切りのさつまいも一枚を揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-10",
+      "before": {
+        "price": 70,
+        "description": "甘みのある厚切りかぼちゃ。"
+      },
+      "after": {
+        "price": 20,
+        "description": "かぼちゃの厚切り一枚を揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-11",
+      "before": {
+        "price": 80,
+        "description": "玉ねぎとにんじんの大きなかき揚げ。"
+      },
+      "after": {
+        "price": 30,
+        "description": "玉ねぎと人参の約10cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-12",
+      "before": {
+        "price": 90,
+        "description": "細いごぼうをまとめて揚げた一枚。"
+      },
+      "after": {
+        "price": 30,
+        "description": "細切りごぼうの約10cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-17",
+      "before": {
+        "price": 80,
+        "description": "うどんに追加できるとろりとした卵。"
+      },
+      "after": {
+        "price": 20,
+        "description": "麺への追加用の卵一個。小皿で出す。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-1",
+      "itemId": "udon-showa-1-item-18",
+      "before": {
+        "price": 100,
+        "description": "鮭と胡麻のご飯を握る。"
+      },
+      "after": {
+        "price": 50,
+        "description": "鮭と胡麻を混ぜた約100gのおむすび一個。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-signature-2",
+      "before": {
+        "price": 80,
+        "description": "蓮根を薄衣で揚げる。"
+      },
+      "after": {
+        "price": 25,
+        "description": "蓮根の薄切り二枚を薄衣で揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-8",
+      "before": {
+        "price": 50,
+        "description": "青海苔が香る定番の天ぷら。"
+      },
+      "after": {
+        "price": 20,
+        "description": "ちくわ半本分を青海苔入りの衣で揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-9",
+      "before": {
+        "price": 60,
+        "description": "輪切りの芋を衣で揚げる。"
+      },
+      "after": {
+        "price": 15,
+        "description": "輪切りのさつまいも一枚を揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-10",
+      "before": {
+        "price": 70,
+        "description": "甘みのある厚切りかぼちゃ。"
+      },
+      "after": {
+        "price": 20,
+        "description": "かぼちゃの厚切り一枚を揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-11",
+      "before": {
+        "price": 80,
+        "description": "玉ねぎとにんじんの大きなかき揚げ。"
+      },
+      "after": {
+        "price": 30,
+        "description": "玉ねぎと人参の約10cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-12",
+      "before": {
+        "price": 90,
+        "description": "細いごぼうをまとめて揚げた一枚。"
+      },
+      "after": {
+        "price": 30,
+        "description": "細切りごぼうの約10cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-signature-3",
+      "before": {
+        "price": 70,
+        "description": "梅と胡麻のご飯を握る。"
+      },
+      "after": {
+        "price": 40,
+        "description": "梅と胡麻を合わせた約100gのおむすび一個。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-17",
+      "before": {
+        "price": 80,
+        "description": "うどんに追加できるとろりとした卵。"
+      },
+      "after": {
+        "price": 20,
+        "description": "麺への追加用の卵一個。小皿で出す。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-2",
+      "itemId": "udon-showa-2-item-18",
+      "before": {
+        "price": 100,
+        "description": "鮭と胡麻のご飯を握る。"
+      },
+      "after": {
+        "price": 50,
+        "description": "鮭と胡麻を混ぜた約100gのおむすび一個。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-signature-2",
+      "before": {
+        "price": 90,
+        "description": "いんげんを衣で揚げる。"
+      },
+      "after": {
+        "price": 25,
+        "description": "いんげん三本をまとめて揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-8",
+      "before": {
+        "price": 50,
+        "description": "青海苔が香る定番の天ぷら。"
+      },
+      "after": {
+        "price": 20,
+        "description": "ちくわ半本分を青海苔入りの衣で揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-9",
+      "before": {
+        "price": 60,
+        "description": "輪切りの芋を衣で揚げる。"
+      },
+      "after": {
+        "price": 15,
+        "description": "輪切りのさつまいも一枚を揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-10",
+      "before": {
+        "price": 70,
+        "description": "甘みのある厚切りかぼちゃ。"
+      },
+      "after": {
+        "price": 20,
+        "description": "かぼちゃの厚切り一枚を揚げる。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-11",
+      "before": {
+        "price": 80,
+        "description": "玉ねぎとにんじんの大きなかき揚げ。"
+      },
+      "after": {
+        "price": 30,
+        "description": "玉ねぎと人参の約10cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-12",
+      "before": {
+        "price": 90,
+        "description": "細いごぼうをまとめて揚げた一枚。"
+      },
+      "after": {
+        "price": 30,
+        "description": "細切りごぼうの約10cmのかき揚げ一枚。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-signature-3",
+      "before": {
+        "price": 80,
+        "description": "番茶を温かく淹れる。"
+      },
+      "after": {
+        "price": 20,
+        "description": "温かい番茶を湯のみ一杯で出す。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-17",
+      "before": {
+        "price": 80,
+        "description": "うどんに追加できるとろりとした卵。"
+      },
+      "after": {
+        "price": 20,
+        "description": "麺への追加用の卵一個。小皿で出す。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "udon-showa-3",
+      "itemId": "udon-showa-3-item-18",
+      "before": {
+        "price": 100,
+        "description": "鮭と胡麻のご飯を握る。"
+      },
+      "after": {
+        "price": 50,
+        "description": "鮭と胡麻を混ぜた約100gのおむすび一個。"
+      },
+      "reason": "60円のかけうどんより単品の卵・野菜天が高い無説明の設定を、個数・量を定めて修正。1968年の店内価格の一次資料とは未照合。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    }
+  ],
+  "shopChanges": [
+    {
+      "shopId": "convenience-store-1",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "convenience-store-2",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "convenience-store-3",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "before": {
+        "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。 小袋・瓶詰めは説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、英パイントは容量です。"
+      },
+      "reason": "内容量・容器代・重量と容量の区別を明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "before": {
+        "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。 小袋・瓶詰めは説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、英パイントは容量です。"
+      },
+      "reason": "内容量・容器代・重量と容量の区別を明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "before": {
+        "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1890年を想定した旧英国通貨の架空価格。£1＝20s、1s＝12d。表示額で会計する卓用設定です。 小袋・瓶詰めは説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、英パイントは容量です。"
+      },
+      "reason": "内容量・容器代・重量と容量の区別を明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-1",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-2",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-3",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "supermarket-1",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "supermarket-2",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "supermarket-3",
+      "before": {
+        "priceNote": null
+      },
+      "after": {
+        "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
+      },
+      "reason": "食品・物販の会計単位と税込の設定であることを明示。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    }
+  ],
+  "additions": [
+    {
+      "shopId": "supermarket-1",
+      "sectionId": "supermarket-1-section-2",
+      "item": {
+        "id": "supermarket-1-review-20261001-1",
+        "name": "家計用ブレンド米 5kg",
+        "price": 2880,
+        "kind": "goods",
+        "description": "国産うるち米を混ぜた精米5kg一袋。銘柄指定のない普段炊き用。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "全国スーパーのブレンド米平均2,783円/5kgを参考に、銘柄指定なしの架空米を追加。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "supermarket-2",
+      "sectionId": "supermarket-2-section-1",
+      "item": {
+        "id": "supermarket-2-review-20261001-1",
+        "name": "まる葉の近郊うるち米 2kg",
+        "price": 1480,
+        "kind": "goods",
+        "description": "近郊の架空産地から仕入れる精米2kg一袋。品種は入荷ごとに札で知らせる。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "小口の地域米を追加。POS平均とは袋サイズ・産地条件が違うため同額換算しない。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "supermarket-3",
+      "sectionId": "supermarket-3-section-2",
+      "item": {
+        "id": "supermarket-3-review-20261001-1",
+        "name": "一人暮らしの無洗米 1kg",
+        "price": 780,
+        "kind": "goods",
+        "description": "洗わず炊ける加工済みの米1kg一袋。小分けで使い切りやすい。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "少量袋と無洗米加工の価格差を含む架空設定。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-1",
+      "sectionId": "michi-no-eki-1-section-1",
+      "item": {
+        "id": "michi-no-eki-1-review-20261001-1",
+        "name": "食べ比べの地場米 二合袋",
+        "price": 260,
+        "kind": "goods",
+        "description": "精米300g入り一袋。家庭で味を試すための少量包装。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "既存2kg米より割高な小分け単価を明示した追加商品。",
+      "sources": [
+        "maff-rice-20260925"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-2",
+      "sectionId": "michi-no-eki-2-section-1",
+      "item": {
+        "id": "michi-no-eki-2-review-20261001-1",
+        "name": "乾燥根菜の味噌汁具 30g",
+        "price": 380,
+        "kind": "goods",
+        "description": "切り干し大根と人参の乾燥具材。一袋30g、だしと味噌は含まない。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "料理用の少量保存食品を追加。価格は既存の乾物・野菜品揃えからの推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "michi-no-eki-3",
+      "sectionId": "michi-no-eki-3-section-3",
+      "item": {
+        "id": "michi-no-eki-3-review-20261001-1",
+        "name": "山里くるみの殻付き袋 200g",
+        "price": 680,
+        "kind": "goods",
+        "description": "殻付きくるみ200gを一袋に。殻の重量を含み、割る道具は別。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "土産の正味量との混同を防ぐ殻付き重量の商品を追加。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "convenience-store-1",
+      "sectionId": "convenience-store-1-section-1",
+      "item": {
+        "id": "convenience-store-1-review-20261001-1",
+        "name": "小ぶりな塩むすび 二個",
+        "price": 198,
+        "kind": "food",
+        "description": "ご飯約70gずつの塩むすび二個入り。海苔や具は付かない。",
+        "recommendationGroup": "main"
+      },
+      "reason": "具なし・小型二個という仕様で、通常の具入りおにぎりと比較できる軽食を追加。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "convenience-store-2",
+      "sectionId": "convenience-store-2-section-1",
+      "item": {
+        "id": "convenience-store-2-review-20261001-1",
+        "name": "ひじきと枝豆のおむすび",
+        "price": 178,
+        "kind": "food",
+        "description": "約100gのご飯にひじきと枝豆を混ぜた一個。海苔は巻かない。",
+        "recommendationGroup": "main"
+      },
+      "reason": "具材と一個の量を示す、店独自の持ち歩き用軽食を追加。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "convenience-store-3",
+      "sectionId": "convenience-store-3-section-2",
+      "item": {
+        "id": "convenience-store-3-review-20261001-1",
+        "name": "あたため白がゆ 250g",
+        "price": 168,
+        "kind": "food",
+        "description": "一食250gの密封パウチ。塩味を控えた白がゆで、漬物は別。",
+        "recommendationGroup": "main"
+      },
+      "reason": "温めて食べられる少量の主食を追加。価格は架空の小売設定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "bakery-showa-1",
+      "sectionId": "bakery-showa-1-section-1",
+      "item": {
+        "id": "bakery-showa-1-review-20261001-1",
+        "name": "朝の小さな丸パン 四個袋",
+        "price": 40,
+        "kind": "food",
+        "description": "一個約30gの丸パンを四個。具や塗り物は入れない。",
+        "recommendationGroup": "main"
+      },
+      "reason": "食事パンの小分けを追加。年鑑の食パン単価は参考に留める。",
+      "sources": [
+        "tottori-bread-1968"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "bakery-showa-2",
+      "sectionId": "bakery-showa-2-section-2",
+      "item": {
+        "id": "bakery-showa-2-review-20261001-1",
+        "name": "胡瓜と卵の半分サンド",
+        "price": 25,
+        "kind": "food",
+        "description": "薄切りパン二枚で作った小型サンドを二切れに。半人前ほどの量。",
+        "recommendationGroup": "main"
+      },
+      "reason": "一人前の卵サンド35円に対して分量の少ない品を追加。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "bakery-showa-3",
+      "sectionId": "bakery-showa-3-section-3",
+      "item": {
+        "id": "bakery-showa-3-review-20261001-1",
+        "name": "黒糖ねじりの小さなパン",
+        "price": 20,
+        "kind": "food",
+        "description": "約50gのねじったパン一個に黒糖をまぶす。",
+        "recommendationGroup": "main"
+      },
+      "reason": "製パン所の少量のおやつを追加。価格は店内商品の量から推定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-1",
+      "sectionId": "grocer-victorian-1-section-2",
+      "item": {
+        "id": "grocer-victorian-1-review-20261001-1",
+        "name": "白砂糖 一ポンド",
+        "price": 3,
+        "kind": "goods",
+        "description": "茶や菓子作り用の白砂糖。約454gを量り、紙袋に入れる。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "家庭料理向けの基本材料を追加。1890年の個別実売価格は未確認の創作設定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-2",
+      "sectionId": "grocer-victorian-2-section-1",
+      "item": {
+        "id": "grocer-victorian-2-review-20261001-1",
+        "name": "玉ねぎ 一ポンド",
+        "price": 1,
+        "kind": "goods",
+        "description": "皮付きの玉ねぎを合わせて約454g。煮込み用に大きさの違うものを混ぜる。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "村の食料品店に生鮮の煮込み材料を追加。価格は創作設定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "grocer-victorian-3",
+      "sectionId": "grocer-victorian-3-section-1",
+      "item": {
+        "id": "grocer-victorian-3-review-20261001-1",
+        "name": "乾燥レンズ豆 一ポンド",
+        "price": 3,
+        "kind": "goods",
+        "description": "約454gの乾燥豆を紙袋へ。旅先でも鍋で煮られる食料。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "港の店に別種の乾燥豆を追加。個別の当時価格は未確認の創作設定。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    }
+  ]
+}

@@ -812,9 +812,9 @@
           "items": [
             {
               "name": "玉ねぎの小かき揚げ",
-              "price": 70,
+              "price": 20,
               "kind": "food",
-              "description": "玉ねぎをまとめて揚げる。",
+              "description": "玉ねぎの約7cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-signature-2",
               "recommended": true
@@ -830,45 +830,45 @@
             },
             {
               "name": "ちくわ天",
-              "price": 50,
+              "price": 20,
               "kind": "food",
-              "description": "青海苔が香る定番の天ぷら。",
+              "description": "ちくわ半本分を青海苔入りの衣で揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-item-8",
               "recommended": false
             },
             {
               "name": "さつまいも天",
-              "price": 60,
+              "price": 15,
               "kind": "food",
-              "description": "輪切りの芋を衣で揚げる。",
+              "description": "輪切りのさつまいも一枚を揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-item-9",
               "recommended": false
             },
             {
               "name": "かぼちゃ天",
-              "price": 70,
+              "price": 20,
               "kind": "food",
-              "description": "甘みのある厚切りかぼちゃ。",
+              "description": "かぼちゃの厚切り一枚を揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-item-10",
               "recommended": false
             },
             {
               "name": "野菜かき揚げ",
-              "price": 80,
+              "price": 30,
               "kind": "food",
-              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "description": "玉ねぎと人参の約10cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-item-11",
               "recommended": false
             },
             {
               "name": "ごぼうの細切りかき揚げ",
-              "price": 90,
+              "price": 30,
               "kind": "food",
-              "description": "細いごぼうをまとめて揚げた一枚。",
+              "description": "細切りごぼうの約10cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-item-12",
               "recommended": false
@@ -926,18 +926,18 @@
             },
             {
               "name": "温泉卵",
-              "price": 80,
+              "price": 20,
               "kind": "food",
-              "description": "うどんに追加できるとろりとした卵。",
+              "description": "麺への追加用の卵一個。小皿で出す。",
               "recommendationGroup": "side",
               "id": "udon-showa-1-item-17",
               "recommended": false
             },
             {
               "name": "鮭胡麻むすび",
-              "price": 100,
+              "price": 50,
               "kind": "food",
-              "description": "鮭と胡麻のご飯を握る。",
+              "description": "鮭と胡麻を混ぜた約100gのおむすび一個。",
               "recommendationGroup": "main",
               "id": "udon-showa-1-item-18",
               "recommended": false
@@ -1049,9 +1049,9 @@
           "items": [
             {
               "name": "蓮根の薄切り天ぷら",
-              "price": 80,
+              "price": 25,
               "kind": "food",
-              "description": "蓮根を薄衣で揚げる。",
+              "description": "蓮根の薄切り二枚を薄衣で揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-signature-2",
               "recommended": true
@@ -1067,45 +1067,45 @@
             },
             {
               "name": "ちくわ天",
-              "price": 50,
+              "price": 20,
               "kind": "food",
-              "description": "青海苔が香る定番の天ぷら。",
+              "description": "ちくわ半本分を青海苔入りの衣で揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-item-8",
               "recommended": false
             },
             {
               "name": "さつまいも天",
-              "price": 60,
+              "price": 15,
               "kind": "food",
-              "description": "輪切りの芋を衣で揚げる。",
+              "description": "輪切りのさつまいも一枚を揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-item-9",
               "recommended": false
             },
             {
               "name": "かぼちゃ天",
-              "price": 70,
+              "price": 20,
               "kind": "food",
-              "description": "甘みのある厚切りかぼちゃ。",
+              "description": "かぼちゃの厚切り一枚を揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-item-10",
               "recommended": false
             },
             {
               "name": "野菜かき揚げ",
-              "price": 80,
+              "price": 30,
               "kind": "food",
-              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "description": "玉ねぎと人参の約10cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-item-11",
               "recommended": false
             },
             {
               "name": "ごぼうの細切りかき揚げ",
-              "price": 90,
+              "price": 30,
               "kind": "food",
-              "description": "細いごぼうをまとめて揚げた一枚。",
+              "description": "細切りごぼうの約10cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-item-12",
               "recommended": false
@@ -1118,9 +1118,9 @@
           "items": [
             {
               "name": "梅胡麻むすび",
-              "price": 70,
+              "price": 40,
               "kind": "food",
-              "description": "梅と胡麻のご飯を握る。",
+              "description": "梅と胡麻を合わせた約100gのおむすび一個。",
               "recommendationGroup": "main",
               "id": "udon-showa-2-signature-3",
               "recommended": true
@@ -1163,18 +1163,18 @@
             },
             {
               "name": "温泉卵",
-              "price": 80,
+              "price": 20,
               "kind": "food",
-              "description": "うどんに追加できるとろりとした卵。",
+              "description": "麺への追加用の卵一個。小皿で出す。",
               "recommendationGroup": "side",
               "id": "udon-showa-2-item-17",
               "recommended": false
             },
             {
               "name": "鮭胡麻むすび",
-              "price": 100,
+              "price": 50,
               "kind": "food",
-              "description": "鮭と胡麻のご飯を握る。",
+              "description": "鮭と胡麻を混ぜた約100gのおむすび一個。",
               "recommendationGroup": "main",
               "id": "udon-showa-2-item-18",
               "recommended": false
@@ -1286,9 +1286,9 @@
           "items": [
             {
               "name": "いんげんの天ぷら",
-              "price": 90,
+              "price": 25,
               "kind": "food",
-              "description": "いんげんを衣で揚げる。",
+              "description": "いんげん三本をまとめて揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-signature-2",
               "recommended": true
@@ -1304,45 +1304,45 @@
             },
             {
               "name": "ちくわ天",
-              "price": 50,
+              "price": 20,
               "kind": "food",
-              "description": "青海苔が香る定番の天ぷら。",
+              "description": "ちくわ半本分を青海苔入りの衣で揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-item-8",
               "recommended": false
             },
             {
               "name": "さつまいも天",
-              "price": 60,
+              "price": 15,
               "kind": "food",
-              "description": "輪切りの芋を衣で揚げる。",
+              "description": "輪切りのさつまいも一枚を揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-item-9",
               "recommended": false
             },
             {
               "name": "かぼちゃ天",
-              "price": 70,
+              "price": 20,
               "kind": "food",
-              "description": "甘みのある厚切りかぼちゃ。",
+              "description": "かぼちゃの厚切り一枚を揚げる。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-item-10",
               "recommended": false
             },
             {
               "name": "野菜かき揚げ",
-              "price": 80,
+              "price": 30,
               "kind": "food",
-              "description": "玉ねぎとにんじんの大きなかき揚げ。",
+              "description": "玉ねぎと人参の約10cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-item-11",
               "recommended": false
             },
             {
               "name": "ごぼうの細切りかき揚げ",
-              "price": 90,
+              "price": 30,
               "kind": "food",
-              "description": "細いごぼうをまとめて揚げた一枚。",
+              "description": "細切りごぼうの約10cmのかき揚げ一枚。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-item-12",
               "recommended": false
@@ -1355,9 +1355,9 @@
           "items": [
             {
               "name": "温かい番茶",
-              "price": 80,
+              "price": 20,
               "kind": "drink",
-              "description": "番茶を温かく淹れる。",
+              "description": "温かい番茶を湯のみ一杯で出す。",
               "recommendationGroup": "drink",
               "id": "udon-showa-3-signature-3",
               "recommended": true
@@ -1400,18 +1400,18 @@
             },
             {
               "name": "温泉卵",
-              "price": 80,
+              "price": 20,
               "kind": "food",
-              "description": "うどんに追加できるとろりとした卵。",
+              "description": "麺への追加用の卵一個。小皿で出す。",
               "recommendationGroup": "side",
               "id": "udon-showa-3-item-17",
               "recommended": false
             },
             {
               "name": "鮭胡麻むすび",
-              "price": 100,
+              "price": 50,
               "kind": "food",
-              "description": "鮭と胡麻のご飯を握る。",
+              "description": "鮭と胡麻を混ぜた約100gのおむすび一個。",
               "recommendationGroup": "main",
               "id": "udon-showa-3-item-18",
               "recommended": false

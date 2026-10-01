@@ -78,6 +78,14 @@
               "recommended": true,
               "kind": "food",
               "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-1-review-20261001-1",
+              "name": "小ぶりな塩むすび 二個",
+              "price": 198,
+              "kind": "food",
+              "description": "ご飯約70gずつの塩むすび二個入り。海苔や具は付かない。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -240,7 +248,8 @@
         "service": "常連に軽く挨拶し、取り置きの新聞を手渡す。",
         "signature": "手頃なおにぎりと日々の買い足し",
         "localFlavor": "住宅街の通学路にある生活の拠点。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "convenience-store-2",
@@ -313,6 +322,14 @@
               "description": "高菜と明太風の具材を包んだ一個。",
               "recommended": false,
               "kind": "food",
+              "recommendationGroup": "main"
+            },
+            {
+              "id": "convenience-store-2-review-20261001-1",
+              "name": "ひじきと枝豆のおむすび",
+              "price": 178,
+              "kind": "food",
+              "description": "約100gのご飯にひじきと枝豆を混ぜた一個。海苔は巻かない。",
               "recommendationGroup": "main"
             }
           ]
@@ -485,7 +502,8 @@
         "service": "会計は素早く、温める商品と冷たい商品を分けて渡す。",
         "signature": "朝のパンと出張客向け小物",
         "localFlavor": "駅前のホテルとオフィスへ向かう客が多い。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "convenience-store-3",
@@ -638,6 +656,14 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "side"
+            },
+            {
+              "id": "convenience-store-3-review-20261001-1",
+              "name": "あたため白がゆ 250g",
+              "price": 168,
+              "kind": "food",
+              "description": "一食250gの密封パウチ。塩味を控えた白がゆで、漬物は別。",
+              "recommendationGroup": "main"
             }
           ]
         },
@@ -716,7 +742,8 @@
         "service": "温める品と冷たい品を分けて渡す。列車の時間が近いとレジの応援を呼ぶ。",
         "signature": "鮭ほぐしと野沢菜のおにぎりと焦がしキャラメルのミルク飲料",
         "localFlavor": "朝は通勤客、終電前は帰宅客で賑わう。駅前の待ち合わせで飲み物だけ買う人も多い。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "convenience-store-heisei-1",

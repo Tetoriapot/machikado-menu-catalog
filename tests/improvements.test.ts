@@ -13,7 +13,7 @@ const originalCategories=new Set((JSON.parse(readFileSync('scripts/third-shop-dr
 const legacySummaries=summaries.filter(s=>originalCategories.has(s.category));
 test('先行増補した100店舗の2,104品と情景、480品の追加内容を保持する', () => {
  const originals=legacySummaries.filter(s=>/-[12]$/.test(s.id));
- assert.equal(originals.length,100);assert.equal(originals.reduce((n,s)=>n+s.itemCount,0),2104);
+ assert.equal(originals.length,100);assert.equal(originals.reduce((n,s)=>n+s.menuIndex.filter(i=>!i.id.includes('-review-')).length,0),2104);
  let additions=0;
  for(const summary of originals){
   assert.ok(summary.itemCount>=21,summary.id);
@@ -26,12 +26,12 @@ test('先行増補した100店舗の2,104品と情景、480品の追加内容を
 });
 
 test('従来の50カテゴリに第三店舗があり、各店21品のうち9品は従来の二店と異なる',()=>{
- assert.equal(legacySummaries.length,150);assert.equal(legacySummaries.reduce((n,s)=>n+s.itemCount,0),3154);
+ assert.equal(legacySummaries.length,150);assert.equal(legacySummaries.reduce((n,s)=>n+s.menuIndex.filter(i=>!i.id.includes('-review-')).length,0),3154);
  const categories=new Set(legacySummaries.map(s=>s.category));assert.equal(categories.size,50);
  const newShops=legacySummaries.filter(s=>s.id.endsWith('-3'));assert.equal(newShops.length,50);
  for(const category of categories){
   const siblings=summaries.filter(s=>s.category===category);assert.equal(siblings.length,3,category);
-  const fresh=siblings.find(s=>s.id===`${category}-3`)!;assert.ok(fresh);assert.equal(fresh.itemCount,21);
+  const fresh=siblings.find(s=>s.id===`${category}-3`)!;assert.ok(fresh);assert.equal(fresh.menuIndex.filter(i=>!i.id.includes('-review-')).length,21);
   for(const field of ['interior','service','signature','localFlavor'] as const)assert.ok((fresh.scene?.[field].length??0)>0,`${category}: ${field}`);
   const newItems=fresh.menuIndex.filter(i=>i.id.includes('-original-'));assert.equal(newItems.length,9);
   for(const sibling of siblings.filter(s=>s.id!==fresh.id)){

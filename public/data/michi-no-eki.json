@@ -38,7 +38,7 @@
               "id": "michi-no-eki-1-item-2",
               "name": "地場米 2kg",
               "price": 1380,
-              "description": "架空地域で育った精米という設定。",
+              "description": "架空の地元産うるち米を精米した2kg袋。小口で仕入れる地域銘柄という設定。",
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
@@ -69,6 +69,14 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
+            },
+            {
+              "id": "michi-no-eki-1-review-20261001-1",
+              "name": "食べ比べの地場米 二合袋",
+              "price": 260,
+              "kind": "goods",
+              "description": "精米300g入り一袋。家庭で味を試すための少量包装。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -240,7 +248,8 @@
         "service": "野菜の袋ごとに中身を案内し、重い買い物は箱へまとめる。食堂は番号札で料理を渡す。",
         "signature": "朝採れ彩りミニトマト 250gと木立のきのこ汁と焼きおむすび",
         "localFlavor": "朝は野菜を納める軽トラックが並ぶ。近所の住民と、遠方へ向かう旅行客が同じ食堂で休む。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "michi-no-eki-2",
@@ -274,7 +283,7 @@
               "id": "michi-no-eki-2-item-2",
               "name": "地場米 2kg",
               "price": 1520,
-              "description": "架空地域で育った精米という設定。",
+              "description": "架空の地元産うるち米を精米した2kg袋。小口で仕入れる地域銘柄という設定。",
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
@@ -305,6 +314,14 @@
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
+            },
+            {
+              "id": "michi-no-eki-2-review-20261001-1",
+              "name": "乾燥根菜の味噌汁具 30g",
+              "price": 380,
+              "kind": "goods",
+              "description": "切り干し大根と人参の乾燥具材。一袋30g、だしと味噌は含まない。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -476,7 +493,8 @@
         "service": "農産品の量や使い方をひとこと添える。食堂では持ち帰る品と今食べる品を分けて包む。",
         "signature": "川辺の青菜おやき 二個と鶏だし蓮根つみれ汁膳",
         "localFlavor": "川沿いを歩く人やサイクリング客が休憩する。夕方には農家が空の籠を引き取りに来る。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     },
     {
       "id": "michi-no-eki-3",
@@ -547,7 +565,7 @@
               "id": "michi-no-eki-3-staple-3",
               "name": "地場米 2kg",
               "price": 1380,
-              "description": "架空地域で育った精米という設定。",
+              "description": "架空の地元産うるち米を精米した2kg袋。小口で仕入れる地域銘柄という設定。",
               "recommended": false,
               "kind": "food",
               "recommendationGroup": "main"
@@ -698,6 +716,14 @@
               "recommended": false,
               "kind": "goods",
               "recommendationGroup": "goods"
+            },
+            {
+              "id": "michi-no-eki-3-review-20261001-1",
+              "name": "山里くるみの殻付き袋 200g",
+              "price": 680,
+              "kind": "goods",
+              "description": "殻付きくるみ200gを一袋に。殻の重量を含み、割る道具は別。",
+              "recommendationGroup": "goods"
             }
           ]
         }
@@ -707,7 +733,8 @@
         "service": "野菜の札を見ながら量を確認する。食堂は食券の番号を呼び、出来上がった順に渡す。",
         "signature": "山里の原木しいたけ 小袋とくるみだれの田舎そば",
         "localFlavor": "朝は近所の買い物客、昼はドライブの人が増える。雨上がりには山の道の話題が出る。"
-      }
+      },
+      "priceNote": "表示額は税込の架空設定です。商品名・説明に記した数量で一品を数えます。量り売りは記載の重さを一単位とし、セット内訳の単品料金は重ねて加算しません。地域や店の特色による価格差を含みます。"
     }
   ]
 }

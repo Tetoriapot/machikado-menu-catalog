@@ -761,45 +761,45 @@
             },
             {
               "name": "冷奴",
-              "price": 80,
+              "price": 40,
               "kind": "food",
-              "description": "薬味をたっぷりのせた絹ごし豆腐。",
+              "description": "豆腐約100gに葱と生姜を添える小皿。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-1-item-2",
               "recommended": false
             },
             {
               "name": "たたききゅうり",
-              "price": 100,
+              "price": 40,
               "kind": "food",
-              "description": "ごま油と塩だれで和えた歯切れのよい一品。",
+              "description": "きゅうり半本を塩とごま油で和える小皿。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-1-item-3",
               "recommended": false
             },
             {
               "name": "ポテトサラダ",
-              "price": 120,
+              "price": 50,
               "kind": "food",
-              "description": "粗くつぶしたじゃがいもに半熟卵をのせて。",
+              "description": "じゃがいも約100gの小鉢。ゆで卵を刻んで混ぜる。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-1-item-4",
               "recommended": false
             },
             {
               "name": "漬物盛り合わせ",
-              "price": 150,
+              "price": 50,
               "kind": "food",
-              "description": "大根、きゅうり、白菜の三種盛り。",
+              "description": "大根、きゅうり、白菜を合わせて約80g盛る。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-1-item-5",
               "recommended": false
             },
             {
               "name": "切り干し大根の煮付け",
-              "price": 180,
+              "price": 40,
               "kind": "food",
-              "description": "切り干し大根を甘辛く煮る。",
+              "description": "甘辛く煮た切り干し大根約60gの小鉢。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-1-item-6",
               "recommended": false
@@ -821,9 +821,9 @@
             },
             {
               "name": "鶏の唐揚げ",
-              "price": 50,
+              "price": 100,
               "kind": "food",
-              "description": "生姜醤油に漬けた鶏もも肉をからりと。",
+              "description": "生姜醤油に漬けた鶏もも肉の唐揚げ四個。",
               "recommendationGroup": "side",
               "id": "izakaya-showa-1-item-7",
               "recommended": false
@@ -917,18 +917,18 @@
             },
             {
               "name": "日本酒 一合",
-              "price": 150,
+              "price": 80,
               "kind": "drink",
-              "description": "店主が選んだ辛口の食中酒。燗にも対応。",
+              "description": "店の並酒を一合（約180ml）。冷や・燗を同じ料金で選べる。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-1-item-16",
               "recommended": false
             },
             {
               "name": "番茶",
-              "price": 60,
+              "price": 20,
               "kind": "drink",
-              "description": "温かい番茶を湯のみで出す。",
+              "description": "温かい番茶を湯のみ一杯で出す。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-1-item-17",
               "recommended": false
@@ -980,9 +980,9 @@
           "items": [
             {
               "name": "白菜の即席漬け",
-              "price": 130,
+              "price": 40,
               "kind": "food",
-              "description": "白菜を軽く漬けた小皿。",
+              "description": "軽く漬けた白菜約60gの小皿。",
               "recommendationGroup": "side",
               "id": "izakaya-showa-2-signature-1",
               "recommended": true
@@ -998,45 +998,45 @@
             },
             {
               "name": "冷奴",
-              "price": 80,
+              "price": 40,
               "kind": "food",
-              "description": "薬味をたっぷりのせた絹ごし豆腐。",
+              "description": "豆腐約100gに葱と生姜を添える小皿。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-2-item-2",
               "recommended": false
             },
             {
               "name": "たたききゅうり",
-              "price": 100,
+              "price": 40,
               "kind": "food",
-              "description": "ごま油と塩だれで和えた歯切れのよい一品。",
+              "description": "きゅうり半本を塩とごま油で和える小皿。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-2-item-3",
               "recommended": false
             },
             {
               "name": "ポテトサラダ",
-              "price": 120,
+              "price": 50,
               "kind": "food",
-              "description": "粗くつぶしたじゃがいもに半熟卵をのせて。",
+              "description": "じゃがいも約100gの小鉢。ゆで卵を刻んで混ぜる。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-2-item-4",
               "recommended": false
             },
             {
               "name": "漬物盛り合わせ",
-              "price": 150,
+              "price": 50,
               "kind": "food",
-              "description": "大根、きゅうり、白菜の三種盛り。",
+              "description": "大根、きゅうり、白菜を合わせて約80g盛る。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-2-item-5",
               "recommended": false
             },
             {
               "name": "切り干し大根の煮付け",
-              "price": 180,
+              "price": 40,
               "kind": "food",
-              "description": "切り干し大根を甘辛く煮る。",
+              "description": "甘辛く煮た切り干し大根約60gの小鉢。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-2-item-6",
               "recommended": false
@@ -1058,9 +1058,9 @@
             },
             {
               "name": "鶏の唐揚げ",
-              "price": 50,
+              "price": 100,
               "kind": "food",
-              "description": "生姜醤油に漬けた鶏もも肉をからりと。",
+              "description": "生姜醤油に漬けた鶏もも肉の唐揚げ四個。",
               "recommendationGroup": "side",
               "id": "izakaya-showa-2-item-7",
               "recommended": false
@@ -1120,7 +1120,7 @@
               "name": "燗酒 二合",
               "price": 160,
               "kind": "drink",
-              "description": "温めた酒を徳利で。",
+              "description": "一合80円と同じ並酒を二合（約360ml）、徳利で温めて出す。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-2-signature-3",
               "recommended": true
@@ -1154,18 +1154,18 @@
             },
             {
               "name": "日本酒 一合",
-              "price": 150,
+              "price": 80,
               "kind": "drink",
-              "description": "店主が選んだ辛口の食中酒。燗にも対応。",
+              "description": "店の並酒を一合（約180ml）。冷や・燗を同じ料金で選べる。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-2-item-16",
               "recommended": false
             },
             {
               "name": "番茶",
-              "price": 60,
+              "price": 20,
               "kind": "drink",
-              "description": "温かい番茶を湯のみで出す。",
+              "description": "温かい番茶を湯のみ一杯で出す。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-2-item-17",
               "recommended": false
@@ -1217,9 +1217,9 @@
           "items": [
             {
               "name": "胡瓜と味噌の小皿",
-              "price": 140,
+              "price": 40,
               "kind": "food",
-              "description": "切った胡瓜に味噌を添える。",
+              "description": "きゅうり半本に少量の味噌を添える。",
               "recommendationGroup": "side",
               "id": "izakaya-showa-3-signature-1",
               "recommended": true
@@ -1235,45 +1235,45 @@
             },
             {
               "name": "冷奴",
-              "price": 80,
+              "price": 40,
               "kind": "food",
-              "description": "薬味をたっぷりのせた絹ごし豆腐。",
+              "description": "豆腐約100gに葱と生姜を添える小皿。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-3-item-2",
               "recommended": false
             },
             {
               "name": "たたききゅうり",
-              "price": 100,
+              "price": 40,
               "kind": "food",
-              "description": "ごま油と塩だれで和えた歯切れのよい一品。",
+              "description": "きゅうり半本を塩とごま油で和える小皿。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-3-item-3",
               "recommended": false
             },
             {
               "name": "ポテトサラダ",
-              "price": 120,
+              "price": 50,
               "kind": "food",
-              "description": "粗くつぶしたじゃがいもに半熟卵をのせて。",
+              "description": "じゃがいも約100gの小鉢。ゆで卵を刻んで混ぜる。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-3-item-4",
               "recommended": false
             },
             {
               "name": "漬物盛り合わせ",
-              "price": 150,
+              "price": 50,
               "kind": "food",
-              "description": "大根、きゅうり、白菜の三種盛り。",
+              "description": "大根、きゅうり、白菜を合わせて約80g盛る。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-3-item-5",
               "recommended": false
             },
             {
               "name": "切り干し大根の煮付け",
-              "price": 180,
+              "price": 40,
               "kind": "food",
-              "description": "切り干し大根を甘辛く煮る。",
+              "description": "甘辛く煮た切り干し大根約60gの小鉢。",
               "recommendationGroup": "main",
               "id": "izakaya-showa-3-item-6",
               "recommended": false
@@ -1295,9 +1295,9 @@
             },
             {
               "name": "鶏の唐揚げ",
-              "price": 50,
+              "price": 100,
               "kind": "food",
-              "description": "生姜醤油に漬けた鶏もも肉をからりと。",
+              "description": "生姜醤油に漬けた鶏もも肉の唐揚げ四個。",
               "recommendationGroup": "side",
               "id": "izakaya-showa-3-item-7",
               "recommended": false
@@ -1355,9 +1355,9 @@
           "items": [
             {
               "name": "生姜の瓶サイダー",
-              "price": 170,
+              "price": 40,
               "kind": "drink",
-              "description": "生姜風味の炭酸飲料。",
+              "description": "生姜風味の瓶サイダー約200mlを一本。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-3-signature-3",
               "recommended": true
@@ -1391,18 +1391,18 @@
             },
             {
               "name": "日本酒 一合",
-              "price": 150,
+              "price": 80,
               "kind": "drink",
-              "description": "店主が選んだ辛口の食中酒。燗にも対応。",
+              "description": "店の並酒を一合（約180ml）。冷や・燗を同じ料金で選べる。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-3-item-16",
               "recommended": false
             },
             {
               "name": "番茶",
-              "price": 60,
+              "price": 20,
               "kind": "drink",
-              "description": "温かい番茶を湯のみで出す。",
+              "description": "温かい番茶を湯のみ一杯で出す。",
               "recommendationGroup": "drink",
               "id": "izakaya-showa-3-item-17",
               "recommended": false
