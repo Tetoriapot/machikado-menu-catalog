@@ -120,7 +120,7 @@
               "name": "ポテトサラダ 小箱",
               "price": 10,
               "kind": "food",
-              "description": "じゃがいもを和える。",
+              "description": "じゃがいもを和えた惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-1-item-7",
               "recommended": false
@@ -129,7 +129,7 @@
               "name": "コールスロー 小箱",
               "price": 10,
               "kind": "food",
-              "description": "刻みキャベツの惣菜。",
+              "description": "刻みキャベツの惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-1-item-8",
               "recommended": false
@@ -147,7 +147,7 @@
               "name": "豆の煮込み 小箱",
               "price": 15,
               "kind": "food",
-              "description": "豆を柔らかく煮る。",
+              "description": "柔らかく煮た豆と煮汁を合わせて正味六オンス（約170g）。持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-1-item-10",
               "recommended": false
@@ -156,7 +156,7 @@
               "name": "冷製ハム 小包み",
               "price": 20,
               "kind": "goods",
-              "description": "持ち帰り用のハム。",
+              "description": "調理済みの冷たいハムを四分の一ポンド（約113g）切り分け、紙で包む。",
               "recommendationGroup": "goods",
               "id": "delicatessen-america-1920s-1-item-11",
               "recommended": false
@@ -357,7 +357,7 @@
               "name": "ポテトサラダ 小箱",
               "price": 10,
               "kind": "food",
-              "description": "じゃがいもを和える。",
+              "description": "じゃがいもを和えた惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-2-item-7",
               "recommended": false
@@ -366,7 +366,7 @@
               "name": "コールスロー 小箱",
               "price": 10,
               "kind": "food",
-              "description": "刻みキャベツの惣菜。",
+              "description": "刻みキャベツの惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-2-item-8",
               "recommended": false
@@ -384,7 +384,7 @@
               "name": "豆の煮込み 小箱",
               "price": 15,
               "kind": "food",
-              "description": "豆を柔らかく煮る。",
+              "description": "柔らかく煮た豆と煮汁を合わせて正味六オンス（約170g）。持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-2-item-10",
               "recommended": false
@@ -393,7 +393,7 @@
               "name": "冷製ハム 小包み",
               "price": 20,
               "kind": "goods",
-              "description": "持ち帰り用のハム。",
+              "description": "調理済みの冷たいハムを四分の一ポンド（約113g）切り分け、紙で包む。",
               "recommendationGroup": "goods",
               "id": "delicatessen-america-1920s-2-item-11",
               "recommended": false
@@ -594,7 +594,7 @@
               "name": "ポテトサラダ 小箱",
               "price": 10,
               "kind": "food",
-              "description": "じゃがいもを和える。",
+              "description": "じゃがいもを和えた惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-3-item-7",
               "recommended": false
@@ -603,7 +603,7 @@
               "name": "コールスロー 小箱",
               "price": 10,
               "kind": "food",
-              "description": "刻みキャベツの惣菜。",
+              "description": "刻みキャベツの惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-3-item-8",
               "recommended": false
@@ -621,7 +621,7 @@
               "name": "豆の煮込み 小箱",
               "price": 15,
               "kind": "food",
-              "description": "豆を柔らかく煮る。",
+              "description": "柔らかく煮た豆と煮汁を合わせて正味六オンス（約170g）。持ち帰り用小箱一個。",
               "recommendationGroup": "side",
               "id": "delicatessen-america-1920s-3-item-10",
               "recommended": false
@@ -630,7 +630,7 @@
               "name": "冷製ハム 小包み",
               "price": 20,
               "kind": "goods",
-              "description": "持ち帰り用のハム。",
+              "description": "調理済みの冷たいハムを四分の一ポンド（約113g）切り分け、紙で包む。",
               "recommendationGroup": "goods",
               "id": "delicatessen-america-1920s-3-item-11",
               "recommended": false

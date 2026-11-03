@@ -49,7 +49,7 @@ test('歴史店舗120店は舞台年・通貨・固有の名物と情景を持�
   assert.doesNotMatch(JSON.stringify(shop),/スマートフォン|スマホ|QRコード|Wi-?Fi|USB|キャッシュレス|電子マネー|タッチパネル|オンライン注文/i,shop.id);
   assert.ok(shop.priceNote?.includes('架空価格'));
  }
- assert.equal(count,2541);
+ assert.equal(count,2547);
 });
 
 test('舞台・店名・名物から該当店舗へ到達し、歴史店舗の共有URLを解釈できる',()=>{

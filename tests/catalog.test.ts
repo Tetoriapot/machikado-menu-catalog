@@ -5,8 +5,8 @@ import { defaultFilters,matchesFilters,sample,readIds,remember,menuText,gmText,p
 import type { Category,Shop,ShopSummary } from '../src/data/types.ts';
 const index=JSON.parse(readFileSync('src/data/generated-index.json','utf8')) as {categories:Category[];shops:ShopSummary[];itemCount:number};
 const allShops:Shop[]=readdirSync('src/data/shops').filter(f=>f.endsWith('.json')).flatMap(file=>JSON.parse(readFileSync(`src/data/shops/${file}`,'utf8')).shops);
-test('76カテゴリ・315店舗・6,652商品が揃い、現代の195店舗も保持する',()=>{
- assert.equal(index.categories.length,76);assert.equal(allShops.length,315);assert.equal(index.itemCount,6652);
+test('76カテゴリ・315店舗・6,658商品が揃い、現代の195店舗も保持する',()=>{
+ assert.equal(index.categories.length,76);assert.equal(allShops.length,315);assert.equal(index.itemCount,6658);
  const modern=allShops.filter(s=>s.era==='modern');assert.equal(modern.length,195);assert.equal(new Set(modern.map(s=>s.category)).size,65);
  for(const category of new Set(modern.map(s=>s.category)))assert.equal(modern.filter(s=>s.category===category).length,3,category);
  for(const shop of allShops)assert.ok(shop.menuSections.flatMap(section=>section.items).length>=21,shop.id);

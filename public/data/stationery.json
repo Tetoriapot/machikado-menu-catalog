@@ -772,7 +772,7 @@
               "name": "黒インク 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "書きもの用の黒い液。",
+              "description": "書きもの用の黒い液。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-1-item-3",
               "recommended": false
@@ -799,7 +799,7 @@
               "name": "赤インク 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "赤い文字を書くインク。",
+              "description": "赤い文字を書くインク。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-1-item-6",
               "recommended": false
@@ -928,7 +928,7 @@
               "name": "糊の小瓶",
               "price": 3,
               "kind": "goods",
-              "description": "紙を貼り合わせる糊。",
+              "description": "紙を貼り合わせる糊。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-1-item-17",
               "recommended": false
@@ -1009,7 +1009,7 @@
               "name": "黒インク 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "書きもの用の黒い液。",
+              "description": "書きもの用の黒い液。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-2-item-3",
               "recommended": false
@@ -1036,7 +1036,7 @@
               "name": "赤インク 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "赤い文字を書くインク。",
+              "description": "赤い文字を書くインク。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-2-item-6",
               "recommended": false
@@ -1165,7 +1165,7 @@
               "name": "糊の小瓶",
               "price": 3,
               "kind": "goods",
-              "description": "紙を貼り合わせる糊。",
+              "description": "紙を貼り合わせる糊。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-2-item-17",
               "recommended": false
@@ -1246,7 +1246,7 @@
               "name": "黒インク 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "書きもの用の黒い液。",
+              "description": "書きもの用の黒い液。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-3-item-3",
               "recommended": false
@@ -1273,7 +1273,7 @@
               "name": "赤インク 小瓶",
               "price": 6,
               "kind": "goods",
-              "description": "赤い文字を書くインク。",
+              "description": "赤い文字を書くインク。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-3-item-6",
               "recommended": false
@@ -1402,7 +1402,7 @@
               "name": "糊の小瓶",
               "price": 3,
               "kind": "goods",
-              "description": "紙を貼り合わせる糊。",
+              "description": "紙を貼り合わせる糊。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。",
               "recommendationGroup": "goods",
               "id": "stationery-victorian-3-item-17",
               "recommended": false

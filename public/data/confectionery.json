@@ -51,7 +51,7 @@
               "name": "レモンドロップ 小袋",
               "price": 2,
               "kind": "goods",
-              "description": "レモン風味の硬い飴。",
+              "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-victorian-1-item-1",
               "recommended": false
@@ -60,7 +60,7 @@
               "name": "ペパーミント飴 小袋",
               "price": 2,
               "kind": "goods",
-              "description": "ミントの香る飴。",
+              "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-victorian-1-item-2",
               "recommended": false
@@ -288,7 +288,7 @@
               "name": "レモンドロップ 小袋",
               "price": 2,
               "kind": "goods",
-              "description": "レモン風味の硬い飴。",
+              "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-victorian-2-item-1",
               "recommended": false
@@ -297,7 +297,7 @@
               "name": "ペパーミント飴 小袋",
               "price": 2,
               "kind": "goods",
-              "description": "ミントの香る飴。",
+              "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-victorian-2-item-2",
               "recommended": false
@@ -525,7 +525,7 @@
               "name": "レモンドロップ 小袋",
               "price": 2,
               "kind": "goods",
-              "description": "レモン風味の硬い飴。",
+              "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-victorian-3-item-1",
               "recommended": false
@@ -534,7 +534,7 @@
               "name": "ペパーミント飴 小袋",
               "price": 2,
               "kind": "goods",
-              "description": "ミントの香る飴。",
+              "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-victorian-3-item-2",
               "recommended": false
@@ -762,7 +762,7 @@
               "name": "レモンドロップ 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "レモン風味の硬い飴。",
+              "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-1-item-1",
               "recommended": false
@@ -771,7 +771,7 @@
               "name": "ペパーミント飴 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "ミントの香る飴。",
+              "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-1-item-2",
               "recommended": false
@@ -999,7 +999,7 @@
               "name": "レモンドロップ 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "レモン風味の硬い飴。",
+              "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-2-item-1",
               "recommended": false
@@ -1008,7 +1008,7 @@
               "name": "ペパーミント飴 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "ミントの香る飴。",
+              "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-2-item-2",
               "recommended": false
@@ -1059,7 +1059,7 @@
               "name": "マシュマロの小袋",
               "price": 10,
               "kind": "goods",
-              "description": "柔らかい甘い菓子。",
+              "description": "柔らかい甘い菓子。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-2-signature-2",
               "recommended": true
@@ -1236,7 +1236,7 @@
               "name": "レモンドロップ 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "レモン風味の硬い飴。",
+              "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-3-item-1",
               "recommended": false
@@ -1245,7 +1245,7 @@
               "name": "ペパーミント飴 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "ミントの香る飴。",
+              "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "confectionery-america-1920s-3-item-2",
               "recommended": false

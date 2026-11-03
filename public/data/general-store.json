@@ -728,7 +728,7 @@
       ],
       "description": "1926年のアメリカ・中西部の架空集落を舞台にした食料と日用品の店。近隣の農家が町へ出る日にまとめて訪れる。",
       "openingHours": "9:00〜19:00（日曜は短縮営業）",
-      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。 包装品は説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、米液量パイントは容量で、半米液量パイントは約237mlです。",
       "scene": {
         "interior": "粉の袋と生活道具を並べる長い棚がある。",
         "service": "買い物の紙を見ながら品を一つずつ揃える。",
@@ -769,18 +769,18 @@
             },
             {
               "name": "米 一ポンド",
-              "price": 8,
+              "price": 12,
               "kind": "goods",
-              "description": "袋に量り入れた米。",
+              "description": "米国産の精白米を一ポンド（約454g）量り売り。砕米を混ぜない普通品。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-3",
               "recommended": false
             },
             {
               "name": "乾燥豆 一ポンド",
-              "price": 5,
+              "price": 10,
               "kind": "goods",
-              "description": "煮込み用の乾いた豆。",
+              "description": "煮込み用の小粒の白いんげん豆（ネイビービーンズ）。一ポンド（約454g）を量り売り。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-4",
               "recommended": false
@@ -789,7 +789,7 @@
               "name": "干しぶどう 小袋",
               "price": 10,
               "kind": "goods",
-              "description": "焼き菓子用の干し果実。",
+              "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-5",
               "recommended": false
@@ -798,10 +798,18 @@
               "name": "乾燥りんご 小袋",
               "price": 10,
               "kind": "goods",
-              "description": "乾かしたりんごの袋。",
+              "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-6",
               "recommended": false
+            },
+            {
+              "id": "general-store-america-1920s-1-review-20261103-2",
+              "name": "乾燥マカロニ 半ポンド",
+              "price": 11,
+              "kind": "goods",
+              "description": "乾燥した短い管状のパスタ。正味八オンス（約227g）入り一袋。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -813,7 +821,7 @@
               "name": "ピーナツバター 小瓶",
               "price": 25,
               "kind": "goods",
-              "description": "ナッツをすりつぶす。",
+              "description": "ナッツをすりつぶす。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-signature-2",
               "recommended": true
@@ -822,7 +830,7 @@
               "name": "苺ジャム 小瓶",
               "price": 20,
               "kind": "goods",
-              "description": "苺を煮詰めた瓶詰め。",
+              "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-7",
               "recommended": false
@@ -831,7 +839,7 @@
               "name": "マーマレード 小瓶",
               "price": 20,
               "kind": "goods",
-              "description": "柑橘の皮入りのジャム。",
+              "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-8",
               "recommended": false
@@ -840,7 +848,7 @@
               "name": "からし粉 小缶",
               "price": 10,
               "kind": "goods",
-              "description": "水で練るからしの粉。",
+              "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-9",
               "recommended": false
@@ -849,7 +857,7 @@
               "name": "食卓塩 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "料理に使う塩の袋。",
+              "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-10",
               "recommended": false
@@ -858,7 +866,7 @@
               "name": "糖蜜 小壺",
               "price": 10,
               "kind": "goods",
-              "description": "甘い糖蜜を壺に。",
+              "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-11",
               "recommended": false
@@ -867,10 +875,18 @@
               "name": "酢 小瓶",
               "price": 10,
               "kind": "goods",
-              "description": "料理に使う酢の瓶。",
+              "description": "料理に使う酢の瓶。 半米液量パイント（約237ml）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-12",
               "recommended": false
+            },
+            {
+              "id": "general-store-america-1920s-1-review-20261103-1",
+              "name": "白砂糖 一ポンド",
+              "price": 7,
+              "kind": "goods",
+              "description": "菓子や保存食に使うグラニュー糖。約454gを量り、紙袋に入れる。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -891,7 +907,7 @@
               "name": "紅茶 茶葉小袋",
               "price": 25,
               "kind": "goods",
-              "description": "普段飲みの紅茶葉。",
+              "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-13",
               "recommended": false
@@ -900,7 +916,7 @@
               "name": "珈琲豆 小袋",
               "price": 30,
               "kind": "goods",
-              "description": "焙じた珈琲豆の袋。",
+              "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-14",
               "recommended": false
@@ -909,7 +925,7 @@
               "name": "ココア 小缶",
               "price": 25,
               "kind": "goods",
-              "description": "飲料用のココア粉。",
+              "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-1-item-15",
               "recommended": false
@@ -965,7 +981,7 @@
       ],
       "description": "1926年のアメリカ・中西部の架空町を舞台にした駅の近くの補給品店。鉄道の仕事をする人が補給品を買いに来る。",
       "openingHours": "9:00〜19:00（日曜は短縮営業）",
-      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。 包装品は説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、米液量パイントは容量で、半米液量パイントは約237mlです。",
       "scene": {
         "interior": "木箱と缶詰を入口近くに積み上げる。",
         "service": "荷物になる重さを確かめて箱に詰める。",
@@ -981,7 +997,7 @@
               "name": "缶入りクラッカー",
               "price": 20,
               "kind": "goods",
-              "description": "缶に入った薄焼き菓子。",
+              "description": "缶に入った薄焼き菓子。 正味半ポンド（約227g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-signature-1",
               "recommended": true
@@ -1006,18 +1022,18 @@
             },
             {
               "name": "米 一ポンド",
-              "price": 8,
+              "price": 12,
               "kind": "goods",
-              "description": "袋に量り入れた米。",
+              "description": "米国産の精白米を一ポンド（約454g）量り売り。砕米を混ぜない普通品。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-3",
               "recommended": false
             },
             {
               "name": "乾燥豆 一ポンド",
-              "price": 5,
+              "price": 10,
               "kind": "goods",
-              "description": "煮込み用の乾いた豆。",
+              "description": "煮込み用の小粒の白いんげん豆（ネイビービーンズ）。一ポンド（約454g）を量り売り。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-4",
               "recommended": false
@@ -1026,7 +1042,7 @@
               "name": "干しぶどう 小袋",
               "price": 10,
               "kind": "goods",
-              "description": "焼き菓子用の干し果実。",
+              "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-5",
               "recommended": false
@@ -1035,10 +1051,18 @@
               "name": "乾燥りんご 小袋",
               "price": 10,
               "kind": "goods",
-              "description": "乾かしたりんごの袋。",
+              "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-6",
               "recommended": false
+            },
+            {
+              "id": "general-store-america-1920s-2-review-20261103-2",
+              "name": "煮豆のNo.2缶",
+              "price": 12,
+              "kind": "goods",
+              "description": "煮た白いんげん豆とソースを合わせた正味一ポンド四オンス（約567g）の缶一個。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -1050,7 +1074,7 @@
               "name": "トマトの缶詰",
               "price": 15,
               "kind": "goods",
-              "description": "料理用の保存食品。",
+              "description": "料理用の保存食品。 正味一ポンド四オンス（約567g）のNo.2缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-signature-2",
               "recommended": true
@@ -1059,7 +1083,7 @@
               "name": "苺ジャム 小瓶",
               "price": 20,
               "kind": "goods",
-              "description": "苺を煮詰めた瓶詰め。",
+              "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-7",
               "recommended": false
@@ -1068,7 +1092,7 @@
               "name": "マーマレード 小瓶",
               "price": 20,
               "kind": "goods",
-              "description": "柑橘の皮入りのジャム。",
+              "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-8",
               "recommended": false
@@ -1077,7 +1101,7 @@
               "name": "からし粉 小缶",
               "price": 10,
               "kind": "goods",
-              "description": "水で練るからしの粉。",
+              "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-9",
               "recommended": false
@@ -1086,7 +1110,7 @@
               "name": "食卓塩 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "料理に使う塩の袋。",
+              "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-10",
               "recommended": false
@@ -1095,7 +1119,7 @@
               "name": "糖蜜 小壺",
               "price": 10,
               "kind": "goods",
-              "description": "甘い糖蜜を壺に。",
+              "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-11",
               "recommended": false
@@ -1104,10 +1128,18 @@
               "name": "酢 小瓶",
               "price": 10,
               "kind": "goods",
-              "description": "料理に使う酢の瓶。",
+              "description": "料理に使う酢の瓶。 半米液量パイント（約237ml）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-12",
               "recommended": false
+            },
+            {
+              "id": "general-store-america-1920s-2-review-20261103-1",
+              "name": "無糖の濃縮乳 十六オンス缶",
+              "price": 12,
+              "kind": "goods",
+              "description": "砂糖を加えず水分を減らした牛乳。正味十六重量オンス（約454g）の缶一個。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -1128,7 +1160,7 @@
               "name": "紅茶 茶葉小袋",
               "price": 25,
               "kind": "goods",
-              "description": "普段飲みの紅茶葉。",
+              "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-13",
               "recommended": false
@@ -1137,7 +1169,7 @@
               "name": "珈琲豆 小袋",
               "price": 30,
               "kind": "goods",
-              "description": "焙じた珈琲豆の袋。",
+              "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-14",
               "recommended": false
@@ -1146,7 +1178,7 @@
               "name": "ココア 小缶",
               "price": 25,
               "kind": "goods",
-              "description": "飲料用のココア粉。",
+              "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-2-item-15",
               "recommended": false
@@ -1202,7 +1234,7 @@
       ],
       "description": "1926年のアメリカ・湖畔の架空集落を舞台にした湖の暮らしの雑貨店。町の住民と湖を訪れた旅人が交じる。",
       "openingHours": "9:00〜19:00（日曜は短縮営業）",
-      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。",
+      "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。 包装品は説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、米液量パイントは容量で、半米液量パイントは約237mlです。",
       "scene": {
         "interior": "窓から湖を望む店に瓶と道具の棚がある。",
         "service": "小分けの量を確認し、紙袋に名前を書く。",
@@ -1218,7 +1250,7 @@
               "name": "乾燥プルーン 小袋",
               "price": 15,
               "kind": "goods",
-              "description": "干した果実を袋に。",
+              "description": "干した果実を袋に。 四分の三ポンド（約340g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-signature-1",
               "recommended": true
@@ -1243,18 +1275,18 @@
             },
             {
               "name": "米 一ポンド",
-              "price": 8,
+              "price": 12,
               "kind": "goods",
-              "description": "袋に量り入れた米。",
+              "description": "米国産の精白米を一ポンド（約454g）量り売り。砕米を混ぜない普通品。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-3",
               "recommended": false
             },
             {
               "name": "乾燥豆 一ポンド",
-              "price": 5,
+              "price": 10,
               "kind": "goods",
-              "description": "煮込み用の乾いた豆。",
+              "description": "煮込み用の小粒の白いんげん豆（ネイビービーンズ）。一ポンド（約454g）を量り売り。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-4",
               "recommended": false
@@ -1263,7 +1295,7 @@
               "name": "干しぶどう 小袋",
               "price": 10,
               "kind": "goods",
-              "description": "焼き菓子用の干し果実。",
+              "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-5",
               "recommended": false
@@ -1272,10 +1304,18 @@
               "name": "乾燥りんご 小袋",
               "price": 10,
               "kind": "goods",
-              "description": "乾かしたりんごの袋。",
+              "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-6",
               "recommended": false
+            },
+            {
+              "id": "general-store-america-1920s-3-review-20261103-1",
+              "name": "朝食用コーンフレーク 八オンス箱",
+              "price": 11,
+              "kind": "goods",
+              "description": "とうもろこしの薄片を焼いた朝食用食品。正味八オンス（約227g）の箱一個。牛乳は別売り。",
+              "recommendationGroup": "goods"
             }
           ]
         },
@@ -1287,7 +1327,7 @@
               "name": "桃の瓶詰め",
               "price": 30,
               "kind": "goods",
-              "description": "甘く煮た桃の瓶詰め。",
+              "description": "甘く煮た桃の瓶詰め。 果肉とシロップを合わせた正味一ポンド（約454g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-signature-2",
               "recommended": true
@@ -1296,7 +1336,7 @@
               "name": "苺ジャム 小瓶",
               "price": 20,
               "kind": "goods",
-              "description": "苺を煮詰めた瓶詰め。",
+              "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-7",
               "recommended": false
@@ -1305,7 +1345,7 @@
               "name": "マーマレード 小瓶",
               "price": 20,
               "kind": "goods",
-              "description": "柑橘の皮入りのジャム。",
+              "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-8",
               "recommended": false
@@ -1314,7 +1354,7 @@
               "name": "からし粉 小缶",
               "price": 10,
               "kind": "goods",
-              "description": "水で練るからしの粉。",
+              "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-9",
               "recommended": false
@@ -1323,7 +1363,7 @@
               "name": "食卓塩 小袋",
               "price": 5,
               "kind": "goods",
-              "description": "料理に使う塩の袋。",
+              "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-10",
               "recommended": false
@@ -1332,7 +1372,7 @@
               "name": "糖蜜 小壺",
               "price": 10,
               "kind": "goods",
-              "description": "甘い糖蜜を壺に。",
+              "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-11",
               "recommended": false
@@ -1341,7 +1381,7 @@
               "name": "酢 小瓶",
               "price": 10,
               "kind": "goods",
-              "description": "料理に使う酢の瓶。",
+              "description": "料理に使う酢の瓶。 半米液量パイント（約237ml）の瓶一本。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-12",
               "recommended": false
@@ -1365,7 +1405,7 @@
               "name": "紅茶 茶葉小袋",
               "price": 25,
               "kind": "goods",
-              "description": "普段飲みの紅茶葉。",
+              "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-13",
               "recommended": false
@@ -1374,7 +1414,7 @@
               "name": "珈琲豆 小袋",
               "price": 30,
               "kind": "goods",
-              "description": "焙じた珈琲豆の袋。",
+              "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-14",
               "recommended": false
@@ -1383,7 +1423,7 @@
               "name": "ココア 小缶",
               "price": 25,
               "kind": "goods",
-              "description": "飲料用のココア粉。",
+              "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。",
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-15",
               "recommended": false
@@ -1414,6 +1454,14 @@
               "recommendationGroup": "goods",
               "id": "general-store-america-1920s-3-item-18",
               "recommended": false
+            },
+            {
+              "id": "general-store-america-1920s-3-review-20261103-2",
+              "name": "購入した珈琲豆の挽き分け",
+              "price": 0,
+              "kind": "service",
+              "description": "この店で購入した珈琲豆を一袋ごとに、粗挽きか細挽きにする。豆の代金は別、挽く作業の追加料金は不要。",
+              "recommendationGroup": "service"
             }
           ]
         }

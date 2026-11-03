@@ -1,0 +1,1406 @@
+{
+  "date": "2026-11-03",
+  "baselineCommit": "e83f2b3a4092dcf077274b660c566005bde824ab",
+  "before": {
+    "shops": 315,
+    "items": 6652
+  },
+  "after": {
+    "shops": 315,
+    "items": 6658
+  },
+  "baselineItemIdsSha256": "976b6f48cde27e2f416c2bec83b47d5b18d2f7b81f48b4ab8d032dfe757f2b29",
+  "baselineShopIdsSha256": "54343faff3deb2d1f92d18bb0871357e3be41216dac2fe4113e3e012e3c3939e",
+  "summary": {
+    "editedItems": 81,
+    "priceChanges": 6,
+    "addedItems": 6,
+    "editedShops": 18
+  },
+  "byEra": {
+    "modern": {
+      "shops": 195,
+      "items": 4111
+    },
+    "showa": {
+      "shops": 30,
+      "items": 636
+    },
+    "victorian": {
+      "shops": 30,
+      "items": 636
+    },
+    "america-1920s": {
+      "shops": 30,
+      "items": 639
+    },
+    "heisei": {
+      "shops": 30,
+      "items": 636
+    }
+  },
+  "sources": [
+    {
+      "id": "bls-445-1926",
+      "title": "U.S. Bureau of Labor Statistics, Retail Prices 1890 to 1926, Bulletin 445",
+      "url": "https://fraser.stlouisfed.org/docs/publications/bls/bls_0445_1927.pdf",
+      "catalogUrl": "https://fraser.stlouisfed.org/title/retail-prices-161/retail-prices-1890-1926-5367",
+      "accessed": "2026-11-03",
+      "published": "1927-08",
+      "period": "1926",
+      "pages": [
+        5,
+        30,
+        31,
+        32,
+        33,
+        34,
+        52,
+        53,
+        59,
+        60,
+        61
+      ],
+      "printedPages": [
+        1,
+        26,
+        27,
+        28,
+        29,
+        30,
+        48,
+        49,
+        55,
+        56,
+        57
+      ],
+      "sha256": "4e27503b0e6528024558921f3e0d1f27f2085416ddf70e1cd48ba8fd785b0376",
+      "type": "primary-statistics",
+      "observed": "各月15日の実売価格を約1,800店舗から調査。表10〜12の1926年全国年平均を原表画像で確認。単位はセント。小麦粉6.0、コーンミール5.1、米11.6、ネイビービーンズ9.3、砂糖6.9、珈琲51.0、茶76.7、プルーン17.0、干しぶどう14.7、マカロニ20.2は各1ポンド。無糖濃縮乳11.5/15〜16オンス缶、コーンフレーク10.9/8オンス箱、煮豆11.9/No.2缶、トマト12.1/No.2缶。No.2缶は1ポンド4オンス。",
+      "limits": "全国の都市小売統計。架空の中西部集落・町の実売価格や調理済みデリ・映画館売店の料金ではない。1927年公表だが比較した行は1926年。小袋の架空仕様・整数への丸めを史料記載値と区別する。"
+    }
+  ],
+  "checks": [
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemIds": [
+        "general-store-america-1920s-1-signature-1",
+        "general-store-america-1920s-1-item-1",
+        "general-store-america-1920s-1-item-5",
+        "general-store-america-1920s-1-item-13",
+        "general-store-america-1920s-1-item-14"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "reason": "1926年全国平均の単位を揃えて比較。小麦粉6.0・コーンミール5.1・珈琲51.0・茶76.7・干しぶどう14.7・プルーン17.0セント/ポンド、トマト12.1セント/No.2缶。小包装や店舗差を踏まえて既存価格を維持。燕麦の粒は圧扁燕麦の統計とは同一商品ではないため価格比較から除外。"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemIds": [
+        "general-store-america-1920s-2-item-1",
+        "general-store-america-1920s-2-item-5",
+        "general-store-america-1920s-2-signature-2",
+        "general-store-america-1920s-2-item-13",
+        "general-store-america-1920s-2-item-14"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "reason": "1926年全国平均の単位を揃えて比較。小麦粉6.0・コーンミール5.1・珈琲51.0・茶76.7・干しぶどう14.7・プルーン17.0セント/ポンド、トマト12.1セント/No.2缶。小包装や店舗差を踏まえて既存価格を維持。燕麦の粒は圧扁燕麦の統計とは同一商品ではないため価格比較から除外。"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemIds": [
+        "general-store-america-1920s-3-signature-1",
+        "general-store-america-1920s-3-item-1",
+        "general-store-america-1920s-3-item-5",
+        "general-store-america-1920s-3-item-13",
+        "general-store-america-1920s-3-item-14"
+      ],
+      "decision": "price-retained",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "reason": "1926年全国平均の単位を揃えて比較。小麦粉6.0・コーンミール5.1・珈琲51.0・茶76.7・干しぶどう14.7・プルーン17.0セント/ポンド、トマト12.1セント/No.2缶。小包装や店舗差を踏まえて既存価格を維持。燕麦の粒は圧扁燕麦の統計とは同一商品ではないため価格比較から除外。"
+    }
+  ],
+  "sourceRegister": "docs/catalog-review.md",
+  "scope": "全件構造走査。米国雑貨店の一部食料を1926年の一次統計と照合。残り60件の小包装候補と、雑貨店の缶・瓶3件、デリの小箱・小包み12件は数量を定義。菓子・文具・映画館・デリの価格史料照合は未完了。現代・平成・昭和の価格は今回再照合していない。",
+  "remainingCandidates": [],
+  "unverified": [
+    {
+      "groups": [
+        "victorian/confectionery",
+        "victorian/stationery",
+        "america-1920s/confectionery",
+        "america-1920s/cinema",
+        "america-1920s/delicatessen"
+      ],
+      "reason": "設定年の数量付き小売価格を直接確認できていない。英国菓子店の1909年資料は1890年に転用しない。1890年のClarke, Nickolls & Coombs価格表は所在の候補のみで原本未閲覧。"
+    },
+    {
+      "groups": [
+        "america-1920s/general-store"
+      ],
+      "reason": "ジャム、からし粉、糖蜜、酢、ココア、ピーナツバター等の同年同量価格は未照合。燕麦の粒と圧扁燕麦を混同しない。"
+    }
+  ],
+  "nextTargets": [
+    "現代の通常卵・肉・昼食：未照合の店種から同数量・品質の公式資料を確認",
+    "昭和の飲食店：1968年のメニュー・広告、ビールの一次統計",
+    "1890年の菓子・文具と1926年のデリ・映画館：数量付き価格の一次資料",
+    "直近確認の現代米・牛乳・おにぎりの改定、次に古い部分照合から再確認"
+  ],
+  "changes": [
+    {
+      "shopId": "cinema-america-1920s-1",
+      "itemId": "cinema-america-1920s-1-item-5",
+      "before": {
+        "description": "殻をむいたナッツ。"
+      },
+      "after": {
+        "description": "殻をむいたピーナツを正味二オンス（約57g）詰めた一袋。"
+      },
+      "reason": "売店の一袋を定義。1926年の映画館売店の直接価格は未確認で、価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "cinema-america-1920s-2",
+      "itemId": "cinema-america-1920s-2-item-5",
+      "before": {
+        "description": "殻をむいたナッツ。"
+      },
+      "after": {
+        "description": "殻をむいたピーナツを正味二オンス（約57g）詰めた一袋。"
+      },
+      "reason": "売店の一袋を定義。1926年の映画館売店の直接価格は未確認で、価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "cinema-america-1920s-3",
+      "itemId": "cinema-america-1920s-3-item-5",
+      "before": {
+        "description": "殻をむいたナッツ。"
+      },
+      "after": {
+        "description": "殻をむいたピーナツを正味二オンス（約57g）詰めた一袋。"
+      },
+      "reason": "売店の一袋を定義。1926年の映画館売店の直接価格は未確認で、価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-victorian-1",
+      "itemId": "confectionery-victorian-1-item-1",
+      "before": {
+        "description": "レモン風味の硬い飴。"
+      },
+      "after": {
+        "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-victorian-1",
+      "itemId": "confectionery-victorian-1-item-2",
+      "before": {
+        "description": "ミントの香る飴。"
+      },
+      "after": {
+        "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-victorian-2",
+      "itemId": "confectionery-victorian-2-item-1",
+      "before": {
+        "description": "レモン風味の硬い飴。"
+      },
+      "after": {
+        "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-victorian-2",
+      "itemId": "confectionery-victorian-2-item-2",
+      "before": {
+        "description": "ミントの香る飴。"
+      },
+      "after": {
+        "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-victorian-3",
+      "itemId": "confectionery-victorian-3-item-1",
+      "before": {
+        "description": "レモン風味の硬い飴。"
+      },
+      "after": {
+        "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-victorian-3",
+      "itemId": "confectionery-victorian-3-item-2",
+      "before": {
+        "description": "ミントの香る飴。"
+      },
+      "after": {
+        "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-1",
+      "itemId": "confectionery-america-1920s-1-item-1",
+      "before": {
+        "description": "レモン風味の硬い飴。"
+      },
+      "after": {
+        "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-1",
+      "itemId": "confectionery-america-1920s-1-item-2",
+      "before": {
+        "description": "ミントの香る飴。"
+      },
+      "after": {
+        "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-2",
+      "itemId": "confectionery-america-1920s-2-item-1",
+      "before": {
+        "description": "レモン風味の硬い飴。"
+      },
+      "after": {
+        "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-2",
+      "itemId": "confectionery-america-1920s-2-item-2",
+      "before": {
+        "description": "ミントの香る飴。"
+      },
+      "after": {
+        "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-2",
+      "itemId": "confectionery-america-1920s-2-signature-2",
+      "before": {
+        "description": "柔らかい甘い菓子。"
+      },
+      "after": {
+        "description": "柔らかい甘い菓子。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-3",
+      "itemId": "confectionery-america-1920s-3-item-1",
+      "before": {
+        "description": "レモン風味の硬い飴。"
+      },
+      "after": {
+        "description": "レモン風味の硬い飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "confectionery-america-1920s-3",
+      "itemId": "confectionery-america-1920s-3-item-2",
+      "before": {
+        "description": "ミントの香る飴。"
+      },
+      "after": {
+        "description": "ミントの香る飴。 正味二オンス（約57g）入り一袋。"
+      },
+      "reason": "小袋の正味量を創作上の仕様として定義。設定年の小売広告との直接照合は未完了のため価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-1",
+      "itemId": "delicatessen-america-1920s-1-item-7",
+      "before": {
+        "description": "じゃがいもを和える。"
+      },
+      "after": {
+        "description": "じゃがいもを和えた惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-1",
+      "itemId": "delicatessen-america-1920s-1-item-8",
+      "before": {
+        "description": "刻みキャベツの惣菜。"
+      },
+      "after": {
+        "description": "刻みキャベツの惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-1",
+      "itemId": "delicatessen-america-1920s-1-item-10",
+      "before": {
+        "description": "豆を柔らかく煮る。"
+      },
+      "after": {
+        "description": "柔らかく煮た豆と煮汁を合わせて正味六オンス（約170g）。持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-1",
+      "itemId": "delicatessen-america-1920s-1-item-11",
+      "before": {
+        "description": "持ち帰り用のハム。"
+      },
+      "after": {
+        "description": "調理済みの冷たいハムを四分の一ポンド（約113g）切り分け、紙で包む。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-2",
+      "itemId": "delicatessen-america-1920s-2-item-7",
+      "before": {
+        "description": "じゃがいもを和える。"
+      },
+      "after": {
+        "description": "じゃがいもを和えた惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-2",
+      "itemId": "delicatessen-america-1920s-2-item-8",
+      "before": {
+        "description": "刻みキャベツの惣菜。"
+      },
+      "after": {
+        "description": "刻みキャベツの惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-2",
+      "itemId": "delicatessen-america-1920s-2-item-10",
+      "before": {
+        "description": "豆を柔らかく煮る。"
+      },
+      "after": {
+        "description": "柔らかく煮た豆と煮汁を合わせて正味六オンス（約170g）。持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-2",
+      "itemId": "delicatessen-america-1920s-2-item-11",
+      "before": {
+        "description": "持ち帰り用のハム。"
+      },
+      "after": {
+        "description": "調理済みの冷たいハムを四分の一ポンド（約113g）切り分け、紙で包む。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-3",
+      "itemId": "delicatessen-america-1920s-3-item-7",
+      "before": {
+        "description": "じゃがいもを和える。"
+      },
+      "after": {
+        "description": "じゃがいもを和えた惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-3",
+      "itemId": "delicatessen-america-1920s-3-item-8",
+      "before": {
+        "description": "刻みキャベツの惣菜。"
+      },
+      "after": {
+        "description": "刻みキャベツの惣菜。正味四オンス（約113g）の持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-3",
+      "itemId": "delicatessen-america-1920s-3-item-10",
+      "before": {
+        "description": "豆を柔らかく煮る。"
+      },
+      "after": {
+        "description": "柔らかく煮た豆と煮汁を合わせて正味六オンス（約170g）。持ち帰り用小箱一個。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "delicatessen-america-1920s-3",
+      "itemId": "delicatessen-america-1920s-3-item-11",
+      "before": {
+        "description": "持ち帰り用のハム。"
+      },
+      "after": {
+        "description": "調理済みの冷たいハムを四分の一ポンド（約113g）切り分け、紙で包む。"
+      },
+      "reason": "自動候補に含まれない小箱・小包みも数量を定義。調理済み惣菜を生鮮食品の統計と同一視せず、当時のデリカテッセン価格は未確認として据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-3",
+      "before": {
+        "price": 8,
+        "description": "袋に量り入れた米。"
+      },
+      "after": {
+        "price": 12,
+        "description": "米国産の精白米を一ポンド（約454g）量り売り。砕米を混ぜない普通品。"
+      },
+      "reason": "1926年のBLS全国平均は米11.6セント、ネイビービーンズ9.3セント/ポンド。従来の8・5セントを誤記とは断定せず、品種を明示した普通価格帯の架空店として12・10セントへ見直す。地域別の実売価格を再現したものではない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-4",
+      "before": {
+        "price": 5,
+        "description": "煮込み用の乾いた豆。"
+      },
+      "after": {
+        "price": 10,
+        "description": "煮込み用の小粒の白いんげん豆（ネイビービーンズ）。一ポンド（約454g）を量り売り。"
+      },
+      "reason": "1926年のBLS全国平均は米11.6セント、ネイビービーンズ9.3セント/ポンド。従来の8・5セントを誤記とは断定せず、品種を明示した普通価格帯の架空店として12・10セントへ見直す。地域別の実売価格を再現したものではない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-5",
+      "before": {
+        "description": "焼き菓子用の干し果実。"
+      },
+      "after": {
+        "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-6",
+      "before": {
+        "description": "乾かしたりんごの袋。"
+      },
+      "after": {
+        "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-signature-2",
+      "before": {
+        "description": "ナッツをすりつぶす。"
+      },
+      "after": {
+        "description": "ナッツをすりつぶす。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-7",
+      "before": {
+        "description": "苺を煮詰めた瓶詰め。"
+      },
+      "after": {
+        "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-8",
+      "before": {
+        "description": "柑橘の皮入りのジャム。"
+      },
+      "after": {
+        "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-9",
+      "before": {
+        "description": "水で練るからしの粉。"
+      },
+      "after": {
+        "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-10",
+      "before": {
+        "description": "料理に使う塩の袋。"
+      },
+      "after": {
+        "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-11",
+      "before": {
+        "description": "甘い糖蜜を壺に。"
+      },
+      "after": {
+        "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-12",
+      "before": {
+        "description": "料理に使う酢の瓶。"
+      },
+      "after": {
+        "description": "料理に使う酢の瓶。 半米液量パイント（約237ml）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-13",
+      "before": {
+        "description": "普段飲みの紅茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-14",
+      "before": {
+        "description": "焙じた珈琲豆の袋。"
+      },
+      "after": {
+        "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "itemId": "general-store-america-1920s-1-item-15",
+      "before": {
+        "description": "飲料用のココア粉。"
+      },
+      "after": {
+        "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-signature-1",
+      "before": {
+        "description": "缶に入った薄焼き菓子。"
+      },
+      "after": {
+        "description": "缶に入った薄焼き菓子。 正味半ポンド（約227g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-3",
+      "before": {
+        "price": 8,
+        "description": "袋に量り入れた米。"
+      },
+      "after": {
+        "price": 12,
+        "description": "米国産の精白米を一ポンド（約454g）量り売り。砕米を混ぜない普通品。"
+      },
+      "reason": "1926年のBLS全国平均は米11.6セント、ネイビービーンズ9.3セント/ポンド。従来の8・5セントを誤記とは断定せず、品種を明示した普通価格帯の架空店として12・10セントへ見直す。地域別の実売価格を再現したものではない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-4",
+      "before": {
+        "price": 5,
+        "description": "煮込み用の乾いた豆。"
+      },
+      "after": {
+        "price": 10,
+        "description": "煮込み用の小粒の白いんげん豆（ネイビービーンズ）。一ポンド（約454g）を量り売り。"
+      },
+      "reason": "1926年のBLS全国平均は米11.6セント、ネイビービーンズ9.3セント/ポンド。従来の8・5セントを誤記とは断定せず、品種を明示した普通価格帯の架空店として12・10セントへ見直す。地域別の実売価格を再現したものではない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-5",
+      "before": {
+        "description": "焼き菓子用の干し果実。"
+      },
+      "after": {
+        "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-6",
+      "before": {
+        "description": "乾かしたりんごの袋。"
+      },
+      "after": {
+        "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-signature-2",
+      "before": {
+        "description": "料理用の保存食品。"
+      },
+      "after": {
+        "description": "料理用の保存食品。 正味一ポンド四オンス（約567g）のNo.2缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-7",
+      "before": {
+        "description": "苺を煮詰めた瓶詰め。"
+      },
+      "after": {
+        "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-8",
+      "before": {
+        "description": "柑橘の皮入りのジャム。"
+      },
+      "after": {
+        "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-9",
+      "before": {
+        "description": "水で練るからしの粉。"
+      },
+      "after": {
+        "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-10",
+      "before": {
+        "description": "料理に使う塩の袋。"
+      },
+      "after": {
+        "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-11",
+      "before": {
+        "description": "甘い糖蜜を壺に。"
+      },
+      "after": {
+        "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-12",
+      "before": {
+        "description": "料理に使う酢の瓶。"
+      },
+      "after": {
+        "description": "料理に使う酢の瓶。 半米液量パイント（約237ml）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-13",
+      "before": {
+        "description": "普段飲みの紅茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-14",
+      "before": {
+        "description": "焙じた珈琲豆の袋。"
+      },
+      "after": {
+        "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "itemId": "general-store-america-1920s-2-item-15",
+      "before": {
+        "description": "飲料用のココア粉。"
+      },
+      "after": {
+        "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-signature-1",
+      "before": {
+        "description": "干した果実を袋に。"
+      },
+      "after": {
+        "description": "干した果実を袋に。 四分の三ポンド（約340g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-3",
+      "before": {
+        "price": 8,
+        "description": "袋に量り入れた米。"
+      },
+      "after": {
+        "price": 12,
+        "description": "米国産の精白米を一ポンド（約454g）量り売り。砕米を混ぜない普通品。"
+      },
+      "reason": "1926年のBLS全国平均は米11.6セント、ネイビービーンズ9.3セント/ポンド。従来の8・5セントを誤記とは断定せず、品種を明示した普通価格帯の架空店として12・10セントへ見直す。地域別の実売価格を再現したものではない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-4",
+      "before": {
+        "price": 5,
+        "description": "煮込み用の乾いた豆。"
+      },
+      "after": {
+        "price": 10,
+        "description": "煮込み用の小粒の白いんげん豆（ネイビービーンズ）。一ポンド（約454g）を量り売り。"
+      },
+      "reason": "1926年のBLS全国平均は米11.6セント、ネイビービーンズ9.3セント/ポンド。従来の8・5セントを誤記とは断定せず、品種を明示した普通価格帯の架空店として12・10セントへ見直す。地域別の実売価格を再現したものではない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "reference-based-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-5",
+      "before": {
+        "description": "焼き菓子用の干し果実。"
+      },
+      "after": {
+        "description": "焼き菓子用の干し果実。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-6",
+      "before": {
+        "description": "乾かしたりんごの袋。"
+      },
+      "after": {
+        "description": "乾かしたりんごの袋。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-signature-2",
+      "before": {
+        "description": "甘く煮た桃の瓶詰め。"
+      },
+      "after": {
+        "description": "甘く煮た桃の瓶詰め。 果肉とシロップを合わせた正味一ポンド（約454g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-7",
+      "before": {
+        "description": "苺を煮詰めた瓶詰め。"
+      },
+      "after": {
+        "description": "苺を煮詰めた瓶詰め。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-8",
+      "before": {
+        "description": "柑橘の皮入りのジャム。"
+      },
+      "after": {
+        "description": "柑橘の皮入りのジャム。 正味半ポンド（約227g）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-9",
+      "before": {
+        "description": "水で練るからしの粉。"
+      },
+      "after": {
+        "description": "水で練るからしの粉。 正味一オンス（約28g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-10",
+      "before": {
+        "description": "料理に使う塩の袋。"
+      },
+      "after": {
+        "description": "料理に使う塩の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-11",
+      "before": {
+        "description": "甘い糖蜜を壺に。"
+      },
+      "after": {
+        "description": "甘い糖蜜を壺に。 正味半ポンド（約227g）の壺一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-12",
+      "before": {
+        "description": "料理に使う酢の瓶。"
+      },
+      "after": {
+        "description": "料理に使う酢の瓶。 半米液量パイント（約237ml）の瓶一本。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-13",
+      "before": {
+        "description": "普段飲みの紅茶葉。"
+      },
+      "after": {
+        "description": "普段飲みの紅茶葉。 四分の一ポンド（約113g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-14",
+      "before": {
+        "description": "焙じた珈琲豆の袋。"
+      },
+      "after": {
+        "description": "焙じた珈琲豆の袋。 半ポンド（約227g）入り一袋。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "itemId": "general-store-america-1920s-3-item-15",
+      "before": {
+        "description": "飲料用のココア粉。"
+      },
+      "after": {
+        "description": "飲料用のココア粉。 正味四分の一ポンド（約113g）の缶一個。"
+      },
+      "reason": "販売単位を明確にするため、架空店の包装仕様を定義。トマトのNo.2缶はBLSの規格を参考にした。他の小包装を当時の標準規格とはしない。価格は据え置く。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-1",
+      "itemId": "stationery-victorian-1-item-3",
+      "before": {
+        "description": "書きもの用の黒い液。"
+      },
+      "after": {
+        "description": "書きもの用の黒い液。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-1",
+      "itemId": "stationery-victorian-1-item-6",
+      "before": {
+        "description": "赤い文字を書くインク。"
+      },
+      "after": {
+        "description": "赤い文字を書くインク。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-1",
+      "itemId": "stationery-victorian-1-item-17",
+      "before": {
+        "description": "紙を貼り合わせる糊。"
+      },
+      "after": {
+        "description": "紙を貼り合わせる糊。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-2",
+      "itemId": "stationery-victorian-2-item-3",
+      "before": {
+        "description": "書きもの用の黒い液。"
+      },
+      "after": {
+        "description": "書きもの用の黒い液。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-2",
+      "itemId": "stationery-victorian-2-item-6",
+      "before": {
+        "description": "赤い文字を書くインク。"
+      },
+      "after": {
+        "description": "赤い文字を書くインク。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-2",
+      "itemId": "stationery-victorian-2-item-17",
+      "before": {
+        "description": "紙を貼り合わせる糊。"
+      },
+      "after": {
+        "description": "紙を貼り合わせる糊。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-3",
+      "itemId": "stationery-victorian-3-item-3",
+      "before": {
+        "description": "書きもの用の黒い液。"
+      },
+      "after": {
+        "description": "書きもの用の黒い液。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-3",
+      "itemId": "stationery-victorian-3-item-6",
+      "before": {
+        "description": "赤い文字を書くインク。"
+      },
+      "after": {
+        "description": "赤い文字を書くインク。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    },
+    {
+      "shopId": "stationery-victorian-3",
+      "itemId": "stationery-victorian-3-item-17",
+      "before": {
+        "description": "紙を貼り合わせる糊。"
+      },
+      "after": {
+        "description": "紙を貼り合わせる糊。 内容量は二英液量オンス（約57ml）、瓶一本。容器代を含む。"
+      },
+      "reason": "重量のオンスと区別して液量を定義。1890年のメーカー包装・小売価格を確認したものではなく、既存価格を維持する。",
+      "sources": [],
+      "basis": "quantity-clarification"
+    }
+  ],
+  "shopChanges": [
+    {
+      "shopId": "general-store-america-1920s-1",
+      "before": {
+        "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。 包装品は説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、米液量パイントは容量で、半米液量パイントは約237mlです。"
+      },
+      "reason": "正味量・容器代と米国の液量単位を明記。英国の半パイント約284mlとは区別する。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "before": {
+        "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。 包装品は説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、米液量パイントは容量で、半米液量パイントは約237mlです。"
+      },
+      "reason": "正味量・容器代と米国の液量単位を明記。英国の半パイント約284mlとは区別する。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "before": {
+        "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。"
+      },
+      "after": {
+        "priceNote": "1926年を想定した米ドルの架空価格。$1＝100セント。表示額で会計する卓用設定です。 包装品は説明の正味量で一品。容器代を含みます。ポンド・オンスは重量、米液量パイントは容量で、半米液量パイントは約237mlです。"
+      },
+      "reason": "正味量・容器代と米国の液量単位を明記。英国の半パイント約284mlとは区別する。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    }
+  ],
+  "additions": [
+    {
+      "shopId": "general-store-america-1920s-1",
+      "sectionId": "general-store-america-1920s-1-section-2",
+      "item": {
+        "id": "general-store-america-1920s-1-review-20261103-1",
+        "name": "白砂糖 一ポンド",
+        "price": 7,
+        "kind": "goods",
+        "description": "菓子や保存食に使うグラニュー糖。約454gを量り、紙袋に入れる。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "BLSの1926年平均6.9セント/ポンドを参考に7セントの架空品を追加。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-1",
+      "sectionId": "general-store-america-1920s-1-section-1",
+      "item": {
+        "id": "general-store-america-1920s-1-review-20261103-2",
+        "name": "乾燥マカロニ 半ポンド",
+        "price": 11,
+        "kind": "goods",
+        "description": "乾燥した短い管状のパスタ。正味八オンス（約227g）入り一袋。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "BLSは7〜16オンス包装をポンド換算し、1926年平均20.2セント。半ポンド換算10.1セントを参考に小袋11セントとした。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "sectionId": "general-store-america-1920s-2-section-2",
+      "item": {
+        "id": "general-store-america-1920s-2-review-20261103-1",
+        "name": "無糖の濃縮乳 十六オンス缶",
+        "price": 12,
+        "kind": "goods",
+        "description": "砂糖を加えず水分を減らした牛乳。正味十六重量オンス（約454g）の缶一個。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "BLSの無糖濃縮乳15〜16オンス缶11.5セントを参考に12セント。液量オンスや加糖練乳と区別する。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-2",
+      "sectionId": "general-store-america-1920s-2-section-1",
+      "item": {
+        "id": "general-store-america-1920s-2-review-20261103-2",
+        "name": "煮豆のNo.2缶",
+        "price": 12,
+        "kind": "goods",
+        "description": "煮た白いんげん豆とソースを合わせた正味一ポンド四オンス（約567g）の缶一個。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "BLSのbaked beans、No.2缶の規格と1926年平均11.9セントを参考に12セントの保存食を追加。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "sectionId": "general-store-america-1920s-3-section-1",
+      "item": {
+        "id": "general-store-america-1920s-3-review-20261103-1",
+        "name": "朝食用コーンフレーク 八オンス箱",
+        "price": 11,
+        "kind": "goods",
+        "description": "とうもろこしの薄片を焼いた朝食用食品。正味八オンス（約227g）の箱一個。牛乳は別売り。",
+        "recommendationGroup": "goods"
+      },
+      "reason": "BLSの8オンス箱10.9セントを参考に11セント。ポンド当たりの値として扱わない。",
+      "sources": [
+        "bls-445-1926"
+      ],
+      "basis": "editorial-estimate"
+    },
+    {
+      "shopId": "general-store-america-1920s-3",
+      "sectionId": "general-store-america-1920s-3-section-3",
+      "item": {
+        "id": "general-store-america-1920s-3-review-20261103-2",
+        "name": "購入した珈琲豆の挽き分け",
+        "price": 0,
+        "kind": "service",
+        "description": "この店で購入した珈琲豆を一袋ごとに、粗挽きか細挽きにする。豆の代金は別、挽く作業の追加料金は不要。",
+        "recommendationGroup": "service"
+      },
+      "reason": "豆の販売と作業料金を分けた架空店のサービス。当時の無料サービスの実例を確認したものではない。",
+      "sources": [],
+      "basis": "editorial-estimate"
+    }
+  ],
+  "validation": {
+    "tests": {
+      "passed": 37,
+      "failed": 0
+    },
+    "build": "passed (includes tsc --noEmit)",
+    "audit": {
+      "errors": 0,
+      "candidates": 0
+    },
+    "pagesPaths": [
+      "/",
+      "/machikado-menu-catalog/"
+    ],
+    "lint": {
+      "status": "failed",
+      "diagnostics": 82,
+      "scope": "既存UI・テスト等の指摘。新規処理の指摘は修正。",
+      "baselineDiagnostics": 82,
+      "addedDiagnostics": 0,
+      "comparison": "HEADの一時スナップショットとファイル・規則別件数を比較。一致。"
+    },
+    "ui": {
+      "status": "not-run",
+      "reason": "利用可能なブラウザーなし。Chrome指定は unavailable、native list_apps/list_windows はタイムアウト。各画面幅の確認も未実施。"
+    },
+    "prose": "yomiyasu lintと推敲段落のdiffを実施。未確認範囲を表す否定は保持。"
+  }
+}

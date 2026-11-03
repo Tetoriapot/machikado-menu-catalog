@@ -42,7 +42,7 @@ export function HelpDialog({ open, onOpenChange }: GuideDialogProps) {
           </div></details>
           <details><summary>価格の目安と、セットの会計</summary><div>
             <p>価格は創作向けの目安です。実際の価格例や歴史資料を参考に点検していますが、すべての商品を資料で確認済みではありません。同じ時代でも場所・数量・店の特色によって異なります。</p>
-            <p>時間料金は人数・時間・延長条件、量り売りは重量・容量も確認してください。英国の食料品店ではポンド・オンスは重さ、英パイントは容量を表し、瓶詰めは説明の正味量と容器代の条件で一品を数えます。セットに含まれる品の単品料金は重ねて加算しません。無料の変更や試奏は0円と表示します。</p>
+            <p>時間料金は人数・時間・延長条件、量り売りは重量・容量も確認してください。ポンド・重量オンスは重さ、液量オンス・パイントは容量です。半英パイントは約284ml、半米液量パイントは約237mlで異なります。小袋・瓶詰め・惣菜は説明の正味量と容器代の条件で一品を数えます。セットに含まれる品の単品料金は重ねて加算しません。無料の変更や試奏は0円と表示します。</p>
             <p>選択した合計は各項目を1点ずつ足すため、セットと内訳の単品を両方選ぶと両方が加算されます。セットだけを選ぶか、単品で組み合わせてください。</p>
             <p>商品や価格の見直しは更新履歴でお知らせします。</p>
           </div></details>
@@ -91,7 +91,7 @@ export function ChangelogDialog({ open, onOpenChange }: GuideDialogProps) {
           <ul>{release.changes.map(change => <li key={change}>{change}</li>)}</ul>
         </li>)}</ol>
       </div>
-      <footer className="guide-footer"><span>これまでの改善も、ここから。</span><DialogClose className="button primary">閉じる</DialogClose></footer>
+      <footer className="guide-footer"><span>変更内容を日付順に表示しています。</span><DialogClose className="button primary">閉じる</DialogClose></footer>
     </DialogContent>
   </Dialog>;
 }

@@ -51,7 +51,11 @@ test('巡回検査は通貨・ID・商品分類の破損を検出し、容量未
   const target = items(coffee); target[1].id = target[0].id; target[0].price = -1;
   const codes = auditCatalog(broken).errors.map(e => e.code);
   for (const code of ['currency', 'coffee-kind', 'duplicate-id', 'price']) assert.ok(codes.includes(code), code);
-  assert.ok(clean.candidates.some(c => c.code === 'unspecified-quantity'));
+  assert.equal(clean.candidates.filter(c => c.code === 'unspecified-quantity').length, 0);
+  const ambiguous = structuredClone(shops.find(s => s.id === 'stationery-victorian-1')!);
+  const ink = items(ambiguous).find(i => i.name === '黒インク 小瓶')!;
+  ink.description = '内容量の記載がないインク。';
+  assert.ok(auditCatalog([ambiguous]).candidates.some(c => c.code === 'unspecified-quantity' && c.itemId === ink.id));
   assert.ok(clean.candidates.every(c => !clean.errors.includes(c)));
 });
 
@@ -94,5 +98,28 @@ test('昭和の並酒は量に応じた料金になり、英国食料品店は�
     const doc = menuPlainText(toMenuDocument(shop, { itemIds: [bottle.id] }));
     assert.ok(doc.includes(bottle.description));
     assert.ok(doc.includes('容器代を含みます'));
+  }
+});
+
+
+void test('米英の容量と重量を区別し、無料の挽き分けは豆代を含まず出力・合計できる', () => {
+  const american = shops.find(s => s.id === 'general-store-america-1920s-3')!;
+  const vinegar = items(american).find(i => i.name === '酢 小瓶')!;
+  assert.match(vinegar.description, /半米液量パイント.*237ml/);
+  const inkShop = shops.find(s => s.id === 'stationery-victorian-1')!;
+  const ink = items(inkShop).find(i => i.name === '黒インク 小瓶')!;
+  assert.match(ink.description, /二英液量オンス.*57ml/);
+  const beans = items(american).find(i => i.name === '珈琲豆 小袋')!;
+  const grinding = items(american).find(i => i.name === '購入した珈琲豆の挽き分け')!;
+  assert.equal(grinding.kind, 'service'); assert.equal(grinding.price, 0);
+  assert.match(grinding.description, /豆の代金は別/);
+  assert.ok(!recommendItems(items(american)).some(i => i.id === grinding.id));
+  const doc = toMenuDocument(american, { itemIds: [beans.id, grinding.id] });
+  assert.equal(menuTotal(doc), beans.price);
+  assert.ok(menuPlainText(doc).includes(grinding.description));
+  for (const shop of shops.filter(s => s.category === 'delicatessen' && s.era === 'america-1920s')) {
+    const salad = items(shop).find(i => i.name === 'ポテトサラダ 小箱')!;
+    assert.match(salad.description, /正味四オンス.*113g/);
+    assert.ok(menuPlainText(toMenuDocument(shop, { itemIds: [salad.id] })).includes(salad.description));
   }
 });
